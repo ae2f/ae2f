@@ -106,40 +106,49 @@ $(function(){initNavTree('Ann_8h_source.html',''); initResizable(true); });
   <div class="headertitle"><div class="title">Ann.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef ae2fCL_Ann_h</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define ae2fCL_Ann_h</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;CL/cl.h&gt;</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;ae2f/Call.h&gt;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;ae2f/Cast.h&gt;</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span></div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">enum</span> ae2fCL_eAnnKerns {</div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>    ae2fCL_eAnnKernsSlpMkRand,</div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>    ae2fCL_eAnnKernsSlpPredict,</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>    ae2fCL_eAnnKernsSlpTrain,</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span></div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    ae2fCL_eAnnKerns_LEN</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>};</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span></div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>ae2f_extern ae2f_SHAREDCALL </div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>cl_kernel ae2fCL_AnnKerns[</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    ae2fCL_eAnnKerns_LEN</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>];</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span></div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>ae2f_extern ae2f_SHAREDCALL cl_int ae2fCL_AnnMk(</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    cl_context ctx,</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    cl_uint devCount,</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <span class="keyword">const</span> cl_device_id* devs</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>);</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span></div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>ae2f_extern ae2f_SHAREDCALL cl_int ae2fCL_AnnDel();</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="preprocessor">#endif</span></div>
+<a href="Ann_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#ifndef ae2fCL_Ann_h</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#define ae2fCL_Ann_h</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;CL/cl.h&gt;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;ae2f/Call.h&gt;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;ae2f/Cast.h&gt;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span></div>
+<div class="foldopen" id="foldopen00011" data-start="{" data-end="};">
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="Ann_8h.html#a29a2dbaf94e278f11fd55268d7ec6db6">   11</a></span><span class="keyword">enum</span> <a class="code hl_enumeration" href="Ann_8h.html#a29a2dbaf94e278f11fd55268d7ec6db6">ae2fCL_eAnnKerns</a> {</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>    ae2fCL_eAnnKernsSlpMkRand,</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    ae2fCL_eAnnKernsSlpPredict,</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    ae2fCL_eAnnKernsSlpTrain,</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="Ann_8h.html#a29a2dbaf94e278f11fd55268d7ec6db6aec21ad6b1e0678cf484ca8950e8950c0">   17</a></span>    <a class="code hl_enumvalue" href="Ann_8h.html#a29a2dbaf94e278f11fd55268d7ec6db6aec21ad6b1e0678cf484ca8950e8950c0">ae2fCL_eAnnKerns_LEN</a></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>};</div>
+</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>ae2f_extern ae2f_SHAREDCALL </div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="Ann_8h.html#a62b73962c908cff498bab1f11de32028">   23</a></span>cl_kernel <a class="code hl_variable" href="Ann_8h.html#a62b73962c908cff498bab1f11de32028">ae2fCL_AnnKerns</a>[</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    <a class="code hl_enumvalue" href="Ann_8h.html#a29a2dbaf94e278f11fd55268d7ec6db6aec21ad6b1e0678cf484ca8950e8950c0">ae2fCL_eAnnKerns_LEN</a></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>];</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span></div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="Ann_8h.html#ac305ad29e0406b4f6e279d6a5b0db81e">   32</a></span>ae2f_extern ae2f_SHAREDCALL cl_int <a class="code hl_function" href="Ann_8h.html#ac305ad29e0406b4f6e279d6a5b0db81e">ae2fCL_AnnMk</a>(</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    cl_context ctx,</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    cl_uint devCount,</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    <span class="keyword">const</span> cl_device_id* devs</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>);</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span></div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="Ann_8h.html#a093bee9b6543e279577125c9cb27158d">   40</a></span>ae2f_extern ae2f_SHAREDCALL cl_int <a class="code hl_function" href="Ann_8h.html#a093bee9b6543e279577125c9cb27158d">ae2fCL_AnnDel</a>();</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aAnn_8h_html_a093bee9b6543e279577125c9cb27158d"><div class="ttname"><a href="Ann_8h.html#a093bee9b6543e279577125c9cb27158d">ae2fCL_AnnDel</a></div><div class="ttdeci">ae2f_extern ae2f_SHAREDCALL cl_int ae2fCL_AnnDel()</div></div>
+<div class="ttc" id="aAnn_8h_html_a29a2dbaf94e278f11fd55268d7ec6db6"><div class="ttname"><a href="Ann_8h.html#a29a2dbaf94e278f11fd55268d7ec6db6">ae2fCL_eAnnKerns</a></div><div class="ttdeci">ae2fCL_eAnnKerns</div><div class="ttdef"><b>Definition</b> Ann.h:11</div></div>
+<div class="ttc" id="aAnn_8h_html_a29a2dbaf94e278f11fd55268d7ec6db6aec21ad6b1e0678cf484ca8950e8950c0"><div class="ttname"><a href="Ann_8h.html#a29a2dbaf94e278f11fd55268d7ec6db6aec21ad6b1e0678cf484ca8950e8950c0">ae2fCL_eAnnKerns_LEN</a></div><div class="ttdeci">@ ae2fCL_eAnnKerns_LEN</div><div class="ttdoc">Count refers to.</div><div class="ttdef"><b>Definition</b> Ann.h:17</div></div>
+<div class="ttc" id="aAnn_8h_html_a62b73962c908cff498bab1f11de32028"><div class="ttname"><a href="Ann_8h.html#a62b73962c908cff498bab1f11de32028">ae2fCL_AnnKerns</a></div><div class="ttdeci">ae2f_extern ae2f_SHAREDCALL cl_kernel ae2fCL_AnnKerns[ae2fCL_eAnnKerns_LEN]</div><div class="ttdoc">The vector where kernels are located.</div><div class="ttdef"><b>Definition</b> Ann.h:25</div></div>
+<div class="ttc" id="aAnn_8h_html_ac305ad29e0406b4f6e279d6a5b0db81e"><div class="ttname"><a href="Ann_8h.html#ac305ad29e0406b4f6e279d6a5b0db81e">ae2fCL_AnnMk</a></div><div class="ttdeci">ae2f_extern ae2f_SHAREDCALL cl_int ae2fCL_AnnMk(cl_context ctx, cl_uint devCount, const cl_device_id *devs)</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_f9c61c37275185389c71970f3ed76e78.html">SharedHeaders</a></li><li class="navelem"><a class="el" href="dir_0a3e23d79cc1c6723e1899e14c0178ef.html">ae2fCL</a></li><li class="navelem"><b>Ann.h</b></li>
+    <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_f9c61c37275185389c71970f3ed76e78.html">SharedHeaders</a></li><li class="navelem"><a class="el" href="dir_0a3e23d79cc1c6723e1899e14c0178ef.html">ae2fCL</a></li><li class="navelem"><a class="el" href="Ann_8h.html">Ann.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
   </ul>
 </div>

@@ -6,6 +6,16 @@ var searchData=
   ['ae2f_5fcoreutilitydoctent_3',['ae2f_CoreUtilityDocTent',['../namespace______DOC__CMAKE.html#a4ca437c7dc858a3e0de1302ff6090f09',1,'___DOC_CMAKE']]],
   ['ae2f_5frulermeasure_4',['ae2f_RulerMeasure',['../namespace______DOC__CMAKE.html#a37d8aa982367d2e94c40ee42b2f84a12',1,'___DOC_CMAKE']]],
   ['ae2f_5frulermeasurefromsource_5',['ae2f_RulerMeasureFromSource',['../namespace______DOC__CMAKE.html#a05f7ea2e7d197497131e9c9fbd0da4b4',1,'___DOC_CMAKE']]],
-  ['ae2fcl_5fcoreaddconfprojtardep_6',['ae2fCL_CoreAddConfProjTarDep',['../namespace______DOC__CMAKE.html#a12fcdbd4da10a6c88f27a6786c2ed42d',1,'___DOC_CMAKE']]],
-  ['ae2fcl_5fcoreappendinclude_7',['ae2fCL_CoreAppendInclude',['../namespace______DOC__CMAKE.html#a8b5af69af816261557e4b32d3cd44a5c',1,'___DOC_CMAKE']]]
+  ['ae2fcl_5fanndel_6',['ae2fCL_AnnDel',['../Ann_8h.html#a093bee9b6543e279577125c9cb27158d',1,'Ann.h']]],
+  ['ae2fcl_5fannmk_7',['ae2fCL_AnnMk',['../Ann_8h.html#ac305ad29e0406b4f6e279d6a5b0db81e',1,'Ann.h']]],
+  ['ae2fcl_5fannslpdel_8',['ae2fCL_AnnSlpDel',['../structae2fCL__AnnSlp.html#a672c3bfc2fa87e4d442a744e05bba0ea',1,'ae2fCL_AnnSlp']]],
+  ['ae2fcl_5fannslpmk_9',['ae2fCL_AnnSlpMk',['../structae2fCL__AnnSlp.html#a107a34a543860f2ed23ca93bc2c537e7',1,'ae2fCL_AnnSlp']]],
+  ['ae2fcl_5fannslppredict_10',['ae2fCL_AnnSlpPredict',['../structae2fCL__AnnSlp.html#a36f707de7684358883812981016c231c',1,'ae2fCL_AnnSlp']]],
+  ['ae2fcl_5fannslppredictbuffauto_11',['ae2fCL_AnnSlpPredictBuffAuto',['../structae2fCL__AnnSlp.html#a84736549cd4306825f7453e3199fb47b',1,'ae2fCL_AnnSlp']]],
+  ['ae2fcl_5fannslptrain_12',['ae2fCL_AnnSlpTrain',['../structae2fCL__AnnSlp.html#a33b35df425cc620cacd6b1bd7b795c7c',1,'ae2fCL_AnnSlp']]],
+  ['ae2fcl_5fcoreaddconfprojtardep_13',['ae2fCL_CoreAddConfProjTarDep',['../namespace______DOC__CMAKE.html#a12fcdbd4da10a6c88f27a6786c2ed42d',1,'___DOC_CMAKE']]],
+  ['ae2fcl_5fcoreappendinclude_14',['ae2fCL_CoreAppendInclude',['../namespace______DOC__CMAKE.html#a8b5af69af816261557e4b32d3cd44a5c',1,'___DOC_CMAKE']]],
+  ['ae2fcl_5feannkernsslpmkrand_15',['ae2fCL_eAnnKernsSlpMkRand',['../Slp_8cl_8h.html#a2ed0bec2dfdf4a01145073cf563fe641',1,'Slp.cl.h']]],
+  ['ae2fcl_5feannkernsslppredict_16',['ae2fCL_eAnnKernsSlpPredict',['../Slp_8cl_8h.html#a3a2387510c1f7b861159ff26cfb88472',1,'Slp.cl.h']]],
+  ['ae2fcl_5feannkernsslptrain_17',['ae2fCL_eAnnKernsSlpTrain',['../Slp_8cl_8h.html#a61cea1f1ff57d7ca3a29178d678a4b72',1,'Slp.cl.h']]]
 ];

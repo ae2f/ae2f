@@ -104,13 +104,15 @@ $(function(){initNavTree('structae2fCL__AnnSlp.html',''); initResizable(true); }
 
 <div class="header">
   <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#related">Related Symbols</a> &#124;
 <a href="structae2fCL__AnnSlp-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">ae2fCL_AnnSlp Struct Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="SharedHeaders_2ae2fCL_2Ann_2Slp_8h_source.html">Slp.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="Slp_8h_source.html">Slp.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for ae2fCL_AnnSlp:</div>
 <div class="dyncontent">
@@ -122,6 +124,22 @@ Inheritance diagram for ae2fCL_AnnSlp:</div>
   </map>
 </div></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a107a34a543860f2ed23ca93bc2c537e7" id="r_a107a34a543860f2ed23ca93bc2c537e7"><td class="memItemLeft" align="right" valign="top">ae2f_extern ae2f_SHAREDCALL <a class="el" href="errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a107a34a543860f2ed23ca93bc2c537e7">ae2fCL_AnnSlpMk</a> (ae2f_struct <a class="el" href="structae2fCL__AnnSlp.html">ae2fCL_AnnSlp</a> *_this, const ae2f_float_t *weights_optional, size_t inputsCount, ae2fCL_fpAnnAct_t <a class="el" href="#ad93d93a8dc9bada0aa6f6cc434885b97">mAct</a>, ae2fCL_fpAnnSlpGetLoss_t fpGetLoss, cl_context ctx, cl_command_queue queue, cl_bool blocking_read, cl_uint num_events_in_wait_list, const cl_event *event_wait_list, cl_event *event)</td></tr>
+<tr class="memdesc:a107a34a543860f2ed23ca93bc2c537e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialises the class. <br  />
+The perceptron made by this must pass [ae2fCL_AnnSlpDel] for releasing the resources.  <br /></td></tr>
+<tr class="separator:a107a34a543860f2ed23ca93bc2c537e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a672c3bfc2fa87e4d442a744e05bba0ea" id="r_a672c3bfc2fa87e4d442a744e05bba0ea"><td class="memItemLeft" align="right" valign="top">ae2f_extern ae2f_SHAREDCALL <a class="el" href="errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a672c3bfc2fa87e4d442a744e05bba0ea">ae2fCL_AnnSlpDel</a> (<a class="el" href="structae2fCL__AnnSlp.html">ae2fCL_AnnSlp</a> *_this)</td></tr>
+<tr class="memdesc:a672c3bfc2fa87e4d442a744e05bba0ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Release the resource for [_this].  <br /></td></tr>
+<tr class="separator:a672c3bfc2fa87e4d442a744e05bba0ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36f707de7684358883812981016c231c" id="r_a36f707de7684358883812981016c231c"><td class="memItemLeft" align="right" valign="top">ae2f_extern ae2f_SHAREDCALL <a class="el" href="errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a36f707de7684358883812981016c231c">ae2fCL_AnnSlpPredict</a> (const <a class="el" href="structae2fCL__AnnSlp.html">ae2fCL_AnnSlp</a> *_this, ae2fCL_HostPtr(__global, ae2f_float_t) in, ae2fCL_HostPtr(__global, ae2f_float_t) out_optionalA, uint32_t in_idx, uint32_t out_idx_optionalA, ae2f_float_t *outbuff_optional_, cl_command_queue queue, cl_bool blocking_event, cl_uint num_events_in_wait_list, const cl_event *event_wait_list, cl_event *event, cl_context context_optionalB)</td></tr>
+<tr class="separator:a36f707de7684358883812981016c231c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84736549cd4306825f7453e3199fb47b" id="r_a84736549cd4306825f7453e3199fb47b"><td class="memItemLeft" align="right" valign="top">ae2f_extern ae2f_SHAREDCALL <a class="el" href="errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84736549cd4306825f7453e3199fb47b">ae2fCL_AnnSlpPredictBuffAuto</a> (const <a class="el" href="structae2fCL__AnnSlp.html">ae2fCL_AnnSlp</a> *_this, const ae2f_float_t *in, ae2f_float_t *out, cl_command_queue queue, cl_bool blocking_read, cl_uint num_events_in_wait_list, const cl_event *event_wait_list, cl_event *event, cl_context context)</td></tr>
+<tr class="separator:a84736549cd4306825f7453e3199fb47b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33b35df425cc620cacd6b1bd7b795c7c" id="r_a33b35df425cc620cacd6b1bd7b795c7c"><td class="memItemLeft" align="right" valign="top">ae2f_extern ae2f_SHAREDCALL <a class="el" href="errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33b35df425cc620cacd6b1bd7b795c7c">ae2fCL_AnnSlpTrain</a> (<a class="el" href="structae2fCL__AnnSlp.html">ae2fCL_AnnSlp</a> *_this, ae2fCL_HostPtr(__global, ae2f_float_t) in, ae2fCL_HostPtr(__global, ae2f_float_t) out_optionalA, uint32_t in_idx, uint32_t out_idx_optionalA, ae2f_float_t goal, ae2f_float_t learning_rate, ae2f_float_t *diff_ret_optional, cl_command_queue queue, cl_bool blocking_read, cl_uint num_events_in_wait_list, const cl_event *event_wait_list, cl_event *event, cl_context context_optionalB)</td></tr>
+<tr class="separator:a33b35df425cc620cacd6b1bd7b795c7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a2e2059a2ad75e0bdf41d62119a37f22f" id="r_a2e2059a2ad75e0bdf41d62119a37f22f"><td class="memItemLeft" align="right" valign="top"><a id="a2e2059a2ad75e0bdf41d62119a37f22f" name="a2e2059a2ad75e0bdf41d62119a37f22f"></a>
@@ -146,12 +164,906 @@ ae2fCL_memobj_void_t&#160;</td><td class="memItemRight" valign="bottom"><b>mSelf
 <tr class="memitem:aa59186133cc70707c78b712d9550529e" id="r_aa59186133cc70707c78b712d9550529e"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa59186133cc70707c78b712d9550529e">mgWeightLen</a></td></tr>
 <tr class="memdesc:aa59186133cc70707c78b712d9550529e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Possible count of weights, which means possible count of inputs on prediction.  <br /></td></tr>
 <tr class="separator:aa59186133cc70707c78b712d9550529e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="related" name="related"></a>
+Related Symbols</h2></td></tr>
+<tr><td class="ititle" colspan="2"><p>(Note that these are not member symbols.) </p>
+</td></tr>
+<tr class="memitem:a9abdd2224e234d73805e4d5be0cb32ff" id="r_a9abdd2224e234d73805e4d5be0cb32ff"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9abdd2224e234d73805e4d5be0cb32ff">ae2fCL_AnnSlpWeightCheck</a>(_this,  _out,  queue)</td></tr>
+<tr class="memdesc:a9abdd2224e234d73805e4d5be0cb32ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies all weights to [_out].  <br /></td></tr>
+<tr class="separator:a9abdd2224e234d73805e4d5be0cb32ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaca0b008a41b7f3a079b79118c7c1bb8" id="r_aaca0b008a41b7f3a079b79118c7c1bb8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaca0b008a41b7f3a079b79118c7c1bb8">ae2fCL_AnnSlpPredictA</a>(_this,  in,  out,  in_idx,  out_idx,  outbuff_optional,  queue,  blocking_event,  num_events_in_wait_list,  event_wait_list,  event)</td></tr>
+<tr class="separator:aaca0b008a41b7f3a079b79118c7c1bb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa72a3ab346e178bb6d439b55ecb6f943" id="r_aa72a3ab346e178bb6d439b55ecb6f943"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa72a3ab346e178bb6d439b55ecb6f943">ae2fCL_AnnSlpPredictB</a>(_this,  in,  in_idx,  outbuff_optional,  context,  queue,  blocking_event,  num_events_in_wait_list,  event_wait_list,  event)</td></tr>
+<tr class="separator:aa72a3ab346e178bb6d439b55ecb6f943"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ce9d2ed58c9e2a52dcf735f8d685ce6" id="r_a9ce9d2ed58c9e2a52dcf735f8d685ce6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ce9d2ed58c9e2a52dcf735f8d685ce6">ae2fCL_AnnSlpTrainA</a>(_this,  in,  out,  in_idx,  out_idx,  goal,  learning_rate,  diff_ret_optional,  queue,  blocking_read,  num_events_in_wait_list,  event_wait_list,  event)</td></tr>
+<tr class="separator:a9ce9d2ed58c9e2a52dcf735f8d685ce6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf77275aa914a60a0032c1c99c6200f9" id="r_abf77275aa914a60a0032c1c99c6200f9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf77275aa914a60a0032c1c99c6200f9">ae2fCL_AnnSlpTrainB</a>(_this,  in,  in_idx,  goal,  learning_rate,  diff_ret_optional,  queue,  blocking_read,  num_events_in_wait_list,  event_wait_list,  event,  context)</td></tr>
+<tr class="separator:abf77275aa914a60a0032c1c99c6200f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h1><a class="anchor" id="autotoc_md23"></a>
 Single Layer Perceptron.</h1>
 <p>This will read multiple inputs, generate one output. </p>
-</div><h2 class="groupheader">Member Data Documentation</h2>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a672c3bfc2fa87e4d442a744e05bba0ea" name="a672c3bfc2fa87e4d442a744e05bba0ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a672c3bfc2fa87e4d442a744e05bba0ea">&#9670;&#160;</a></span>ae2fCL_AnnSlpDel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ae2f_extern ae2f_SHAREDCALL <a class="el" href="errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a> ae2fCL_AnnSlpDel </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structae2fCL__AnnSlp.html">ae2fCL_AnnSlp</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Release the resource for [_this]. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">_this</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a107a34a543860f2ed23ca93bc2c537e7" name="a107a34a543860f2ed23ca93bc2c537e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a107a34a543860f2ed23ca93bc2c537e7">&#9670;&#160;</a></span>ae2fCL_AnnSlpMk()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ae2f_extern ae2f_SHAREDCALL <a class="el" href="errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a> ae2fCL_AnnSlpMk </td>
+          <td>(</td>
+          <td class="paramtype">ae2f_struct <a class="el" href="structae2fCL__AnnSlp.html">ae2fCL_AnnSlp</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const ae2f_float_t *</td>          <td class="paramname"><span class="paramname"><em>weights_optional</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>inputsCount</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ae2fCL_fpAnnAct_t</td>          <td class="paramname"><span class="paramname"><em>mAct</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ae2fCL_fpAnnSlpGetLoss_t</td>          <td class="paramname"><span class="paramname"><em>fpGetLoss</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">cl_context</td>          <td class="paramname"><span class="paramname"><em>ctx</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">cl_command_queue</td>          <td class="paramname"><span class="paramname"><em>queue</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">cl_bool</td>          <td class="paramname"><span class="paramname"><em>blocking_read</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">cl_uint</td>          <td class="paramname"><span class="paramname"><em>num_events_in_wait_list</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const cl_event *</td>          <td class="paramname"><span class="paramname"><em>event_wait_list</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">cl_event *</td>          <td class="paramname"><span class="paramname"><em>event</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initialises the class. <br  />
+The perceptron made by this must pass [ae2fCL_AnnSlpDel] for releasing the resources. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">_this</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">weights_optional</td><td>Array of weights in a count of [inputsCount] for [<a class="el" href="#a0b1ef1926e545a04f548994287b38139" title="It is a OpenCL Memory Object allocated alone as.">ae2fCL_AnnSlp::mgWeight</a>]. <br  />
+Passing this argument zero will cause [<a class="el" href="#a0b1ef1926e545a04f548994287b38139" title="It is a OpenCL Memory Object allocated alone as.">ae2fCL_AnnSlp::mgWeight</a>] to be randomised. </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">inputsCount</td><td>Possible weight count. </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">mAct</td><td>Activasion function. </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">fpGetLoss</td><td>Loss calculation. </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">ctx</td><td>OpenCL context for allocating the memory (like memory object). </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">queue</td><td>OpenCL Queue for enquing reading-writing. </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">blocking_read</td><td></td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">num_events_in_wait_list</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">event_wait_list</td><td></td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">event</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a36f707de7684358883812981016c231c" name="a36f707de7684358883812981016c231c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36f707de7684358883812981016c231c">&#9670;&#160;</a></span>ae2fCL_AnnSlpPredict()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ae2f_extern ae2f_SHAREDCALL <a class="el" href="errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a> ae2fCL_AnnSlpPredict </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structae2fCL__AnnSlp.html">ae2fCL_AnnSlp</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ae2fCL_HostPtr(__global, ae2f_float_t)</td>          <td class="paramname"><span class="paramname"><em>in</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ae2fCL_HostPtr(__global, ae2f_float_t)</td>          <td class="paramname"><span class="paramname"><em>out_optionalA</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>in_idx</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>out_idx_optionalA</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ae2f_float_t *</td>          <td class="paramname"><span class="paramname"><em>outbuff_optional_</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">cl_command_queue</td>          <td class="paramname"><span class="paramname"><em>queue</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">cl_bool</td>          <td class="paramname"><span class="paramname"><em>blocking_event</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">cl_uint</td>          <td class="paramname"><span class="paramname"><em>num_events_in_wait_list</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const cl_event *</td>          <td class="paramname"><span class="paramname"><em>event_wait_list</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">cl_event *</td>          <td class="paramname"><span class="paramname"><em>event</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">cl_context</td>          <td class="paramname"><span class="paramname"><em>context_optionalB</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<h1><a class="anchor" id="autotoc_md24"></a>
+Predict the output.</h1>
+<p>Each input has a corresponding weight as a Slp.</p>
+<p>This function will calculate the total sum of the multiplication of each input and corresponding weight. <br  />
+That value with a bias of the model will pass an activasion function, and that will be considered as an output.</p>
+<h1><a class="anchor" id="autotoc_md25"></a>
+There are options laballed.</h1>
+<p>It means when if you see the arguments. <br  />
+Some of the paramaters may be ignored since past parameter fulfilled the particular condition.</p>
+<p>For specified behaviour, see the macros below: </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="#aaca0b008a41b7f3a079b79118c7c1bb8">ae2fCL_AnnSlpPredictA</a> </dd>
+<dd>
+<a class="el" href="#aa72a3ab346e178bb6d439b55ecb6f943">ae2fCL_AnnSlpPredictB</a></dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">_this</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">in</td><td>The input value binded with an OpenCL memory object. <br  />
+If you don't want to make a memory object manually, see [ae2fCL_AnnSlpPredictBuffAuto].</td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">out_optionalA</td><td>Writable memory object to use as a buffer for as length as [ae2f_float_t]. When set to zero, it will allocate the new one. </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">in_idx</td><td>Padding for [in]. </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">out_idx_optionalA</td><td>Paddings for [out_optionalA]. <br  />
+Would not matter a thing when 0 has passed via [out_optionalA].</td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">outbuff_optional_</td><td>The final output for this operation would be stored here. <br  />
+ Passing it zero will not cause undefined behaviour, but this operation's result is going nowhere.</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Its length will be same as [ae2f_float_t]. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir"></td><td class="paramname">queue</td><td></td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">blocking_event</td><td></td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">num_events_in_wait_list</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">event_wait_list</td><td></td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">event</td><td></td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">context_optionalB</td><td>The OpenCL Context in order to allocate the new buffer when needed. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a84736549cd4306825f7453e3199fb47b" name="a84736549cd4306825f7453e3199fb47b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84736549cd4306825f7453e3199fb47b">&#9670;&#160;</a></span>ae2fCL_AnnSlpPredictBuffAuto()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ae2f_extern ae2f_SHAREDCALL <a class="el" href="errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a> ae2fCL_AnnSlpPredictBuffAuto </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structae2fCL__AnnSlp.html">ae2fCL_AnnSlp</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const ae2f_float_t *</td>          <td class="paramname"><span class="paramname"><em>in</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ae2f_float_t *</td>          <td class="paramname"><span class="paramname"><em>out</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">cl_command_queue</td>          <td class="paramname"><span class="paramname"><em>queue</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">cl_bool</td>          <td class="paramname"><span class="paramname"><em>blocking_read</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">cl_uint</td>          <td class="paramname"><span class="paramname"><em>num_events_in_wait_list</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const cl_event *</td>          <td class="paramname"><span class="paramname"><em>event_wait_list</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">cl_event *</td>          <td class="paramname"><span class="paramname"><em>event</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">cl_context</td>          <td class="paramname"><span class="paramname"><em>context</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<h1><a class="anchor" id="autotoc_md30"></a>
+Predict the output.</h1>
+<p>See [ae2fCL_AnnSlpPredict]</p>
+<h1><a class="anchor" id="autotoc_md31"></a>
+Memory Object Auto Allocate</h1>
+<p>It will allocate a memory object automatically for [in]. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir"></td><td class="paramname">_this</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">in</td><td>The input vector in a length of [_this-&gt;mgWeightLen]. </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">out</td><td>Pointer to use as a buffer for as length as [ae2f_float_t]. When set to zero, the final output will be gone. </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">queue</td><td></td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">blocking_read</td><td></td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">num_events_in_wait_list</td><td></td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">event_wait_list</td><td></td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">event</td><td></td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">context</td><td>The OpenCL Context in order to allocate the new buffer when needed. <br  />
+Passing zero here will cause undefined behaviour. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a33b35df425cc620cacd6b1bd7b795c7c" name="a33b35df425cc620cacd6b1bd7b795c7c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33b35df425cc620cacd6b1bd7b795c7c">&#9670;&#160;</a></span>ae2fCL_AnnSlpTrain()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ae2f_extern ae2f_SHAREDCALL <a class="el" href="errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a> ae2fCL_AnnSlpTrain </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structae2fCL__AnnSlp.html">ae2fCL_AnnSlp</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ae2fCL_HostPtr(__global, ae2f_float_t)</td>          <td class="paramname"><span class="paramname"><em>in</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ae2fCL_HostPtr(__global, ae2f_float_t)</td>          <td class="paramname"><span class="paramname"><em>out_optionalA</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>in_idx</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>out_idx_optionalA</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ae2f_float_t</td>          <td class="paramname"><span class="paramname"><em>goal</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ae2f_float_t</td>          <td class="paramname"><span class="paramname"><em>learning_rate</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ae2f_float_t *</td>          <td class="paramname"><span class="paramname"><em>diff_ret_optional</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">cl_command_queue</td>          <td class="paramname"><span class="paramname"><em>queue</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">cl_bool</td>          <td class="paramname"><span class="paramname"><em>blocking_read</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">cl_uint</td>          <td class="paramname"><span class="paramname"><em>num_events_in_wait_list</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const cl_event *</td>          <td class="paramname"><span class="paramname"><em>event_wait_list</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">cl_event *</td>          <td class="paramname"><span class="paramname"><em>event</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">cl_context</td>          <td class="paramname"><span class="paramname"><em>context_optionalB</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<h1><a class="anchor" id="autotoc_md32"></a>
+Manages to correct the weight and bias for expected output value [goal].</h1>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">_this</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">in</td><td>The input value binded with an OpenCL memory object. <br  />
+If you don't want to make a memory object manually, see [ae2fCL_AnnSlpPredictBuffAuto].</td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">out_optionalA</td><td>Writable memory object to use as a buffer for as length as [ae2f_float_t]. When set to zero, it will allocate the new one. </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">in_idx</td><td>Padding for [in]. </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">out_idx_optionalA</td><td>Paddings for [out_optionalA]. <br  />
+Would not matter a thing when 0 has passed via [out_optionalA].</td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">goal</td><td>Expected (wanted) output. </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">learning_rate</td><td>Learning rate. Will be multiplied with Loss. </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">diff_ret_optional</td><td>The final output for this operation would be stored here. <br  />
+ Passing it zero will not cause undefined behaviour, but this operation's result is going nowhere.</td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">queue</td><td></td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">blocking_read</td><td></td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">num_events_in_wait_list</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">event_wait_list</td><td></td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">event</td><td></td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">context_optionalB</td><td>The OpenCL Context in order to allocate the new buffer when needed. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Friends And Related Symbol Documentation</h2>
+<a id="aaca0b008a41b7f3a079b79118c7c1bb8" name="aaca0b008a41b7f3a079b79118c7c1bb8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaca0b008a41b7f3a079b79118c7c1bb8">&#9670;&#160;</a></span>ae2fCL_AnnSlpPredictA</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ae2fCL_AnnSlpPredictA</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>in</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>out</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>in_idx</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>out_idx</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>outbuff_optional</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>queue</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>blocking_event</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>num_events_in_wait_list</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>event_wait_list</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>event</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel related">related</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line"><a class="code hl_function" href="#a36f707de7684358883812981016c231c">ae2fCL_AnnSlpPredict</a>( \</div>
+<div class="line">    _this, in, out, in_idx, out_idx, outbuff_optional, \</div>
+<div class="line">    queue, blocking_event, num_events_in_wait_list, event_wait_list, event, 0\</div>
+<div class="line">)</div>
+<div class="ttc" id="astructae2fCL__AnnSlp_html_a36f707de7684358883812981016c231c"><div class="ttname"><a href="#a36f707de7684358883812981016c231c">ae2fCL_AnnSlp::ae2fCL_AnnSlpPredict</a></div><div class="ttdeci">ae2f_extern ae2f_SHAREDCALL ae2f_err_t ae2fCL_AnnSlpPredict(const ae2fCL_AnnSlp *_this, ae2fCL_HostPtr(__global, ae2f_float_t) in, ae2fCL_HostPtr(__global, ae2f_float_t) out_optionalA, uint32_t in_idx, uint32_t out_idx_optionalA, ae2f_float_t *outbuff_optional_, cl_command_queue queue, cl_bool blocking_event, cl_uint num_events_in_wait_list, const cl_event *event_wait_list, cl_event *event, cl_context context_optionalB)</div></div>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md26"></a>
+Predict the output.</h1>
+<p>See [ae2fCL_AnnSlpPredict]</p>
+<h1><a class="anchor" id="autotoc_md27"></a>
+Option A</h1>
+<p>This option is taking previously allocated OpenCL Memory Object, therefore it has no need to allocate new buffer to store the first total sum calculated.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">_this</td><td>[const ae2fCL_AnnSlp*] </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">in</td><td>[cl_mem] The input value binded with an OpenCL memory object. <br  />
+If you don't want to make a memory object manually, see [ae2fCL_AnnSlpPredictBuffAuto].</td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">out</td><td>[cl_mem] Writable memory object to use as a buffer for as length as [ae2f_float_t]. When set to zero, it will the operation trauncated. </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">in_idx</td><td>[uint32_t] Padding for [in]. </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">out_idx</td><td>[uint32_t] Paddings for [out]. <br  />
+Would not matter a thing when 0 has passed via [out].</td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">outbuff_optional</td><td>[ae2f_float_t*] The final output for this operation would be stored here. <br  />
+ Passing it zero will not cause undefined behaviour, but this operation's result is going nowhere.</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Its length will be same as [ae2f_float_t]. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir"></td><td class="paramname">queue</td><td>[cl_command_queue] </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">blocking_event</td><td>[cl_bool] </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">num_events_in_wait_list</td><td>[cl_uint] </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">event_wait_list</td><td>[const cl_event*] </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">event</td><td>[cl_event*] </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aa72a3ab346e178bb6d439b55ecb6f943" name="aa72a3ab346e178bb6d439b55ecb6f943"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa72a3ab346e178bb6d439b55ecb6f943">&#9670;&#160;</a></span>ae2fCL_AnnSlpPredictB</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ae2fCL_AnnSlpPredictB</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>in</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>in_idx</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>outbuff_optional</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>context</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>queue</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>blocking_event</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>num_events_in_wait_list</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>event_wait_list</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>event</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel related">related</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line"><a class="code hl_function" href="#a36f707de7684358883812981016c231c">ae2fCL_AnnSlpPredict</a>( \</div>
+<div class="line">    _this, in, (cl_mem)0, in_idx, 0, outbuff_optional, \</div>
+<div class="line">    queue, blocking_event, num_events_in_wait_list, event_wait_list, event, context\</div>
+<div class="line">)</div>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md28"></a>
+Predict the output.</h1>
+<p>See [ae2fCL_AnnSlpPredict]</p>
+<h1><a class="anchor" id="autotoc_md29"></a>
+Option B</h1>
+<p>This option allocates new OpenCL Memory Object, so you don't need to manually handle.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">_this</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">in</td><td>The input value binded with an OpenCL memory object. <br  />
+If you don't want to make a memory object manually, see [ae2fCL_AnnSlpPredictBuffAuto]. </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">in_idx</td><td>Padding for [in]. </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">outbuff_optional</td><td>The final output for this operation would be stored here. <br  />
+ Passing it zero will not cause undefined behaviour, but this operation's result is going nowhere.</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Its length will be same as [ae2f_float_t]. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir"></td><td class="paramname">context</td><td>The OpenCL Context in order to allocate the new buffer when needed. <br  />
+Passing zero here will cause undefined behaviour. </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">queue</td><td>[cl_command_queue] </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">blocking_event</td><td>[cl_bool] </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">num_events_in_wait_list</td><td>[cl_uint] </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">event_wait_list</td><td>[const cl_event*] </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">event</td><td>[cl_event*] </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a9ce9d2ed58c9e2a52dcf735f8d685ce6" name="a9ce9d2ed58c9e2a52dcf735f8d685ce6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ce9d2ed58c9e2a52dcf735f8d685ce6">&#9670;&#160;</a></span>ae2fCL_AnnSlpTrainA</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ae2fCL_AnnSlpTrainA</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>in</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>out</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>in_idx</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>out_idx</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>goal</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>learning_rate</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>diff_ret_optional</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>queue</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>blocking_read</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>num_events_in_wait_list</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>event_wait_list</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>event</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel related">related</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line"><a class="code hl_function" href="#a33b35df425cc620cacd6b1bd7b795c7c">ae2fCL_AnnSlpTrain</a>(_this, in, out, in_idx, out_idx, goal, learning_rate, diff_ret_optional, queue, blocking_read, num_events_in_wait_list, event_wait_list, event, (cl_context)0)</div>
+<div class="ttc" id="astructae2fCL__AnnSlp_html_a33b35df425cc620cacd6b1bd7b795c7c"><div class="ttname"><a href="#a33b35df425cc620cacd6b1bd7b795c7c">ae2fCL_AnnSlp::ae2fCL_AnnSlpTrain</a></div><div class="ttdeci">ae2f_extern ae2f_SHAREDCALL ae2f_err_t ae2fCL_AnnSlpTrain(ae2fCL_AnnSlp *_this, ae2fCL_HostPtr(__global, ae2f_float_t) in, ae2fCL_HostPtr(__global, ae2f_float_t) out_optionalA, uint32_t in_idx, uint32_t out_idx_optionalA, ae2f_float_t goal, ae2f_float_t learning_rate, ae2f_float_t *diff_ret_optional, cl_command_queue queue, cl_bool blocking_read, cl_uint num_events_in_wait_list, const cl_event *event_wait_list, cl_event *event, cl_context context_optionalB)</div></div>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md33"></a>
+Manages to correct the weight and bias for expected output value [goal].</h1>
+<p>See [ae2fCL_AnnSlpTrain] </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">_this</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">in</td><td>The input value binded with an OpenCL memory object. <br  />
+If you don't want to make a memory object manually, see [ae2fCL_AnnSlpPredictBuffAuto].</td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">out</td><td>Writable memory object to use as a buffer for as length as [ae2f_float_t]. When set to zero, it will allocate the new one. </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">in_idx</td><td>Padding for [in]. </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">out_idx</td><td>Paddings for [out]. <br  />
+Would not matter a thing when 0 has passed via [out_optionalA].</td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">goal</td><td>Expected (wanted) output. </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">learning_rate</td><td>Learning rate. Will be multiplied with Loss. </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">diff_ret_optional</td><td>The final output for this operation would be stored here. <br  />
+ Passing it zero will not cause undefined behaviour, but this operation's result is going nowhere.</td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">queue</td><td></td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">blocking_read</td><td></td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">num_events_in_wait_list</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">event_wait_list</td><td></td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">event</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="abf77275aa914a60a0032c1c99c6200f9" name="abf77275aa914a60a0032c1c99c6200f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf77275aa914a60a0032c1c99c6200f9">&#9670;&#160;</a></span>ae2fCL_AnnSlpTrainB</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ae2fCL_AnnSlpTrainB</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>in</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>in_idx</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>goal</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>learning_rate</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>diff_ret_optional</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>queue</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>blocking_read</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>num_events_in_wait_list</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>event_wait_list</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>event</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>context</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel related">related</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line"><a class="code hl_function" href="#a33b35df425cc620cacd6b1bd7b795c7c">ae2fCL_AnnSlpTrain</a>(_this, in, (cl_mem)0, in_idx, 0, goal, learning_rate, diff_ret_optional, queue, blocking_read, num_events_in_wait_list, event_wait_list, event, context)</div>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md34"></a>
+Manages to correct the weight and bias for expected output value [goal].</h1>
+<p>See [ae2fCL_AnnSlpTrain] </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">_this</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">in</td><td>The input value binded with an OpenCL memory object. <br  />
+If you don't want to make a memory object manually, see [ae2fCL_AnnSlpPredictBuffAuto].</td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">in_idx</td><td>Padding for [in].</td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">goal</td><td>Expected (wanted) output. </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">learning_rate</td><td>Learning rate. Will be multiplied with Loss. </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">diff_ret_optional</td><td>The final output for this operation would be stored here. <br  />
+ Passing it zero will not cause undefined behaviour, but this operation's result is going nowhere.</td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">queue</td><td></td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">blocking_read</td><td></td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">num_events_in_wait_list</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">event_wait_list</td><td></td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">event</td><td></td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">context</td><td>The OpenCL Context in order to allocate the new buffer when needed. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a9abdd2224e234d73805e4d5be0cb32ff" name="a9abdd2224e234d73805e4d5be0cb32ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9abdd2224e234d73805e4d5be0cb32ff">&#9670;&#160;</a></span>ae2fCL_AnnSlpWeightCheck</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ae2fCL_AnnSlpWeightCheck</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>_out</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>queue</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel related">related</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">clEnqueueReadBuffer( \</div>
+<div class="line">      queue,  \</div>
+<div class="line">      (_this)-&gt;<a class="code hl_variable" href="#a0b1ef1926e545a04f548994287b38139">mgWeight</a>, \</div>
+<div class="line">      CL_TRUE, 0, \</div>
+<div class="line">      <span class="keyword">sizeof</span>(ae2f_float_t) * (_this)-&gt;<a class="code hl_variable" href="#aa59186133cc70707c78b712d9550529e">mgWeightLen</a>, \</div>
+<div class="line">      (_out), \</div>
+<div class="line">      0, 0, 0 \</div>
+<div class="line">)</div>
+<div class="ttc" id="astructae2fCL__AnnSlp_html_a0b1ef1926e545a04f548994287b38139"><div class="ttname"><a href="#a0b1ef1926e545a04f548994287b38139">ae2fCL_AnnSlp::mgWeight</a></div><div class="ttdeci">ae2fCL_memobj_float_t mgWeight</div><div class="ttdoc">It is a OpenCL Memory Object allocated alone as.</div><div class="ttdef"><b>Definition</b> Slp.h:50</div></div>
+<div class="ttc" id="astructae2fCL__AnnSlp_html_aa59186133cc70707c78b712d9550529e"><div class="ttname"><a href="#aa59186133cc70707c78b712d9550529e">ae2fCL_AnnSlp::mgWeightLen</a></div><div class="ttdeci">size_t mgWeightLen</div><div class="ttdoc">Possible count of weights, which means possible count of inputs on prediction.</div><div class="ttdef"><b>Definition</b> Slp.h:60</div></div>
+</div><!-- fragment -->
+<p>Copies all weights to [_out]. </p>
+<dl class="section warning"><dt>Warning</dt><dd>Parameter buffer [_out]'s byte length must be over <code>_this-&gt;mgWeightLen * sizeof(ae2f_float_t)</code>. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">_this</td><td>[const ae2fCL_AnnSlp*] The handler for Weights. </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">_out</td><td>[ae2f_float_t*] Buffer for output. </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">queue</td><td>[cl-command_queue] </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
 <a id="a0b1ef1926e545a04f548994287b38139" name="a0b1ef1926e545a04f548994287b38139"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0b1ef1926e545a04f548994287b38139">&#9670;&#160;</a></span>mgWeight</h2>
 
@@ -182,7 +1094,7 @@ Single Layer Perceptron.</h1>
 </div><div class="memdoc">
 
 <p>Possible count of weights, which means possible count of inputs on prediction. </p>
-<dl class="section see"><dt>See also</dt><dd>ae2fCL_AnnSlpPredict </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="#a36f707de7684358883812981016c231c">ae2fCL_AnnSlpPredict</a> </dd></dl>
 
 </div>
 </div>
@@ -199,12 +1111,12 @@ Single Layer Perceptron.</h1>
 </div><div class="memdoc">
 
 <p>Specifies the way of calculating loss on training. </p>
-<dl class="section see"><dt>See also</dt><dd>ae2fCL_AnnSlpTrain </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="#a33b35df425cc620cacd6b1bd7b795c7c">ae2fCL_AnnSlpTrain</a> </dd></dl>
 
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>include/SharedHeaders/ae2fCL/Ann/<a class="el" href="SharedHeaders_2ae2fCL_2Ann_2Slp_8h_source.html">Slp.h</a></li>
+<li>include/SharedHeaders/ae2fCL/Ann/<a class="el" href="Slp_8h_source.html">Slp.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

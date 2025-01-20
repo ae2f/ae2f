@@ -10,6 +10,8 @@ var searchData=
   ['ae2f_5funioncaster_7',['ae2f_UnionCaster',['../unionae2f__UnionCaster.html',1,'']]],
   ['ae2f_5fvdsalloc_8',['ae2f_vDsAlloc',['../structae2f__vDsAlloc.html',1,'']]],
   ['ae2fcl_5fannslp_9',['ae2fCL_AnnSlp',['../structae2fCL__AnnSlp.html',1,'']]],
-  ['ae2fcl_5fcbmpbuff_10',['ae2fCL_cBmpBuff',['../structae2fCL__cBmpBuff.html',1,'']]],
-  ['ae2fcl_5fui32_5f64_11',['ae2fCL_ui32_64',['../unionae2fCL__ui32__64.html',1,'']]]
+  ['ae2fcl_5fannslpmultiple_10',['ae2fCL_AnnSlpMultiple',['../structae2fCL__AnnSlpMultiple.html',1,'']]],
+  ['ae2fcl_5fannslpmultipleel_11',['ae2fCL_AnnSlpMultipleEl',['../structae2fCL__AnnSlpMultipleEl.html',1,'']]],
+  ['ae2fcl_5fcbmpbuff_12',['ae2fCL_cBmpBuff',['../structae2fCL__cBmpBuff.html',1,'']]],
+  ['ae2fcl_5fui32_5f64_13',['ae2fCL_ui32_64',['../unionae2fCL__ui32__64.html',1,'']]]
 ];

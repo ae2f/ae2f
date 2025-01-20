@@ -30,6 +30,8 @@ var hierarchy =
         [ "ae2fCL::Ann::cSlp", "structae2fCL_1_1Ann_1_1cSlp.html", null ]
       ] ]
     ] ],
+    [ "ae2fCL_AnnSlpMultiple", "structae2fCL__AnnSlpMultiple.html", null ],
+    [ "ae2fCL_AnnSlpMultipleEl", "structae2fCL__AnnSlpMultipleEl.html", null ],
     [ "ae2fCL_cBmpBuff", "structae2fCL__cBmpBuff.html", null ],
     [ "ae2fCL_ui32_64", "unionae2fCL__ui32__64.html", null ],
     [ "ae2f::mov2::Def< t >", "structae2f_1_1mov2_1_1Def.html", null ],

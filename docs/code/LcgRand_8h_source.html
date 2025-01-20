@@ -106,52 +106,55 @@ $(function(){initNavTree('LcgRand_8h_source.html',''); initResizable(true); });
   <div class="headertitle"><div class="title">LcgRand.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef ae2fCL_Ann_LcgRand_h</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define ae2fCL_Ann_LcgRand_h</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;stdint.h&gt;</span></div>
+<a href="LcgRand_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#ifndef ae2fCL_Ann_LcgRand_h</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#define ae2fCL_Ann_LcgRand_h</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#define ae2fCL_AnnLcgRandA 1664525</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#define ae2fCL_AnnLcgRandC 1013904223</span></div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#define ae2fCL_AnnLcgRandM 4294967296</span></div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span></div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#define ae2fCL_AnnLcgRand(seed) ((ae2fCL_AnnLcgRandA * (seed) + ae2fCL_AnnLcgRandC) % ae2fCL_AnnLcgRandM)</span></div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &lt;ae2f/Float.h&gt;</span></div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span></div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="preprocessor">#define ae2fCL_AnnLcgRandDistribute(n) (((ae2f_float_t)(n)) / ((ae2f_float_t)ae2fCL_AnnLcgRandM))</span></div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span></div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="preprocessor">#define ae2fCL_AnnLcgRandReal(seed) ae2fCL_AnnLcgRandDistribute(ae2fCL_AnnLcgRand(seed))</span></div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="preprocessor">#include &lt;ae2f/Call.h&gt;</span></div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="preprocessor">#include &lt;ae2f/Cast.h&gt;</span></div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="preprocessor">#include &lt;ae2fCL/Loc.h&gt;</span></div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="preprocessor">#ifndef ae2fCL_LocAsCL</span></div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span></div>
-<div class="foldopen" id="foldopen00041" data-start="{" data-end="};">
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="unionae2fCL__ui32__64.html">   41</a></span><span class="keyword">typedef</span> <span class="keyword">union </span><a class="code hl_union" href="unionae2fCL__ui32__64.html">ae2fCL_ui32_64</a> {</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    uint32_t u32[2];</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    uint64_t u64;</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>} <a class="code hl_union" href="unionae2fCL__ui32__64.html">ae2fCL_ui32_64</a>;</div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;stdint.h&gt;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#define ae2fCL_AnnLcgRandA 1664525</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#define ae2fCL_AnnLcgRandC 1013904223</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#define ae2fCL_AnnLcgRandM 4294967296</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="LcgRand_8h.html#a822c4319a5d3e01cc8798ab6a5ac858c">   15</a></span><span class="preprocessor">#define ae2fCL_AnnLcgRand(seed) ((ae2fCL_AnnLcgRandA * (seed) + ae2fCL_AnnLcgRandC) % ae2fCL_AnnLcgRandM)</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#include &lt;ae2f/Float.h&gt;</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span></div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="LcgRand_8h.html#a816dcd3ed72d5abc025708877fe8567b">   24</a></span><span class="preprocessor">#define ae2fCL_AnnLcgRandDistribute(n) (((ae2f_float_t)(n)) / ((ae2f_float_t)ae2fCL_AnnLcgRandM))</span></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span></div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="LcgRand_8h.html#a29f3658832a29ed1da86ba77331c73bf">   35</a></span><span class="preprocessor">#define ae2fCL_AnnLcgRandReal(seed) ae2fCL_AnnLcgRandDistribute(ae2fCL_AnnLcgRand(seed))</span></div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="preprocessor">#include &lt;ae2f/Call.h&gt;</span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="preprocessor">#include &lt;ae2f/Cast.h&gt;</span></div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="preprocessor">#include &lt;ae2fCL/Loc.h&gt;</span></div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="preprocessor">#ifndef ae2fCL_LocAsCL</span></div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span></div>
+<div class="foldopen" id="foldopen00044" data-start="{" data-end="};">
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="unionae2fCL__ui32__64.html">   44</a></span><span class="keyword">typedef</span> <span class="keyword">union </span><a class="code hl_union" href="unionae2fCL__ui32__64.html">ae2fCL_ui32_64</a> {</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    uint32_t u32[2];</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    uint64_t u64;</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="LcgRand_8h.html#a6cbc7d90c1eb24ac530bbfaa9270a476">   47</a></span>} <a class="code hl_union" href="unionae2fCL__ui32__64.html">ae2fCL_ui32_64</a>;</div>
 </div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span></div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>ae2f_extern ae2f_SHAREDCALL <a class="code hl_union" href="unionae2fCL__ui32__64.html">ae2fCL_ui32_64</a> </div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>ae2fCL_AnnLcgRandSeed;</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span></div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="preprocessor">#define ae2fCL_AnnLcgRandG() ae2fCL_AnnLcgRand(ae2fCL_AnnLcgRandSeed.u64)</span></div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span></div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>ae2f_extern ae2f_SHAREDCALL <a class="code hl_union" href="unionae2fCL__ui32__64.html">ae2fCL_ui32_64</a> </div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="LcgRand_8h.html#aa517821523dec8eae6c48d3666272fd9">   56</a></span><a class="code hl_variable" href="LcgRand_8h.html#aa517821523dec8eae6c48d3666272fd9">ae2fCL_AnnLcgRandSeed</a>;</div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span></div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span><span class="preprocessor">#define ae2fCL_AnnLcgRandRealG() ae2fCL_AnnLcgRandReal(ae2fCL_AnnLcgRandSeed.u64)</span></div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span><span class="preprocessor">#endif</span></div>
-<div class="ttc" id="aunionae2fCL__ui32__64_html"><div class="ttname"><a href="unionae2fCL__ui32__64.html">ae2fCL_ui32_64</a></div><div class="ttdoc">Pre-generated 64-bits seed type for separation. (under the hood).</div><div class="ttdef"><b>Definition</b> LcgRand.h:41</div></div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="LcgRand_8h.html#a42cc087facf697c91efc7358c79201d9">   59</a></span><span class="preprocessor">#define ae2fCL_AnnLcgRandG() ae2fCL_AnnLcgRand(ae2fCL_AnnLcgRandSeed.u64)</span></div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span></div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno"><a class="line" href="LcgRand_8h.html#ae00501ff324772148ac9d9d46f8d037e">   62</a></span><span class="preprocessor">#define ae2fCL_AnnLcgRandRealG() ae2fCL_AnnLcgRandReal(ae2fCL_AnnLcgRandSeed.u64)</span></div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aLcgRand_8h_html_aa517821523dec8eae6c48d3666272fd9"><div class="ttname"><a href="LcgRand_8h.html#aa517821523dec8eae6c48d3666272fd9">ae2fCL_AnnLcgRandSeed</a></div><div class="ttdeci">ae2f_extern ae2f_SHAREDCALL ae2fCL_ui32_64 ae2fCL_AnnLcgRandSeed</div><div class="ttdoc">Pre-defined global seed.  Simply change this would change the global seed for lcgG.</div><div class="ttdef"><b>Definition</b> LcgRand.h:56</div></div>
+<div class="ttc" id="aunionae2fCL__ui32__64_html"><div class="ttname"><a href="unionae2fCL__ui32__64.html">ae2fCL_ui32_64</a></div><div class="ttdoc">Pre-generated 64-bits seed type for separation. (under the hood).</div><div class="ttdef"><b>Definition</b> LcgRand.h:44</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_f9c61c37275185389c71970f3ed76e78.html">SharedHeaders</a></li><li class="navelem"><a class="el" href="dir_0a3e23d79cc1c6723e1899e14c0178ef.html">ae2fCL</a></li><li class="navelem"><a class="el" href="dir_e4ad7b9598f26deebbb62796f43eafb6.html">Ann</a></li><li class="navelem"><b>LcgRand.h</b></li>
+    <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_f9c61c37275185389c71970f3ed76e78.html">SharedHeaders</a></li><li class="navelem"><a class="el" href="dir_0a3e23d79cc1c6723e1899e14c0178ef.html">ae2fCL</a></li><li class="navelem"><a class="el" href="dir_e4ad7b9598f26deebbb62796f43eafb6.html">Ann</a></li><li class="navelem"><a class="el" href="LcgRand_8h.html">LcgRand.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
   </ul>
 </div>
