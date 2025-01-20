@@ -26,6 +26,7 @@ if(NOT TARGET ${PROJECT_NAME} AND ae2f_ae2fDOCGEN)
     file(REMOVE_RECURSE ${PROJECT_SOURCE_DIR}/SharedHeaders/include)
     file(REMOVE_RECURSE ${PROJECT_SOURCE_DIR}/Source/include)
     file(REMOVE_RECURSE ${PROJECT_SOURCE_DIR}/include)
+    file(REMOVE_RECURSE ${PROJECT_SOURCE_DIR}/docs/code)
 
     file(GLOB_RECURSE __PROJECTS "${PROJECT_SOURCE_DIR}/submod/ae2f/*/CMakeLists.txt")
     foreach(__PROJECT ${__PROJECTS})

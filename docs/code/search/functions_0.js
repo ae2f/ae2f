@@ -1,6 +1,11 @@
 var searchData=
 [
-  ['colget_0',['ColGet',['../structae2f_1_1mov2_1_1____Def_3_01t_01_4.html#a522b3d2cf54678c870014ba71705b667',1,'ae2f::mov2::__Def&lt; t &gt;::ColGet()'],['../structae2f_1_1mov2_1_1Def.html#a866987693dfd49fffb6a1294a60ca46d',1,'ae2f::mov2::Def::ColGet()']]],
-  ['copy_1',['Copy',['../structae2f_1_1Ds_1_1Alloc_1_1xrOwner.html#aa5b65c4fb9017de9514323d38f510d64',1,'ae2f::Ds::Alloc::xrOwner::Copy(const rRefer &amp;src) noexcept'],['../structae2f_1_1Ds_1_1Alloc_1_1xrOwner.html#acf51a6af3de121ee240e9d93b6bdaf41',1,'ae2f::Ds::Alloc::xrOwner::Copy(const rRefer &amp;&amp;src) noexcept'],['../structae2f_1_1Ds_1_1Arr_1_1____Owner_3_01T_00_011_01_4.html#aba1a0c3b48962afe24c9f417780cfb7d',1,'ae2f::Ds::Arr::__Owner&lt; T, 1 &gt;::Copy(const Alloc::rRefer &amp;src) noexcept'],['../structae2f_1_1Ds_1_1Arr_1_1____Owner_3_01T_00_011_01_4.html#a771ddfed0e54beb6d1bb824cc90db0fc',1,'ae2f::Ds::Arr::__Owner&lt; T, 1 &gt;::Copy(const Alloc::rRefer &amp;&amp;src) noexcept']]],
-  ['crefer_2',['cRefer',['../structae2f_1_1Ds_1_1Alloc_1_1cRefer.html#a8bf8dfc80fa45f3e1335dd46612e994a',1,'ae2f::Ds::Alloc::cRefer::cRefer(const rRefer &amp;r) noexcept'],['../structae2f_1_1Ds_1_1Alloc_1_1cRefer.html#af2c05d8af0cf125b72b425eda239540c',1,'ae2f::Ds::Alloc::cRefer::cRefer(const rRefer &amp;&amp;r) noexcept'],['../structae2f_1_1Ds_1_1Alloc_1_1cRefer.html#a8a0659404cdde1231a344025faa23829',1,'ae2f::Ds::Alloc::cRefer::cRefer(const xrOwner &amp;r) noexcept'],['../structae2f_1_1Ds_1_1Alloc_1_1cRefer.html#a19aeb3d68c998b5a4cc4eb9e87c8954b',1,'ae2f::Ds::Alloc::cRefer::cRefer() noexcept']]]
+  ['ae2f_5fcorelibfetch_0',['ae2f_CoreLibFetch',['../namespace______DOC__CMAKE.html#aa868a569d3142587c1da1e636b07d915',1,'___DOC_CMAKE']]],
+  ['ae2f_5fcorelibtent_1',['ae2f_CoreLibTent',['../namespace______DOC__CMAKE.html#a3e9604d9d8c0ccb6bd75176fad3ca9f9',1,'___DOC_CMAKE']]],
+  ['ae2f_5fcoretesttent_2',['ae2f_CoreTestTent',['../namespace______DOC__CMAKE.html#a45853a70e3b2acd7a7cc3b944b91156b',1,'___DOC_CMAKE']]],
+  ['ae2f_5fcoreutilitydoctent_3',['ae2f_CoreUtilityDocTent',['../namespace______DOC__CMAKE.html#a4ca437c7dc858a3e0de1302ff6090f09',1,'___DOC_CMAKE']]],
+  ['ae2f_5frulermeasure_4',['ae2f_RulerMeasure',['../namespace______DOC__CMAKE.html#a37d8aa982367d2e94c40ee42b2f84a12',1,'___DOC_CMAKE']]],
+  ['ae2f_5frulermeasurefromsource_5',['ae2f_RulerMeasureFromSource',['../namespace______DOC__CMAKE.html#a05f7ea2e7d197497131e9c9fbd0da4b4',1,'___DOC_CMAKE']]],
+  ['ae2fcl_5fcoreaddconfprojtardep_6',['ae2fCL_CoreAddConfProjTarDep',['../namespace______DOC__CMAKE.html#a12fcdbd4da10a6c88f27a6786c2ed42d',1,'___DOC_CMAKE']]],
+  ['ae2fcl_5fcoreappendinclude_7',['ae2fCL_CoreAppendInclude',['../namespace______DOC__CMAKE.html#a8b5af69af816261557e4b32d3cd44a5c',1,'___DOC_CMAKE']]]
 ];

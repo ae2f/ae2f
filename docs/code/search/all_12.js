@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['weight_20and_20bias_20for_20expected_20output_20value_20goal_0',['weight and bias for expected output value goal',['../Slp_8h.html#autotoc_md32',1,'Manages to correct the weight and bias for expected output value [goal].'],['../Slp_8h.html#autotoc_md33',1,'Manages to correct the weight and bias for expected output value [goal].'],['../Slp_8h.html#autotoc_md34',1,'Manages to correct the weight and bias for expected output value [goal].']]],
+  ['weight_20and_20bias_20for_20expected_20output_20value_20goal_0',['weight and bias for expected output value goal',['../SharedHeaders_2ae2fCL_2Ann_2Slp_8h.html#autotoc_md32',1,'Manages to correct the weight and bias for expected output value [goal].'],['../SharedHeaders_2ae2fCL_2Ann_2Slp_8h.html#autotoc_md33',1,'Manages to correct the weight and bias for expected output value [goal].'],['../SharedHeaders_2ae2fCL_2Ann_2Slp_8h.html#autotoc_md34',1,'Manages to correct the weight and bias for expected output value [goal].']]],
   ['width_1',['Width',['../structae2f__rBmpIdx.html#a28881f21efcc81e9aca997cfc716a2a0',1,'ae2f_rBmpIdx']]],
   ['will_2',['After this operation [dest] will still not own the memory, but [byte] will.',['../Bmp_2Src_8h.html#autotoc_md0',1,'']]],
   ['will_20still_20not_20own_20the_20memory_20but_20byte_20will_3',['After this operation [dest] will still not own the memory, but [byte] will.',['../Bmp_2Src_8h.html#autotoc_md0',1,'']]],
