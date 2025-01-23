@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.13.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>ae2f: include/SharedHeaders/ae2fCL/Ann/Slp.hpp Source File</title>
+<title>ae2f: include/SharedHeaders/ae2fCL/Ann/Sp.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -77,7 +77,7 @@ $(function() { codefold.init(0); });
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function(){initNavTree('Slp_8hpp_source.html',''); initResizable(true); });
+$(function(){initNavTree('Sp_8hpp_source.html',''); initResizable(true); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -103,35 +103,35 @@ $(function(){initNavTree('Slp_8hpp_source.html',''); initResizable(true); });
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">Slp.hpp</div></div>
+  <div class="headertitle"><div class="title">Sp.hpp</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="Slp_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
+<a href="Sp_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#ifndef ae2fCL_Ann_Slp_hpp</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#define ae2fCL_Ann_Slp_hpp</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;<a class="code" href="Slp_8h.html">Slp.h</a>&quot;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;<a class="code" href="Sp_8h.html">Sp.h</a>&quot;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">namespace </span>ae2fCL { <span class="keyword">namespace </span>Ann {</div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>    <span class="keyword">using </span>rSlp = <a class="code hl_typedef" href="Slp_8h.html#a29246e9ebdf0f876c90b07ed80cac0ec">ae2fCL_AnnSlp</a>;</div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>    <span class="keyword">using </span>rSlp = <a class="code hl_typedef" href="Sp_8h.html#a8a8e267977bf4159071654b0ded6376a">ae2fCL_AnnSp</a>;</div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>    <span class="keyword">struct </span><a class="code hl_struct" href="structae2fCL_1_1Ann_1_1cSlp.html">cSlp</a>;</div>
 <div class="foldopen" id="foldopen00011" data-start="{" data-end="};">
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="classae2fCL_1_1Ann_1_1cSlpRefer.html">   11</a></span>    <span class="keyword">class </span>cSlpRefer : <span class="keyword">public</span> rSlp {</div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>        <span class="keyword">friend</span> cSlp;</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>        <span class="keyword">constexpr</span> cSlpRefer() : rSlp() {}</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>        <span class="keyword">constexpr</span> cSlpRefer() noexcept : rSlp() {}</div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>        </div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>        <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>        <span class="keyword">constexpr</span> cSlpRefer(<span class="keyword">const</span> rSlp&amp; slp) : rSlp(slp) {}</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>        <span class="keyword">constexpr</span> cSlpRefer(<span class="keyword">const</span> rSlp&amp;&amp; slp) : rSlp(slp) {}</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>        <span class="keyword">constexpr</span> cSlpRefer(<span class="keyword">const</span> rSlp&amp; slp) noexcept : rSlp(slp) {}</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>        <span class="keyword">constexpr</span> cSlpRefer(<span class="keyword">const</span> rSlp&amp;&amp; slp) noexcept : rSlp(slp) {}</div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>        <span class="keyword">constexpr</span> cSlpRefer(<span class="keyword">const</span> rSlp&amp; slp, <span class="keyword">const</span> ae2fCL_fpAnnAct_t act, <span class="keyword">const</span> ae2fCL_fpAnnSlpGetLoss_t loss) </div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>            : rSlp(slp) { this-&gt;<a class="code hl_variable" href="structae2fCL__AnnSlp.html#ad93d93a8dc9bada0aa6f6cc434885b97">mAct</a> = act; this-&gt;<a class="code hl_variable" href="structae2fCL__AnnSlp.html#a787ffdca9512927281eca6a8d354747c">mpGetLoss</a> = loss; }</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>        <span class="keyword">constexpr</span> cSlpRefer(<span class="keyword">const</span> rSlp&amp;&amp; slp, <span class="keyword">const</span> ae2fCL_fpAnnAct_t act, <span class="keyword">const</span> ae2fCL_fpAnnSlpGetLoss_t loss) </div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>            : rSlp(slp) { this-&gt;<a class="code hl_variable" href="structae2fCL__AnnSlp.html#ad93d93a8dc9bada0aa6f6cc434885b97">mAct</a> = act; this-&gt;<a class="code hl_variable" href="structae2fCL__AnnSlp.html#a787ffdca9512927281eca6a8d354747c">mpGetLoss</a> = loss; }</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>        <span class="keyword">constexpr</span> cSlpRefer(<span class="keyword">const</span> rSlp&amp; slp, <span class="keyword">const</span> ae2fCL_fpAnnAct_t act, <span class="keyword">const</span> ae2fCL_fpAnnSpGetLoss_t loss) </div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>            noexcept : rSlp(slp) { this-&gt;<a class="code hl_variable" href="structae2fCL__AnnSp.html#ad2cc81afb22335e808938a2cb625e704">mAct</a> = act; this-&gt;<a class="code hl_variable" href="structae2fCL__AnnSp.html#a3e9b2a251a9dcaaca9100976883c77a9">mpGetLoss</a> = loss; }</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>        <span class="keyword">constexpr</span> cSlpRefer(<span class="keyword">const</span> rSlp&amp;&amp; slp, <span class="keyword">const</span> ae2fCL_fpAnnAct_t act, <span class="keyword">const</span> ae2fCL_fpAnnSpGetLoss_t loss) </div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>            noexcept : rSlp(slp) { this-&gt;<a class="code hl_variable" href="structae2fCL__AnnSp.html#ad2cc81afb22335e808938a2cb625e704">mAct</a> = act; this-&gt;<a class="code hl_variable" href="structae2fCL__AnnSp.html#a3e9b2a251a9dcaaca9100976883c77a9">mpGetLoss</a> = loss; }</div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>        <span class="keyword">inline</span> cl_int WeightCheck(ae2f_float_t* buff, cl_command_queue queue)<span class="keyword"> const </span>{</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>            <span class="keywordflow">return</span> <a class="code hl_define" href="structae2fCL__AnnSlp.html#a9abdd2224e234d73805e4d5be0cb32ff">ae2fCL_AnnSlpWeightCheck</a>(<span class="keyword">this</span>, buff, queue);</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>        <span class="keyword">inline</span> cl_int WeightCheck(ae2f_float_t* buff, cl_command_queue queue) <span class="keyword">const</span> <span class="keyword">noexcept</span> {</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>            <span class="keywordflow">return</span> <a class="code hl_define" href="structae2fCL__AnnSp.html#a45eb642a112780498d499defcef4533f">ae2fCL_AnnSpWeightCheck</a>(<span class="keyword">this</span>, buff, queue);</div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>        }</div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>        <span class="keyword">inline</span> <a class="code hl_typedef" href="errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a> Predict(</div>
@@ -145,8 +145,8 @@ $(function(){initNavTree('Slp_8hpp_source.html',''); initResizable(true); });
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>            cl_uint num_events_in_wait_list,</div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>            <span class="keyword">const</span> cl_event *event_wait_list,</div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>            cl_event *event</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>        )<span class="keyword"> const </span>{</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>            <span class="keywordflow">return</span> <a class="code hl_define" href="structae2fCL__AnnSlp.html#aaca0b008a41b7f3a079b79118c7c1bb8">ae2fCL_AnnSlpPredictA</a>(</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>        ) <span class="keyword">const</span> <span class="keyword">noexcept</span> {</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>            <span class="keywordflow">return</span> <a class="code hl_define" href="structae2fCL__AnnSp.html#a46a94eee5b612cc59037e22d80d33ac2">ae2fCL_AnnSpPredictA</a>(</div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>                <span class="keyword">this</span>, in, out, in_idx, out_idx, </div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>                outbuff_optional, queue, blocking_event, </div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>                num_events_in_wait_list, event_wait_list, event</div>
@@ -163,8 +163,8 @@ $(function(){initNavTree('Slp_8hpp_source.html',''); initResizable(true); });
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>            <span class="keyword">const</span> cl_event *event_wait_list,</div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>            cl_event *event,</div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>            cl_context context</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>        )<span class="keyword"> const </span>{</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>            <span class="keywordflow">return</span> <a class="code hl_define" href="structae2fCL__AnnSlp.html#aa72a3ab346e178bb6d439b55ecb6f943">ae2fCL_AnnSlpPredictB</a>(</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>        ) <span class="keyword">const</span> <span class="keyword">noexcept</span> {</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>            <span class="keywordflow">return</span> <a class="code hl_define" href="structae2fCL__AnnSp.html#a66b85733499923c4dfe3f1ce11cc9ebd">ae2fCL_AnnSpPredictB</a>(</div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>                <span class="keyword">this</span>, in, in_idx,</div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>                outbuff_optional, context,</div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>                queue, blocking_event, num_events_in_wait_list,</div>
@@ -181,8 +181,8 @@ $(function(){initNavTree('Slp_8hpp_source.html',''); initResizable(true); });
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>            <span class="keyword">const</span> cl_event *event_wait_list,</div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>            cl_event *event,</div>
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>            cl_context context</div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>        )<span class="keyword"> const </span>{</div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>            <span class="keywordflow">return</span> <a class="code hl_function" href="structae2fCL__AnnSlp.html#a84736549cd4306825f7453e3199fb47b">ae2fCL_AnnSlpPredictBuffAuto</a>(</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>        ) <span class="keyword">const</span> <span class="keyword">noexcept</span> {</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>            <span class="keywordflow">return</span> <a class="code hl_function" href="structae2fCL__AnnSp.html#aecee3a9dfc974081ff2201d796fb0251">ae2fCL_AnnSpPredictBuffAuto</a>(</div>
 <div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>                <span class="keyword">this</span>, in, out, queue,</div>
 <div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>                blocking_read, num_events_in_wait_list,</div>
 <div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>                event_wait_list, event, context</div>
@@ -204,8 +204,8 @@ $(function(){initNavTree('Slp_8hpp_source.html',''); initResizable(true); });
 <div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>            cl_uint num_events_in_wait_list,</div>
 <div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>            <span class="keyword">const</span> cl_event *event_wait_list,</div>
 <div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>            cl_event *event</div>
-<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>        ) {</div>
-<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>            <span class="keywordflow">return</span> <a class="code hl_define" href="structae2fCL__AnnSlp.html#a9ce9d2ed58c9e2a52dcf735f8d685ce6">ae2fCL_AnnSlpTrainA</a>(</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>        ) <span class="keyword">noexcept</span> {</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>            <span class="keywordflow">return</span> <a class="code hl_define" href="structae2fCL__AnnSp.html#a5c69871767bd14f8724f5560220cd0cb">ae2fCL_AnnSpTrainA</a>(</div>
 <div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>                <span class="keyword">this</span>, in, out, in_idx, out_idx,</div>
 <div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>                goal, learning_rate, diff_ret_optional,</div>
 <div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>                queue, blocking_read, num_events_in_wait_list,</div>
@@ -228,8 +228,8 @@ $(function(){initNavTree('Slp_8hpp_source.html',''); initResizable(true); });
 <div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>            cl_event *event,</div>
 <div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span> </div>
 <div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>            cl_context context</div>
-<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>        ) {</div>
-<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>            <span class="keywordflow">return</span> <a class="code hl_define" href="structae2fCL__AnnSlp.html#abf77275aa914a60a0032c1c99c6200f9">ae2fCL_AnnSlpTrainB</a>(</div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>        ) <span class="keyword">noexcept</span> {</div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>            <span class="keywordflow">return</span> <a class="code hl_define" href="structae2fCL__AnnSp.html#a7a7c2698f009f6a5153863b70c3a0ac4">ae2fCL_AnnSpTrainB</a>(</div>
 <div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>                <span class="keyword">this</span>, in, in_idx, goal, learning_rate,</div>
 <div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>                diff_ret_optional, queue, blocking_read,</div>
 <div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>                num_events_in_wait_list, event_wait_list,</div>
@@ -241,29 +241,29 @@ $(function(){initNavTree('Slp_8hpp_source.html',''); initResizable(true); });
 <div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span> </div>
 <div class="foldopen" id="foldopen00132" data-start="{" data-end="};">
 <div class="line"><a id="l00132" name="l00132"></a><span class="lineno"><a class="line" href="structae2fCL_1_1Ann_1_1cSlp.html">  132</a></span>    <span class="keyword">struct </span>cSlp : <span class="keyword">public</span> cSlpRefer {</div>
-<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>        <span class="keyword">inline</span> ~cSlp() {</div>
-<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>            <a class="code hl_function" href="structae2fCL__AnnSlp.html#a672c3bfc2fa87e4d442a744e05bba0ea">ae2fCL_AnnSlpDel</a>(<span class="keyword">this</span>);</div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>        <span class="keyword">inline</span> ~cSlp() <span class="keyword">noexcept</span> {</div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>            <a class="code hl_function" href="structae2fCL__AnnSp.html#aa7c103255f32daafeb863e02a43955ab">ae2fCL_AnnSpDel</a>(<span class="keyword">this</span>);</div>
 <div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>        }</div>
 <div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span> </div>
 <div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span>        <span class="keyword">inline</span> cSlp(</div>
 <div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span>            <a class="code hl_typedef" href="errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a>* err_optional,</div>
 <div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span>            <span class="keyword">const</span> ae2f_float_t* inputs_optional,</div>
 <div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span>            <span class="keywordtype">size_t</span> inputsCount,</div>
-<div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span>            ae2fCL_fpAnnAct_t <a class="code hl_variable" href="structae2fCL__AnnSlp.html#ad93d93a8dc9bada0aa6f6cc434885b97">mAct</a>,</div>
-<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span>            ae2fCL_fpAnnSlpGetLoss_t fpGetLoss,</div>
+<div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span>            ae2fCL_fpAnnAct_t <a class="code hl_variable" href="structae2fCL__AnnSp.html#ad2cc81afb22335e808938a2cb625e704">mAct</a>,</div>
+<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span>            ae2fCL_fpAnnSpGetLoss_t fpGetLoss,</div>
 <div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span>            cl_context ctx,</div>
 <div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span>            cl_command_queue queue,</div>
 <div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span>            cl_bool blocking_read,</div>
 <div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span>            cl_uint num_events_in_wait_list,</div>
 <div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span>            <span class="keyword">const</span> cl_event *event_wait_list,</div>
 <div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span>            cl_event *event</div>
-<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span>        ) {</div>
+<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span>        ) <span class="keyword">noexcept</span> {</div>
 <div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span>            <a class="code hl_typedef" href="errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a> err = 0;</div>
 <div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span>            <span class="keywordflow">if</span>(!err_optional) err_optional = &amp;err;</div>
 <div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span> </div>
-<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span>            *err_optional |= <a class="code hl_function" href="structae2fCL__AnnSlp.html#a107a34a543860f2ed23ca93bc2c537e7">ae2fCL_AnnSlpMk</a>(</div>
+<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span>            *err_optional |= <a class="code hl_function" href="structae2fCL__AnnSp.html#a832e470fcae686e03fad86dede1daed6">ae2fCL_AnnSpMk</a>(</div>
 <div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span>                <span class="keyword">this</span>, inputs_optional, inputsCount, </div>
-<div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span>                <a class="code hl_variable" href="structae2fCL__AnnSlp.html#ad93d93a8dc9bada0aa6f6cc434885b97">mAct</a>, fpGetLoss, ctx, queue, </div>
+<div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span>                <a class="code hl_variable" href="structae2fCL__AnnSp.html#ad2cc81afb22335e808938a2cb625e704">mAct</a>, fpGetLoss, ctx, queue, </div>
 <div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span>                blocking_read, num_events_in_wait_list, </div>
 <div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span>                event_wait_list, event</div>
 <div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span>            );</div>
@@ -272,16 +272,16 @@ $(function(){initNavTree('Slp_8hpp_source.html',''); initResizable(true); });
 <div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span>        <span class="keyword">inline</span> cSlp(</div>
 <div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span>            <a class="code hl_typedef" href="errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a>* err_optional,</div>
 <div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span>            <span class="keywordtype">size_t</span> WeightsCount,</div>
-<div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span>            ae2fCL_fpAnnAct_t <a class="code hl_variable" href="structae2fCL__AnnSlp.html#ad93d93a8dc9bada0aa6f6cc434885b97">mAct</a>,</div>
-<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span>            ae2fCL_fpAnnSlpGetLoss_t fpGetLoss,</div>
+<div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span>            ae2fCL_fpAnnAct_t <a class="code hl_variable" href="structae2fCL__AnnSp.html#ad2cc81afb22335e808938a2cb625e704">mAct</a>,</div>
+<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span>            ae2fCL_fpAnnSpGetLoss_t fpGetLoss,</div>
 <div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span>            cl_context ctx,</div>
 <div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span>            cl_command_queue queue,</div>
 <div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span>            cl_bool blocking_read,</div>
 <div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span>            cl_uint num_events_in_wait_list,</div>
 <div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span>            <span class="keyword">const</span> cl_event* event_wait_list,</div>
 <div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span>            cl_event* event</div>
-<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span>        ) : cSlp(</div>
-<div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span>            err_optional, 0, WeightsCount, <a class="code hl_variable" href="structae2fCL__AnnSlp.html#ad93d93a8dc9bada0aa6f6cc434885b97">mAct</a>, </div>
+<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span>        ) noexcept : cSlp(</div>
+<div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span>            err_optional, 0, WeightsCount, <a class="code hl_variable" href="structae2fCL__AnnSp.html#ad2cc81afb22335e808938a2cb625e704">mAct</a>, </div>
 <div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span>            fpGetLoss, ctx, queue, blocking_read, </div>
 <div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span>            num_events_in_wait_list, event_wait_list, event</div>
 <div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span>        ) {}</div>
@@ -290,26 +290,26 @@ $(function(){initNavTree('Slp_8hpp_source.html',''); initResizable(true); });
 <div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span>}}</div>
 <div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span> </div>
 <div class="line"><a id="l00180" name="l00180"></a><span class="lineno">  180</span><span class="preprocessor">#endif</span></div>
-<div class="ttc" id="aSlp_8h_html"><div class="ttname"><a href="Slp_8h.html">Slp.h</a></div></div>
-<div class="ttc" id="aSlp_8h_html_a29246e9ebdf0f876c90b07ed80cac0ec"><div class="ttname"><a href="Slp_8h.html#a29246e9ebdf0f876c90b07ed80cac0ec">ae2fCL_AnnSlp</a></div><div class="ttdeci">struct ae2fCL_AnnSlp ae2fCL_AnnSlp</div></div>
+<div class="ttc" id="aSp_8h_html"><div class="ttname"><a href="Sp_8h.html">Sp.h</a></div></div>
+<div class="ttc" id="aSp_8h_html_a8a8e267977bf4159071654b0ded6376a"><div class="ttname"><a href="Sp_8h.html#a8a8e267977bf4159071654b0ded6376a">ae2fCL_AnnSp</a></div><div class="ttdeci">struct ae2fCL_AnnSp ae2fCL_AnnSp</div></div>
 <div class="ttc" id="aerrGlob_8h_html_acc9504eac81cd46d5dabe7461a9c8157"><div class="ttname"><a href="errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a></div><div class="ttdeci">uint8_t ae2f_err_t</div><div class="ttdoc">Informs that this number represents the error.</div><div class="ttdef"><b>Definition</b> errGlob.h:11</div></div>
-<div class="ttc" id="astructae2fCL_1_1Ann_1_1cSlp_html"><div class="ttname"><a href="structae2fCL_1_1Ann_1_1cSlp.html">ae2fCL::Ann::cSlp</a></div><div class="ttdef"><b>Definition</b> Slp.hpp:132</div></div>
-<div class="ttc" id="astructae2fCL__AnnSlp_html_a107a34a543860f2ed23ca93bc2c537e7"><div class="ttname"><a href="structae2fCL__AnnSlp.html#a107a34a543860f2ed23ca93bc2c537e7">ae2fCL_AnnSlp::ae2fCL_AnnSlpMk</a></div><div class="ttdeci">ae2f_extern ae2f_SHAREDCALL ae2f_err_t ae2fCL_AnnSlpMk(ae2f_struct ae2fCL_AnnSlp *_this, const ae2f_float_t *weights_optional, size_t inputsCount, ae2fCL_fpAnnAct_t mAct, ae2fCL_fpAnnSlpGetLoss_t fpGetLoss, cl_context ctx, cl_command_queue queue, cl_bool blocking_read, cl_uint num_events_in_wait_list, const cl_event *event_wait_list, cl_event *event)</div><div class="ttdoc">Initialises the class.  The perceptron made by this must pass [ae2fCL_AnnSlpDel] for releasing the re...</div></div>
-<div class="ttc" id="astructae2fCL__AnnSlp_html_a672c3bfc2fa87e4d442a744e05bba0ea"><div class="ttname"><a href="structae2fCL__AnnSlp.html#a672c3bfc2fa87e4d442a744e05bba0ea">ae2fCL_AnnSlp::ae2fCL_AnnSlpDel</a></div><div class="ttdeci">ae2f_extern ae2f_SHAREDCALL ae2f_err_t ae2fCL_AnnSlpDel(ae2fCL_AnnSlp *_this)</div><div class="ttdoc">Release the resource for [_this].</div></div>
-<div class="ttc" id="astructae2fCL__AnnSlp_html_a787ffdca9512927281eca6a8d354747c"><div class="ttname"><a href="structae2fCL__AnnSlp.html#a787ffdca9512927281eca6a8d354747c">ae2fCL_AnnSlp::mpGetLoss</a></div><div class="ttdeci">ae2fCL_fpAnnSlpGetLoss_t mpGetLoss</div><div class="ttdoc">Specifies the way of calculating loss on training.</div><div class="ttdef"><b>Definition</b> Slp.h:54</div></div>
-<div class="ttc" id="astructae2fCL__AnnSlp_html_a84736549cd4306825f7453e3199fb47b"><div class="ttname"><a href="structae2fCL__AnnSlp.html#a84736549cd4306825f7453e3199fb47b">ae2fCL_AnnSlp::ae2fCL_AnnSlpPredictBuffAuto</a></div><div class="ttdeci">ae2f_extern ae2f_SHAREDCALL ae2f_err_t ae2fCL_AnnSlpPredictBuffAuto(const ae2fCL_AnnSlp *_this, const ae2f_float_t *in, ae2f_float_t *out, cl_command_queue queue, cl_bool blocking_read, cl_uint num_events_in_wait_list, const cl_event *event_wait_list, cl_event *event, cl_context context)</div></div>
-<div class="ttc" id="astructae2fCL__AnnSlp_html_a9abdd2224e234d73805e4d5be0cb32ff"><div class="ttname"><a href="structae2fCL__AnnSlp.html#a9abdd2224e234d73805e4d5be0cb32ff">ae2fCL_AnnSlp::ae2fCL_AnnSlpWeightCheck</a></div><div class="ttdeci">#define ae2fCL_AnnSlpWeightCheck(_this, _out, queue)</div><div class="ttdoc">Copies all weights to [_out].</div><div class="ttdef"><b>Definition</b> Slp.h:121</div></div>
-<div class="ttc" id="astructae2fCL__AnnSlp_html_a9ce9d2ed58c9e2a52dcf735f8d685ce6"><div class="ttname"><a href="structae2fCL__AnnSlp.html#a9ce9d2ed58c9e2a52dcf735f8d685ce6">ae2fCL_AnnSlp::ae2fCL_AnnSlpTrainA</a></div><div class="ttdeci">#define ae2fCL_AnnSlpTrainA(_this, in, out, in_idx, out_idx, goal, learning_rate, diff_ret_optional, queue, blocking_read, num_events_in_wait_list, event_wait_list, event)</div><div class="ttdef"><b>Definition</b> Slp.h:385</div></div>
-<div class="ttc" id="astructae2fCL__AnnSlp_html_aa72a3ab346e178bb6d439b55ecb6f943"><div class="ttname"><a href="structae2fCL__AnnSlp.html#aa72a3ab346e178bb6d439b55ecb6f943">ae2fCL_AnnSlp::ae2fCL_AnnSlpPredictB</a></div><div class="ttdeci">#define ae2fCL_AnnSlpPredictB(_this, in, in_idx, outbuff_optional, context, queue, blocking_event, num_events_in_wait_list, event_wait_list, event)</div><div class="ttdef"><b>Definition</b> Slp.h:259</div></div>
-<div class="ttc" id="astructae2fCL__AnnSlp_html_aaca0b008a41b7f3a079b79118c7c1bb8"><div class="ttname"><a href="structae2fCL__AnnSlp.html#aaca0b008a41b7f3a079b79118c7c1bb8">ae2fCL_AnnSlp::ae2fCL_AnnSlpPredictA</a></div><div class="ttdeci">#define ae2fCL_AnnSlpPredictA(_this, in, out, in_idx, out_idx, outbuff_optional, queue, blocking_event, num_events_in_wait_list, event_wait_list, event)</div><div class="ttdef"><b>Definition</b> Slp.h:225</div></div>
-<div class="ttc" id="astructae2fCL__AnnSlp_html_abf77275aa914a60a0032c1c99c6200f9"><div class="ttname"><a href="structae2fCL__AnnSlp.html#abf77275aa914a60a0032c1c99c6200f9">ae2fCL_AnnSlp::ae2fCL_AnnSlpTrainB</a></div><div class="ttdeci">#define ae2fCL_AnnSlpTrainB(_this, in, in_idx, goal, learning_rate, diff_ret_optional, queue, blocking_read, num_events_in_wait_list, event_wait_list, event, context)</div><div class="ttdef"><b>Definition</b> Slp.h:415</div></div>
-<div class="ttc" id="astructae2fCL__AnnSlp_html_ad93d93a8dc9bada0aa6f6cc434885b97"><div class="ttname"><a href="structae2fCL__AnnSlp.html#ad93d93a8dc9bada0aa6f6cc434885b97">ae2fCL_AnnSlp::mAct</a></div><div class="ttdeci">ae2fCL_fpAnnAct_t mAct</div><div class="ttdoc">Activasion function customisable.</div><div class="ttdef"><b>Definition</b> Slp.h:39</div></div>
+<div class="ttc" id="astructae2fCL_1_1Ann_1_1cSlp_html"><div class="ttname"><a href="structae2fCL_1_1Ann_1_1cSlp.html">ae2fCL::Ann::cSlp</a></div><div class="ttdef"><b>Definition</b> Sp.hpp:132</div></div>
+<div class="ttc" id="astructae2fCL__AnnSp_html_a3e9b2a251a9dcaaca9100976883c77a9"><div class="ttname"><a href="structae2fCL__AnnSp.html#a3e9b2a251a9dcaaca9100976883c77a9">ae2fCL_AnnSp::mpGetLoss</a></div><div class="ttdeci">ae2fCL_fpAnnSpGetLoss_t mpGetLoss</div><div class="ttdoc">Specifies the way of calculating loss on training.</div><div class="ttdef"><b>Definition</b> Sp.h:54</div></div>
+<div class="ttc" id="astructae2fCL__AnnSp_html_a45eb642a112780498d499defcef4533f"><div class="ttname"><a href="structae2fCL__AnnSp.html#a45eb642a112780498d499defcef4533f">ae2fCL_AnnSp::ae2fCL_AnnSpWeightCheck</a></div><div class="ttdeci">#define ae2fCL_AnnSpWeightCheck(_this, _out, queue)</div><div class="ttdoc">Copies all weights to [_out].</div><div class="ttdef"><b>Definition</b> Sp.h:121</div></div>
+<div class="ttc" id="astructae2fCL__AnnSp_html_a46a94eee5b612cc59037e22d80d33ac2"><div class="ttname"><a href="structae2fCL__AnnSp.html#a46a94eee5b612cc59037e22d80d33ac2">ae2fCL_AnnSp::ae2fCL_AnnSpPredictA</a></div><div class="ttdeci">#define ae2fCL_AnnSpPredictA(_this, in, out, in_idx, out_idx, outbuff_optional, queue, blocking_event, num_events_in_wait_list, event_wait_list, event)</div><div class="ttdef"><b>Definition</b> Sp.h:225</div></div>
+<div class="ttc" id="astructae2fCL__AnnSp_html_a5c69871767bd14f8724f5560220cd0cb"><div class="ttname"><a href="structae2fCL__AnnSp.html#a5c69871767bd14f8724f5560220cd0cb">ae2fCL_AnnSp::ae2fCL_AnnSpTrainA</a></div><div class="ttdeci">#define ae2fCL_AnnSpTrainA(_this, in, out, in_idx, out_idx, goal, learning_rate, diff_ret_optional, queue, blocking_read, num_events_in_wait_list, event_wait_list, event)</div><div class="ttdef"><b>Definition</b> Sp.h:385</div></div>
+<div class="ttc" id="astructae2fCL__AnnSp_html_a66b85733499923c4dfe3f1ce11cc9ebd"><div class="ttname"><a href="structae2fCL__AnnSp.html#a66b85733499923c4dfe3f1ce11cc9ebd">ae2fCL_AnnSp::ae2fCL_AnnSpPredictB</a></div><div class="ttdeci">#define ae2fCL_AnnSpPredictB(_this, in, in_idx, outbuff_optional, context, queue, blocking_event, num_events_in_wait_list, event_wait_list, event)</div><div class="ttdef"><b>Definition</b> Sp.h:259</div></div>
+<div class="ttc" id="astructae2fCL__AnnSp_html_a7a7c2698f009f6a5153863b70c3a0ac4"><div class="ttname"><a href="structae2fCL__AnnSp.html#a7a7c2698f009f6a5153863b70c3a0ac4">ae2fCL_AnnSp::ae2fCL_AnnSpTrainB</a></div><div class="ttdeci">#define ae2fCL_AnnSpTrainB(_this, in, in_idx, goal, learning_rate, diff_ret_optional, queue, blocking_read, num_events_in_wait_list, event_wait_list, event, context)</div><div class="ttdef"><b>Definition</b> Sp.h:415</div></div>
+<div class="ttc" id="astructae2fCL__AnnSp_html_a832e470fcae686e03fad86dede1daed6"><div class="ttname"><a href="structae2fCL__AnnSp.html#a832e470fcae686e03fad86dede1daed6">ae2fCL_AnnSp::ae2fCL_AnnSpMk</a></div><div class="ttdeci">ae2f_extern ae2f_SHAREDCALL ae2f_err_t ae2fCL_AnnSpMk(ae2f_struct ae2fCL_AnnSp *_this, const ae2f_float_t *weights_optional, size_t inputsCount, ae2fCL_fpAnnAct_t mAct, ae2fCL_fpAnnSpGetLoss_t fpGetLoss, cl_context ctx, cl_command_queue queue, cl_bool blocking_read, cl_uint num_events_in_wait_list, const cl_event *event_wait_list, cl_event *event) noexcept</div><div class="ttdoc">Initialises the class.  The perceptron made by this must pass [ae2fCL_AnnSpDel] for releasing the res...</div></div>
+<div class="ttc" id="astructae2fCL__AnnSp_html_aa7c103255f32daafeb863e02a43955ab"><div class="ttname"><a href="structae2fCL__AnnSp.html#aa7c103255f32daafeb863e02a43955ab">ae2fCL_AnnSp::ae2fCL_AnnSpDel</a></div><div class="ttdeci">ae2f_extern ae2f_SHAREDCALL ae2f_err_t ae2fCL_AnnSpDel(ae2fCL_AnnSp *_this) noexcept</div><div class="ttdoc">Release the resource for [_this].</div></div>
+<div class="ttc" id="astructae2fCL__AnnSp_html_ad2cc81afb22335e808938a2cb625e704"><div class="ttname"><a href="structae2fCL__AnnSp.html#ad2cc81afb22335e808938a2cb625e704">ae2fCL_AnnSp::mAct</a></div><div class="ttdeci">ae2fCL_fpAnnAct_t mAct</div><div class="ttdoc">Activasion function customisable.</div><div class="ttdef"><b>Definition</b> Sp.h:39</div></div>
+<div class="ttc" id="astructae2fCL__AnnSp_html_aecee3a9dfc974081ff2201d796fb0251"><div class="ttname"><a href="structae2fCL__AnnSp.html#aecee3a9dfc974081ff2201d796fb0251">ae2fCL_AnnSp::ae2fCL_AnnSpPredictBuffAuto</a></div><div class="ttdeci">ae2f_extern ae2f_SHAREDCALL ae2f_err_t ae2fCL_AnnSpPredictBuffAuto(const ae2fCL_AnnSp *_this, const ae2f_float_t *in, ae2f_float_t *out, cl_command_queue queue, cl_bool blocking_read, cl_uint num_events_in_wait_list, const cl_event *event_wait_list, cl_event *event, cl_context context) noexcept</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_f9c61c37275185389c71970f3ed76e78.html">SharedHeaders</a></li><li class="navelem"><a class="el" href="dir_0a3e23d79cc1c6723e1899e14c0178ef.html">ae2fCL</a></li><li class="navelem"><a class="el" href="dir_e4ad7b9598f26deebbb62796f43eafb6.html">Ann</a></li><li class="navelem"><a class="el" href="Slp_8hpp.html">Slp.hpp</a></li>
+    <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_f9c61c37275185389c71970f3ed76e78.html">SharedHeaders</a></li><li class="navelem"><a class="el" href="dir_0a3e23d79cc1c6723e1899e14c0178ef.html">ae2fCL</a></li><li class="navelem"><a class="el" href="dir_e4ad7b9598f26deebbb62796f43eafb6.html">Ann</a></li><li class="navelem"><a class="el" href="Sp_8hpp.html">Sp.hpp</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
   </ul>
 </div>

@@ -1,9 +1,9 @@
 var Ann_8h =
 [
     [ "ae2fCL_eAnnKerns", "Ann_8h.html#a29a2dbaf94e278f11fd55268d7ec6db6", [
-      [ "ae2fCL_eAnnKernsSlpMkRand", "Ann_8h.html#a29a2dbaf94e278f11fd55268d7ec6db6a02e58fa3d7f5867eb3fa89c23b4b3c34", null ],
-      [ "ae2fCL_eAnnKernsSlpPredict", "Ann_8h.html#a29a2dbaf94e278f11fd55268d7ec6db6a7b340740dd014c63ca1833a246fd8482", null ],
-      [ "ae2fCL_eAnnKernsSlpTrain", "Ann_8h.html#a29a2dbaf94e278f11fd55268d7ec6db6a627ca7fc989c545f640c31c43de75b4c", null ],
+      [ "ae2fCL_eAnnKernsSpMkRand", "Ann_8h.html#a29a2dbaf94e278f11fd55268d7ec6db6a9ca8c3e0d1c64a62e2c277e5a6bec852", null ],
+      [ "ae2fCL_eAnnKernsSpPredict", "Ann_8h.html#a29a2dbaf94e278f11fd55268d7ec6db6a6f2dbce06eef094aa18efb6b47aa5eac", null ],
+      [ "ae2fCL_eAnnKernsSpTrain", "Ann_8h.html#a29a2dbaf94e278f11fd55268d7ec6db6ac27167cf39fca21da23541f5ee272692", null ],
       [ "ae2fCL_eAnnKerns_LEN", "Ann_8h.html#a29a2dbaf94e278f11fd55268d7ec6db6aec21ad6b1e0678cf484ca8950e8950c0", null ]
     ] ],
     [ "ae2fCL_AnnDel", "Ann_8h.html#a093bee9b6543e279577125c9cb27158d", null ],

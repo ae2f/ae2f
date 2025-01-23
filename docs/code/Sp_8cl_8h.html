@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.13.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>ae2f: include/Source/CLCode/Slp.cl.h File Reference</title>
+<title>ae2f: include/Source/CLCode/Sp.cl.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -77,7 +77,7 @@ $(function() { codefold.init(0); });
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function(){initNavTree('Slp_8cl_8h.html',''); initResizable(true); });
+$(function(){initNavTree('Sp_8cl_8h.html',''); initResizable(true); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -105,35 +105,35 @@ $(function(){initNavTree('Slp_8cl_8h.html',''); initResizable(true); });
 <div class="header">
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">Slp.cl.h File Reference</div></div>
+  <div class="headertitle"><div class="title">Sp.cl.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;ae2f/Float.h&gt;</code><br />
 <code>#include &lt;ae2fCL/Loc.h&gt;</code><br />
 <code>#include &lt;ae2fCL/Ann/Sizes/cl_mem.h&gt;</code><br />
-<code>#include &lt;<a class="el" href="Slp_8h_source.html">ae2fCL/Ann/Slp.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="Sp_8h_source.html">ae2fCL/Ann/Sp.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="LcgRand_8h_source.html">ae2fCL/Ann/LcgRand.h</a>&gt;</code><br />
 </div>
-<p><a href="Slp_8cl_8h_source.html">Go to the source code of this file.</a></p>
+<p><a href="Sp_8cl_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a2ed0bec2dfdf4a01145073cf563fe641" id="r_a2ed0bec2dfdf4a01145073cf563fe641"><td class="memItemLeft" align="right" valign="top">__kernel void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ed0bec2dfdf4a01145073cf563fe641">ae2fCL_eAnnKernsSlpMkRand</a> (__global ae2f_float_t *_out, uint32_t seedA, uint32_t seedB)</td></tr>
-<tr class="separator:a2ed0bec2dfdf4a01145073cf563fe641"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a2387510c1f7b861159ff26cfb88472" id="r_a3a2387510c1f7b861159ff26cfb88472"><td class="memItemLeft" align="right" valign="top">__kernel void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a2387510c1f7b861159ff26cfb88472">ae2fCL_eAnnKernsSlpPredict</a> (__global const <a class="el" href="structae2fCL__AnnSlp.html">ae2fCL_AnnSlp</a> *_this, __global ae2f_float_t *out, const __global ae2f_float_t *field, const __global ae2f_float_t *in, ae2fCL_whenCL(__local) ae2f_float_t *loc, uint32_t out_idx, uint32_t in_idx)</td></tr>
-<tr class="separator:a3a2387510c1f7b861159ff26cfb88472"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a61cea1f1ff57d7ca3a29178d678a4b72" id="r_a61cea1f1ff57d7ca3a29178d678a4b72"><td class="memItemLeft" align="right" valign="top">__kernel void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a61cea1f1ff57d7ca3a29178d678a4b72">ae2fCL_eAnnKernsSlpTrain</a> (__global const ae2f_float_t *_in, __global ae2f_float_t *field, ae2f_float_t LrErr, uint32_t in_idx)</td></tr>
-<tr class="separator:a61cea1f1ff57d7ca3a29178d678a4b72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ca79a171d8f23bd5aa47679ec4a6947" id="r_a7ca79a171d8f23bd5aa47679ec4a6947"><td class="memItemLeft" align="right" valign="top">__kernel void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ca79a171d8f23bd5aa47679ec4a6947">ae2fCL_eAnnKernsSpMkRand</a> (__global ae2f_float_t *_out, uint32_t seedA, uint32_t seedB)</td></tr>
+<tr class="separator:a7ca79a171d8f23bd5aa47679ec4a6947"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f5d2d1a191973036b24429140fab377" id="r_a7f5d2d1a191973036b24429140fab377"><td class="memItemLeft" align="right" valign="top">__kernel void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f5d2d1a191973036b24429140fab377">ae2fCL_eAnnKernsSpPredict</a> (__global const <a class="el" href="structae2fCL__AnnSp.html">ae2fCL_AnnSp</a> *_this, __global ae2f_float_t *out, const __global ae2f_float_t *field, const __global ae2f_float_t *in, ae2fCL_whenCL(__local) ae2f_float_t *loc, uint32_t out_idx, uint32_t in_idx)</td></tr>
+<tr class="separator:a7f5d2d1a191973036b24429140fab377"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31a7c21a8ea961cd3f69561aafd2faa2" id="r_a31a7c21a8ea961cd3f69561aafd2faa2"><td class="memItemLeft" align="right" valign="top">__kernel void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a31a7c21a8ea961cd3f69561aafd2faa2">ae2fCL_eAnnKernsSpTrain</a> (__global const ae2f_float_t *_in, __global ae2f_float_t *field, ae2f_float_t LrErr, uint32_t in_idx)</td></tr>
+<tr class="separator:a31a7c21a8ea961cd3f69561aafd2faa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a2ed0bec2dfdf4a01145073cf563fe641" name="a2ed0bec2dfdf4a01145073cf563fe641"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2ed0bec2dfdf4a01145073cf563fe641">&#9670;&#160;</a></span>ae2fCL_eAnnKernsSlpMkRand()</h2>
+<a id="a7ca79a171d8f23bd5aa47679ec4a6947" name="a7ca79a171d8f23bd5aa47679ec4a6947"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ca79a171d8f23bd5aa47679ec4a6947">&#9670;&#160;</a></span>ae2fCL_eAnnKernsSpMkRand()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">__kernel void ae2fCL_eAnnKernsSlpMkRand </td>
+          <td class="memname">__kernel void ae2fCL_eAnnKernsSpMkRand </td>
           <td>(</td>
           <td class="paramtype">__global ae2f_float_t *</td>          <td class="paramname"><span class="paramname"><em>_out</em></span>, </td>
         </tr>
@@ -160,16 +160,16 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a3a2387510c1f7b861159ff26cfb88472" name="a3a2387510c1f7b861159ff26cfb88472"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3a2387510c1f7b861159ff26cfb88472">&#9670;&#160;</a></span>ae2fCL_eAnnKernsSlpPredict()</h2>
+<a id="a7f5d2d1a191973036b24429140fab377" name="a7f5d2d1a191973036b24429140fab377"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f5d2d1a191973036b24429140fab377">&#9670;&#160;</a></span>ae2fCL_eAnnKernsSpPredict()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">__kernel void ae2fCL_eAnnKernsSlpPredict </td>
+          <td class="memname">__kernel void ae2fCL_eAnnKernsSpPredict </td>
           <td>(</td>
-          <td class="paramtype">__global const <a class="el" href="structae2fCL__AnnSlp.html">ae2fCL_AnnSlp</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+          <td class="paramtype">__global const <a class="el" href="structae2fCL__AnnSp.html">ae2fCL_AnnSp</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -219,14 +219,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a61cea1f1ff57d7ca3a29178d678a4b72" name="a61cea1f1ff57d7ca3a29178d678a4b72"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a61cea1f1ff57d7ca3a29178d678a4b72">&#9670;&#160;</a></span>ae2fCL_eAnnKernsSlpTrain()</h2>
+<a id="a31a7c21a8ea961cd3f69561aafd2faa2" name="a31a7c21a8ea961cd3f69561aafd2faa2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31a7c21a8ea961cd3f69561aafd2faa2">&#9670;&#160;</a></span>ae2fCL_eAnnKernsSpTrain()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">__kernel void ae2fCL_eAnnKernsSlpTrain </td>
+          <td class="memname">__kernel void ae2fCL_eAnnKernsSpTrain </td>
           <td>(</td>
           <td class="paramtype">__global const ae2f_float_t *</td>          <td class="paramname"><span class="paramname"><em>_in</em></span>, </td>
         </tr>
@@ -265,7 +265,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_220e3ad4ef5ffca7d775c66641496008.html">Source</a></li><li class="navelem"><a class="el" href="dir_79610c48c875126f39c4e814a1806130.html">CLCode</a></li><li class="navelem"><a class="el" href="Slp_8cl_8h.html">Slp.cl.h</a></li>
+    <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_220e3ad4ef5ffca7d775c66641496008.html">Source</a></li><li class="navelem"><a class="el" href="dir_79610c48c875126f39c4e814a1806130.html">CLCode</a></li><li class="navelem"><a class="el" href="Sp_8cl_8h.html">Sp.cl.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
   </ul>
 </div>

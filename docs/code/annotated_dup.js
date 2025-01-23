@@ -44,9 +44,10 @@ var annotated_dup =
     [ "ae2f_rBmpIdx", "structae2f__rBmpIdx.html", "structae2f__rBmpIdx" ],
     [ "ae2f_UnionCaster", "unionae2f__UnionCaster.html", null ],
     [ "ae2f_vDsAlloc", "structae2f__vDsAlloc.html", null ],
+    [ "ae2fCL_AnnMlp", "structae2fCL__AnnMlp.html", "structae2fCL__AnnMlp" ],
     [ "ae2fCL_AnnSlp", "structae2fCL__AnnSlp.html", "structae2fCL__AnnSlp" ],
-    [ "ae2fCL_AnnSlpMultiple", "structae2fCL__AnnSlpMultiple.html", null ],
-    [ "ae2fCL_AnnSlpMultipleEl", "structae2fCL__AnnSlpMultipleEl.html", null ],
+    [ "ae2fCL_AnnSlpEl", "structae2fCL__AnnSlpEl.html", null ],
+    [ "ae2fCL_AnnSp", "structae2fCL__AnnSp.html", "structae2fCL__AnnSp" ],
     [ "ae2fCL_cBmpBuff", "structae2fCL__cBmpBuff.html", null ],
     [ "ae2fCL_ui32_64", "unionae2fCL__ui32__64.html", null ]
 ];
