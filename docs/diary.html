@@ -9,6 +9,127 @@
     <h1><s>TODO</s> Diary</h1>
     <p>Newer will be on top.</p>
 
+    <h2>23.Jan.2025</h2>
+    <p>
+        The pseudo code for MLP is now complete under python. <br>
+        This is how I've implemented. <br/><br/>
+        
+        Comments may have written in Korean.
+    </p>
+    <fieldset>
+    <pre>
+import random
+import math
+
+# 단층 퍼셉트론 클래스
+# 하나의 output을 반환한다
+class Perceptron:
+    def __init__(self, input_size):
+        self.weights = [random.uniform(-1, 1) for _ in range(input_size)]
+        self.bias = random.uniform(-1, 1)
+    
+    def activation(self, x):
+        return 1 / (1 + math.exp(-x))
+    
+    def activation_derivative(self, output):
+        return output * (1 - output)
+    
+    def forward(self, inputs):
+        total = sum(w * i for w, i in zip(self.weights, inputs)) + self.bias
+        return self.activation(total)
+    
+    def compute_delta(self, output, target):
+        return (target - output) * self.activation_derivative(output)
+    
+    def train(self, inputs, target, LEARNING_RATE):
+        output = self.forward(inputs)
+        delta = self.compute_delta(output, target)
+        for i in range(len(self.weights)):
+            self.weights[i] += LEARNING_RATE * delta * inputs[i]
+        self.bias += LEARNING_RATE * delta
+
+# 다중 출력 단층 퍼셉트론 (SLP) 클래스
+class SLP:
+    def __init__(self, input_size, output_size):
+        self.perceptrons = [Perceptron(input_size) for _ in range(output_size)]
+    
+    def forward(self, inputs):
+        return [p.forward(inputs) for p in self.perceptrons]
+    
+    def train(self, inputs, targets, LEARNING_RATE):
+        for p, target in zip(self.perceptrons, targets):
+            p.train(inputs, target, LEARNING_RATE)
+            
+# 다층 퍼셉트론 (MLP) 클래스
+class MLP:
+    def __init__(self, input_size, hidden_size, output_size):
+        self.hidden = SLP(input_size, hidden_size)
+        self.output = SLP(hidden_size, output_size)
+    
+    def forward(self, inputs):
+        hidden_output = self.hidden.forward(inputs)
+        return self.output.forward(hidden_output)
+    
+    def train(self, inputs, targets, LEARNING_RATE):
+        # 순전파
+        hidden_output = self.hidden.forward(inputs)
+        __output = self.output.forward(hidden_output)
+        
+        # 출력층 델타 계산
+        output_deltas = []
+        for i in range(len(self.output.perceptrons)):
+            delta = self.output.perceptrons[i].compute_delta(__output[i], targets[i])
+            output_deltas.append(delta)
+        
+        # 은닉층 델타 계산
+        hidden_goal = []
+        hidden_deltas = []
+        for i in range(len(self.hidden.perceptrons)):
+            error = sum(self.output.perceptrons[j].weights[i] * output_deltas[j] for j in range(len(self.output.perceptrons)))
+            target = error + hidden_output[i]
+            delta = self.hidden.perceptrons[i].compute_delta(hidden_output[i], target)
+
+            # 이건 다음 에러 계산에 쓸 거
+            hidden_deltas.append(delta)
+            
+            # 이건 딸각에 넘겨줄 거
+            hidden_goal.append(target)
+            
+        # 역전파 딸-깍
+        self.output.train(hidden_output, targets, LEARNING_RATE)
+        self.hidden.train(inputs, hidden_goal, LEARNING_RATE)
+        
+        return
+
+# XOR 학습 함수
+def generate_xor_data():
+    return [
+        ([0, 0], [0, 1]),
+        ([0, 1], [1, 0]),
+        ([1, 0], [1, 0]),
+        ([1, 1], [0, 1])
+    ]
+
+def train_xor():
+    DATA = generate_xor_data()
+    mlp = MLP(input_size=2, hidden_size=18, output_size=2)
+    EPOCHS = 10000
+    LEARNING_RATE = 0.1
+    
+    for _ in range(EPOCHS):
+        for inputs, targets in DATA:
+            mlp.train(inputs, targets, LEARNING_RATE)
+    
+    # 학습된 결과 출력
+    for inputs, targets in DATA:
+        output = mlp.forward(inputs)
+        print(f"입력: {inputs}, 예측: {output}, 실제: {targets}")
+
+if __name__ == "__main__":
+    train_xor()        
+    </pre>
+    </fieldset>
+
     <h2>21.Jan.2025</h2>
     <p>
         Most of header files are not written by doxygen.
