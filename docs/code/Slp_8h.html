@@ -105,7 +105,8 @@ $(function(){initNavTree('Slp_8h.html',''); initResizable(true); });
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#typedef-members">Typedefs</a>  </div>
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">Slp.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -116,6 +117,8 @@ $(function(){initNavTree('Slp_8h.html',''); initResizable(true); });
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structae2fCL__AnnSlpEl.html">ae2fCL_AnnSlpEl</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An element type of <a class="el" href="structae2fCL__AnnSlp.html">ae2fCL_AnnSlp</a>. <br  />
+<a class="el" href="structae2fCL__AnnSlp.html">ae2fCL_AnnSlp</a> has its responsibility for memory.  <a href="structae2fCL__AnnSlpEl.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structae2fCL__AnnSlp.html">ae2fCL_AnnSlp</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -124,11 +127,39 @@ Classes</h2></td></tr>
 Typedefs</h2></td></tr>
 <tr class="memitem:ad5ae2639df12123cc662c99f0c096cde" id="r_ad5ae2639df12123cc662c99f0c096cde"><td class="memItemLeft" align="right" valign="top"><a id="ad5ae2639df12123cc662c99f0c096cde" name="ad5ae2639df12123cc662c99f0c096cde"></a>
 typedef struct ae2fCL_AnnSlpEl&#160;</td><td class="memItemRight" valign="bottom"><b>ae2fCL_AnnSlpEl</b></td></tr>
+<tr class="memdesc:ad5ae2639df12123cc662c99f0c096cde"><td class="mdescLeft">&#160;</td><td class="mdescRight">An element type of <a class="el" href="structae2fCL__AnnSlp.html">ae2fCL_AnnSlp</a>. <br  />
+<a class="el" href="structae2fCL__AnnSlp.html">ae2fCL_AnnSlp</a> has its responsibility for memory. <br /></td></tr>
 <tr class="separator:ad5ae2639df12123cc662c99f0c096cde"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a29246e9ebdf0f876c90b07ed80cac0ec" id="r_a29246e9ebdf0f876c90b07ed80cac0ec"><td class="memItemLeft" align="right" valign="top"><a id="a29246e9ebdf0f876c90b07ed80cac0ec" name="a29246e9ebdf0f876c90b07ed80cac0ec"></a>
-typedef struct ae2fCL_AnnSlp&#160;</td><td class="memItemRight" valign="bottom"><b>ae2fCL_AnnSlp</b></td></tr>
+<tr class="memitem:a29246e9ebdf0f876c90b07ed80cac0ec" id="r_a29246e9ebdf0f876c90b07ed80cac0ec"><td class="memItemLeft" align="right" valign="top">typedef struct ae2fCL_AnnSlp&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29246e9ebdf0f876c90b07ed80cac0ec">ae2fCL_AnnSlp</a></td></tr>
 <tr class="separator:a29246e9ebdf0f876c90b07ed80cac0ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a0c168cb6219422617526c72dce215d8f" id="r_a0c168cb6219422617526c72dce215d8f"><td class="memItemLeft" align="right" valign="top"><a id="a0c168cb6219422617526c72dce215d8f" name="a0c168cb6219422617526c72dce215d8f"></a>
+ae2f_extern ae2f_SHAREDCALL <a class="el" href="errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>ae2fCL_AnnSlpPredict</b> (const <a class="el" href="structae2fCL__AnnSlp.html">ae2fCL_AnnSlp</a> *_this, ae2fCL_HostPtr(__global, ae2f_float_t) in, ae2fCL_HostPtr(__global, ae2f_float_t) out_optionalA, uint32_t in_idx, uint32_t out_idx_optionalA, ae2f_float_t *outbuff_optional_, cl_command_queue queue, cl_bool blocking_event, cl_uint num_events_in_wait_list, const cl_event *event_wait_list, cl_event *event, cl_context context_optionalB) noexcept</td></tr>
+<tr class="separator:a0c168cb6219422617526c72dce215d8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e05a781c9745cab619a63ac71a5f7ef" id="r_a5e05a781c9745cab619a63ac71a5f7ef"><td class="memItemLeft" align="right" valign="top"><a id="a5e05a781c9745cab619a63ac71a5f7ef" name="a5e05a781c9745cab619a63ac71a5f7ef"></a>
+ae2f_extern ae2f_SHAREDCALL <a class="el" href="errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>ae2fCL_AnnSlpTrain</b> (<a class="el" href="structae2fCL__AnnSlp.html">ae2fCL_AnnSlp</a> *_this, ae2fCL_HostPtr(__global, ae2f_float_t) in, ae2fCL_HostPtr(__global, ae2f_float_t) out_optionalA, uint32_t in_idx, uint32_t out_idx_optionalA, const ae2f_float_t *goal, ae2f_float_t LearningRateGlobal_optional_A, ae2f_float_t *LearningRateArr_optional_B, ae2f_float_t *diff_ret_optional, const ae2f_float_t *delta_precalculated, cl_command_queue queue, cl_bool blocking_read, cl_uint num_events_in_wait_list, const cl_event *event_wait_list, cl_event *event, cl_context context_optionalB) noexcept</td></tr>
+<tr class="separator:a5e05a781c9745cab619a63ac71a5f7ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a29246e9ebdf0f876c90b07ed80cac0ec" name="a29246e9ebdf0f876c90b07ed80cac0ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29246e9ebdf0f876c90b07ed80cac0ec">&#9670;&#160;</a></span>ae2fCL_AnnSlp</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct ae2fCL_AnnSlp ae2fCL_AnnSlp</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<h1><a class="anchor" id="autotoc_md23"></a>
+Single Layered Perceptron</h1>
+<p>Expecting the implementation of single perceptron, this structure is able to predict multiple output by stacking the perceptron. </p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

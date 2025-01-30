@@ -29,8 +29,8 @@ var hierarchy =
     [ "ae2fCL_AnnSlp", "structae2fCL__AnnSlp.html", null ],
     [ "ae2fCL_AnnSlpEl", "structae2fCL__AnnSlpEl.html", null ],
     [ "ae2fCL_AnnSp", "structae2fCL__AnnSp.html", [
-      [ "ae2fCL::Ann::cSlpRefer", "classae2fCL_1_1Ann_1_1cSlpRefer.html", [
-        [ "ae2fCL::Ann::cSlp", "structae2fCL_1_1Ann_1_1cSlp.html", null ]
+      [ "ae2fCL::Ann::cSpRefer", "classae2fCL_1_1Ann_1_1cSpRefer.html", [
+        [ "ae2fCL::Ann::cSp", "structae2fCL_1_1Ann_1_1cSp.html", null ]
       ] ]
     ] ],
     [ "ae2fCL_cBmpBuff", "structae2fCL__cBmpBuff.html", null ],

@@ -31,8 +31,8 @@ var annotated_dup =
     ] ],
     [ "ae2fCL", null, [
       [ "Ann", null, [
-        [ "cSlp", "structae2fCL_1_1Ann_1_1cSlp.html", null ],
-        [ "cSlpRefer", "classae2fCL_1_1Ann_1_1cSlpRefer.html", null ]
+        [ "cSp", "structae2fCL_1_1Ann_1_1cSp.html", null ],
+        [ "cSpRefer", "classae2fCL_1_1Ann_1_1cSpRefer.html", null ]
       ] ]
     ] ],
     [ "ae2f_cBmpSrc", "structae2f__cBmpSrc.html", "structae2f__cBmpSrc" ],
@@ -46,7 +46,7 @@ var annotated_dup =
     [ "ae2f_vDsAlloc", "structae2f__vDsAlloc.html", null ],
     [ "ae2fCL_AnnMlp", "structae2fCL__AnnMlp.html", "structae2fCL__AnnMlp" ],
     [ "ae2fCL_AnnSlp", "structae2fCL__AnnSlp.html", "structae2fCL__AnnSlp" ],
-    [ "ae2fCL_AnnSlpEl", "structae2fCL__AnnSlpEl.html", null ],
+    [ "ae2fCL_AnnSlpEl", "structae2fCL__AnnSlpEl.html", "structae2fCL__AnnSlpEl" ],
     [ "ae2fCL_AnnSp", "structae2fCL__AnnSp.html", "structae2fCL__AnnSp" ],
     [ "ae2fCL_cBmpBuff", "structae2fCL__cBmpBuff.html", null ],
     [ "ae2fCL_ui32_64", "unionae2fCL__ui32__64.html", null ]

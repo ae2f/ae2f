@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['v_0',['v',['../structae2f__cDsAlloc.html#ae58b877f79253c5a77ac2d6ea8746016',1,'ae2f_cDsAlloc']]]
+  ['perceptron_0',['Perceptron',['../structae2fCL__AnnSlpEl.html#a0fffaad8d4dead3eb65f40de49a02122',1,'ae2fCL_AnnSlpEl']]]
 ];

@@ -9,6 +9,23 @@
     <h1><s>TODO</s> Diary</h1>
     <p>Newer will be on top.</p>
 
+    <h2>30.Jan.2025</h2>
+    <p>
+        The problem of MLP test of learning XOR was not actually the Training part, but the Predict part. <br/>
+        Problem(solved) is visible <a href="https://github.com/ae2f/CL-Ann/commit/52f48472f912089fc82ad48b84f98ee062c56ca8#diff-380c9639b6e1e1333efd23570a7c5ba7a1fecf06363540a5b77b5b1c6a2ef436L134">here(Line 134, src/Slp.c).</a>
+    </p>
+    <p>
+        The ae2fCL_AnnMlpPredict works as following: <br/>
+        <ol>
+            <li>Perform ae2fCL_AnnSlpPredict for each element of the List of Mlp.</li>
+            <li>Previous output will be considered as next input.</li>
+        </ol>
+
+        Problem was mistaking on indexing the [buffobj]. <br/>
+        The variable was to store the previous output, but the sector of output to write and input to read has been separated. <br/>
+        It resulted the situation that buffobj has been constant as value at first, and that caused malfunctioning of Prediction.
+    </p>
+
     <h2>24.Jan.2025</h2>
     <p>
         Don't know why though predict function from mlp is returning only zero. <br/>
