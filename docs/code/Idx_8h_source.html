@@ -110,10 +110,10 @@ $(function(){initNavTree('Idx_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define ae2f_Bmp_Idxer_h</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;<a class="code" href="errGlob_8h.html">ae2f/errGlob.h</a>&gt;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;ae2f/Cmp.h&gt;</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;ae2f/Cast.h&gt;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;<a class="code" href="Cmp_8h.html">ae2f/Cmp.h</a>&gt;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;<a class="code" href="Cast_8h.html">ae2f/Cast.h</a>&gt;</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;ae2f/Pack/Beg.h&gt;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;<a class="code" href="Beg_8h.html">ae2f/Pack/Beg.h</a>&gt;</span></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span></div>
 <div class="foldopen" id="foldopen00014" data-start="{" data-end="};">
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="structae2f__rBmpIdx.html">   14</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structae2f__rBmpIdx.html">ae2f_rBmpIdx</a> {</div>
@@ -128,7 +128,7 @@ $(function(){initNavTree('Idx_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>};</div>
 </div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="preprocessor">#include &lt;ae2f/Pack/End.h&gt;</span></div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="preprocessor">#include &lt;<a class="code" href="End_8h.html">ae2f/Pack/End.h</a>&gt;</span></div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span></div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="preprocessor">#define ae2f_BmpIdxW(rIdxer) ((rIdxer).IdxXJump - (rIdxer).CurrX)</span></div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span></div>
@@ -145,6 +145,10 @@ $(function(){initNavTree('Idx_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span><span class="preprocessor">#define ae2f_BmpIdxCut(rIdxer, mX, MX, mY, MY) (((ae2f_BmpIdxDrive(rIdxer, mX, mY) == -1 || ae2f_BmpIdxDrive(rIdxer, MX, MY)) == -1) ? ae2f_RecordMk(ae2f_struct ae2f_rBmpIdx, 0, 0, 0, 0) : ae2f_RecordMk(ae2f_struct ae2f_rBmpIdx, (rIdxer).Width, ae2f_BmpIdxDrive(rIdxer, MX, MY), (rIdxer).CurrX + mX, (rIdxer).CurrX + MX))</span></div>
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span> </div>
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aBeg_8h_html"><div class="ttname"><a href="Beg_8h.html">Beg.h</a></div></div>
+<div class="ttc" id="aCast_8h_html"><div class="ttname"><a href="Cast_8h.html">Cast.h</a></div></div>
+<div class="ttc" id="aCmp_8h_html"><div class="ttname"><a href="Cmp_8h.html">Cmp.h</a></div></div>
+<div class="ttc" id="aEnd_8h_html"><div class="ttname"><a href="End_8h.html">End.h</a></div></div>
 <div class="ttc" id="aerrGlob_8h_html"><div class="ttname"><a href="errGlob_8h.html">errGlob.h</a></div></div>
 <div class="ttc" id="astructae2f__rBmpIdx_html"><div class="ttname"><a href="structae2f__rBmpIdx.html">ae2f_rBmpIdx</a></div><div class="ttdoc">Suggest array as matrix.</div><div class="ttdef"><b>Definition</b> Idx.h:14</div></div>
 <div class="ttc" id="astructae2f__rBmpIdx_html_a28881f21efcc81e9aca997cfc716a2a0"><div class="ttname"><a href="structae2f__rBmpIdx.html#a28881f21efcc81e9aca997cfc716a2a0">ae2f_rBmpIdx::Width</a></div><div class="ttdeci">uint32_t Width</div><div class="ttdoc">Actually considered width [Global width].</div><div class="ttdef"><b>Definition</b> Idx.h:17</div></div>

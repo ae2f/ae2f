@@ -119,27 +119,27 @@ $(function(){initNavTree('Sp_8hpp_source.html',''); initResizable(true); });
 <div class="foldopen" id="foldopen00011" data-start="{" data-end="};">
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="classae2fCL_1_1Ann_1_1cSpRefer.html">   11</a></span>    <span class="keyword">class </span>cSpRefer : <span class="keyword">public</span> Sp {</div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>        <span class="keyword">friend</span> cSp;</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>        <span class="keyword">constexpr</span> cSpRefer() noexcept : Sp() {}</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>        <span class="keyword">constexpr</span> cSpRefer() <a class="code hl_define" href="Cast_8h.html#a189faadd7f99f6c354db09acbb2aafcd">noexcept</a> : Sp() {}</div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>        </div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>        <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>        <span class="keyword">constexpr</span> cSpRefer(<span class="keyword">const</span> Sp&amp; slp) noexcept : Sp(slp) {}</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>        <span class="keyword">constexpr</span> cSpRefer(<span class="keyword">const</span> Sp&amp;&amp; slp) noexcept : Sp(slp) {}</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>        <span class="keyword">constexpr</span> cSpRefer(<span class="keyword">const</span> Sp&amp; slp) <a class="code hl_define" href="Cast_8h.html#a189faadd7f99f6c354db09acbb2aafcd">noexcept</a> : Sp(slp) {}</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>        <span class="keyword">constexpr</span> cSpRefer(<span class="keyword">const</span> Sp&amp;&amp; slp) <a class="code hl_define" href="Cast_8h.html#a189faadd7f99f6c354db09acbb2aafcd">noexcept</a> : Sp(slp) {}</div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>        <span class="keyword">constexpr</span> cSpRefer(<span class="keyword">const</span> Sp&amp; slp, <span class="keyword">const</span> ae2fCL_fpAnnAct_t act, <span class="keyword">const</span> ae2fCL_fpAnnSpGetLoss_t loss) </div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>            noexcept : Sp(slp) { this-&gt;<a class="code hl_variable" href="structae2fCL__AnnSp.html#ad2cc81afb22335e808938a2cb625e704">mAct</a> = act; this-&gt;<a class="code hl_variable" href="structae2fCL__AnnSp.html#a3e9b2a251a9dcaaca9100976883c77a9">mpGetLoss</a> = loss; }</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>            <a class="code hl_define" href="Cast_8h.html#a189faadd7f99f6c354db09acbb2aafcd">noexcept</a> : Sp(slp) { this-&gt;<a class="code hl_variable" href="structae2fCL__AnnSp.html#ad2cc81afb22335e808938a2cb625e704">mAct</a> = act; this-&gt;<a class="code hl_variable" href="structae2fCL__AnnSp.html#a3e9b2a251a9dcaaca9100976883c77a9">mpGetLoss</a> = loss; }</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>        <span class="keyword">constexpr</span> cSpRefer(<span class="keyword">const</span> Sp&amp;&amp; slp, <span class="keyword">const</span> ae2fCL_fpAnnAct_t act, <span class="keyword">const</span> ae2fCL_fpAnnSpGetLoss_t loss) </div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>            noexcept : Sp(slp) { this-&gt;<a class="code hl_variable" href="structae2fCL__AnnSp.html#ad2cc81afb22335e808938a2cb625e704">mAct</a> = act; this-&gt;<a class="code hl_variable" href="structae2fCL__AnnSp.html#a3e9b2a251a9dcaaca9100976883c77a9">mpGetLoss</a> = loss; }</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>            <a class="code hl_define" href="Cast_8h.html#a189faadd7f99f6c354db09acbb2aafcd">noexcept</a> : Sp(slp) { this-&gt;<a class="code hl_variable" href="structae2fCL__AnnSp.html#ad2cc81afb22335e808938a2cb625e704">mAct</a> = act; this-&gt;<a class="code hl_variable" href="structae2fCL__AnnSp.html#a3e9b2a251a9dcaaca9100976883c77a9">mpGetLoss</a> = loss; }</div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>        <span class="keyword">inline</span> cl_int WeightCheck(ae2f_float_t* buff, cl_command_queue queue) <span class="keyword">const</span> <span class="keyword">noexcept</span> {</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>        <span class="keyword">inline</span> cl_int WeightCheck(<a class="code hl_typedef" href="Float_8h.html#ad029f2802bba9d269cdc890f4f1205d7">ae2f_float_t</a>* buff, cl_command_queue queue) <span class="keyword">const</span> <span class="keyword">noexcept</span> {</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>            <span class="keywordflow">return</span> <a class="code hl_define" href="structae2fCL__AnnSp.html#a45eb642a112780498d499defcef4533f">ae2fCL_AnnSpWeightCheck</a>(<span class="keyword">this</span>, buff, queue);</div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>        }</div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>        <span class="keyword">inline</span> <a class="code hl_typedef" href="errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a> Predict(</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>            <a class="code hl_define" href="Loc_8h.html#a28b2b590047f103dcbadc23fc5ba5f79">ae2fCL_HostPtr</a>(<a class="code hl_define" href="Loc_8h.html#a0bcdca9f6e5923ea191d934ec3400d9e">__global</a>, ae2f_float_t) in,</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>            <a class="code hl_define" href="Loc_8h.html#a28b2b590047f103dcbadc23fc5ba5f79">ae2fCL_HostPtr</a>(<a class="code hl_define" href="Loc_8h.html#a0bcdca9f6e5923ea191d934ec3400d9e">__global</a>, ae2f_float_t) out,</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>            <a class="code hl_define" href="Loc_8h.html#a28b2b590047f103dcbadc23fc5ba5f79">ae2fCL_HostPtr</a>(<a class="code hl_define" href="Loc_8h.html#a0bcdca9f6e5923ea191d934ec3400d9e">__global</a>, <a class="code hl_typedef" href="Float_8h.html#ad029f2802bba9d269cdc890f4f1205d7">ae2f_float_t</a>) in,</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>            <a class="code hl_define" href="Loc_8h.html#a28b2b590047f103dcbadc23fc5ba5f79">ae2fCL_HostPtr</a>(<a class="code hl_define" href="Loc_8h.html#a0bcdca9f6e5923ea191d934ec3400d9e">__global</a>, <a class="code hl_typedef" href="Float_8h.html#ad029f2802bba9d269cdc890f4f1205d7">ae2f_float_t</a>) out,</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>            uint32_t in_idx,</div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>            uint32_t out_idx,</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>            ae2f_float_t* outbuff_optional,</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>            <a class="code hl_typedef" href="Float_8h.html#ad029f2802bba9d269cdc890f4f1205d7">ae2f_float_t</a>* outbuff_optional,</div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>            cl_command_queue queue,</div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>            cl_bool blocking_event,</div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>            cl_uint num_events_in_wait_list,</div>
@@ -154,9 +154,9 @@ $(function(){initNavTree('Sp_8hpp_source.html',''); initResizable(true); });
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>        }</div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>        <span class="keyword">inline</span> <a class="code hl_typedef" href="errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a> Predict(</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>            <a class="code hl_define" href="Loc_8h.html#a28b2b590047f103dcbadc23fc5ba5f79">ae2fCL_HostPtr</a>(<a class="code hl_define" href="Loc_8h.html#a0bcdca9f6e5923ea191d934ec3400d9e">__global</a>, ae2f_float_t) in,</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>            <a class="code hl_define" href="Loc_8h.html#a28b2b590047f103dcbadc23fc5ba5f79">ae2fCL_HostPtr</a>(<a class="code hl_define" href="Loc_8h.html#a0bcdca9f6e5923ea191d934ec3400d9e">__global</a>, <a class="code hl_typedef" href="Float_8h.html#ad029f2802bba9d269cdc890f4f1205d7">ae2f_float_t</a>) in,</div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>            uint32_t in_idx,</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>            ae2f_float_t* outbuff_optional,</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>            <a class="code hl_typedef" href="Float_8h.html#ad029f2802bba9d269cdc890f4f1205d7">ae2f_float_t</a>* outbuff_optional,</div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>            cl_command_queue queue,</div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>            cl_bool blocking_event,</div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>            cl_uint num_events_in_wait_list,</div>
@@ -173,8 +173,8 @@ $(function(){initNavTree('Sp_8hpp_source.html',''); initResizable(true); });
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>        }</div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>        <span class="keyword">inline</span> <a class="code hl_typedef" href="errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a> Predict(</div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>            <span class="keyword">const</span> ae2f_float_t* in,</div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>            ae2f_float_t* out,</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>            <span class="keyword">const</span> <a class="code hl_typedef" href="Float_8h.html#ad029f2802bba9d269cdc890f4f1205d7">ae2f_float_t</a>* in,</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>            <a class="code hl_typedef" href="Float_8h.html#ad029f2802bba9d269cdc890f4f1205d7">ae2f_float_t</a>* out,</div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>            cl_command_queue queue,</div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>            cl_bool blocking_read,</div>
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>            cl_uint num_events_in_wait_list,</div>
@@ -190,14 +190,14 @@ $(function(){initNavTree('Sp_8hpp_source.html',''); initResizable(true); });
 <div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>        }</div>
 <div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span> </div>
 <div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>        <span class="keyword">inline</span> <a class="code hl_typedef" href="errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a> Train(</div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>            <a class="code hl_define" href="Loc_8h.html#a28b2b590047f103dcbadc23fc5ba5f79">ae2fCL_HostPtr</a>(<a class="code hl_define" href="Loc_8h.html#a0bcdca9f6e5923ea191d934ec3400d9e">__global</a>, ae2f_float_t) in,</div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>            <a class="code hl_define" href="Loc_8h.html#a28b2b590047f103dcbadc23fc5ba5f79">ae2fCL_HostPtr</a>(<a class="code hl_define" href="Loc_8h.html#a0bcdca9f6e5923ea191d934ec3400d9e">__global</a>, ae2f_float_t) out,</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>            <a class="code hl_define" href="Loc_8h.html#a28b2b590047f103dcbadc23fc5ba5f79">ae2fCL_HostPtr</a>(<a class="code hl_define" href="Loc_8h.html#a0bcdca9f6e5923ea191d934ec3400d9e">__global</a>, <a class="code hl_typedef" href="Float_8h.html#ad029f2802bba9d269cdc890f4f1205d7">ae2f_float_t</a>) in,</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>            <a class="code hl_define" href="Loc_8h.html#a28b2b590047f103dcbadc23fc5ba5f79">ae2fCL_HostPtr</a>(<a class="code hl_define" href="Loc_8h.html#a0bcdca9f6e5923ea191d934ec3400d9e">__global</a>, <a class="code hl_typedef" href="Float_8h.html#ad029f2802bba9d269cdc890f4f1205d7">ae2f_float_t</a>) out,</div>
 <div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>            uint32_t in_idx,</div>
 <div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>            uint32_t out_idx,</div>
 <div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span> </div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>            ae2f_float_t goal,</div>
-<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>            ae2f_float_t learning_rate,</div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>            ae2f_float_t* diff_ret_optional,</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>            <a class="code hl_typedef" href="Float_8h.html#ad029f2802bba9d269cdc890f4f1205d7">ae2f_float_t</a> goal,</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>            <a class="code hl_typedef" href="Float_8h.html#ad029f2802bba9d269cdc890f4f1205d7">ae2f_float_t</a> learning_rate,</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>            <a class="code hl_typedef" href="Float_8h.html#ad029f2802bba9d269cdc890f4f1205d7">ae2f_float_t</a>* diff_ret_optional,</div>
 <div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span> </div>
 <div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>            cl_command_queue queue,</div>
 <div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>            cl_bool blocking_read,</div>
@@ -214,12 +214,12 @@ $(function(){initNavTree('Sp_8hpp_source.html',''); initResizable(true); });
 <div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>        }</div>
 <div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span> </div>
 <div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>        <span class="keyword">inline</span> <a class="code hl_typedef" href="errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a> Train(</div>
-<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>            <a class="code hl_define" href="Loc_8h.html#a28b2b590047f103dcbadc23fc5ba5f79">ae2fCL_HostPtr</a>(<a class="code hl_define" href="Loc_8h.html#a0bcdca9f6e5923ea191d934ec3400d9e">__global</a>, ae2f_float_t) in,</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>            <a class="code hl_define" href="Loc_8h.html#a28b2b590047f103dcbadc23fc5ba5f79">ae2fCL_HostPtr</a>(<a class="code hl_define" href="Loc_8h.html#a0bcdca9f6e5923ea191d934ec3400d9e">__global</a>, <a class="code hl_typedef" href="Float_8h.html#ad029f2802bba9d269cdc890f4f1205d7">ae2f_float_t</a>) in,</div>
 <div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>            uint32_t in_idx,</div>
 <div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span> </div>
-<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>            ae2f_float_t goal,</div>
-<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>            ae2f_float_t learning_rate,</div>
-<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>            ae2f_float_t* diff_ret_optional,</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>            <a class="code hl_typedef" href="Float_8h.html#ad029f2802bba9d269cdc890f4f1205d7">ae2f_float_t</a> goal,</div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>            <a class="code hl_typedef" href="Float_8h.html#ad029f2802bba9d269cdc890f4f1205d7">ae2f_float_t</a> learning_rate,</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>            <a class="code hl_typedef" href="Float_8h.html#ad029f2802bba9d269cdc890f4f1205d7">ae2f_float_t</a>* diff_ret_optional,</div>
 <div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span> </div>
 <div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>            cl_command_queue queue,</div>
 <div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>            cl_bool blocking_read,</div>
@@ -238,12 +238,12 @@ $(function(){initNavTree('Sp_8hpp_source.html',''); initResizable(true); });
 <div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>        }</div>
 <div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span> </div>
 <div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>        <span class="keyword">inline</span> <a class="code hl_typedef" href="errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a> Train(</div>
-<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>            <a class="code hl_define" href="Loc_8h.html#a28b2b590047f103dcbadc23fc5ba5f79">ae2fCL_HostPtr</a>(<a class="code hl_define" href="Loc_8h.html#a0bcdca9f6e5923ea191d934ec3400d9e">__global</a>, ae2f_float_t) in,</div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>            <a class="code hl_define" href="Loc_8h.html#a28b2b590047f103dcbadc23fc5ba5f79">ae2fCL_HostPtr</a>(<a class="code hl_define" href="Loc_8h.html#a0bcdca9f6e5923ea191d934ec3400d9e">__global</a>, <a class="code hl_typedef" href="Float_8h.html#ad029f2802bba9d269cdc890f4f1205d7">ae2f_float_t</a>) in,</div>
 <div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>            uint32_t in_idx,</div>
 <div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span> </div>
-<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>            ae2f_float_t learning_rate,</div>
-<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>            ae2f_float_t* diff_ret_optional,</div>
-<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span>            <span class="keyword">const</span> ae2f_float_t* delta_precalculated,</div>
+<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>            <a class="code hl_typedef" href="Float_8h.html#ad029f2802bba9d269cdc890f4f1205d7">ae2f_float_t</a> learning_rate,</div>
+<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>            <a class="code hl_typedef" href="Float_8h.html#ad029f2802bba9d269cdc890f4f1205d7">ae2f_float_t</a>* diff_ret_optional,</div>
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span>            <span class="keyword">const</span> <a class="code hl_typedef" href="Float_8h.html#ad029f2802bba9d269cdc890f4f1205d7">ae2f_float_t</a>* delta_precalculated,</div>
 <div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span> </div>
 <div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span>            cl_command_queue queue,</div>
 <div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span>            cl_bool blocking_read,</div>
@@ -268,7 +268,7 @@ $(function(){initNavTree('Sp_8hpp_source.html',''); initResizable(true); });
 <div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span> </div>
 <div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span>        <span class="keyword">inline</span> cSp(</div>
 <div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span>            <a class="code hl_typedef" href="errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a>* err_optional,</div>
-<div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span>            <span class="keyword">const</span> ae2f_float_t* inputs_optional,</div>
+<div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span>            <span class="keyword">const</span> <a class="code hl_typedef" href="Float_8h.html#ad029f2802bba9d269cdc890f4f1205d7">ae2f_float_t</a>* inputs_optional,</div>
 <div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span>            <span class="keywordtype">size_t</span> inputsCount,</div>
 <div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span>            ae2fCL_fpAnnAct_t <a class="code hl_variable" href="structae2fCL__AnnSp.html#ad2cc81afb22335e808938a2cb625e704">mAct</a>,</div>
 <div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span>            ae2fCL_fpAnnSpGetLoss_t fpGetLoss,</div>
@@ -301,7 +301,7 @@ $(function(){initNavTree('Sp_8hpp_source.html',''); initResizable(true); });
 <div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span>            cl_uint num_events_in_wait_list,</div>
 <div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span>            <span class="keyword">const</span> cl_event* event_wait_list,</div>
 <div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span>            cl_event* event</div>
-<div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span>        ) noexcept : cSp(</div>
+<div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span>        ) <a class="code hl_define" href="Cast_8h.html#a189faadd7f99f6c354db09acbb2aafcd">noexcept</a> : cSp(</div>
 <div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span>            err_optional, 0, WeightsCount, <a class="code hl_variable" href="structae2fCL__AnnSp.html#ad2cc81afb22335e808938a2cb625e704">mAct</a>, </div>
 <div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span>            fpGetLoss, ctx, queue, blocking_read, </div>
 <div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span>            num_events_in_wait_list, event_wait_list, event</div>
@@ -311,6 +311,8 @@ $(function(){initNavTree('Sp_8hpp_source.html',''); initResizable(true); });
 <div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span>}}</div>
 <div class="line"><a id="l00200" name="l00200"></a><span class="lineno">  200</span> </div>
 <div class="line"><a id="l00201" name="l00201"></a><span class="lineno">  201</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aCast_8h_html_a189faadd7f99f6c354db09acbb2aafcd"><div class="ttname"><a href="Cast_8h.html#a189faadd7f99f6c354db09acbb2aafcd">noexcept</a></div><div class="ttdeci">#define noexcept</div><div class="ttdoc">Means that there will be no exception thrown written in code.</div><div class="ttdef"><b>Definition</b> Cast.h:108</div></div>
+<div class="ttc" id="aFloat_8h_html_ad029f2802bba9d269cdc890f4f1205d7"><div class="ttname"><a href="Float_8h.html#ad029f2802bba9d269cdc890f4f1205d7">ae2f_float_t</a></div><div class="ttdeci">float ae2f_float_t</div><div class="ttdoc">Predefined floating point type.</div><div class="ttdef"><b>Definition</b> Float.h:10</div></div>
 <div class="ttc" id="aLoc_8h_html_a0bcdca9f6e5923ea191d934ec3400d9e"><div class="ttname"><a href="Loc_8h.html#a0bcdca9f6e5923ea191d934ec3400d9e">__global</a></div><div class="ttdeci">#define __global</div><div class="ttdoc">opencl keyword</div><div class="ttdef"><b>Definition</b> Loc.h:12</div></div>
 <div class="ttc" id="aLoc_8h_html_a28b2b590047f103dcbadc23fc5ba5f79"><div class="ttname"><a href="Loc_8h.html#a28b2b590047f103dcbadc23fc5ba5f79">ae2fCL_HostPtr</a></div><div class="ttdeci">#define ae2fCL_HostPtr(__flag, __type)</div><div class="ttdoc">pointer type for host code</div><div class="ttdef"><b>Definition</b> Loc.h:74</div></div>
 <div class="ttc" id="aSp_8h_html"><div class="ttname"><a href="Sp_8h.html">Sp.h</a></div></div>

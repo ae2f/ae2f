@@ -126,24 +126,24 @@ Inheritance diagram for ae2fCL_AnnSp:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a832e470fcae686e03fad86dede1daed6" id="r_a832e470fcae686e03fad86dede1daed6"><td class="memItemLeft" align="right" valign="top">ae2f_extern ae2f_SHAREDCALL <a class="el" href="errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a832e470fcae686e03fad86dede1daed6">ae2fCL_AnnSpMk</a> (ae2f_struct <a class="el" href="structae2fCL__AnnSp.html">ae2fCL_AnnSp</a> *_this, const ae2f_float_t *weights_optional, size_t inputsCount, ae2fCL_fpAnnAct_t <a class="el" href="#ad2cc81afb22335e808938a2cb625e704">mAct</a>, ae2fCL_fpAnnSpGetLoss_t fpGetLoss, cl_context ctx, cl_command_queue queue, cl_bool blocking_read, cl_uint num_events_in_wait_list, const cl_event *event_wait_list, cl_event *event) noexcept</td></tr>
+<tr class="memitem:a832e470fcae686e03fad86dede1daed6" id="r_a832e470fcae686e03fad86dede1daed6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Cast_8h.html#af32d53608be4ca28fd8e5cd34fc0279b">ae2f_extern</a> <a class="el" href="Call_8h.html#acf8a5107987731bc66f8a74d75eac60c">ae2f_SHAREDCALL</a> <a class="el" href="errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a832e470fcae686e03fad86dede1daed6">ae2fCL_AnnSpMk</a> (<a class="el" href="Cast_8h.html#a06f9c6cce51fc7772141ec9a6d521511">ae2f_struct</a> <a class="el" href="structae2fCL__AnnSp.html">ae2fCL_AnnSp</a> *_this, const <a class="el" href="Float_8h.html#ad029f2802bba9d269cdc890f4f1205d7">ae2f_float_t</a> *weights_optional, size_t inputsCount, ae2fCL_fpAnnAct_t <a class="el" href="#ad2cc81afb22335e808938a2cb625e704">mAct</a>, ae2fCL_fpAnnSpGetLoss_t fpGetLoss, cl_context ctx, cl_command_queue queue, cl_bool blocking_read, cl_uint num_events_in_wait_list, const cl_event *event_wait_list, cl_event *event) <a class="el" href="Cast_8h.html#a189faadd7f99f6c354db09acbb2aafcd">noexcept</a></td></tr>
 <tr class="memdesc:a832e470fcae686e03fad86dede1daed6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialises the class. <br  />
 The perceptron made by this must pass [ae2fCL_AnnSpDel] for releasing the resources.  <br /></td></tr>
 <tr class="separator:a832e470fcae686e03fad86dede1daed6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa7c103255f32daafeb863e02a43955ab" id="r_aa7c103255f32daafeb863e02a43955ab"><td class="memItemLeft" align="right" valign="top">ae2f_extern ae2f_SHAREDCALL <a class="el" href="errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7c103255f32daafeb863e02a43955ab">ae2fCL_AnnSpDel</a> (<a class="el" href="structae2fCL__AnnSp.html">ae2fCL_AnnSp</a> *_this) noexcept</td></tr>
+<tr class="memitem:aa7c103255f32daafeb863e02a43955ab" id="r_aa7c103255f32daafeb863e02a43955ab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Cast_8h.html#af32d53608be4ca28fd8e5cd34fc0279b">ae2f_extern</a> <a class="el" href="Call_8h.html#acf8a5107987731bc66f8a74d75eac60c">ae2f_SHAREDCALL</a> <a class="el" href="errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7c103255f32daafeb863e02a43955ab">ae2fCL_AnnSpDel</a> (<a class="el" href="structae2fCL__AnnSp.html">ae2fCL_AnnSp</a> *_this) <a class="el" href="Cast_8h.html#a189faadd7f99f6c354db09acbb2aafcd">noexcept</a></td></tr>
 <tr class="memdesc:aa7c103255f32daafeb863e02a43955ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Release the resource for [_this].  <br /></td></tr>
 <tr class="separator:aa7c103255f32daafeb863e02a43955ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91acf75063fad802d9f85c723aa22de5" id="r_a91acf75063fad802d9f85c723aa22de5"><td class="memItemLeft" align="right" valign="top">ae2f_extern ae2f_SHAREDCALL <a class="el" href="errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91acf75063fad802d9f85c723aa22de5">ae2fCL_AnnSpPredict</a> (const <a class="el" href="structae2fCL__AnnSp.html">ae2fCL_AnnSp</a> *_this, ae2fCL_HostPtr(<a class="el" href="Loc_8h.html#a0bcdca9f6e5923ea191d934ec3400d9e">__global</a>, ae2f_float_t) in, ae2fCL_HostPtr(<a class="el" href="Loc_8h.html#a0bcdca9f6e5923ea191d934ec3400d9e">__global</a>, ae2f_float_t) out_optionalA, uint32_t in_idx, uint32_t out_idx_optionalA, ae2f_float_t *outbuff_optional_, cl_command_queue queue, cl_bool blocking_event, cl_uint num_events_in_wait_list, const cl_event *event_wait_list, cl_event *event, cl_context context_optionalB) noexcept</td></tr>
+<tr class="memitem:a91acf75063fad802d9f85c723aa22de5" id="r_a91acf75063fad802d9f85c723aa22de5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Cast_8h.html#af32d53608be4ca28fd8e5cd34fc0279b">ae2f_extern</a> <a class="el" href="Call_8h.html#acf8a5107987731bc66f8a74d75eac60c">ae2f_SHAREDCALL</a> <a class="el" href="errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91acf75063fad802d9f85c723aa22de5">ae2fCL_AnnSpPredict</a> (const <a class="el" href="structae2fCL__AnnSp.html">ae2fCL_AnnSp</a> *_this, ae2fCL_HostPtr(<a class="el" href="Loc_8h.html#a0bcdca9f6e5923ea191d934ec3400d9e">__global</a>, <a class="el" href="Float_8h.html#ad029f2802bba9d269cdc890f4f1205d7">ae2f_float_t</a>) in, ae2fCL_HostPtr(<a class="el" href="Loc_8h.html#a0bcdca9f6e5923ea191d934ec3400d9e">__global</a>, <a class="el" href="Float_8h.html#ad029f2802bba9d269cdc890f4f1205d7">ae2f_float_t</a>) out_optionalA, uint32_t in_idx, uint32_t out_idx_optionalA, <a class="el" href="Float_8h.html#ad029f2802bba9d269cdc890f4f1205d7">ae2f_float_t</a> *outbuff_optional_, cl_command_queue queue, cl_bool blocking_event, cl_uint num_events_in_wait_list, const cl_event *event_wait_list, cl_event *event, cl_context context_optionalB) <a class="el" href="Cast_8h.html#a189faadd7f99f6c354db09acbb2aafcd">noexcept</a></td></tr>
 <tr class="separator:a91acf75063fad802d9f85c723aa22de5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aecee3a9dfc974081ff2201d796fb0251" id="r_aecee3a9dfc974081ff2201d796fb0251"><td class="memItemLeft" align="right" valign="top">ae2f_extern ae2f_SHAREDCALL <a class="el" href="errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aecee3a9dfc974081ff2201d796fb0251">ae2fCL_AnnSpPredictBuffAuto</a> (const <a class="el" href="structae2fCL__AnnSp.html">ae2fCL_AnnSp</a> *_this, const ae2f_float_t *in, ae2f_float_t *out, cl_command_queue queue, cl_bool blocking_read, cl_uint num_events_in_wait_list, const cl_event *event_wait_list, cl_event *event, cl_context context) noexcept</td></tr>
+<tr class="memitem:aecee3a9dfc974081ff2201d796fb0251" id="r_aecee3a9dfc974081ff2201d796fb0251"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Cast_8h.html#af32d53608be4ca28fd8e5cd34fc0279b">ae2f_extern</a> <a class="el" href="Call_8h.html#acf8a5107987731bc66f8a74d75eac60c">ae2f_SHAREDCALL</a> <a class="el" href="errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aecee3a9dfc974081ff2201d796fb0251">ae2fCL_AnnSpPredictBuffAuto</a> (const <a class="el" href="structae2fCL__AnnSp.html">ae2fCL_AnnSp</a> *_this, const <a class="el" href="Float_8h.html#ad029f2802bba9d269cdc890f4f1205d7">ae2f_float_t</a> *in, <a class="el" href="Float_8h.html#ad029f2802bba9d269cdc890f4f1205d7">ae2f_float_t</a> *out, cl_command_queue queue, cl_bool blocking_read, cl_uint num_events_in_wait_list, const cl_event *event_wait_list, cl_event *event, cl_context context) <a class="el" href="Cast_8h.html#a189faadd7f99f6c354db09acbb2aafcd">noexcept</a></td></tr>
 <tr class="separator:aecee3a9dfc974081ff2201d796fb0251"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ad18a8bd83d59467c8b54051b8ec2ca" id="r_a6ad18a8bd83d59467c8b54051b8ec2ca"><td class="memItemLeft" align="right" valign="top">ae2f_extern ae2f_SHAREDCALL <a class="el" href="errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ad18a8bd83d59467c8b54051b8ec2ca">ae2fCL_AnnSpTrain</a> (<a class="el" href="structae2fCL__AnnSp.html">ae2fCL_AnnSp</a> *_this, ae2fCL_HostPtr(<a class="el" href="Loc_8h.html#a0bcdca9f6e5923ea191d934ec3400d9e">__global</a>, ae2f_float_t) in, ae2fCL_HostPtr(<a class="el" href="Loc_8h.html#a0bcdca9f6e5923ea191d934ec3400d9e">__global</a>, ae2f_float_t) out_optionalA, uint32_t in_idx, uint32_t out_idx_optionalA, ae2f_float_t goal, ae2f_float_t learning_rate, ae2f_float_t *diff_ret_optional, const ae2f_float_t *delta_precalculated_optionalC, cl_command_queue queue, cl_bool blocking_read, cl_uint num_events_in_wait_list, const cl_event *event_wait_list, cl_event *event, cl_context context_optionalB) noexcept</td></tr>
+<tr class="memitem:a6ad18a8bd83d59467c8b54051b8ec2ca" id="r_a6ad18a8bd83d59467c8b54051b8ec2ca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Cast_8h.html#af32d53608be4ca28fd8e5cd34fc0279b">ae2f_extern</a> <a class="el" href="Call_8h.html#acf8a5107987731bc66f8a74d75eac60c">ae2f_SHAREDCALL</a> <a class="el" href="errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ad18a8bd83d59467c8b54051b8ec2ca">ae2fCL_AnnSpTrain</a> (<a class="el" href="structae2fCL__AnnSp.html">ae2fCL_AnnSp</a> *_this, ae2fCL_HostPtr(<a class="el" href="Loc_8h.html#a0bcdca9f6e5923ea191d934ec3400d9e">__global</a>, <a class="el" href="Float_8h.html#ad029f2802bba9d269cdc890f4f1205d7">ae2f_float_t</a>) in, ae2fCL_HostPtr(<a class="el" href="Loc_8h.html#a0bcdca9f6e5923ea191d934ec3400d9e">__global</a>, <a class="el" href="Float_8h.html#ad029f2802bba9d269cdc890f4f1205d7">ae2f_float_t</a>) out_optionalA, uint32_t in_idx, uint32_t out_idx_optionalA, <a class="el" href="Float_8h.html#ad029f2802bba9d269cdc890f4f1205d7">ae2f_float_t</a> goal, <a class="el" href="Float_8h.html#ad029f2802bba9d269cdc890f4f1205d7">ae2f_float_t</a> learning_rate, <a class="el" href="Float_8h.html#ad029f2802bba9d269cdc890f4f1205d7">ae2f_float_t</a> *diff_ret_optional, const <a class="el" href="Float_8h.html#ad029f2802bba9d269cdc890f4f1205d7">ae2f_float_t</a> *delta_precalculated_optionalC, cl_command_queue queue, cl_bool blocking_read, cl_uint num_events_in_wait_list, const cl_event *event_wait_list, cl_event *event, cl_context context_optionalB) <a class="el" href="Cast_8h.html#a189faadd7f99f6c354db09acbb2aafcd">noexcept</a></td></tr>
 <tr class="separator:a6ad18a8bd83d59467c8b54051b8ec2ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:aad8a4481b81950be3c18f84fe746bf95" id="r_aad8a4481b81950be3c18f84fe746bf95"><td class="memItemLeft" align="right" valign="top"><a id="aad8a4481b81950be3c18f84fe746bf95" name="aad8a4481b81950be3c18f84fe746bf95"></a>
-ae2f_float_t&#160;</td><td class="memItemRight" valign="bottom"><b>mBias</b></td></tr>
+<a class="el" href="Float_8h.html#ad029f2802bba9d269cdc890f4f1205d7">ae2f_float_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>mBias</b></td></tr>
 <tr class="memdesc:aad8a4481b81950be3c18f84fe746bf95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bias. <br /></td></tr>
 <tr class="separator:aad8a4481b81950be3c18f84fe746bf95"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad2cc81afb22335e808938a2cb625e704" id="r_ad2cc81afb22335e808938a2cb625e704"><td class="memItemLeft" align="right" valign="top"><a id="ad2cc81afb22335e808938a2cb625e704" name="ad2cc81afb22335e808938a2cb625e704"></a>
@@ -198,7 +198,7 @@ Single Perceptron.</h1>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">ae2f_extern ae2f_SHAREDCALL <a class="el" href="errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a> ae2fCL_AnnSpDel </td>
+          <td class="memname"><a class="el" href="Cast_8h.html#af32d53608be4ca28fd8e5cd34fc0279b">ae2f_extern</a> <a class="el" href="Call_8h.html#acf8a5107987731bc66f8a74d75eac60c">ae2f_SHAREDCALL</a> <a class="el" href="errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a> ae2fCL_AnnSpDel </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structae2fCL__AnnSp.html">ae2fCL_AnnSp</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -231,14 +231,14 @@ Single Perceptron.</h1>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">ae2f_extern ae2f_SHAREDCALL <a class="el" href="errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a> ae2fCL_AnnSpMk </td>
+          <td class="memname"><a class="el" href="Cast_8h.html#af32d53608be4ca28fd8e5cd34fc0279b">ae2f_extern</a> <a class="el" href="Call_8h.html#acf8a5107987731bc66f8a74d75eac60c">ae2f_SHAREDCALL</a> <a class="el" href="errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a> ae2fCL_AnnSpMk </td>
           <td>(</td>
-          <td class="paramtype">ae2f_struct <a class="el" href="structae2fCL__AnnSp.html">ae2fCL_AnnSp</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+          <td class="paramtype"><a class="el" href="Cast_8h.html#a06f9c6cce51fc7772141ec9a6d521511">ae2f_struct</a> <a class="el" href="structae2fCL__AnnSp.html">ae2fCL_AnnSp</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const ae2f_float_t *</td>          <td class="paramname"><span class="paramname"><em>weights_optional</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="Float_8h.html#ad029f2802bba9d269cdc890f4f1205d7">ae2f_float_t</a> *</td>          <td class="paramname"><span class="paramname"><em>weights_optional</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -325,19 +325,19 @@ Passing this argument zero will cause [<a class="el" href="#a05e2e1903c05de8324a
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">ae2f_extern ae2f_SHAREDCALL <a class="el" href="errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a> ae2fCL_AnnSpPredict </td>
+          <td class="memname"><a class="el" href="Cast_8h.html#af32d53608be4ca28fd8e5cd34fc0279b">ae2f_extern</a> <a class="el" href="Call_8h.html#acf8a5107987731bc66f8a74d75eac60c">ae2f_SHAREDCALL</a> <a class="el" href="errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a> ae2fCL_AnnSpPredict </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structae2fCL__AnnSp.html">ae2fCL_AnnSp</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">ae2fCL_HostPtr(<a class="el" href="Loc_8h.html#a0bcdca9f6e5923ea191d934ec3400d9e">__global</a>, ae2f_float_t)</td>          <td class="paramname"><span class="paramname"><em>in</em></span>, </td>
+          <td class="paramtype">ae2fCL_HostPtr(<a class="el" href="Loc_8h.html#a0bcdca9f6e5923ea191d934ec3400d9e">__global</a>, <a class="el" href="Float_8h.html#ad029f2802bba9d269cdc890f4f1205d7">ae2f_float_t</a>)</td>          <td class="paramname"><span class="paramname"><em>in</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">ae2fCL_HostPtr(<a class="el" href="Loc_8h.html#a0bcdca9f6e5923ea191d934ec3400d9e">__global</a>, ae2f_float_t)</td>          <td class="paramname"><span class="paramname"><em>out_optionalA</em></span>, </td>
+          <td class="paramtype">ae2fCL_HostPtr(<a class="el" href="Loc_8h.html#a0bcdca9f6e5923ea191d934ec3400d9e">__global</a>, <a class="el" href="Float_8h.html#ad029f2802bba9d269cdc890f4f1205d7">ae2f_float_t</a>)</td>          <td class="paramname"><span class="paramname"><em>out_optionalA</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -352,7 +352,7 @@ Passing this argument zero will cause [<a class="el" href="#a05e2e1903c05de8324a
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">ae2f_float_t *</td>          <td class="paramname"><span class="paramname"><em>outbuff_optional_</em></span>, </td>
+          <td class="paramtype"><a class="el" href="Float_8h.html#ad029f2802bba9d269cdc890f4f1205d7">ae2f_float_t</a> *</td>          <td class="paramname"><span class="paramname"><em>outbuff_optional_</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -408,7 +408,7 @@ Some of the paramaters may be ignored since past parameter fulfilled the particu
     <tr><td class="paramdir">[in]</td><td class="paramname">_this</td><td></td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">in</td><td>The input value binded with an OpenCL memory object. <br  />
 If you don't want to make a memory object manually, see [ae2fCL_AnnSpPredictBuffAuto].</td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">out_optionalA</td><td>Writable memory object to use as a buffer for as length as [ae2f_float_t]. When set to zero, it will allocate the new one. </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">out_optionalA</td><td>Writable memory object to use as a buffer for as length as [<a class="el" href="Float_8h.html#ad029f2802bba9d269cdc890f4f1205d7" title="Predefined floating point type.">ae2f_float_t</a>]. When set to zero, it will allocate the new one. </td></tr>
     <tr><td class="paramdir"></td><td class="paramname">in_idx</td><td>Padding for [in]. </td></tr>
     <tr><td class="paramdir"></td><td class="paramname">out_idx_optionalA</td><td>Paddings for [out_optionalA]. <br  />
 Would not matter a thing when 0 has passed via [out_optionalA].</td></tr>
@@ -417,7 +417,7 @@ Would not matter a thing when 0 has passed via [out_optionalA].</td></tr>
   </table>
   </dd>
 </dl>
-<p>Its length will be same as [ae2f_float_t]. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Its length will be same as [<a class="el" href="Float_8h.html#ad029f2802bba9d269cdc890f4f1205d7" title="Predefined floating point type.">ae2f_float_t</a>]. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir"></td><td class="paramname">queue</td><td></td></tr>
     <tr><td class="paramdir"></td><td class="paramname">blocking_event</td><td></td></tr>
@@ -441,19 +441,19 @@ Would not matter a thing when 0 has passed via [out_optionalA].</td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">ae2f_extern ae2f_SHAREDCALL <a class="el" href="errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a> ae2fCL_AnnSpPredictBuffAuto </td>
+          <td class="memname"><a class="el" href="Cast_8h.html#af32d53608be4ca28fd8e5cd34fc0279b">ae2f_extern</a> <a class="el" href="Call_8h.html#acf8a5107987731bc66f8a74d75eac60c">ae2f_SHAREDCALL</a> <a class="el" href="errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a> ae2fCL_AnnSpPredictBuffAuto </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structae2fCL__AnnSp.html">ae2fCL_AnnSp</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const ae2f_float_t *</td>          <td class="paramname"><span class="paramname"><em>in</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="Float_8h.html#ad029f2802bba9d269cdc890f4f1205d7">ae2f_float_t</a> *</td>          <td class="paramname"><span class="paramname"><em>in</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">ae2f_float_t *</td>          <td class="paramname"><span class="paramname"><em>out</em></span>, </td>
+          <td class="paramtype"><a class="el" href="Float_8h.html#ad029f2802bba9d269cdc890f4f1205d7">ae2f_float_t</a> *</td>          <td class="paramname"><span class="paramname"><em>out</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -501,7 +501,7 @@ Memory Object Auto Allocate</h1>
   <table class="params">
     <tr><td class="paramdir">[out]</td><td class="paramname">_this</td><td></td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">in</td><td>The input vector in a length of [_this-&gt;mgWeightLen]. </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">out</td><td>Pointer to use as a buffer for as length as [ae2f_float_t]. When set to zero, the final output will be gone. </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">out</td><td>Pointer to use as a buffer for as length as [<a class="el" href="Float_8h.html#ad029f2802bba9d269cdc890f4f1205d7" title="Predefined floating point type.">ae2f_float_t</a>]. When set to zero, the final output will be gone. </td></tr>
     <tr><td class="paramdir"></td><td class="paramname">queue</td><td></td></tr>
     <tr><td class="paramdir"></td><td class="paramname">blocking_read</td><td></td></tr>
     <tr><td class="paramdir"></td><td class="paramname">num_events_in_wait_list</td><td></td></tr>
@@ -525,19 +525,19 @@ Passing zero here will cause undefined behaviour. </td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">ae2f_extern ae2f_SHAREDCALL <a class="el" href="errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a> ae2fCL_AnnSpTrain </td>
+          <td class="memname"><a class="el" href="Cast_8h.html#af32d53608be4ca28fd8e5cd34fc0279b">ae2f_extern</a> <a class="el" href="Call_8h.html#acf8a5107987731bc66f8a74d75eac60c">ae2f_SHAREDCALL</a> <a class="el" href="errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a> ae2fCL_AnnSpTrain </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structae2fCL__AnnSp.html">ae2fCL_AnnSp</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">ae2fCL_HostPtr(<a class="el" href="Loc_8h.html#a0bcdca9f6e5923ea191d934ec3400d9e">__global</a>, ae2f_float_t)</td>          <td class="paramname"><span class="paramname"><em>in</em></span>, </td>
+          <td class="paramtype">ae2fCL_HostPtr(<a class="el" href="Loc_8h.html#a0bcdca9f6e5923ea191d934ec3400d9e">__global</a>, <a class="el" href="Float_8h.html#ad029f2802bba9d269cdc890f4f1205d7">ae2f_float_t</a>)</td>          <td class="paramname"><span class="paramname"><em>in</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">ae2fCL_HostPtr(<a class="el" href="Loc_8h.html#a0bcdca9f6e5923ea191d934ec3400d9e">__global</a>, ae2f_float_t)</td>          <td class="paramname"><span class="paramname"><em>out_optionalA</em></span>, </td>
+          <td class="paramtype">ae2fCL_HostPtr(<a class="el" href="Loc_8h.html#a0bcdca9f6e5923ea191d934ec3400d9e">__global</a>, <a class="el" href="Float_8h.html#ad029f2802bba9d269cdc890f4f1205d7">ae2f_float_t</a>)</td>          <td class="paramname"><span class="paramname"><em>out_optionalA</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -552,22 +552,22 @@ Passing zero here will cause undefined behaviour. </td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">ae2f_float_t</td>          <td class="paramname"><span class="paramname"><em>goal</em></span>, </td>
+          <td class="paramtype"><a class="el" href="Float_8h.html#ad029f2802bba9d269cdc890f4f1205d7">ae2f_float_t</a></td>          <td class="paramname"><span class="paramname"><em>goal</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">ae2f_float_t</td>          <td class="paramname"><span class="paramname"><em>learning_rate</em></span>, </td>
+          <td class="paramtype"><a class="el" href="Float_8h.html#ad029f2802bba9d269cdc890f4f1205d7">ae2f_float_t</a></td>          <td class="paramname"><span class="paramname"><em>learning_rate</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">ae2f_float_t *</td>          <td class="paramname"><span class="paramname"><em>diff_ret_optional</em></span>, </td>
+          <td class="paramtype"><a class="el" href="Float_8h.html#ad029f2802bba9d269cdc890f4f1205d7">ae2f_float_t</a> *</td>          <td class="paramname"><span class="paramname"><em>diff_ret_optional</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const ae2f_float_t *</td>          <td class="paramname"><span class="paramname"><em>delta_precalculated_optionalC</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="Float_8h.html#ad029f2802bba9d269cdc890f4f1205d7">ae2f_float_t</a> *</td>          <td class="paramname"><span class="paramname"><em>delta_precalculated_optionalC</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -613,7 +613,7 @@ Manages to correct the weight and bias for expected output value [goal].</h1>
     <tr><td class="paramdir">[in,out]</td><td class="paramname">_this</td><td></td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">in</td><td>The input value binded with an OpenCL memory object. <br  />
 If you don't want to make a memory object manually, see [ae2fCL_AnnSpPredictBuffAuto].</td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">out_optionalA</td><td>Writable memory object to use as a buffer for as length as [ae2f_float_t]. When set to zero, it will allocate the new one. </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">out_optionalA</td><td>Writable memory object to use as a buffer for as length as [<a class="el" href="Float_8h.html#ad029f2802bba9d269cdc890f4f1205d7" title="Predefined floating point type.">ae2f_float_t</a>]. When set to zero, it will allocate the new one. </td></tr>
     <tr><td class="paramdir"></td><td class="paramname">in_idx</td><td>Padding for [in]. </td></tr>
     <tr><td class="paramdir"></td><td class="paramname">out_idx_optionalA</td><td>Paddings for [out_optionalA]. <br  />
 Would not matter a thing when 0 has passed via [out_optionalA].</td></tr>
@@ -622,7 +622,7 @@ Would not matter a thing when 0 has passed via [out_optionalA].</td></tr>
     <tr><td class="paramdir">[out]</td><td class="paramname">diff_ret_optional</td><td>The final output for this operation would be stored here. <br  />
  Passing it zero will not cause undefined behaviour, but this operation's result is going nowhere.</td></tr>
     <tr><td class="paramdir"></td><td class="paramname">delta_precalculated_optionalC</td><td>When Delta has been pre-calculated somehow, you can utilise it via a pointer. <br  />
-When not set to zero, it will try to read as an element of [ae2f_float_t], and skip the part of calculating the delta.</td></tr>
+When not set to zero, it will try to read as an element of [<a class="el" href="Float_8h.html#ad029f2802bba9d269cdc890f4f1205d7" title="Predefined floating point type.">ae2f_float_t</a>], and skip the part of calculating the delta.</td></tr>
     <tr><td class="paramdir"></td><td class="paramname">queue</td><td></td></tr>
     <tr><td class="paramdir"></td><td class="paramname">blocking_read</td><td></td></tr>
     <tr><td class="paramdir"></td><td class="paramname">num_events_in_wait_list</td><td></td></tr>
@@ -723,7 +723,7 @@ Option A</h1>
     <tr><td class="paramdir">[in]</td><td class="paramname">_this</td><td>[const ae2fCL_AnnSp*] </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">in</td><td>[cl_mem] The input value binded with an OpenCL memory object. <br  />
 If you don't want to make a memory object manually, see [ae2fCL_AnnSpPredictBuffAuto].</td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">out</td><td>[cl_mem] Writable memory object to use as a buffer for as length as [ae2f_float_t]. When set to zero, it will the operation trauncated. </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">out</td><td>[cl_mem] Writable memory object to use as a buffer for as length as [<a class="el" href="Float_8h.html#ad029f2802bba9d269cdc890f4f1205d7" title="Predefined floating point type.">ae2f_float_t</a>]. When set to zero, it will the operation trauncated. </td></tr>
     <tr><td class="paramdir"></td><td class="paramname">in_idx</td><td>[uint32_t] Padding for [in]. </td></tr>
     <tr><td class="paramdir"></td><td class="paramname">out_idx</td><td>[uint32_t] Paddings for [out]. <br  />
 Would not matter a thing when 0 has passed via [out].</td></tr>
@@ -732,7 +732,7 @@ Would not matter a thing when 0 has passed via [out].</td></tr>
   </table>
   </dd>
 </dl>
-<p>Its length will be same as [ae2f_float_t]. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Its length will be same as [<a class="el" href="Float_8h.html#ad029f2802bba9d269cdc890f4f1205d7" title="Predefined floating point type.">ae2f_float_t</a>]. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir"></td><td class="paramname">queue</td><td>[cl_command_queue] </td></tr>
     <tr><td class="paramdir"></td><td class="paramname">blocking_event</td><td>[cl_bool] </td></tr>
@@ -832,7 +832,7 @@ If you don't want to make a memory object manually, see [ae2fCL_AnnSpPredictBuff
   </table>
   </dd>
 </dl>
-<p>Its length will be same as [ae2f_float_t]. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Its length will be same as [<a class="el" href="Float_8h.html#ad029f2802bba9d269cdc890f4f1205d7" title="Predefined floating point type.">ae2f_float_t</a>]. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir"></td><td class="paramname">context</td><td>The OpenCL Context in order to allocate the new buffer when needed. <br  />
 Passing zero here will cause undefined behaviour. </td></tr>
@@ -937,7 +937,7 @@ Manages to correct the weight and bias for expected output value [goal].</h1>
     <tr><td class="paramdir">[in]</td><td class="paramname">_this</td><td></td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">in</td><td>The input value binded with an OpenCL memory object. <br  />
 If you don't want to make a memory object manually, see [ae2fCL_AnnSpPredictBuffAuto].</td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">out</td><td>Writable memory object to use as a buffer for as length as [ae2f_float_t]. When set to zero, it will allocate the new one. </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">out</td><td>Writable memory object to use as a buffer for as length as [<a class="el" href="Float_8h.html#ad029f2802bba9d269cdc890f4f1205d7" title="Predefined floating point type.">ae2f_float_t</a>]. When set to zero, it will allocate the new one. </td></tr>
     <tr><td class="paramdir"></td><td class="paramname">in_idx</td><td>Padding for [in]. </td></tr>
     <tr><td class="paramdir"></td><td class="paramname">out_idx</td><td>Paddings for [out]. <br  />
 Would not matter a thing when 0 has passed via [out_optionalA].</td></tr>
@@ -1043,7 +1043,7 @@ If you don't want to make a memory object manually, see [ae2fCL_AnnSpPredictBuff
   </table>
   </dd>
 </dl>
-<p>The readable byte size must be greater or same as ( [in_idx] + <a class="el" href="#a5ed98697c2a893428ec4ba27c4cc6669">ae2fCL_AnnSp::mgWeightLen</a> ) * sizeof( ae2f_float_t ). </p><dl class="params"><dt>Parameters</dt><dd>
+<p>The readable byte size must be greater or same as ( [in_idx] + <a class="el" href="#a5ed98697c2a893428ec4ba27c4cc6669">ae2fCL_AnnSp::mgWeightLen</a> ) * sizeof( <a class="el" href="Float_8h.html#ad029f2802bba9d269cdc890f4f1205d7">ae2f_float_t</a> ). </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir"></td><td class="paramname">in_idx</td><td>Padding for [in].</td></tr>
     <tr><td class="paramdir"></td><td class="paramname">goal</td><td>Expected (wanted) output. </td></tr>
@@ -1148,7 +1148,7 @@ If you don't want to make a memory object manually, see [ae2fCL_AnnSpPredictBuff
     <tr><td class="paramdir">[out]</td><td class="paramname">diff_ret_optional</td><td>The final output for this operation would be stored here. <br  />
  Passing it zero will not cause undefined behaviour, but this operation's result is going nowhere.</td></tr>
     <tr><td class="paramdir"></td><td class="paramname">delta_precalculated</td><td>When Delta has been pre-calculated somehow, you can utilise it via a pointer. <br  />
-When not set to zero, it will try to read as an element of [ae2f_float_t], and skip the part of calculating the delta. </td></tr>
+When not set to zero, it will try to read as an element of [<a class="el" href="Float_8h.html#ad029f2802bba9d269cdc890f4f1205d7" title="Predefined floating point type.">ae2f_float_t</a>], and skip the part of calculating the delta. </td></tr>
     <tr><td class="paramdir"></td><td class="paramname">queue</td><td></td></tr>
     <tr><td class="paramdir"></td><td class="paramname">blocking_read</td><td></td></tr>
     <tr><td class="paramdir"></td><td class="paramname">num_events_in_wait_list</td><td></td></tr>
@@ -1196,10 +1196,11 @@ When not set to zero, it will try to read as an element of [ae2f_float_t], and s
 <div class="line">      queue,  \</div>
 <div class="line">      (_this)-&gt;<a class="code hl_variable" href="#a05e2e1903c05de8324a55770d38369da">mgWeight</a>, \</div>
 <div class="line">      CL_TRUE, 0, \</div>
-<div class="line">      <span class="keyword">sizeof</span>(ae2f_float_t) * (_this)-&gt;<a class="code hl_variable" href="#a5ed98697c2a893428ec4ba27c4cc6669">mgWeightLen</a>, \</div>
+<div class="line">      <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="Float_8h.html#ad029f2802bba9d269cdc890f4f1205d7">ae2f_float_t</a>) * (_this)-&gt;<a class="code hl_variable" href="#a5ed98697c2a893428ec4ba27c4cc6669">mgWeightLen</a>, \</div>
 <div class="line">      (_out), \</div>
 <div class="line">      0, 0, 0 \</div>
 <div class="line">)</div>
+<div class="ttc" id="aFloat_8h_html_ad029f2802bba9d269cdc890f4f1205d7"><div class="ttname"><a href="Float_8h.html#ad029f2802bba9d269cdc890f4f1205d7">ae2f_float_t</a></div><div class="ttdeci">float ae2f_float_t</div><div class="ttdoc">Predefined floating point type.</div><div class="ttdef"><b>Definition</b> Float.h:10</div></div>
 <div class="ttc" id="astructae2fCL__AnnSp_html_a05e2e1903c05de8324a55770d38369da"><div class="ttname"><a href="#a05e2e1903c05de8324a55770d38369da">ae2fCL_AnnSp::mgWeight</a></div><div class="ttdeci">ae2fCL_memobj_float_t mgWeight</div><div class="ttdoc">It is a OpenCL Memory Object allocated alone as.</div><div class="ttdef"><b>Definition</b> Sp.h:50</div></div>
 <div class="ttc" id="astructae2fCL__AnnSp_html_a5ed98697c2a893428ec4ba27c4cc6669"><div class="ttname"><a href="#a5ed98697c2a893428ec4ba27c4cc6669">ae2fCL_AnnSp::mgWeightLen</a></div><div class="ttdeci">size_t mgWeightLen</div><div class="ttdoc">Possible count of weights, which means possible count of inputs on prediction.</div><div class="ttdef"><b>Definition</b> Sp.h:60</div></div>
 </div><!-- fragment -->

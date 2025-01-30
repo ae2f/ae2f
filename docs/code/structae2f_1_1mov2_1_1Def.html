@@ -123,15 +123,15 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>Rect</b> = typename 
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a2b0efb16eeb127593dd7766fc75486cb" id="r_a2b0efb16eeb127593dd7766fc75486cb"><td class="memTemplParams" colspan="2">template&lt;typename v&gt; </td></tr>
-<tr class="memitem:a2b0efb16eeb127593dd7766fc75486cb"><td class="memTemplItemLeft" align="right" valign="top">static <a class="el" href="errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a2b0efb16eeb127593dd7766fc75486cb">Rot</a> (Dot *vec, const typename <a class="el" href="structae2f_1_1mov2_1_1Def.html">Def</a>&lt; v &gt;::Dot *axis, ae2f_float_t rot)</td></tr>
+<tr class="memitem:a2b0efb16eeb127593dd7766fc75486cb"><td class="memTemplItemLeft" align="right" valign="top">static <a class="el" href="errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a2b0efb16eeb127593dd7766fc75486cb">Rot</a> (Dot *vec, const typename <a class="el" href="structae2f_1_1mov2_1_1Def.html">Def</a>&lt; v &gt;::Dot *axis, <a class="el" href="Float_8h.html#ad029f2802bba9d269cdc890f4f1205d7">ae2f_float_t</a> rot)</td></tr>
 <tr class="memdesc:a2b0efb16eeb127593dd7766fc75486cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rotate the vector in a axis. <br  />
 Notice that it will define a function, not invoking.  <br /></td></tr>
 <tr class="separator:a2b0efb16eeb127593dd7766fc75486cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a866987693dfd49fffb6a1294a60ca46d" id="r_a866987693dfd49fffb6a1294a60ca46d"><td class="memItemLeft" align="right" valign="top">static consteval ae2f_Mov2Col_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a866987693dfd49fffb6a1294a60ca46d">ColGet</a> (const Dot *vec, const Rect *rect)</td></tr>
+<tr class="memitem:a866987693dfd49fffb6a1294a60ca46d" id="r_a866987693dfd49fffb6a1294a60ca46d"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="Constexpr_8hpp.html#a0a5626e8e5b021d009d78035ee21ad49">consteval</a> ae2f_Mov2Col_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a866987693dfd49fffb6a1294a60ca46d">ColGet</a> (const Dot *vec, const Rect *rect)</td></tr>
 <tr class="memdesc:a866987693dfd49fffb6a1294a60ca46d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Guess if <code>pos</code> is in <code>rect</code>.  <br /></td></tr>
 <tr class="separator:a866987693dfd49fffb6a1294a60ca46d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17407f201761a3f03c7753262eae9012" id="r_a17407f201761a3f03c7753262eae9012"><td class="memTemplParams" colspan="2">template&lt;typename v&gt; </td></tr>
-<tr class="memitem:a17407f201761a3f03c7753262eae9012"><td class="memTemplItemLeft" align="right" valign="top">static ae2f_Mov2Col_t&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a17407f201761a3f03c7753262eae9012">RotColGet</a> (const Dot *pos, const Rect *rect, const typename <a class="el" href="structae2f_1_1mov2_1_1Def.html">Def</a>&lt; v &gt;::Dot *axis, ae2f_float_t rot)</td></tr>
+<tr class="memitem:a17407f201761a3f03c7753262eae9012"><td class="memTemplItemLeft" align="right" valign="top">static ae2f_Mov2Col_t&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a17407f201761a3f03c7753262eae9012">RotColGet</a> (const Dot *pos, const Rect *rect, const typename <a class="el" href="structae2f_1_1mov2_1_1Def.html">Def</a>&lt; v &gt;::Dot *axis, <a class="el" href="Float_8h.html#ad029f2802bba9d269cdc890f4f1205d7">ae2f_float_t</a> rot)</td></tr>
 <tr class="memdesc:a17407f201761a3f03c7753262eae9012"><td class="mdescLeft">&#160;</td><td class="mdescRight">Guess if <code>pos</code> is in <code>rect</code> suggesting.  <br /></td></tr>
 <tr class="separator:a17407f201761a3f03c7753262eae9012"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -148,7 +148,7 @@ template&lt;typename t&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static consteval ae2f_Mov2Col_t <a class="el" href="structae2f_1_1mov2_1_1Def.html">ae2f::mov2::Def</a>&lt; t &gt;::ColGet </td>
+          <td class="memname">static <a class="el" href="Constexpr_8hpp.html#a0a5626e8e5b021d009d78035ee21ad49">consteval</a> ae2f_Mov2Col_t <a class="el" href="structae2f_1_1mov2_1_1Def.html">ae2f::mov2::Def</a>&lt; t &gt;::ColGet </td>
           <td>(</td>
           <td class="paramtype">const Dot *</td>          <td class="paramname"><span class="paramname"><em>vec</em></span>, </td>
         </tr>
@@ -202,7 +202,7 @@ template&lt;typename v&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">ae2f_float_t</td>          <td class="paramname"><span class="paramname"><em>rot</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="Float_8h.html#ad029f2802bba9d269cdc890f4f1205d7">ae2f_float_t</a></td>          <td class="paramname"><span class="paramname"><em>rot</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -270,7 +270,7 @@ template&lt;typename v&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">ae2f_float_t</td>          <td class="paramname"><span class="paramname"><em>rot</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="Float_8h.html#ad029f2802bba9d269cdc890f4f1205d7">ae2f_float_t</a></td>          <td class="paramname"><span class="paramname"><em>rot</em></span>&#160;)</td>
         </tr>
       </table>
   </td>

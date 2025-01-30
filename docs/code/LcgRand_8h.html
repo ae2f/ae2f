@@ -112,9 +112,9 @@ $(function(){initNavTree('LcgRand_8h.html',''); initResizable(true); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;stdint.h&gt;</code><br />
-<code>#include &lt;ae2f/Float.h&gt;</code><br />
-<code>#include &lt;ae2f/Call.h&gt;</code><br />
-<code>#include &lt;ae2f/Cast.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="Float_8h_source.html">ae2f/Float.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="Call_8h_source.html">ae2f/Call.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="Cast_8h_source.html">ae2f/Cast.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="Loc_8h_source.html">ae2fCL/Loc.h</a>&gt;</code><br />
 </div>
 <p><a href="LcgRand_8h_source.html">Go to the source code of this file.</a></p>
@@ -160,7 +160,7 @@ typedef union ae2fCL_ui32_64&#160;</td><td class="memItemRight" valign="bottom">
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:aa517821523dec8eae6c48d3666272fd9" id="r_aa517821523dec8eae6c48d3666272fd9"><td class="memItemLeft" align="right" valign="top">ae2f_extern ae2f_SHAREDCALL <a class="el" href="unionae2fCL__ui32__64.html">ae2fCL_ui32_64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa517821523dec8eae6c48d3666272fd9">ae2fCL_AnnLcgRandSeed</a></td></tr>
+<tr class="memitem:aa517821523dec8eae6c48d3666272fd9" id="r_aa517821523dec8eae6c48d3666272fd9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Cast_8h.html#af32d53608be4ca28fd8e5cd34fc0279b">ae2f_extern</a> <a class="el" href="Call_8h.html#acf8a5107987731bc66f8a74d75eac60c">ae2f_SHAREDCALL</a> <a class="el" href="unionae2fCL__ui32__64.html">ae2fCL_ui32_64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa517821523dec8eae6c48d3666272fd9">ae2fCL_AnnLcgRandSeed</a></td></tr>
 <tr class="memdesc:aa517821523dec8eae6c48d3666272fd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pre-defined global seed. <br  />
 Simply change this would change the global seed for lcgG.  <br /></td></tr>
 <tr class="separator:aa517821523dec8eae6c48d3666272fd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -207,7 +207,8 @@ Simply change this would change the global seed for lcgG.  <br /></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">(((ae2f_float_t)(n)) / ((ae2f_float_t)ae2fCL_AnnLcgRandM))</div>
+<b>Value:</b><div class="fragment"><div class="line">(((<a class="code hl_typedef" href="Float_8h.html#ad029f2802bba9d269cdc890f4f1205d7">ae2f_float_t</a>)(n)) / ((<a class="code hl_typedef" href="Float_8h.html#ad029f2802bba9d269cdc890f4f1205d7">ae2f_float_t</a>)ae2fCL_AnnLcgRandM))</div>
+<div class="ttc" id="aFloat_8h_html_ad029f2802bba9d269cdc890f4f1205d7"><div class="ttname"><a href="Float_8h.html#ad029f2802bba9d269cdc890f4f1205d7">ae2f_float_t</a></div><div class="ttdeci">float ae2f_float_t</div><div class="ttdoc">Predefined floating point type.</div><div class="ttdef"><b>Definition</b> Float.h:10</div></div>
 </div><!-- fragment -->
 <p>Shrink the 64-bits unsigned integer to [0, 1] in float type. <br  />
 . </p>
@@ -217,7 +218,7 @@ Simply change this would change the global seed for lcgG.  <br /></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>[ae2f_float_t] [0 ~ 1] </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>[<a class="el" href="Float_8h.html#ad029f2802bba9d269cdc890f4f1205d7" title="Predefined floating point type.">ae2f_float_t</a>] [0 ~ 1] </dd></dl>
 
 </div>
 </div>
@@ -266,7 +267,7 @@ Simply change this would change the global seed for lcgG.  <br /></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>[ae2f_float_t] Generated number from 0 to 1.</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>[<a class="el" href="Float_8h.html#ad029f2802bba9d269cdc890f4f1205d7" title="Predefined floating point type.">ae2f_float_t</a>] Generated number from 0 to 1.</dd></dl>
 <p>See <a class="el" href="#a822c4319a5d3e01cc8798ab6a5ac858c">ae2fCL_AnnLcgRand</a> <a class="el" href="#a816dcd3ed72d5abc025708877fe8567b">ae2fCL_AnnLcgRandDistribute</a> </p>
 
 </div>
@@ -299,7 +300,7 @@ Simply change this would change the global seed for lcgG.  <br /></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">ae2f_extern ae2f_SHAREDCALL <a class="el" href="unionae2fCL__ui32__64.html">ae2fCL_ui32_64</a> ae2fCL_AnnLcgRandSeed</td>
+          <td class="memname"><a class="el" href="Cast_8h.html#af32d53608be4ca28fd8e5cd34fc0279b">ae2f_extern</a> <a class="el" href="Call_8h.html#acf8a5107987731bc66f8a74d75eac60c">ae2f_SHAREDCALL</a> <a class="el" href="unionae2fCL__ui32__64.html">ae2fCL_ui32_64</a> ae2fCL_AnnLcgRandSeed</td>
         </tr>
       </table>
 </div><div class="memdoc">

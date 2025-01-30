@@ -106,27 +106,30 @@ $(function(){initNavTree('Cmp_8h_source.html',''); initResizable(true); });
   <div class="headertitle"><div class="title">Cmp.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#if !defined(ae2f_Cmp_h)</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define ae2f_Cmp_h</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;Cmp/Fun.h&quot;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span></div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#define ae2f_CmpGetGt(a, b)     ((a) &gt; (b) ? (a) : (b))</span></div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span></div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#define ae2f_CmpGetLs(a, b) ((a) &lt; (b) ? (a) : (b))</span></div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span></div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">#define ae2f_CmpDiff(a, b)          (ae2f_CmpGetGt(a, b) - ae2f_CmpGetLs(a, b))</span></div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span></div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="preprocessor">#define ae2f_CmpGetMem(ptr, member, alter) ((ptr) ? ((ptr)-&gt;member) : (alter))</span></div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span></div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="preprocessor">#define ae2f_CmpGetSelf(ptr, alt) ((ptr) ? (ptr) : (alt))</span></div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="preprocessor">#endif </span><span class="comment">// !defined(ae2f_Macro_Compare_h)</span></div>
+<a href="Cmp_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#if !defined(ae2f_Cmp_h)</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#define ae2f_Cmp_h</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;<a class="code" href="Fun_8h.html">Cmp/Fun.h</a>&quot;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="Cmp_8h.html#a5faf903c6d9581d970a7c2f0666e9339">   12</a></span><span class="preprocessor">#define ae2f_CmpGetGt(a, b)     ((a) &gt; (b) ? (a) : (b))</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="Cmp_8h.html#ab3c784016b1a71e6b23bf0234817ab3a">   18</a></span><span class="preprocessor">#define ae2f_CmpGetLs(a, b) ((a) &lt; (b) ? (a) : (b))</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="Cmp_8h.html#addd39204abd0bc1860e6ffb06f882617">   22</a></span><span class="preprocessor">#define ae2f_CmpDiff(a, b)          (ae2f_CmpGetGt(a, b) - ae2f_CmpGetLs(a, b))</span></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span></div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="Cmp_8h.html#a9c08d68c01bcf33d01e58cd66a215e4f">   30</a></span><span class="preprocessor">#define ae2f_CmpGetMem(ptr, member, alter) ((ptr) ? ((ptr)-&gt;member) : (alter))</span></div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span></div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="Cmp_8h.html#a47cfb81ee8bf49067a17b6a59af4f552">   37</a></span><span class="preprocessor">#define ae2f_CmpGetSelf(ptr, alt) ((ptr) ? (ptr) : (alt))</span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="preprocessor">#endif </span><span class="comment">// !defined(ae2f_Macro_Compare_h)</span></div>
+<div class="ttc" id="aFun_8h_html"><div class="ttname"><a href="Fun_8h.html">Fun.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_f9c61c37275185389c71970f3ed76e78.html">SharedHeaders</a></li><li class="navelem"><a class="el" href="dir_55b925d22b646a625e429fb45563105e.html">ae2f</a></li><li class="navelem"><b>Cmp.h</b></li>
+    <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_f9c61c37275185389c71970f3ed76e78.html">SharedHeaders</a></li><li class="navelem"><a class="el" href="dir_55b925d22b646a625e429fb45563105e.html">ae2f</a></li><li class="navelem"><a class="el" href="Cmp_8h.html">Cmp.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
   </ul>
 </div>

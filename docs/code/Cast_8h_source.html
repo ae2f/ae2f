@@ -106,66 +106,71 @@ $(function(){initNavTree('Cast_8h_source.html',''); initResizable(true); });
   <div class="headertitle"><div class="title">Cast.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#if !defined(ae2f_Cast_h)</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#define ae2f_Cast_h</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span></div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#define ae2f_CastCCls &quot;\033[2J\033[H&quot;</span></div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span></div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#define ae2f_CastMerge(...) __VA_ARGS__</span></div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#include &lt;stdbool.h&gt;</span></div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#include &lt;stddef.h&gt;</span></div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#if defined(__cplusplus)</span></div>
+<a href="Cast_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#if !defined(ae2f_Cast_h)</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno"><a class="line" href="Cast_8h.html#aa42d27ba96f89f1130941cf3f8fca1ad">    7</a></span><span class="preprocessor">#define ae2f_Cast_h</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="Cast_8h.html#a48e9f2e5fb4098fd9ff5d232a274e5d7">   12</a></span><span class="preprocessor">#define ae2f_CastCCls &quot;\033[2J\033[H&quot;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="Cast_8h.html#aa054a536a6e97d32fa49c1ddf3e0accc">   16</a></span><span class="preprocessor">#define ae2f_CastMerge(...) __VA_ARGS__</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#include &lt;stdbool.h&gt;</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#include &lt;stddef.h&gt;</span></div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">#include &quot;Cast/CasterUnion.hpp&quot;</span></div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="preprocessor">#include &quot;Cast/Constexpr.hpp&quot;</span></div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span></div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">#define ae2f_WhenCXX(...) __VA_ARGS__</span></div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span></div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="preprocessor">#define ae2f_WhenC(...)</span></div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="preprocessor">#else</span></div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span></div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="preprocessor">#define ae2f_WhenCXX(...)</span></div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span></div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="preprocessor">#define ae2f_WhenC(...) __VA_ARGS__</span></div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="preprocessor">#endif </span><span class="comment">// defined(__cplusplus)</span></div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span></div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="preprocessor">#define ae2f_RecordMk(type, ...) (ae2f_WhenC((type) { __VA_ARGS__ }) ae2f_WhenCXX(type{ __VA_ARGS__ }))</span></div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span></div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="preprocessor">#define ae2f_static_cast(t, v) ae2f_WhenC(((t)(v))) ae2f_WhenCXX(static_cast&lt;t&gt;(v))</span></div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span></div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="preprocessor">#define ae2f_dynamic_cast(t, v) ae2f_WhenC(((t)(v))) ae2f_WhenCXX(dynamic_cast&lt;t&gt;(v))</span></div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span></div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><span class="preprocessor">#define ae2f_reinterpret_cast(t, v) ae2f_WhenC(((t)(v))) ae2f_WhenCXX(reinterpret_cast&lt;t&gt;(v))</span></div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span></div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span><span class="preprocessor">#define ae2f_const_cast(t, v) ae2f_WhenC(((t)(v))) ae2f_WhenCXX(const_cast&lt;t&gt;(v))</span></div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span></div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span><span class="preprocessor">#define ae2f_union_cast(tThen, tNow, v) ae2f_WhenC((union { tThen a; tNow b; }) { v }) ae2f_WhenCXX(ae2f_UnionCaster&lt;tThen, tNow&gt;{ v }) .b</span></div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span></div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span><span class="preprocessor">#define ae2f_struct ae2f_WhenC(struct)</span></div>
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span></div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span><span class="preprocessor">#define ae2f_extern ae2f_WhenC(extern) ae2f_WhenCXX(extern &quot;C&quot;)</span></div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span></div>
-<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span><span class="preprocessor">#define ae2f_class ae2f_WhenC(struct) ae2f_WhenCXX(class)</span></div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span></div>
-<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span><span class="preprocessor">#define ae2f_var ae2f_WhenCXX(extern &quot;C&quot;)</span></div>
-<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span></div>
-<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span><span class="preprocessor">#define ae2f_fdef(rtn_t, name, ...) rtn_t (*name)(__VA_ARGS__)</span></div>
-<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span></div>
-<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span><span class="preprocessor">#define constexpr ae2f_WhenC(const) ae2f_WhenCXX(constexpr)</span></div>
-<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span><span class="preprocessor">#define noexcept ae2f_WhenCXX(noexcept)</span></div>
-<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span> </div>
-<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">#if defined(__cplusplus)</span></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="preprocessor">#include &quot;<a class="code" href="CasterUnion_8hpp.html">Cast/CasterUnion.hpp</a>&quot;</span></div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="preprocessor">#include &quot;<a class="code" href="Constexpr_8hpp.html">Cast/Constexpr.hpp</a>&quot;</span></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span></div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="preprocessor">#define ae2f_WhenCXX(...) __VA_ARGS__</span></div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span></div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="preprocessor">#define ae2f_WhenC(...)</span></div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="preprocessor">#else</span></div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="Cast_8h.html#a7db6ab0e932eee2c5d72224b44e1260c">   38</a></span><span class="preprocessor">#define ae2f_WhenCXX(...)</span></div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span></div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="Cast_8h.html#a70cd5f29915062b7c41069b023823245">   42</a></span><span class="preprocessor">#define ae2f_WhenC(...) __VA_ARGS__</span></div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="preprocessor">#endif </span><span class="comment">// defined(__cplusplus)</span></div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span></div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="Cast_8h.html#a3992ff0ceb1477e4ea82cb3358f15a02">   48</a></span><span class="preprocessor">#define ae2f_RecordMk(type, ...) (ae2f_WhenC((type) { __VA_ARGS__ }) ae2f_WhenCXX(type{ __VA_ARGS__ }))</span></div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span></div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="Cast_8h.html#ab86a90b116e454206d7d4f5c0d07ebcb">   52</a></span><span class="preprocessor">#define ae2f_static_cast(t, v) ae2f_WhenC(((t)(v))) ae2f_WhenCXX(static_cast&lt;t&gt;(v))</span></div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span></div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="Cast_8h.html#a0beba4d8f3a03b03e385532151c6ee23">   56</a></span><span class="preprocessor">#define ae2f_dynamic_cast(t, v) ae2f_WhenC(((t)(v))) ae2f_WhenCXX(dynamic_cast&lt;t&gt;(v))</span></div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span></div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="Cast_8h.html#acd8146ed1e048f22e68ea16ad208e84a">   60</a></span><span class="preprocessor">#define ae2f_reinterpret_cast(t, v) ae2f_WhenC(((t)(v))) ae2f_WhenCXX(reinterpret_cast&lt;t&gt;(v))</span></div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span></div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno"><a class="line" href="Cast_8h.html#a78f35f7227637506a67a200e10f16f10">   64</a></span><span class="preprocessor">#define ae2f_const_cast(t, v) ae2f_WhenC(((t)(v))) ae2f_WhenCXX(const_cast&lt;t&gt;(v))</span></div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span></div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno"><a class="line" href="Cast_8h.html#a617373a68c3f94d8e00857e2e6cfe97f">   77</a></span><span class="preprocessor">#define ae2f_union_cast(tThen, tNow, v) ae2f_WhenC((union { tThen a; tNow b; }) { v }) ae2f_WhenCXX(ae2f_UnionCaster&lt;tThen, tNow&gt;{ v }) .b</span></div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span></div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno"><a class="line" href="Cast_8h.html#a06f9c6cce51fc7772141ec9a6d521511">   84</a></span><span class="preprocessor">#define ae2f_struct ae2f_WhenC(struct)</span></div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span></div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno"><a class="line" href="Cast_8h.html#af32d53608be4ca28fd8e5cd34fc0279b">   88</a></span><span class="preprocessor">#define ae2f_extern ae2f_WhenC(extern) ae2f_WhenCXX(extern &quot;C&quot;)</span></div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span></div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno"><a class="line" href="Cast_8h.html#a08aaefc28432e5f795e374e361593d2b">   92</a></span><span class="preprocessor">#define ae2f_class ae2f_WhenC(struct) ae2f_WhenCXX(class)</span></div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span></div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno"><a class="line" href="Cast_8h.html#a55689481e470b84f3bc5710c860b088c">   96</a></span><span class="preprocessor">#define ae2f_var ae2f_WhenCXX(extern &quot;C&quot;)</span></div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span></div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno"><a class="line" href="Cast_8h.html#ae19c09f06693f52d2ce2843500d58dd2">  100</a></span><span class="preprocessor">#define ae2f_fdef(rtn_t, name, ...) rtn_t (*name)(__VA_ARGS__)</span></div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span></div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno"><a class="line" href="Cast_8h.html#a72f0657181cca64b44eb186b707eb380">  104</a></span><span class="preprocessor">#define constexpr ae2f_WhenC(const) ae2f_WhenCXX(constexpr)</span></div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span></div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno"><a class="line" href="Cast_8h.html#a189faadd7f99f6c354db09acbb2aafcd">  108</a></span><span class="preprocessor">#define noexcept ae2f_WhenCXX(noexcept)</span></div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span> </div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aCasterUnion_8hpp_html"><div class="ttname"><a href="CasterUnion_8hpp.html">CasterUnion.hpp</a></div></div>
+<div class="ttc" id="aConstexpr_8hpp_html"><div class="ttname"><a href="Constexpr_8hpp.html">Constexpr.hpp</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_f9c61c37275185389c71970f3ed76e78.html">SharedHeaders</a></li><li class="navelem"><a class="el" href="dir_55b925d22b646a625e429fb45563105e.html">ae2f</a></li><li class="navelem"><b>Cast.h</b></li>
+    <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_f9c61c37275185389c71970f3ed76e78.html">SharedHeaders</a></li><li class="navelem"><a class="el" href="dir_55b925d22b646a625e429fb45563105e.html">ae2f</a></li><li class="navelem"><a class="el" href="Cast_8h.html">Cast.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
   </ul>
 </div>

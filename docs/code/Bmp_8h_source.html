@@ -116,20 +116,24 @@ $(function(){initNavTree('Bmp_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#define clCreateCommandQueueWithProperties clCreateCommandQueue</span></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>ae2f_extern ae2f_SHAREDCALL cl_int ae2fCL_BmpMk(</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><a class="code hl_define" href="Cast_8h.html#af32d53608be4ca28fd8e5cd34fc0279b">ae2f_extern</a> <a class="code hl_define" href="Call_8h.html#acf8a5107987731bc66f8a74d75eac60c">ae2f_SHAREDCALL</a> cl_int ae2fCL_BmpMk(</div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>    cl_context context,</div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    cl_uint clDeviceNumber,</div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    <span class="keyword">const</span> cl_device_id* lpDevice</div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>) <span class="keyword">noexcept</span>;</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>ae2f_extern ae2f_SHAREDCALL cl_int ae2fCL_BmpDel() noexcept;</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><a class="code hl_define" href="Cast_8h.html#af32d53608be4ca28fd8e5cd34fc0279b">ae2f_extern</a> <a class="code hl_define" href="Call_8h.html#acf8a5107987731bc66f8a74d75eac60c">ae2f_SHAREDCALL</a> cl_int ae2fCL_BmpDel() <a class="code hl_define" href="Cast_8h.html#a189faadd7f99f6c354db09acbb2aafcd">noexcept</a>;</div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>ae2f_extern ae2f_SHAREDCALL cl_int ae2fCL_BmpFill(</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><a class="code hl_define" href="Cast_8h.html#af32d53608be4ca28fd8e5cd34fc0279b">ae2f_extern</a> <a class="code hl_define" href="Call_8h.html#acf8a5107987731bc66f8a74d75eac60c">ae2f_SHAREDCALL</a> cl_int ae2fCL_BmpFill(</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    cl_command_queue queue,</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    ae2f_struct <a class="code hl_struct" href="structae2fCL__cBmpBuff.html">ae2fCL_cBmpBuff</a>* dest,</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    <a class="code hl_define" href="Cast_8h.html#a06f9c6cce51fc7772141ec9a6d521511">ae2f_struct</a> <a class="code hl_struct" href="structae2fCL__cBmpBuff.html">ae2fCL_cBmpBuff</a>* dest,</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    uint32_t colour</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>) noexcept;</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>) <a class="code hl_define" href="Cast_8h.html#a189faadd7f99f6c354db09acbb2aafcd">noexcept</a>;</div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aCall_8h_html_acf8a5107987731bc66f8a74d75eac60c"><div class="ttname"><a href="Call_8h.html#acf8a5107987731bc66f8a74d75eac60c">ae2f_SHAREDCALL</a></div><div class="ttdeci">#define ae2f_SHAREDCALL</div><div class="ttdef"><b>Definition</b> Call.h:61</div></div>
+<div class="ttc" id="aCast_8h_html_a06f9c6cce51fc7772141ec9a6d521511"><div class="ttname"><a href="Cast_8h.html#a06f9c6cce51fc7772141ec9a6d521511">ae2f_struct</a></div><div class="ttdeci">#define ae2f_struct</div><div class="ttdoc">In C, keyword &#39;struct&#39; must be written in front of the structure&#39;s name in order to use as a type nam...</div><div class="ttdef"><b>Definition</b> Cast.h:84</div></div>
+<div class="ttc" id="aCast_8h_html_a189faadd7f99f6c354db09acbb2aafcd"><div class="ttname"><a href="Cast_8h.html#a189faadd7f99f6c354db09acbb2aafcd">noexcept</a></div><div class="ttdeci">#define noexcept</div><div class="ttdoc">Means that there will be no exception thrown written in code.</div><div class="ttdef"><b>Definition</b> Cast.h:108</div></div>
+<div class="ttc" id="aCast_8h_html_af32d53608be4ca28fd8e5cd34fc0279b"><div class="ttname"><a href="Cast_8h.html#af32d53608be4ca28fd8e5cd34fc0279b">ae2f_extern</a></div><div class="ttdeci">#define ae2f_extern</div><div class="ttdoc">Suggests the existence of external variable or function, in naming of C. [non-mangling].</div><div class="ttdef"><b>Definition</b> Cast.h:88</div></div>
 <div class="ttc" id="astructae2fCL__cBmpBuff_html"><div class="ttname"><a href="structae2fCL__cBmpBuff.html">ae2fCL_cBmpBuff</a></div><div class="ttdef"><b>Definition</b> Buff.h:7</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

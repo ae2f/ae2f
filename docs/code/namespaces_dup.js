@@ -33,6 +33,8 @@ var namespaces_dup =
       ] ],
       [ "errGlobState", "structae2f_1_1errGlobState.html", "structae2f_1_1errGlobState" ],
       [ "errGlobThrown", "classae2f_1_1errGlobThrown.html", null ],
-      [ "rBitVec", "classae2f_1_1rBitVec.html", "classae2f_1_1rBitVec" ]
+      [ "rBitVec", "classae2f_1_1rBitVec.html", "classae2f_1_1rBitVec" ],
+      [ "xfpCmp_t", "Fun_8hpp.html#a7ce41e5db09dc16b8b98cbb249b07a7d", null ],
+      [ "xfpCmp", "Fun_8hpp.html#ae95d4c3fa62376105ce9d1e8a337df9b", null ]
     ] ]
 ];

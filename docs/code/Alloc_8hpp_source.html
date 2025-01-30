@@ -109,7 +109,7 @@ $(function(){initNavTree('Alloc_8hpp_source.html',''); initResizable(true); });
 <div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#if !defined(ae2f_ds_Alloc_hpp)</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define ae2f_ds_Alloc_hpp</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;ae2f/Pack/Beg.h&gt;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;<a class="code" href="Beg_8h.html">ae2f/Pack/Beg.h</a>&gt;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;./Alloc.h&quot;</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
@@ -159,13 +159,13 @@ $(function(){initNavTree('Alloc_8hpp_source.html',''); initResizable(true); });
 <div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>        }</div>
 </div>
 <div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span></div>
-<div class="line"><a id="l00116" name="l00116"></a><span class="lineno"><a class="line" href="structae2f_1_1Ds_1_1Alloc_1_1cRefer.html#a8bf8dfc80fa45f3e1335dd46612e994a">  116</a></span>        <span class="keyword">constexpr</span> <a class="code hl_function" href="structae2f_1_1Ds_1_1Alloc_1_1cRefer.html#a8bf8dfc80fa45f3e1335dd46612e994a">cRefer</a>(<span class="keyword">const</span> rRefer&amp; r) noexcept : rRefer(ae2f_cDsAllocRefMk(&amp;r)) {}</div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno"><a class="line" href="structae2f_1_1Ds_1_1Alloc_1_1cRefer.html#a8bf8dfc80fa45f3e1335dd46612e994a">  116</a></span>        <span class="keyword">constexpr</span> <a class="code hl_function" href="structae2f_1_1Ds_1_1Alloc_1_1cRefer.html#a8bf8dfc80fa45f3e1335dd46612e994a">cRefer</a>(<span class="keyword">const</span> rRefer&amp; r) <a class="code hl_define" href="Cast_8h.html#a189faadd7f99f6c354db09acbb2aafcd">noexcept</a> : rRefer(ae2f_cDsAllocRefMk(&amp;r)) {}</div>
 <div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span></div>
-<div class="line"><a id="l00126" name="l00126"></a><span class="lineno"><a class="line" href="structae2f_1_1Ds_1_1Alloc_1_1cRefer.html#af2c05d8af0cf125b72b425eda239540c">  126</a></span>        <span class="keyword">constexpr</span> <a class="code hl_function" href="structae2f_1_1Ds_1_1Alloc_1_1cRefer.html#af2c05d8af0cf125b72b425eda239540c">cRefer</a>(<span class="keyword">const</span> rRefer&amp;&amp; r) noexcept : rRefer(ae2f_cDsAllocRefMk(&amp;r)) {}</div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno"><a class="line" href="structae2f_1_1Ds_1_1Alloc_1_1cRefer.html#af2c05d8af0cf125b72b425eda239540c">  126</a></span>        <span class="keyword">constexpr</span> <a class="code hl_function" href="structae2f_1_1Ds_1_1Alloc_1_1cRefer.html#af2c05d8af0cf125b72b425eda239540c">cRefer</a>(<span class="keyword">const</span> rRefer&amp;&amp; r) <a class="code hl_define" href="Cast_8h.html#a189faadd7f99f6c354db09acbb2aafcd">noexcept</a> : rRefer(ae2f_cDsAllocRefMk(&amp;r)) {}</div>
 <div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span></div>
 <div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>        <span class="keyword">constexpr</span> <a class="code hl_function" href="structae2f_1_1Ds_1_1Alloc_1_1cRefer.html#a19aeb3d68c998b5a4cc4eb9e87c8954b">cRefer</a>(<span class="keyword">const</span> <a class="code hl_struct" href="structae2f_1_1Ds_1_1Alloc_1_1xrOwner.html">xrOwner</a>&amp; r) <span class="keyword">noexcept</span>;</div>
 <div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span></div>
-<div class="line"><a id="l00142" name="l00142"></a><span class="lineno"><a class="line" href="structae2f_1_1Ds_1_1Alloc_1_1cRefer.html#a19aeb3d68c998b5a4cc4eb9e87c8954b">  142</a></span>        <span class="keyword">constexpr</span> <a class="code hl_function" href="structae2f_1_1Ds_1_1Alloc_1_1cRefer.html#a19aeb3d68c998b5a4cc4eb9e87c8954b">cRefer</a>() noexcept : rRefer{ 0, 0 } {}</div>
+<div class="line"><a id="l00142" name="l00142"></a><span class="lineno"><a class="line" href="structae2f_1_1Ds_1_1Alloc_1_1cRefer.html#a19aeb3d68c998b5a4cc4eb9e87c8954b">  142</a></span>        <span class="keyword">constexpr</span> <a class="code hl_function" href="structae2f_1_1Ds_1_1Alloc_1_1cRefer.html#a19aeb3d68c998b5a4cc4eb9e87c8954b">cRefer</a>() <a class="code hl_define" href="Cast_8h.html#a189faadd7f99f6c354db09acbb2aafcd">noexcept</a> : rRefer{ 0, 0 } {}</div>
 <div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span>    };</div>
 </div>
 <div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span>}}}</div>
@@ -208,7 +208,7 @@ $(function(){initNavTree('Alloc_8hpp_source.html',''); initResizable(true); });
 </div>
 <div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span></div>
 <div class="foldopen" id="foldopen00259" data-start="{" data-end="}">
-<div class="line"><a id="l00259" name="l00259"></a><span class="lineno"><a class="line" href="structae2f_1_1Ds_1_1Alloc_1_1xrOwner.html#afd8f23ae39f92f5e2a32aa29763c30e4">  259</a></span>        <span class="keyword">inline</span> <a class="code hl_function" href="structae2f_1_1Ds_1_1Alloc_1_1xrOwner.html#afd8f23ae39f92f5e2a32aa29763c30e4">~xrOwner</a>() noexcept {</div>
+<div class="line"><a id="l00259" name="l00259"></a><span class="lineno"><a class="line" href="structae2f_1_1Ds_1_1Alloc_1_1xrOwner.html#afd8f23ae39f92f5e2a32aa29763c30e4">  259</a></span>        <span class="keyword">inline</span> <a class="code hl_function" href="structae2f_1_1Ds_1_1Alloc_1_1xrOwner.html#afd8f23ae39f92f5e2a32aa29763c30e4">~xrOwner</a>() <a class="code hl_define" href="Cast_8h.html#a189faadd7f99f6c354db09acbb2aafcd">noexcept</a> {</div>
 <div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span>            ae2f_errLast |= (ae2f_cDsAllocOwnDel(<span class="keyword">this</span>));</div>
 <div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span>        }</div>
 </div>
@@ -229,7 +229,7 @@ $(function(){initNavTree('Alloc_8hpp_source.html',''); initResizable(true); });
 <div class="line"><a id="l00314" name="l00314"></a><span class="lineno"><a class="line" href="structae2f_1_1Ds_1_1Alloc_1_1xrOwner.html#a59df0664aaf5051a2f73ee5a820fc8eb">  314</a></span>        <span class="keyword">inline</span> <a class="code hl_function" href="structae2f_1_1Ds_1_1Alloc_1_1xrOwner.html#a59df0664aaf5051a2f73ee5a820fc8eb">xrOwner</a>(</div>
 <div class="line"><a id="l00315" name="l00315"></a><span class="lineno">  315</span>            <a class="code hl_typedef" href="errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a>* perr,</div>
 <div class="line"><a id="l00316" name="l00316"></a><span class="lineno">  316</span>            <span class="keyword">const</span> <a class="code hl_struct" href="structae2f__vDsAlloc.html">ae2f_vDsAlloc</a>* imp</div>
-<div class="line"><a id="l00317" name="l00317"></a><span class="lineno">  317</span>        ) noexcept : rOwner() {</div>
+<div class="line"><a id="l00317" name="l00317"></a><span class="lineno">  317</span>        ) <a class="code hl_define" href="Cast_8h.html#a189faadd7f99f6c354db09acbb2aafcd">noexcept</a> : rOwner() {</div>
 <div class="line"><a id="l00318" name="l00318"></a><span class="lineno">  318</span>            perr = perr ? perr : &amp;ae2f_errLast;</div>
 <div class="line"><a id="l00319" name="l00319"></a><span class="lineno">  319</span>            *perr |= ae2f_cDsAllocOwnInit(<span class="keyword">this</span>, imp);</div>
 <div class="line"><a id="l00320" name="l00320"></a><span class="lineno">  320</span>        }</div>
@@ -243,7 +243,7 @@ $(function(){initNavTree('Alloc_8hpp_source.html',''); initResizable(true); });
 <div class="foldopen" id="foldopen00348" data-start="{" data-end="}">
 <div class="line"><a id="l00348" name="l00348"></a><span class="lineno"><a class="line" href="structae2f_1_1Ds_1_1Alloc_1_1iOwner.html#ad24e27661161aa8f15eaca319cece3ff">  348</a></span>        <span class="keyword">inline</span> <a class="code hl_function" href="structae2f_1_1Ds_1_1Alloc_1_1iOwner.html#ad24e27661161aa8f15eaca319cece3ff">iOwner</a>(</div>
 <div class="line"><a id="l00349" name="l00349"></a><span class="lineno">  349</span>            <a class="code hl_typedef" href="errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a>* perr = 0</div>
-<div class="line"><a id="l00350" name="l00350"></a><span class="lineno">  350</span>        ) noexcept : <a class="code hl_function" href="structae2f_1_1Ds_1_1Alloc_1_1xrOwner.html#a59df0664aaf5051a2f73ee5a820fc8eb">xrOwner</a>(perr, __imp) {}</div>
+<div class="line"><a id="l00350" name="l00350"></a><span class="lineno">  350</span>        ) <a class="code hl_define" href="Cast_8h.html#a189faadd7f99f6c354db09acbb2aafcd">noexcept</a> : <a class="code hl_function" href="structae2f_1_1Ds_1_1Alloc_1_1xrOwner.html#a59df0664aaf5051a2f73ee5a820fc8eb">xrOwner</a>(perr, __imp) {}</div>
 </div>
 <div class="line"><a id="l00351" name="l00351"></a><span class="lineno">  351</span>    };</div>
 </div>
@@ -252,7 +252,7 @@ $(function(){initNavTree('Alloc_8hpp_source.html',''); initResizable(true); });
 <div class="line"><a id="l00354" name="l00354"></a><span class="lineno">  354</span> </div>
 <div class="line"><a id="l00355" name="l00355"></a><span class="lineno">  355</span><span class="keyword">namespace </span>ae2f { <span class="keyword">namespace </span>Ds { <span class="keyword">namespace </span>Alloc {</div>
 <div class="line"><a id="l00356" name="l00356"></a><span class="lineno">  356</span> </div>
-<div class="line"><a id="l00357" name="l00357"></a><span class="lineno"><a class="line" href="structae2f_1_1Ds_1_1Alloc_1_1cRefer.html#a8a0659404cdde1231a344025faa23829">  357</a></span>    <span class="keyword">constexpr</span> <a class="code hl_function" href="structae2f_1_1Ds_1_1Alloc_1_1cRefer.html#a19aeb3d68c998b5a4cc4eb9e87c8954b">cRefer::cRefer</a>(<span class="keyword">const</span> <a class="code hl_struct" href="structae2f_1_1Ds_1_1Alloc_1_1xrOwner.html">xrOwner</a>&amp; r) noexcept : <a class="code hl_function" href="structae2f_1_1Ds_1_1Alloc_1_1cRefer.html#a8bf8dfc80fa45f3e1335dd46612e994a">cRefer</a>(ae2f_cDsAllocRefMk(&amp;r)) {}</div>
+<div class="line"><a id="l00357" name="l00357"></a><span class="lineno"><a class="line" href="structae2f_1_1Ds_1_1Alloc_1_1cRefer.html#a8a0659404cdde1231a344025faa23829">  357</a></span>    <span class="keyword">constexpr</span> <a class="code hl_function" href="structae2f_1_1Ds_1_1Alloc_1_1cRefer.html#a19aeb3d68c998b5a4cc4eb9e87c8954b">cRefer::cRefer</a>(<span class="keyword">const</span> <a class="code hl_struct" href="structae2f_1_1Ds_1_1Alloc_1_1xrOwner.html">xrOwner</a>&amp; r) <a class="code hl_define" href="Cast_8h.html#a189faadd7f99f6c354db09acbb2aafcd">noexcept</a> : <a class="code hl_function" href="structae2f_1_1Ds_1_1Alloc_1_1cRefer.html#a8bf8dfc80fa45f3e1335dd46612e994a">cRefer</a>(ae2f_cDsAllocRefMk(&amp;r)) {}</div>
 <div class="line"><a id="l00358" name="l00358"></a><span class="lineno">  358</span></div>
 <div class="foldopen" id="foldopen00361" data-start="{" data-end="}">
 <div class="line"><a id="l00361" name="l00361"></a><span class="lineno"><a class="line" href="namespaceae2f_1_1Ds_1_1Alloc_1_1cOwner.html">  361</a></span>    <span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceae2f_1_1Ds_1_1Alloc_1_1cOwner.html">cOwner</a> {</div>
@@ -261,9 +261,12 @@ $(function(){initNavTree('Alloc_8hpp_source.html',''); initResizable(true); });
 </div>
 <div class="line"><a id="l00368" name="l00368"></a><span class="lineno">  368</span>}}}</div>
 <div class="line"><a id="l00369" name="l00369"></a><span class="lineno">  369</span> </div>
-<div class="line"><a id="l00370" name="l00370"></a><span class="lineno">  370</span><span class="preprocessor">#include &lt;ae2f/Pack/End.h&gt;</span></div>
+<div class="line"><a id="l00370" name="l00370"></a><span class="lineno">  370</span><span class="preprocessor">#include &lt;<a class="code" href="End_8h.html">ae2f/Pack/End.h</a>&gt;</span></div>
 <div class="line"><a id="l00371" name="l00371"></a><span class="lineno">  371</span> </div>
 <div class="line"><a id="l00372" name="l00372"></a><span class="lineno">  372</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aBeg_8h_html"><div class="ttname"><a href="Beg_8h.html">Beg.h</a></div></div>
+<div class="ttc" id="aCast_8h_html_a189faadd7f99f6c354db09acbb2aafcd"><div class="ttname"><a href="Cast_8h.html#a189faadd7f99f6c354db09acbb2aafcd">noexcept</a></div><div class="ttdeci">#define noexcept</div><div class="ttdoc">Means that there will be no exception thrown written in code.</div><div class="ttdef"><b>Definition</b> Cast.h:108</div></div>
+<div class="ttc" id="aEnd_8h_html"><div class="ttname"><a href="End_8h.html">End.h</a></div></div>
 <div class="ttc" id="aerrGlob_8h_html_acc9504eac81cd46d5dabe7461a9c8157"><div class="ttname"><a href="errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a></div><div class="ttdeci">uint8_t ae2f_err_t</div><div class="ttdoc">Informs that this number represents the error.</div><div class="ttdef"><b>Definition</b> errGlob.h:11</div></div>
 <div class="ttc" id="anamespaceae2f_1_1Ds_1_1Alloc_1_1cOwner_html"><div class="ttname"><a href="namespaceae2f_1_1Ds_1_1Alloc_1_1cOwner.html">ae2f::Ds::Alloc::cOwner</a></div><div class="ttdoc">Pre-defined implementations of ae2f::Ds::Alloc::iOwner.</div><div class="ttdef"><b>Definition</b> Alloc.hpp:361</div></div>
 <div class="ttc" id="anamespaceae2f_1_1Ds_1_1Alloc_1_1cOwner_html_aee5baa87f422e740198b12b17017c424"><div class="ttname"><a href="namespaceae2f_1_1Ds_1_1Alloc_1_1cOwner.html#aee5baa87f422e740198b12b17017c424">ae2f::Ds::Alloc::cOwner::Linear_t</a></div><div class="ttdeci">iOwner&lt;&amp;ae2f_vDsAllocLinear_imp &gt; Linear_t</div><div class="ttdoc">Each elements will be physically linear.</div><div class="ttdef"><b>Definition</b> Alloc.hpp:366</div></div>

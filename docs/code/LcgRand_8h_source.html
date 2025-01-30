@@ -119,14 +119,14 @@ $(function(){initNavTree('LcgRand_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span></div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="LcgRand_8h.html#a822c4319a5d3e01cc8798ab6a5ac858c">   15</a></span><span class="preprocessor">#define ae2fCL_AnnLcgRand(seed) ((ae2fCL_AnnLcgRandA * (seed) + ae2fCL_AnnLcgRandC) % ae2fCL_AnnLcgRandM)</span></div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#include &lt;ae2f/Float.h&gt;</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#include &lt;<a class="code" href="Float_8h.html">ae2f/Float.h</a>&gt;</span></div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span></div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="LcgRand_8h.html#a816dcd3ed72d5abc025708877fe8567b">   24</a></span><span class="preprocessor">#define ae2fCL_AnnLcgRandDistribute(n) (((ae2f_float_t)(n)) / ((ae2f_float_t)ae2fCL_AnnLcgRandM))</span></div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span></div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="LcgRand_8h.html#a29f3658832a29ed1da86ba77331c73bf">   35</a></span><span class="preprocessor">#define ae2fCL_AnnLcgRandReal(seed) ae2fCL_AnnLcgRandDistribute(ae2fCL_AnnLcgRand(seed))</span></div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="preprocessor">#include &lt;ae2f/Call.h&gt;</span></div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="preprocessor">#include &lt;ae2f/Cast.h&gt;</span></div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="preprocessor">#include &lt;<a class="code" href="Call_8h.html">ae2f/Call.h</a>&gt;</span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="preprocessor">#include &lt;<a class="code" href="Cast_8h.html">ae2f/Cast.h</a>&gt;</span></div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="preprocessor">#include &lt;<a class="code" href="Loc_8h.html">ae2fCL/Loc.h</a>&gt;</span></div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="preprocessor">#ifndef ae2fCL_LocAsCL</span></div>
@@ -138,7 +138,7 @@ $(function(){initNavTree('LcgRand_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="LcgRand_8h.html#a6cbc7d90c1eb24ac530bbfaa9270a476">   47</a></span>} <a class="code hl_union" href="unionae2fCL__ui32__64.html">ae2fCL_ui32_64</a>;</div>
 </div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span></div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>ae2f_extern ae2f_SHAREDCALL <a class="code hl_union" href="unionae2fCL__ui32__64.html">ae2fCL_ui32_64</a> </div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span><a class="code hl_define" href="Cast_8h.html#af32d53608be4ca28fd8e5cd34fc0279b">ae2f_extern</a> <a class="code hl_define" href="Call_8h.html#acf8a5107987731bc66f8a74d75eac60c">ae2f_SHAREDCALL</a> <a class="code hl_union" href="unionae2fCL__ui32__64.html">ae2fCL_ui32_64</a> </div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="LcgRand_8h.html#aa517821523dec8eae6c48d3666272fd9">   56</a></span><a class="code hl_variable" href="LcgRand_8h.html#aa517821523dec8eae6c48d3666272fd9">ae2fCL_AnnLcgRandSeed</a>;</div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span></div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="LcgRand_8h.html#a42cc087facf697c91efc7358c79201d9">   59</a></span><span class="preprocessor">#define ae2fCL_AnnLcgRandG() ae2fCL_AnnLcgRand(ae2fCL_AnnLcgRandSeed.u64)</span></div>
@@ -147,6 +147,11 @@ $(function(){initNavTree('LcgRand_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aCall_8h_html"><div class="ttname"><a href="Call_8h.html">Call.h</a></div></div>
+<div class="ttc" id="aCall_8h_html_acf8a5107987731bc66f8a74d75eac60c"><div class="ttname"><a href="Call_8h.html#acf8a5107987731bc66f8a74d75eac60c">ae2f_SHAREDCALL</a></div><div class="ttdeci">#define ae2f_SHAREDCALL</div><div class="ttdef"><b>Definition</b> Call.h:61</div></div>
+<div class="ttc" id="aCast_8h_html"><div class="ttname"><a href="Cast_8h.html">Cast.h</a></div></div>
+<div class="ttc" id="aCast_8h_html_af32d53608be4ca28fd8e5cd34fc0279b"><div class="ttname"><a href="Cast_8h.html#af32d53608be4ca28fd8e5cd34fc0279b">ae2f_extern</a></div><div class="ttdeci">#define ae2f_extern</div><div class="ttdoc">Suggests the existence of external variable or function, in naming of C. [non-mangling].</div><div class="ttdef"><b>Definition</b> Cast.h:88</div></div>
+<div class="ttc" id="aFloat_8h_html"><div class="ttname"><a href="Float_8h.html">Float.h</a></div></div>
 <div class="ttc" id="aLcgRand_8h_html_aa517821523dec8eae6c48d3666272fd9"><div class="ttname"><a href="LcgRand_8h.html#aa517821523dec8eae6c48d3666272fd9">ae2fCL_AnnLcgRandSeed</a></div><div class="ttdeci">ae2f_extern ae2f_SHAREDCALL ae2fCL_ui32_64 ae2fCL_AnnLcgRandSeed</div><div class="ttdoc">Pre-defined global seed.  Simply change this would change the global seed for lcgG.</div><div class="ttdef"><b>Definition</b> LcgRand.h:56</div></div>
 <div class="ttc" id="aLoc_8h_html"><div class="ttname"><a href="Loc_8h.html">Loc.h</a></div></div>
 <div class="ttc" id="aunionae2fCL__ui32__64_html"><div class="ttname"><a href="unionae2fCL__ui32__64.html">ae2fCL_ui32_64</a></div><div class="ttdoc">Pre-generated 64-bits seed type for separation. (under the hood).</div><div class="ttdef"><b>Definition</b> LcgRand.h:44</div></div>
