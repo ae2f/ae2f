@@ -113,14 +113,14 @@ $(function(){initNavTree('structae2fCL__AnnMlp.html',''); initResizable(true); }
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aab3a2186f73be2cc4734a677f2d1bd05" id="r_aab3a2186f73be2cc4734a677f2d1bd05"><td class="memItemLeft" align="right" valign="top">ae2f_extern ae2f_SHAREDCALL <a class="el" href="errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab3a2186f73be2cc4734a677f2d1bd05">ae2fCL_AnnMlpMk</a> (<a class="el" href="structae2fCL__AnnMlp.html">ae2fCL_AnnMlp</a> *_this, const size_t *layerLengths, const size_t *inputCounts_optional, const size_t *padCount_optional, size_t layerCount, ae2fCL_fpAnnAct_t mAct, ae2fCL_fpAnnSpGetLoss_t fpGetLoss, cl_context ctx, cl_command_queue queue, cl_bool blocking_read, cl_uint num_events_in_wait_list, const cl_event *event_wait_list, cl_event *event)</td></tr>
-<tr class="separator:aab3a2186f73be2cc4734a677f2d1bd05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00e7efe50948c8bc2f56a91fe6f1b2e3" id="r_a00e7efe50948c8bc2f56a91fe6f1b2e3"><td class="memItemLeft" align="right" valign="top">ae2f_extern ae2f_SHAREDCALL <a class="el" href="errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a00e7efe50948c8bc2f56a91fe6f1b2e3">ae2fCL_AnnMlpMk</a> (<a class="el" href="structae2fCL__AnnMlp.html">ae2fCL_AnnMlp</a> *_this, const size_t *layerLengths, const size_t *inputCounts_optional, const size_t *padCount_optional, size_t layerCount, ae2fCL_fpAnnAct_t mAct, ae2fCL_fpAnnSpGetLoss_t fpGetLoss, cl_context ctx, cl_command_queue queue, cl_bool blocking_read, cl_uint num_events_in_wait_list, const cl_event *event_wait_list, cl_event *event) noexcept</td></tr>
+<tr class="separator:a00e7efe50948c8bc2f56a91fe6f1b2e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b872a7c0bab707e95a02dd0bd4493ca" id="r_a2b872a7c0bab707e95a02dd0bd4493ca"><td class="memItemLeft" align="right" valign="top">ae2f_extern ae2f_SHAREDCALL <a class="el" href="errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b872a7c0bab707e95a02dd0bd4493ca">ae2fCL_AnnMlpDel</a> (<a class="el" href="structae2fCL__AnnMlp.html">ae2fCL_AnnMlp</a> *_this)</td></tr>
 <tr class="separator:a2b872a7c0bab707e95a02dd0bd4493ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9daf12edbeae330ec45f0e390b5538f2" id="r_a9daf12edbeae330ec45f0e390b5538f2"><td class="memItemLeft" align="right" valign="top">ae2f_extern ae2f_SHAREDCALL <a class="el" href="errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9daf12edbeae330ec45f0e390b5538f2">ae2fCL_AnnMlpPredict</a> (<a class="el" href="structae2fCL__AnnMlp.html">ae2fCL_AnnMlp</a> *_this, ae2fCL_HostPtr(__global, ae2f_float_t *) in, ae2fCL_HostPtr(__global, ae2f_float_t *) buffobj_optionalA, size_t in_idx, size_t buffobj_idx_optionalA, ae2f_float_t *outret_optional, ae2f_float_t *outcache_optional, cl_command_queue queue, cl_context context_optionalB)</td></tr>
-<tr class="separator:a9daf12edbeae330ec45f0e390b5538f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1beb9b8fddee97d51241d5d2a1aa5f4d" id="r_a1beb9b8fddee97d51241d5d2a1aa5f4d"><td class="memItemLeft" align="right" valign="top">ae2f_extern ae2f_SHAREDCALL <a class="el" href="errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1beb9b8fddee97d51241d5d2a1aa5f4d">ae2fCL_AnnMlpTrain</a> (<a class="el" href="structae2fCL__AnnMlp.html">ae2fCL_AnnMlp</a> *_this, ae2fCL_HostPtr(__global, ae2f_float_t *) in, ae2fCL_HostPtr(__global, ae2f_float_t *) buffobj_optionalA, ae2fCL_HostPtr(__global, ae2f_float_t *) out_optionalA, size_t in_idx, size_t buffobj_idx_optionalA, size_t out_idx_optionalA, ae2f_float_t *outret_optional, ae2f_float_t *outcache_optional, const ae2f_float_t *goal, ae2f_float_t LearningRate, cl_command_queue queue, cl_context context_optionalB)</td></tr>
-<tr class="separator:a1beb9b8fddee97d51241d5d2a1aa5f4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bf71eb21482d91c2e96864d5a0ea5a1" id="r_a6bf71eb21482d91c2e96864d5a0ea5a1"><td class="memItemLeft" align="right" valign="top">ae2f_extern ae2f_SHAREDCALL <a class="el" href="errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6bf71eb21482d91c2e96864d5a0ea5a1">ae2fCL_AnnMlpPredict</a> (<a class="el" href="structae2fCL__AnnMlp.html">ae2fCL_AnnMlp</a> *_this, <a class="el" href="Loc_8h.html#a28b2b590047f103dcbadc23fc5ba5f79">ae2fCL_HostPtr</a>(<a class="el" href="Loc_8h.html#a0bcdca9f6e5923ea191d934ec3400d9e">__global</a>, ae2f_float_t *) in, <a class="el" href="Loc_8h.html#a28b2b590047f103dcbadc23fc5ba5f79">ae2fCL_HostPtr</a>(<a class="el" href="Loc_8h.html#a0bcdca9f6e5923ea191d934ec3400d9e">__global</a>, ae2f_float_t *) buffobj_optionalA, size_t in_idx, size_t buffobj_idx_optionalA, ae2f_float_t *outret_optional, ae2f_float_t *outcache_optional, cl_command_queue queue, cl_context context_optionalB) noexcept</td></tr>
+<tr class="separator:a6bf71eb21482d91c2e96864d5a0ea5a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee46332d447e624e510e728408118a91" id="r_aee46332d447e624e510e728408118a91"><td class="memItemLeft" align="right" valign="top">ae2f_extern ae2f_SHAREDCALL <a class="el" href="errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee46332d447e624e510e728408118a91">ae2fCL_AnnMlpTrain</a> (<a class="el" href="structae2fCL__AnnMlp.html">ae2fCL_AnnMlp</a> *_this, <a class="el" href="Loc_8h.html#a28b2b590047f103dcbadc23fc5ba5f79">ae2fCL_HostPtr</a>(<a class="el" href="Loc_8h.html#a0bcdca9f6e5923ea191d934ec3400d9e">__global</a>, ae2f_float_t *) in, <a class="el" href="Loc_8h.html#a28b2b590047f103dcbadc23fc5ba5f79">ae2fCL_HostPtr</a>(<a class="el" href="Loc_8h.html#a0bcdca9f6e5923ea191d934ec3400d9e">__global</a>, ae2f_float_t *) buffobj_optionalA, <a class="el" href="Loc_8h.html#a28b2b590047f103dcbadc23fc5ba5f79">ae2fCL_HostPtr</a>(<a class="el" href="Loc_8h.html#a0bcdca9f6e5923ea191d934ec3400d9e">__global</a>, ae2f_float_t *) out_optionalA, size_t in_idx, size_t buffobj_idx_optionalA, size_t out_idx_optionalA, ae2f_float_t *outret_optional, ae2f_float_t *outcache_optional, const ae2f_float_t *goal, ae2f_float_t LearningRate, cl_command_queue queue, cl_context context_optionalB) noexcept</td></tr>
+<tr class="separator:aee46332d447e624e510e728408118a91"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -159,11 +159,14 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><b>MaxBuffCount</b></t
 
 </div>
 </div>
-<a id="aab3a2186f73be2cc4734a677f2d1bd05" name="aab3a2186f73be2cc4734a677f2d1bd05"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aab3a2186f73be2cc4734a677f2d1bd05">&#9670;&#160;</a></span>ae2fCL_AnnMlpMk()</h2>
+<a id="a00e7efe50948c8bc2f56a91fe6f1b2e3" name="a00e7efe50948c8bc2f56a91fe6f1b2e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00e7efe50948c8bc2f56a91fe6f1b2e3">&#9670;&#160;</a></span>ae2fCL_AnnMlpMk()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">ae2f_extern ae2f_SHAREDCALL <a class="el" href="errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a> ae2fCL_AnnMlpMk </td>
@@ -231,6 +234,11 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><b>MaxBuffCount</b></t
           <td class="paramtype">cl_event *</td>          <td class="paramname"><span class="paramname"><em>event</em></span>&#160;)</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -254,11 +262,14 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><b>MaxBuffCount</b></t
 
 </div>
 </div>
-<a id="a9daf12edbeae330ec45f0e390b5538f2" name="a9daf12edbeae330ec45f0e390b5538f2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9daf12edbeae330ec45f0e390b5538f2">&#9670;&#160;</a></span>ae2fCL_AnnMlpPredict()</h2>
+<a id="a6bf71eb21482d91c2e96864d5a0ea5a1" name="a6bf71eb21482d91c2e96864d5a0ea5a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bf71eb21482d91c2e96864d5a0ea5a1">&#9670;&#160;</a></span>ae2fCL_AnnMlpPredict()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">ae2f_extern ae2f_SHAREDCALL <a class="el" href="errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a> ae2fCL_AnnMlpPredict </td>
@@ -268,12 +279,12 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><b>MaxBuffCount</b></t
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">ae2fCL_HostPtr(__global, ae2f_float_t *)</td>          <td class="paramname"><span class="paramname"><em>in</em></span>, </td>
+          <td class="paramtype"><a class="el" href="Loc_8h.html#a28b2b590047f103dcbadc23fc5ba5f79">ae2fCL_HostPtr</a>(<a class="el" href="Loc_8h.html#a0bcdca9f6e5923ea191d934ec3400d9e">__global</a>, ae2f_float_t *)</td>          <td class="paramname"><span class="paramname"><em>in</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">ae2fCL_HostPtr(__global, ae2f_float_t *)</td>          <td class="paramname"><span class="paramname"><em>buffobj_optionalA</em></span>, </td>
+          <td class="paramtype"><a class="el" href="Loc_8h.html#a28b2b590047f103dcbadc23fc5ba5f79">ae2fCL_HostPtr</a>(<a class="el" href="Loc_8h.html#a0bcdca9f6e5923ea191d934ec3400d9e">__global</a>, ae2f_float_t *)</td>          <td class="paramname"><span class="paramname"><em>buffobj_optionalA</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -306,6 +317,11 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><b>MaxBuffCount</b></t
           <td class="paramtype">cl_context</td>          <td class="paramname"><span class="paramname"><em>context_optionalB</em></span>&#160;)</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000002">Todo</a></b></dt><dd>Don't know why though Predict with pre-allocated OpenCL Memory Object is casting us an exception. <br  />
 Perhaps using same memory object for input and output was a problem?</dd></dl>
@@ -328,11 +344,14 @@ Perhaps using same memory object for input and output was a problem?</dd></dl>
 
 </div>
 </div>
-<a id="a1beb9b8fddee97d51241d5d2a1aa5f4d" name="a1beb9b8fddee97d51241d5d2a1aa5f4d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1beb9b8fddee97d51241d5d2a1aa5f4d">&#9670;&#160;</a></span>ae2fCL_AnnMlpTrain()</h2>
+<a id="aee46332d447e624e510e728408118a91" name="aee46332d447e624e510e728408118a91"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee46332d447e624e510e728408118a91">&#9670;&#160;</a></span>ae2fCL_AnnMlpTrain()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">ae2f_extern ae2f_SHAREDCALL <a class="el" href="errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a> ae2fCL_AnnMlpTrain </td>
@@ -342,17 +361,17 @@ Perhaps using same memory object for input and output was a problem?</dd></dl>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">ae2fCL_HostPtr(__global, ae2f_float_t *)</td>          <td class="paramname"><span class="paramname"><em>in</em></span>, </td>
+          <td class="paramtype"><a class="el" href="Loc_8h.html#a28b2b590047f103dcbadc23fc5ba5f79">ae2fCL_HostPtr</a>(<a class="el" href="Loc_8h.html#a0bcdca9f6e5923ea191d934ec3400d9e">__global</a>, ae2f_float_t *)</td>          <td class="paramname"><span class="paramname"><em>in</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">ae2fCL_HostPtr(__global, ae2f_float_t *)</td>          <td class="paramname"><span class="paramname"><em>buffobj_optionalA</em></span>, </td>
+          <td class="paramtype"><a class="el" href="Loc_8h.html#a28b2b590047f103dcbadc23fc5ba5f79">ae2fCL_HostPtr</a>(<a class="el" href="Loc_8h.html#a0bcdca9f6e5923ea191d934ec3400d9e">__global</a>, ae2f_float_t *)</td>          <td class="paramname"><span class="paramname"><em>buffobj_optionalA</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">ae2fCL_HostPtr(__global, ae2f_float_t *)</td>          <td class="paramname"><span class="paramname"><em>out_optionalA</em></span>, </td>
+          <td class="paramtype"><a class="el" href="Loc_8h.html#a28b2b590047f103dcbadc23fc5ba5f79">ae2fCL_HostPtr</a>(<a class="el" href="Loc_8h.html#a0bcdca9f6e5923ea191d934ec3400d9e">__global</a>, ae2f_float_t *)</td>          <td class="paramname"><span class="paramname"><em>out_optionalA</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -400,6 +419,11 @@ Perhaps using same memory object for input and output was a problem?</dd></dl>
           <td class="paramtype">cl_context</td>          <td class="paramname"><span class="paramname"><em>context_optionalB</em></span>&#160;)</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000003">Todo</a></b></dt><dd>Allocation is failing.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>

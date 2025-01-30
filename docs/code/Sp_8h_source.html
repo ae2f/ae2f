@@ -114,17 +114,17 @@ $(function(){initNavTree('Sp_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;ae2f/Cast.h&gt;</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;ae2f/Call.h&gt;</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;ae2f/Float.h&gt;</span></div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &lt;ae2fCL/Loc.h&gt;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &lt;<a class="code" href="Loc_8h.html">ae2fCL/Loc.h</a>&gt;</span></div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &lt;<a class="code" href="errGlob_8h.html">ae2f/errGlob.h</a>&gt;</span></div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &quot;<a class="code" href="Act_8h.html">Act.h</a>&quot;</span></div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &lt;ae2f/Pack/Beg.h&gt;</span></div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span></div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="keyword">typedef</span> ae2f_float_t(*ae2fCL_fpAnnSpGetLoss_t)</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="Sp_8h.html#a675849f4a48d36c53f7b98e73923971a">   24</a></span>    ae2fCL_whenC((ae2f_float_t out, ae2f_float_t goal));</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="Sp_8h.html#a675849f4a48d36c53f7b98e73923971a">   24</a></span>    <a class="code hl_define" href="Loc_8h.html#ab254343df81b21b8f79c119585b51b2e">ae2fCL_whenC</a>((ae2f_float_t out, ae2f_float_t goal));</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>typedef ae2fCL_HostPtr(__global, <span class="keywordtype">void</span>) ae2fCL_memobj_void_t;</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>typedef ae2fCL_HostPtr(__global, ae2f_float_t) ae2fCL_memobj_float_t;</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>typedef <a class="code hl_define" href="Loc_8h.html#a28b2b590047f103dcbadc23fc5ba5f79">ae2fCL_HostPtr</a>(<a class="code hl_define" href="Loc_8h.html#a0bcdca9f6e5923ea191d934ec3400d9e">__global</a>, <span class="keywordtype">void</span>) ae2fCL_memobj_void_t;</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>typedef <a class="code hl_define" href="Loc_8h.html#a28b2b590047f103dcbadc23fc5ba5f79">ae2fCL_HostPtr</a>(<a class="code hl_define" href="Loc_8h.html#a0bcdca9f6e5923ea191d934ec3400d9e">__global</a>, ae2f_float_t) ae2fCL_memobj_float_t;</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span></div>
 <div class="foldopen" id="foldopen00033" data-start="{" data-end="};">
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="structae2fCL__AnnSp.html">   33</a></span>typedef struct <a class="code hl_struct" href="structae2fCL__AnnSp.html">ae2fCL_AnnSp</a> {</div>
@@ -182,8 +182,8 @@ $(function(){initNavTree('Sp_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span>ae2f_extern ae2f_SHAREDCALL</div>
 <div class="line"><a id="l00175" name="l00175"></a><span class="lineno"><a class="line" href="structae2fCL__AnnSp.html#a91acf75063fad802d9f85c723aa22de5">  175</a></span><a class="code hl_typedef" href="errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a> <a class="code hl_function" href="structae2fCL__AnnSp.html#a91acf75063fad802d9f85c723aa22de5">ae2fCL_AnnSpPredict</a>(</div>
 <div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span>    <span class="keyword">const</span> <a class="code hl_struct" href="structae2fCL__AnnSp.html">ae2fCL_AnnSp</a>* _this,</div>
-<div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span>    ae2fCL_HostPtr(__global, ae2f_float_t) in,</div>
-<div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span>    ae2fCL_HostPtr(__global, ae2f_float_t) out_optionalA,</div>
+<div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span>    <a class="code hl_define" href="Loc_8h.html#a28b2b590047f103dcbadc23fc5ba5f79">ae2fCL_HostPtr</a>(<a class="code hl_define" href="Loc_8h.html#a0bcdca9f6e5923ea191d934ec3400d9e">__global</a>, ae2f_float_t) in,</div>
+<div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span>    <a class="code hl_define" href="Loc_8h.html#a28b2b590047f103dcbadc23fc5ba5f79">ae2fCL_HostPtr</a>(<a class="code hl_define" href="Loc_8h.html#a0bcdca9f6e5923ea191d934ec3400d9e">__global</a>, ae2f_float_t) out_optionalA,</div>
 <div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span>    uint32_t in_idx,</div>
 <div class="line"><a id="l00180" name="l00180"></a><span class="lineno">  180</span>    uint32_t out_idx_optionalA,</div>
 <div class="line"><a id="l00181" name="l00181"></a><span class="lineno">  181</span>    ae2f_float_t* outbuff_optional_,</div>
@@ -227,8 +227,8 @@ $(function(){initNavTree('Sp_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00338" name="l00338"></a><span class="lineno">  338</span>ae2f_extern ae2f_SHAREDCALL </div>
 <div class="line"><a id="l00339" name="l00339"></a><span class="lineno"><a class="line" href="structae2fCL__AnnSp.html#a6ad18a8bd83d59467c8b54051b8ec2ca">  339</a></span><a class="code hl_typedef" href="errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a> <a class="code hl_function" href="structae2fCL__AnnSp.html#a6ad18a8bd83d59467c8b54051b8ec2ca">ae2fCL_AnnSpTrain</a>(</div>
 <div class="line"><a id="l00340" name="l00340"></a><span class="lineno">  340</span>    <a class="code hl_struct" href="structae2fCL__AnnSp.html">ae2fCL_AnnSp</a>* _this,</div>
-<div class="line"><a id="l00341" name="l00341"></a><span class="lineno">  341</span>    ae2fCL_HostPtr(__global, ae2f_float_t) in,</div>
-<div class="line"><a id="l00342" name="l00342"></a><span class="lineno">  342</span>    ae2fCL_HostPtr(__global, ae2f_float_t) out_optionalA,</div>
+<div class="line"><a id="l00341" name="l00341"></a><span class="lineno">  341</span>    <a class="code hl_define" href="Loc_8h.html#a28b2b590047f103dcbadc23fc5ba5f79">ae2fCL_HostPtr</a>(<a class="code hl_define" href="Loc_8h.html#a0bcdca9f6e5923ea191d934ec3400d9e">__global</a>, ae2f_float_t) in,</div>
+<div class="line"><a id="l00342" name="l00342"></a><span class="lineno">  342</span>    <a class="code hl_define" href="Loc_8h.html#a28b2b590047f103dcbadc23fc5ba5f79">ae2fCL_HostPtr</a>(<a class="code hl_define" href="Loc_8h.html#a0bcdca9f6e5923ea191d934ec3400d9e">__global</a>, ae2f_float_t) out_optionalA,</div>
 <div class="line"><a id="l00343" name="l00343"></a><span class="lineno">  343</span>    uint32_t in_idx,</div>
 <div class="line"><a id="l00344" name="l00344"></a><span class="lineno">  344</span>    uint32_t out_idx_optionalA,</div>
 <div class="line"><a id="l00345" name="l00345"></a><span class="lineno">  345</span> </div>
@@ -251,19 +251,23 @@ $(function(){initNavTree('Sp_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00392" name="l00392"></a><span class="lineno">  392</span><span class="preprocessor">ae2fCL_AnnSpTrain(_this, in, out, in_idx, out_idx, goal, learning_rate, diff_ret_optional, 0, queue, blocking_read, num_events_in_wait_list, event_wait_list, event, (cl_context)0)</span></div>
 </div>
 <div class="line"><a id="l00393" name="l00393"></a><span class="lineno">  393</span></div>
-<div class="foldopen" id="foldopen00421" data-start="" data-end="">
-<div class="line"><a id="l00421" name="l00421"></a><span class="lineno"><a class="line" href="structae2fCL__AnnSp.html#a7a7c2698f009f6a5153863b70c3a0ac4">  421</a></span><span class="preprocessor">#define ae2fCL_AnnSpTrainB(_this, in, in_idx, goal, learning_rate, diff_ret_optional, queue, blocking_read, num_events_in_wait_list, event_wait_list, event, context) \</span></div>
-<div class="line"><a id="l00422" name="l00422"></a><span class="lineno">  422</span><span class="preprocessor">ae2fCL_AnnSpTrain(_this, in, (cl_mem)0, in_idx, 0, goal, learning_rate, diff_ret_optional, 0, queue, blocking_read, num_events_in_wait_list, event_wait_list, event, context)</span></div>
+<div class="foldopen" id="foldopen00422" data-start="" data-end="">
+<div class="line"><a id="l00422" name="l00422"></a><span class="lineno"><a class="line" href="structae2fCL__AnnSp.html#a7a7c2698f009f6a5153863b70c3a0ac4">  422</a></span><span class="preprocessor">#define ae2fCL_AnnSpTrainB(_this, in, in_idx, goal, learning_rate, diff_ret_optional, queue, blocking_read, num_events_in_wait_list, event_wait_list, event, context) \</span></div>
+<div class="line"><a id="l00423" name="l00423"></a><span class="lineno">  423</span><span class="preprocessor">ae2fCL_AnnSpTrain(_this, in, (cl_mem)0, in_idx, 0, goal, learning_rate, diff_ret_optional, 0, queue, blocking_read, num_events_in_wait_list, event_wait_list, event, context)</span></div>
 </div>
-<div class="line"><a id="l00423" name="l00423"></a><span class="lineno">  423</span></div>
-<div class="foldopen" id="foldopen00456" data-start="" data-end="">
-<div class="line"><a id="l00456" name="l00456"></a><span class="lineno"><a class="line" href="structae2fCL__AnnSp.html#ab273f248f9794333f46cca758a8ba2f4">  456</a></span><span class="preprocessor">#define ae2fCL_AnnSpTrainC(_this, in, in_idx, learning_rate, diff_ret_optional, delta_precalculated, queue, blocking_read, num_events_in_wait_list, event_wait_list,  event) \</span></div>
-<div class="line"><a id="l00457" name="l00457"></a><span class="lineno">  457</span><span class="preprocessor">ae2fCL_AnnSpTrain(_this, in, 0, in_idx, 0, 0, learning_rate, diff_ret_optional, delta_precalculated, queue, blocking_read, num_events_in_wait_list, event_wait_list, event, 0)</span></div>
+<div class="line"><a id="l00424" name="l00424"></a><span class="lineno">  424</span></div>
+<div class="foldopen" id="foldopen00457" data-start="" data-end="">
+<div class="line"><a id="l00457" name="l00457"></a><span class="lineno"><a class="line" href="structae2fCL__AnnSp.html#ab273f248f9794333f46cca758a8ba2f4">  457</a></span><span class="preprocessor">#define ae2fCL_AnnSpTrainC(_this, in, in_idx, learning_rate, diff_ret_optional, delta_precalculated, queue, blocking_read, num_events_in_wait_list, event_wait_list,  event) \</span></div>
+<div class="line"><a id="l00458" name="l00458"></a><span class="lineno">  458</span><span class="preprocessor">ae2fCL_AnnSpTrain(_this, in, 0, in_idx, 0, 0, learning_rate, diff_ret_optional, delta_precalculated, queue, blocking_read, num_events_in_wait_list, event_wait_list, event, 0)</span></div>
 </div>
-<div class="line"><a id="l00458" name="l00458"></a><span class="lineno">  458</span> </div>
-<div class="line"><a id="l00459" name="l00459"></a><span class="lineno">  459</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00459" name="l00459"></a><span class="lineno">  459</span> </div>
 <div class="line"><a id="l00460" name="l00460"></a><span class="lineno">  460</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00461" name="l00461"></a><span class="lineno">  461</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aAct_8h_html"><div class="ttname"><a href="Act_8h.html">Act.h</a></div></div>
+<div class="ttc" id="aLoc_8h_html"><div class="ttname"><a href="Loc_8h.html">Loc.h</a></div></div>
+<div class="ttc" id="aLoc_8h_html_a0bcdca9f6e5923ea191d934ec3400d9e"><div class="ttname"><a href="Loc_8h.html#a0bcdca9f6e5923ea191d934ec3400d9e">__global</a></div><div class="ttdeci">#define __global</div><div class="ttdoc">opencl keyword</div><div class="ttdef"><b>Definition</b> Loc.h:12</div></div>
+<div class="ttc" id="aLoc_8h_html_a28b2b590047f103dcbadc23fc5ba5f79"><div class="ttname"><a href="Loc_8h.html#a28b2b590047f103dcbadc23fc5ba5f79">ae2fCL_HostPtr</a></div><div class="ttdeci">#define ae2fCL_HostPtr(__flag, __type)</div><div class="ttdoc">pointer type for host code</div><div class="ttdef"><b>Definition</b> Loc.h:74</div></div>
+<div class="ttc" id="aLoc_8h_html_ab254343df81b21b8f79c119585b51b2e"><div class="ttname"><a href="Loc_8h.html#ab254343df81b21b8f79c119585b51b2e">ae2fCL_whenC</a></div><div class="ttdeci">#define ae2fCL_whenC(...)</div><div class="ttdoc">Shows when the code is running on C, not CL.</div><div class="ttdef"><b>Definition</b> Loc.h:28</div></div>
 <div class="ttc" id="aerrGlob_8h_html"><div class="ttname"><a href="errGlob_8h.html">errGlob.h</a></div></div>
 <div class="ttc" id="aerrGlob_8h_html_acc9504eac81cd46d5dabe7461a9c8157"><div class="ttname"><a href="errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a></div><div class="ttdeci">uint8_t ae2f_err_t</div><div class="ttdoc">Informs that this number represents the error.</div><div class="ttdef"><b>Definition</b> errGlob.h:11</div></div>
 <div class="ttc" id="astructae2fCL__AnnSp_html"><div class="ttname"><a href="structae2fCL__AnnSp.html">ae2fCL_AnnSp</a></div><div class="ttdef"><b>Definition</b> Sp.h:33</div></div>

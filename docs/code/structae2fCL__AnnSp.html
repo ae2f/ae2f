@@ -133,11 +133,11 @@ The perceptron made by this must pass [ae2fCL_AnnSpDel] for releasing the resour
 <tr class="memitem:aa7c103255f32daafeb863e02a43955ab" id="r_aa7c103255f32daafeb863e02a43955ab"><td class="memItemLeft" align="right" valign="top">ae2f_extern ae2f_SHAREDCALL <a class="el" href="errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7c103255f32daafeb863e02a43955ab">ae2fCL_AnnSpDel</a> (<a class="el" href="structae2fCL__AnnSp.html">ae2fCL_AnnSp</a> *_this) noexcept</td></tr>
 <tr class="memdesc:aa7c103255f32daafeb863e02a43955ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Release the resource for [_this].  <br /></td></tr>
 <tr class="separator:aa7c103255f32daafeb863e02a43955ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91acf75063fad802d9f85c723aa22de5" id="r_a91acf75063fad802d9f85c723aa22de5"><td class="memItemLeft" align="right" valign="top">ae2f_extern ae2f_SHAREDCALL <a class="el" href="errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91acf75063fad802d9f85c723aa22de5">ae2fCL_AnnSpPredict</a> (const <a class="el" href="structae2fCL__AnnSp.html">ae2fCL_AnnSp</a> *_this, ae2fCL_HostPtr(__global, ae2f_float_t) in, ae2fCL_HostPtr(__global, ae2f_float_t) out_optionalA, uint32_t in_idx, uint32_t out_idx_optionalA, ae2f_float_t *outbuff_optional_, cl_command_queue queue, cl_bool blocking_event, cl_uint num_events_in_wait_list, const cl_event *event_wait_list, cl_event *event, cl_context context_optionalB) noexcept</td></tr>
+<tr class="memitem:a91acf75063fad802d9f85c723aa22de5" id="r_a91acf75063fad802d9f85c723aa22de5"><td class="memItemLeft" align="right" valign="top">ae2f_extern ae2f_SHAREDCALL <a class="el" href="errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91acf75063fad802d9f85c723aa22de5">ae2fCL_AnnSpPredict</a> (const <a class="el" href="structae2fCL__AnnSp.html">ae2fCL_AnnSp</a> *_this, ae2fCL_HostPtr(<a class="el" href="Loc_8h.html#a0bcdca9f6e5923ea191d934ec3400d9e">__global</a>, ae2f_float_t) in, ae2fCL_HostPtr(<a class="el" href="Loc_8h.html#a0bcdca9f6e5923ea191d934ec3400d9e">__global</a>, ae2f_float_t) out_optionalA, uint32_t in_idx, uint32_t out_idx_optionalA, ae2f_float_t *outbuff_optional_, cl_command_queue queue, cl_bool blocking_event, cl_uint num_events_in_wait_list, const cl_event *event_wait_list, cl_event *event, cl_context context_optionalB) noexcept</td></tr>
 <tr class="separator:a91acf75063fad802d9f85c723aa22de5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aecee3a9dfc974081ff2201d796fb0251" id="r_aecee3a9dfc974081ff2201d796fb0251"><td class="memItemLeft" align="right" valign="top">ae2f_extern ae2f_SHAREDCALL <a class="el" href="errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aecee3a9dfc974081ff2201d796fb0251">ae2fCL_AnnSpPredictBuffAuto</a> (const <a class="el" href="structae2fCL__AnnSp.html">ae2fCL_AnnSp</a> *_this, const ae2f_float_t *in, ae2f_float_t *out, cl_command_queue queue, cl_bool blocking_read, cl_uint num_events_in_wait_list, const cl_event *event_wait_list, cl_event *event, cl_context context) noexcept</td></tr>
 <tr class="separator:aecee3a9dfc974081ff2201d796fb0251"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ad18a8bd83d59467c8b54051b8ec2ca" id="r_a6ad18a8bd83d59467c8b54051b8ec2ca"><td class="memItemLeft" align="right" valign="top">ae2f_extern ae2f_SHAREDCALL <a class="el" href="errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ad18a8bd83d59467c8b54051b8ec2ca">ae2fCL_AnnSpTrain</a> (<a class="el" href="structae2fCL__AnnSp.html">ae2fCL_AnnSp</a> *_this, ae2fCL_HostPtr(__global, ae2f_float_t) in, ae2fCL_HostPtr(__global, ae2f_float_t) out_optionalA, uint32_t in_idx, uint32_t out_idx_optionalA, ae2f_float_t goal, ae2f_float_t learning_rate, ae2f_float_t *diff_ret_optional, const ae2f_float_t *delta_precalculated_optionalC, cl_command_queue queue, cl_bool blocking_read, cl_uint num_events_in_wait_list, const cl_event *event_wait_list, cl_event *event, cl_context context_optionalB) noexcept</td></tr>
+<tr class="memitem:a6ad18a8bd83d59467c8b54051b8ec2ca" id="r_a6ad18a8bd83d59467c8b54051b8ec2ca"><td class="memItemLeft" align="right" valign="top">ae2f_extern ae2f_SHAREDCALL <a class="el" href="errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ad18a8bd83d59467c8b54051b8ec2ca">ae2fCL_AnnSpTrain</a> (<a class="el" href="structae2fCL__AnnSp.html">ae2fCL_AnnSp</a> *_this, ae2fCL_HostPtr(<a class="el" href="Loc_8h.html#a0bcdca9f6e5923ea191d934ec3400d9e">__global</a>, ae2f_float_t) in, ae2fCL_HostPtr(<a class="el" href="Loc_8h.html#a0bcdca9f6e5923ea191d934ec3400d9e">__global</a>, ae2f_float_t) out_optionalA, uint32_t in_idx, uint32_t out_idx_optionalA, ae2f_float_t goal, ae2f_float_t learning_rate, ae2f_float_t *diff_ret_optional, const ae2f_float_t *delta_precalculated_optionalC, cl_command_queue queue, cl_bool blocking_read, cl_uint num_events_in_wait_list, const cl_event *event_wait_list, cl_event *event, cl_context context_optionalB) noexcept</td></tr>
 <tr class="separator:a6ad18a8bd83d59467c8b54051b8ec2ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
@@ -184,7 +184,7 @@ Related Symbols</h2></td></tr>
 <tr class="separator:ab273f248f9794333f46cca758a8ba2f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h1><a class="anchor" id="autotoc_md24"></a>
+<div class="textblock"><h1><a class="anchor" id="autotoc_md25"></a>
 Single Perceptron.</h1>
 <p>This will read multiple inputs, generate one output. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
@@ -332,12 +332,12 @@ Passing this argument zero will cause [<a class="el" href="#a05e2e1903c05de8324a
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">ae2fCL_HostPtr(__global, ae2f_float_t)</td>          <td class="paramname"><span class="paramname"><em>in</em></span>, </td>
+          <td class="paramtype">ae2fCL_HostPtr(<a class="el" href="Loc_8h.html#a0bcdca9f6e5923ea191d934ec3400d9e">__global</a>, ae2f_float_t)</td>          <td class="paramname"><span class="paramname"><em>in</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">ae2fCL_HostPtr(__global, ae2f_float_t)</td>          <td class="paramname"><span class="paramname"><em>out_optionalA</em></span>, </td>
+          <td class="paramtype">ae2fCL_HostPtr(<a class="el" href="Loc_8h.html#a0bcdca9f6e5923ea191d934ec3400d9e">__global</a>, ae2f_float_t)</td>          <td class="paramname"><span class="paramname"><em>out_optionalA</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -391,12 +391,12 @@ Passing this argument zero will cause [<a class="el" href="#a05e2e1903c05de8324a
   </tr>
 </table>
 </div><div class="memdoc">
-<h1><a class="anchor" id="autotoc_md25"></a>
+<h1><a class="anchor" id="autotoc_md26"></a>
 Predict the output.</h1>
 <p>Each input has a corresponding weight as a Slp.</p>
 <p>This function will calculate the total sum of the multiplication of each input and corresponding weight. <br  />
 That value with a bias of the model will pass an activasion function, and that will be considered as an output.</p>
-<h1><a class="anchor" id="autotoc_md26"></a>
+<h1><a class="anchor" id="autotoc_md27"></a>
 There are options laballed.</h1>
 <p>It means when if you see the arguments. <br  />
 Some of the paramaters may be ignored since past parameter fulfilled the particular condition.</p>
@@ -492,10 +492,10 @@ Would not matter a thing when 0 has passed via [out_optionalA].</td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<h1><a class="anchor" id="autotoc_md31"></a>
+<h1><a class="anchor" id="autotoc_md32"></a>
 Predict the output.</h1>
 <p>See [ae2fCL_AnnSpPredict]</p>
-<h1><a class="anchor" id="autotoc_md32"></a>
+<h1><a class="anchor" id="autotoc_md33"></a>
 Memory Object Auto Allocate</h1>
 <p>It will allocate a memory object automatically for [in]. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -532,12 +532,12 @@ Passing zero here will cause undefined behaviour. </td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">ae2fCL_HostPtr(__global, ae2f_float_t)</td>          <td class="paramname"><span class="paramname"><em>in</em></span>, </td>
+          <td class="paramtype">ae2fCL_HostPtr(<a class="el" href="Loc_8h.html#a0bcdca9f6e5923ea191d934ec3400d9e">__global</a>, ae2f_float_t)</td>          <td class="paramname"><span class="paramname"><em>in</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">ae2fCL_HostPtr(__global, ae2f_float_t)</td>          <td class="paramname"><span class="paramname"><em>out_optionalA</em></span>, </td>
+          <td class="paramtype">ae2fCL_HostPtr(<a class="el" href="Loc_8h.html#a0bcdca9f6e5923ea191d934ec3400d9e">__global</a>, ae2f_float_t)</td>          <td class="paramname"><span class="paramname"><em>out_optionalA</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -606,7 +606,7 @@ Passing zero here will cause undefined behaviour. </td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<h1><a class="anchor" id="autotoc_md33"></a>
+<h1><a class="anchor" id="autotoc_md34"></a>
 Manages to correct the weight and bias for expected output value [goal].</h1>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -712,10 +712,10 @@ When not set to zero, it will try to read as an element of [ae2f_float_t], and s
 <div class="line">    queue, blocking_event, num_events_in_wait_list, event_wait_list, event, 0\</div>
 <div class="line">)</div>
 <div class="ttc" id="astructae2fCL__AnnSp_html_a91acf75063fad802d9f85c723aa22de5"><div class="ttname"><a href="#a91acf75063fad802d9f85c723aa22de5">ae2fCL_AnnSp::ae2fCL_AnnSpPredict</a></div><div class="ttdeci">ae2f_extern ae2f_SHAREDCALL ae2f_err_t ae2fCL_AnnSpPredict(const ae2fCL_AnnSp *_this, ae2fCL_HostPtr(__global, ae2f_float_t) in, ae2fCL_HostPtr(__global, ae2f_float_t) out_optionalA, uint32_t in_idx, uint32_t out_idx_optionalA, ae2f_float_t *outbuff_optional_, cl_command_queue queue, cl_bool blocking_event, cl_uint num_events_in_wait_list, const cl_event *event_wait_list, cl_event *event, cl_context context_optionalB) noexcept</div></div>
-</div><!-- fragment --><h1><a class="anchor" id="autotoc_md27"></a>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md28"></a>
 Predict the output.</h1>
 <p>See [ae2fCL_AnnSpPredict]</p>
-<h1><a class="anchor" id="autotoc_md28"></a>
+<h1><a class="anchor" id="autotoc_md29"></a>
 Option A</h1>
 <p>This option is taking previously allocated OpenCL Memory Object, therefore it has no need to allocate new buffer to store the first total sum calculated.</p>
 <dl class="params"><dt>Parameters</dt><dd>
@@ -815,10 +815,10 @@ Would not matter a thing when 0 has passed via [out].</td></tr>
 <div class="line">    _this, in, (cl_mem)0, in_idx, 0, outbuff_optional, \</div>
 <div class="line">    queue, blocking_event, num_events_in_wait_list, event_wait_list, event, context\</div>
 <div class="line">)</div>
-</div><!-- fragment --><h1><a class="anchor" id="autotoc_md29"></a>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md30"></a>
 Predict the output.</h1>
 <p>See [ae2fCL_AnnSpPredict]</p>
-<h1><a class="anchor" id="autotoc_md30"></a>
+<h1><a class="anchor" id="autotoc_md31"></a>
 Option B</h1>
 <p>This option allocates new OpenCL Memory Object, so you don't need to manually handle.</p>
 <dl class="params"><dt>Parameters</dt><dd>
@@ -930,7 +930,7 @@ Passing zero here will cause undefined behaviour. </td></tr>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_function" href="#a6ad18a8bd83d59467c8b54051b8ec2ca">ae2fCL_AnnSpTrain</a>(_this, in, out, in_idx, out_idx, goal, learning_rate, diff_ret_optional, 0, queue, blocking_read, num_events_in_wait_list, event_wait_list, event, (cl_context)0)</div>
 <div class="ttc" id="astructae2fCL__AnnSp_html_a6ad18a8bd83d59467c8b54051b8ec2ca"><div class="ttname"><a href="#a6ad18a8bd83d59467c8b54051b8ec2ca">ae2fCL_AnnSp::ae2fCL_AnnSpTrain</a></div><div class="ttdeci">ae2f_extern ae2f_SHAREDCALL ae2f_err_t ae2fCL_AnnSpTrain(ae2fCL_AnnSp *_this, ae2fCL_HostPtr(__global, ae2f_float_t) in, ae2fCL_HostPtr(__global, ae2f_float_t) out_optionalA, uint32_t in_idx, uint32_t out_idx_optionalA, ae2f_float_t goal, ae2f_float_t learning_rate, ae2f_float_t *diff_ret_optional, const ae2f_float_t *delta_precalculated_optionalC, cl_command_queue queue, cl_bool blocking_read, cl_uint num_events_in_wait_list, const cl_event *event_wait_list, cl_event *event, cl_context context_optionalB) noexcept</div></div>
-</div><!-- fragment --><h1><a class="anchor" id="autotoc_md34"></a>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md35"></a>
 Manages to correct the weight and bias for expected output value [goal].</h1>
 <p>See [ae2fCL_AnnSpTrain] </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -1033,13 +1033,18 @@ Would not matter a thing when 0 has passed via [out_optionalA].</td></tr>
 </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_function" href="#a6ad18a8bd83d59467c8b54051b8ec2ca">ae2fCL_AnnSpTrain</a>(_this, in, (cl_mem)0, in_idx, 0, goal, learning_rate, diff_ret_optional, 0, queue, blocking_read, num_events_in_wait_list, event_wait_list, event, context)</div>
-</div><!-- fragment --><h1><a class="anchor" id="autotoc_md35"></a>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md36"></a>
 Manages to correct the weight and bias for expected output value [goal].</h1>
 <p>See [ae2fCL_AnnSpTrain] </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">_this</td><td></td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">in</td><td>The input value binded with an OpenCL memory object. <br  />
 If you don't want to make a memory object manually, see [ae2fCL_AnnSpPredictBuffAuto].</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>The readable byte size must be greater or same as ( [in_idx] + <a class="el" href="#a5ed98697c2a893428ec4ba27c4cc6669">ae2fCL_AnnSp::mgWeightLen</a> ) * sizeof( ae2f_float_t ). </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
     <tr><td class="paramdir"></td><td class="paramname">in_idx</td><td>Padding for [in].</td></tr>
     <tr><td class="paramdir"></td><td class="paramname">goal</td><td>Expected (wanted) output. </td></tr>
     <tr><td class="paramdir"></td><td class="paramname">learning_rate</td><td>Learning rate. Will be multiplied with Loss. </td></tr>
@@ -1129,7 +1134,7 @@ If you don't want to make a memory object manually, see [ae2fCL_AnnSpPredictBuff
 </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_function" href="#a6ad18a8bd83d59467c8b54051b8ec2ca">ae2fCL_AnnSpTrain</a>(_this, in, 0, in_idx, 0, 0, learning_rate, diff_ret_optional, delta_precalculated, queue, blocking_read, num_events_in_wait_list, event_wait_list, event, 0)</div>
-</div><!-- fragment --><h1><a class="anchor" id="autotoc_md36"></a>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md37"></a>
 Manages to correct the weight and bias for expected output value [goal].</h1>
 <p>See [ae2fCL_AnnSpTrain]</p>
 <p>Since goal and output(from <a class="el" href="#a91acf75063fad802d9f85c723aa22de5">ae2fCL_AnnSpPredict</a>) is for calculating the delta_precalculated, so with given delta we could skip it all.</p>
