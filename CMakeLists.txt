@@ -19,7 +19,7 @@ if(NOT TARGET ${PROJECT_NAME} AND ae2f_ae2fDOCGEN)
     ae2f_CoreLibFetch(ae2f err main)
     ae2f_CoreLibFetch(ae2f Bmp main)
     ae2f_CoreLibFetch(ae2f CL-Core main)
-    ae2f_CoreLibFetch(ae2f CL-Ann main)
+    ae2f_CoreLibFetch(ae2f CL-Ann Document)
     ae2f_CoreLibFetch(ae2f CL-Bmp main)
 
     file(REMOVE_RECURSE ${PROJECT_SOURCE_DIR}/CMakeDocs/include)
