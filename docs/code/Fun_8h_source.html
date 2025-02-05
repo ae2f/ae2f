@@ -107,23 +107,22 @@ $(function(){initNavTree('Fun_8h_source.html',''); initResizable(true); });
 </div><!--header-->
 <div class="contents">
 <a href="Fun_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#ifndef ae2f_Cmp_Fun_h</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#define ae2f_Cmp_Fun_h</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span></div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="Fun_8h.html#aad33bf8b1b2c426203fb27cff926e739">   11</a></span><span class="keyword">typedef</span> <span class="keywordtype">int</span> <a class="code hl_typedef" href="Fun_8h.html#aad33bf8b1b2c426203fb27cff926e739">ae2f_CmpFunRet_t</a>;</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span></div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="Fun_8h.html#a1b92d3bccdfa4b9c07330825e5869f0b">   19</a></span><span class="keyword">typedef</span> <a class="code hl_typedef" href="Fun_8h.html#aad33bf8b1b2c426203fb27cff926e739">ae2f_CmpFunRet_t</a>(*<a class="code hl_typedef" href="Fun_8h.html#a1b92d3bccdfa4b9c07330825e5869f0b">ae2f_fpCmp_t</a>)(<span class="keyword">const</span> <span class="keywordtype">void</span>* l, <span class="keyword">const</span> <span class="keywordtype">void</span>* r);</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#ifndef ae2f_Cmp_Fun_h</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#define ae2f_Cmp_Fun_h</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">typedef</span> <span class="keywordtype">int</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="Fun_8h.html#aad33bf8b1b2c426203fb27cff926e739">   19</a></span><a class="code hl_typedef" href="Fun_8h.html#aad33bf8b1b2c426203fb27cff926e739">ae2f_CmpFunRet_t</a>,</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span></div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="Fun_8h.html#a72cf2bcb3a9d957c17deb5bc9041f22d">   23</a></span><span class="preprocessor">#define ae2f_CmpFunRet_EQUAL        0</span></div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span></div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="Fun_8h.html#a576bb6884481e25c87bd4e41a26749db">   27</a></span><span class="preprocessor">#define ae2f_CmpFunRet_RISLESSER    1</span></div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span></div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="Fun_8h.html#a2ec622c999cf31fa7b6638e21dc591b8">   31</a></span><span class="preprocessor">#define ae2f_CmpFunRet_LISLESSER    -1</span></div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="preprocessor">#endif</span></div>
-<div class="ttc" id="aFun_8h_html_a1b92d3bccdfa4b9c07330825e5869f0b"><div class="ttname"><a href="Fun_8h.html#a1b92d3bccdfa4b9c07330825e5869f0b">ae2f_fpCmp_t</a></div><div class="ttdeci">ae2f_CmpFunRet_t(* ae2f_fpCmp_t)(const void *l, const void *r)</div><div class="ttdoc">It is an api for following approximate pseudo code.</div><div class="ttdef"><b>Definition</b> Fun.h:19</div></div>
-<div class="ttc" id="aFun_8h_html_aad33bf8b1b2c426203fb27cff926e739"><div class="ttname"><a href="Fun_8h.html#aad33bf8b1b2c426203fb27cff926e739">ae2f_CmpFunRet_t</a></div><div class="ttdeci">int ae2f_CmpFunRet_t</div><div class="ttdoc">A predefined returning data type for ae2f_fpCmp_t.</div><div class="ttdef"><b>Definition</b> Fun.h:11</div></div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>(*ae2f_fpCmp_t)(<span class="keyword">const</span> <span class="keywordtype">void</span>* l, <span class="keyword">const</span> <span class="keywordtype">void</span>* r);</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span></div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="Fun_8h.html#a72cf2bcb3a9d957c17deb5bc9041f22d">   32</a></span><span class="preprocessor">#define ae2f_CmpFunRet_EQUAL        0</span></div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span></div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="Fun_8h.html#a576bb6884481e25c87bd4e41a26749db">   36</a></span><span class="preprocessor">#define ae2f_CmpFunRet_RISLESSER    1</span></div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span></div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="Fun_8h.html#a2ec622c999cf31fa7b6638e21dc591b8">   40</a></span><span class="preprocessor">#define ae2f_CmpFunRet_LISLESSER    -1</span></div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aFun_8h_html_aad33bf8b1b2c426203fb27cff926e739"><div class="ttname"><a href="Fun_8h.html#aad33bf8b1b2c426203fb27cff926e739">ae2f_CmpFunRet_t</a></div><div class="ttdeci">int ae2f_CmpFunRet_t</div><div class="ttdoc">A predefined returning data type for ae2f_fpCmp_t.</div><div class="ttdef"><b>Definition</b> Fun.h:19</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

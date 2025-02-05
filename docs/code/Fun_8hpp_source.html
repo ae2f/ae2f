@@ -107,49 +107,49 @@ $(function(){initNavTree('Fun_8hpp_source.html',''); initResizable(true); });
 </div><!--header-->
 <div class="contents">
 <a href="Fun_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#ifndef ae2f_Cmp_Fun_hpp</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#define ae2f_Cmp_Fun_hpp</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;<a class="code" href="Fun_8h.html">Fun.h</a>&quot;</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &quot;<a class="code" href="Cast_8h.html">../Cast.h</a>&quot;</span></div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">namespace </span>ae2f {</div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>    <span class="keyword">using </span>fpCmp_t = <a class="code hl_typedef" href="Fun_8h.html#a1b92d3bccdfa4b9c07330825e5869f0b">ae2f_fpCmp_t</a>;</div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>    <span class="keyword">namespace </span>Cmp {</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>        <span class="keyword">namespace </span>Fun {</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>            <span class="keyword">using </span>Ret_t = <a class="code hl_typedef" href="Fun_8h.html#aad33bf8b1b2c426203fb27cff926e739">ae2f_CmpFunRet_t</a>;</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#ifndef ae2f_Cmp_Fun_hpp</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#define ae2f_Cmp_Fun_hpp</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &quot;<a class="code" href="Fun_8h.html">Fun.h</a>&quot;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &quot;<a class="code" href="Cast_8h.html">../Cast.h</a>&quot;</span></div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>            <span class="keyword">constexpr</span> Ret_t  </div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>            EQUAL = <a class="code hl_define" href="Fun_8h.html#a72cf2bcb3a9d957c17deb5bc9041f22d">ae2f_CmpFunRet_EQUAL</a>,</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>            LISLESSER = <a class="code hl_define" href="Fun_8h.html#a2ec622c999cf31fa7b6638e21dc591b8">ae2f_CmpFunRet_LISLESSER</a>,</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>            RISLESSER =  <a class="code hl_define" href="Fun_8h.html#a576bb6884481e25c87bd4e41a26749db">ae2f_CmpFunRet_RISLESSER</a>;</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>        }</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    }</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span></div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    <span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="Fun_8hpp.html#a7ce41e5db09dc16b8b98cbb249b07a7d">   27</a></span>    <span class="keyword">using </span><a class="code hl_typedef" href="Fun_8hpp.html#a7ce41e5db09dc16b8b98cbb249b07a7d">xfpCmp_t</a> = Cmp::Fun::Ret_t(*)(<span class="keyword">const</span> T*, <span class="keyword">const</span> T*);</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span></div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    <span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
-<div class="foldopen" id="foldopen00032" data-start="{" data-end="}">
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="Fun_8hpp.html#ae95d4c3fa62376105ce9d1e8a337df9b">   32</a></span>    <span class="keyword">constexpr</span> fpCmp_t <a class="code hl_function" href="Fun_8hpp.html#ae95d4c3fa62376105ce9d1e8a337df9b">xfpCmp</a>(<a class="code hl_typedef" href="Fun_8hpp.html#a7ce41e5db09dc16b8b98cbb249b07a7d">xfpCmp_t&lt;T&gt;</a> a) <span class="keyword">noexcept</span> {</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>        <span class="keywordflow">return</span> <a class="code hl_define" href="Cast_8h.html#a617373a68c3f94d8e00857e2e6cfe97f">ae2f_union_cast</a>(<a class="code hl_typedef" href="Fun_8hpp.html#a7ce41e5db09dc16b8b98cbb249b07a7d">xfpCmp_t&lt;T&gt;</a>, fpCmp_t, a);</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    }</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceae2f.html">ae2f</a> {</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    <span class="keyword">using </span>fpCmp_t = <a class="code hl_typedef" href="Fun_8h.html#ab061cb3b90028001b568515686bff1f5">ae2f_fpCmp_t</a>;</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <span class="keyword">namespace </span>Cmp {</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>        <span class="keyword">namespace </span>Fun {</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>            <span class="keyword">using </span>Ret_t = <a class="code hl_typedef" href="Fun_8h.html#aad33bf8b1b2c426203fb27cff926e739">ae2f_CmpFunRet_t</a>;</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>            <span class="keyword">constexpr</span> Ret_t  </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>            EQUAL = <a class="code hl_define" href="Fun_8h.html#a72cf2bcb3a9d957c17deb5bc9041f22d">ae2f_CmpFunRet_EQUAL</a>,</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>            LISLESSER = <a class="code hl_define" href="Fun_8h.html#a2ec622c999cf31fa7b6638e21dc591b8">ae2f_CmpFunRet_LISLESSER</a>,</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>            RISLESSER =  <a class="code hl_define" href="Fun_8h.html#a576bb6884481e25c87bd4e41a26749db">ae2f_CmpFunRet_RISLESSER</a>;</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>        }</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    }</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span></div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="namespaceae2f.html#a7ce41e5db09dc16b8b98cbb249b07a7d">   34</a></span>    <span class="keyword">using </span><a class="code hl_typedef" href="namespaceae2f.html#a7ce41e5db09dc16b8b98cbb249b07a7d">xfpCmp_t</a> = Cmp::Fun::Ret_t(*)(<span class="keyword">const</span> T*, <span class="keyword">const</span> T*);</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="foldopen" id="foldopen00039" data-start="{" data-end="}">
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="namespaceae2f.html#ae95d4c3fa62376105ce9d1e8a337df9b">   39</a></span>    <span class="keyword">constexpr</span> fpCmp_t <a class="code hl_function" href="namespaceae2f.html#ae95d4c3fa62376105ce9d1e8a337df9b">xfpCmp</a>(<a class="code hl_typedef" href="namespaceae2f.html#a7ce41e5db09dc16b8b98cbb249b07a7d">xfpCmp_t&lt;T&gt;</a> a) <span class="keyword">noexcept</span> {</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>        <span class="keywordflow">return</span> <a class="code hl_define" href="Cast_8h.html#a617373a68c3f94d8e00857e2e6cfe97f">ae2f_union_cast</a>(<a class="code hl_typedef" href="namespaceae2f.html#a7ce41e5db09dc16b8b98cbb249b07a7d">xfpCmp_t&lt;T&gt;</a>, fpCmp_t, a);</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    }</div>
 </div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>}</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>}</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aCast_8h_html"><div class="ttname"><a href="Cast_8h.html">Cast.h</a></div></div>
-<div class="ttc" id="aCast_8h_html_a617373a68c3f94d8e00857e2e6cfe97f"><div class="ttname"><a href="Cast_8h.html#a617373a68c3f94d8e00857e2e6cfe97f">ae2f_union_cast</a></div><div class="ttdeci">#define ae2f_union_cast(tThen, tNow, v)</div><div class="ttdoc">Makes a union that reads a memory in two methods.  tThen -&gt; tNow</div><div class="ttdef"><b>Definition</b> Cast.h:77</div></div>
+<div class="ttc" id="aCast_8h_html_a617373a68c3f94d8e00857e2e6cfe97f"><div class="ttname"><a href="Cast_8h.html#a617373a68c3f94d8e00857e2e6cfe97f">ae2f_union_cast</a></div><div class="ttdeci">#define ae2f_union_cast(tThen, tNow, v)</div><div class="ttdoc">Makes a union that reads a memory in two methods.  tThen -&gt; tNow</div><div class="ttdef"><b>Definition</b> Cast.h:63</div></div>
 <div class="ttc" id="aFun_8h_html"><div class="ttname"><a href="Fun_8h.html">Fun.h</a></div></div>
-<div class="ttc" id="aFun_8h_html_a1b92d3bccdfa4b9c07330825e5869f0b"><div class="ttname"><a href="Fun_8h.html#a1b92d3bccdfa4b9c07330825e5869f0b">ae2f_fpCmp_t</a></div><div class="ttdeci">ae2f_CmpFunRet_t(* ae2f_fpCmp_t)(const void *l, const void *r)</div><div class="ttdoc">It is an api for following approximate pseudo code.</div><div class="ttdef"><b>Definition</b> Fun.h:19</div></div>
-<div class="ttc" id="aFun_8h_html_a2ec622c999cf31fa7b6638e21dc591b8"><div class="ttname"><a href="Fun_8h.html#a2ec622c999cf31fa7b6638e21dc591b8">ae2f_CmpFunRet_LISLESSER</a></div><div class="ttdeci">#define ae2f_CmpFunRet_LISLESSER</div><div class="ttdoc">left is lesser</div><div class="ttdef"><b>Definition</b> Fun.h:31</div></div>
-<div class="ttc" id="aFun_8h_html_a576bb6884481e25c87bd4e41a26749db"><div class="ttname"><a href="Fun_8h.html#a576bb6884481e25c87bd4e41a26749db">ae2f_CmpFunRet_RISLESSER</a></div><div class="ttdeci">#define ae2f_CmpFunRet_RISLESSER</div><div class="ttdoc">right is lesser</div><div class="ttdef"><b>Definition</b> Fun.h:27</div></div>
-<div class="ttc" id="aFun_8h_html_a72cf2bcb3a9d957c17deb5bc9041f22d"><div class="ttname"><a href="Fun_8h.html#a72cf2bcb3a9d957c17deb5bc9041f22d">ae2f_CmpFunRet_EQUAL</a></div><div class="ttdeci">#define ae2f_CmpFunRet_EQUAL</div><div class="ttdoc">they are same</div><div class="ttdef"><b>Definition</b> Fun.h:23</div></div>
-<div class="ttc" id="aFun_8h_html_aad33bf8b1b2c426203fb27cff926e739"><div class="ttname"><a href="Fun_8h.html#aad33bf8b1b2c426203fb27cff926e739">ae2f_CmpFunRet_t</a></div><div class="ttdeci">int ae2f_CmpFunRet_t</div><div class="ttdoc">A predefined returning data type for ae2f_fpCmp_t.</div><div class="ttdef"><b>Definition</b> Fun.h:11</div></div>
-<div class="ttc" id="aFun_8hpp_html_a7ce41e5db09dc16b8b98cbb249b07a7d"><div class="ttname"><a href="Fun_8hpp.html#a7ce41e5db09dc16b8b98cbb249b07a7d">ae2f::xfpCmp_t</a></div><div class="ttdeci">Cmp::Fun::Ret_t(*)(const T *, const T *) xfpCmp_t</div><div class="ttdoc">Sugary type for C++ from fpCmp_t.</div><div class="ttdef"><b>Definition</b> Fun.hpp:27</div></div>
-<div class="ttc" id="aFun_8hpp_html_ae95d4c3fa62376105ce9d1e8a337df9b"><div class="ttname"><a href="Fun_8hpp.html#ae95d4c3fa62376105ce9d1e8a337df9b">ae2f::xfpCmp</a></div><div class="ttdeci">constexpr fpCmp_t xfpCmp(xfpCmp_t&lt; T &gt; a) noexcept</div><div class="ttdoc">Returns itself as fpCmp_t.</div><div class="ttdef"><b>Definition</b> Fun.hpp:32</div></div>
+<div class="ttc" id="aFun_8h_html_a2ec622c999cf31fa7b6638e21dc591b8"><div class="ttname"><a href="Fun_8h.html#a2ec622c999cf31fa7b6638e21dc591b8">ae2f_CmpFunRet_LISLESSER</a></div><div class="ttdeci">#define ae2f_CmpFunRet_LISLESSER</div><div class="ttdoc">left is lesser</div><div class="ttdef"><b>Definition</b> Fun.h:40</div></div>
+<div class="ttc" id="aFun_8h_html_a576bb6884481e25c87bd4e41a26749db"><div class="ttname"><a href="Fun_8h.html#a576bb6884481e25c87bd4e41a26749db">ae2f_CmpFunRet_RISLESSER</a></div><div class="ttdeci">#define ae2f_CmpFunRet_RISLESSER</div><div class="ttdoc">right is lesser</div><div class="ttdef"><b>Definition</b> Fun.h:36</div></div>
+<div class="ttc" id="aFun_8h_html_a72cf2bcb3a9d957c17deb5bc9041f22d"><div class="ttname"><a href="Fun_8h.html#a72cf2bcb3a9d957c17deb5bc9041f22d">ae2f_CmpFunRet_EQUAL</a></div><div class="ttdeci">#define ae2f_CmpFunRet_EQUAL</div><div class="ttdoc">they are same</div><div class="ttdef"><b>Definition</b> Fun.h:32</div></div>
+<div class="ttc" id="aFun_8h_html_aad33bf8b1b2c426203fb27cff926e739"><div class="ttname"><a href="Fun_8h.html#aad33bf8b1b2c426203fb27cff926e739">ae2f_CmpFunRet_t</a></div><div class="ttdeci">int ae2f_CmpFunRet_t</div><div class="ttdoc">A predefined returning data type for ae2f_fpCmp_t.</div><div class="ttdef"><b>Definition</b> Fun.h:19</div></div>
+<div class="ttc" id="aFun_8h_html_ab061cb3b90028001b568515686bff1f5"><div class="ttname"><a href="Fun_8h.html#ab061cb3b90028001b568515686bff1f5">ae2f_fpCmp_t</a></div><div class="ttdeci">int(* ae2f_fpCmp_t)(const void *l, const void *r)</div><div class="ttdoc">It is an api for following approximate pseudo code.</div><div class="ttdef"><b>Definition</b> Fun.h:28</div></div>
+<div class="ttc" id="anamespaceae2f_html"><div class="ttname"><a href="namespaceae2f.html">ae2f</a></div><div class="ttdoc">This namespace contains the class from this library.</div><div class="ttdef"><b>Definition</b> ae2f.hpp:3</div></div>
+<div class="ttc" id="anamespaceae2f_html_a7ce41e5db09dc16b8b98cbb249b07a7d"><div class="ttname"><a href="namespaceae2f.html#a7ce41e5db09dc16b8b98cbb249b07a7d">ae2f::xfpCmp_t</a></div><div class="ttdeci">Cmp::Fun::Ret_t(*)(const T *, const T *) xfpCmp_t</div><div class="ttdoc">Sugary type for C++ from fpCmp_t.</div><div class="ttdef"><b>Definition</b> Fun.hpp:34</div></div>
+<div class="ttc" id="anamespaceae2f_html_ae95d4c3fa62376105ce9d1e8a337df9b"><div class="ttname"><a href="namespaceae2f.html#ae95d4c3fa62376105ce9d1e8a337df9b">ae2f::xfpCmp</a></div><div class="ttdeci">constexpr fpCmp_t xfpCmp(xfpCmp_t&lt; T &gt; a) noexcept</div><div class="ttdoc">Returns itself as fpCmp_t.</div><div class="ttdef"><b>Definition</b> Fun.hpp:39</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

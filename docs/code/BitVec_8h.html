@@ -163,7 +163,11 @@ typedef uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>ae2f_BitVe
 <tr class="memdesc:affde621551e6614dc12d8b2f23de6ca3"><td class="mdescLeft">&#160;</td><td class="mdescRight">The pre-defined index type for Bit vector. <br /></td></tr>
 <tr class="separator:affde621551e6614dc12d8b2f23de6ca3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><dl class="section author"><dt>Author</dt><dd><a class="el" href="namespaceae2f.html" title="This namespace contains the class from this library.">ae2f</a> </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2025-02-01</dd></dl>
+<dl class="section copyright"><dt>Copyright</dt><dd>Copyright (c) 2025 </dd></dl>
+</div><h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a833b56686e68045949c752d3389b939c" name="a833b56686e68045949c752d3389b939c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a833b56686e68045949c752d3389b939c">&#9670;&#160;</a></span>_ae2f_BitVecFilled</h2>
 
@@ -183,7 +187,7 @@ typedef uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>ae2f_BitVe
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="Cast_8h.html#ab86a90b116e454206d7d4f5c0d07ebcb">ae2f_static_cast</a>(vec_t, (<span class="keyword">sizeof</span>(vec_t) &lt;&lt; 3) == (len) ? <a class="code hl_define" href="Cast_8h.html#ab86a90b116e454206d7d4f5c0d07ebcb">ae2f_static_cast</a>(vec_t, -1) : (<a class="code hl_define" href="Cast_8h.html#ab86a90b116e454206d7d4f5c0d07ebcb">ae2f_static_cast</a>(vec_t, <a class="code hl_define" href="Cast_8h.html#ab86a90b116e454206d7d4f5c0d07ebcb">ae2f_static_cast</a>(vec_t, 1) &lt;&lt; (len)) - 1))</div>
-<div class="ttc" id="aCast_8h_html_ab86a90b116e454206d7d4f5c0d07ebcb"><div class="ttname"><a href="Cast_8h.html#ab86a90b116e454206d7d4f5c0d07ebcb">ae2f_static_cast</a></div><div class="ttdeci">#define ae2f_static_cast(t, v)</div><div class="ttdef"><b>Definition</b> Cast.h:52</div></div>
+<div class="ttc" id="aCast_8h_html_ab86a90b116e454206d7d4f5c0d07ebcb"><div class="ttname"><a href="Cast_8h.html#ab86a90b116e454206d7d4f5c0d07ebcb">ae2f_static_cast</a></div><div class="ttdeci">#define ae2f_static_cast(t, v)</div><div class="ttdef"><b>Definition</b> Cast.h:38</div></div>
 </div><!-- fragment -->
 <p>Generates the vector filled in <code>1</code>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
@@ -230,7 +234,7 @@ typedef uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>ae2f_BitVe
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">(((vector) &gt;&gt; (start)) &amp; <a class="code hl_define" href="#a833b56686e68045949c752d3389b939c">_ae2f_BitVecFilled</a>((end) - (start), vec_t))</div>
-<div class="ttc" id="aBitVec_8h_html_a833b56686e68045949c752d3389b939c"><div class="ttname"><a href="#a833b56686e68045949c752d3389b939c">_ae2f_BitVecFilled</a></div><div class="ttdeci">#define _ae2f_BitVecFilled(len, vec_t)</div><div class="ttdoc">Generates the vector filled in 1.</div><div class="ttdef"><b>Definition</b> BitVec.h:17</div></div>
+<div class="ttc" id="aBitVec_8h_html_a833b56686e68045949c752d3389b939c"><div class="ttname"><a href="#a833b56686e68045949c752d3389b939c">_ae2f_BitVecFilled</a></div><div class="ttdeci">#define _ae2f_BitVecFilled(len, vec_t)</div><div class="ttdoc">Generates the vector filled in 1.</div><div class="ttdef"><b>Definition</b> BitVec.h:25</div></div>
 </div><!-- fragment -->
 <p>Gets the bits of [vector] between index of [start] and [end]. </p>
 <dl class="params"><dt>Parameters</dt><dd>
@@ -347,7 +351,7 @@ typedef uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>ae2f_BitVe
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><span class="keyword">constexpr</span> t <a class="code hl_define" href="#a4d9e4c921c97dfc2959727529e0f779e">ae2f_BitVecFndOneDefName</a>(t)(t vec) <span class="keyword">noexcept</span> { t i = 1; <span class="keywordflow">for</span>(; i; i &lt;&lt;= 1) { <span class="keywordflow">if</span> (vec &amp; i) <span class="keywordflow">return</span> i; } <span class="keywordflow">return</span> i; }</div>
-<div class="ttc" id="aBitVec_8h_html_a4d9e4c921c97dfc2959727529e0f779e"><div class="ttname"><a href="#a4d9e4c921c97dfc2959727529e0f779e">ae2f_BitVecFndOneDefName</a></div><div class="ttdeci">#define ae2f_BitVecFndOneDefName(t)</div><div class="ttdoc">Gets the vector that vec&#39;s first flag set to 1.</div><div class="ttdef"><b>Definition</b> BitVec.h:97</div></div>
+<div class="ttc" id="aBitVec_8h_html_a4d9e4c921c97dfc2959727529e0f779e"><div class="ttname"><a href="#a4d9e4c921c97dfc2959727529e0f779e">ae2f_BitVecFndOneDefName</a></div><div class="ttdeci">#define ae2f_BitVecFndOneDefName(t)</div><div class="ttdoc">Gets the vector that vec&#39;s first flag set to 1.</div><div class="ttdef"><b>Definition</b> BitVec.h:105</div></div>
 </div><!-- fragment -->
 <p>Gets the vector that <code>vec</code>'s first flag set to 1. </p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
@@ -416,7 +420,7 @@ typedef uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>ae2f_BitVe
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a79a4500b345dbc83b86eb7651eafa75c">ae2f_BitVecGetRanged</a>(vector, idx, (idx) + 1)</div>
-<div class="ttc" id="aBitVec_8h_html_a79a4500b345dbc83b86eb7651eafa75c"><div class="ttname"><a href="#a79a4500b345dbc83b86eb7651eafa75c">ae2f_BitVecGetRanged</a></div><div class="ttdeci">#define ae2f_BitVecGetRanged(vector, start, end)</div><div class="ttdoc">Gets the bits of [vector] between index of [start] and [end].  It will normalise the values of [start...</div><div class="ttdef"><b>Definition</b> BitVec.h:40</div></div>
+<div class="ttc" id="aBitVec_8h_html_a79a4500b345dbc83b86eb7651eafa75c"><div class="ttname"><a href="#a79a4500b345dbc83b86eb7651eafa75c">ae2f_BitVecGetRanged</a></div><div class="ttdeci">#define ae2f_BitVecGetRanged(vector, start, end)</div><div class="ttdoc">Gets the bits of [vector] between index of [start] and [end].  It will normalise the values of [start...</div><div class="ttdef"><b>Definition</b> BitVec.h:48</div></div>
 </div><!-- fragment -->
 <p>Gets a bit of [vector] from index of [idx]. </p>
 <dl class="params"><dt>Parameters</dt><dd>
@@ -454,9 +458,9 @@ typedef uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>ae2f_BitVe
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#ab7953a99f79b10ea5469a4b7f32ad50a">_ae2f_BitVecGetRanged</a>(vector, <a class="code hl_define" href="Cmp_8h.html#ab3c784016b1a71e6b23bf0234817ab3a">ae2f_CmpGetLs</a>(start, end), <a class="code hl_define" href="Cmp_8h.html#a5faf903c6d9581d970a7c2f0666e9339">ae2f_CmpGetGt</a>(start, end), <span class="keywordtype">size_t</span>)</div>
-<div class="ttc" id="aBitVec_8h_html_ab7953a99f79b10ea5469a4b7f32ad50a"><div class="ttname"><a href="#ab7953a99f79b10ea5469a4b7f32ad50a">_ae2f_BitVecGetRanged</a></div><div class="ttdeci">#define _ae2f_BitVecGetRanged(vector, start, end, vec_t)</div><div class="ttdoc">Gets the bits of [vector] between index of [start] and [end].</div><div class="ttdef"><b>Definition</b> BitVec.h:31</div></div>
-<div class="ttc" id="aCmp_8h_html_a5faf903c6d9581d970a7c2f0666e9339"><div class="ttname"><a href="Cmp_8h.html#a5faf903c6d9581d970a7c2f0666e9339">ae2f_CmpGetGt</a></div><div class="ttdeci">#define ae2f_CmpGetGt(a, b)</div><div class="ttdef"><b>Definition</b> Cmp.h:12</div></div>
-<div class="ttc" id="aCmp_8h_html_ab3c784016b1a71e6b23bf0234817ab3a"><div class="ttname"><a href="Cmp_8h.html#ab3c784016b1a71e6b23bf0234817ab3a">ae2f_CmpGetLs</a></div><div class="ttdeci">#define ae2f_CmpGetLs(a, b)</div><div class="ttdef"><b>Definition</b> Cmp.h:18</div></div>
+<div class="ttc" id="aBitVec_8h_html_ab7953a99f79b10ea5469a4b7f32ad50a"><div class="ttname"><a href="#ab7953a99f79b10ea5469a4b7f32ad50a">_ae2f_BitVecGetRanged</a></div><div class="ttdeci">#define _ae2f_BitVecGetRanged(vector, start, end, vec_t)</div><div class="ttdoc">Gets the bits of [vector] between index of [start] and [end].</div><div class="ttdef"><b>Definition</b> BitVec.h:39</div></div>
+<div class="ttc" id="aCmp_8h_html_a5faf903c6d9581d970a7c2f0666e9339"><div class="ttname"><a href="Cmp_8h.html#a5faf903c6d9581d970a7c2f0666e9339">ae2f_CmpGetGt</a></div><div class="ttdeci">#define ae2f_CmpGetGt(a, b)</div><div class="ttdef"><b>Definition</b> Cmp.h:20</div></div>
+<div class="ttc" id="aCmp_8h_html_ab3c784016b1a71e6b23bf0234817ab3a"><div class="ttname"><a href="Cmp_8h.html#ab3c784016b1a71e6b23bf0234817ab3a">ae2f_CmpGetLs</a></div><div class="ttdeci">#define ae2f_CmpGetLs(a, b)</div><div class="ttdef"><b>Definition</b> Cmp.h:26</div></div>
 </div><!-- fragment -->
 <p>Gets the bits of [vector] between index of [start] and [end]. <br  />
 It will normalise the values of [start] and [end] by switching them. </p>
@@ -496,7 +500,7 @@ It will normalise the values of [start] and [end] by switching them. </p>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#af8df32b9ee35d039d8e25ba4b3a5b537">ae2f_BitVecSetRanged</a>(vector, idx, (idx) + 1, val)</div>
-<div class="ttc" id="aBitVec_8h_html_af8df32b9ee35d039d8e25ba4b3a5b537"><div class="ttname"><a href="#af8df32b9ee35d039d8e25ba4b3a5b537">ae2f_BitVecSetRanged</a></div><div class="ttdeci">#define ae2f_BitVecSetRanged(vector, start, end, val)</div><div class="ttdoc">Sets the bits of [vector] from index of [start] and [end] by [val].  It will normalise the values of ...</div><div class="ttdef"><b>Definition</b> BitVec.h:67</div></div>
+<div class="ttc" id="aBitVec_8h_html_af8df32b9ee35d039d8e25ba4b3a5b537"><div class="ttname"><a href="#af8df32b9ee35d039d8e25ba4b3a5b537">ae2f_BitVecSetRanged</a></div><div class="ttdeci">#define ae2f_BitVecSetRanged(vector, start, end, val)</div><div class="ttdoc">Sets the bits of [vector] from index of [start] and [end] by [val].  It will normalise the values of ...</div><div class="ttdef"><b>Definition</b> BitVec.h:75</div></div>
 </div><!-- fragment -->
 <p>Sets a bit of [vector] from index of [idx] by [val]. </p>
 <dl class="params"><dt>Parameters</dt><dd>
@@ -539,9 +543,9 @@ It will normalise the values of [start] and [end] by switching them. </p>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#aa643936eb7907618aa53e0d6bcc66614">_ae2f_BitVecSetRanged</a>(vector, <a class="code hl_define" href="Cmp_8h.html#ab3c784016b1a71e6b23bf0234817ab3a">ae2f_CmpGetLs</a>(start, end), <a class="code hl_define" href="Cmp_8h.html#a5faf903c6d9581d970a7c2f0666e9339">ae2f_CmpGetGt</a>(start, end), (val) &amp; <a class="code hl_define" href="#a325847b2b43531a1cfd7089fb99b0b9d">ae2f_BitVecFilled</a>(<a class="code hl_define" href="Cmp_8h.html#addd39204abd0bc1860e6ffb06f882617">ae2f_CmpDiff</a>(start, end)), <span class="keywordtype">size_t</span>)</div>
-<div class="ttc" id="aBitVec_8h_html_a325847b2b43531a1cfd7089fb99b0b9d"><div class="ttname"><a href="#a325847b2b43531a1cfd7089fb99b0b9d">ae2f_BitVecFilled</a></div><div class="ttdeci">#define ae2f_BitVecFilled(len)</div><div class="ttdoc">Generates the vector filled in 1.</div><div class="ttdef"><b>Definition</b> BitVec.h:21</div></div>
-<div class="ttc" id="aBitVec_8h_html_aa643936eb7907618aa53e0d6bcc66614"><div class="ttname"><a href="#aa643936eb7907618aa53e0d6bcc66614">_ae2f_BitVecSetRanged</a></div><div class="ttdeci">#define _ae2f_BitVecSetRanged(vector, start, end, val, vec_t)</div><div class="ttdoc">Sets the bits of [vector] from index of [start] and [end] by [val].</div><div class="ttdef"><b>Definition</b> BitVec.h:58</div></div>
-<div class="ttc" id="aCmp_8h_html_addd39204abd0bc1860e6ffb06f882617"><div class="ttname"><a href="Cmp_8h.html#addd39204abd0bc1860e6ffb06f882617">ae2f_CmpDiff</a></div><div class="ttdeci">#define ae2f_CmpDiff(a, b)</div><div class="ttdef"><b>Definition</b> Cmp.h:22</div></div>
+<div class="ttc" id="aBitVec_8h_html_a325847b2b43531a1cfd7089fb99b0b9d"><div class="ttname"><a href="#a325847b2b43531a1cfd7089fb99b0b9d">ae2f_BitVecFilled</a></div><div class="ttdeci">#define ae2f_BitVecFilled(len)</div><div class="ttdoc">Generates the vector filled in 1.</div><div class="ttdef"><b>Definition</b> BitVec.h:29</div></div>
+<div class="ttc" id="aBitVec_8h_html_aa643936eb7907618aa53e0d6bcc66614"><div class="ttname"><a href="#aa643936eb7907618aa53e0d6bcc66614">_ae2f_BitVecSetRanged</a></div><div class="ttdeci">#define _ae2f_BitVecSetRanged(vector, start, end, val, vec_t)</div><div class="ttdoc">Sets the bits of [vector] from index of [start] and [end] by [val].</div><div class="ttdef"><b>Definition</b> BitVec.h:66</div></div>
+<div class="ttc" id="aCmp_8h_html_addd39204abd0bc1860e6ffb06f882617"><div class="ttname"><a href="Cmp_8h.html#addd39204abd0bc1860e6ffb06f882617">ae2f_CmpDiff</a></div><div class="ttdeci">#define ae2f_CmpDiff(a, b)</div><div class="ttdef"><b>Definition</b> Cmp.h:30</div></div>
 </div><!-- fragment -->
 <p>Sets the bits of [vector] from index of [start] and [end] by [val]. <br  />
 It will normalise the values of [start] and [end] by switching them. </p>
@@ -576,8 +580,8 @@ It will normalise the values of [start] and [end] by switching them. </p>
 <div class="line">        <span class="keywordflow">if</span> (<a class="code hl_define" href="#a02e9923db7e19af08360273c639f743f">ae2f_BitVecGet</a>(vec, i - 1)) return i; \</div>
 <div class="line">    return 0; \</div>
 <div class="line">}</div>
-<div class="ttc" id="aBitVec_8h_html_a02e9923db7e19af08360273c639f743f"><div class="ttname"><a href="#a02e9923db7e19af08360273c639f743f">ae2f_BitVecGet</a></div><div class="ttdeci">#define ae2f_BitVecGet(vector, idx)</div><div class="ttdoc">Gets a bit of [vector] from index of [idx].</div><div class="ttdef"><b>Definition</b> BitVec.h:47</div></div>
-<div class="ttc" id="aBitVec_8h_html_a9dbe37de1c12111bdd14d76ddc3fb235"><div class="ttname"><a href="#a9dbe37de1c12111bdd14d76ddc3fb235">ae2f_BitVecSizeDefName</a></div><div class="ttdeci">#define ae2f_BitVecSizeDefName(t)</div><div class="ttdoc">Gets the vec&#39;s last index where the flag set to 1.</div><div class="ttdef"><b>Definition</b> BitVec.h:80</div></div>
+<div class="ttc" id="aBitVec_8h_html_a02e9923db7e19af08360273c639f743f"><div class="ttname"><a href="#a02e9923db7e19af08360273c639f743f">ae2f_BitVecGet</a></div><div class="ttdeci">#define ae2f_BitVecGet(vector, idx)</div><div class="ttdoc">Gets a bit of [vector] from index of [idx].</div><div class="ttdef"><b>Definition</b> BitVec.h:55</div></div>
+<div class="ttc" id="aBitVec_8h_html_a9dbe37de1c12111bdd14d76ddc3fb235"><div class="ttname"><a href="#a9dbe37de1c12111bdd14d76ddc3fb235">ae2f_BitVecSizeDefName</a></div><div class="ttdeci">#define ae2f_BitVecSizeDefName(t)</div><div class="ttdoc">Gets the vec&#39;s last index where the flag set to 1.</div><div class="ttdef"><b>Definition</b> BitVec.h:88</div></div>
 </div><!-- fragment -->
 <p>Gets the <code>vec</code>'s last index where the flag set to 1. </p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>

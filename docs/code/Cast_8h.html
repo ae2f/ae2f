@@ -110,6 +110,9 @@ $(function(){initNavTree('Cast_8h.html',''); initResizable(true); });
 <div class="contents">
 <div class="textblock"><code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
+<code>#include &quot;<a class="el" href="Cxx_8h_source.html">Cxx.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="CasterUnion_8hpp_source.html">Cast/CasterUnion.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="Constexpr_8hpp_source.html">Cast/Constexpr.hpp</a>&quot;</code><br />
 </div>
 <p><a href="Cast_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -126,13 +129,6 @@ Macros</h2></td></tr>
 <tr class="memitem:aa054a536a6e97d32fa49c1ddf3e0accc" id="r_aa054a536a6e97d32fa49c1ddf3e0accc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa054a536a6e97d32fa49c1ddf3e0accc">ae2f_CastMerge</a>(...)</td></tr>
 <tr class="memdesc:aa054a536a6e97d32fa49c1ddf3e0accc"><td class="mdescLeft">&#160;</td><td class="mdescRight">simply merge all text inside the round bracket, counting them as a single text block.  <br /></td></tr>
 <tr class="separator:aa054a536a6e97d32fa49c1ddf3e0accc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7db6ab0e932eee2c5d72224b44e1260c" id="r_a7db6ab0e932eee2c5d72224b44e1260c"><td class="memItemLeft" align="right" valign="top"><a id="a7db6ab0e932eee2c5d72224b44e1260c" name="a7db6ab0e932eee2c5d72224b44e1260c"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ae2f_WhenCXX</b>(...)</td></tr>
-<tr class="memdesc:a7db6ab0e932eee2c5d72224b44e1260c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appears when the current language is C++. <br /></td></tr>
-<tr class="separator:a7db6ab0e932eee2c5d72224b44e1260c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a70cd5f29915062b7c41069b023823245" id="r_a70cd5f29915062b7c41069b023823245"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a70cd5f29915062b7c41069b023823245">ae2f_WhenC</a>(...)</td></tr>
-<tr class="memdesc:a70cd5f29915062b7c41069b023823245"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appears when the current language is C.  <br /></td></tr>
-<tr class="separator:a70cd5f29915062b7c41069b023823245"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3992ff0ceb1477e4ea82cb3358f15a02" id="r_a3992ff0ceb1477e4ea82cb3358f15a02"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3992ff0ceb1477e4ea82cb3358f15a02">ae2f_RecordMk</a>(type, ...)</td></tr>
 <tr class="memdesc:a3992ff0ceb1477e4ea82cb3358f15a02"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialiser for trivial structures / classes.  <br /></td></tr>
 <tr class="separator:a3992ff0ceb1477e4ea82cb3358f15a02"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -148,35 +144,43 @@ Macros</h2></td></tr>
 <tr class="memdesc:a617373a68c3f94d8e00857e2e6cfe97f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes a union that reads a memory in two methods. <br  />
 <code>tThen</code> -&gt; <code>tNow</code>  <br /></td></tr>
 <tr class="separator:a617373a68c3f94d8e00857e2e6cfe97f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a06f9c6cce51fc7772141ec9a6d521511" id="r_a06f9c6cce51fc7772141ec9a6d521511"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a06f9c6cce51fc7772141ec9a6d521511">ae2f_struct</a>&#160;&#160;&#160;<a class="el" href="#a70cd5f29915062b7c41069b023823245">ae2f_WhenC</a>(struct)</td></tr>
+<tr class="memitem:a06f9c6cce51fc7772141ec9a6d521511" id="r_a06f9c6cce51fc7772141ec9a6d521511"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a06f9c6cce51fc7772141ec9a6d521511">ae2f_struct</a>&#160;&#160;&#160;<a class="el" href="Cxx_8h.html#a70cd5f29915062b7c41069b023823245">ae2f_WhenC</a>(struct)</td></tr>
 <tr class="memdesc:a06f9c6cce51fc7772141ec9a6d521511"><td class="mdescLeft">&#160;</td><td class="mdescRight">In C, keyword 'struct' must be written in front of the structure's name in order to use as a type name. <br  />
 In C++ that keyword is not required.  <br /></td></tr>
 <tr class="separator:a06f9c6cce51fc7772141ec9a6d521511"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af32d53608be4ca28fd8e5cd34fc0279b" id="r_af32d53608be4ca28fd8e5cd34fc0279b"><td class="memItemLeft" align="right" valign="top"><a id="af32d53608be4ca28fd8e5cd34fc0279b" name="af32d53608be4ca28fd8e5cd34fc0279b"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ae2f_extern</b>&#160;&#160;&#160;<a class="el" href="#a70cd5f29915062b7c41069b023823245">ae2f_WhenC</a>(extern) <a class="el" href="#a7db6ab0e932eee2c5d72224b44e1260c">ae2f_WhenCXX</a>(extern &quot;C&quot;)</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>ae2f_extern</b>&#160;&#160;&#160;<a class="el" href="Cxx_8h.html#a70cd5f29915062b7c41069b023823245">ae2f_WhenC</a>(extern) <a class="el" href="Cxx_8h.html#a7db6ab0e932eee2c5d72224b44e1260c">ae2f_WhenCXX</a>(extern &quot;C&quot;)</td></tr>
 <tr class="memdesc:af32d53608be4ca28fd8e5cd34fc0279b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Suggests the existence of external variable or function, in naming of C. [non-mangling]. <br /></td></tr>
 <tr class="separator:af32d53608be4ca28fd8e5cd34fc0279b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a08aaefc28432e5f795e374e361593d2b" id="r_a08aaefc28432e5f795e374e361593d2b"><td class="memItemLeft" align="right" valign="top"><a id="a08aaefc28432e5f795e374e361593d2b" name="a08aaefc28432e5f795e374e361593d2b"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ae2f_class</b>&#160;&#160;&#160;<a class="el" href="#a70cd5f29915062b7c41069b023823245">ae2f_WhenC</a>(struct) <a class="el" href="#a7db6ab0e932eee2c5d72224b44e1260c">ae2f_WhenCXX</a>(class)</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>ae2f_class</b>&#160;&#160;&#160;<a class="el" href="Cxx_8h.html#a70cd5f29915062b7c41069b023823245">ae2f_WhenC</a>(struct) <a class="el" href="Cxx_8h.html#a7db6ab0e932eee2c5d72224b44e1260c">ae2f_WhenCXX</a>(class)</td></tr>
 <tr class="memdesc:a08aaefc28432e5f795e374e361593d2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class. <br /></td></tr>
 <tr class="separator:a08aaefc28432e5f795e374e361593d2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55689481e470b84f3bc5710c860b088c" id="r_a55689481e470b84f3bc5710c860b088c"><td class="memItemLeft" align="right" valign="top"><a id="a55689481e470b84f3bc5710c860b088c" name="a55689481e470b84f3bc5710c860b088c"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ae2f_var</b>&#160;&#160;&#160;<a class="el" href="#a7db6ab0e932eee2c5d72224b44e1260c">ae2f_WhenCXX</a>(extern &quot;C&quot;)</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>ae2f_var</b>&#160;&#160;&#160;<a class="el" href="Cxx_8h.html#a7db6ab0e932eee2c5d72224b44e1260c">ae2f_WhenCXX</a>(extern &quot;C&quot;)</td></tr>
 <tr class="memdesc:a55689481e470b84f3bc5710c860b088c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes the global variable in naming of C. [non-mangling]. <br /></td></tr>
 <tr class="separator:a55689481e470b84f3bc5710c860b088c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae19c09f06693f52d2ce2843500d58dd2" id="r_ae19c09f06693f52d2ce2843500d58dd2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae19c09f06693f52d2ce2843500d58dd2">ae2f_fdef</a>(rtn_t,  name, ...)</td></tr>
 <tr class="memdesc:ae19c09f06693f52d2ce2843500d58dd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function definitions.  <br /></td></tr>
 <tr class="separator:ae19c09f06693f52d2ce2843500d58dd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72f0657181cca64b44eb186b707eb380" id="r_a72f0657181cca64b44eb186b707eb380"><td class="memItemLeft" align="right" valign="top"><a id="a72f0657181cca64b44eb186b707eb380" name="a72f0657181cca64b44eb186b707eb380"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>constexpr</b>&#160;&#160;&#160;<a class="el" href="#a70cd5f29915062b7c41069b023823245">ae2f_WhenC</a>(const) <a class="el" href="#a7db6ab0e932eee2c5d72224b44e1260c">ae2f_WhenCXX</a>(constexpr)</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>constexpr</b>&#160;&#160;&#160;<a class="el" href="Cxx_8h.html#a70cd5f29915062b7c41069b023823245">ae2f_WhenC</a>(const) <a class="el" href="Cxx_8h.html#a7db6ab0e932eee2c5d72224b44e1260c">ae2f_WhenCXX</a>(constexpr)</td></tr>
 <tr class="memdesc:a72f0657181cca64b44eb186b707eb380"><td class="mdescLeft">&#160;</td><td class="mdescRight">Const-expression for C++ variables. not for functions. <br /></td></tr>
 <tr class="separator:a72f0657181cca64b44eb186b707eb380"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72d16a70e040f6cd3cb1bf9a0821ef76" id="r_a72d16a70e040f6cd3cb1bf9a0821ef76"><td class="memItemLeft" align="right" valign="top"><a id="a72d16a70e040f6cd3cb1bf9a0821ef76" name="a72d16a70e040f6cd3cb1bf9a0821ef76"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>constexprfun</b>&#160;&#160;&#160;<a class="el" href="Cxx_8h.html#a70cd5f29915062b7c41069b023823245">ae2f_WhenC</a>(inline) <a class="el" href="Cxx_8h.html#a7db6ab0e932eee2c5d72224b44e1260c">ae2f_WhenCXX</a>(<a class="el" href="#a72f0657181cca64b44eb186b707eb380">constexpr</a>)</td></tr>
+<tr class="memdesc:a72d16a70e040f6cd3cb1bf9a0821ef76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Const-expression for C++ functions. <br /></td></tr>
+<tr class="separator:a72d16a70e040f6cd3cb1bf9a0821ef76"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a189faadd7f99f6c354db09acbb2aafcd" id="r_a189faadd7f99f6c354db09acbb2aafcd"><td class="memItemLeft" align="right" valign="top"><a id="a189faadd7f99f6c354db09acbb2aafcd" name="a189faadd7f99f6c354db09acbb2aafcd"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>noexcept</b>&#160;&#160;&#160;<a class="el" href="#a7db6ab0e932eee2c5d72224b44e1260c">ae2f_WhenCXX</a>(noexcept)</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>noexcept</b>&#160;&#160;&#160;<a class="el" href="Cxx_8h.html#a7db6ab0e932eee2c5d72224b44e1260c">ae2f_WhenCXX</a>(noexcept)</td></tr>
 <tr class="memdesc:a189faadd7f99f6c354db09acbb2aafcd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Means that there will be no exception thrown written in code. <br /></td></tr>
 <tr class="separator:a189faadd7f99f6c354db09acbb2aafcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><dl class="section author"><dt>Author</dt><dd><a class="el" href="namespaceae2f.html" title="This namespace contains the class from this library.">ae2f</a> </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2025-02-01</dd></dl>
+<dl class="section copyright"><dt>Copyright</dt><dd>Copyright (c) 2025 </dd></dl>
+</div><h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="aa054a536a6e97d32fa49c1ddf3e0accc" name="aa054a536a6e97d32fa49c1ddf3e0accc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa054a536a6e97d32fa49c1ddf3e0accc">&#9670;&#160;</a></span>ae2f_CastMerge</h2>
 
@@ -215,9 +219,9 @@ In C++ that keyword is not required.  <br /></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a70cd5f29915062b7c41069b023823245">ae2f_WhenC</a>(((t)(v))) <a class="code hl_define" href="#a7db6ab0e932eee2c5d72224b44e1260c">ae2f_WhenCXX</a>(<span class="keyword">const_cast&lt;</span>t<span class="keyword">&gt;</span>(v))</div>
-<div class="ttc" id="aCast_8h_html_a70cd5f29915062b7c41069b023823245"><div class="ttname"><a href="#a70cd5f29915062b7c41069b023823245">ae2f_WhenC</a></div><div class="ttdeci">#define ae2f_WhenC(...)</div><div class="ttdoc">Appears when the current language is C.</div><div class="ttdef"><b>Definition</b> Cast.h:42</div></div>
-<div class="ttc" id="aCast_8h_html_a7db6ab0e932eee2c5d72224b44e1260c"><div class="ttname"><a href="#a7db6ab0e932eee2c5d72224b44e1260c">ae2f_WhenCXX</a></div><div class="ttdeci">#define ae2f_WhenCXX(...)</div><div class="ttdoc">Appears when the current language is C++.</div><div class="ttdef"><b>Definition</b> Cast.h:38</div></div>
+<b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="Cxx_8h.html#a70cd5f29915062b7c41069b023823245">ae2f_WhenC</a>(((t)(v))) <a class="code hl_define" href="Cxx_8h.html#a7db6ab0e932eee2c5d72224b44e1260c">ae2f_WhenCXX</a>(<span class="keyword">const_cast&lt;</span>t<span class="keyword">&gt;</span>(v))</div>
+<div class="ttc" id="aCxx_8h_html_a70cd5f29915062b7c41069b023823245"><div class="ttname"><a href="Cxx_8h.html#a70cd5f29915062b7c41069b023823245">ae2f_WhenC</a></div><div class="ttdeci">#define ae2f_WhenC(...)</div><div class="ttdoc">Appears when the current language is C++.</div><div class="ttdef"><b>Definition</b> Cxx.h:30</div></div>
+<div class="ttc" id="aCxx_8h_html_a7db6ab0e932eee2c5d72224b44e1260c"><div class="ttname"><a href="Cxx_8h.html#a7db6ab0e932eee2c5d72224b44e1260c">ae2f_WhenCXX</a></div><div class="ttdeci">#define ae2f_WhenCXX(...)</div><div class="ttdoc">Appears when the current language is C.</div><div class="ttdef"><b>Definition</b> Cxx.h:34</div></div>
 </div><!-- fragment --><h1><a class="anchor" id="autotoc_md6"></a>
 const_cast</h1>
 
@@ -241,7 +245,7 @@ const_cast</h1>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a70cd5f29915062b7c41069b023823245">ae2f_WhenC</a>(((t)(v))) <a class="code hl_define" href="#a7db6ab0e932eee2c5d72224b44e1260c">ae2f_WhenCXX</a>(<span class="keyword">dynamic_cast&lt;</span>t<span class="keyword">&gt;</span>(v))</div>
+<b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="Cxx_8h.html#a70cd5f29915062b7c41069b023823245">ae2f_WhenC</a>(((t)(v))) <a class="code hl_define" href="Cxx_8h.html#a7db6ab0e932eee2c5d72224b44e1260c">ae2f_WhenCXX</a>(<span class="keyword">dynamic_cast&lt;</span>t<span class="keyword">&gt;</span>(v))</div>
 </div><!-- fragment --><h1><a class="anchor" id="autotoc_md4"></a>
 dynamic_cast</h1>
 
@@ -294,7 +298,7 @@ dynamic_cast</h1>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">(<a class="code hl_define" href="#a70cd5f29915062b7c41069b023823245">ae2f_WhenC</a>((type) { __VA_ARGS__ }) <a class="code hl_define" href="#a7db6ab0e932eee2c5d72224b44e1260c">ae2f_WhenCXX</a>(type{ __VA_ARGS__ }))</div>
+<b>Value:</b><div class="fragment"><div class="line">(<a class="code hl_define" href="Cxx_8h.html#a70cd5f29915062b7c41069b023823245">ae2f_WhenC</a>((type) { __VA_ARGS__ }) <a class="code hl_define" href="Cxx_8h.html#a7db6ab0e932eee2c5d72224b44e1260c">ae2f_WhenCXX</a>(type{ __VA_ARGS__ }))</div>
 </div><!-- fragment -->
 <p>Initialiser for trivial structures / classes. </p>
 
@@ -318,7 +322,7 @@ dynamic_cast</h1>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a70cd5f29915062b7c41069b023823245">ae2f_WhenC</a>(((t)(v))) <a class="code hl_define" href="#a7db6ab0e932eee2c5d72224b44e1260c">ae2f_WhenCXX</a>(<span class="keyword">reinterpret_cast&lt;</span>t<span class="keyword">&gt;</span>(v))</div>
+<b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="Cxx_8h.html#a70cd5f29915062b7c41069b023823245">ae2f_WhenC</a>(((t)(v))) <a class="code hl_define" href="Cxx_8h.html#a7db6ab0e932eee2c5d72224b44e1260c">ae2f_WhenCXX</a>(<span class="keyword">reinterpret_cast&lt;</span>t<span class="keyword">&gt;</span>(v))</div>
 </div><!-- fragment --><h1><a class="anchor" id="autotoc_md5"></a>
 reinterpret_cast</h1>
 
@@ -342,7 +346,7 @@ reinterpret_cast</h1>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a70cd5f29915062b7c41069b023823245">ae2f_WhenC</a>(((t)(v))) <a class="code hl_define" href="#a7db6ab0e932eee2c5d72224b44e1260c">ae2f_WhenCXX</a>(<span class="keyword">static_cast&lt;</span>t<span class="keyword">&gt;</span>(v))</div>
+<b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="Cxx_8h.html#a70cd5f29915062b7c41069b023823245">ae2f_WhenC</a>(((t)(v))) <a class="code hl_define" href="Cxx_8h.html#a7db6ab0e932eee2c5d72224b44e1260c">ae2f_WhenCXX</a>(<span class="keyword">static_cast&lt;</span>t<span class="keyword">&gt;</span>(v))</div>
 </div><!-- fragment --><h1><a class="anchor" id="autotoc_md3"></a>
 static_cast</h1>
 
@@ -355,7 +359,7 @@ static_cast</h1>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ae2f_struct&#160;&#160;&#160;<a class="el" href="#a70cd5f29915062b7c41069b023823245">ae2f_WhenC</a>(struct)</td>
+          <td class="memname">#define ae2f_struct&#160;&#160;&#160;<a class="el" href="Cxx_8h.html#a70cd5f29915062b7c41069b023823245">ae2f_WhenC</a>(struct)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -389,7 +393,7 @@ In C++ that keyword is not required. </p>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a70cd5f29915062b7c41069b023823245">ae2f_WhenC</a>((<span class="keyword">union</span> { tThen a; tNow b; }) { v }) <a class="code hl_define" href="#a7db6ab0e932eee2c5d72224b44e1260c">ae2f_WhenCXX</a>(ae2f_UnionCaster&lt;tThen, tNow&gt;{ v }) .b</div>
+<b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="Cxx_8h.html#a70cd5f29915062b7c41069b023823245">ae2f_WhenC</a>((<span class="keyword">union</span> { tThen a; tNow b; }) { v }) <a class="code hl_define" href="Cxx_8h.html#a7db6ab0e932eee2c5d72224b44e1260c">ae2f_WhenCXX</a>(ae2f_UnionCaster&lt;tThen, tNow&gt;{ v }) .b</div>
 </div><!-- fragment -->
 <p>Makes a union that reads a memory in two methods. <br  />
 <code>tThen</code> -&gt; <code>tNow</code> </p>
@@ -406,26 +410,6 @@ In C++ that keyword is not required. </p>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a id="a70cd5f29915062b7c41069b023823245" name="a70cd5f29915062b7c41069b023823245"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a70cd5f29915062b7c41069b023823245">&#9670;&#160;</a></span>ae2f_WhenC</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ae2f_WhenC</td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em></em></span>...</td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">__VA_ARGS__</div>
-</div><!-- fragment -->
-<p>Appears when the current language is C. </p>
 
 </div>
 </div>

@@ -19,22 +19,5 @@ var namespaces_dup =
       [ "ae2f_ProjRoot", "namespace______DOC__CMAKE.html#ab6d1227eed33ed383a1ec8df9847c7b7", null ],
       [ "ae2f_TEST", "namespace______DOC__CMAKE.html#a66c56cb14a6675a093a9a6e0834ccc7e", null ]
     ] ],
-    [ "ae2f", null, [
-      [ "Ds", null, [
-        [ "Alloc", null, [
-          [ "cOwner", "namespaceae2f_1_1Ds_1_1Alloc_1_1cOwner.html", [
-            [ "Linear_t", "namespaceae2f_1_1Ds_1_1Alloc_1_1cOwner.html#aee5baa87f422e740198b12b17017c424", null ]
-          ] ],
-          [ "cRefer", "structae2f_1_1Ds_1_1Alloc_1_1cRefer.html", "structae2f_1_1Ds_1_1Alloc_1_1cRefer" ],
-          [ "iOwner", "structae2f_1_1Ds_1_1Alloc_1_1iOwner.html", "structae2f_1_1Ds_1_1Alloc_1_1iOwner" ],
-          [ "vfDef", "structae2f_1_1Ds_1_1Alloc_1_1vfDef.html", null ],
-          [ "xrOwner", "structae2f_1_1Ds_1_1Alloc_1_1xrOwner.html", "structae2f_1_1Ds_1_1Alloc_1_1xrOwner" ]
-        ] ]
-      ] ],
-      [ "errGlobState", "structae2f_1_1errGlobState.html", "structae2f_1_1errGlobState" ],
-      [ "errGlobThrown", "classae2f_1_1errGlobThrown.html", null ],
-      [ "rBitVec", "classae2f_1_1rBitVec.html", "classae2f_1_1rBitVec" ],
-      [ "xfpCmp_t", "Fun_8hpp.html#a7ce41e5db09dc16b8b98cbb249b07a7d", null ],
-      [ "xfpCmp", "Fun_8hpp.html#ae95d4c3fa62376105ce9d1e8a337df9b", null ]
-    ] ]
+    [ "ae2f", "namespaceae2f.html", "namespaceae2f" ]
 ];

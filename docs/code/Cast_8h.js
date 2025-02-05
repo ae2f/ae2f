@@ -14,8 +14,7 @@ var Cast_8h =
     [ "ae2f_struct", "Cast_8h.html#a06f9c6cce51fc7772141ec9a6d521511", null ],
     [ "ae2f_union_cast", "Cast_8h.html#a617373a68c3f94d8e00857e2e6cfe97f", null ],
     [ "ae2f_var", "Cast_8h.html#a55689481e470b84f3bc5710c860b088c", null ],
-    [ "ae2f_WhenC", "Cast_8h.html#a70cd5f29915062b7c41069b023823245", null ],
-    [ "ae2f_WhenCXX", "Cast_8h.html#a7db6ab0e932eee2c5d72224b44e1260c", null ],
     [ "constexpr", "Cast_8h.html#a72f0657181cca64b44eb186b707eb380", null ],
+    [ "constexprfun", "Cast_8h.html#a72d16a70e040f6cd3cb1bf9a0821ef76", null ],
     [ "noexcept", "Cast_8h.html#a189faadd7f99f6c354db09acbb2aafcd", null ]
 ];

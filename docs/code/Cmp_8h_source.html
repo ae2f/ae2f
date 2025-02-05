@@ -107,22 +107,22 @@ $(function(){initNavTree('Cmp_8h_source.html',''); initResizable(true); });
 </div><!--header-->
 <div class="contents">
 <a href="Cmp_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#if !defined(ae2f_Cmp_h)</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#define ae2f_Cmp_h</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;<a class="code" href="Fun_8h.html">Cmp/Fun.h</a>&quot;</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span></div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="Cmp_8h.html#a5faf903c6d9581d970a7c2f0666e9339">   12</a></span><span class="preprocessor">#define ae2f_CmpGetGt(a, b)     ((a) &gt; (b) ? (a) : (b))</span></div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span></div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="Cmp_8h.html#ab3c784016b1a71e6b23bf0234817ab3a">   18</a></span><span class="preprocessor">#define ae2f_CmpGetLs(a, b) ((a) &lt; (b) ? (a) : (b))</span></div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span></div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="Cmp_8h.html#addd39204abd0bc1860e6ffb06f882617">   22</a></span><span class="preprocessor">#define ae2f_CmpDiff(a, b)          (ae2f_CmpGetGt(a, b) - ae2f_CmpGetLs(a, b))</span></div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span></div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="Cmp_8h.html#a9c08d68c01bcf33d01e58cd66a215e4f">   30</a></span><span class="preprocessor">#define ae2f_CmpGetMem(ptr, member, alter) ((ptr) ? ((ptr)-&gt;member) : (alter))</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#if !defined(ae2f_Cmp_h)</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#define ae2f_Cmp_h</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &quot;<a class="code" href="Fun_8h.html">Cmp/Fun.h</a>&quot;</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="Cmp_8h.html#a5faf903c6d9581d970a7c2f0666e9339">   20</a></span><span class="preprocessor">#define ae2f_CmpGetGt(a, b)     ((a) &gt; (b) ? (a) : (b))</span></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="Cmp_8h.html#ab3c784016b1a71e6b23bf0234817ab3a">   26</a></span><span class="preprocessor">#define ae2f_CmpGetLs(a, b) ((a) &lt; (b) ? (a) : (b))</span></div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span></div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="Cmp_8h.html#addd39204abd0bc1860e6ffb06f882617">   30</a></span><span class="preprocessor">#define ae2f_CmpDiff(a, b)          (ae2f_CmpGetGt(a, b) - ae2f_CmpGetLs(a, b))</span></div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span></div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="Cmp_8h.html#a47cfb81ee8bf49067a17b6a59af4f552">   37</a></span><span class="preprocessor">#define ae2f_CmpGetSelf(ptr, alt) ((ptr) ? (ptr) : (alt))</span></div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="preprocessor">#endif </span><span class="comment">// !defined(ae2f_Macro_Compare_h)</span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="Cmp_8h.html#a9c08d68c01bcf33d01e58cd66a215e4f">   38</a></span><span class="preprocessor">#define ae2f_CmpGetMem(ptr, member, alter) ((ptr) ? ((ptr)-&gt;member) : (alter))</span></div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span></div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="Cmp_8h.html#a47cfb81ee8bf49067a17b6a59af4f552">   45</a></span><span class="preprocessor">#define ae2f_CmpGetSelf(ptr, alt) ((ptr) ? (ptr) : (alt))</span></div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="preprocessor">#endif </span><span class="comment">// !defined(ae2f_Macro_Compare_h)</span></div>
 <div class="ttc" id="aFun_8h_html"><div class="ttname"><a href="Fun_8h.html">Fun.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

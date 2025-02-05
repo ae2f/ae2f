@@ -29,12 +29,11 @@ var hierarchy =
     [ "ae2fCL_AnnSlp", "structae2fCL__AnnSlp.html", null ],
     [ "ae2fCL_AnnSlpEl", "structae2fCL__AnnSlpEl.html", null ],
     [ "ae2fCL_AnnSp", "structae2fCL__AnnSp.html", [
-      [ "ae2fCL::Ann::cSpRefer", "classae2fCL_1_1Ann_1_1cSpRefer.html", [
-        [ "ae2fCL::Ann::cSp", "structae2fCL_1_1Ann_1_1cSp.html", null ]
-      ] ]
+      [ "ae2fCL::Ann::cSp", "structae2fCL_1_1Ann_1_1cSp.html", null ],
+      [ "ae2fCL::Ann::cSpRefer", "classae2fCL_1_1Ann_1_1cSpRefer.html", null ]
     ] ],
     [ "ae2fCL_cBmpBuff", "structae2fCL__cBmpBuff.html", null ],
-    [ "ae2fCL_ui32_64", "unionae2fCL__ui32__64.html", null ],
+    [ "ae2fCL_LcgRandSeed", "unionae2fCL__LcgRandSeed.html", null ],
     [ "ae2f::mov2::Def< t >", "structae2f_1_1mov2_1_1Def.html", null ],
     [ "ae2f::errGlobState", "structae2f_1_1errGlobState.html", null ],
     [ "std::exception", null, [

@@ -1,6 +1,6 @@
 var annotated_dup =
 [
-    [ "ae2f", null, [
+    [ "ae2f", "namespaceae2f.html", [
       [ "Ds", null, [
         [ "Alloc", null, [
           [ "cRefer", "structae2f_1_1Ds_1_1Alloc_1_1cRefer.html", "structae2f_1_1Ds_1_1Alloc_1_1cRefer" ],
@@ -49,5 +49,5 @@ var annotated_dup =
     [ "ae2fCL_AnnSlpEl", "structae2fCL__AnnSlpEl.html", "structae2fCL__AnnSlpEl" ],
     [ "ae2fCL_AnnSp", "structae2fCL__AnnSp.html", "structae2fCL__AnnSp" ],
     [ "ae2fCL_cBmpBuff", "structae2fCL__cBmpBuff.html", null ],
-    [ "ae2fCL_ui32_64", "unionae2fCL__ui32__64.html", null ]
+    [ "ae2fCL_LcgRandSeed", "unionae2fCL__LcgRandSeed.html", null ]
 ];

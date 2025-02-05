@@ -109,6 +109,9 @@ $(function(){initNavTree('errGlob_8h.html',''); initResizable(true); });
   <div class="headertitle"><div class="title">errGlob.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Those numbers with [ <a class="el" href="#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a> ] will be the state.  
+<a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;stdint.h&gt;</code><br />
 </div>
 <p><a href="errGlob_8h_source.html">Go to the source code of this file.</a></p>
@@ -159,6 +162,9 @@ typedef uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>ae2f_err_t
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Those numbers with [ <a class="el" href="#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a> ] will be the state. </p>
+<dl class="section author"><dt>Author</dt><dd><a class="el" href="namespaceae2f.html" title="This namespace contains the class from this library.">ae2f</a> </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2025-02-01</dd></dl>
+<dl class="section copyright"><dt>Copyright</dt><dd>Copyright (c) 2025 </dd></dl>
 </div><h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a9755e68f89e55f8ee587d6dd3d3d4d96" name="a9755e68f89e55f8ee587d6dd3d3d4d96"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9755e68f89e55f8ee587d6dd3d3d4d96">&#9670;&#160;</a></span>ae2f_errGlob_DONE_HOWEV</h2>
@@ -192,9 +198,9 @@ Note that operation may not be valid. </p>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">((n &amp; <a class="code hl_define" href="#a9755e68f89e55f8ee587d6dd3d3d4d96">ae2f_errGlob_DONE_HOWEV</a>) ? <a class="code hl_define" href="#a7ea7d8a5a85ef707e5c125a32e44449c">ae2f_errGlob_OK</a> : n)</div>
-<div class="ttc" id="aerrGlob_8h_html_a7ea7d8a5a85ef707e5c125a32e44449c"><div class="ttname"><a href="#a7ea7d8a5a85ef707e5c125a32e44449c">ae2f_errGlob_OK</a></div><div class="ttdeci">#define ae2f_errGlob_OK</div><div class="ttdoc">The Operation you&#39;ve wanted went successful.</div><div class="ttdef"><b>Definition</b> errGlob.h:15</div></div>
-<div class="ttc" id="aerrGlob_8h_html_a9755e68f89e55f8ee587d6dd3d3d4d96"><div class="ttname"><a href="#a9755e68f89e55f8ee587d6dd3d3d4d96">ae2f_errGlob_DONE_HOWEV</a></div><div class="ttdeci">#define ae2f_errGlob_DONE_HOWEV</div><div class="ttdoc">Means that error was not critical.</div><div class="ttdef"><b>Definition</b> errGlob.h:49</div></div>
+<b>Value:</b><div class="fragment"><div class="line">(((n) &amp; <a class="code hl_define" href="#a9755e68f89e55f8ee587d6dd3d3d4d96">ae2f_errGlob_DONE_HOWEV</a>) ? <a class="code hl_define" href="#a7ea7d8a5a85ef707e5c125a32e44449c">ae2f_errGlob_OK</a> : (n))</div>
+<div class="ttc" id="aerrGlob_8h_html_a7ea7d8a5a85ef707e5c125a32e44449c"><div class="ttname"><a href="#a7ea7d8a5a85ef707e5c125a32e44449c">ae2f_errGlob_OK</a></div><div class="ttdeci">#define ae2f_errGlob_OK</div><div class="ttdoc">The Operation you&#39;ve wanted went successful.</div><div class="ttdef"><b>Definition</b> errGlob.h:23</div></div>
+<div class="ttc" id="aerrGlob_8h_html_a9755e68f89e55f8ee587d6dd3d3d4d96"><div class="ttname"><a href="#a9755e68f89e55f8ee587d6dd3d3d4d96">ae2f_errGlob_DONE_HOWEV</a></div><div class="ttdeci">#define ae2f_errGlob_DONE_HOWEV</div><div class="ttdoc">Means that error was not critical.</div><div class="ttdef"><b>Definition</b> errGlob.h:57</div></div>
 </div><!-- fragment -->
 <p>Check if the state code is a critical error. </p>
 <dl class="params"><dt>Parameters</dt><dd>
