@@ -11,6 +11,30 @@ on:
 permissions: write-all
 
 jobs:
+  opencl-ubuntu:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Install OpenCL
+          run: |
+            sudo apt-get update
+            sudo apt-get install -y ocl-icd-opencl-dev pocl-opencl-icd
+        - uses: actions/checkout@v4
+        
+  build-and-test:
+      runs-on: windows-latest
+      steps:
+        - uses: actions/checkout@v4
+        - name: Install OpenCL
+          run: |
+            # Option 1: Use Vcpkg to install OpenCL headers and libraries
+            git clone https://github.com/microsoft/vcpkg.git
+            cd vcpkg
+            .\bootstrap-vcpkg.bat
+            .\vcpkg.exe install opencl
+            # Option 2: Copy pre-built OpenCL DLLs (e.g., IntelOpenCL64.dll) to PATH
+            # Copy DLLs from your repo to the runner's PATH
+            Copy-Item .\libs\IntelOpenCL64.dll -Destination $Env:PATH
+            
   build:
     runs-on: ${{ matrix.os }}
 
