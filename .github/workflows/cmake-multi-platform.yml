@@ -50,8 +50,8 @@ jobs:
 
     - name: OpenCL Installation
       run: >
-        git clone --recursive https://github.com/KhronosGroup/OpenCL-SDK.git
-        cmake -D BUILD_TESTING=OFF -D OPENCL_SDK_BUILD_SAMPLES=ON -B ./OpenCL-SDK/build -S ./OpenCL-SDK
+        git clone --recursive https://github.com/KhronosGroup/OpenCL-SDK.git &&
+        cmake -D BUILD_TESTING=OFF -D OPENCL_SDK_BUILD_SAMPLES=ON -B ./OpenCL-SDK/build -S ./OpenCL-SDK &&
         cmake --build ./OpenCL-SDK/build --target install
             
     - name: Configure CMake
