@@ -24,7 +24,7 @@ jobs:
       #
       # To add more build types (Release, Debug, RelWithDebInfo, etc.) customize the build_type list.
       matrix:
-        os: [ubuntu-latest, windows-latest]
+        os: [ubuntu-latest, windows-latest, macos-latest]
         build_type: [Release]
         c_compiler: [gcc]
         include:
@@ -48,10 +48,12 @@ jobs:
       run: |
         echo "build-output-dir=${{ github.workspace }}/build" >> "$GITHUB_OUTPUT"
 
-    - name: Fetch & Pull
+    - name: OpenCL Installation
       run: >
-        git fetch && git pull
-
+        git clone --recursive https://github.com/KhronosGroup/OpenCL-SDK.git
+        cmake -D BUILD_TESTING=OFF -D OPENCL_SDK_BUILD_SAMPLES=ON -B ./OpenCL-SDK/build -S ./OpenCL-SDK
+        cmake --build ./OpenCL-SDK/build --target install
+            
     - name: Configure CMake
       # Configure CMake in a 'build' subdirectory. `CMAKE_BUILD_TYPE` is only required if you are using a single-configuration generator such as make.
       # See https://cmake.org/cmake/help/latest/variable/CMAKE_BUILD_TYPE.html?highlight=cmake_build_type
@@ -67,23 +69,5 @@ jobs:
       # Build your program with the given configuration. Note that --config is needed because the default Windows generator is a multi-config generator (Visual Studio generator).
       run: cmake --build ${{ steps.strings.outputs.build-output-dir }} --config ${{ matrix.build_type }}
 
-    - name: Fetch & Pull
-      run: >
-        git fetch && git pull
-
-    - name: Git Add
-      run: git add ./Assets/Plugins
-
-    - name: Configure Git
-      run: |
-        git config user.name BOT
-        git config user.email a@a.com
-
-    - name: git Commit
-      run: git commit -m "[CI/CD] Generated plugin build automation"
-    
-    - name: Push
-      uses: ad-m/github-push-action@master
-      with:
-        branch: main
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+    - name: Test
+      run: ctest --test-dir build
