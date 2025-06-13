@@ -33,7 +33,7 @@ jobs:
         fetch-depth: '0'
         
     - name: install-doxygen
-      run: apt install doxygen
+      run: sudo apt install doxygen
     
     - name: Doxygen
       run: doxygen
