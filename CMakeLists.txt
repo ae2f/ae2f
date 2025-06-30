@@ -13,13 +13,6 @@ if(NOT TARGET ${PROJECT_NAME} AND ae2f_ae2fDOCGEN)
 
     ae2f_CoreLibFetch(ae2f Core main)
     ae2f_CoreLibFetch(ae2f Macro main)
-    ae2f_CoreLibFetch(ae2f Ds main)
-    ae2f_CoreLibFetch(ae2f Ruler main)
-    ae2f_CoreLibFetch(ae2f mov main)
-    ae2f_CoreLibFetch(ae2f mov2 main)
-    ae2f_CoreLibFetch(ae2f err main)
-    ae2f_CoreLibFetch(ae2f CL-Core main)
-    ae2f_CoreLibFetch(ae2f Ann main)
     ae2f_CoreLibFetch(ae2f Math main)
 
     file(REMOVE_RECURSE ${PROJECT_SOURCE_DIR}/CMakeDocs/include)
