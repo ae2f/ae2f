@@ -30,6 +30,9 @@ jobs:
       shell: bash
       run: |
         echo "build-output-dir=${{ github.workspace }}/build" >> "$GITHUB_OUTPUT"
+
+    - name: install-doxygen
+      run: sudo apt install doxygen
   
     - name: Configure Git
       run: |
@@ -61,6 +64,9 @@ jobs:
     - name: Git Commit Build
       run: |
         git commit -m "Doxygen"
+    
+    - name: Doxygen
+      run: doxygen
 
     - name: Push Changes
       run: |
