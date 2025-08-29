@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['takegt_0',['TakeGt',['../db/df1/Cmp_8hpp.html#a58a33f4c3030a9e5fa1bcbda735c46ae',1,'ae2f::Cmp']]],
-  ['takels_1',['TakeLs',['../db/df1/Cmp_8hpp.html#a02fd260fb96169e2cb4ea1ac2cd98a16',1,'ae2f::Cmp']]]
+  ['errglobstate_0',['errGlobState',['../d4/db7/structae2f_1_1errGlobState.html#ae04d69fcd2360dc91e58d9498790553b',1,'ae2f::errGlobState']]],
+  ['errglobstatewiththrow_1',['errGlobStateWithThrow',['../d4/db7/structae2f_1_1errGlobState.html#a3b7b3f793dee53731ef00937420ed26d',1,'ae2f::errGlobState']]]
 ];

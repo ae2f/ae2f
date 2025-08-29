@@ -25,6 +25,7 @@
 var NAVTREE =
 [
   [ "ae2f_docs", "index.html", [
+    [ "Deprecated List", "da/d58/deprecated.html", null ],
     [ "Todo List", "dd/da0/todo.html", null ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
@@ -42,16 +43,21 @@ var NAVTREE =
       [ "Class Members", "functions.html", [
         [ "All", "functions.html", null ],
         [ "Functions", "functions_func.html", null ],
-        [ "Variables", "functions_vars.html", null ]
+        [ "Variables", "functions_vars.html", null ],
+        [ "Typedefs", "functions_type.html", null ],
+        [ "Related Symbols", "functions_rela.html", null ]
       ] ]
     ] ],
     [ "Files", "files.html", [
       [ "File List", "files.html", "files_dup" ],
       [ "File Members", "globals.html", [
-        [ "All", "globals.html", null ],
-        [ "Variables", "globals_vars.html", null ],
+        [ "All", "globals.html", "globals_dup" ],
+        [ "Functions", "globals_func.html", "globals_func" ],
+        [ "Variables", "globals_vars.html", "globals_vars" ],
         [ "Typedefs", "globals_type.html", null ],
-        [ "Macros", "globals_defs.html", null ]
+        [ "Enumerations", "globals_enum.html", null ],
+        [ "Enumerator", "globals_eval.html", null ],
+        [ "Macros", "globals_defs.html", "globals_defs" ]
       ] ]
     ] ]
   ] ]
@@ -60,6 +66,13 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
+"d2/d74/MMap_8def_8c.html#a1d86b6e64156e6709f05a6fdbc7d1a69",
+"d3/d8f/Slp_8inc_8cc.html#acfcafe660c13fe560708910bc475a499",
+"d6/db0/inc_2ae2f_2Ann_2Mlp_8h.html#a92d4ea70815a286c26fead2765de3d34",
+"da/d36/errGlob_8h.html#a85d8f457b682f8f47233d6bd93506f0f",
+"dd/d92/Conv_8h.html#a2bb73e879c5200ec74c8857f45f76ebfa83d877c8b46919584557df4026b54ba4",
+"de/d94/Slp_8auto_8def_8cc.html#a219209a39c8af21e278539b6bc5a7e2b",
+"df/dd1/MMap_8imp_8c.html#ac7bf1206cb141fd28e2d0c4287e840f4",
 ""
 ];
 

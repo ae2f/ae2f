@@ -534,7 +534,7 @@ TIMESTAMP              = NO
 # normally produced when WARNINGS is set to YES.
 # The default value is: NO.
 
-EXTRACT_ALL            = NO
+EXTRACT_ALL            = YES
 
 # If the EXTRACT_PRIVATE tag is set to YES, all private members of a class will
 # be included in the documentation.
@@ -1244,26 +1244,26 @@ SOURCE_BROWSER         = YES
 # documentation.
 # The default value is: NO.
 
-INLINE_SOURCES         = YES
+INLINE_SOURCES         = NO
 
 # Setting the STRIP_CODE_COMMENTS tag to YES will instruct Doxygen to hide any
 # special comment blocks from generated source code fragments. Normal C, C++ and
 # Fortran comments will always remain visible.
 # The default value is: YES.
 
-STRIP_CODE_COMMENTS    = NO
+STRIP_CODE_COMMENTS    = YES
 
 # If the REFERENCED_BY_RELATION tag is set to YES then for each documented
 # entity all documented functions referencing it will be listed.
 # The default value is: NO.
 
-REFERENCED_BY_RELATION = YES
+REFERENCED_BY_RELATION = NO
 
 # If the REFERENCES_RELATION tag is set to YES then for each documented function
 # all documented entities called/used by that function will be listed.
 # The default value is: NO.
 
-REFERENCES_RELATION    = YES
+REFERENCES_RELATION    = NO
 
 # If the REFERENCES_LINK_SOURCE tag is set to YES and SOURCE_BROWSER tag is set
 # to YES then the hyperlinks from functions in REFERENCES_RELATION and
@@ -1303,7 +1303,7 @@ SOURCE_TOOLTIPS        = YES
 # The default value is: NO.
 # This tag requires that the tag SOURCE_BROWSER is set to YES.
 
-USE_HTAGS              = YES
+USE_HTAGS              = NO
 
 # If the VERBATIM_HEADERS tag is set the YES then Doxygen will generate a
 # verbatim copy of the header file for each class for which an include is
@@ -1527,7 +1527,7 @@ HTML_DYNAMIC_MENUS     = YES
 # The default value is: NO.
 # This tag requires that the tag GENERATE_HTML is set to YES.
 
-HTML_DYNAMIC_SECTIONS  = NO
+HTML_DYNAMIC_SECTIONS  = YES
 
 # If the HTML_CODE_FOLDING tag is set to YES then classes and functions can be
 # dynamically folded and expanded in the generated HTML source code.
@@ -1554,7 +1554,7 @@ HTML_COPY_CLIPBOARD    = YES
 # be stored separately.
 # This tag requires that the tag GENERATE_HTML is set to YES.
 
-HTML_PROJECT_COOKIE    =
+HTML_PROJECT_COOKIE    = 
 
 # With HTML_INDEX_NUM_ENTRIES one can control the preferred number of entries
 # shown in the various tree structured indices initially; the user can expand
@@ -1582,7 +1582,7 @@ HTML_INDEX_NUM_ENTRIES = 100
 # The default value is: NO.
 # This tag requires that the tag GENERATE_HTML is set to YES.
 
-GENERATE_DOCSET        = NO
+GENERATE_DOCSET        = YES
 
 # This tag determines the name of the docset feed. A documentation feed provides
 # an umbrella under which multiple documentation sets from a single provider
@@ -1605,7 +1605,7 @@ DOCSET_FEEDURL         =
 # The default value is: org.doxygen.Project.
 # This tag requires that the tag GENERATE_DOCSET is set to YES.
 
-DOCSET_BUNDLE_ID       = org.doxygen.Project
+DOCSET_BUNDLE_ID       = ae2f
 
 # The DOCSET_PUBLISHER_ID tag specifies a string that should uniquely identify
 # the documentation publisher. This should be a reverse domain-name style
@@ -1613,13 +1613,13 @@ DOCSET_BUNDLE_ID       = org.doxygen.Project
 # The default value is: org.doxygen.Publisher.
 # This tag requires that the tag GENERATE_DOCSET is set to YES.
 
-DOCSET_PUBLISHER_ID    = org.doxygen.Publisher
+DOCSET_PUBLISHER_ID    = individual.Dalmurii.Publisher
 
 # The DOCSET_PUBLISHER_NAME tag identifies the documentation publisher.
 # The default value is: Publisher.
 # This tag requires that the tag GENERATE_DOCSET is set to YES.
 
-DOCSET_PUBLISHER_NAME  = Publisher
+DOCSET_PUBLISHER_NAME  = Dalmurii
 
 # If the GENERATE_HTMLHELP tag is set to YES then Doxygen generates three
 # additional HTML index files: index.hhp, index.hhc, and index.hhk. The
@@ -1641,7 +1641,7 @@ DOCSET_PUBLISHER_NAME  = Publisher
 # The default value is: NO.
 # This tag requires that the tag GENERATE_HTML is set to YES.
 
-GENERATE_HTMLHELP      = NO
+GENERATE_HTMLHELP      = YES
 
 # The CHM_FILE tag can be used to specify the file name of the resulting .chm
 # file. You can add a path in front of the file if the result should not be
@@ -1663,7 +1663,7 @@ HHC_LOCATION           =
 # The default value is: NO.
 # This tag requires that the tag GENERATE_HTMLHELP is set to YES.
 
-GENERATE_CHI           = NO
+GENERATE_CHI           = YES
 
 # The CHM_INDEX_ENCODING is used to encode HtmlHelp index (hhk), content (hhc)
 # and project file content.
@@ -1677,14 +1677,14 @@ CHM_INDEX_ENCODING     =
 # The default value is: NO.
 # This tag requires that the tag GENERATE_HTMLHELP is set to YES.
 
-BINARY_TOC             = NO
+BINARY_TOC             = YES
 
 # The TOC_EXPAND flag can be set to YES to add extra items for group members to
 # the table of contents of the HTML help documentation and to the tree view.
 # The default value is: NO.
 # This tag requires that the tag GENERATE_HTMLHELP is set to YES.
 
-TOC_EXPAND             = NO
+TOC_EXPAND             = YES
 
 # The SITEMAP_URL tag is used to specify the full URL of the place where the
 # generated documentation will be placed on the server by the user during the
@@ -1703,7 +1703,7 @@ SITEMAP_URL            =
 # The default value is: NO.
 # This tag requires that the tag GENERATE_HTML is set to YES.
 
-GENERATE_QHP           = NO
+GENERATE_QHP           = YES
 
 # If the QHG_LOCATION tag is specified, the QCH_FILE tag can be used to specify
 # the file name of the resulting .qch file. The path specified is relative to
@@ -1719,7 +1719,7 @@ QCH_FILE               =
 # The default value is: org.doxygen.Project.
 # This tag requires that the tag GENERATE_QHP is set to YES.
 
-QHP_NAMESPACE          = org.doxygen.Project
+QHP_NAMESPACE          = individual.dalmurii.ae2f
 
 # The QHP_VIRTUAL_FOLDER tag specifies the namespace to use when generating Qt
 # Help Project output. For more information please see Qt Help Project / Virtual
