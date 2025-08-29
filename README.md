@@ -1,4 +1,2 @@
-# ae2f
-> Document
-
-https://ae2f.github.io/ae2f/
+# ae2f_docs
+> This repository is for setting an autometical documentation

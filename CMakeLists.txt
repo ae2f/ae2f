@@ -1,67 +1,44 @@
-cmake_minimum_required(VERSION 3.20)
-enable_testing()
-include(cmake/Core.cmake)
+cmake_minimum_required(VERSION 3.10)
+project(ae2f_docs)
 
-project(ae2f VERSION 1.3.5 LANGUAGES C CXX)
-option(ae2f_ae2fDOCGEN "" ON)
-option(ae2f_ae2fFechemAll "" OFF)
+set(ae2f_ProjRoot ${CMAKE_CURRENT_SOURCE_DIR} CACHE STRING "Current Source Root")
 
-if(NOT TARGET ${PROJECT_NAME} AND ae2f_ae2fDOCGEN)
-    if(${ae2f_ae2fFechemAll})
-        file(REMOVE_RECURSE ${CMAKE_CURRENT_SOURCE_DIR}/submod)
-    endif()
+function(GITCLONE AUTH NAME)
+	if (NOT EXISTS submod/${AUTH}/${NAME})
+		execute_process(
+			COMMAND git clone https://codeberg.org/${AUTH}/${NAME} submod/${AUTH}/${NAME}
+			)
+	endif()
 
-    ae2f_CoreLibFetch(ae2f Core main)
-    ae2f_CoreLibFetch(ae2f Macro main)
-    ae2f_CoreLibFetch(ae2f Math main)
+	if (NOT EXISTS ${CMAKE_BINARY_DIR}/${AUTH}/${NAME})
+		add_subdirectory(submod/${AUTH}/${NAME} submod/${AUTH}/${NAME})
+	endif()
+endfunction()
 
-    file(REMOVE_RECURSE ${PROJECT_SOURCE_DIR}/CMakeDocs/include)
-    file(REMOVE_RECURSE ${PROJECT_SOURCE_DIR}/SharedHeaders/include)
-    file(REMOVE_RECURSE ${PROJECT_SOURCE_DIR}/Source/include)
-    file(REMOVE_RECURSE ${PROJECT_SOURCE_DIR}/include)
-    file(REMOVE_RECURSE ${PROJECT_SOURCE_DIR}/docs/code)
-    file(REMOVE_RECURSE ${PROJECT_SOURCE_DIR}/clinclude)
+GITCLONE(ae2f Ann)
 
-    file(GLOB_RECURSE __PROJECTS "${PROJECT_SOURCE_DIR}/submod/ae2f/*/CMakeLists.txt")
-    foreach(__PROJECT ${__PROJECTS})
-        file(RELATIVE_PATH REL ${PROJECT_SOURCE_DIR} ${__PROJECT})
-        get_filename_component(PARENT_DIR ${__PROJECT} DIRECTORY)
+# Find Doxygen
+find_package(Doxygen REQUIRED)
+if(DOXYGEN_FOUND)
+	# Set input directories (all subprojects' src and include)
+	set(DOXYGEN_INPUT_DIR
+		"${PROJECT_SOURCE_DIR}/submod/ae2f/ ${PROJECT_SOURCE_DIR}/README.md"
+		)
 
-        file(GLOB_RECURSE __HEADERS ${PARENT_DIR}/include/*.h*)
-        foreach(__HEADER ${__HEADERS})
-            file(RELATIVE_PATH REL ${PARENT_DIR}/include ${__HEADER})
-            get_filename_component(PARENT_HEADER ${REL} DIRECTORY)
+	set(DOXYGEN_OUTPUT_DIR ${CMAKE_SOURCE_DIR})
+	set(DOXYGEN_CONFIG_FILE ${CMAKE_SOURCE_DIR}/Doxyfile)
 
-            file(
-                COPY ${__HEADER}
-                DESTINATION ${PROJECT_SOURCE_DIR}/include/SharedHeaders/${PARENT_HEADER}
-            )
-        endforeach()
+	# Configure the Doxyfile
+	configure_file(${CMAKE_SOURCE_DIR}/Doxyfile.in ${DOXYGEN_CONFIG_FILE} @ONLY)
 
-        file(GLOB_RECURSE __HEADERS ${PARENT_DIR}/cmake/*.hpp)
-        foreach(__HEADER ${__HEADERS})
-            file(RELATIVE_PATH REL ${PARENT_DIR} ${__HEADER})
-
-            file(
-                COPY ${__HEADER}
-                DESTINATION ${PROJECT_SOURCE_DIR}/include/CMakeDocs
-            )
-        endforeach()
-
-        file(GLOB_RECURSE __HEADERS ${PARENT_DIR}/src/*.h*)
-        foreach(__HEADER ${__HEADERS})
-            file(RELATIVE_PATH REL ${PARENT_DIR}/src ${__HEADER})
-            get_filename_component(PARENT_HEADER ${REL} DIRECTORY)
-
-            file(
-                COPY ${__HEADER}
-                DESTINATION ${PROJECT_SOURCE_DIR}/include/Source/${PARENT_HEADER}
-            )
-        endforeach()
-    endforeach()
-
-    execute_process(
-        COMMAND doxygen 
-        WORKING_DIRECTORY ${PROJECT_SOURCE_DIR}
-    )
+	# Add custom target for Doxygen
+	add_custom_target(
+		docs
+		COMMAND ${DOXYGEN_EXECUTABLE} ${DOXYGEN_CONFIG_FILE}
+		WORKING_DIRECTORY ${PROJECT_SOURCE_DIR}
+		COMMENT "Generating Doxygen documentation for all subprojects"
+		VERBATIM
+		)
+else()
+	message(WARNING "Doxygen not found, documentation target will not be available")
 endif()
