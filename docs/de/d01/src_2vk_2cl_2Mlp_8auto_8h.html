@@ -190,7 +190,7 @@ Typedefs</h2></td></tr>
 <div class="ttc" id="asrc_2vk_2cl_2Mlp_8h_html_afe01ccbe6c8a6541802c7883495df510"><div class="ttname"><a href="../../d9/df0/src_2vk_2cl_2Mlp_8h.html#afe01ccbe6c8a6541802c7883495df510">i_iidx</a></div><div class="ttdeci">ae2f_float_t *const const size_t const size_t i_iidx</div><div class="ttdef"><b>Definition</b> <a href="../../d9/df0/src_2vk_2cl_2Mlp_8h_source.html#l00032">Mlp.h:32</a></div></div>
 </div><!-- fragment --><p>tparam param </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/d01/src_2vk_2cl_2Mlp_8auto_8h_source.html#l00101">101</a> of file <a class="el" href="../../de/d01/src_2vk_2cl_2Mlp_8auto_8h_source.html">Mlp.auto.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/d01/src_2vk_2cl_2Mlp_8auto_8h_source.html#l00099">99</a> of file <a class="el" href="../../de/d01/src_2vk_2cl_2Mlp_8auto_8h_source.html">Mlp.auto.h</a>.</p>
 
 </div>
 </div>
@@ -248,12 +248,9 @@ Typedefs</h2></td></tr>
 <div class="line"> \</div>
 <div class="line">        (<a class="code hl_define" href="../../df/dbe/Mlp_8cl_8c.html#a4ac8e5af6fdf111a2f14e759e2b9b6a1">r_delta_then</a>)[(<a class="code hl_variable" href="../../d9/df0/src_2vk_2cl_2Mlp_8h.html#afe01ccbe6c8a6541802c7883495df510">i_iidx</a>)] = (<a class="code hl_variable" href="../../df/da7/Spvc_8def_8c.html#a4e48dde85c0fdb96be43b81efb9b2323">v_ret</a>); \</div>
 <div class="line">    } \</div>
-<div class="line"> \</div>
-<div class="line">    barrier(<a class="code hl_define" href="../../d4/d08/clspv__clkeys_8h.html#a44ef62fc6e9f433bff5ffcb50a447404">CLK_ALL_MEM_FENCE</a>); \</div>
 <div class="line">}</div>
 <div class="ttc" id="aFloat_8h_html_a1139e92e9886739d9c544769ff4d6d3c"><div class="ttname"><a href="../../d4/d93/Float_8h.html#a1139e92e9886739d9c544769ff4d6d3c">ae2f_float_t</a></div><div class="ttdeci">ae2f_float ae2f_float_t</div><div class="ttdef"><b>Definition</b> <a href="../../d4/d93/Float_8h_source.html#l00038">Float.h:38</a></div></div>
 <div class="ttc" id="aSpvc_8def_8c_html_a4e48dde85c0fdb96be43b81efb9b2323"><div class="ttname"><a href="../../df/da7/Spvc_8def_8c.html#a4e48dde85c0fdb96be43b81efb9b2323">v_ret</a></div><div class="ttdeci">ae2fVK_Spvc v_ret</div><div class="ttdef"><b>Definition</b> <a href="../../df/da7/Spvc_8def_8c_source.html#l00059">Spvc.def.c:60</a></div></div>
-<div class="ttc" id="aclspv__clkeys_8h_html_a44ef62fc6e9f433bff5ffcb50a447404"><div class="ttname"><a href="../../d4/d08/clspv__clkeys_8h.html#a44ef62fc6e9f433bff5ffcb50a447404">CLK_ALL_MEM_FENCE</a></div><div class="ttdeci">#define CLK_ALL_MEM_FENCE</div><div class="ttdoc">Contains both LOCAL and GLOBAL.</div><div class="ttdef"><b>Definition</b> <a href="../../d4/d08/clspv__clkeys_8h_source.html#l00069">clspv_clkeys.h:69</a></div></div>
 </div><!-- fragment --><p>tparam param </p>
 
 <p class="definition">Definition at line <a class="el" href="../../de/d01/src_2vk_2cl_2Mlp_8auto_8h_source.html#l00073">73</a> of file <a class="el" href="../../de/d01/src_2vk_2cl_2Mlp_8auto_8h_source.html">Mlp.auto.h</a>.</p>
@@ -398,11 +395,11 @@ Typedefs</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#afff93952363e979a81c161758d313898">_clMlpGetHD</a>(<a class="code hl_define" href="../../df/dcd/mac_8h.html#a21065ed9d54b0313d422845a4c4e60c7">CL_Q_CVRT</a>(<a class="code hl_define" href="#a36bb6b9d5997be7eebffa0e3782b4ea3">_clMlpGetHD1</a>), __VA_ARGS__)</div>
 <div class="ttc" id="amac_8h_html_a21065ed9d54b0313d422845a4c4e60c7"><div class="ttname"><a href="../../df/dcd/mac_8h.html#a21065ed9d54b0313d422845a4c4e60c7">CL_Q_CVRT</a></div><div class="ttdeci">#define CL_Q_CVRT(x)</div><div class="ttdef"><b>Definition</b> <a href="../../df/dcd/mac_8h_source.html#l00012">mac.h:12</a></div></div>
 <div class="ttc" id="asrc_2vk_2cl_2Mlp_8auto_8h_html_a36bb6b9d5997be7eebffa0e3782b4ea3"><div class="ttname"><a href="#a36bb6b9d5997be7eebffa0e3782b4ea3">_clMlpGetHD1</a></div><div class="ttdeci">#define _clMlpGetHD1(r_delta_then, i_weight, i_delta, i_iidx, i_isz, i_oidx, i_osz)</div><div class="ttdef"><b>Definition</b> <a href="../../de/d01/src_2vk_2cl_2Mlp_8auto_8h_source.html#l00073">Mlp.auto.h:73</a></div></div>
-<div class="ttc" id="asrc_2vk_2cl_2Mlp_8auto_8h_html_afff93952363e979a81c161758d313898"><div class="ttname"><a href="#afff93952363e979a81c161758d313898">_clMlpGetHD</a></div><div class="ttdeci">#define _clMlpGetHD(ONE, r_delta_then, i_weight, i_delta, i_iidx, i_isz, i_oidx, i_osz)</div><div class="ttdef"><b>Definition</b> <a href="../../de/d01/src_2vk_2cl_2Mlp_8auto_8h_source.html#l00101">Mlp.auto.h:101</a></div></div>
+<div class="ttc" id="asrc_2vk_2cl_2Mlp_8auto_8h_html_afff93952363e979a81c161758d313898"><div class="ttname"><a href="#afff93952363e979a81c161758d313898">_clMlpGetHD</a></div><div class="ttdeci">#define _clMlpGetHD(ONE, r_delta_then, i_weight, i_delta, i_iidx, i_isz, i_oidx, i_osz)</div><div class="ttdef"><b>Definition</b> <a href="../../de/d01/src_2vk_2cl_2Mlp_8auto_8h_source.html#l00099">Mlp.auto.h:99</a></div></div>
 </div><!-- fragment -->
 <p>GetHidDelta Need no structure. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/d01/src_2vk_2cl_2Mlp_8auto_8h_source.html#l00122">122</a> of file <a class="el" href="../../de/d01/src_2vk_2cl_2Mlp_8auto_8h_source.html">Mlp.auto.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/d01/src_2vk_2cl_2Mlp_8auto_8h_source.html#l00120">120</a> of file <a class="el" href="../../de/d01/src_2vk_2cl_2Mlp_8auto_8h_source.html">Mlp.auto.h</a>.</p>
 
 </div>
 </div>

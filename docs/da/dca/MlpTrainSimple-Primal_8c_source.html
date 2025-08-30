@@ -143,7 +143,7 @@ $(function() { codefold.init(); });
 <div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>                );</div>
 <div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span> </div>
 <div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>        assert(s_ptr0);</div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>        s_ptr0[0] = 0.2;</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>        s_ptr0[0] = 0.281236;</div>
 <div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>        printf(<span class="stringliteral">&quot;Goal has set: %f\n&quot;</span>, s_ptr0[0]);</div>
 <div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span> </div>
 <div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>        <a class="code hl_define" href="../../d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h.html#a696a70c387ac86bffb6bce19befa7c74">__ae2fVK_AnnMlpUnMapGoal_imp</a>(</div>
@@ -229,7 +229,7 @@ $(function() { codefold.init(); });
 <div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span>    }</div>
 <div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span> </div>
 <div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span>    {</div>
-<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span>        ae2fVK_AnnSlpCmd_t  cmd;</div>
+<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span>        ae2fVK_AnnSlpCmd_t  cmd, cmd2;</div>
 <div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span> </div>
 <div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span>        assert((s_mk).m_U0.m_mkswap.m_mkbase-&gt;m_vkdescpool[0]);</div>
 <div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span>        assert(vkdev);</div>
@@ -244,100 +244,115 @@ $(function() { codefold.init(); });
 <div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span>                , (s_mk).m_ret.m_err</div>
 <div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span>                );</div>
 <div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span> </div>
-<div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span>        VkSubmitInfo submit_info = {</div>
-<div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span>            .sType = VK_STRUCTURE_TYPE_SUBMIT_INFO,</div>
-<div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span>            .commandBufferCount = 1,</div>
-<div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span>            .pCommandBuffers = &amp;vkcmdbuf,</div>
-<div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span>        };</div>
-<div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span>        size_t i;</div>
-<div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span> </div>
-<div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span>        <span class="keywordflow">if</span> (vkQueueSubmit(</div>
-<div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span>                    vkqueue</div>
-<div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span>                    , 1</div>
-<div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span>                    , &amp;submit_info</div>
-<div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span>                    , VK_NULL_HANDLE</div>
-<div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span>                 ) != VK_SUCCESS)</div>
-<div class="line"><a id="l00200" name="l00200"></a><span class="lineno">  200</span>        {</div>
-<div class="line"><a id="l00201" name="l00201"></a><span class="lineno">  201</span>            assert(!<span class="stringliteral">&quot;vkQueueSubmit failed&quot;</span>);</div>
-<div class="line"><a id="l00202" name="l00202"></a><span class="lineno">  202</span>            <span class="keywordflow">return</span> -1;</div>
-<div class="line"><a id="l00203" name="l00203"></a><span class="lineno">  203</span>        }</div>
-<div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span> </div>
-<div class="line"><a id="l00205" name="l00205"></a><span class="lineno">  205</span>        <span class="keywordflow">if</span> (vkQueueWaitIdle(vkqueue) != VK_SUCCESS) {</div>
-<div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span>            assert(!<span class="stringliteral">&quot;vkQueueWaitIdle failed&quot;</span>);</div>
-<div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span>            <span class="keywordflow">return</span> -1;</div>
-<div class="line"><a id="l00208" name="l00208"></a><span class="lineno">  208</span>        }</div>
-<div class="line"><a id="l00209" name="l00209"></a><span class="lineno">  209</span> </div>
-<div class="line"><a id="l00210" name="l00210"></a><span class="lineno">  210</span>        {</div>
-<div class="line"><a id="l00211" name="l00211"></a><span class="lineno">  211</span>            <a class="code hl_define" href="../../d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h.html#a91909ba4fa2ba9d498e192de902e2474">__ae2fVK_AnnMlpMapOutStream_imp</a>(</div>
-<div class="line"><a id="l00212" name="l00212"></a><span class="lineno">  212</span>                    s_mapranged</div>
-<div class="line"><a id="l00213" name="l00213"></a><span class="lineno">  213</span>                    , *(s_mk).m_U0.m_mkswap.m_mkbase</div>
-<div class="line"><a id="l00214" name="l00214"></a><span class="lineno">  214</span>                    , s_mk.m_ret.m_err</div>
-<div class="line"><a id="l00215" name="l00215"></a><span class="lineno">  215</span>                    , s_ptr0</div>
-<div class="line"><a id="l00216" name="l00216"></a><span class="lineno">  216</span>                    );</div>
-<div class="line"><a id="l00217" name="l00217"></a><span class="lineno">  217</span> </div>
-<div class="line"><a id="l00218" name="l00218"></a><span class="lineno">  218</span>            <span class="keyword">const</span> size_t</div>
-<div class="line"><a id="l00219" name="l00219"></a><span class="lineno">  219</span>                a_depth = (s_mk).m_U0.m_mkswap.m_mkbase-&gt;m_mlp.m_depth</div>
-<div class="line"><a id="l00220" name="l00220"></a><span class="lineno">  220</span>                , a_outc = (s_mk).m_U0.m_mkswap.m_mkbase-&gt;m_mlp.m_outc;</div>
-<div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span> </div>
-<div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span>            printf(<span class="stringliteral">&quot;OUT: %f\n&quot;</span>, s_ptr0[(a_depth - 1) * (a_outc)]);</div>
-<div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span>            printf(<span class="stringliteral">&quot;IN: %f %f\n&quot;</span>, s_ptr0[0], s_ptr0[1]);</div>
-<div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span> </div>
-<div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span> </div>
-<div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span>            <a class="code hl_define" href="../../d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h.html#a127d4b3298567b7ceac4849248c3898c">__ae2fVK_AnnMlpUnMapOutStream_imp</a>(s_mapranged, *(s_mk).m_U0.m_mkswap.m_mkbase);</div>
-<div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span>        }</div>
-<div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span> </div>
-<div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span> </div>
-<div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span>        <span class="keywordflow">for</span>(i = 0; i &lt; 10000; i++)  {</div>
-<div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span>            <span class="keywordflow">if</span> (vkQueueSubmit(</div>
-<div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span>                        vkqueue</div>
-<div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span>                        , 1</div>
-<div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span>                        , &amp;submit_info</div>
-<div class="line"><a id="l00235" name="l00235"></a><span class="lineno">  235</span>                        , VK_NULL_HANDLE</div>
-<div class="line"><a id="l00236" name="l00236"></a><span class="lineno">  236</span>                     ) != VK_SUCCESS)</div>
-<div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span>            {</div>
-<div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span>                assert(!<span class="stringliteral">&quot;vkQueueSubmit failed&quot;</span>);</div>
-<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span>                <span class="keywordflow">return</span> -1;</div>
-<div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span>            }</div>
+<div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span>        <a class="code hl_define" href="../../d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h.html#a62cf233a35221a5ed3a3d9cc4863b103">__ae2fVK_AnnMlpTrainPerformed_imp</a>(</div>
+<div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span>                s_getcmd</div>
+<div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span>                , cmd2</div>
+<div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span>                , vkcmdbuf</div>
+<div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span>                , NULL</div>
+<div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span>                , VK_COMMAND_BUFFER_USAGE_ONE_TIME_SUBMIT_BIT</div>
+<div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span>                , (*(s_mk).m_U0.m_mkswap.m_mkbase)</div>
+<div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span>                , (s_mk).m_ret.m_err</div>
+<div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span>                );</div>
+<div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span> </div>
+<div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span>        <a class="code hl_define" href="../../d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h.html#a139c5b3166a2ee76960a93d135f55eb1">__ae2fVK_AnnMlpPerformedFree_imp</a>(</div>
+<div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span>                (*(s_mk).m_U0.m_mkswap.m_mkbase)</div>
+<div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span>                , cmd2</div>
+<div class="line"><a id="l00200" name="l00200"></a><span class="lineno">  200</span>                );</div>
+<div class="line"><a id="l00201" name="l00201"></a><span class="lineno">  201</span>        VkSubmitInfo submit_info = {</div>
+<div class="line"><a id="l00202" name="l00202"></a><span class="lineno">  202</span>            .sType = VK_STRUCTURE_TYPE_SUBMIT_INFO,</div>
+<div class="line"><a id="l00203" name="l00203"></a><span class="lineno">  203</span>            .commandBufferCount = 1,</div>
+<div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span>            .pCommandBuffers = &amp;vkcmdbuf,</div>
+<div class="line"><a id="l00205" name="l00205"></a><span class="lineno">  205</span>        };</div>
+<div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span>        size_t i;</div>
+<div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span> </div>
+<div class="line"><a id="l00208" name="l00208"></a><span class="lineno">  208</span>        <span class="keywordflow">if</span> (vkQueueSubmit(</div>
+<div class="line"><a id="l00209" name="l00209"></a><span class="lineno">  209</span>                    vkqueue</div>
+<div class="line"><a id="l00210" name="l00210"></a><span class="lineno">  210</span>                    , 1</div>
+<div class="line"><a id="l00211" name="l00211"></a><span class="lineno">  211</span>                    , &amp;submit_info</div>
+<div class="line"><a id="l00212" name="l00212"></a><span class="lineno">  212</span>                    , VK_NULL_HANDLE</div>
+<div class="line"><a id="l00213" name="l00213"></a><span class="lineno">  213</span>                 ) != VK_SUCCESS)</div>
+<div class="line"><a id="l00214" name="l00214"></a><span class="lineno">  214</span>        {</div>
+<div class="line"><a id="l00215" name="l00215"></a><span class="lineno">  215</span>            assert(!<span class="stringliteral">&quot;vkQueueSubmit failed&quot;</span>);</div>
+<div class="line"><a id="l00216" name="l00216"></a><span class="lineno">  216</span>            <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a id="l00217" name="l00217"></a><span class="lineno">  217</span>        }</div>
+<div class="line"><a id="l00218" name="l00218"></a><span class="lineno">  218</span> </div>
+<div class="line"><a id="l00219" name="l00219"></a><span class="lineno">  219</span>        <span class="keywordflow">if</span> (vkQueueWaitIdle(vkqueue) != VK_SUCCESS) {</div>
+<div class="line"><a id="l00220" name="l00220"></a><span class="lineno">  220</span>            assert(!<span class="stringliteral">&quot;vkQueueWaitIdle failed&quot;</span>);</div>
+<div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span>            <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span>        }</div>
+<div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span> </div>
+<div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span>        {</div>
+<div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span>            <a class="code hl_define" href="../../d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h.html#a91909ba4fa2ba9d498e192de902e2474">__ae2fVK_AnnMlpMapOutStream_imp</a>(</div>
+<div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span>                    s_mapranged</div>
+<div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span>                    , *(s_mk).m_U0.m_mkswap.m_mkbase</div>
+<div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span>                    , s_mk.m_ret.m_err</div>
+<div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span>                    , s_ptr0</div>
+<div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span>                    );</div>
+<div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span> </div>
+<div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span>            <span class="keyword">const</span> size_t</div>
+<div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span>                a_depth = (s_mk).m_U0.m_mkswap.m_mkbase-&gt;m_mlp.m_depth</div>
+<div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span>                , a_outc = (s_mk).m_U0.m_mkswap.m_mkbase-&gt;m_mlp.m_outc;</div>
+<div class="line"><a id="l00235" name="l00235"></a><span class="lineno">  235</span> </div>
+<div class="line"><a id="l00236" name="l00236"></a><span class="lineno">  236</span>            printf(<span class="stringliteral">&quot;OUT: %f\n&quot;</span>, s_ptr0[(a_depth - 1) * (a_outc)]);</div>
+<div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span>            printf(<span class="stringliteral">&quot;IN: %f %f\n&quot;</span>, s_ptr0[0], s_ptr0[1]);</div>
+<div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span> </div>
+<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span> </div>
+<div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span>            <a class="code hl_define" href="../../d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h.html#a127d4b3298567b7ceac4849248c3898c">__ae2fVK_AnnMlpUnMapOutStream_imp</a>(s_mapranged, *(s_mk).m_U0.m_mkswap.m_mkbase);</div>
 <div class="line"><a id="l00241" name="l00241"></a><span class="lineno">  241</span> </div>
-<div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span>            <span class="keywordflow">if</span> (vkQueueWaitIdle(vkqueue) != VK_SUCCESS) {</div>
-<div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span>                assert(!<span class="stringliteral">&quot;vkQueueWaitIdle failed&quot;</span>);</div>
-<div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span>                <span class="keywordflow">return</span> -1;</div>
-<div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span>            }</div>
-<div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span>        }</div>
-<div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span> </div>
-<div class="line"><a id="l00248" name="l00248"></a><span class="lineno">  248</span>        <a class="code hl_define" href="../../d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h.html#a139c5b3166a2ee76960a93d135f55eb1">__ae2fVK_AnnMlpPerformedFree_imp</a>(</div>
-<div class="line"><a id="l00249" name="l00249"></a><span class="lineno">  249</span>                (*(s_mk).m_U0.m_mkswap.m_mkbase)</div>
-<div class="line"><a id="l00250" name="l00250"></a><span class="lineno">  250</span>                , cmd</div>
-<div class="line"><a id="l00251" name="l00251"></a><span class="lineno">  251</span>                );</div>
-<div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span>    }</div>
-<div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span> </div>
-<div class="line"><a id="l00254" name="l00254"></a><span class="lineno">  254</span>    {</div>
-<div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span>        <a class="code hl_define" href="../../d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h.html#a91909ba4fa2ba9d498e192de902e2474">__ae2fVK_AnnMlpMapOutStream_imp</a>(</div>
-<div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span>                s_mapranged</div>
-<div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span>                , *(s_mk).m_U0.m_mkswap.m_mkbase</div>
-<div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span>                , s_mk.m_ret.m_err</div>
-<div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span>                , s_ptr0</div>
-<div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span>                );</div>
-<div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span> </div>
-<div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span>        <span class="keyword">const</span> size_t</div>
-<div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span>            a_depth = (s_mk).m_U0.m_mkswap.m_mkbase-&gt;m_mlp.m_depth</div>
-<div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span>            , a_outc = (s_mk).m_U0.m_mkswap.m_mkbase-&gt;m_mlp.m_outc;</div>
-<div class="line"><a id="l00265" name="l00265"></a><span class="lineno">  265</span> </div>
-<div class="line"><a id="l00266" name="l00266"></a><span class="lineno">  266</span>        printf(<span class="stringliteral">&quot;OUT: %f\n&quot;</span>, s_ptr0[(a_depth - 1) * (a_outc)]);</div>
-<div class="line"><a id="l00267" name="l00267"></a><span class="lineno">  267</span>        printf(<span class="stringliteral">&quot;IN: %f %f\n&quot;</span>, s_ptr0[0], s_ptr0[1]);</div>
+<div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span>        }</div>
+<div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span> </div>
+<div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span> </div>
+<div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span>        <span class="keywordflow">for</span>(i = 0; i &lt; 10000; i++)  {</div>
+<div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span>            <span class="keywordflow">if</span> (vkQueueSubmit(</div>
+<div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span>                        vkqueue</div>
+<div class="line"><a id="l00248" name="l00248"></a><span class="lineno">  248</span>                        , 1</div>
+<div class="line"><a id="l00249" name="l00249"></a><span class="lineno">  249</span>                        , &amp;submit_info</div>
+<div class="line"><a id="l00250" name="l00250"></a><span class="lineno">  250</span>                        , VK_NULL_HANDLE</div>
+<div class="line"><a id="l00251" name="l00251"></a><span class="lineno">  251</span>                     ) != VK_SUCCESS)</div>
+<div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span>            {</div>
+<div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span>                assert(!<span class="stringliteral">&quot;vkQueueSubmit failed&quot;</span>);</div>
+<div class="line"><a id="l00254" name="l00254"></a><span class="lineno">  254</span>                <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span>            }</div>
+<div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span> </div>
+<div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span>            <span class="keywordflow">if</span> (vkQueueWaitIdle(vkqueue) != VK_SUCCESS) {</div>
+<div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span>                assert(!<span class="stringliteral">&quot;vkQueueWaitIdle failed&quot;</span>);</div>
+<div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span>                <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span>            }</div>
+<div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span>        }</div>
+<div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span> </div>
+<div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span>        <a class="code hl_define" href="../../d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h.html#a139c5b3166a2ee76960a93d135f55eb1">__ae2fVK_AnnMlpPerformedFree_imp</a>(</div>
+<div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span>                (*(s_mk).m_U0.m_mkswap.m_mkbase)</div>
+<div class="line"><a id="l00265" name="l00265"></a><span class="lineno">  265</span>                , cmd</div>
+<div class="line"><a id="l00266" name="l00266"></a><span class="lineno">  266</span>                );</div>
+<div class="line"><a id="l00267" name="l00267"></a><span class="lineno">  267</span>    }</div>
 <div class="line"><a id="l00268" name="l00268"></a><span class="lineno">  268</span> </div>
-<div class="line"><a id="l00269" name="l00269"></a><span class="lineno">  269</span> </div>
-<div class="line"><a id="l00270" name="l00270"></a><span class="lineno">  270</span>        <a class="code hl_define" href="../../d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h.html#a127d4b3298567b7ceac4849248c3898c">__ae2fVK_AnnMlpUnMapOutStream_imp</a>(s_mapranged, *(s_mk).m_U0.m_mkswap.m_mkbase);</div>
-<div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span>    }</div>
-<div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span> </div>
-<div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span>    vkFreeCommandBuffers(vkdev, vkcmdpool, 1, &amp;vkcmdbuf);</div>
-<div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span>    vkDestroyCommandPool(vkdev, vkcmdpool, NULL);</div>
-<div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span> </div>
-<div class="line"><a id="l00276" name="l00276"></a><span class="lineno">  276</span>    <a class="code hl_define" href="../../d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h.html#a998b52b301c9f6841b9df460ccc62239">__ae2fVK_AnnMlpClean_imp</a>(*((s_mk).m_U0.m_mkswap.m_mkbase));</div>
-<div class="line"><a id="l00277" name="l00277"></a><span class="lineno">  277</span>    free((s_mk).m_U0.m_mkswap.m_mkbase);</div>
-<div class="line"><a id="l00278" name="l00278"></a><span class="lineno">  278</span>    Test_VkEnd();</div>
-<div class="line"><a id="l00279" name="l00279"></a><span class="lineno">  279</span>    <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a id="l00280" name="l00280"></a><span class="lineno">  280</span>}</div>
+<div class="line"><a id="l00269" name="l00269"></a><span class="lineno">  269</span>    {</div>
+<div class="line"><a id="l00270" name="l00270"></a><span class="lineno">  270</span>        <a class="code hl_define" href="../../d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h.html#a91909ba4fa2ba9d498e192de902e2474">__ae2fVK_AnnMlpMapOutStream_imp</a>(</div>
+<div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span>                s_mapranged</div>
+<div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span>                , *(s_mk).m_U0.m_mkswap.m_mkbase</div>
+<div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span>                , s_mk.m_ret.m_err</div>
+<div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span>                , s_ptr0</div>
+<div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span>                );</div>
+<div class="line"><a id="l00276" name="l00276"></a><span class="lineno">  276</span> </div>
+<div class="line"><a id="l00277" name="l00277"></a><span class="lineno">  277</span>        <span class="keyword">const</span> size_t</div>
+<div class="line"><a id="l00278" name="l00278"></a><span class="lineno">  278</span>            a_depth = (s_mk).m_U0.m_mkswap.m_mkbase-&gt;m_mlp.m_depth</div>
+<div class="line"><a id="l00279" name="l00279"></a><span class="lineno">  279</span>            , a_outc = (s_mk).m_U0.m_mkswap.m_mkbase-&gt;m_mlp.m_outc;</div>
+<div class="line"><a id="l00280" name="l00280"></a><span class="lineno">  280</span> </div>
+<div class="line"><a id="l00281" name="l00281"></a><span class="lineno">  281</span>        printf(<span class="stringliteral">&quot;OUT: %f\n&quot;</span>, s_ptr0[(a_depth - 1) * (a_outc)]);</div>
+<div class="line"><a id="l00282" name="l00282"></a><span class="lineno">  282</span>        printf(<span class="stringliteral">&quot;IN: %f %f\n&quot;</span>, s_ptr0[0], s_ptr0[1]);</div>
+<div class="line"><a id="l00283" name="l00283"></a><span class="lineno">  283</span> </div>
+<div class="line"><a id="l00284" name="l00284"></a><span class="lineno">  284</span> </div>
+<div class="line"><a id="l00285" name="l00285"></a><span class="lineno">  285</span>        <a class="code hl_define" href="../../d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h.html#a127d4b3298567b7ceac4849248c3898c">__ae2fVK_AnnMlpUnMapOutStream_imp</a>(s_mapranged, *(s_mk).m_U0.m_mkswap.m_mkbase);</div>
+<div class="line"><a id="l00286" name="l00286"></a><span class="lineno">  286</span>    }</div>
+<div class="line"><a id="l00287" name="l00287"></a><span class="lineno">  287</span> </div>
+<div class="line"><a id="l00288" name="l00288"></a><span class="lineno">  288</span>    vkFreeCommandBuffers(vkdev, vkcmdpool, 1, &amp;vkcmdbuf);</div>
+<div class="line"><a id="l00289" name="l00289"></a><span class="lineno">  289</span>    vkDestroyCommandPool(vkdev, vkcmdpool, NULL);</div>
+<div class="line"><a id="l00290" name="l00290"></a><span class="lineno">  290</span> </div>
+<div class="line"><a id="l00291" name="l00291"></a><span class="lineno">  291</span>    <a class="code hl_define" href="../../d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h.html#a998b52b301c9f6841b9df460ccc62239">__ae2fVK_AnnMlpClean_imp</a>(*((s_mk).m_U0.m_mkswap.m_mkbase));</div>
+<div class="line"><a id="l00292" name="l00292"></a><span class="lineno">  292</span>    free((s_mk).m_U0.m_mkswap.m_mkbase);</div>
+<div class="line"><a id="l00293" name="l00293"></a><span class="lineno">  293</span>    Test_VkEnd();</div>
+<div class="line"><a id="l00294" name="l00294"></a><span class="lineno">  294</span>    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a id="l00295" name="l00295"></a><span class="lineno">  295</span>}</div>
 </div>
 <div class="ttc" id="aAct_8h_html_aa5e3351e7153ae146454438e113b26a8"><div class="ttname"><a href="../../d3/dde/Act_8h.html#aa5e3351e7153ae146454438e113b26a8">ae2f_AnnAct_t</a></div><div class="ttdeci">void ae2f_AnnAct_t(ae2f_float_t *ret, ae2f_float_t x)</div><div class="ttdoc">Customisable activasion function type.</div><div class="ttdef"><b>Definition</b> <a href="../../d3/dde/Act_8h_source.html#l00019">Act.h:19</a></div></div>
 <div class="ttc" id="aCast_8h_html_ad76ecefb282edd703021539a17ba84a3"><div class="ttname"><a href="../../d3/dc4/Cast_8h.html#ad76ecefb282edd703021539a17ba84a3">unless</a></div><div class="ttdeci">#define unless(...)</div><div class="ttdoc">Invokes when condition is false.</div><div class="ttdef"><b>Definition</b> <a href="../../d3/dc4/Cast_8h_source.html#l00103">Cast.h:103</a></div></div>
