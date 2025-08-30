@@ -8,6 +8,16 @@ function(GITCLONE AUTH NAME)
 		execute_process(
 			COMMAND git clone https://codeberg.org/${AUTH}/${NAME} submod/${AUTH}/${NAME}
 			)
+	else()
+		execute_process(
+			COMMAND git restore .
+			WORKING_DIRECTORY submod/${AUTH}/${NAME}
+			)
+
+		execute_process(
+			COMMAND git pull
+			WORKING_DIRECTORY submod/${AUTH}/${NAME}
+			)
 	endif()
 
 	if (NOT EXISTS ${CMAKE_BINARY_DIR}/${AUTH}/${NAME})
