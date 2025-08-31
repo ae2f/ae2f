@@ -358,7 +358,6 @@
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="d7/d63/ann_2Slp_8def_8cc.html#a1e867331628cd6d677a0d8e7e3ad19bb"><param name="Name" value="Slp.def.cc"></OBJECT>
   </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html#aec246b2c9a207323ceaf247f26a8a7f6"><param name="Name" value="__ae2f_AnnSlpInitInpSz_imp((v_mk).m_U0.m_base.m_alloccount, 0, 0, 0, inc, outc)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html#aa707564fa53ae56fb0aa0656cfbf5826"><param name="Name" value="__ae2f_AnnSlpInitInpSz_imp((v_mk).m_union.m_base.m_alloccount, 0, 0, 0, inc, outc)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d9f/inc_2ae2f_2Ann_2Slp_8auto_8h.html#ac07dab283dea5bfd0a3072d5d2988b13"><param name="Name" value="__ae2f_AnnSlpInitInpSz_imp(...)"></OBJECT>
   <UL>
@@ -424,6 +423,10 @@
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d97/inc_2ae2f_2Ann_2Mlp_8auto_8h.html#a3aedf5a7045308a5bfd7a9ecb607d8d3"><param name="Name" value="Mlp.auto.h"></OBJECT>
   </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="df/d45/MlpPool_8auto_8h.html#a3aedf5a7045308a5bfd7a9ecb607d8d3"><param name="Name" value="__ae2f_MACRO_GENERATED"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="df/d45/MlpPool_8auto_8h.html#a3aedf5a7045308a5bfd7a9ecb607d8d3"><param name="Name" value="MlpPool.auto.h"></OBJECT>
+  </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d00/MMap_8auto_8h.html#a3aedf5a7045308a5bfd7a9ecb607d8d3"><param name="Name" value="__ae2f_MACRO_GENERATED"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d00/MMap_8auto_8h.html#a3aedf5a7045308a5bfd7a9ecb607d8d3"><param name="Name" value="MMap.auto.h"></OBJECT>
@@ -431,6 +434,10 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d9f/inc_2ae2f_2Ann_2Slp_8auto_8h.html#a3aedf5a7045308a5bfd7a9ecb607d8d3"><param name="Name" value="__ae2f_MACRO_GENERATED"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d9f/inc_2ae2f_2Ann_2Slp_8auto_8h.html#a3aedf5a7045308a5bfd7a9ecb607d8d3"><param name="Name" value="Slp.auto.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/da0/SlpPool_8auto_8h.html#a3aedf5a7045308a5bfd7a9ecb607d8d3"><param name="Name" value="__ae2f_MACRO_GENERATED"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/da0/SlpPool_8auto_8h.html#a3aedf5a7045308a5bfd7a9ecb607d8d3"><param name="Name" value="SlpPool.auto.h"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d00/MMap_8auto_8h.html#a591db6813186540eeab6bbda0073fd3c"><param name="Name" value="__ae2f_mMMapDel(a)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d00/MMap_8auto_8h.html#a1ce09163a3c33db021fc643d7f626296"><param name="Name" value="__ae2f_mMMapFieldIdx(mmap, dim, idxs, ret)"></OBJECT>
@@ -452,12 +459,18 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h.html#a998b52b301c9f6841b9df460ccc62239"><param name="Name" value="__ae2fVK_AnnMlpClean_imp(v_mlp)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d9e/K_2Ann_2Mlp_8core_8h.html#afb8399c1a9999150d5c8cce16702b4fd"><param name="Name" value="__ae2fVK_AnnMlpDeltaStreamOff(i_depth, i_outc)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d9e/K_2Ann_2Mlp_8core_8h.html#a449dd4def7224d00fee6480c8254749e"><param name="Name" value="__ae2fVK_AnnMlpDeltaStreamSz(i_depth, i_outc)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d9e/K_2Ann_2Mlp_8core_8h.html#aa166f7f8ed945fe7872414bdd66ce0d5"><param name="Name" value="__ae2fVK_AnnMlpDescPoolClean_imp"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d9e/K_2Ann_2Mlp_8core_8h.html#abbc17c49524a38e1ff496a69d16229a4"><param name="Name" value="__ae2fVK_AnnMlpDescPoolCmdClean_imp"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d9e/K_2Ann_2Mlp_8core_8h.html#ae52b72bc3b83194d55ff745ce34b0db1"><param name="Name" value="__ae2fVK_AnnMlpDescPoolCmdMk_imp"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="df/d45/MlpPool_8auto_8h.html#af4507132b44d4909c14472636ce051f2"><param name="Name" value="__ae2fVK_AnnMlpDescPoolCmdMkPredict_imp(v_cmdmk, iv_mlp, iv_err, i_pool, r_cmd, i_vkcmdbuf)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="df/d45/MlpPool_8auto_8h.html#af3757af385f9d4a512e64fac3a2ddc8c"><param name="Name" value="__ae2fVK_AnnMlpDescPoolCmdMkTrain_imp(v_cmdmk, iv_mlp, iv_err, i_pool, r_cmd, i_vkcmdbuf)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d9e/K_2Ann_2Mlp_8core_8h.html#a75c555d000d300ecead4aeb4c9e38565"><param name="Name" value="__ae2fVK_AnnMlpDescPoolMk_imp"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d9e/K_2Ann_2Mlp_8core_8h.html#aeca8bcd35aa014c5bb5ecab659c8df76"><param name="Name" value="__ae2fVK_AnnMlpGlobMemSz(i_depth, i_outc)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d9e/K_2Ann_2Mlp_8core_8h.html#aacb57ddab1a63df9c70583c9c0d80a07"><param name="Name" value="__ae2fVK_AnnMlpGoalOff(i_depth, i_outc)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d9e/K_2Ann_2Mlp_8core_8h.html#a526494a3b10460c0dd646a0b81541e8b"><param name="Name" value="__ae2fVK_AnnMlpGoalSz(i_depth, i_outc)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h.html#a2fc1c7a83aa1c33e1f44ad9de6e529a3"><param name="Name" value="__ae2fVK_AnnMlpMapGoal_imp(v_map, iv_mlp, r_err, r_ptr)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h.html#a91909ba4fa2ba9d498e192de902e2474"><param name="Name" value="__ae2fVK_AnnMlpMapOutStream_imp(v_map, iv_mlp, r_err, r_ptr)"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#a7d49309e9a686061ebd818a017b73cfe"><param name="Name" value="__ae2fVK_AnnMlpMapRangedGeneric_imp(void,(v_mk).m_U1.m_map.m_vkmmemr,(*(v_mk).m_U0.m_mkswap.m_mkbase),(v_mk).m_ret.m_err,(v_mk).m_U1.m_map.m_map.m_v, 0,(v_mk).m_U2.m_i)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#a492fca55c8db3d0952cee057c54f61e6"><param name="Name" value="__ae2fVK_AnnMlpMapRangedGeneric_imp(ae2f_float_t,(v_mk).m_U1.m_map,(*(v_mk).m_U0.m_mkswap.m_mkbase),(v_mk).m_ret.m_err,(v_mk).m_U3.m_mapped, 0,(v_mk).m_U2.m_i)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d9e/K_2Ann_2Mlp_8core_8h.html#a4bd1a96d302b9c8a5f09e4f72f7395c7"><param name="Name" value="__ae2fVK_AnnMlpMapRangedGeneric_imp"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h.html#a7faf565f4c6381714d20c7c22eca0425"><param name="Name" value="__ae2fVK_AnnMlpMapWB_imp(v_map, iv_mlp, r_err, r_ptrweight, r_ptrbias)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d9e/K_2Ann_2Mlp_8core_8h.html#a6e2c124617503fee287851b47aabc5eb"><param name="Name" value="__ae2fVK_AnnMlpMdlOff(...)"></OBJECT>
@@ -465,25 +478,6 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h.html#af76282f7a8fc1378225327bf3d4e517d"><param name="Name" value="__ae2fVK_AnnMlpMk_imp(v_mk, iv_weight_opt, iv_bias_opt, iv_outstream_opt, iv_deltastream_opt, i_len_count, i_len, i_len_swap, i_prm_offset, i_extra, i_act, i_actderiv, i_lossderiv, i_learningrate, i_learningrate_bias, i_vkdev, i_vkmemprops, iv_vkalloccalls, i_vkcldeclaration, i_vkcldefinition)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d9e/K_2Ann_2Mlp_8core_8h.html#acea79b451acde99465b3dac083d01edb"><param name="Name" value="__ae2fVK_AnnMlpOutStreamOff(i_depth, i_outc)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d9e/K_2Ann_2Mlp_8core_8h.html#a7690ac26eb5f2eea7786925700fa90d8"><param name="Name" value="__ae2fVK_AnnMlpOutStreamSz(i_depth, i_outc)"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h.html#a139c5b3166a2ee76960a93d135f55eb1"><param name="Name" value="__ae2fVK_AnnMlpPerformedFree_imp(iv_mlp, iv_cmd)"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h.html#a5336cca429191804c2e657d2e64c020b"><param name="Name" value="__ae2fVK_AnnMlpPredictPerformed_imp(v_predict, r_cmd, i_vkcmdbuf, i_inp, i_vkcmdbufuseflags, iv_mlp, iv_err)"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h.html#a046905918d53cd7fa26b605bddc113f7"><param name="Name" value="__ae2fVK_AnnMlpPredictPerformedFree_imp"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h.html#a046905918d53cd7fa26b605bddc113f7"><param name="Name" value="Mlp.auto.h"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#a046905918d53cd7fa26b605bddc113f7"><param name="Name" value="__ae2fVK_AnnMlpPredictPerformedFree_imp"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#a046905918d53cd7fa26b605bddc113f7"><param name="Name" value="Mlp.def.cc"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h.html#a62cf233a35221a5ed3a3d9cc4863b103"><param name="Name" value="__ae2fVK_AnnMlpTrainPerformed_imp(v_getcmd, r_cmd, i_vkcmdbuf, i_inp, i_vkcmdbufuseflags, iv_mlp, iv_err)"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h.html#ae1d129427fb76b3e85b96a296064bebf"><param name="Name" value="__ae2fVK_AnnMlpTrainPerformedFree_imp"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h.html#ae1d129427fb76b3e85b96a296064bebf"><param name="Name" value="Mlp.auto.h"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#ae1d129427fb76b3e85b96a296064bebf"><param name="Name" value="__ae2fVK_AnnMlpTrainPerformedFree_imp"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#ae1d129427fb76b3e85b96a296064bebf"><param name="Name" value="Mlp.def.cc"></OBJECT>
-  </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h.html#a696a70c387ac86bffb6bce19befa7c74"><param name="Name" value="__ae2fVK_AnnMlpUnMapGoal_imp(v_unmap, iv_mlp)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h.html#a127d4b3298567b7ceac4849248c3898c"><param name="Name" value="__ae2fVK_AnnMlpUnMapOutStream_imp(v_unmap, iv_mlp)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#afcb356891059fd8c2fa21df9d6d62a60"><param name="Name" value="__ae2fVK_AnnMlpUnMapRanged_imp((v_mk).m_U1.m_unmap, *(v_mk).m_U0.m_mkswap.m_mkbase, 0,((i_len_count) *sizeof(uint32_t)))"></OBJECT>
@@ -491,33 +485,46 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h.html#aa60a2e7649e5a32307b4b60dd9645c58"><param name="Name" value="__ae2fVK_AnnMlpUnMapWB_imp(v_unmap, iv_mlp)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d9e/K_2Ann_2Mlp_8core_8h.html#a7cc9e5af6525a837d775351489ec3daa"><param name="Name" value="__ae2fVK_AnnMlpWeightOff(i_depth, i_outc)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d9e/K_2Ann_2Mlp_8core_8h.html#ad89b8fef366ca852e8e1943e78e2ea89"><param name="Name" value="__ae2fVK_AnnMlpWeightSz(i_depth, i_outc)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d19/K_2Ann_2Slp_8core_8h.html#a2f22eb7e8c60db949b4770c67ec07547"><param name="Name" value="__ae2fVK_AnnSlpBiasOff(i_inp, i_out)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d19/K_2Ann_2Slp_8core_8h.html#a5c464ae976d0814ff1d1137f456b017c"><param name="Name" value="__ae2fVK_AnnSlpBiasSz(i_inp, i_out)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#af96318aad887bdff6fe960699d1f3658"><param name="Name" value="__ae2fVK_AnnSlpClean_imp(block)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a411d69521f9d5a15d6d1c4a9ca0a79b7"><param name="Name" value="__ae2fVK_AnnSlpCreatDescPool_imp(v_descpool, iv_slp, r_vkdescpool, r_reterr, i_vkdescpoolcreatflags, i_vkdesctype, i_vkdescpoolsz_count, i_vkmaxdescsets)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a83d1d33bd836f74eb236197f77499326"><param name="Name" value="__ae2fVK_AnnSlpCreatDescPoolVerbose_imp((v_descpool).m_U0.m_vkdescpoolcreatinfo,(v_descpool).m_U0.m_vkdescpoolsz,(r_pool).m_vkdescpool, r_reterr,(iv_slp).m_vkres,(iv_slp).m_vkdev,(iv_slp).m_vkalloccalls, i_vkdescpoolcreatflags, i_vkdesctype, i_vkdescpoolsz_count, i_vkmaxdescsets)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a680bfb645f487b198f012ba6425f9cb1"><param name="Name" value="__ae2fVK_AnnSlpCreatDescPoolVerbose_imp(v_vkdescpoolcreatinfo, v_vkdescpoolsz, r_vkdescpool, r_reterr, r_vkres, i_vkdev, i_vkptrAlloc, i_vkdescpoolcreatflags, i_vkdesctype, i_vkdescpoolsz_count, i_vkmaxdescsets)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#af390c2d055ff5d0f26ee790daae9c290"><param name="Name" value="__ae2fVK_AnnSlpDeltaMap(r_err, slp, ir_ptrdelta)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d19/K_2Ann_2Slp_8core_8h.html#afb689d9d34d6fa36201ce72ebd799d90"><param name="Name" value="__ae2fVK_AnnSlpDeltaOff(i_inp, i_out)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d19/K_2Ann_2Slp_8core_8h.html#a7c9ca2668d9ee2c963049158fedb34ba"><param name="Name" value="__ae2fVK_AnnSlpDeltaSz(i_inp, i_out)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a70df7c4030e3ba2ad73ceeb58eb7acb8"><param name="Name" value="__ae2fVK_AnnSlpDeltaUnMap_imp(v_out, vi_slp)"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#ab6b7e693543ecb489199eab759761ae6"><param name="Name" value="__ae2fVK_AnnSlpGetCmd_imp(COMMANDONRECORDING, v_getcmd, r_cmd, i_vkcmdbuf, i_inp, i_vkcmdbufuseflags, iv_slp, iv_err, i_desccount, i_offglob, i_szglob, i_offloc, i_szloc, i_descpool, i_desclayout, i_pipe, i_pipelayout)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/da0/SlpPool_8auto_8h.html#adb6394ba079f595e2302200e222a8186"><param name="Name" value="__ae2fVK_AnnSlpDescPoolClean_imp(i_slp, i_pool)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/da0/SlpPool_8auto_8h.html#a75dab8ab7ce558fb80a6bf6c9338a5b0"><param name="Name" value="__ae2fVK_AnnSlpDescPoolCmdClean_imp(iv_slp, i_pool, i_cmd)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/da0/SlpPool_8auto_8h.html#acbac02b11fe77217430974a4e2b9ef81"><param name="Name" value="__ae2fVK_AnnSlpDescPoolCmdMk_imp(COMMANDONRECORDING, v_cmdmk, r_cmd, iv_slp, i_pool, iv_err, i_desccount, i_offglob, i_szglob, i_offloc, i_szloc, i_desclayout, i_pipe, i_pipelayout, i_vkcmdbuf)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/da0/SlpPool_8auto_8h.html#a6c41adf0faa17a5b71fa04431d7795d6"><param name="Name" value="__ae2fVK_AnnSlpDescPoolCmdMkPredict_imp(v_cmdmk, iv_slp, iv_err, i_pool, r_cmd, i_vkcmdbuf)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/da0/SlpPool_8auto_8h.html#a1c137032d84c690b9a692289d43ccae9"><param name="Name" value="__ae2fVK_AnnSlpDescPoolCmdMkTrain_imp(v_cmdmk, iv_slp, iv_err, i_pool, r_cmd, i_vkcmdbuf)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/da0/SlpPool_8auto_8h.html#a67847ec64f4ff1892cec03f32cb1115d"><param name="Name" value="__ae2fVK_AnnSlpDescPoolMk_imp(v_descpool, r_pool, r_reterr, iv_slp, i_vkdescpoolcreatflags, i_vkmaxdescsets)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/da0/SlpPool_8auto_8h.html#a586f0aa1de0272f2dfd31be9d22d9b0f"><param name="Name" value="__ae2fVK_AnnSlpDescPoolMkGeneric_imp(v_descpool, r_pool, r_reterr, iv_slp, i_vkdescpoolcreatflags, i_vkdesctype, i_vkdescpoolsz_count, i_vkmaxdescsets)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d19/K_2Ann_2Slp_8core_8h.html#aa326cb2d666f5fe8c72e27698b6f5cb5"><param name="Name" value="__ae2fVK_AnnSlpGlobSz(i_inp, i_out)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#acaf74d888c905092a2b03023548d0a7b"><param name="Name" value="__ae2fVK_AnnSlpGoalMap(r_err, slp, ir_ptrgoal)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d19/K_2Ann_2Slp_8core_8h.html#a30115c31c8970f2af1540f885bde96fa"><param name="Name" value="__ae2fVK_AnnSlpGoalOff(i_inp, i_out)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d19/K_2Ann_2Slp_8core_8h.html#a0768868c5093ad72616565641c382005"><param name="Name" value="__ae2fVK_AnnSlpGoalSz(i_inp, i_out)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a763485f59f16dba5bbce2923add25acd"><param name="Name" value="__ae2fVK_AnnSlpGoalUnMap_imp(v_out, vi_slp)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d19/K_2Ann_2Slp_8core_8h.html#a68ef4c0f8f5db9de3a0b173cd70a7029"><param name="Name" value="__ae2fVK_AnnSlpInpOff(i_inp, i_out)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d19/K_2Ann_2Slp_8core_8h.html#a428efc3bba5cc00fb50eb539d682216c"><param name="Name" value="__ae2fVK_AnnSlpInpSz(i_inp,...)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a5eaa7dc4fd300d9331fb33f20be7cc6b"><param name="Name" value="__ae2fVK_AnnSlpIOMap(r_err, slp, ir_ptrinp, ir_ptrout)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#ada71cd04c5fadd260ad45e43e934a960"><param name="Name" value="__ae2fVK_AnnSlpIOUnMap_imp(v_out, vi_slp)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a52d1569188715e4fc6c718992d9f1dca"><param name="Name" value="__ae2fVK_AnnSlpMap_imp(r_err, slp, data)"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#aa791867410b356f64faca939ebaf6a26"><param name="Name" value="__ae2fVK_AnnSlpMapRanged_imp(v_map, r_err, slp, i_off, i_sz)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a3ac1ba81adc94db7033fbf604f506521"><param name="Name" value="__ae2fVK_AnnSlpMapRangedGeneric_imp(T, v_vkmapmemrange, iv_slp, r_err, r_ptr, i_off, i_sz)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a862f98350c5fb9534de570d1afe34f66"><param name="Name" value="__ae2fVK_AnnSlpMk_imp(v_mk, weight_opt, bias_opt, cache_opt, inc, outc, prm_offset, extra, act, actderiv, lossderiv, learningrate, learningrate_bias, vkdev, vkmemprops, vkalloccalls, vkcldeclaration, vkcldefinition)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#a2c07e41fd65288eaf59bb2913b2195ea"><param name="Name" value="__ae2fVK_AnnSlpMkAllocVKMem_imp(break, __ae2fVK_AnnMlpGlobMemSz(i_len_count,(v_mk).m_U0.m_mk.m_outc),(v_mk).m_U0.m_mkswap.m_mkbase-&gt;m_vkres,(v_mk).m_U0.m_mkswap.m_mkbase-&gt;m_vkglobbuf,(v_mk).m_U0.m_mkswap.m_mkbase-&gt;m_vkglobdevmem,(v_mk).m_ret.m_err,(v_mk).m_U1.m_vkbufcreatinfo,(v_mk).m_U1.m_vkmemallocinfo, VK_BUFFER_USAGE_STORAGE_BUFFER_BIT, VK_SHARING_MODE_EXCLUSIVE,(v_mk).m_U0.m_mkswap.m_mkbase-&gt;..."></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#aaafd2e28317f65e83bbbd274f2d8a33a"><param name="Name" value="__ae2fVK_AnnSlpMkAllocVKMem_imp(break,(((v_mk).m_U0.m_mk.m_mkbase-&gt;m_outc *((v_mk).m_U0.m_mk.m_mkbase-&gt;m_depth+2)) *sizeof(ae2f_float_t)),(v_mk).m_U0.m_mkswap.m_mkbase-&gt;m_vkres,(v_mk).m_U0.m_mkswap.m_mkbase-&gt;m_vklocbuf,(v_mk).m_U0.m_mkswap.m_mkbase-&gt;m_vklocdevmem,(v_mk).m_ret.m_err,(v_mk).m_U1.m_vkbufcreatinfo,(v_mk).m_U1.m_vkmemallocinfo, VK_BUFFER_USAGE_STORAGE_BUFFER_BIT, VK_SHARING_MODE_EXCLUS..."></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html#ab2cb2a407a77e8d4c85eae2059249785"><param name="Name" value="__ae2fVK_AnnSlpMkAllocVKMem_imp(break;, __ae2fVK_AnnSlpGlobSz(inc, outc),(v_mk).m_U0.m_alter.m_ptr-&gt;m_vkres,(v_mk).m_U0.m_alter.m_ptr-&gt;m_vkglobbuf,(v_mk).m_U0.m_alter.m_ptr-&gt;m_vkglobdevmem,(v_mk).m_reterr,(v_mk).m_U1.m_vkbufcreatinfo,(v_mk).m_U1.m_vkmemallocinfo, VK_BUFFER_USAGE_STORAGE_BUFFER_BIT, VK_SHARING_MODE_EXCLUSIVE,(vkdev),(v_mk).m_U2.m_vkmemreqs,(vkalloccalls),(v_mk).m_U0.m_alter.m_i, UC..."></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html#a402a82374fb5b452180a9e036ad854dd"><param name="Name" value="__ae2fVK_AnnSlpMkAllocVKMem_imp(break;, sizeof(ae2f_float_t) *((outc)),(v_mk).m_U0.m_alter.m_ptr-&gt;m_vkres,(v_mk).m_U0.m_alter.m_ptr-&gt;m_vklocbuf,(v_mk).m_U0.m_alter.m_ptr-&gt;m_vklocdevmem,(v_mk).m_reterr,(v_mk).m_U1.m_vkbufcreatinfo,(v_mk).m_U1.m_vkmemallocinfo, VK_BUFFER_USAGE_STORAGE_BUFFER_BIT, VK_SHARING_MODE_EXCLUSIVE,(vkdev),(v_mk).m_U2.m_vkmemreqs,(vkalloccalls),(v_mk).m_U0.m_alter.m_i, UCHAR_..."></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html#a8515ad48f04c3947ee77862a95a5b172"><param name="Name" value="__ae2fVK_AnnSlpMkAllocVKMem_imp(break;, sizeof(ae2f_float_t) *((outc)),(v_mk).m_union.m_alter.m_ptr-&gt;m_vkres,(v_mk).m_union.m_alter.m_ptr-&gt;m_vklocbuf,(v_mk).m_union.m_alter.m_ptr-&gt;m_vklocdevmem,(v_mk).m_reterr,(v_mk).m_vkinfo.m_buf,(v_mk).m_vkinfo.m_alloc, VK_BUFFER_USAGE_STORAGE_BUFFER_BIT, VK_SHARING_MODE_EXCLUSIVE,(vkdev),(v_mk).m_vkstack.m_memreq,(vkalloccalls),(v_mk).m_union.m_alter.m_i, UCHA..."></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html#a638ff64662f9d13dda5ba6f1ccf3df93"><param name="Name" value="__ae2fVK_AnnSlpMkAllocVKMem_imp(break;,(v_mk).m_U0.m_base.m_alloccount,(v_mk).m_U0.m_alter.m_ptr-&gt;m_vkres,(v_mk).m_U0.m_alter.m_ptr-&gt;m_vkglobbuf,(v_mk).m_U0.m_alter.m_ptr-&gt;m_vkglobdevmem,(v_mk).m_reterr,(v_mk).m_U1.m_vkbufcreatinfo,(v_mk).m_U1.m_vkmemallocinfo, VK_BUFFER_USAGE_STORAGE_BUFFER_BIT, VK_SHARING_MODE_EXCLUSIVE,(vkdev),(v_mk).m_U2.m_vkmemreqs,(vkalloccalls),(v_mk).m_U0.m_alter.m_i, UCHA..."></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html#ac6817ffdff99eeead564feabf941b404"><param name="Name" value="__ae2fVK_AnnSlpMkAllocVKMem_imp(break;,(v_mk).m_union.m_base.m_alloccount,(v_mk).m_union.m_alter.m_ptr-&gt;m_vkres,(v_mk).m_union.m_alter.m_ptr-&gt;m_vkglobbuf,(v_mk).m_union.m_alter.m_ptr-&gt;m_vkglobdevmem,(v_mk).m_reterr,(v_mk).m_vkinfo.m_buf,(v_mk).m_vkinfo.m_alloc, VK_BUFFER_USAGE_STORAGE_BUFFER_BIT, VK_SHARING_MODE_EXCLUSIVE,(vkdev),(v_mk).m_vkstack.m_memreq,(vkalloccalls),(v_mk).m_union.m_alter.m_i,..."></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#af26fa8c87b4eea07cc66064d66bacd33"><param name="Name" value="__ae2fVK_AnnSlpMkAllocVKMem_imp(CMDONERR, sz, r_vkres, r_vkbuf, r_vkdevmem, v_errbit, v_vkbufcreatinfo, v_memallocinfo, vkbufuseflags, vksharemode, vkdev, v_vkmemreq, vkalloccalls, v_memtypeidx, memtypeidx_invalid_minus_one, vkpropflag_req, vkphydevmemprops)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a28dd3679d7e841c98d785f704c7ee691"><param name="Name" value="__ae2fVK_AnnSlpMkCLSPVVerbose_imp(r_handle, ir_err, i_first, i_second, i_third)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a480fa17277b6ec7930d4fd3a5074199a"><param name="Name" value="__ae2fVK_AnnSlpMkCreatBuf(CMDONERR, sz, r_vkres, r_vkbuf, v_vkbufcreatinfo, v_reterr, vkbufuseflags, vksharemode, vkdev, vkalloccalls)"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html#a7ff4ee08b0f4e12871bbd86474f70edf"><param name="Name" value="__ae2fVK_AnnSlpMkCreatDescPool(break,(v_mk).m_U1.m_vkdescpoolcreatinfo,(v_mk).m_U2.m_vkdescpoolsz,(v_mk).m_U0.m_alter.m_ptr-&gt;m_vkdescpool[ae2fVK_eAnnSlpDescPools_kPredict],(v_mk).m_reterr,(v_mk).m_U0.m_alter.m_ptr-&gt;m_vkres,(vkdev),(vkalloccalls), VK_DESCRIPTOR_POOL_CREATE_FREE_DESCRIPTOR_SET_BIT, VK_DESCRIPTOR_TYPE_STORAGE_BUFFER, 1)"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html#a6fb47cb2fae6e6b9de082365364d6791"><param name="Name" value="__ae2fVK_AnnSlpMkCreatDescPool(break,(v_mk).m_U1.m_vkdescpoolcreatinfo,(v_mk).m_U2.m_vkdescpoolsz,(v_mk).m_U0.m_alter.m_ptr-&gt;m_vkdescpool[ae2fVK_eAnnSlpDescPools_kTrain],(v_mk).m_reterr,(v_mk).m_U0.m_alter.m_ptr-&gt;m_vkres,(vkdev),(vkalloccalls), VK_DESCRIPTOR_POOL_CREATE_FREE_DESCRIPTOR_SET_BIT, VK_DESCRIPTOR_TYPE_STORAGE_BUFFER, 2)"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#a066b69c306550d5396b5748597c2f2f3"><param name="Name" value="__ae2fVK_AnnSlpMkCreatDescPool(break,(v_mk).m_U1.m_vkdescpoolcreatinfo,(v_mk).m_U2.m_vkdescpoolsz,(v_mk).m_U0.m_mkswap.m_mkbase-&gt;m_vkdescpool[ae2fVK_eAnnMlpDescPools_ONLY],(v_mk).m_ret.m_err,(v_mk).m_U0.m_mkswap.m_mkbase-&gt;m_vkres, i_vkdev,(iv_vkalloccalls), VK_DESCRIPTOR_POOL_CREATE_FREE_DESCRIPTOR_SET_BIT, VK_DESCRIPTOR_TYPE_STORAGE_BUFFER, 2)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html#afb5ac9abd61ad51ccab3505b5c248df2"><param name="Name" value="__ae2fVK_AnnSlpMkCreatDescPool(break,(v_mk).m_vkstack.m_creatdescpool.m_creatinfo,(v_mk).m_vkstack.m_creatdescpool.m_sz,(v_mk).m_union.m_alter.m_ptr-&gt;m_vkdescpool[ae2fVK_eAnnSlpDescPools_kPredict],(v_mk).m_reterr,(v_mk).m_union.m_alter.m_ptr-&gt;m_vkres,(vkdev),(vkalloccalls), VK_DESCRIPTOR_POOL_CREATE_FREE_DESCRIPTOR_SET_BIT, VK_DESCRIPTOR_TYPE_STORAGE_BUFFER, 1)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html#a837e768e65b2bd284f1a7bc9e87cd0eb"><param name="Name" value="__ae2fVK_AnnSlpMkCreatDescPool(break,(v_mk).m_vkstack.m_creatdescpool.m_creatinfo,(v_mk).m_vkstack.m_creatdescpool.m_sz,(v_mk).m_union.m_alter.m_ptr-&gt;m_vkdescpool[ae2fVK_eAnnSlpDescPools_kTrain],(v_mk).m_reterr,(v_mk).m_union.m_alter.m_ptr-&gt;m_vkres,(vkdev),(vkalloccalls), VK_DESCRIPTOR_POOL_CREATE_FREE_DESCRIPTOR_SET_BIT, VK_DESCRIPTOR_TYPE_STORAGE_BUFFER, 2)"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a994414e74d987623adb4fb86592eca13"><param name="Name" value="__ae2fVK_AnnSlpMkCreatDescPool(CMDONERR, v_vkdescpoolcreatinfo, v_vkdescpoolsz, r_vkdescpool, r_reterr, r_vkres, i_vkdev, i_vkptrAlloc, i_vkdescpoolcreatflags, i_vkdesctype, i_vkdescpoolsz_count)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a41bc7b7025e2203574f522ee01755144"><param name="Name" value="__ae2fVK_AnnSlpMkFndMemProp_imp(CMDONERR, r_memtypeidx, v_errbit, memtypeidx_invalid_minus_one, vkpropflag_req, vkphydevmemprops)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html#a22d16ad4e2f1187e5d79a782cc62763c"><param name="Name" value="__ae2fVK_AnnSlpMkFndMemProp_imp(CMDONERR, v_memtypeidx, v_errbit, memtypeidx_invalid_minus_one, vkpropflag_req, vkphydevmemprops)"></OBJECT>
   <UL>
@@ -549,14 +556,14 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html#a4d5a7b849dfac33874505b1f2e0c215a"><param name="Name" value="__ae2fVK_AnnSlpMkOnePipeLayoutVerbose_imp(break,(v_mk).m_U1.m_vkpushconstrange,(v_mk).m_U2.m_vkpipelayoutcreatinfo,(v_mk).m_reterr,(v_mk).m_U0.m_alter.m_ptr, ae2fVK_eAnnSlpPipeLayouts_kPredict, sizeof(size_t), vkalloccalls, vkdev)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html#a91e1a14d422c846ec2c44154504f9b4f"><param name="Name" value="__ae2fVK_AnnSlpMkOnePipeLayoutVerbose_imp(break,(v_mk).m_U1.m_vkpushconstrange,(v_mk).m_U2.m_vkpipelayoutcreatinfo,(v_mk).m_reterr,(v_mk).m_U0.m_alter.m_ptr, ae2fVK_eAnnSlpPipeLayouts_kTrain, sizeof(ae2f_float_t) *2, vkalloccalls, vkdev)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a7213c462cd75c422eec58c504fbab4a4"><param name="Name" value="__ae2fVK_AnnSlpMkOnePipeLayoutVerbose_imp(CMDONERR, v_vkpushconstrange, v_vkpipelayoutcreatinfo, r_reterr, iv_slpptr, idx, szrequired, vkalloccalls, vkdev)"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a74449b903d25b13513535fc43cab29c0"><param name="Name" value="__ae2fVK_AnnSlpPredictFree_imp(iv_slp, iv_cmd)"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#aa905733b23235a2f91928f5060f3c2a3"><param name="Name" value="__ae2fVK_AnnSlpPredictPerformed_imp(v_predict, r_cmd, i_vkcmdbuf, i_inp, i_vkcmdbufuseflags, iv_slp, iv_err)"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a170f365e1b8442ee148648d97cf7747c"><param name="Name" value="__ae2fVK_AnnSlpTrainFree_imp(iv_slp, iv_cmd)"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#aadbfdea3945b3819a3e1e77d193b9de4"><param name="Name" value="__ae2fVK_AnnSlpTrainPerformed_imp(v_predict, r_cmd, i_vkcmdbuf, i_inp, i_vkcmdbufuseflags, iv_slp, iv_err)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d19/K_2Ann_2Slp_8core_8h.html#a3d2ea56ea7a898435b4a0ef1fbdc021f"><param name="Name" value="__ae2fVK_AnnSlpOutOff(i_inp, i_out)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d19/K_2Ann_2Slp_8core_8h.html#aa80685eb5540cf225169fd45a4cd32b5"><param name="Name" value="__ae2fVK_AnnSlpOutSz(i_inp, i_out)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a9dfc1f53c9abf8baacdf69e1d5f51eb9"><param name="Name" value="__ae2fVK_AnnSlpUnMap_imp(slp)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#ab6d21fd3ffcd285a3ddbd558b8b54bb6"><param name="Name" value="__ae2fVK_AnnSlpUnMapRanged_imp(v_out, vi_slp, i_off, i_sz)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a7836264027396e54b3b861ff978d50ea"><param name="Name" value="__ae2fVK_AnnSlpWBMap(r_err, slp, ir_ptrweight, ir_ptrbias)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#affdebbb51606186d7e946fdeced0ec44"><param name="Name" value="__ae2fVK_AnnSlpWBUnMap_imp(v_out, vi_slp)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d19/K_2Ann_2Slp_8core_8h.html#a9a872a0171becaaa08f541fc9efd5c36"><param name="Name" value="__ae2fVK_AnnSlpWeightOff(i_inp, i_out)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d19/K_2Ann_2Slp_8core_8h.html#a5e7b2c70b77dd05a1811b103364e59b4"><param name="Name" value="__ae2fVK_AnnSlpWeightSz(i_inp, i_out)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="df/da7/Spvc_8def_8c.html#a7e1ec539c30f34e90deb4e5d203415fb"><param name="Name" value="__ae2fVK_SpvcDel_C"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="df/da7/Spvc_8def_8c.html#a2e53065888a78cd4627d36d795ba3adb"><param name="Name" value="__ae2fVK_SpvcMk_C"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="df/da7/Spvc_8def_8c.html#ad80c593013019338be286b7dd772fdc1"><param name="Name" value="__ae2fVK_SpvcMk_imp(v_isgood, *(ret), inp)"></OBJECT>
@@ -1004,7 +1011,9 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/de1/ann_2Mlp_8def_8cc.html#a47bd6c043fab5b28437a83faaedd9134"><param name="Name" value="ae2f_MAC() _ae2f_AnnMlpPropagate_imp(ae2f_float_t v_tmp"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d7/d63/ann_2Slp_8def_8cc.html#a048f8476d45b506f4380aea0f785f36f"><param name="Name" value="ae2f_MAC() _ae2f_AnnSlpPredictOne_imp(ae2f_AnnSlpPredictOne_t v_predict"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/d74/MMap_8def_8c.html#a7adbea1567cf8ecc5e96acb088802c83"><param name="Name" value="ae2f_MAC() _ae2f_mMMapSz_imp(ae2f_mMMapSz_t v_mapsz"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d5/d07/MlpPool_8def_8cc.html#acb6e9d03bad46f83e447c0419f7b394d"><param name="Name" value="ae2f_MAC() _ae2fVK_AnnMlpDescPoolCmdMkPredict_imp(ae2fVK_AnnMlpDescPoolCmdMk_t v_cmdmk"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#a9884141a14d1b921a15be1bf3e8c8ed8"><param name="Name" value="ae2f_MAC() _ae2fVK_AnnMlpMk_imp(ae2fVK_AnnMlpMk_t v_mk"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a7e3d6025a4d28bb2fcdd706a826fb0de"><param name="Name" value="ae2f_MAC() _ae2fVK_AnnSlpDescPoolMkGeneric_imp(ae2fVK_AnnSlpCreatDescPool_t v_descpool"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html#a6275905958b64e50e015b789dd0b0514"><param name="Name" value="ae2f_MAC() _ae2fVK_AnnSlpMk_imp(ae2fVK_AnnSlpMk_t v_mk"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html#a6275905958b64e50e015b789dd0b0514"><param name="Name" value="Slp.auto.def.cc"></OBJECT>
@@ -1026,6 +1035,7 @@
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html#a219209a39c8af21e278539b6bc5a7e2b"><param name="Name" value="Slp.def.cc"></OBJECT>
   </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a146e7e176e5cd60de703e29e1851d4c3"><param name="Name" value="ae2f_MAC(COMMANDONRECORDING,) _ae2fVK_AnnSlpDescPoolCmdMk_imp(ae2fVK_AnnSlpDescPoolCmdMk_t v_cmdmk"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/de1/ann_2Mlp_8def_8cc.html#a86a5475ee13df62a5d03294e7df8813b"><param name="Name" value="ae2f_MAC(OPER_NEG, OPER_NONE,) _ae2f_AnnMlpPredictPrimal_imp(ae2f_AnnMlpPredict_t v_predict"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d7/d6b/Macro_8h.html#abd64a1c0d8b91f6f53b9565131ee0619"><param name="Name" value="ae2f_MAC_BUILD"></OBJECT>
   <UL>
@@ -1290,8 +1300,11 @@
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="d7/db9/inc_2ae2fVK_2Ann_2Slp_8h.html#a927b6465894077f122d9dc23909d6258"><param name="Name" value="Slp.h"></OBJECT>
   </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d19/K_2Ann_2Slp_8core_8h.html#ad7a2a4444b54ed887add133b1ab234da"><param name="Name" value="ae2f_structdef(struct, ae2fVK_AnnSlpGetCmd_t)"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d19/K_2Ann_2Slp_8core_8h.html#a9de39ef5be85204c16580afb7685572e"><param name="Name" value="ae2f_structdef(struct, ae2fVK_AnnSlpMap_t)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d19/K_2Ann_2Slp_8core_8h.html#a6add519d53db3668dd3a29e26b443adc"><param name="Name" value="ae2f_structdef(struct, ae2fVK_AnnSlpCreatDescPool_t)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d19/K_2Ann_2Slp_8core_8h.html#abdc01cb2e3fdcd6d915a0931e8aa46ba"><param name="Name" value="ae2f_structdef(struct, ae2fVK_AnnSlpCreatDescPoolU0_t)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d7/db9/inc_2ae2fVK_2Ann_2Slp_8h.html#a2efd989ce0f062e9875aa75d82dcbae3"><param name="Name" value="ae2f_structdef(struct, ae2fVK_AnnSlpDescPool)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d7/db9/inc_2ae2fVK_2Ann_2Slp_8h.html#a3d6afeeb2782987a6be2b93ad5a76974"><param name="Name" value="ae2f_structdef(struct, ae2fVK_AnnSlpDescPoolCmd)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d19/K_2Ann_2Slp_8core_8h.html#a9a6b11765e4fed530c2b6c509929d403"><param name="Name" value="ae2f_structdef(struct, ae2fVK_AnnSlpDescPoolCmdMk_t)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d19/K_2Ann_2Slp_8core_8h.html#a8d454b7e178375ceb8a80ab237c10c0d"><param name="Name" value="ae2f_structdef(struct, ae2fVK_AnnSlpMk_t)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d19/K_2Ann_2Slp_8core_8h.html#ab38b2e420e56e70aadcf0a2ea1ccd10b"><param name="Name" value="ae2f_structdef(struct, ae2fVK_AnnSlpMkAlter_t)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d19/K_2Ann_2Slp_8core_8h.html#ad4cc9141c50ed36dd69fa7ae87cdbb6a"><param name="Name" value="ae2f_structdef(struct, ae2fVK_AnnSlpMkU2S0_t)"></OBJECT>
@@ -1304,7 +1317,6 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d9e/K_2Ann_2Mlp_8core_8h.html#a9717871d5e20cdf8cbf61a178435cc42"><param name="Name" value="ae2f_structdef(union, ae2fVK_AnnMlpMkU1_t)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d9e/K_2Ann_2Mlp_8core_8h.html#aa5e8363c7d316faa2cb6466f1ffb3d20"><param name="Name" value="ae2f_structdef(union, ae2fVK_AnnMlpMkU2_t)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d9e/K_2Ann_2Mlp_8core_8h.html#ac1681ed55fafc01f61979672ac126c26"><param name="Name" value="ae2f_structdef(union, ae2fVK_AnnMlpMkU3_t)"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d19/K_2Ann_2Slp_8core_8h.html#af5f7de797dce1ac6a079efc8cef27391"><param name="Name" value="ae2f_structdef(union, ae2fVK_AnnSlpMapPtr_t)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d19/K_2Ann_2Slp_8core_8h.html#a0bd1613753d2d2bda88b083068e7c13e"><param name="Name" value="ae2f_structdef(union, ae2fVK_AnnSlpMkU0_t)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d19/K_2Ann_2Slp_8core_8h.html#a93c6abea0bd4c9c24e8f03f0230fa867"><param name="Name" value="ae2f_structdef(union, ae2fVK_AnnSlpMkU1_t)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d19/K_2Ann_2Slp_8core_8h.html#afadce9745837255101e0228d44e49c39"><param name="Name" value="ae2f_structdef(union, ae2fVK_AnnSlpMkU2_t)"></OBJECT>
@@ -1317,7 +1329,6 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="df/d42/Ann_2Mlp_8core_8h.html#a12ce39a6b7bbf8fef768b54b9da338f9"><param name="Name" value="ae2f_structdef_n(struct, ae2f_AnnMlpPropagateAll_t, ae2f_AnnMlpFollow_t)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="da/d6c/Ann_2Slp_8core_8h.html#acacdce02800c8caa06c2312ea3cac2fe"><param name="Name" value="ae2f_structdef_n(struct, ae2f_AnnSlpFollow_t, ae2f_AnnSlpFit_t, ae2f_AnnSlpFetchDelta_t)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="da/d6c/Ann_2Slp_8core_8h.html#a842200066727df3d64ef35f77cbc6191"><param name="Name" value="ae2f_structdef_n(struct, ae2f_AnnSlpFollowOne_t, ae2f_AnnSlpFitOne_t)"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d19/K_2Ann_2Slp_8core_8h.html#a0f8c6a674b2000fc4f81ccf2b72b3eb5"><param name="Name" value="ae2f_structdef_n(struct, ae2fVK_AnnSlpCmd_t, ae2fVK_AnnSlpPredictCmd_t)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="df/d42/Ann_2Mlp_8core_8h.html#a91236f5d937db2207c594d2fa16e6696"><param name="Name" value="ae2f_structdef_n(union, ae2f_AnnMlpPropagateAllStack_t, ae2f_AnnMlpFollowStack_t)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/d1f/Core_2test_2main_8c.html#a46a7fdd9718d613c369a34322879e12f"><param name="Name" value="ae2f_structdef_n(union, t, q)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/dc4/Cast_8h.html#a92e52a9d02a80433c0c4cd43221db85f"><param name="Name" value="ae2f_structdef_v(key, name,...)"></OBJECT>
@@ -1366,8 +1377,12 @@
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html#a93afcd0716939d54c8d24bb8005c5379"><param name="Name" value="Slp.def.cc"></OBJECT>
   </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d9e/K_2Ann_2Mlp_8core_8h.html#a4848590f388a6f7fba91a45efaa58c61"><param name="Name" value="ae2fVK_AnnMlpMap_t"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="db/d62/inc_2ae2fVK_2Ann_2Mlp_8h.html#a1bc8f8f95907d9646b3d57117e05ea82"><param name="Name" value="ae2fVK_AnnMlpCreatDescPool_t"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="db/d62/inc_2ae2fVK_2Ann_2Mlp_8h.html#ad081d2061027df8c326999d6bdda1773"><param name="Name" value="ae2fVK_AnnMlpDescPool"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="db/d62/inc_2ae2fVK_2Ann_2Mlp_8h.html#a18c6efe3779192110f0b70fbccb8a9c7"><param name="Name" value="ae2fVK_AnnMlpDescPoolCmd"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d9e/K_2Ann_2Mlp_8core_8h.html#ac98c5400b3076810e2b50118445bcbfe"><param name="Name" value="ae2fVK_AnnMlpDescPoolCmdMk_t"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d9e/K_2Ann_2Mlp_8core_8h.html#a69acfbc3f39b530e2b681fff5f81dbca"><param name="Name" value="ae2fVK_AnnMlpMapRangedGeneric_t"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="df/d45/MlpPool_8auto_8h.html#a5067effb70b56b23ecc9c4fb5e946137"><param name="Name" value="ae2fVK_AnnMlpPool_h"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d5/df3/MlpSHADER_8auto_8h.html#a762f4702fac0377162c110d98460d416"><param name="Name" value="ae2fVK_AnnMlpSHADER"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="d5/df3/MlpSHADER_8auto_8h.html#a762f4702fac0377162c110d98460d416"><param name="Name" value="MlpSHADER.auto.h"></OBJECT>
@@ -1378,6 +1393,7 @@
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d9e/K_2Ann_2Mlp_8core_8h.html#a4038e68a80b413f00a0404dd5fb508b7"><param name="Name" value="ae2fVK_AnnMlpUnMap_t"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d19/K_2Ann_2Slp_8core_8h.html#a58ac34e5aa6a351f1e047893189350fc"><param name="Name" value="ae2fVK_AnnSlpMapRangedGeneric_t"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/da0/SlpPool_8auto_8h.html#a3187536210e6614657971787b3543953"><param name="Name" value="ae2fVK_AnnSlpPool_h"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d62/SlpSHADER_8auto_8h.html#a59d3c7b69b783ee39ea63cc71cfbb795"><param name="Name" value="ae2fVK_AnnSlpSHADER"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d62/SlpSHADER_8auto_8h.html#a59d3c7b69b783ee39ea63cc71cfbb795"><param name="Name" value="SlpSHADER.auto.h"></OBJECT>
@@ -1457,7 +1473,8 @@
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="d9/d66/FileRaw_2build_2CMakeFiles_24_81_820250830-g8275211-dirty_2CompilerIdCXX_2CMakeCXXCompilerId_8cpp.html#aba35d0d200deaeb06aee95ca297acb28"><param name="Name" value="CMakeCXXCompilerId.cpp"></OBJECT>
   </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#a0b7082358320aa4cd01290360624c209"><param name="Name" value="assert((iv_mlp).m_vkres==VK_SUCCESS)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a7841b9b971e34dc9cf4edbd7ec0e0da4"><param name="Name" value="assert((iv_err)==ae2f_errGlob_OK &amp;&amp;&quot;r_err&#39;s state is bad.&quot;)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#abc732b574a359a20cbf9bb172fdbc44f"><param name="Name" value="assert((iv_slp).m_vkdev)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html#a3c4d5b99ea5d890986da852091d78ea6"><param name="Name" value="assert((lossderiv) &amp;&amp;&quot;lossderiv must be specified.&quot;)"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html#a3c4d5b99ea5d890986da852091d78ea6"><param name="Name" value="Slp.auto.def.cc"></OBJECT>
@@ -1466,13 +1483,14 @@
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html#a3c4d5b99ea5d890986da852091d78ea6"><param name="Name" value="Slp.def.cc"></OBJECT>
   </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#ad1c59d9ed575678242f50c3388dbe0ec"><param name="Name" value="assert((v_cmdmk).m_u0.m_vkdescsetallocinfo.pSetLayouts)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#abcef95bfd78a39a615fa6401fd49429f"><param name="Name" value="assert((v_cmdmk).m_u0.m_vkdescsetallocinfo.pSetLayouts[i_desclayout])"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html#a2b48c6be2b61a57382557810fee3c6f7"><param name="Name" value="assert((v_mk).m_clsrc.m_void)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#a7e1b0eb4ed3f60b15b8596f92ab4728f"><param name="Name" value="assert((v_mk).m_ret.m_err==ae2f_errGlob_OK)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html#a32496325626b9d884f6420118d2cd5a7"><param name="Name" value="assert((v_mk).m_reterr==ae2f_errGlob_OK &amp;&amp;&quot;Returned error flag has set up&quot;)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html#a767c4d2f539af45d765e26085585c46e"><param name="Name" value="assert((v_mk).m_U0.m_alter.m_ptr)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html#a1db491f980b2a5acac080e9cef3a6d33"><param name="Name" value="assert((v_mk).m_U0.m_base.m_ptr &amp;&amp;&quot;clspvCompileFromSourcesString has done something weird&quot;)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#ae2eea41e7bec1377ce21dc1c1199afdc"><param name="Name" value="assert((v_mk).m_U0.m_mk.m_outc==(v_mk).m_U0.m_mkswap.m_mkbase-&gt;m_mlp.m_outc)"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#a2e59241722098886cd1813fd4001e481"><param name="Name" value="assert((v_mk).m_U0.m_mkswap.m_mkbase-&gt;m_vkdescpool[ae2fVK_eAnnMlpDescPools_ONLY])"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#ab24e02e84f2dd24d2b4d2b87f09298fe"><param name="Name" value="assert((v_mk).m_U0.m_mkswap.m_mkbase-&gt;m_vkres==VK_SUCCESS)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html#a4880075b8a017bd337e219e67420a5ae"><param name="Name" value="assert((v_mk).m_U3.m_openclsrc)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html#a54ab594556003fedb93527185b20f1fd"><param name="Name" value="assert((v_mk).m_union.m_base.m_ptr &amp;&amp;&quot;clspvCompileFromSourcesString has done something weird&quot;)"></OBJECT>
@@ -1507,6 +1525,7 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#a722b9d5b306d1a2a84ef7b072649dcc1"><param name="Name" value="assert(i_vkcldeclaration)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#ab3f7ee8955eeb88b9193fd5cdc650309"><param name="Name" value="assert(i_vkcldefinition)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/d74/MMap_8def_8c.html#ad288e3426de53aa07e4902c6b67d05b6"><param name="Name" value="assert(lens)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a978d3899bf4c267126844035978b438b"><param name="Name" value="assert(r_reterr==ae2f_errGlob_OK)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="df/da7/Spvc_8def_8c.html#aaf4d96b6bd34c9fcb21f371e109bb17a"><param name="Name" value="assert(v_isgood)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/d74/MMap_8def_8c.html#a5359b155d302564f871c0766664acd48"><param name="Name" value="assert(v_mapsz.m_dim==-1)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/d77/Atom_8h.html#a760e34ce32cb422938b6fe5976609d89"><param name="Name" value="Atom.h"></OBJECT>
@@ -1627,6 +1646,7 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d6b/BitVec_8h.html#a9dbe37de1c12111bdd14d76ddc3fb235"><param name="Name" value="ae2f_BitVecSizeDefName(t)"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="da/d92/Preproc_2Macro_2main_8c.html#a89c5188fc84798611c8a20475cda1af6"><param name="Name" value="BOOK"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#ace8d632d41e43264840af5bed3ffe92b"><param name="Name" value="buffer"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="da/d92/Preproc_2Macro_2main_8c.html#a4e1e0e72dd773439e333c84dd762a9c3"><param name="Name" value="c"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/d31/FileRaw_2build_2CMakeFiles_24_81_820250830-g8275211-dirty_2CompilerIdC_2CMakeCCompilerId_8c.html#a7c35af7e67642a2c62eb27dd81be11b2"><param name="Name" value="C_STD_11"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/d31/FileRaw_2build_2CMakeFiles_24_81_820250830-g8275211-dirty_2CompilerIdC_2CMakeCCompilerId_8c.html#aa8cd9c2c76dde36abac0bd7698090693"><param name="Name" value="C_STD_17"></OBJECT>
@@ -2158,9 +2178,9 @@
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html#a001c7e46e4a2589aca9f6b93d767778e"><param name="Name" value="Slp.auto.def.cc"></OBJECT>
   </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html#a001c7e46e4a2589aca9f6b93d767778e"><param name="Name" value="COMMANDONRECORDING"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a001c7e46e4a2589aca9f6b93d767778e"><param name="Name" value="COMMANDONRECORDING"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html#a001c7e46e4a2589aca9f6b93d767778e"><param name="Name" value="Slp.def.cc"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a001c7e46e4a2589aca9f6b93d767778e"><param name="Name" value="SlpPool.def.cc"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/d31/FileRaw_2build_2CMakeFiles_24_81_820250830-g8275211-dirty_2CompilerIdC_2CMakeCCompilerId_8c.html#a81dee0709ded976b2e0319239f72d174"><param name="Name" value="COMPILER_ID"></OBJECT>
   <UL>
@@ -2354,6 +2374,12 @@
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html#a428d030d5339a71412fef57a24585c48"><param name="Name" value="Slp.def.cc"></OBJECT>
   </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a26e4198df8dac25f4e0ec04ac5d01c1f"><param name="Name" value="descriptorCount"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a26e4198df8dac25f4e0ec04ac5d01c1f"><param name="Name" value="SlpPool.def.cc"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#aaaba1fa433972c6915199f2a653d2731"><param name="Name" value="descriptorPool"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a02c98409bb19b701812331416290d777"><param name="Name" value="descriptorSetCount"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#adbc9ba30bc35f1c83fe5130ad8339404"><param name="Name" value="descriptorType"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#adbc9ba30bc35f1c83fe5130ad8339404"><param name="Name" value="Mlp.def.cc"></OBJECT>
@@ -2365,6 +2391,10 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html#a04b7e86c75f3b4ca6034f01399304b72"><param name="Name" value="descriptorType"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html#a04b7e86c75f3b4ca6034f01399304b72"><param name="Name" value="Slp.def.cc"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a38514af05e9d47d43ba27aa55e6c4bc0"><param name="Name" value="descriptorType"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a38514af05e9d47d43ba27aa55e6c4bc0"><param name="Name" value="SlpPool.def.cc"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/ddb/namespaceae2f_1_1Cmp.html#a6a124df7bd28b79685e4b51f8379ea3b"><param name="Name" value="Diff(T a, K b)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d28/SlpTrainAND_8c.html#aa2309d9b55594dad559079f42563dabf"><param name="Name" value="DIFF_GOOD(a, b)"></OBJECT>
@@ -2389,6 +2419,13 @@
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html#a721c6ff80a6d3e4ad4ffa52a04c60085"><param name="Name" value="Slp.def.cc"></OBJECT>
   </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a721c6ff80a6d3e4ad4ffa52a04c60085"><param name="Name" value="do"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a721c6ff80a6d3e4ad4ffa52a04c60085"><param name="Name" value="SlpPool.def.cc"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a803dc99dfb7e0a1fa5aa822db01494ff"><param name="Name" value="dstArrayElement"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a68bf977d7297ba71a423040fa38b538c"><param name="Name" value="dstBinding"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#ab9c1531bc4cc8e406ce1c732740e1f40"><param name="Name" value="dstSet"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d80/WaitWake_8c.html#a1aaea0ffb3ccc35ef47484bb7561b463"><param name="Name" value="el"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/de1/ann_2Mlp_8def_8cc.html#a0544c3fe466e421738dae463968b70ba"><param name="Name" value="else"></OBJECT>
   <UL>
@@ -2510,6 +2547,10 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html#a37431e5f58b3c556fc6500e00eaadf01"><param name="Name" value="flags"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html#a37431e5f58b3c556fc6500e00eaadf01"><param name="Name" value="Slp.def.cc"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a8f74b61e573116c2e5651482a285b173"><param name="Name" value="flags"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a8f74b61e573116c2e5651482a285b173"><param name="Name" value="SlpPool.def.cc"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d6/d66/structFLAGS__t.html"><param name="Name" value="FLAGS_t"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d6/d66/structFLAGS__t.html"><param name="Name" value="FLAGS_t"></OBJECT>
@@ -2666,6 +2707,9 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#a831dac2321571ed7a5ada7f0c6802f7a"><param name="Name" value="i_act"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#a65b9b3b4433d178d8af9676e408119cd"><param name="Name" value="i_actderiv"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d9/df0/src_2vk_2cl_2Mlp_8h.html#a5b5be1ecdaf62ae3d44348fe6325a40e"><param name="Name" value="i_actderiv_then"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a7119b0f65e336f020f14ed4d4bde26fa"><param name="Name" value="i_cmd"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#af5e4d80b9ca28d253bee81924edb4419"><param name="Name" value="i_desccount"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a5de4e0790888862f28072d4b12279c97"><param name="Name" value="i_desclayout"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#a3a75e395dde532b73958782ee1ce0702"><param name="Name" value="i_extra"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html#ad58dfac2046819d0a133f9dd4ade99be"><param name="Name" value="i_first"></OBJECT>
   <UL>
@@ -2676,14 +2720,7 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html#ad58dfac2046819d0a133f9dd4ade99be"><param name="Name" value="Slp.def.cc"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d9/df0/src_2vk_2cl_2Mlp_8h.html#afe01ccbe6c8a6541802c7883495df510"><param name="Name" value="i_iidx"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#a79483f9c8d9157abf8d9deff38091f7e"><param name="Name" value="i_inp"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#a79483f9c8d9157abf8d9deff38091f7e"><param name="Name" value="Mlp.def.cc"></OBJECT>
-  </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d9/df0/src_2vk_2cl_2Mlp_8h.html#aa4c2ecd40646681fadd07d6aacf23a54"><param name="Name" value="i_inp"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="d9/df0/src_2vk_2cl_2Mlp_8h.html#aa4c2ecd40646681fadd07d6aacf23a54"><param name="Name" value="Mlp.h"></OBJECT>
-  </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d9/df0/src_2vk_2cl_2Mlp_8h.html#ad31047233c66925427c6610fe0d6f7e5"><param name="Name" value="i_isz"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#a4875047649b6fc2e9c948d8a6691b5fa"><param name="Name" value="i_learningrate"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#a67d1f89b351db63eb4bc49203dd67f9d"><param name="Name" value="i_learningrate_bias"></OBJECT>
@@ -2691,7 +2728,19 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#a60b155038bc1856e6624bce0fce381d4"><param name="Name" value="i_len_count"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#abde31f8463873d16fa0f2c22d24c15b9"><param name="Name" value="i_len_swap"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#af713f4428e32bdfec4cf1ce382e7e450"><param name="Name" value="i_lossderiv"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#ad74a51dbd2a2c81899ba51e45008de31"><param name="Name" value="i_offglob"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#af68bf83fe6f9f2fa9702c85898bedbaa"><param name="Name" value="i_offloc"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d9/df0/src_2vk_2cl_2Mlp_8h.html#a44f7a21b121ffd9065d294d9e41b0648"><param name="Name" value="i_oidx"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a7eeef7e80b40f0c6aac68b40ffcec6ad"><param name="Name" value="i_pipe"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#ac6d0395424ca874a336967401aec66ca"><param name="Name" value="i_pipelayout"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d5/d07/MlpPool_8def_8cc.html#a65ad59e1f2202a8e17edc061aa66c0f9"><param name="Name" value="i_pool"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d5/d07/MlpPool_8def_8cc.html#a65ad59e1f2202a8e17edc061aa66c0f9"><param name="Name" value="MlpPool.def.cc"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a65ad59e1f2202a8e17edc061aa66c0f9"><param name="Name" value="i_pool"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a65ad59e1f2202a8e17edc061aa66c0f9"><param name="Name" value="SlpPool.def.cc"></OBJECT>
+  </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#a786a786642b111e815c1abc32fbe416b"><param name="Name" value="i_prm_offset"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html#ae8e62c449fefcf8e085c914fae24293b"><param name="Name" value="i_second"></OBJECT>
   <UL>
@@ -2701,33 +2750,53 @@
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html#ae8e62c449fefcf8e085c914fae24293b"><param name="Name" value="Slp.def.cc"></OBJECT>
   </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a8ce81ab660112b319c514e5b3a0e04a8"><param name="Name" value="i_szglob"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#aca73bcdb8ddee712235dfdd6eb839375"><param name="Name" value="i_szloc"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#a98e2d2952f79e57b90b03b52d3dc6b10"><param name="Name" value="i_vkcldeclaration"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#a6a90bf0d3749b068a678f1f7160d8f2a"><param name="Name" value="i_vkcldefinition"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#a6aad060ce9d08f34ab6026f288ddf812"><param name="Name" value="i_vkcmdbuf"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#a819780f979709a022eddc445f347063a"><param name="Name" value="i_vkcmdbufuseflags"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html#ad047168d63362d0441329e70aeb5e748"><param name="Name" value="i_vkdescpoolcreatflags"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d5/d07/MlpPool_8def_8cc.html#ae345405141299ce88ff448c6b459efff"><param name="Name" value="i_vkcmdbuf"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html#ad047168d63362d0441329e70aeb5e748"><param name="Name" value="Slp.auto.def.cc"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d5/d07/MlpPool_8def_8cc.html#ae345405141299ce88ff448c6b459efff"><param name="Name" value="MlpPool.def.cc"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#ae345405141299ce88ff448c6b459efff"><param name="Name" value="i_vkcmdbuf"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#ae345405141299ce88ff448c6b459efff"><param name="Name" value="SlpPool.def.cc"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html#a8a06b5cb09eb2448eb42ccb6ad1227d4"><param name="Name" value="i_vkdescpoolcreatflags"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html#a8a06b5cb09eb2448eb42ccb6ad1227d4"><param name="Name" value="Slp.auto.def.cc"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html#ad047168d63362d0441329e70aeb5e748"><param name="Name" value="i_vkdescpoolcreatflags"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html#ad047168d63362d0441329e70aeb5e748"><param name="Name" value="Slp.def.cc"></OBJECT>
   </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html#ad29ce21db065455273840df36fbf1490"><param name="Name" value="i_vkdescpoolsz_count"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a8a06b5cb09eb2448eb42ccb6ad1227d4"><param name="Name" value="i_vkdescpoolcreatflags"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html#ad29ce21db065455273840df36fbf1490"><param name="Name" value="Slp.auto.def.cc"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a8a06b5cb09eb2448eb42ccb6ad1227d4"><param name="Name" value="SlpPool.def.cc"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html#a9738daae0473cb42bcbac2a8bdb5b7f2"><param name="Name" value="i_vkdescpoolsz_count"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html#a9738daae0473cb42bcbac2a8bdb5b7f2"><param name="Name" value="Slp.auto.def.cc"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html#ad29ce21db065455273840df36fbf1490"><param name="Name" value="i_vkdescpoolsz_count"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html#ad29ce21db065455273840df36fbf1490"><param name="Name" value="Slp.def.cc"></OBJECT>
   </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html#a132566bec3964db633d3eebf07c51e6a"><param name="Name" value="i_vkdesctype"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a4a4352b5d73e6b412b946b46adaaba1f"><param name="Name" value="i_vkdescpoolsz_count"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html#a132566bec3964db633d3eebf07c51e6a"><param name="Name" value="Slp.auto.def.cc"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a4a4352b5d73e6b412b946b46adaaba1f"><param name="Name" value="SlpPool.def.cc"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html#a19f6730e14d93fd7b13153fa01116310"><param name="Name" value="i_vkdesctype"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html#a19f6730e14d93fd7b13153fa01116310"><param name="Name" value="Slp.auto.def.cc"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html#a132566bec3964db633d3eebf07c51e6a"><param name="Name" value="i_vkdesctype"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html#a132566bec3964db633d3eebf07c51e6a"><param name="Name" value="Slp.def.cc"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a22e78412cb7c0447f4feda8a93c26901"><param name="Name" value="i_vkdesctype"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a22e78412cb7c0447f4feda8a93c26901"><param name="Name" value="SlpPool.def.cc"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#a71fccccf25b17b73d6451b5c8db0704d"><param name="Name" value="i_vkdev"></OBJECT>
   <UL>
@@ -2740,6 +2809,14 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html#a8a1546058cc5fe9d53ac2bc3df7a90d4"><param name="Name" value="i_vkdev"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html#a8a1546058cc5fe9d53ac2bc3df7a90d4"><param name="Name" value="Slp.def.cc"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html#aec13be8bde26d28c86fd2ac6dadb4511"><param name="Name" value="i_vkmaxdescsets"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html#aec13be8bde26d28c86fd2ac6dadb4511"><param name="Name" value="Slp.def.cc"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#aec13be8bde26d28c86fd2ac6dadb4511"><param name="Name" value="i_vkmaxdescsets"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#aec13be8bde26d28c86fd2ac6dadb4511"><param name="Name" value="SlpPool.def.cc"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#a2e9d7d10b14ae486983f29113cf9c356"><param name="Name" value="i_vkmemprops"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html#a63db14009c088486ba1e4b2800836fbb"><param name="Name" value="i_vkptrAlloc"></OBJECT>
@@ -2777,6 +2854,8 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d7/daf/classae2f_1_1rBitVec.html#af80ec882f467c493cb6bb76a2cef5643"><param name="Name" value="idx_t"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#ad0bfac035688d1e48f3f8a555035e9d3"><param name="Name" value="if(!(v_mk).m_U0.m_mkswap.m_mkbase-&gt;m_vkdescsetlayout[0])"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#abdd92a5c11e38e65ca02ec554cdd56d4"><param name="Name" value="if((((v_mk).m_U0.m_mkswap.m_mkbase-&gt;m_vkres=vkCreateShaderModule((i_vkdev), &amp;(v_mk).m_U2.m_vkshadermodcreatinfo,(iv_vkalloccalls), &amp;(v_mk).m_U0.m_mkswap.m_mkbase-&gt;m_vkshadermodule)) !=VK_SUCCESS))"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#aec9a1a03325ce7841cdf09bb3754ed5c"><param name="Name" value="if(((iv_slp).m_vkres !=VK_SUCCESS))(iv_err)|"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#afb730cbac71605a4cfcaed864a9c8872"><param name="Name" value="if(((iv_slp).m_vkres=vkBeginCommandBuffer(i_vkcmdbuf, &amp;(v_cmdmk).m_u0.m_vkcmdbufbeginfo)) !=VK_SUCCESS)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html#a2a5deb98167439a1458e742d5ac3def0"><param name="Name" value="if(((iv_slpptr) -&gt;m_vkres=vkCreatePipelineLayout(vkdev, &amp;(v_vkpipelayoutcreatinfo),(vkalloccalls), &amp;(iv_slpptr) -&gt;m_vkpipelayout[idx])) !=VK_SUCCESS)"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html#a2a5deb98167439a1458e742d5ac3def0"><param name="Name" value="Slp.auto.def.cc"></OBJECT>
@@ -2831,6 +2910,7 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html#acfcafe660c13fe560708910bc475a499"><param name="Name" value="if(((v_mk).m_vkstack.m_isgood=clspvCompileFromSourcesString(1, ae2f_reinterpret_cast(const size_t *, NULL), ae2f_const_cast(const char **restrict,(&amp;(v_mk).m_clsrc.m_char)),&quot;&quot; &quot;-pod-pushconstant &quot; &quot;-cl-fast-relaxed-math &quot; &quot;-cl-single-precision-constant&quot;, &amp;(v_mk).m_clout.m_char, &amp;(v_mk).m_clout_len, &amp;(v_mk).m_unused)) !=CLSPV_SUCCESS)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/de1/ann_2Mlp_8def_8cc.html#a1e945ead665d5f5abe918e439bf4f432"><param name="Name" value="if((act_opt)[(v_predict).m_k])"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/de1/ann_2Mlp_8def_8cc.html#ac3c9418b7500991941d4c4d524f1d147"><param name="Name" value="if((act_opt)[0])"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a12c2e04770b32e0bc2b87a1524988f9e"><param name="Name" value="if((iv_slp).m_vkres !=VK_SUCCESS)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html#a10d49bb20aebe966b73b50aeeaa8b05a"><param name="Name" value="if((r_memtypeidx)==(memtypeidx_invalid_minus_one))"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html#a10d49bb20aebe966b73b50aeeaa8b05a"><param name="Name" value="Slp.auto.def.cc"></OBJECT>
@@ -2839,6 +2919,7 @@
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html#a10d49bb20aebe966b73b50aeeaa8b05a"><param name="Name" value="Slp.def.cc"></OBJECT>
   </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a6602ff080e2de6d954d8404e302343c7"><param name="Name" value="if((r_reterr)) assert(!&quot;__ae2fVK_AnnSlpCreatDescPoolVerbose_imp has failed.&quot;)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="df/da7/Spvc_8def_8c.html#a44dd67025d90aa4cb5739c7795cdea84"><param name="Name" value="if((reterr) &amp;&amp;*(reterr))"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html#a0f4cbbe619d52c3cd9ea7ca6d151bfeb"><param name="Name" value="if((szrequired) &amp;0b11)"></OBJECT>
   <UL>
@@ -3004,11 +3085,32 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="db/dc7/src_2vk_2cl_2Slp_8h.html#ad7257a8c4ed430a0ed2d9471714132b4"><param name="Name" value="Slp.h"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#a116386ce41dee282c796aa6e4f1e4c95"><param name="Name" value="iv_bias_opt"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#a24f46033988a7eaff03c49f39d30fb9a"><param name="Name" value="iv_cmd"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#a5ef5027237aa122f5d77fd4553aa782f"><param name="Name" value="iv_deltastream_opt"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#a8082dfa02b5f43101c41da56dde7a58a"><param name="Name" value="iv_err"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#a63da2e7991d264578f1c66f37db73da9"><param name="Name" value="iv_mlp"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d5/d07/MlpPool_8def_8cc.html#a1b4c78d44332c2648d98b2315c1023c3"><param name="Name" value="iv_err"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d5/d07/MlpPool_8def_8cc.html#a1b4c78d44332c2648d98b2315c1023c3"><param name="Name" value="MlpPool.def.cc"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a1b4c78d44332c2648d98b2315c1023c3"><param name="Name" value="iv_err"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a1b4c78d44332c2648d98b2315c1023c3"><param name="Name" value="SlpPool.def.cc"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#a8421a900a429f51dd22c0536adb0caa4"><param name="Name" value="iv_mlp"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#a8421a900a429f51dd22c0536adb0caa4"><param name="Name" value="Mlp.def.cc"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d5/d07/MlpPool_8def_8cc.html#a8421a900a429f51dd22c0536adb0caa4"><param name="Name" value="iv_mlp"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d5/d07/MlpPool_8def_8cc.html#a8421a900a429f51dd22c0536adb0caa4"><param name="Name" value="MlpPool.def.cc"></OBJECT>
+  </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#a49e4464446cd7e07ce0de4ba750d4df1"><param name="Name" value="iv_outstream_opt"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html#ac32c5847df1bff42754485b7a5ea9ddd"><param name="Name" value="iv_slp"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html#ac32c5847df1bff42754485b7a5ea9ddd"><param name="Name" value="Slp.def.cc"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#ac32c5847df1bff42754485b7a5ea9ddd"><param name="Name" value="iv_slp"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#ac32c5847df1bff42754485b7a5ea9ddd"><param name="Name" value="SlpPool.def.cc"></OBJECT>
+  </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html#a2dd8f648d9bb544dcc93960fa0416dda"><param name="Name" value="iv_slpptr"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html#a2dd8f648d9bb544dcc93960fa0416dda"><param name="Name" value="Slp.auto.def.cc"></OBJECT>
@@ -3224,13 +3326,6 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="df/dbe/Mlp_8cl_8c.html#aada7909334844471eb1e401b571614b0"><param name="Name" value="lp_deltastream"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="df/dbe/Mlp_8cl_8c.html#adb041d6b906a34c8cdefbb8a6a0c34c0"><param name="Name" value="lsz"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html#a14bbe8ae617804b35bcc00b967944178"><param name="Name" value="m_alloccount"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html#a14bbe8ae617804b35bcc00b967944178"><param name="Name" value="Slp.auto.def.cc"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html#a45334b73ba878ab91c18eac3f9e48bff"><param name="Name" value="m_alloccount"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html#a45334b73ba878ab91c18eac3f9e48bff"><param name="Name" value="Slp.def.cc"></OBJECT>
-  </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="df/dbe/Mlp_8cl_8c.html#a4b1f3c96c629fa3b2790b3b75f8e6ace"><param name="Name" value="m_bias"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html#a6b7820f124b07f3cbe9732673720cb94"><param name="Name" value="m_bind[1]"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html#a65dd926b31b190f29a2c8dc7f3bfb5b7"><param name="Name" value="m_clout_len"></OBJECT>
@@ -3936,26 +4031,6 @@
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h.html"><param name="Name" value="Mlp.auto.h"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h.html#a139c5b3166a2ee76960a93d135f55eb1"><param name="Name" value="__ae2fVK_AnnMlpPerformedFree_imp(iv_mlp, iv_cmd)"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h.html"><param name="Name" value="Mlp.auto.h"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h.html#a5336cca429191804c2e657d2e64c020b"><param name="Name" value="__ae2fVK_AnnMlpPredictPerformed_imp(v_predict, r_cmd, i_vkcmdbuf, i_inp, i_vkcmdbufuseflags, iv_mlp, iv_err)"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h.html"><param name="Name" value="Mlp.auto.h"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h.html#a046905918d53cd7fa26b605bddc113f7"><param name="Name" value="__ae2fVK_AnnMlpPredictPerformedFree_imp"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h.html"><param name="Name" value="Mlp.auto.h"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h.html#a62cf233a35221a5ed3a3d9cc4863b103"><param name="Name" value="__ae2fVK_AnnMlpTrainPerformed_imp(v_getcmd, r_cmd, i_vkcmdbuf, i_inp, i_vkcmdbufuseflags, iv_mlp, iv_err)"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h.html"><param name="Name" value="Mlp.auto.h"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h.html#ae1d129427fb76b3e85b96a296064bebf"><param name="Name" value="__ae2fVK_AnnMlpTrainPerformedFree_imp"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h.html"><param name="Name" value="Mlp.auto.h"></OBJECT>
-  <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h.html#a696a70c387ac86bffb6bce19befa7c74"><param name="Name" value="__ae2fVK_AnnMlpUnMapGoal_imp(v_unmap, iv_mlp)"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h.html"><param name="Name" value="Mlp.auto.h"></OBJECT>
@@ -4240,6 +4315,22 @@
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d9e/K_2Ann_2Mlp_8core_8h.html"><param name="Name" value="Mlp.core.h"></OBJECT>
   <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d9e/K_2Ann_2Mlp_8core_8h.html#aa166f7f8ed945fe7872414bdd66ce0d5"><param name="Name" value="__ae2fVK_AnnMlpDescPoolClean_imp"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d9e/K_2Ann_2Mlp_8core_8h.html"><param name="Name" value="Mlp.core.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d9e/K_2Ann_2Mlp_8core_8h.html#abbc17c49524a38e1ff496a69d16229a4"><param name="Name" value="__ae2fVK_AnnMlpDescPoolCmdClean_imp"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d9e/K_2Ann_2Mlp_8core_8h.html"><param name="Name" value="Mlp.core.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d9e/K_2Ann_2Mlp_8core_8h.html#ae52b72bc3b83194d55ff745ce34b0db1"><param name="Name" value="__ae2fVK_AnnMlpDescPoolCmdMk_imp"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d9e/K_2Ann_2Mlp_8core_8h.html"><param name="Name" value="Mlp.core.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d9e/K_2Ann_2Mlp_8core_8h.html#a75c555d000d300ecead4aeb4c9e38565"><param name="Name" value="__ae2fVK_AnnMlpDescPoolMk_imp"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d9e/K_2Ann_2Mlp_8core_8h.html"><param name="Name" value="Mlp.core.h"></OBJECT>
+  <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d9e/K_2Ann_2Mlp_8core_8h.html#aeca8bcd35aa014c5bb5ecab659c8df76"><param name="Name" value="__ae2fVK_AnnMlpGlobMemSz(i_depth, i_outc)"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d9e/K_2Ann_2Mlp_8core_8h.html"><param name="Name" value="Mlp.core.h"></OBJECT>
@@ -4376,7 +4467,7 @@
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d9e/K_2Ann_2Mlp_8core_8h.html"><param name="Name" value="Mlp.core.h"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d9e/K_2Ann_2Mlp_8core_8h.html#a4848590f388a6f7fba91a45efaa58c61"><param name="Name" value="ae2fVK_AnnMlpMap_t"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d9e/K_2Ann_2Mlp_8core_8h.html#ac98c5400b3076810e2b50118445bcbfe"><param name="Name" value="ae2fVK_AnnMlpDescPoolCmdMk_t"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d9e/K_2Ann_2Mlp_8core_8h.html"><param name="Name" value="Mlp.core.h"></OBJECT>
   <UL>
@@ -4488,15 +4579,7 @@
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html"><param name="Name" value="Mlp.def.cc"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#a7d49309e9a686061ebd818a017b73cfe"><param name="Name" value="__ae2fVK_AnnMlpMapRangedGeneric_imp(void,(v_mk).m_U1.m_map.m_vkmmemr,(*(v_mk).m_U0.m_mkswap.m_mkbase),(v_mk).m_ret.m_err,(v_mk).m_U1.m_map.m_map.m_v, 0,(v_mk).m_U2.m_i)"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html"><param name="Name" value="Mlp.def.cc"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#a046905918d53cd7fa26b605bddc113f7"><param name="Name" value="__ae2fVK_AnnMlpPredictPerformedFree_imp"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html"><param name="Name" value="Mlp.def.cc"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#ae1d129427fb76b3e85b96a296064bebf"><param name="Name" value="__ae2fVK_AnnMlpTrainPerformedFree_imp"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#a492fca55c8db3d0952cee057c54f61e6"><param name="Name" value="__ae2fVK_AnnMlpMapRangedGeneric_imp(ae2f_float_t,(v_mk).m_U1.m_map,(*(v_mk).m_U0.m_mkswap.m_mkbase),(v_mk).m_ret.m_err,(v_mk).m_U3.m_mapped, 0,(v_mk).m_U2.m_i)"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html"><param name="Name" value="Mlp.def.cc"></OBJECT>
   <UL>
@@ -4509,10 +4592,6 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html"><param name="Name" value="Mlp.def.cc"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#aaafd2e28317f65e83bbbd274f2d8a33a"><param name="Name" value="__ae2fVK_AnnSlpMkAllocVKMem_imp(break,(((v_mk).m_U0.m_mk.m_mkbase-&gt;m_outc *((v_mk).m_U0.m_mk.m_mkbase-&gt;m_depth+2)) *sizeof(ae2f_float_t)),(v_mk).m_U0.m_mkswap.m_mkbase-&gt;m_vkres,(v_mk).m_U0.m_mkswap.m_mkbase-&gt;m_vklocbuf,(v_mk).m_U0.m_mkswap.m_mkbase-&gt;m_vklocdevmem,(v_mk).m_ret.m_err,(v_mk).m_U1.m_vkbufcreatinfo,(v_mk).m_U1.m_vkmemallocinfo, VK_BUFFER_USAGE_STORAGE_BUFFER_BIT, VK_SHARING_MODE_EXCLUS..."></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html"><param name="Name" value="Mlp.def.cc"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#a066b69c306550d5396b5748597c2f2f3"><param name="Name" value="__ae2fVK_AnnSlpMkCreatDescPool(break,(v_mk).m_U1.m_vkdescpoolcreatinfo,(v_mk).m_U2.m_vkdescpoolsz,(v_mk).m_U0.m_mkswap.m_mkbase-&gt;m_vkdescpool[ae2fVK_eAnnMlpDescPools_ONLY],(v_mk).m_ret.m_err,(v_mk).m_U0.m_mkswap.m_mkbase-&gt;m_vkres, i_vkdev,(iv_vkalloccalls), VK_DESCRIPTOR_POOL_CREATE_FREE_DESCRIPTOR_SET_BIT, VK_DESCRIPTOR_TYPE_STORAGE_BUFFER, 2)"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html"><param name="Name" value="Mlp.def.cc"></OBJECT>
   <UL>
@@ -4564,19 +4643,11 @@
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html"><param name="Name" value="Mlp.def.cc"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#a0b7082358320aa4cd01290360624c209"><param name="Name" value="assert((iv_mlp).m_vkres==VK_SUCCESS)"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html"><param name="Name" value="Mlp.def.cc"></OBJECT>
-  <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#a7e1b0eb4ed3f60b15b8596f92ab4728f"><param name="Name" value="assert((v_mk).m_ret.m_err==ae2f_errGlob_OK)"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html"><param name="Name" value="Mlp.def.cc"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#ae2eea41e7bec1377ce21dc1c1199afdc"><param name="Name" value="assert((v_mk).m_U0.m_mk.m_outc==(v_mk).m_U0.m_mkswap.m_mkbase-&gt;m_mlp.m_outc)"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html"><param name="Name" value="Mlp.def.cc"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#a2e59241722098886cd1813fd4001e481"><param name="Name" value="assert((v_mk).m_U0.m_mkswap.m_mkbase-&gt;m_vkdescpool[ae2fVK_eAnnMlpDescPools_ONLY])"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html"><param name="Name" value="Mlp.def.cc"></OBJECT>
   <UL>
@@ -4672,10 +4743,6 @@
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html"><param name="Name" value="Mlp.def.cc"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#a79483f9c8d9157abf8d9deff38091f7e"><param name="Name" value="i_inp"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html"><param name="Name" value="Mlp.def.cc"></OBJECT>
-  <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#a4875047649b6fc2e9c948d8a6691b5fa"><param name="Name" value="i_learningrate"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html"><param name="Name" value="Mlp.def.cc"></OBJECT>
@@ -4709,14 +4776,6 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html"><param name="Name" value="Mlp.def.cc"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#a6a90bf0d3749b068a678f1f7160d8f2a"><param name="Name" value="i_vkcldefinition"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html"><param name="Name" value="Mlp.def.cc"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#a6aad060ce9d08f34ab6026f288ddf812"><param name="Name" value="i_vkcmdbuf"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html"><param name="Name" value="Mlp.def.cc"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#a819780f979709a022eddc445f347063a"><param name="Name" value="i_vkcmdbufuseflags"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html"><param name="Name" value="Mlp.def.cc"></OBJECT>
   <UL>
@@ -4784,19 +4843,11 @@
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html"><param name="Name" value="Mlp.def.cc"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#a24f46033988a7eaff03c49f39d30fb9a"><param name="Name" value="iv_cmd"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html"><param name="Name" value="Mlp.def.cc"></OBJECT>
-  <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#a5ef5027237aa122f5d77fd4553aa782f"><param name="Name" value="iv_deltastream_opt"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html"><param name="Name" value="Mlp.def.cc"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#a8082dfa02b5f43101c41da56dde7a58a"><param name="Name" value="iv_err"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html"><param name="Name" value="Mlp.def.cc"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#a63da2e7991d264578f1c66f37db73da9"><param name="Name" value="iv_mlp"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#a8421a900a429f51dd22c0536adb0caa4"><param name="Name" value="iv_mlp"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html"><param name="Name" value="Mlp.def.cc"></OBJECT>
   <UL>
@@ -4880,7 +4931,7 @@
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html"><param name="Name" value="Mlp.def.cc"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#a016095eb7d74691d94e1723c6ff784a4"><param name="Name" value="pNext"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#ac6edc8b2a64ab96c67143910e2d4b5aa"><param name="Name" value="pNext"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html"><param name="Name" value="Mlp.def.cc"></OBJECT>
   <UL>
@@ -4893,10 +4944,6 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html"><param name="Name" value="Mlp.def.cc"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#a822a78724b0688a85fdd825115f31e76"><param name="Name" value="pushConstantRangeCount"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html"><param name="Name" value="Mlp.def.cc"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#a6166e784c0dad290dfbd1a372bc1953c"><param name="Name" value="r_cmd"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html"><param name="Name" value="Mlp.def.cc"></OBJECT>
   <UL>
@@ -4940,7 +4987,7 @@
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html"><param name="Name" value="Mlp.def.cc"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#add66219216d0c7b7c6dcf85e1200f74f"><param name="Name" value="sType"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#afeb258e56fd18d7cdf18114fb24676d4"><param name="Name" value="sType"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/de1/ann_2Mlp_8def_8cc.html"><param name="Name" value="Mlp.def.cc"></OBJECT>
   <UL>
@@ -4964,11 +5011,11 @@
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html"><param name="Name" value="Mlp.def.cc"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#a76540564a36d089f339d012075499ec5"><param name="Name" value="unless((v_mk).m_U1.m_map.m_map.m_v)"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#a3fe6c4ec336f372cd17ea0553aab57c3"><param name="Name" value="unless((v_mk).m_U2.m_vkshadermodcreatinfo.pCode)"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html"><param name="Name" value="Mlp.def.cc"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#a3fe6c4ec336f372cd17ea0553aab57c3"><param name="Name" value="unless((v_mk).m_U2.m_vkshadermodcreatinfo.pCode)"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#af3d0449f5751a30b6dd400d21d09d595"><param name="Name" value="unless((v_mk).m_U3.m_mapped)"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/de1/ann_2Mlp_8def_8cc.html"><param name="Name" value="Mlp.def.cc"></OBJECT>
   <UL>
@@ -5069,6 +5116,18 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="db/d62/inc_2ae2fVK_2Ann_2Mlp_8h.html"><param name="Name" value="Mlp.h"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="db/d62/inc_2ae2fVK_2Ann_2Mlp_8h.html#aef4fb22b8ce6ffdc66cf83d623a6ab5a"><param name="Name" value="ae2f_structdef(struct, ae2fVK_AnnMlp)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="db/d62/inc_2ae2fVK_2Ann_2Mlp_8h.html"><param name="Name" value="Mlp.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="db/d62/inc_2ae2fVK_2Ann_2Mlp_8h.html#a1bc8f8f95907d9646b3d57117e05ea82"><param name="Name" value="ae2fVK_AnnMlpCreatDescPool_t"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="db/d62/inc_2ae2fVK_2Ann_2Mlp_8h.html"><param name="Name" value="Mlp.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="db/d62/inc_2ae2fVK_2Ann_2Mlp_8h.html#ad081d2061027df8c326999d6bdda1773"><param name="Name" value="ae2fVK_AnnMlpDescPool"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="db/d62/inc_2ae2fVK_2Ann_2Mlp_8h.html"><param name="Name" value="Mlp.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="db/d62/inc_2ae2fVK_2Ann_2Mlp_8h.html#a18c6efe3779192110f0b70fbccb8a9c7"><param name="Name" value="ae2fVK_AnnMlpDescPoolCmd"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d9/df0/src_2vk_2cl_2Mlp_8h.html"><param name="Name" value="Mlp.h"></OBJECT>
   <UL>
@@ -5282,6 +5341,46 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="da/d63/MlpInit_8c.html"><param name="Name" value="MlpInit.c"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="da/d63/MlpInit_8c.html#aec459866adaeb9d551e8dfc14a2720ec"><param name="Name" value="NULL_GENERIC(T)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="df/d45/MlpPool_8auto_8h.html"><param name="Name" value="MlpPool.auto.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="df/d45/MlpPool_8auto_8h.html#a3aedf5a7045308a5bfd7a9ecb607d8d3"><param name="Name" value="__ae2f_MACRO_GENERATED"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="df/d45/MlpPool_8auto_8h.html"><param name="Name" value="MlpPool.auto.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="df/d45/MlpPool_8auto_8h.html#af4507132b44d4909c14472636ce051f2"><param name="Name" value="__ae2fVK_AnnMlpDescPoolCmdMkPredict_imp(v_cmdmk, iv_mlp, iv_err, i_pool, r_cmd, i_vkcmdbuf)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="df/d45/MlpPool_8auto_8h.html"><param name="Name" value="MlpPool.auto.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="df/d45/MlpPool_8auto_8h.html#af3757af385f9d4a512e64fac3a2ddc8c"><param name="Name" value="__ae2fVK_AnnMlpDescPoolCmdMkTrain_imp(v_cmdmk, iv_mlp, iv_err, i_pool, r_cmd, i_vkcmdbuf)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="df/d45/MlpPool_8auto_8h.html"><param name="Name" value="MlpPool.auto.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="df/d45/MlpPool_8auto_8h.html#a5067effb70b56b23ecc9c4fb5e946137"><param name="Name" value="ae2fVK_AnnMlpPool_h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d5/d07/MlpPool_8def_8cc.html"><param name="Name" value="MlpPool.def.cc"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d5/d07/MlpPool_8def_8cc.html#acb6e9d03bad46f83e447c0419f7b394d"><param name="Name" value="ae2f_MAC() _ae2fVK_AnnMlpDescPoolCmdMkPredict_imp(ae2fVK_AnnMlpDescPoolCmdMk_t v_cmdmk"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d5/d07/MlpPool_8def_8cc.html"><param name="Name" value="MlpPool.def.cc"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d5/d07/MlpPool_8def_8cc.html#a65ad59e1f2202a8e17edc061aa66c0f9"><param name="Name" value="i_pool"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d5/d07/MlpPool_8def_8cc.html"><param name="Name" value="MlpPool.def.cc"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d5/d07/MlpPool_8def_8cc.html#ae345405141299ce88ff448c6b459efff"><param name="Name" value="i_vkcmdbuf"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d5/d07/MlpPool_8def_8cc.html"><param name="Name" value="MlpPool.def.cc"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d5/d07/MlpPool_8def_8cc.html#a1b4c78d44332c2648d98b2315c1023c3"><param name="Name" value="iv_err"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d5/d07/MlpPool_8def_8cc.html"><param name="Name" value="MlpPool.def.cc"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d5/d07/MlpPool_8def_8cc.html#a8421a900a429f51dd22c0536adb0caa4"><param name="Name" value="iv_mlp"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d5/d07/MlpPool_8def_8cc.html"><param name="Name" value="MlpPool.def.cc"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d5/d07/MlpPool_8def_8cc.html#a0bcbb6a3cce5df626fd579b9e1a61cda"><param name="Name" value="r_cmd"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d5/df3/MlpSHADER_8auto_8h.html#a762f4702fac0377162c110d98460d416"><param name="Name" value="MlpSHADER.auto.h"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="db/dbd/MlpSHADER_8inc_8c.html#a762f4702fac0377162c110d98460d416"><param name="Name" value="MlpSHADER.inc.c"></OBJECT>
@@ -5913,6 +6012,10 @@
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html#ad690ea2319d9a69e68245928938043f4"><param name="Name" value="Slp.def.cc"></OBJECT>
   </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a6831623c5634f31fa4fe0adc6b28136c"><param name="Name" value="offset"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a6831623c5634f31fa4fe0adc6b28136c"><param name="Name" value="SlpPool.def.cc"></OBJECT>
+  </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d7/d63/ann_2Slp_8imp_8c.html#a58e2c3b6dc6bccd8c231ee3ddeba5bde"><param name="Name" value="offset_opt"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d7/d63/ann_2Slp_8def_8cc.html#ad7d0f6c46cf31af6eef6f2ce1bf54425"><param name="Name" value="oidx"></OBJECT>
   <UL>
@@ -6058,6 +6161,7 @@
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html#a69cb49475c94578ce2247cd772e6619f"><param name="Name" value="Slp.def.cc"></OBJECT>
   </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a063d9bf1120e5a968e062992c425e121"><param name="Name" value="pBufferInfo"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html#ac605539d63775e1ed08631b2919235cb"><param name="Name" value="pCode"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html#ac605539d63775e1ed08631b2919235cb"><param name="Name" value="Slp.auto.def.cc"></OBJECT>
@@ -6069,6 +6173,7 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/db7/structae2f_1_1errGlobState.html#a66b6d6ab8cd1a6e1f5dc78e922c92299"><param name="Name" value="peek() const noexcept"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="df/dbe/Mlp_8cl_8c.html#a225646885f5fa590bf2e8a5bab89f4e8"><param name="Name" value="pgsz"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="df/dbe/Mlp_8cl_8c.html#a320cea6b430b293ad1d96213d48c2454"><param name="Name" value="pgsz_sqr"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#afa909710d4e1b52ec1438fbeabae5f98"><param name="Name" value="pImageInfo"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#adc8c90dd36c1ed4c03368175862fbcc6"><param name="Name" value="pImmutableSamplers"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#adc8c90dd36c1ed4c03368175862fbcc6"><param name="Name" value="Mlp.def.cc"></OBJECT>
@@ -6081,6 +6186,7 @@
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html#a869ec759f71b0befe2294e52fe770591"><param name="Name" value="Slp.def.cc"></OBJECT>
   </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#ab70c02daf0caa5d1ab2854d98e11ef6a"><param name="Name" value="pInheritanceInfo"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html#a036e74be7d2d8fc4164ade3546dbe620"><param name="Name" value="pipecreat"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html#a036e74be7d2d8fc4164ade3546dbe620"><param name="Name" value="Slp.auto.def.cc"></OBJECT>
@@ -6137,9 +6243,9 @@
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html#a8fa8e16d0b91b91aa05599af47b08fc3"><param name="Name" value="Slp.def.cc"></OBJECT>
   </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#a016095eb7d74691d94e1723c6ff784a4"><param name="Name" value="pNext"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#ac6edc8b2a64ab96c67143910e2d4b5aa"><param name="Name" value="pNext"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#a016095eb7d74691d94e1723c6ff784a4"><param name="Name" value="Mlp.def.cc"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#ac6edc8b2a64ab96c67143910e2d4b5aa"><param name="Name" value="Mlp.def.cc"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html#a42e9e6afed66736c4b2ed4523a7912d9"><param name="Name" value="pNext"></OBJECT>
   <UL>
@@ -6148,6 +6254,10 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html#a016095eb7d74691d94e1723c6ff784a4"><param name="Name" value="pNext"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html#a016095eb7d74691d94e1723c6ff784a4"><param name="Name" value="Slp.def.cc"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#ac6edc8b2a64ab96c67143910e2d4b5aa"><param name="Name" value="pNext"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#ac6edc8b2a64ab96c67143910e2d4b5aa"><param name="Name" value="SlpPool.def.cc"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html#a998cfec4c71da3fdeed1ee541f158a6d"><param name="Name" value="poolSizeCount"></OBJECT>
   <UL>
@@ -6221,6 +6331,10 @@
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html#af5add0a0beb32f341f7f1c5054076a7b"><param name="Name" value="Slp.def.cc"></OBJECT>
   </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a7090df556b6d45f0dca5e29cf4ad1c21"><param name="Name" value="pSetLayouts"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a7090df556b6d45f0dca5e29cf4ad1c21"><param name="Name" value="SlpPool.def.cc"></OBJECT>
+  </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html#a2c60330acce74fc648a159e8b445e9d8"><param name="Name" value="pSpecializationInfo"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html#a2c60330acce74fc648a159e8b445e9d8"><param name="Name" value="Slp.auto.def.cc"></OBJECT>
@@ -6251,7 +6365,14 @@
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="df/dbe/Mlp_8cl_8c.html#af2e25ec1cb690c0b5dffea5cb7bb8fda"><param name="Name" value="r_bias"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="df/dbe/Mlp_8cl_8c.html#a1032db8bee8d2a8cd461ee56850291f7"><param name="Name" value="r_bias_then"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#a6166e784c0dad290dfbd1a372bc1953c"><param name="Name" value="r_cmd"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d5/d07/MlpPool_8def_8cc.html#a0bcbb6a3cce5df626fd579b9e1a61cda"><param name="Name" value="r_cmd"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d5/d07/MlpPool_8def_8cc.html#a0bcbb6a3cce5df626fd579b9e1a61cda"><param name="Name" value="MlpPool.def.cc"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a0bcbb6a3cce5df626fd579b9e1a61cda"><param name="Name" value="r_cmd"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a0bcbb6a3cce5df626fd579b9e1a61cda"><param name="Name" value="SlpPool.def.cc"></OBJECT>
+  </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="df/dbe/Mlp_8cl_8c.html#aa24ed950c24485d249ef3d9fe2cf26a6"><param name="Name" value="r_delta"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="df/dbe/Mlp_8cl_8c.html#a4ac8e5af6fdf111a2f14e759e2b9b6a1"><param name="Name" value="r_delta_then"></OBJECT>
   <UL>
@@ -6270,16 +6391,21 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="df/dbe/Mlp_8cl_8c.html#ad134fe336117838ca1b8188caa1488d3"><param name="Name" value="r_osz_then"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="df/dbe/Mlp_8cl_8c.html#a304c5ce5ae3a851a07dba7103a65a7f3"><param name="Name" value="r_out"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="df/dbe/Mlp_8cl_8c.html#a3c9059a937229cecad80eed86c56e935"><param name="Name" value="r_out_then"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#ad8bf5b635b8b446ec584a0c6f9a605c0"><param name="Name" value="r_pool"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#a94d05222e981a063331169ad8e34dbb3"><param name="Name" value="r_ptr"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#a5d2a540019383f7cd32f6d4d18408b54"><param name="Name" value="r_ptrbias"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#ace35918970812315c84e8ff98647db99"><param name="Name" value="r_ptrweight"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html#aac732c6e0496d83c8a4c38d0c15fd316"><param name="Name" value="r_reterr"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html#ada3ef2d2b7361086a58409b30ffba6ec"><param name="Name" value="r_reterr"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html#aac732c6e0496d83c8a4c38d0c15fd316"><param name="Name" value="Slp.auto.def.cc"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html#ada3ef2d2b7361086a58409b30ffba6ec"><param name="Name" value="Slp.auto.def.cc"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html#aac732c6e0496d83c8a4c38d0c15fd316"><param name="Name" value="r_reterr"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html#aac732c6e0496d83c8a4c38d0c15fd316"><param name="Name" value="Slp.def.cc"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#ada3ef2d2b7361086a58409b30ffba6ec"><param name="Name" value="r_reterr"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#ada3ef2d2b7361086a58409b30ffba6ec"><param name="Name" value="SlpPool.def.cc"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html#af379f572c63575734ecb6cfa60e1cc95"><param name="Name" value="r_vkbuf"></OBJECT>
   <UL>
@@ -6315,6 +6441,7 @@
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="df/dbe/Mlp_8cl_8c.html#ac0d2e59cb51782465481b9ea960056ce"><param name="Name" value="r_weight"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="df/dbe/Mlp_8cl_8c.html#a6427d1dc4164dd1d5f29770d3cc2eec1"><param name="Name" value="r_weight_then"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a551ac4c4b200c1fbcaae4e328eabeae3"><param name="Name" value="range"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d7/daf/classae2f_1_1rBitVec.html#a6d53996f433c3f74e4c9fcdb4ff5df29"><param name="Name" value="rBitVec(const rBitVec&lt; T &gt; &amp;&amp;vec) noexcept"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d7/daf/classae2f_1_1rBitVec.html#aa7c34148eb8ff853c4738a27a9a8e48d"><param name="Name" value="rBitVec(const rBitVec&lt; T &gt; &amp;vec) noexcept"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d7/daf/classae2f_1_1rBitVec.html#a19fa206d7193902407db437e086a6814"><param name="Name" value="rBitVec(const t &amp;&amp;obj) noexcept"></OBJECT>
@@ -6566,15 +6693,15 @@
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html"><param name="Name" value="Slp.auto.def.cc"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html#ad047168d63362d0441329e70aeb5e748"><param name="Name" value="i_vkdescpoolcreatflags"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html#a8a06b5cb09eb2448eb42ccb6ad1227d4"><param name="Name" value="i_vkdescpoolcreatflags"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html"><param name="Name" value="Slp.auto.def.cc"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html#ad29ce21db065455273840df36fbf1490"><param name="Name" value="i_vkdescpoolsz_count"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html#a9738daae0473cb42bcbac2a8bdb5b7f2"><param name="Name" value="i_vkdescpoolsz_count"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html"><param name="Name" value="Slp.auto.def.cc"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html#a132566bec3964db633d3eebf07c51e6a"><param name="Name" value="i_vkdesctype"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html#a19f6730e14d93fd7b13153fa01116310"><param name="Name" value="i_vkdesctype"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html"><param name="Name" value="Slp.auto.def.cc"></OBJECT>
   <UL>
@@ -6810,7 +6937,7 @@
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html"><param name="Name" value="Slp.auto.def.cc"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html#aac732c6e0496d83c8a4c38d0c15fd316"><param name="Name" value="r_reterr"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html#ada3ef2d2b7361086a58409b30ffba6ec"><param name="Name" value="r_reterr"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html"><param name="Name" value="Slp.auto.def.cc"></OBJECT>
   <UL>
@@ -7126,15 +7253,19 @@
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html"><param name="Name" value="Slp.auto.h"></OBJECT>
   <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a411d69521f9d5a15d6d1c4a9ca0a79b7"><param name="Name" value="__ae2fVK_AnnSlpCreatDescPool_imp(v_descpool, iv_slp, r_vkdescpool, r_reterr, i_vkdescpoolcreatflags, i_vkdesctype, i_vkdescpoolsz_count, i_vkmaxdescsets)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html"><param name="Name" value="Slp.auto.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a680bfb645f487b198f012ba6425f9cb1"><param name="Name" value="__ae2fVK_AnnSlpCreatDescPoolVerbose_imp(v_vkdescpoolcreatinfo, v_vkdescpoolsz, r_vkdescpool, r_reterr, r_vkres, i_vkdev, i_vkptrAlloc, i_vkdescpoolcreatflags, i_vkdesctype, i_vkdescpoolsz_count, i_vkmaxdescsets)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html"><param name="Name" value="Slp.auto.h"></OBJECT>
+  <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#af390c2d055ff5d0f26ee790daae9c290"><param name="Name" value="__ae2fVK_AnnSlpDeltaMap(r_err, slp, ir_ptrdelta)"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html"><param name="Name" value="Slp.auto.h"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a70df7c4030e3ba2ad73ceeb58eb7acb8"><param name="Name" value="__ae2fVK_AnnSlpDeltaUnMap_imp(v_out, vi_slp)"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html"><param name="Name" value="Slp.auto.h"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#ab6b7e693543ecb489199eab759761ae6"><param name="Name" value="__ae2fVK_AnnSlpGetCmd_imp(COMMANDONRECORDING, v_getcmd, r_cmd, i_vkcmdbuf, i_inp, i_vkcmdbufuseflags, iv_slp, iv_err, i_desccount, i_offglob, i_szglob, i_offloc, i_szloc, i_descpool, i_desclayout, i_pipe, i_pipelayout)"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html"><param name="Name" value="Slp.auto.h"></OBJECT>
   <UL>
@@ -7158,10 +7289,6 @@
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html"><param name="Name" value="Slp.auto.h"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#aa791867410b356f64faca939ebaf6a26"><param name="Name" value="__ae2fVK_AnnSlpMapRanged_imp(v_map, r_err, slp, i_off, i_sz)"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html"><param name="Name" value="Slp.auto.h"></OBJECT>
-  <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a3ac1ba81adc94db7033fbf604f506521"><param name="Name" value="__ae2fVK_AnnSlpMapRangedGeneric_imp(T, v_vkmapmemrange, iv_slp, r_err, r_ptr, i_off, i_sz)"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html"><param name="Name" value="Slp.auto.h"></OBJECT>
@@ -7182,10 +7309,6 @@
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html"><param name="Name" value="Slp.auto.h"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a994414e74d987623adb4fb86592eca13"><param name="Name" value="__ae2fVK_AnnSlpMkCreatDescPool(CMDONERR, v_vkdescpoolcreatinfo, v_vkdescpoolsz, r_vkdescpool, r_reterr, r_vkres, i_vkdev, i_vkptrAlloc, i_vkdescpoolcreatflags, i_vkdesctype, i_vkdescpoolsz_count)"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html"><param name="Name" value="Slp.auto.h"></OBJECT>
-  <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a41bc7b7025e2203574f522ee01755144"><param name="Name" value="__ae2fVK_AnnSlpMkFndMemProp_imp(CMDONERR, r_memtypeidx, v_errbit, memtypeidx_invalid_minus_one, vkpropflag_req, vkphydevmemprops)"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html"><param name="Name" value="Slp.auto.h"></OBJECT>
@@ -7195,22 +7318,6 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html"><param name="Name" value="Slp.auto.h"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a7213c462cd75c422eec58c504fbab4a4"><param name="Name" value="__ae2fVK_AnnSlpMkOnePipeLayoutVerbose_imp(CMDONERR, v_vkpushconstrange, v_vkpipelayoutcreatinfo, r_reterr, iv_slpptr, idx, szrequired, vkalloccalls, vkdev)"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html"><param name="Name" value="Slp.auto.h"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a74449b903d25b13513535fc43cab29c0"><param name="Name" value="__ae2fVK_AnnSlpPredictFree_imp(iv_slp, iv_cmd)"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html"><param name="Name" value="Slp.auto.h"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#aa905733b23235a2f91928f5060f3c2a3"><param name="Name" value="__ae2fVK_AnnSlpPredictPerformed_imp(v_predict, r_cmd, i_vkcmdbuf, i_inp, i_vkcmdbufuseflags, iv_slp, iv_err)"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html"><param name="Name" value="Slp.auto.h"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a170f365e1b8442ee148648d97cf7747c"><param name="Name" value="__ae2fVK_AnnSlpTrainFree_imp(iv_slp, iv_cmd)"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html"><param name="Name" value="Slp.auto.h"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#aadbfdea3945b3819a3e1e77d193b9de4"><param name="Name" value="__ae2fVK_AnnSlpTrainPerformed_imp(v_predict, r_cmd, i_vkcmdbuf, i_inp, i_vkcmdbufuseflags, iv_slp, iv_err)"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html"><param name="Name" value="Slp.auto.h"></OBJECT>
   <UL>
@@ -7332,6 +7439,58 @@
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/dea/Slp_8cl_8c.html#a7b43763f37217bfe8b94df3159ba7e96"><param name="Name" value="p_weight"></OBJECT>
   </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d19/K_2Ann_2Slp_8core_8h.html"><param name="Name" value="Slp.core.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d19/K_2Ann_2Slp_8core_8h.html#a2f22eb7e8c60db949b4770c67ec07547"><param name="Name" value="__ae2fVK_AnnSlpBiasOff(i_inp, i_out)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d19/K_2Ann_2Slp_8core_8h.html"><param name="Name" value="Slp.core.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d19/K_2Ann_2Slp_8core_8h.html#a5c464ae976d0814ff1d1137f456b017c"><param name="Name" value="__ae2fVK_AnnSlpBiasSz(i_inp, i_out)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d19/K_2Ann_2Slp_8core_8h.html"><param name="Name" value="Slp.core.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d19/K_2Ann_2Slp_8core_8h.html#afb689d9d34d6fa36201ce72ebd799d90"><param name="Name" value="__ae2fVK_AnnSlpDeltaOff(i_inp, i_out)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d19/K_2Ann_2Slp_8core_8h.html"><param name="Name" value="Slp.core.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d19/K_2Ann_2Slp_8core_8h.html#a7c9ca2668d9ee2c963049158fedb34ba"><param name="Name" value="__ae2fVK_AnnSlpDeltaSz(i_inp, i_out)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d19/K_2Ann_2Slp_8core_8h.html"><param name="Name" value="Slp.core.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d19/K_2Ann_2Slp_8core_8h.html#aa326cb2d666f5fe8c72e27698b6f5cb5"><param name="Name" value="__ae2fVK_AnnSlpGlobSz(i_inp, i_out)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d19/K_2Ann_2Slp_8core_8h.html"><param name="Name" value="Slp.core.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d19/K_2Ann_2Slp_8core_8h.html#a30115c31c8970f2af1540f885bde96fa"><param name="Name" value="__ae2fVK_AnnSlpGoalOff(i_inp, i_out)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d19/K_2Ann_2Slp_8core_8h.html"><param name="Name" value="Slp.core.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d19/K_2Ann_2Slp_8core_8h.html#a0768868c5093ad72616565641c382005"><param name="Name" value="__ae2fVK_AnnSlpGoalSz(i_inp, i_out)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d19/K_2Ann_2Slp_8core_8h.html"><param name="Name" value="Slp.core.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d19/K_2Ann_2Slp_8core_8h.html#a68ef4c0f8f5db9de3a0b173cd70a7029"><param name="Name" value="__ae2fVK_AnnSlpInpOff(i_inp, i_out)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d19/K_2Ann_2Slp_8core_8h.html"><param name="Name" value="Slp.core.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d19/K_2Ann_2Slp_8core_8h.html#a428efc3bba5cc00fb50eb539d682216c"><param name="Name" value="__ae2fVK_AnnSlpInpSz(i_inp,...)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d19/K_2Ann_2Slp_8core_8h.html"><param name="Name" value="Slp.core.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d19/K_2Ann_2Slp_8core_8h.html#a3d2ea56ea7a898435b4a0ef1fbdc021f"><param name="Name" value="__ae2fVK_AnnSlpOutOff(i_inp, i_out)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d19/K_2Ann_2Slp_8core_8h.html"><param name="Name" value="Slp.core.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d19/K_2Ann_2Slp_8core_8h.html#aa80685eb5540cf225169fd45a4cd32b5"><param name="Name" value="__ae2fVK_AnnSlpOutSz(i_inp, i_out)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d19/K_2Ann_2Slp_8core_8h.html"><param name="Name" value="Slp.core.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d19/K_2Ann_2Slp_8core_8h.html#a9a872a0171becaaa08f541fc9efd5c36"><param name="Name" value="__ae2fVK_AnnSlpWeightOff(i_inp, i_out)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d19/K_2Ann_2Slp_8core_8h.html"><param name="Name" value="Slp.core.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d19/K_2Ann_2Slp_8core_8h.html#a5e7b2c70b77dd05a1811b103364e59b4"><param name="Name" value="__ae2fVK_AnnSlpWeightSz(i_inp, i_out)"></OBJECT>
+  </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="da/d6c/Ann_2Slp_8core_8h.html"><param name="Name" value="Slp.core.h"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="da/d6c/Ann_2Slp_8core_8h.html#ab1d6ae3edd3efac653b60819db33718c"><param name="Name" value="ae2f_structdef(struct, ae2f_AnnSlp_t)"></OBJECT>
@@ -7358,11 +7517,15 @@
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d19/K_2Ann_2Slp_8core_8h.html"><param name="Name" value="Slp.core.h"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d19/K_2Ann_2Slp_8core_8h.html#ad7a2a4444b54ed887add133b1ab234da"><param name="Name" value="ae2f_structdef(struct, ae2fVK_AnnSlpGetCmd_t)"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d19/K_2Ann_2Slp_8core_8h.html#a6add519d53db3668dd3a29e26b443adc"><param name="Name" value="ae2f_structdef(struct, ae2fVK_AnnSlpCreatDescPool_t)"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d19/K_2Ann_2Slp_8core_8h.html"><param name="Name" value="Slp.core.h"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d19/K_2Ann_2Slp_8core_8h.html#a9de39ef5be85204c16580afb7685572e"><param name="Name" value="ae2f_structdef(struct, ae2fVK_AnnSlpMap_t)"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d19/K_2Ann_2Slp_8core_8h.html#abdc01cb2e3fdcd6d915a0931e8aa46ba"><param name="Name" value="ae2f_structdef(struct, ae2fVK_AnnSlpCreatDescPoolU0_t)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d19/K_2Ann_2Slp_8core_8h.html"><param name="Name" value="Slp.core.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d19/K_2Ann_2Slp_8core_8h.html#a9a6b11765e4fed530c2b6c509929d403"><param name="Name" value="ae2f_structdef(struct, ae2fVK_AnnSlpDescPoolCmdMk_t)"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d19/K_2Ann_2Slp_8core_8h.html"><param name="Name" value="Slp.core.h"></OBJECT>
   <UL>
@@ -7379,10 +7542,6 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d19/K_2Ann_2Slp_8core_8h.html"><param name="Name" value="Slp.core.h"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d19/K_2Ann_2Slp_8core_8h.html#a352dd851851b35ddf0a637cff18eb8d0"><param name="Name" value="ae2f_structdef(struct, ae2fVK_AnnSlpPredictUnion0WrDescInfo_t)"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d19/K_2Ann_2Slp_8core_8h.html"><param name="Name" value="Slp.core.h"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d19/K_2Ann_2Slp_8core_8h.html#af5f7de797dce1ac6a079efc8cef27391"><param name="Name" value="ae2f_structdef(union, ae2fVK_AnnSlpMapPtr_t)"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d19/K_2Ann_2Slp_8core_8h.html"><param name="Name" value="Slp.core.h"></OBJECT>
   <UL>
@@ -7411,10 +7570,6 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="da/d6c/Ann_2Slp_8core_8h.html"><param name="Name" value="Slp.core.h"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="da/d6c/Ann_2Slp_8core_8h.html#a842200066727df3d64ef35f77cbc6191"><param name="Name" value="ae2f_structdef_n(struct, ae2f_AnnSlpFollowOne_t, ae2f_AnnSlpFitOne_t)"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d19/K_2Ann_2Slp_8core_8h.html"><param name="Name" value="Slp.core.h"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d19/K_2Ann_2Slp_8core_8h.html#a0f8c6a674b2000fc4f81ccf2b72b3eb5"><param name="Name" value="ae2f_structdef_n(struct, ae2fVK_AnnSlpCmd_t, ae2fVK_AnnSlpPredictCmd_t)"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d19/K_2Ann_2Slp_8core_8h.html"><param name="Name" value="Slp.core.h"></OBJECT>
   <UL>
@@ -7556,10 +7711,6 @@
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="d7/d63/ann_2Slp_8def_8cc.html#a1e867331628cd6d677a0d8e7e3ad19bb"><param name="Name" value="__ae2f_AnnSlpInit_imp(...)"></OBJECT>
   </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html"><param name="Name" value="Slp.def.cc"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html#aec246b2c9a207323ceaf247f26a8a7f6"><param name="Name" value="__ae2f_AnnSlpInitInpSz_imp((v_mk).m_U0.m_base.m_alloccount, 0, 0, 0, inc, outc)"></OBJECT>
-  </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d7/d63/ann_2Slp_8def_8cc.html"><param name="Name" value="Slp.def.cc"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="d7/d63/ann_2Slp_8def_8cc.html#ac07dab283dea5bfd0a3072d5d2988b13"><param name="Name" value="__ae2f_AnnSlpInitInpSz_imp(...)"></OBJECT>
@@ -7586,19 +7737,11 @@
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html"><param name="Name" value="Slp.def.cc"></OBJECT>
   <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html#ab2cb2a407a77e8d4c85eae2059249785"><param name="Name" value="__ae2fVK_AnnSlpMkAllocVKMem_imp(break;, __ae2fVK_AnnSlpGlobSz(inc, outc),(v_mk).m_U0.m_alter.m_ptr-&gt;m_vkres,(v_mk).m_U0.m_alter.m_ptr-&gt;m_vkglobbuf,(v_mk).m_U0.m_alter.m_ptr-&gt;m_vkglobdevmem,(v_mk).m_reterr,(v_mk).m_U1.m_vkbufcreatinfo,(v_mk).m_U1.m_vkmemallocinfo, VK_BUFFER_USAGE_STORAGE_BUFFER_BIT, VK_SHARING_MODE_EXCLUSIVE,(vkdev),(v_mk).m_U2.m_vkmemreqs,(vkalloccalls),(v_mk).m_U0.m_alter.m_i, UC..."></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html"><param name="Name" value="Slp.def.cc"></OBJECT>
+  <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html#a402a82374fb5b452180a9e036ad854dd"><param name="Name" value="__ae2fVK_AnnSlpMkAllocVKMem_imp(break;, sizeof(ae2f_float_t) *((outc)),(v_mk).m_U0.m_alter.m_ptr-&gt;m_vkres,(v_mk).m_U0.m_alter.m_ptr-&gt;m_vklocbuf,(v_mk).m_U0.m_alter.m_ptr-&gt;m_vklocdevmem,(v_mk).m_reterr,(v_mk).m_U1.m_vkbufcreatinfo,(v_mk).m_U1.m_vkmemallocinfo, VK_BUFFER_USAGE_STORAGE_BUFFER_BIT, VK_SHARING_MODE_EXCLUSIVE,(vkdev),(v_mk).m_U2.m_vkmemreqs,(vkalloccalls),(v_mk).m_U0.m_alter.m_i, UCHAR_..."></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html"><param name="Name" value="Slp.def.cc"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html#a638ff64662f9d13dda5ba6f1ccf3df93"><param name="Name" value="__ae2fVK_AnnSlpMkAllocVKMem_imp(break;,(v_mk).m_U0.m_base.m_alloccount,(v_mk).m_U0.m_alter.m_ptr-&gt;m_vkres,(v_mk).m_U0.m_alter.m_ptr-&gt;m_vkglobbuf,(v_mk).m_U0.m_alter.m_ptr-&gt;m_vkglobdevmem,(v_mk).m_reterr,(v_mk).m_U1.m_vkbufcreatinfo,(v_mk).m_U1.m_vkmemallocinfo, VK_BUFFER_USAGE_STORAGE_BUFFER_BIT, VK_SHARING_MODE_EXCLUSIVE,(vkdev),(v_mk).m_U2.m_vkmemreqs,(vkalloccalls),(v_mk).m_U0.m_alter.m_i, UCHA..."></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html"><param name="Name" value="Slp.def.cc"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html#a7ff4ee08b0f4e12871bbd86474f70edf"><param name="Name" value="__ae2fVK_AnnSlpMkCreatDescPool(break,(v_mk).m_U1.m_vkdescpoolcreatinfo,(v_mk).m_U2.m_vkdescpoolsz,(v_mk).m_U0.m_alter.m_ptr-&gt;m_vkdescpool[ae2fVK_eAnnSlpDescPools_kPredict],(v_mk).m_reterr,(v_mk).m_U0.m_alter.m_ptr-&gt;m_vkres,(vkdev),(vkalloccalls), VK_DESCRIPTOR_POOL_CREATE_FREE_DESCRIPTOR_SET_BIT, VK_DESCRIPTOR_TYPE_STORAGE_BUFFER, 1)"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html"><param name="Name" value="Slp.def.cc"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html#a6fb47cb2fae6e6b9de082365364d6791"><param name="Name" value="__ae2fVK_AnnSlpMkCreatDescPool(break,(v_mk).m_U1.m_vkdescpoolcreatinfo,(v_mk).m_U2.m_vkdescpoolsz,(v_mk).m_U0.m_alter.m_ptr-&gt;m_vkdescpool[ae2fVK_eAnnSlpDescPools_kTrain],(v_mk).m_reterr,(v_mk).m_U0.m_alter.m_ptr-&gt;m_vkres,(vkdev),(vkalloccalls), VK_DESCRIPTOR_POOL_CREATE_FREE_DESCRIPTOR_SET_BIT, VK_DESCRIPTOR_TYPE_STORAGE_BUFFER, 2)"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html"><param name="Name" value="Slp.def.cc"></OBJECT>
   <UL>
@@ -7742,10 +7885,6 @@
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html"><param name="Name" value="Slp.def.cc"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html#a001c7e46e4a2589aca9f6b93d767778e"><param name="Name" value="COMMANDONRECORDING"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html"><param name="Name" value="Slp.def.cc"></OBJECT>
-  <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html#a428d030d5339a71412fef57a24585c48"><param name="Name" value="descriptorCount"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html"><param name="Name" value="Slp.def.cc"></OBJECT>
@@ -7811,6 +7950,10 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html"><param name="Name" value="Slp.def.cc"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html#a8a1546058cc5fe9d53ac2bc3df7a90d4"><param name="Name" value="i_vkdev"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html"><param name="Name" value="Slp.def.cc"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html#aec13be8bde26d28c86fd2ac6dadb4511"><param name="Name" value="i_vkmaxdescsets"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html"><param name="Name" value="Slp.def.cc"></OBJECT>
   <UL>
@@ -7902,6 +8045,10 @@
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html"><param name="Name" value="Slp.def.cc"></OBJECT>
   <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html#ac32c5847df1bff42754485b7a5ea9ddd"><param name="Name" value="iv_slp"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html"><param name="Name" value="Slp.def.cc"></OBJECT>
+  <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html#a2dd8f648d9bb544dcc93960fa0416dda"><param name="Name" value="iv_slpptr"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html"><param name="Name" value="Slp.def.cc"></OBJECT>
@@ -7919,10 +8066,6 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html"><param name="Name" value="Slp.def.cc"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html#a653876ad890b0641cd897b4eedb3475d"><param name="Name" value="lossderiv"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html"><param name="Name" value="Slp.def.cc"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html#a45334b73ba878ab91c18eac3f9e48bff"><param name="Name" value="m_alloccount"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html"><param name="Name" value="Slp.def.cc"></OBJECT>
   <UL>
@@ -8308,6 +8451,14 @@
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="d7/db9/inc_2ae2fVK_2Ann_2Slp_8h.html#a927b6465894077f122d9dc23909d6258"><param name="Name" value="ae2f_structdef(struct, ae2fVK_AnnSlp)"></OBJECT>
   </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d7/db9/inc_2ae2fVK_2Ann_2Slp_8h.html"><param name="Name" value="Slp.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d7/db9/inc_2ae2fVK_2Ann_2Slp_8h.html#a2efd989ce0f062e9875aa75d82dcbae3"><param name="Name" value="ae2f_structdef(struct, ae2fVK_AnnSlpDescPool)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d7/db9/inc_2ae2fVK_2Ann_2Slp_8h.html"><param name="Name" value="Slp.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d7/db9/inc_2ae2fVK_2Ann_2Slp_8h.html#a3d6afeeb2782987a6be2b93ad5a76974"><param name="Name" value="ae2f_structdef(struct, ae2fVK_AnnSlpDescPoolCmd)"></OBJECT>
+  </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="db/dc7/src_2vk_2cl_2Slp_8h.html"><param name="Name" value="Slp.h"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="db/dc7/src_2vk_2cl_2Slp_8h.html#a0ab2e4cedc768f7c0317143701ebd50e"><param name="Name" value="clSlpPredict"></OBJECT>
@@ -8422,6 +8573,262 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d95/MlpTrainXOR-Primal_8c.html#a501722ada23d28cc20b7e164721abb91"><param name="Name" value="slplast"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d95/MlpTrainXOR-Primal_8c.html#a501722ada23d28cc20b7e164721abb91"><param name="Name" value="MlpTrainXOR-Primal.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/da0/SlpPool_8auto_8h.html"><param name="Name" value="SlpPool.auto.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/da0/SlpPool_8auto_8h.html#a3aedf5a7045308a5bfd7a9ecb607d8d3"><param name="Name" value="__ae2f_MACRO_GENERATED"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/da0/SlpPool_8auto_8h.html"><param name="Name" value="SlpPool.auto.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/da0/SlpPool_8auto_8h.html#adb6394ba079f595e2302200e222a8186"><param name="Name" value="__ae2fVK_AnnSlpDescPoolClean_imp(i_slp, i_pool)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/da0/SlpPool_8auto_8h.html"><param name="Name" value="SlpPool.auto.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/da0/SlpPool_8auto_8h.html#a75dab8ab7ce558fb80a6bf6c9338a5b0"><param name="Name" value="__ae2fVK_AnnSlpDescPoolCmdClean_imp(iv_slp, i_pool, i_cmd)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/da0/SlpPool_8auto_8h.html"><param name="Name" value="SlpPool.auto.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/da0/SlpPool_8auto_8h.html#acbac02b11fe77217430974a4e2b9ef81"><param name="Name" value="__ae2fVK_AnnSlpDescPoolCmdMk_imp(COMMANDONRECORDING, v_cmdmk, r_cmd, iv_slp, i_pool, iv_err, i_desccount, i_offglob, i_szglob, i_offloc, i_szloc, i_desclayout, i_pipe, i_pipelayout, i_vkcmdbuf)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/da0/SlpPool_8auto_8h.html"><param name="Name" value="SlpPool.auto.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/da0/SlpPool_8auto_8h.html#a6c41adf0faa17a5b71fa04431d7795d6"><param name="Name" value="__ae2fVK_AnnSlpDescPoolCmdMkPredict_imp(v_cmdmk, iv_slp, iv_err, i_pool, r_cmd, i_vkcmdbuf)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/da0/SlpPool_8auto_8h.html"><param name="Name" value="SlpPool.auto.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/da0/SlpPool_8auto_8h.html#a1c137032d84c690b9a692289d43ccae9"><param name="Name" value="__ae2fVK_AnnSlpDescPoolCmdMkTrain_imp(v_cmdmk, iv_slp, iv_err, i_pool, r_cmd, i_vkcmdbuf)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/da0/SlpPool_8auto_8h.html"><param name="Name" value="SlpPool.auto.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/da0/SlpPool_8auto_8h.html#a67847ec64f4ff1892cec03f32cb1115d"><param name="Name" value="__ae2fVK_AnnSlpDescPoolMk_imp(v_descpool, r_pool, r_reterr, iv_slp, i_vkdescpoolcreatflags, i_vkmaxdescsets)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/da0/SlpPool_8auto_8h.html"><param name="Name" value="SlpPool.auto.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/da0/SlpPool_8auto_8h.html#a586f0aa1de0272f2dfd31be9d22d9b0f"><param name="Name" value="__ae2fVK_AnnSlpDescPoolMkGeneric_imp(v_descpool, r_pool, r_reterr, iv_slp, i_vkdescpoolcreatflags, i_vkdesctype, i_vkdescpoolsz_count, i_vkmaxdescsets)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/da0/SlpPool_8auto_8h.html"><param name="Name" value="SlpPool.auto.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/da0/SlpPool_8auto_8h.html#a3187536210e6614657971787b3543953"><param name="Name" value="ae2fVK_AnnSlpPool_h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html"><param name="Name" value="SlpPool.def.cc"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a83d1d33bd836f74eb236197f77499326"><param name="Name" value="__ae2fVK_AnnSlpCreatDescPoolVerbose_imp((v_descpool).m_U0.m_vkdescpoolcreatinfo,(v_descpool).m_U0.m_vkdescpoolsz,(r_pool).m_vkdescpool, r_reterr,(iv_slp).m_vkres,(iv_slp).m_vkdev,(iv_slp).m_vkalloccalls, i_vkdescpoolcreatflags, i_vkdesctype, i_vkdescpoolsz_count, i_vkmaxdescsets)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html"><param name="Name" value="SlpPool.def.cc"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a7e3d6025a4d28bb2fcdd706a826fb0de"><param name="Name" value="ae2f_MAC() _ae2fVK_AnnSlpDescPoolMkGeneric_imp(ae2fVK_AnnSlpCreatDescPool_t v_descpool"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html"><param name="Name" value="SlpPool.def.cc"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a146e7e176e5cd60de703e29e1851d4c3"><param name="Name" value="ae2f_MAC(COMMANDONRECORDING,) _ae2fVK_AnnSlpDescPoolCmdMk_imp(ae2fVK_AnnSlpDescPoolCmdMk_t v_cmdmk"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html"><param name="Name" value="SlpPool.def.cc"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a7841b9b971e34dc9cf4edbd7ec0e0da4"><param name="Name" value="assert((iv_err)==ae2f_errGlob_OK &amp;&amp;&quot;r_err&#39;s state is bad.&quot;)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html"><param name="Name" value="SlpPool.def.cc"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#abc732b574a359a20cbf9bb172fdbc44f"><param name="Name" value="assert((iv_slp).m_vkdev)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html"><param name="Name" value="SlpPool.def.cc"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#ad1c59d9ed575678242f50c3388dbe0ec"><param name="Name" value="assert((v_cmdmk).m_u0.m_vkdescsetallocinfo.pSetLayouts)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html"><param name="Name" value="SlpPool.def.cc"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#abcef95bfd78a39a615fa6401fd49429f"><param name="Name" value="assert((v_cmdmk).m_u0.m_vkdescsetallocinfo.pSetLayouts[i_desclayout])"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html"><param name="Name" value="SlpPool.def.cc"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a978d3899bf4c267126844035978b438b"><param name="Name" value="assert(r_reterr==ae2f_errGlob_OK)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html"><param name="Name" value="SlpPool.def.cc"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#ace8d632d41e43264840af5bed3ffe92b"><param name="Name" value="buffer"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html"><param name="Name" value="SlpPool.def.cc"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a001c7e46e4a2589aca9f6b93d767778e"><param name="Name" value="COMMANDONRECORDING"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html"><param name="Name" value="SlpPool.def.cc"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a26e4198df8dac25f4e0ec04ac5d01c1f"><param name="Name" value="descriptorCount"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html"><param name="Name" value="SlpPool.def.cc"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#aaaba1fa433972c6915199f2a653d2731"><param name="Name" value="descriptorPool"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html"><param name="Name" value="SlpPool.def.cc"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a02c98409bb19b701812331416290d777"><param name="Name" value="descriptorSetCount"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html"><param name="Name" value="SlpPool.def.cc"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a38514af05e9d47d43ba27aa55e6c4bc0"><param name="Name" value="descriptorType"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html"><param name="Name" value="SlpPool.def.cc"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a721c6ff80a6d3e4ad4ffa52a04c60085"><param name="Name" value="do"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html"><param name="Name" value="SlpPool.def.cc"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a803dc99dfb7e0a1fa5aa822db01494ff"><param name="Name" value="dstArrayElement"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html"><param name="Name" value="SlpPool.def.cc"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a68bf977d7297ba71a423040fa38b538c"><param name="Name" value="dstBinding"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html"><param name="Name" value="SlpPool.def.cc"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#ab9c1531bc4cc8e406ce1c732740e1f40"><param name="Name" value="dstSet"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html"><param name="Name" value="SlpPool.def.cc"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a8f74b61e573116c2e5651482a285b173"><param name="Name" value="flags"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html"><param name="Name" value="SlpPool.def.cc"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a7119b0f65e336f020f14ed4d4bde26fa"><param name="Name" value="i_cmd"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html"><param name="Name" value="SlpPool.def.cc"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#af5e4d80b9ca28d253bee81924edb4419"><param name="Name" value="i_desccount"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html"><param name="Name" value="SlpPool.def.cc"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a5de4e0790888862f28072d4b12279c97"><param name="Name" value="i_desclayout"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html"><param name="Name" value="SlpPool.def.cc"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#ad74a51dbd2a2c81899ba51e45008de31"><param name="Name" value="i_offglob"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html"><param name="Name" value="SlpPool.def.cc"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#af68bf83fe6f9f2fa9702c85898bedbaa"><param name="Name" value="i_offloc"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html"><param name="Name" value="SlpPool.def.cc"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a7eeef7e80b40f0c6aac68b40ffcec6ad"><param name="Name" value="i_pipe"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html"><param name="Name" value="SlpPool.def.cc"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#ac6d0395424ca874a336967401aec66ca"><param name="Name" value="i_pipelayout"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html"><param name="Name" value="SlpPool.def.cc"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a65ad59e1f2202a8e17edc061aa66c0f9"><param name="Name" value="i_pool"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html"><param name="Name" value="SlpPool.def.cc"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a8ce81ab660112b319c514e5b3a0e04a8"><param name="Name" value="i_szglob"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html"><param name="Name" value="SlpPool.def.cc"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#aca73bcdb8ddee712235dfdd6eb839375"><param name="Name" value="i_szloc"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html"><param name="Name" value="SlpPool.def.cc"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#ae345405141299ce88ff448c6b459efff"><param name="Name" value="i_vkcmdbuf"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html"><param name="Name" value="SlpPool.def.cc"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a8a06b5cb09eb2448eb42ccb6ad1227d4"><param name="Name" value="i_vkdescpoolcreatflags"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html"><param name="Name" value="SlpPool.def.cc"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a4a4352b5d73e6b412b946b46adaaba1f"><param name="Name" value="i_vkdescpoolsz_count"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html"><param name="Name" value="SlpPool.def.cc"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a22e78412cb7c0447f4feda8a93c26901"><param name="Name" value="i_vkdesctype"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html"><param name="Name" value="SlpPool.def.cc"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#aec13be8bde26d28c86fd2ac6dadb4511"><param name="Name" value="i_vkmaxdescsets"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html"><param name="Name" value="SlpPool.def.cc"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#aec9a1a03325ce7841cdf09bb3754ed5c"><param name="Name" value="if(((iv_slp).m_vkres !=VK_SUCCESS))(iv_err)|"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html"><param name="Name" value="SlpPool.def.cc"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#afb730cbac71605a4cfcaed864a9c8872"><param name="Name" value="if(((iv_slp).m_vkres=vkBeginCommandBuffer(i_vkcmdbuf, &amp;(v_cmdmk).m_u0.m_vkcmdbufbeginfo)) !=VK_SUCCESS)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html"><param name="Name" value="SlpPool.def.cc"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a12c2e04770b32e0bc2b87a1524988f9e"><param name="Name" value="if((iv_slp).m_vkres !=VK_SUCCESS)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html"><param name="Name" value="SlpPool.def.cc"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a6602ff080e2de6d954d8404e302343c7"><param name="Name" value="if((r_reterr)) assert(!&quot;__ae2fVK_AnnSlpCreatDescPoolVerbose_imp has failed.&quot;)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html"><param name="Name" value="SlpPool.def.cc"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a1b4c78d44332c2648d98b2315c1023c3"><param name="Name" value="iv_err"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html"><param name="Name" value="SlpPool.def.cc"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#ac32c5847df1bff42754485b7a5ea9ddd"><param name="Name" value="iv_slp"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html"><param name="Name" value="SlpPool.def.cc"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a6831623c5634f31fa4fe0adc6b28136c"><param name="Name" value="offset"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html"><param name="Name" value="SlpPool.def.cc"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a063d9bf1120e5a968e062992c425e121"><param name="Name" value="pBufferInfo"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html"><param name="Name" value="SlpPool.def.cc"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#afa909710d4e1b52ec1438fbeabae5f98"><param name="Name" value="pImageInfo"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html"><param name="Name" value="SlpPool.def.cc"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#ab70c02daf0caa5d1ab2854d98e11ef6a"><param name="Name" value="pInheritanceInfo"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html"><param name="Name" value="SlpPool.def.cc"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#ac6edc8b2a64ab96c67143910e2d4b5aa"><param name="Name" value="pNext"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html"><param name="Name" value="SlpPool.def.cc"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a7090df556b6d45f0dca5e29cf4ad1c21"><param name="Name" value="pSetLayouts"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html"><param name="Name" value="SlpPool.def.cc"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a0bcbb6a3cce5df626fd579b9e1a61cda"><param name="Name" value="r_cmd"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html"><param name="Name" value="SlpPool.def.cc"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#ad8bf5b635b8b446ec584a0c6f9a605c0"><param name="Name" value="r_pool"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html"><param name="Name" value="SlpPool.def.cc"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#ada3ef2d2b7361086a58409b30ffba6ec"><param name="Name" value="r_reterr"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html"><param name="Name" value="SlpPool.def.cc"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a551ac4c4b200c1fbcaae4e328eabeae3"><param name="Name" value="range"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html"><param name="Name" value="SlpPool.def.cc"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#afeb258e56fd18d7cdf18114fb24676d4"><param name="Name" value="sType"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html"><param name="Name" value="SlpPool.def.cc"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a6f5bf410d371fa81c0c3a6021360cb89"><param name="Name" value="unless((r_pool).m_vkdescpool)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html"><param name="Name" value="SlpPool.def.cc"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a7ae1f5a0d9ae8f046fe504e4d3a7d042"><param name="Name" value="vkCmdBindDescriptorSets(i_vkcmdbuf, VK_PIPELINE_BIND_POINT_COMPUTE,(iv_slp).m_vkpipelayout[i_pipelayout], 0, 1, &amp;(r_cmd).m_vkdescset, 0, NULL)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html"><param name="Name" value="SlpPool.def.cc"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a8417f1202a935a387c87168f1c440364"><param name="Name" value="vkCmdBindPipeline(i_vkcmdbuf, VK_PIPELINE_BIND_POINT_COMPUTE,(iv_slp).m_vkpipeline[i_pipe])"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html"><param name="Name" value="SlpPool.def.cc"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a35ed1bdb6979f3b6ce752ff09d7ace3b"><param name="Name" value="vkUpdateDescriptorSets(iv_slp.m_vkdev, 1, &amp;(v_cmdmk).m_u0.m_vkdescwrdescinfo.m_wrset, 0, NULL)"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/da4/SlpPredict-Primal_8c.html"><param name="Name" value="SlpPredict-Primal.c"></OBJECT>
   <UL>
@@ -8736,9 +9143,9 @@
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="d9/d66/FileRaw_2build_2CMakeFiles_24_81_820250830-g8275211-dirty_2CompilerIdCXX_2CMakeCXXCompilerId_8cpp.html#a2ae9b72bb13abaabfcf2ee0ba7d3fa1d"><param name="Name" value="CMakeCXXCompilerId.cpp"></OBJECT>
   </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#add66219216d0c7b7c6dcf85e1200f74f"><param name="Name" value="sType"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#afeb258e56fd18d7cdf18114fb24676d4"><param name="Name" value="sType"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#add66219216d0c7b7c6dcf85e1200f74f"><param name="Name" value="Mlp.def.cc"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#afeb258e56fd18d7cdf18114fb24676d4"><param name="Name" value="Mlp.def.cc"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html#a1f9cdfec1ff9dc0df2d64fa9405fbbaa"><param name="Name" value="sType"></OBJECT>
   <UL>
@@ -8747,6 +9154,10 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html#add66219216d0c7b7c6dcf85e1200f74f"><param name="Name" value="sType"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html#add66219216d0c7b7c6dcf85e1200f74f"><param name="Name" value="Slp.def.cc"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#afeb258e56fd18d7cdf18114fb24676d4"><param name="Name" value="sType"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#afeb258e56fd18d7cdf18114fb24676d4"><param name="Name" value="SlpPool.def.cc"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html#abf31089f2bcadf6c43cbd1cea79119a3"><param name="Name" value="switch(clspvCompileFromSourcesString(1, ae2f_reinterpret_cast(const size_t *, NULL), ae2f_const_cast(const char **restrict,(&amp;(v_mk).m_U3.m_openclsrc)),&quot;&quot; &quot;-pod-pushconstant &quot; &quot;-cl-fast-relaxed-math &quot; &quot;-cl-single-precision-constant&quot;, &amp;(v_mk).m_U1.m_spirv_c, &amp;(v_mk).m_U0.m_spirv_len, &amp;(v_mk).m_U2.m_log))"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/de1/ann_2Mlp_8def_8cc.html#a27b9ff9f047cccd5c9f99a25473bcd4b"><param name="Name" value="sz"></OBJECT>
@@ -8845,6 +9256,7 @@
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html#acfc901046738ca731eebb8e8d0ca7448"><param name="Name" value="Slp.def.cc"></OBJECT>
   </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a6f5bf410d371fa81c0c3a6021360cb89"><param name="Name" value="unless((r_pool).m_vkdescpool)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html#acc020b96466dcd09567c1b47da1114d9"><param name="Name" value="unless((r_vkbuf))"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html#acc020b96466dcd09567c1b47da1114d9"><param name="Name" value="Slp.auto.def.cc"></OBJECT>
@@ -8875,8 +9287,8 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#a1772229ca24f5ebc5799beed896d9d12"><param name="Name" value="unless((v_mk).m_U0.m_mkswap.m_mkbase)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#afa62035e09eba95f59c7724eb079a92b"><param name="Name" value="unless((v_mk).m_U0.m_mkswap.m_mkbase-&gt;m_vkshadermodule)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#a1159a7358b016d137802d38f5f09d8bd"><param name="Name" value="unless((v_mk).m_U1.m_clsrc_v)"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#a76540564a36d089f339d012075499ec5"><param name="Name" value="unless((v_mk).m_U1.m_map.m_map.m_v)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#a3fe6c4ec336f372cd17ea0553aab57c3"><param name="Name" value="unless((v_mk).m_U2.m_vkshadermodcreatinfo.pCode)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d55/vk_2Mlp_8def_8cc.html#af3d0449f5751a30b6dd400d21d09d595"><param name="Name" value="unless((v_mk).m_U3.m_mapped)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html#adf3c14c49cd4337fcc943bd794d3d696"><param name="Name" value="unless((v_mk).m_union.m_alter.m_ptr-&gt;m_vkdescsetlayout[0])"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html#a0cae4eb301ec60e7606cd7b828ab797e"><param name="Name" value="unless((v_mk).m_union.m_alter.m_ptr-&gt;m_vkdescsetlayout[1])"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html#a915e038b007bec56282f5d3eff6e1977"><param name="Name" value="unless((v_mk).m_union.m_alter.m_ptr-&gt;m_vkshadermodule)"></OBJECT>
@@ -9026,6 +9438,8 @@
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html#a3032cb305cf6fce89d0083a800b8aa96"><param name="Name" value="Slp.def.cc"></OBJECT>
   </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a7ae1f5a0d9ae8f046fe504e4d3a7d042"><param name="Name" value="vkCmdBindDescriptorSets(i_vkcmdbuf, VK_PIPELINE_BIND_POINT_COMPUTE,(iv_slp).m_vkpipelayout[i_pipelayout], 0, 1, &amp;(r_cmd).m_vkdescset, 0, NULL)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a8417f1202a935a387c87168f1c440364"><param name="Name" value="vkCmdBindPipeline(i_vkcmdbuf, VK_PIPELINE_BIND_POINT_COMPUTE,(iv_slp).m_vkpipeline[i_pipe])"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html#a6e9e879252ef5de9b4825208ae6854a6"><param name="Name" value="vkdev"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d94/Slp_8auto_8def_8cc.html#a6e9e879252ef5de9b4825208ae6854a6"><param name="Name" value="Slp.auto.def.cc"></OBJECT>
@@ -9076,6 +9490,7 @@
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d96/vk_2Slp_8def_8cc.html#a303b059c7724aea7b4926cf4e564ecea"><param name="Name" value="Slp.def.cc"></OBJECT>
   </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d54/SlpPool_8def_8cc.html#a35ed1bdb6979f3b6ce752ff09d7ace3b"><param name="Name" value="vkUpdateDescriptorSets(iv_slp.m_vkdev, 1, &amp;(v_cmdmk).m_u0.m_vkdescwrdescinfo.m_wrset, 0, NULL)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/d82/a_8cpp.html#af05fcd47800614276bdc914142fde77e"><param name="Name" value="voidconv"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/d80/WaitWake_8c.html"><param name="Name" value="WaitWake.c"></OBJECT>
   <UL>

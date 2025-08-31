@@ -430,11 +430,6 @@
 <section title="__ae2fVK_AnnMlpMapOutStream_imp" ref="d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h.html#a91909ba4fa2ba9d498e192de902e2474"/>
 <section title="__ae2fVK_AnnMlpMapWB_imp" ref="d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h.html#a7faf565f4c6381714d20c7c22eca0425"/>
 <section title="__ae2fVK_AnnMlpMk_imp" ref="d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h.html#af76282f7a8fc1378225327bf3d4e517d"/>
-<section title="__ae2fVK_AnnMlpPerformedFree_imp" ref="d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h.html#a139c5b3166a2ee76960a93d135f55eb1"/>
-<section title="__ae2fVK_AnnMlpPredictPerformed_imp" ref="d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h.html#a5336cca429191804c2e657d2e64c020b"/>
-<section title="__ae2fVK_AnnMlpPredictPerformedFree_imp" ref="d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h.html#a046905918d53cd7fa26b605bddc113f7"/>
-<section title="__ae2fVK_AnnMlpTrainPerformed_imp" ref="d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h.html#a62cf233a35221a5ed3a3d9cc4863b103"/>
-<section title="__ae2fVK_AnnMlpTrainPerformedFree_imp" ref="d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h.html#ae1d129427fb76b3e85b96a296064bebf"/>
 <section title="__ae2fVK_AnnMlpUnMapGoal_imp" ref="d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h.html#a696a70c387ac86bffb6bce19befa7c74"/>
 <section title="__ae2fVK_AnnMlpUnMapOutStream_imp" ref="d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h.html#a127d4b3298567b7ceac4849248c3898c"/>
 <section title="__ae2fVK_AnnMlpUnMapWB_imp" ref="d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h.html#aa60a2e7649e5a32307b4b60dd9645c58"/>
@@ -445,6 +440,10 @@
 <section title="__ae2fVK_AnnMlpBiasSz" ref="dd/d9e/K_2Ann_2Mlp_8core_8h.html#ae619aedca258563c3c29204033267021"/>
 <section title="__ae2fVK_AnnMlpDeltaStreamOff" ref="dd/d9e/K_2Ann_2Mlp_8core_8h.html#afb8399c1a9999150d5c8cce16702b4fd"/>
 <section title="__ae2fVK_AnnMlpDeltaStreamSz" ref="dd/d9e/K_2Ann_2Mlp_8core_8h.html#a449dd4def7224d00fee6480c8254749e"/>
+<section title="__ae2fVK_AnnMlpDescPoolClean_imp" ref="dd/d9e/K_2Ann_2Mlp_8core_8h.html#aa166f7f8ed945fe7872414bdd66ce0d5"/>
+<section title="__ae2fVK_AnnMlpDescPoolCmdClean_imp" ref="dd/d9e/K_2Ann_2Mlp_8core_8h.html#abbc17c49524a38e1ff496a69d16229a4"/>
+<section title="__ae2fVK_AnnMlpDescPoolCmdMk_imp" ref="dd/d9e/K_2Ann_2Mlp_8core_8h.html#ae52b72bc3b83194d55ff745ce34b0db1"/>
+<section title="__ae2fVK_AnnMlpDescPoolMk_imp" ref="dd/d9e/K_2Ann_2Mlp_8core_8h.html#a75c555d000d300ecead4aeb4c9e38565"/>
 <section title="__ae2fVK_AnnMlpGlobMemSz" ref="dd/d9e/K_2Ann_2Mlp_8core_8h.html#aeca8bcd35aa014c5bb5ecab659c8df76"/>
 <section title="__ae2fVK_AnnMlpGoalOff" ref="dd/d9e/K_2Ann_2Mlp_8core_8h.html#aacb57ddab1a63df9c70583c9c0d80a07"/>
 <section title="__ae2fVK_AnnMlpGoalSz" ref="dd/d9e/K_2Ann_2Mlp_8core_8h.html#a526494a3b10460c0dd646a0b81541e8b"/>
@@ -456,7 +455,7 @@
 <section title="__ae2fVK_AnnMlpUnMapRanged_imp" ref="dd/d9e/K_2Ann_2Mlp_8core_8h.html#a3476549a3fc5d72f7514bae3588bb81b"/>
 <section title="__ae2fVK_AnnMlpWeightOff" ref="dd/d9e/K_2Ann_2Mlp_8core_8h.html#a7cc9e5af6525a837d775351489ec3daa"/>
 <section title="__ae2fVK_AnnMlpWeightSz" ref="dd/d9e/K_2Ann_2Mlp_8core_8h.html#ad89b8fef366ca852e8e1943e78e2ea89"/>
-<section title="ae2fVK_AnnMlpMap_t" ref="dd/d9e/K_2Ann_2Mlp_8core_8h.html#a4848590f388a6f7fba91a45efaa58c61"/>
+<section title="ae2fVK_AnnMlpDescPoolCmdMk_t" ref="dd/d9e/K_2Ann_2Mlp_8core_8h.html#ac98c5400b3076810e2b50118445bcbfe"/>
 <section title="ae2fVK_AnnMlpMapRangedGeneric_t" ref="dd/d9e/K_2Ann_2Mlp_8core_8h.html#a69acfbc3f39b530e2b681fff5f81dbca"/>
 <section title="ae2fVK_AnnMlpUnMap_t" ref="dd/d9e/K_2Ann_2Mlp_8core_8h.html#a4038e68a80b413f00a0404dd5fb508b7"/>
 <section title="ae2f_enumdef" ref="dd/d9e/K_2Ann_2Mlp_8core_8h.html#aae87a0d0e63652b6f82bbe076765b024"/>
@@ -474,7 +473,22 @@
 <section title="ae2f_structdef" ref="dd/d9e/K_2Ann_2Mlp_8core_8h.html#ac1681ed55fafc01f61979672ac126c26"/>
 </section>
 <section title="Mlp.h" ref="db/d62/inc_2ae2fVK_2Ann_2Mlp_8h.html">
+<section title="ae2fVK_AnnMlpCreatDescPool_t" ref="db/d62/inc_2ae2fVK_2Ann_2Mlp_8h.html#a1bc8f8f95907d9646b3d57117e05ea82"/>
+<section title="ae2fVK_AnnMlpDescPool" ref="db/d62/inc_2ae2fVK_2Ann_2Mlp_8h.html#ad081d2061027df8c326999d6bdda1773"/>
+<section title="ae2fVK_AnnMlpDescPoolCmd" ref="db/d62/inc_2ae2fVK_2Ann_2Mlp_8h.html#a18c6efe3779192110f0b70fbccb8a9c7"/>
 <section title="ae2f_structdef" ref="db/d62/inc_2ae2fVK_2Ann_2Mlp_8h.html#aef4fb22b8ce6ffdc66cf83d623a6ab5a"/>
+</section>
+<section title="MlpPool.auto.h" ref="df/d45/MlpPool_8auto_8h.html">
+<section title="__ae2f_MACRO_GENERATED" ref="df/d45/MlpPool_8auto_8h.html#a3aedf5a7045308a5bfd7a9ecb607d8d3"/>
+<section title="__ae2f_MACRO_GENERATED" ref="df/d45/MlpPool_8auto_8h.html#a3aedf5a7045308a5bfd7a9ecb607d8d3"/>
+<section title="__ae2f_MACRO_GENERATED" ref="df/d45/MlpPool_8auto_8h.html#a3aedf5a7045308a5bfd7a9ecb607d8d3"/>
+<section title="__ae2f_MACRO_GENERATED" ref="df/d45/MlpPool_8auto_8h.html#a3aedf5a7045308a5bfd7a9ecb607d8d3"/>
+<section title="__ae2f_MACRO_GENERATED" ref="df/d45/MlpPool_8auto_8h.html#a3aedf5a7045308a5bfd7a9ecb607d8d3"/>
+<section title="__ae2f_MACRO_GENERATED" ref="df/d45/MlpPool_8auto_8h.html#a3aedf5a7045308a5bfd7a9ecb607d8d3"/>
+<section title="__ae2f_MACRO_GENERATED" ref="df/d45/MlpPool_8auto_8h.html#a3aedf5a7045308a5bfd7a9ecb607d8d3"/>
+<section title="__ae2fVK_AnnMlpDescPoolCmdMkPredict_imp" ref="df/d45/MlpPool_8auto_8h.html#af4507132b44d4909c14472636ce051f2"/>
+<section title="__ae2fVK_AnnMlpDescPoolCmdMkTrain_imp" ref="df/d45/MlpPool_8auto_8h.html#af3757af385f9d4a512e64fac3a2ddc8c"/>
+<section title="ae2fVK_AnnMlpPool_h" ref="df/d45/MlpPool_8auto_8h.html#a5067effb70b56b23ecc9c4fb5e946137"/>
 </section>
 <section title="MlpSHADER.auto.h" ref="d5/df3/MlpSHADER_8auto_8h.html">
 <section title="ae2fVK_AnnMlpSHADER" ref="d5/df3/MlpSHADER_8auto_8h.html#a762f4702fac0377162c110d98460d416"/>
@@ -488,28 +502,23 @@
 <section title="__ae2f_MACRO_GENERATED" ref="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a3aedf5a7045308a5bfd7a9ecb607d8d3"/>
 <section title="__ae2f_MACRO_GENERATED" ref="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a3aedf5a7045308a5bfd7a9ecb607d8d3"/>
 <section title="__ae2fVK_AnnSlpClean_imp" ref="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#af96318aad887bdff6fe960699d1f3658"/>
+<section title="__ae2fVK_AnnSlpCreatDescPool_imp" ref="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a411d69521f9d5a15d6d1c4a9ca0a79b7"/>
+<section title="__ae2fVK_AnnSlpCreatDescPoolVerbose_imp" ref="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a680bfb645f487b198f012ba6425f9cb1"/>
 <section title="__ae2fVK_AnnSlpDeltaMap" ref="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#af390c2d055ff5d0f26ee790daae9c290"/>
 <section title="__ae2fVK_AnnSlpDeltaUnMap_imp" ref="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a70df7c4030e3ba2ad73ceeb58eb7acb8"/>
-<section title="__ae2fVK_AnnSlpGetCmd_imp" ref="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#ab6b7e693543ecb489199eab759761ae6"/>
 <section title="__ae2fVK_AnnSlpGoalMap" ref="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#acaf74d888c905092a2b03023548d0a7b"/>
 <section title="__ae2fVK_AnnSlpGoalUnMap_imp" ref="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a763485f59f16dba5bbce2923add25acd"/>
 <section title="__ae2fVK_AnnSlpIOMap" ref="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a5eaa7dc4fd300d9331fb33f20be7cc6b"/>
 <section title="__ae2fVK_AnnSlpIOUnMap_imp" ref="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#ada71cd04c5fadd260ad45e43e934a960"/>
 <section title="__ae2fVK_AnnSlpMap_imp" ref="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a52d1569188715e4fc6c718992d9f1dca"/>
-<section title="__ae2fVK_AnnSlpMapRanged_imp" ref="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#aa791867410b356f64faca939ebaf6a26"/>
 <section title="__ae2fVK_AnnSlpMapRangedGeneric_imp" ref="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a3ac1ba81adc94db7033fbf604f506521"/>
 <section title="__ae2fVK_AnnSlpMk_imp" ref="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a862f98350c5fb9534de570d1afe34f66"/>
 <section title="__ae2fVK_AnnSlpMkAllocVKMem_imp" ref="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#af26fa8c87b4eea07cc66064d66bacd33"/>
 <section title="__ae2fVK_AnnSlpMkCLSPVVerbose_imp" ref="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a28dd3679d7e841c98d785f704c7ee691"/>
 <section title="__ae2fVK_AnnSlpMkCreatBuf" ref="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a480fa17277b6ec7930d4fd3a5074199a"/>
-<section title="__ae2fVK_AnnSlpMkCreatDescPool" ref="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a994414e74d987623adb4fb86592eca13"/>
 <section title="__ae2fVK_AnnSlpMkFndMemProp_imp" ref="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a41bc7b7025e2203574f522ee01755144"/>
 <section title="__ae2fVK_AnnSlpMkLoadPipeCreat_imp" ref="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a5fdf5137d55c6c7d768c873cbfddbedf"/>
 <section title="__ae2fVK_AnnSlpMkOnePipeLayoutVerbose_imp" ref="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a7213c462cd75c422eec58c504fbab4a4"/>
-<section title="__ae2fVK_AnnSlpPredictFree_imp" ref="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a74449b903d25b13513535fc43cab29c0"/>
-<section title="__ae2fVK_AnnSlpPredictPerformed_imp" ref="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#aa905733b23235a2f91928f5060f3c2a3"/>
-<section title="__ae2fVK_AnnSlpTrainFree_imp" ref="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a170f365e1b8442ee148648d97cf7747c"/>
-<section title="__ae2fVK_AnnSlpTrainPerformed_imp" ref="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#aadbfdea3945b3819a3e1e77d193b9de4"/>
 <section title="__ae2fVK_AnnSlpUnMap_imp" ref="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a9dfc1f53c9abf8baacdf69e1d5f51eb9"/>
 <section title="__ae2fVK_AnnSlpUnMapRanged_imp" ref="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#ab6d21fd3ffcd285a3ddbd558b8b54bb6"/>
 <section title="__ae2fVK_AnnSlpWBMap" ref="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a7836264027396e54b3b861ff978d50ea"/>
@@ -518,6 +527,19 @@
 <section title="CMDONERR" ref="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#aab2511313b9058fbf3d5680961c6a1e1"/>
 </section>
 <section title="Slp.core.h" ref="d1/d19/K_2Ann_2Slp_8core_8h.html">
+<section title="__ae2fVK_AnnSlpBiasOff" ref="d1/d19/K_2Ann_2Slp_8core_8h.html#a2f22eb7e8c60db949b4770c67ec07547"/>
+<section title="__ae2fVK_AnnSlpBiasSz" ref="d1/d19/K_2Ann_2Slp_8core_8h.html#a5c464ae976d0814ff1d1137f456b017c"/>
+<section title="__ae2fVK_AnnSlpDeltaOff" ref="d1/d19/K_2Ann_2Slp_8core_8h.html#afb689d9d34d6fa36201ce72ebd799d90"/>
+<section title="__ae2fVK_AnnSlpDeltaSz" ref="d1/d19/K_2Ann_2Slp_8core_8h.html#a7c9ca2668d9ee2c963049158fedb34ba"/>
+<section title="__ae2fVK_AnnSlpGlobSz" ref="d1/d19/K_2Ann_2Slp_8core_8h.html#aa326cb2d666f5fe8c72e27698b6f5cb5"/>
+<section title="__ae2fVK_AnnSlpGoalOff" ref="d1/d19/K_2Ann_2Slp_8core_8h.html#a30115c31c8970f2af1540f885bde96fa"/>
+<section title="__ae2fVK_AnnSlpGoalSz" ref="d1/d19/K_2Ann_2Slp_8core_8h.html#a0768868c5093ad72616565641c382005"/>
+<section title="__ae2fVK_AnnSlpInpOff" ref="d1/d19/K_2Ann_2Slp_8core_8h.html#a68ef4c0f8f5db9de3a0b173cd70a7029"/>
+<section title="__ae2fVK_AnnSlpInpSz" ref="d1/d19/K_2Ann_2Slp_8core_8h.html#a428efc3bba5cc00fb50eb539d682216c"/>
+<section title="__ae2fVK_AnnSlpOutOff" ref="d1/d19/K_2Ann_2Slp_8core_8h.html#a3d2ea56ea7a898435b4a0ef1fbdc021f"/>
+<section title="__ae2fVK_AnnSlpOutSz" ref="d1/d19/K_2Ann_2Slp_8core_8h.html#aa80685eb5540cf225169fd45a4cd32b5"/>
+<section title="__ae2fVK_AnnSlpWeightOff" ref="d1/d19/K_2Ann_2Slp_8core_8h.html#a9a872a0171becaaa08f541fc9efd5c36"/>
+<section title="__ae2fVK_AnnSlpWeightSz" ref="d1/d19/K_2Ann_2Slp_8core_8h.html#a5e7b2c70b77dd05a1811b103364e59b4"/>
 <section title="clspv_restrict" ref="d1/d19/K_2Ann_2Slp_8core_8h.html#a942eef1e22a2ba4545043254e7137c8f"/>
 <section title="ae2fVK_AnnSlpMapRangedGeneric_t" ref="d1/d19/K_2Ann_2Slp_8core_8h.html#a58ac34e5aa6a351f1e047893189350fc"/>
 <section title="ae2fVK_AnnSlpUnMap_t" ref="d1/d19/K_2Ann_2Slp_8core_8h.html#aaa75a781f839f6cab53966023844a040"/>
@@ -550,22 +572,39 @@
 <section title="ae2fVK_eAnnSlpPipes_LEN" ref="d1/d19/K_2Ann_2Slp_8core_8h.html#ace9030caf1604420760965b10159a2d6a91df73d01622382f65d780a7904a1ea0"/>
 </section>
 <section title="ae2f_structdef" ref="d1/d19/K_2Ann_2Slp_8core_8h.html#a927b6465894077f122d9dc23909d6258"/>
-<section title="ae2f_structdef" ref="d1/d19/K_2Ann_2Slp_8core_8h.html#ad7a2a4444b54ed887add133b1ab234da"/>
-<section title="ae2f_structdef" ref="d1/d19/K_2Ann_2Slp_8core_8h.html#a9de39ef5be85204c16580afb7685572e"/>
+<section title="ae2f_structdef" ref="d1/d19/K_2Ann_2Slp_8core_8h.html#a6add519d53db3668dd3a29e26b443adc"/>
+<section title="ae2f_structdef" ref="d1/d19/K_2Ann_2Slp_8core_8h.html#abdc01cb2e3fdcd6d915a0931e8aa46ba"/>
+<section title="ae2f_structdef" ref="d1/d19/K_2Ann_2Slp_8core_8h.html#a9a6b11765e4fed530c2b6c509929d403"/>
 <section title="ae2f_structdef" ref="d1/d19/K_2Ann_2Slp_8core_8h.html#a8d454b7e178375ceb8a80ab237c10c0d"/>
 <section title="ae2f_structdef" ref="d1/d19/K_2Ann_2Slp_8core_8h.html#ab38b2e420e56e70aadcf0a2ea1ccd10b"/>
 <section title="ae2f_structdef" ref="d1/d19/K_2Ann_2Slp_8core_8h.html#ad4cc9141c50ed36dd69fa7ae87cdbb6a"/>
 <section title="ae2f_structdef" ref="d1/d19/K_2Ann_2Slp_8core_8h.html#a352dd851851b35ddf0a637cff18eb8d0"/>
-<section title="ae2f_structdef" ref="d1/d19/K_2Ann_2Slp_8core_8h.html#af5f7de797dce1ac6a079efc8cef27391"/>
 <section title="ae2f_structdef" ref="d1/d19/K_2Ann_2Slp_8core_8h.html#a0bd1613753d2d2bda88b083068e7c13e"/>
 <section title="ae2f_structdef" ref="d1/d19/K_2Ann_2Slp_8core_8h.html#a93c6abea0bd4c9c24e8f03f0230fa867"/>
 <section title="ae2f_structdef" ref="d1/d19/K_2Ann_2Slp_8core_8h.html#afadce9745837255101e0228d44e49c39"/>
 <section title="ae2f_structdef" ref="d1/d19/K_2Ann_2Slp_8core_8h.html#a39c451fffb3de9990448d10bc812d25b"/>
 <section title="ae2f_structdef" ref="d1/d19/K_2Ann_2Slp_8core_8h.html#a243abc5b872336ec705c859e60a50e3b"/>
-<section title="ae2f_structdef_n" ref="d1/d19/K_2Ann_2Slp_8core_8h.html#a0f8c6a674b2000fc4f81ccf2b72b3eb5"/>
 </section>
 <section title="Slp.h" ref="d7/db9/inc_2ae2fVK_2Ann_2Slp_8h.html">
 <section title="ae2f_structdef" ref="d7/db9/inc_2ae2fVK_2Ann_2Slp_8h.html#a927b6465894077f122d9dc23909d6258"/>
+<section title="ae2f_structdef" ref="d7/db9/inc_2ae2fVK_2Ann_2Slp_8h.html#a2efd989ce0f062e9875aa75d82dcbae3"/>
+<section title="ae2f_structdef" ref="d7/db9/inc_2ae2fVK_2Ann_2Slp_8h.html#a3d6afeeb2782987a6be2b93ad5a76974"/>
+</section>
+<section title="SlpPool.auto.h" ref="d0/da0/SlpPool_8auto_8h.html">
+<section title="__ae2f_MACRO_GENERATED" ref="d0/da0/SlpPool_8auto_8h.html#a3aedf5a7045308a5bfd7a9ecb607d8d3"/>
+<section title="__ae2f_MACRO_GENERATED" ref="d0/da0/SlpPool_8auto_8h.html#a3aedf5a7045308a5bfd7a9ecb607d8d3"/>
+<section title="__ae2f_MACRO_GENERATED" ref="d0/da0/SlpPool_8auto_8h.html#a3aedf5a7045308a5bfd7a9ecb607d8d3"/>
+<section title="__ae2f_MACRO_GENERATED" ref="d0/da0/SlpPool_8auto_8h.html#a3aedf5a7045308a5bfd7a9ecb607d8d3"/>
+<section title="__ae2f_MACRO_GENERATED" ref="d0/da0/SlpPool_8auto_8h.html#a3aedf5a7045308a5bfd7a9ecb607d8d3"/>
+<section title="__ae2f_MACRO_GENERATED" ref="d0/da0/SlpPool_8auto_8h.html#a3aedf5a7045308a5bfd7a9ecb607d8d3"/>
+<section title="__ae2fVK_AnnSlpDescPoolClean_imp" ref="d0/da0/SlpPool_8auto_8h.html#adb6394ba079f595e2302200e222a8186"/>
+<section title="__ae2fVK_AnnSlpDescPoolCmdClean_imp" ref="d0/da0/SlpPool_8auto_8h.html#a75dab8ab7ce558fb80a6bf6c9338a5b0"/>
+<section title="__ae2fVK_AnnSlpDescPoolCmdMk_imp" ref="d0/da0/SlpPool_8auto_8h.html#acbac02b11fe77217430974a4e2b9ef81"/>
+<section title="__ae2fVK_AnnSlpDescPoolCmdMkPredict_imp" ref="d0/da0/SlpPool_8auto_8h.html#a6c41adf0faa17a5b71fa04431d7795d6"/>
+<section title="__ae2fVK_AnnSlpDescPoolCmdMkTrain_imp" ref="d0/da0/SlpPool_8auto_8h.html#a1c137032d84c690b9a692289d43ccae9"/>
+<section title="__ae2fVK_AnnSlpDescPoolMk_imp" ref="d0/da0/SlpPool_8auto_8h.html#a67847ec64f4ff1892cec03f32cb1115d"/>
+<section title="__ae2fVK_AnnSlpDescPoolMkGeneric_imp" ref="d0/da0/SlpPool_8auto_8h.html#a586f0aa1de0272f2dfd31be9d22d9b0f"/>
+<section title="ae2fVK_AnnSlpPool_h" ref="d0/da0/SlpPool_8auto_8h.html#a3187536210e6614657971787b3543953"/>
 </section>
 <section title="SlpSHADER.auto.h" ref="de/d62/SlpSHADER_8auto_8h.html">
 <section title="ae2fVK_AnnSlpSHADER" ref="de/d62/SlpSHADER_8auto_8h.html#a59d3c7b69b783ee39ea63cc71cfbb795"/>
@@ -878,14 +917,11 @@
 </section>
 </section>
 <section title="Mlp.def.cc" ref="dd/d55/vk_2Mlp_8def_8cc.html">
-<section title="__ae2fVK_AnnMlpPredictPerformedFree_imp" ref="dd/d55/vk_2Mlp_8def_8cc.html#a046905918d53cd7fa26b605bddc113f7"/>
-<section title="__ae2fVK_AnnMlpTrainPerformedFree_imp" ref="dd/d55/vk_2Mlp_8def_8cc.html#ae1d129427fb76b3e85b96a296064bebf"/>
 <section title="__ae2f_AnnMlpMk_imp" ref="dd/d55/vk_2Mlp_8def_8cc.html#a38c4a4043ce74633500706db1e4141ad"/>
-<section title="__ae2fVK_AnnMlpMapRangedGeneric_imp" ref="dd/d55/vk_2Mlp_8def_8cc.html#a7d49309e9a686061ebd818a017b73cfe"/>
+<section title="__ae2fVK_AnnMlpMapRangedGeneric_imp" ref="dd/d55/vk_2Mlp_8def_8cc.html#a492fca55c8db3d0952cee057c54f61e6"/>
 <section title="__ae2fVK_AnnMlpUnMapRanged_imp" ref="dd/d55/vk_2Mlp_8def_8cc.html#afcb356891059fd8c2fa21df9d6d62a60"/>
 <section title="__ae2fVK_AnnSlpMkAllocVKMem_imp" ref="dd/d55/vk_2Mlp_8def_8cc.html#a2c07e41fd65288eaf59bb2913b2195ea"/>
 <section title="__ae2fVK_AnnSlpMkAllocVKMem_imp" ref="dd/d55/vk_2Mlp_8def_8cc.html#aaafd2e28317f65e83bbbd274f2d8a33a"/>
-<section title="__ae2fVK_AnnSlpMkCreatDescPool" ref="dd/d55/vk_2Mlp_8def_8cc.html#a066b69c306550d5396b5748597c2f2f3"/>
 <section title="__ae2fVK_AnnSlpMkLoadPipeCreat_imp" ref="dd/d55/vk_2Mlp_8def_8cc.html#a0d5a30032258beff72877507ee926438"/>
 <section title="__ae2fVK_AnnSlpMkLoadPipeCreat_imp" ref="dd/d55/vk_2Mlp_8def_8cc.html#a1fdd467a5ad05311712e0bdbb76fec1b"/>
 <section title="__ae2fVK_AnnSlpMkLoadPipeCreat_imp" ref="dd/d55/vk_2Mlp_8def_8cc.html#a68902b9b81b7a6c878f4fbb545ced914"/>
@@ -893,10 +929,8 @@
 <section title="__ae2fVK_AnnSlpMkOnePipeLayoutVerbose_imp" ref="dd/d55/vk_2Mlp_8def_8cc.html#a675414e7b0884b20be67e7a6109720e3"/>
 <section title="__ae2fVK_AnnSlpMkOnePipeLayoutVerbose_imp" ref="dd/d55/vk_2Mlp_8def_8cc.html#aab7a47a784dadaf757c5dc11dee15afe"/>
 <section title="ae2f_MAC" ref="dd/d55/vk_2Mlp_8def_8cc.html#a9884141a14d1b921a15be1bf3e8c8ed8"/>
-<section title="assert" ref="dd/d55/vk_2Mlp_8def_8cc.html#a0b7082358320aa4cd01290360624c209"/>
 <section title="assert" ref="dd/d55/vk_2Mlp_8def_8cc.html#a7e1b0eb4ed3f60b15b8596f92ab4728f"/>
 <section title="assert" ref="dd/d55/vk_2Mlp_8def_8cc.html#ae2eea41e7bec1377ce21dc1c1199afdc"/>
-<section title="assert" ref="dd/d55/vk_2Mlp_8def_8cc.html#a2e59241722098886cd1813fd4001e481"/>
 <section title="assert" ref="dd/d55/vk_2Mlp_8def_8cc.html#ab24e02e84f2dd24d2b4d2b87f09298fe"/>
 <section title="assert" ref="dd/d55/vk_2Mlp_8def_8cc.html#a3247e232d6629d0c2b9e5b086ddc6c80"/>
 <section title="assert" ref="dd/d55/vk_2Mlp_8def_8cc.html#a722b9d5b306d1a2a84ef7b072649dcc1"/>
@@ -917,8 +951,8 @@
 <section title="unless" ref="dd/d55/vk_2Mlp_8def_8cc.html#a1772229ca24f5ebc5799beed896d9d12"/>
 <section title="unless" ref="dd/d55/vk_2Mlp_8def_8cc.html#afa62035e09eba95f59c7724eb079a92b"/>
 <section title="unless" ref="dd/d55/vk_2Mlp_8def_8cc.html#a1159a7358b016d137802d38f5f09d8bd"/>
-<section title="unless" ref="dd/d55/vk_2Mlp_8def_8cc.html#a76540564a36d089f339d012075499ec5"/>
 <section title="unless" ref="dd/d55/vk_2Mlp_8def_8cc.html#a3fe6c4ec336f372cd17ea0553aab57c3"/>
+<section title="unless" ref="dd/d55/vk_2Mlp_8def_8cc.html#af3d0449f5751a30b6dd400d21d09d595"/>
 <section title="while" ref="dd/d55/vk_2Mlp_8def_8cc.html#abe5a37ddf47f6a1002417b39f25590b9"/>
 <section title="while" ref="dd/d55/vk_2Mlp_8def_8cc.html#a098743d779e56b73e35c8b85cea01cb8"/>
 <section title="while" ref="dd/d55/vk_2Mlp_8def_8cc.html#a8ca9996595b367352d5665c3ee092ffa"/>
@@ -931,7 +965,6 @@
 <section title="i_act" ref="dd/d55/vk_2Mlp_8def_8cc.html#a831dac2321571ed7a5ada7f0c6802f7a"/>
 <section title="i_actderiv" ref="dd/d55/vk_2Mlp_8def_8cc.html#a65b9b3b4433d178d8af9676e408119cd"/>
 <section title="i_extra" ref="dd/d55/vk_2Mlp_8def_8cc.html#a3a75e395dde532b73958782ee1ce0702"/>
-<section title="i_inp" ref="dd/d55/vk_2Mlp_8def_8cc.html#a79483f9c8d9157abf8d9deff38091f7e"/>
 <section title="i_learningrate" ref="dd/d55/vk_2Mlp_8def_8cc.html#a4875047649b6fc2e9c948d8a6691b5fa"/>
 <section title="i_learningrate_bias" ref="dd/d55/vk_2Mlp_8def_8cc.html#a67d1f89b351db63eb4bc49203dd67f9d"/>
 <section title="i_len" ref="dd/d55/vk_2Mlp_8def_8cc.html#ac642568c58833add3999a2d346148d27"/>
@@ -941,15 +974,11 @@
 <section title="i_prm_offset" ref="dd/d55/vk_2Mlp_8def_8cc.html#a786a786642b111e815c1abc32fbe416b"/>
 <section title="i_vkcldeclaration" ref="dd/d55/vk_2Mlp_8def_8cc.html#a98e2d2952f79e57b90b03b52d3dc6b10"/>
 <section title="i_vkcldefinition" ref="dd/d55/vk_2Mlp_8def_8cc.html#a6a90bf0d3749b068a678f1f7160d8f2a"/>
-<section title="i_vkcmdbuf" ref="dd/d55/vk_2Mlp_8def_8cc.html#a6aad060ce9d08f34ab6026f288ddf812"/>
-<section title="i_vkcmdbufuseflags" ref="dd/d55/vk_2Mlp_8def_8cc.html#a819780f979709a022eddc445f347063a"/>
 <section title="i_vkdev" ref="dd/d55/vk_2Mlp_8def_8cc.html#a71fccccf25b17b73d6451b5c8db0704d"/>
 <section title="i_vkmemprops" ref="dd/d55/vk_2Mlp_8def_8cc.html#a2e9d7d10b14ae486983f29113cf9c356"/>
 <section title="iv_bias_opt" ref="dd/d55/vk_2Mlp_8def_8cc.html#a116386ce41dee282c796aa6e4f1e4c95"/>
-<section title="iv_cmd" ref="dd/d55/vk_2Mlp_8def_8cc.html#a24f46033988a7eaff03c49f39d30fb9a"/>
 <section title="iv_deltastream_opt" ref="dd/d55/vk_2Mlp_8def_8cc.html#a5ef5027237aa122f5d77fd4553aa782f"/>
-<section title="iv_err" ref="dd/d55/vk_2Mlp_8def_8cc.html#a8082dfa02b5f43101c41da56dde7a58a"/>
-<section title="iv_mlp" ref="dd/d55/vk_2Mlp_8def_8cc.html#a63da2e7991d264578f1c66f37db73da9"/>
+<section title="iv_mlp" ref="dd/d55/vk_2Mlp_8def_8cc.html#a8421a900a429f51dd22c0536adb0caa4"/>
 <section title="iv_outstream_opt" ref="dd/d55/vk_2Mlp_8def_8cc.html#a49e4464446cd7e07ce0de4ba750d4df1"/>
 <section title="iv_vkalloccalls" ref="dd/d55/vk_2Mlp_8def_8cc.html#a2378b8e60f575de6ca5d6361af0d8209"/>
 <section title="iv_weight_opt" ref="dd/d55/vk_2Mlp_8def_8cc.html#a6ed0b38983de2d8c3f42c5c30e307b1b"/>
@@ -961,11 +990,10 @@
 <section title="offset" ref="dd/d55/vk_2Mlp_8def_8cc.html#ad690ea2319d9a69e68245928938043f4"/>
 <section title="pBindings" ref="dd/d55/vk_2Mlp_8def_8cc.html#a1d75df0ce5524611e58a3f68caa1ea29"/>
 <section title="pImmutableSamplers" ref="dd/d55/vk_2Mlp_8def_8cc.html#adc8c90dd36c1ed4c03368175862fbcc6"/>
-<section title="pNext" ref="dd/d55/vk_2Mlp_8def_8cc.html#a016095eb7d74691d94e1723c6ff784a4"/>
+<section title="pNext" ref="dd/d55/vk_2Mlp_8def_8cc.html#ac6edc8b2a64ab96c67143910e2d4b5aa"/>
 <section title="pPushConstantRanges" ref="dd/d55/vk_2Mlp_8def_8cc.html#a8a7f624483a91e52be0bcde2d95e67f2"/>
 <section title="pSetLayouts" ref="dd/d55/vk_2Mlp_8def_8cc.html#af5add0a0beb32f341f7f1c5054076a7b"/>
 <section title="pushConstantRangeCount" ref="dd/d55/vk_2Mlp_8def_8cc.html#a822a78724b0688a85fdd825115f31e76"/>
-<section title="r_cmd" ref="dd/d55/vk_2Mlp_8def_8cc.html#a6166e784c0dad290dfbd1a372bc1953c"/>
 <section title="r_err" ref="dd/d55/vk_2Mlp_8def_8cc.html#ac253a252a0ffeb11bfdaecefb94b5a34"/>
 <section title="r_ptr" ref="dd/d55/vk_2Mlp_8def_8cc.html#a94d05222e981a063331169ad8e34dbb3"/>
 <section title="r_ptrbias" ref="dd/d55/vk_2Mlp_8def_8cc.html#a5d2a540019383f7cd32f6d4d18408b54"/>
@@ -973,7 +1001,15 @@
 <section title="setLayoutCount" ref="dd/d55/vk_2Mlp_8def_8cc.html#aab0964771725d1179eb2bf1a7ff26bc2"/>
 <section title="size" ref="dd/d55/vk_2Mlp_8def_8cc.html#af37819feb82df912cee55d3ba005f368"/>
 <section title="stageFlags" ref="dd/d55/vk_2Mlp_8def_8cc.html#a3c1fe3632d79920a1ccf49831d8a9b32"/>
-<section title="sType" ref="dd/d55/vk_2Mlp_8def_8cc.html#add66219216d0c7b7c6dcf85e1200f74f"/>
+<section title="sType" ref="dd/d55/vk_2Mlp_8def_8cc.html#afeb258e56fd18d7cdf18114fb24676d4"/>
+</section>
+<section title="MlpPool.def.cc" ref="d5/d07/MlpPool_8def_8cc.html">
+<section title="ae2f_MAC" ref="d5/d07/MlpPool_8def_8cc.html#acb6e9d03bad46f83e447c0419f7b394d"/>
+<section title="i_pool" ref="d5/d07/MlpPool_8def_8cc.html#a65ad59e1f2202a8e17edc061aa66c0f9"/>
+<section title="i_vkcmdbuf" ref="d5/d07/MlpPool_8def_8cc.html#ae345405141299ce88ff448c6b459efff"/>
+<section title="iv_err" ref="d5/d07/MlpPool_8def_8cc.html#a1b4c78d44332c2648d98b2315c1023c3"/>
+<section title="iv_mlp" ref="d5/d07/MlpPool_8def_8cc.html#a8421a900a429f51dd22c0536adb0caa4"/>
+<section title="r_cmd" ref="d5/d07/MlpPool_8def_8cc.html#a0bcbb6a3cce5df626fd579b9e1a61cda"/>
 </section>
 <section title="MlpSHADER.inc.c" ref="db/dbd/MlpSHADER_8inc_8c.html">
 <section title="ae2fVK_AnnMlpSHADER" ref="db/dbd/MlpSHADER_8inc_8c.html#a762f4702fac0377162c110d98460d416"/>
@@ -1057,9 +1093,9 @@
 <section title="flags" ref="de/d94/Slp_8auto_8def_8cc.html#aaec734890048ed7e49d9f8f7586e33ff"/>
 <section title="i_first" ref="de/d94/Slp_8auto_8def_8cc.html#ad58dfac2046819d0a133f9dd4ade99be"/>
 <section title="i_second" ref="de/d94/Slp_8auto_8def_8cc.html#ae8e62c449fefcf8e085c914fae24293b"/>
-<section title="i_vkdescpoolcreatflags" ref="de/d94/Slp_8auto_8def_8cc.html#ad047168d63362d0441329e70aeb5e748"/>
-<section title="i_vkdescpoolsz_count" ref="de/d94/Slp_8auto_8def_8cc.html#ad29ce21db065455273840df36fbf1490"/>
-<section title="i_vkdesctype" ref="de/d94/Slp_8auto_8def_8cc.html#a132566bec3964db633d3eebf07c51e6a"/>
+<section title="i_vkdescpoolcreatflags" ref="de/d94/Slp_8auto_8def_8cc.html#a8a06b5cb09eb2448eb42ccb6ad1227d4"/>
+<section title="i_vkdescpoolsz_count" ref="de/d94/Slp_8auto_8def_8cc.html#a9738daae0473cb42bcbac2a8bdb5b7f2"/>
+<section title="i_vkdesctype" ref="de/d94/Slp_8auto_8def_8cc.html#a19f6730e14d93fd7b13153fa01116310"/>
 <section title="i_vkdev" ref="de/d94/Slp_8auto_8def_8cc.html#a8a1546058cc5fe9d53ac2bc3df7a90d4"/>
 <section title="i_vkptrAlloc" ref="de/d94/Slp_8auto_8def_8cc.html#a63db14009c088486ba1e4b2800836fbb"/>
 <section title="idx" ref="de/d94/Slp_8auto_8def_8cc.html#aca1f6bd029e64b504229bf1c44a79d20"/>
@@ -1102,7 +1138,7 @@
 <section title="pSpecializationInfo" ref="de/d94/Slp_8auto_8def_8cc.html#a2c60330acce74fc648a159e8b445e9d8"/>
 <section title="pushConstantRangeCount" ref="de/d94/Slp_8auto_8def_8cc.html#af315d729f1a85c4e5dc82ed3eb6a9597"/>
 <section title="queueFamilyIndexCount" ref="de/d94/Slp_8auto_8def_8cc.html#ace3779286348cb735a87b5ff3367fc2c"/>
-<section title="r_reterr" ref="de/d94/Slp_8auto_8def_8cc.html#aac732c6e0496d83c8a4c38d0c15fd316"/>
+<section title="r_reterr" ref="de/d94/Slp_8auto_8def_8cc.html#ada3ef2d2b7361086a58409b30ffba6ec"/>
 <section title="r_vkbuf" ref="de/d94/Slp_8auto_8def_8cc.html#af379f572c63575734ecb6cfa60e1cc95"/>
 <section title="r_vkdescpool" ref="de/d94/Slp_8auto_8def_8cc.html#a7bd9be9e0a504bcb14e1c23dc2a11d94"/>
 <section title="r_vkdevmem" ref="de/d94/Slp_8auto_8def_8cc.html#ae4270cced401bb60d632f8917c8b5f69"/>
@@ -1138,13 +1174,9 @@
 <section title="Slp.def.cc" ref="dc/d96/vk_2Slp_8def_8cc.html">
 <section title="ae2fVK_Ann_Slp_c" ref="dc/d96/vk_2Slp_8def_8cc.html#a93afcd0716939d54c8d24bb8005c5379"/>
 <section title="CMDONERR" ref="dc/d96/vk_2Slp_8def_8cc.html#aab2511313b9058fbf3d5680961c6a1e1"/>
-<section title="COMMANDONRECORDING" ref="dc/d96/vk_2Slp_8def_8cc.html#a001c7e46e4a2589aca9f6b93d767778e"/>
 <section title="T" ref="dc/d96/vk_2Slp_8def_8cc.html#a0acb682b8260ab1c60b918599864e2e5"/>
-<section title="__ae2f_AnnSlpInitInpSz_imp" ref="dc/d96/vk_2Slp_8def_8cc.html#aec246b2c9a207323ceaf247f26a8a7f6"/>
+<section title="__ae2fVK_AnnSlpMkAllocVKMem_imp" ref="dc/d96/vk_2Slp_8def_8cc.html#ab2cb2a407a77e8d4c85eae2059249785"/>
 <section title="__ae2fVK_AnnSlpMkAllocVKMem_imp" ref="dc/d96/vk_2Slp_8def_8cc.html#a402a82374fb5b452180a9e036ad854dd"/>
-<section title="__ae2fVK_AnnSlpMkAllocVKMem_imp" ref="dc/d96/vk_2Slp_8def_8cc.html#a638ff64662f9d13dda5ba6f1ccf3df93"/>
-<section title="__ae2fVK_AnnSlpMkCreatDescPool" ref="dc/d96/vk_2Slp_8def_8cc.html#a7ff4ee08b0f4e12871bbd86474f70edf"/>
-<section title="__ae2fVK_AnnSlpMkCreatDescPool" ref="dc/d96/vk_2Slp_8def_8cc.html#a6fb47cb2fae6e6b9de082365364d6791"/>
 <section title="__ae2fVK_AnnSlpMkFndMemProp_imp" ref="dc/d96/vk_2Slp_8def_8cc.html#a22d16ad4e2f1187e5d79a782cc62763c"/>
 <section title="__ae2fVK_AnnSlpMkLoadPipeCreat_imp" ref="dc/d96/vk_2Slp_8def_8cc.html#a6b8b0906570cafd3c03c90c202c72ca7"/>
 <section title="__ae2fVK_AnnSlpMkLoadPipeCreat_imp" ref="dc/d96/vk_2Slp_8def_8cc.html#af1f681f31a65c5b10168109d55907cb2"/>
@@ -1216,18 +1248,19 @@
 <section title="i_vkdescpoolsz_count" ref="dc/d96/vk_2Slp_8def_8cc.html#ad29ce21db065455273840df36fbf1490"/>
 <section title="i_vkdesctype" ref="dc/d96/vk_2Slp_8def_8cc.html#a132566bec3964db633d3eebf07c51e6a"/>
 <section title="i_vkdev" ref="dc/d96/vk_2Slp_8def_8cc.html#a8a1546058cc5fe9d53ac2bc3df7a90d4"/>
+<section title="i_vkmaxdescsets" ref="dc/d96/vk_2Slp_8def_8cc.html#aec13be8bde26d28c86fd2ac6dadb4511"/>
 <section title="i_vkptrAlloc" ref="dc/d96/vk_2Slp_8def_8cc.html#a63db14009c088486ba1e4b2800836fbb"/>
 <section title="idx" ref="dc/d96/vk_2Slp_8def_8cc.html#aca1f6bd029e64b504229bf1c44a79d20"/>
 <section title="idx_pipe" ref="dc/d96/vk_2Slp_8def_8cc.html#af5be3fe859569af453c1575b955e8036"/>
 <section title="idx_pipelayout" ref="dc/d96/vk_2Slp_8def_8cc.html#a09d6588fdbace0ed5cede84559e3afc4"/>
 <section title="inc" ref="dc/d96/vk_2Slp_8def_8cc.html#ac1051c8b9350221a0df3cb5a030b5f27"/>
 <section title="ir_err" ref="dc/d96/vk_2Slp_8def_8cc.html#ad512058a0001c4a6eec521fa81f785b3"/>
+<section title="iv_slp" ref="dc/d96/vk_2Slp_8def_8cc.html#ac32c5847df1bff42754485b7a5ea9ddd"/>
 <section title="iv_slpptr" ref="dc/d96/vk_2Slp_8def_8cc.html#a2dd8f648d9bb544dcc93960fa0416dda"/>
 <section title="layout" ref="dc/d96/vk_2Slp_8def_8cc.html#aee37e9b9f189505b9efd320e4d0bd6ba"/>
 <section title="learningrate" ref="dc/d96/vk_2Slp_8def_8cc.html#ab4e4d1730fabe6d6bb1a601188415eba"/>
 <section title="learningrate_bias" ref="dc/d96/vk_2Slp_8def_8cc.html#a0e89c023096b7c71b28da399709d8733"/>
 <section title="lossderiv" ref="dc/d96/vk_2Slp_8def_8cc.html#a653876ad890b0641cd897b4eedb3475d"/>
-<section title="m_alloccount" ref="dc/d96/vk_2Slp_8def_8cc.html#a45334b73ba878ab91c18eac3f9e48bff"/>
 <section title="m_loc" ref="dc/d96/vk_2Slp_8def_8cc.html#a3170cbf737ef4fc9f708794cb106d880"/>
 <section title="m_log" ref="dc/d96/vk_2Slp_8def_8cc.html#a2546f86ac7eec59d20cacccd1934d82d"/>
 <section title="m_reterr" ref="dc/d96/vk_2Slp_8def_8cc.html#aa7396fd34acbd90cfc67391433d40663"/>
@@ -1290,6 +1323,63 @@
 <section title="weight_opt" ref="dc/d96/vk_2Slp_8def_8cc.html#a59d6a381678371e03a308ab0b8dd4be9"/>
 </section>
 <section title="Slp.imp.c" ref="d3/d8a/vk_2Slp_8imp_8c.html"/>
+<section title="SlpPool.def.cc" ref="d4/d54/SlpPool_8def_8cc.html">
+<section title="COMMANDONRECORDING" ref="d4/d54/SlpPool_8def_8cc.html#a001c7e46e4a2589aca9f6b93d767778e"/>
+<section title="__ae2fVK_AnnSlpCreatDescPoolVerbose_imp" ref="d4/d54/SlpPool_8def_8cc.html#a83d1d33bd836f74eb236197f77499326"/>
+<section title="ae2f_MAC" ref="d4/d54/SlpPool_8def_8cc.html#a7e3d6025a4d28bb2fcdd706a826fb0de"/>
+<section title="ae2f_MAC" ref="d4/d54/SlpPool_8def_8cc.html#a146e7e176e5cd60de703e29e1851d4c3"/>
+<section title="assert" ref="d4/d54/SlpPool_8def_8cc.html#a7841b9b971e34dc9cf4edbd7ec0e0da4"/>
+<section title="assert" ref="d4/d54/SlpPool_8def_8cc.html#abc732b574a359a20cbf9bb172fdbc44f"/>
+<section title="assert" ref="d4/d54/SlpPool_8def_8cc.html#ad1c59d9ed575678242f50c3388dbe0ec"/>
+<section title="assert" ref="d4/d54/SlpPool_8def_8cc.html#abcef95bfd78a39a615fa6401fd49429f"/>
+<section title="assert" ref="d4/d54/SlpPool_8def_8cc.html#a978d3899bf4c267126844035978b438b"/>
+<section title="if" ref="d4/d54/SlpPool_8def_8cc.html#aec9a1a03325ce7841cdf09bb3754ed5c"/>
+<section title="if" ref="d4/d54/SlpPool_8def_8cc.html#afb730cbac71605a4cfcaed864a9c8872"/>
+<section title="if" ref="d4/d54/SlpPool_8def_8cc.html#a12c2e04770b32e0bc2b87a1524988f9e"/>
+<section title="if" ref="d4/d54/SlpPool_8def_8cc.html#a6602ff080e2de6d954d8404e302343c7"/>
+<section title="unless" ref="d4/d54/SlpPool_8def_8cc.html#a6f5bf410d371fa81c0c3a6021360cb89"/>
+<section title="vkCmdBindDescriptorSets" ref="d4/d54/SlpPool_8def_8cc.html#a7ae1f5a0d9ae8f046fe504e4d3a7d042"/>
+<section title="vkCmdBindPipeline" ref="d4/d54/SlpPool_8def_8cc.html#a8417f1202a935a387c87168f1c440364"/>
+<section title="vkUpdateDescriptorSets" ref="d4/d54/SlpPool_8def_8cc.html#a35ed1bdb6979f3b6ce752ff09d7ace3b"/>
+<section title="buffer" ref="d4/d54/SlpPool_8def_8cc.html#ace8d632d41e43264840af5bed3ffe92b"/>
+<section title="descriptorCount" ref="d4/d54/SlpPool_8def_8cc.html#a26e4198df8dac25f4e0ec04ac5d01c1f"/>
+<section title="descriptorPool" ref="d4/d54/SlpPool_8def_8cc.html#aaaba1fa433972c6915199f2a653d2731"/>
+<section title="descriptorSetCount" ref="d4/d54/SlpPool_8def_8cc.html#a02c98409bb19b701812331416290d777"/>
+<section title="descriptorType" ref="d4/d54/SlpPool_8def_8cc.html#a38514af05e9d47d43ba27aa55e6c4bc0"/>
+<section title="do" ref="d4/d54/SlpPool_8def_8cc.html#a721c6ff80a6d3e4ad4ffa52a04c60085"/>
+<section title="dstArrayElement" ref="d4/d54/SlpPool_8def_8cc.html#a803dc99dfb7e0a1fa5aa822db01494ff"/>
+<section title="dstBinding" ref="d4/d54/SlpPool_8def_8cc.html#a68bf977d7297ba71a423040fa38b538c"/>
+<section title="dstSet" ref="d4/d54/SlpPool_8def_8cc.html#ab9c1531bc4cc8e406ce1c732740e1f40"/>
+<section title="flags" ref="d4/d54/SlpPool_8def_8cc.html#a8f74b61e573116c2e5651482a285b173"/>
+<section title="i_cmd" ref="d4/d54/SlpPool_8def_8cc.html#a7119b0f65e336f020f14ed4d4bde26fa"/>
+<section title="i_desccount" ref="d4/d54/SlpPool_8def_8cc.html#af5e4d80b9ca28d253bee81924edb4419"/>
+<section title="i_desclayout" ref="d4/d54/SlpPool_8def_8cc.html#a5de4e0790888862f28072d4b12279c97"/>
+<section title="i_offglob" ref="d4/d54/SlpPool_8def_8cc.html#ad74a51dbd2a2c81899ba51e45008de31"/>
+<section title="i_offloc" ref="d4/d54/SlpPool_8def_8cc.html#af68bf83fe6f9f2fa9702c85898bedbaa"/>
+<section title="i_pipe" ref="d4/d54/SlpPool_8def_8cc.html#a7eeef7e80b40f0c6aac68b40ffcec6ad"/>
+<section title="i_pipelayout" ref="d4/d54/SlpPool_8def_8cc.html#ac6d0395424ca874a336967401aec66ca"/>
+<section title="i_pool" ref="d4/d54/SlpPool_8def_8cc.html#a65ad59e1f2202a8e17edc061aa66c0f9"/>
+<section title="i_szglob" ref="d4/d54/SlpPool_8def_8cc.html#a8ce81ab660112b319c514e5b3a0e04a8"/>
+<section title="i_szloc" ref="d4/d54/SlpPool_8def_8cc.html#aca73bcdb8ddee712235dfdd6eb839375"/>
+<section title="i_vkcmdbuf" ref="d4/d54/SlpPool_8def_8cc.html#ae345405141299ce88ff448c6b459efff"/>
+<section title="i_vkdescpoolcreatflags" ref="d4/d54/SlpPool_8def_8cc.html#a8a06b5cb09eb2448eb42ccb6ad1227d4"/>
+<section title="i_vkdescpoolsz_count" ref="d4/d54/SlpPool_8def_8cc.html#a4a4352b5d73e6b412b946b46adaaba1f"/>
+<section title="i_vkdesctype" ref="d4/d54/SlpPool_8def_8cc.html#a22e78412cb7c0447f4feda8a93c26901"/>
+<section title="i_vkmaxdescsets" ref="d4/d54/SlpPool_8def_8cc.html#aec13be8bde26d28c86fd2ac6dadb4511"/>
+<section title="iv_err" ref="d4/d54/SlpPool_8def_8cc.html#a1b4c78d44332c2648d98b2315c1023c3"/>
+<section title="iv_slp" ref="d4/d54/SlpPool_8def_8cc.html#ac32c5847df1bff42754485b7a5ea9ddd"/>
+<section title="offset" ref="d4/d54/SlpPool_8def_8cc.html#a6831623c5634f31fa4fe0adc6b28136c"/>
+<section title="pBufferInfo" ref="d4/d54/SlpPool_8def_8cc.html#a063d9bf1120e5a968e062992c425e121"/>
+<section title="pImageInfo" ref="d4/d54/SlpPool_8def_8cc.html#afa909710d4e1b52ec1438fbeabae5f98"/>
+<section title="pInheritanceInfo" ref="d4/d54/SlpPool_8def_8cc.html#ab70c02daf0caa5d1ab2854d98e11ef6a"/>
+<section title="pNext" ref="d4/d54/SlpPool_8def_8cc.html#ac6edc8b2a64ab96c67143910e2d4b5aa"/>
+<section title="pSetLayouts" ref="d4/d54/SlpPool_8def_8cc.html#a7090df556b6d45f0dca5e29cf4ad1c21"/>
+<section title="r_cmd" ref="d4/d54/SlpPool_8def_8cc.html#a0bcbb6a3cce5df626fd579b9e1a61cda"/>
+<section title="r_pool" ref="d4/d54/SlpPool_8def_8cc.html#ad8bf5b635b8b446ec584a0c6f9a605c0"/>
+<section title="r_reterr" ref="d4/d54/SlpPool_8def_8cc.html#ada3ef2d2b7361086a58409b30ffba6ec"/>
+<section title="range" ref="d4/d54/SlpPool_8def_8cc.html#a551ac4c4b200c1fbcaae4e328eabeae3"/>
+<section title="sType" ref="d4/d54/SlpPool_8def_8cc.html#afeb258e56fd18d7cdf18114fb24676d4"/>
+</section>
 <section title="SlpSHADER.inc.c" ref="d7/d60/SlpSHADER_8inc_8c.html">
 <section title="ae2fVK_AnnSlpSHADER" ref="d7/d60/SlpSHADER_8inc_8c.html#a59d3c7b69b783ee39ea63cc71cfbb795"/>
 </section>
@@ -2369,7 +2459,6 @@
 <keyword name="__ae2f_AnnSlpInitInpSz_imp(...)" id="Slp.auto.h::__ae2f_AnnSlpInitInpSz_imp_ac07dab283dea5bfd0a3072d5d2988b13" ref="dd/d9f/inc_2ae2f_2Ann_2Slp_8auto_8h.html#ac07dab283dea5bfd0a3072d5d2988b13"/>
 <keyword name="__ae2f_AnnSlpInitInpSz_imp(...)" id="Slp.def.cc::__ae2f_AnnSlpInitInpSz_imp_ac07dab283dea5bfd0a3072d5d2988b13" ref="d7/d63/ann_2Slp_8def_8cc.html#ac07dab283dea5bfd0a3072d5d2988b13"/>
 <keyword name="__ae2f_AnnSlpInitInpSz_imp((v_mk).m_union.m_base.m_alloccount, 0, 0, 0, inc, outc)" id="Slp.auto.def.cc::__ae2f_AnnSlpInitInpSz_imp_aa707564fa53ae56fb0aa0656cfbf5826" ref="de/d94/Slp_8auto_8def_8cc.html#aa707564fa53ae56fb0aa0656cfbf5826"/>
-<keyword name="__ae2f_AnnSlpInitInpSz_imp((v_mk).m_U0.m_base.m_alloccount, 0, 0, 0, inc, outc)" id="Slp.def.cc::__ae2f_AnnSlpInitInpSz_imp_aec246b2c9a207323ceaf247f26a8a7f6" ref="dc/d96/vk_2Slp_8def_8cc.html#aec246b2c9a207323ceaf247f26a8a7f6"/>
 <keyword name="__ae2f_AnnSlpMk(...)" id="Slp.auto.h::__ae2f_AnnSlpMk_acb66aa0a5778ef70416f0066101f69d4" ref="dd/d9f/inc_2ae2f_2Ann_2Slp_8auto_8h.html#acb66aa0a5778ef70416f0066101f69d4"/>
 <keyword name="__ae2f_AnnSlpMk(...)" id="Slp.def.cc::__ae2f_AnnSlpMk_acb66aa0a5778ef70416f0066101f69d4" ref="d7/d63/ann_2Slp_8def_8cc.html#acb66aa0a5778ef70416f0066101f69d4"/>
 <keyword name="__ae2f_AnnSlpMk_C" id="Slp.auto.h::__ae2f_AnnSlpMk_C_ae7aa5001adb14f3f8a6452c2d414bacc" ref="dd/d9f/inc_2ae2f_2Ann_2Slp_8auto_8h.html#ae7aa5001adb14f3f8a6452c2d414bacc"/>
@@ -2419,6 +2508,13 @@
 <keyword name="__ae2f_MACRO_GENERATED" id="Mlp.auto.h::__ae2f_MACRO_GENERATED_a3aedf5a7045308a5bfd7a9ecb607d8d3" ref="d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h.html#a3aedf5a7045308a5bfd7a9ecb607d8d3"/>
 <keyword name="__ae2f_MACRO_GENERATED" id="Mlp.auto.h::__ae2f_MACRO_GENERATED_a3aedf5a7045308a5bfd7a9ecb607d8d3" ref="d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h.html#a3aedf5a7045308a5bfd7a9ecb607d8d3"/>
 <keyword name="__ae2f_MACRO_GENERATED" id="Mlp.auto.h::__ae2f_MACRO_GENERATED_a3aedf5a7045308a5bfd7a9ecb607d8d3" ref="d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h.html#a3aedf5a7045308a5bfd7a9ecb607d8d3"/>
+<keyword name="__ae2f_MACRO_GENERATED" id="MlpPool.auto.h::__ae2f_MACRO_GENERATED_a3aedf5a7045308a5bfd7a9ecb607d8d3" ref="df/d45/MlpPool_8auto_8h.html#a3aedf5a7045308a5bfd7a9ecb607d8d3"/>
+<keyword name="__ae2f_MACRO_GENERATED" id="MlpPool.auto.h::__ae2f_MACRO_GENERATED_a3aedf5a7045308a5bfd7a9ecb607d8d3" ref="df/d45/MlpPool_8auto_8h.html#a3aedf5a7045308a5bfd7a9ecb607d8d3"/>
+<keyword name="__ae2f_MACRO_GENERATED" id="MlpPool.auto.h::__ae2f_MACRO_GENERATED_a3aedf5a7045308a5bfd7a9ecb607d8d3" ref="df/d45/MlpPool_8auto_8h.html#a3aedf5a7045308a5bfd7a9ecb607d8d3"/>
+<keyword name="__ae2f_MACRO_GENERATED" id="MlpPool.auto.h::__ae2f_MACRO_GENERATED_a3aedf5a7045308a5bfd7a9ecb607d8d3" ref="df/d45/MlpPool_8auto_8h.html#a3aedf5a7045308a5bfd7a9ecb607d8d3"/>
+<keyword name="__ae2f_MACRO_GENERATED" id="MlpPool.auto.h::__ae2f_MACRO_GENERATED_a3aedf5a7045308a5bfd7a9ecb607d8d3" ref="df/d45/MlpPool_8auto_8h.html#a3aedf5a7045308a5bfd7a9ecb607d8d3"/>
+<keyword name="__ae2f_MACRO_GENERATED" id="MlpPool.auto.h::__ae2f_MACRO_GENERATED_a3aedf5a7045308a5bfd7a9ecb607d8d3" ref="df/d45/MlpPool_8auto_8h.html#a3aedf5a7045308a5bfd7a9ecb607d8d3"/>
+<keyword name="__ae2f_MACRO_GENERATED" id="MlpPool.auto.h::__ae2f_MACRO_GENERATED_a3aedf5a7045308a5bfd7a9ecb607d8d3" ref="df/d45/MlpPool_8auto_8h.html#a3aedf5a7045308a5bfd7a9ecb607d8d3"/>
 <keyword name="__ae2f_MACRO_GENERATED" id="Slp.auto.h::__ae2f_MACRO_GENERATED_a3aedf5a7045308a5bfd7a9ecb607d8d3" ref="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a3aedf5a7045308a5bfd7a9ecb607d8d3"/>
 <keyword name="__ae2f_MACRO_GENERATED" id="Slp.auto.h::__ae2f_MACRO_GENERATED_a3aedf5a7045308a5bfd7a9ecb607d8d3" ref="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a3aedf5a7045308a5bfd7a9ecb607d8d3"/>
 <keyword name="__ae2f_MACRO_GENERATED" id="Slp.auto.h::__ae2f_MACRO_GENERATED_a3aedf5a7045308a5bfd7a9ecb607d8d3" ref="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a3aedf5a7045308a5bfd7a9ecb607d8d3"/>
@@ -2426,6 +2522,12 @@
 <keyword name="__ae2f_MACRO_GENERATED" id="Slp.auto.h::__ae2f_MACRO_GENERATED_a3aedf5a7045308a5bfd7a9ecb607d8d3" ref="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a3aedf5a7045308a5bfd7a9ecb607d8d3"/>
 <keyword name="__ae2f_MACRO_GENERATED" id="Slp.auto.h::__ae2f_MACRO_GENERATED_a3aedf5a7045308a5bfd7a9ecb607d8d3" ref="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a3aedf5a7045308a5bfd7a9ecb607d8d3"/>
 <keyword name="__ae2f_MACRO_GENERATED" id="Slp.auto.h::__ae2f_MACRO_GENERATED_a3aedf5a7045308a5bfd7a9ecb607d8d3" ref="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a3aedf5a7045308a5bfd7a9ecb607d8d3"/>
+<keyword name="__ae2f_MACRO_GENERATED" id="SlpPool.auto.h::__ae2f_MACRO_GENERATED_a3aedf5a7045308a5bfd7a9ecb607d8d3" ref="d0/da0/SlpPool_8auto_8h.html#a3aedf5a7045308a5bfd7a9ecb607d8d3"/>
+<keyword name="__ae2f_MACRO_GENERATED" id="SlpPool.auto.h::__ae2f_MACRO_GENERATED_a3aedf5a7045308a5bfd7a9ecb607d8d3" ref="d0/da0/SlpPool_8auto_8h.html#a3aedf5a7045308a5bfd7a9ecb607d8d3"/>
+<keyword name="__ae2f_MACRO_GENERATED" id="SlpPool.auto.h::__ae2f_MACRO_GENERATED_a3aedf5a7045308a5bfd7a9ecb607d8d3" ref="d0/da0/SlpPool_8auto_8h.html#a3aedf5a7045308a5bfd7a9ecb607d8d3"/>
+<keyword name="__ae2f_MACRO_GENERATED" id="SlpPool.auto.h::__ae2f_MACRO_GENERATED_a3aedf5a7045308a5bfd7a9ecb607d8d3" ref="d0/da0/SlpPool_8auto_8h.html#a3aedf5a7045308a5bfd7a9ecb607d8d3"/>
+<keyword name="__ae2f_MACRO_GENERATED" id="SlpPool.auto.h::__ae2f_MACRO_GENERATED_a3aedf5a7045308a5bfd7a9ecb607d8d3" ref="d0/da0/SlpPool_8auto_8h.html#a3aedf5a7045308a5bfd7a9ecb607d8d3"/>
+<keyword name="__ae2f_MACRO_GENERATED" id="SlpPool.auto.h::__ae2f_MACRO_GENERATED_a3aedf5a7045308a5bfd7a9ecb607d8d3" ref="d0/da0/SlpPool_8auto_8h.html#a3aedf5a7045308a5bfd7a9ecb607d8d3"/>
 <keyword name="__ae2f_MACRO_GENERATED" id="Mlp.auto.h::__ae2f_MACRO_GENERATED_a3aedf5a7045308a5bfd7a9ecb607d8d3" ref="de/d01/src_2vk_2cl_2Mlp_8auto_8h.html#a3aedf5a7045308a5bfd7a9ecb607d8d3"/>
 <keyword name="__ae2f_MACRO_GENERATED" id="Mlp.auto.h::__ae2f_MACRO_GENERATED_a3aedf5a7045308a5bfd7a9ecb607d8d3" ref="de/d01/src_2vk_2cl_2Mlp_8auto_8h.html#a3aedf5a7045308a5bfd7a9ecb607d8d3"/>
 <keyword name="__ae2f_MACRO_GENERATED" id="Mlp.auto.h::__ae2f_MACRO_GENERATED_a3aedf5a7045308a5bfd7a9ecb607d8d3" ref="de/d01/src_2vk_2cl_2Mlp_8auto_8h.html#a3aedf5a7045308a5bfd7a9ecb607d8d3"/>
@@ -2456,26 +2558,25 @@
 <keyword name="__ae2fVK_AnnMlpClean_imp(v_mlp)" id="Mlp.auto.h::__ae2fVK_AnnMlpClean_imp_a998b52b301c9f6841b9df460ccc62239" ref="d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h.html#a998b52b301c9f6841b9df460ccc62239"/>
 <keyword name="__ae2fVK_AnnMlpDeltaStreamOff(i_depth, i_outc)" id="Mlp.core.h::__ae2fVK_AnnMlpDeltaStreamOff_afb8399c1a9999150d5c8cce16702b4fd" ref="dd/d9e/K_2Ann_2Mlp_8core_8h.html#afb8399c1a9999150d5c8cce16702b4fd"/>
 <keyword name="__ae2fVK_AnnMlpDeltaStreamSz(i_depth, i_outc)" id="Mlp.core.h::__ae2fVK_AnnMlpDeltaStreamSz_a449dd4def7224d00fee6480c8254749e" ref="dd/d9e/K_2Ann_2Mlp_8core_8h.html#a449dd4def7224d00fee6480c8254749e"/>
+<keyword name="__ae2fVK_AnnMlpDescPoolClean_imp" id="Mlp.core.h::__ae2fVK_AnnMlpDescPoolClean_imp_aa166f7f8ed945fe7872414bdd66ce0d5" ref="dd/d9e/K_2Ann_2Mlp_8core_8h.html#aa166f7f8ed945fe7872414bdd66ce0d5"/>
+<keyword name="__ae2fVK_AnnMlpDescPoolCmdClean_imp" id="Mlp.core.h::__ae2fVK_AnnMlpDescPoolCmdClean_imp_abbc17c49524a38e1ff496a69d16229a4" ref="dd/d9e/K_2Ann_2Mlp_8core_8h.html#abbc17c49524a38e1ff496a69d16229a4"/>
+<keyword name="__ae2fVK_AnnMlpDescPoolCmdMk_imp" id="Mlp.core.h::__ae2fVK_AnnMlpDescPoolCmdMk_imp_ae52b72bc3b83194d55ff745ce34b0db1" ref="dd/d9e/K_2Ann_2Mlp_8core_8h.html#ae52b72bc3b83194d55ff745ce34b0db1"/>
+<keyword name="__ae2fVK_AnnMlpDescPoolCmdMkPredict_imp(v_cmdmk, iv_mlp, iv_err, i_pool, r_cmd, i_vkcmdbuf)" id="MlpPool.auto.h::__ae2fVK_AnnMlpDescPoolCmdMkPredict_imp_af4507132b44d4909c14472636ce051f2" ref="df/d45/MlpPool_8auto_8h.html#af4507132b44d4909c14472636ce051f2"/>
+<keyword name="__ae2fVK_AnnMlpDescPoolCmdMkTrain_imp(v_cmdmk, iv_mlp, iv_err, i_pool, r_cmd, i_vkcmdbuf)" id="MlpPool.auto.h::__ae2fVK_AnnMlpDescPoolCmdMkTrain_imp_af3757af385f9d4a512e64fac3a2ddc8c" ref="df/d45/MlpPool_8auto_8h.html#af3757af385f9d4a512e64fac3a2ddc8c"/>
+<keyword name="__ae2fVK_AnnMlpDescPoolMk_imp" id="Mlp.core.h::__ae2fVK_AnnMlpDescPoolMk_imp_a75c555d000d300ecead4aeb4c9e38565" ref="dd/d9e/K_2Ann_2Mlp_8core_8h.html#a75c555d000d300ecead4aeb4c9e38565"/>
 <keyword name="__ae2fVK_AnnMlpGlobMemSz(i_depth, i_outc)" id="Mlp.core.h::__ae2fVK_AnnMlpGlobMemSz_aeca8bcd35aa014c5bb5ecab659c8df76" ref="dd/d9e/K_2Ann_2Mlp_8core_8h.html#aeca8bcd35aa014c5bb5ecab659c8df76"/>
 <keyword name="__ae2fVK_AnnMlpGoalOff(i_depth, i_outc)" id="Mlp.core.h::__ae2fVK_AnnMlpGoalOff_aacb57ddab1a63df9c70583c9c0d80a07" ref="dd/d9e/K_2Ann_2Mlp_8core_8h.html#aacb57ddab1a63df9c70583c9c0d80a07"/>
 <keyword name="__ae2fVK_AnnMlpGoalSz(i_depth, i_outc)" id="Mlp.core.h::__ae2fVK_AnnMlpGoalSz_a526494a3b10460c0dd646a0b81541e8b" ref="dd/d9e/K_2Ann_2Mlp_8core_8h.html#a526494a3b10460c0dd646a0b81541e8b"/>
 <keyword name="__ae2fVK_AnnMlpMapGoal_imp(v_map, iv_mlp, r_err, r_ptr)" id="Mlp.auto.h::__ae2fVK_AnnMlpMapGoal_imp_a2fc1c7a83aa1c33e1f44ad9de6e529a3" ref="d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h.html#a2fc1c7a83aa1c33e1f44ad9de6e529a3"/>
 <keyword name="__ae2fVK_AnnMlpMapOutStream_imp(v_map, iv_mlp, r_err, r_ptr)" id="Mlp.auto.h::__ae2fVK_AnnMlpMapOutStream_imp_a91909ba4fa2ba9d498e192de902e2474" ref="d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h.html#a91909ba4fa2ba9d498e192de902e2474"/>
 <keyword name="__ae2fVK_AnnMlpMapRangedGeneric_imp" id="Mlp.core.h::__ae2fVK_AnnMlpMapRangedGeneric_imp_a4bd1a96d302b9c8a5f09e4f72f7395c7" ref="dd/d9e/K_2Ann_2Mlp_8core_8h.html#a4bd1a96d302b9c8a5f09e4f72f7395c7"/>
-<keyword name="__ae2fVK_AnnMlpMapRangedGeneric_imp(void,(v_mk).m_U1.m_map.m_vkmmemr,(*(v_mk).m_U0.m_mkswap.m_mkbase),(v_mk).m_ret.m_err,(v_mk).m_U1.m_map.m_map.m_v, 0,(v_mk).m_U2.m_i)" id="Mlp.def.cc::__ae2fVK_AnnMlpMapRangedGeneric_imp_a7d49309e9a686061ebd818a017b73cfe" ref="dd/d55/vk_2Mlp_8def_8cc.html#a7d49309e9a686061ebd818a017b73cfe"/>
+<keyword name="__ae2fVK_AnnMlpMapRangedGeneric_imp(ae2f_float_t,(v_mk).m_U1.m_map,(*(v_mk).m_U0.m_mkswap.m_mkbase),(v_mk).m_ret.m_err,(v_mk).m_U3.m_mapped, 0,(v_mk).m_U2.m_i)" id="Mlp.def.cc::__ae2fVK_AnnMlpMapRangedGeneric_imp_a492fca55c8db3d0952cee057c54f61e6" ref="dd/d55/vk_2Mlp_8def_8cc.html#a492fca55c8db3d0952cee057c54f61e6"/>
 <keyword name="__ae2fVK_AnnMlpMapWB_imp(v_map, iv_mlp, r_err, r_ptrweight, r_ptrbias)" id="Mlp.auto.h::__ae2fVK_AnnMlpMapWB_imp_a7faf565f4c6381714d20c7c22eca0425" ref="d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h.html#a7faf565f4c6381714d20c7c22eca0425"/>
 <keyword name="__ae2fVK_AnnMlpMdlOff(...)" id="Mlp.core.h::__ae2fVK_AnnMlpMdlOff_a6e2c124617503fee287851b47aabc5eb" ref="dd/d9e/K_2Ann_2Mlp_8core_8h.html#a6e2c124617503fee287851b47aabc5eb"/>
 <keyword name="__ae2fVK_AnnMlpMdlSz(i_depth,...)" id="Mlp.core.h::__ae2fVK_AnnMlpMdlSz_a7e4207eaa57b38decec7c8b52b1f356b" ref="dd/d9e/K_2Ann_2Mlp_8core_8h.html#a7e4207eaa57b38decec7c8b52b1f356b"/>
 <keyword name="__ae2fVK_AnnMlpMk_imp(v_mk, iv_weight_opt, iv_bias_opt, iv_outstream_opt, iv_deltastream_opt, i_len_count, i_len, i_len_swap, i_prm_offset, i_extra, i_act, i_actderiv, i_lossderiv, i_learningrate, i_learningrate_bias, i_vkdev, i_vkmemprops, iv_vkalloccalls, i_vkcldeclaration, i_vkcldefinition)" id="Mlp.auto.h::__ae2fVK_AnnMlpMk_imp_af76282f7a8fc1378225327bf3d4e517d" ref="d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h.html#af76282f7a8fc1378225327bf3d4e517d"/>
 <keyword name="__ae2fVK_AnnMlpOutStreamOff(i_depth, i_outc)" id="Mlp.core.h::__ae2fVK_AnnMlpOutStreamOff_acea79b451acde99465b3dac083d01edb" ref="dd/d9e/K_2Ann_2Mlp_8core_8h.html#acea79b451acde99465b3dac083d01edb"/>
 <keyword name="__ae2fVK_AnnMlpOutStreamSz(i_depth, i_outc)" id="Mlp.core.h::__ae2fVK_AnnMlpOutStreamSz_a7690ac26eb5f2eea7786925700fa90d8" ref="dd/d9e/K_2Ann_2Mlp_8core_8h.html#a7690ac26eb5f2eea7786925700fa90d8"/>
-<keyword name="__ae2fVK_AnnMlpPerformedFree_imp(iv_mlp, iv_cmd)" id="Mlp.auto.h::__ae2fVK_AnnMlpPerformedFree_imp_a139c5b3166a2ee76960a93d135f55eb1" ref="d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h.html#a139c5b3166a2ee76960a93d135f55eb1"/>
-<keyword name="__ae2fVK_AnnMlpPredictPerformed_imp(v_predict, r_cmd, i_vkcmdbuf, i_inp, i_vkcmdbufuseflags, iv_mlp, iv_err)" id="Mlp.auto.h::__ae2fVK_AnnMlpPredictPerformed_imp_a5336cca429191804c2e657d2e64c020b" ref="d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h.html#a5336cca429191804c2e657d2e64c020b"/>
-<keyword name="__ae2fVK_AnnMlpPredictPerformedFree_imp" id="Mlp.auto.h::__ae2fVK_AnnMlpPredictPerformedFree_imp_a046905918d53cd7fa26b605bddc113f7" ref="d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h.html#a046905918d53cd7fa26b605bddc113f7"/>
-<keyword name="__ae2fVK_AnnMlpPredictPerformedFree_imp" id="Mlp.def.cc::__ae2fVK_AnnMlpPredictPerformedFree_imp_a046905918d53cd7fa26b605bddc113f7" ref="dd/d55/vk_2Mlp_8def_8cc.html#a046905918d53cd7fa26b605bddc113f7"/>
-<keyword name="__ae2fVK_AnnMlpTrainPerformed_imp(v_getcmd, r_cmd, i_vkcmdbuf, i_inp, i_vkcmdbufuseflags, iv_mlp, iv_err)" id="Mlp.auto.h::__ae2fVK_AnnMlpTrainPerformed_imp_a62cf233a35221a5ed3a3d9cc4863b103" ref="d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h.html#a62cf233a35221a5ed3a3d9cc4863b103"/>
-<keyword name="__ae2fVK_AnnMlpTrainPerformedFree_imp" id="Mlp.auto.h::__ae2fVK_AnnMlpTrainPerformedFree_imp_ae1d129427fb76b3e85b96a296064bebf" ref="d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h.html#ae1d129427fb76b3e85b96a296064bebf"/>
-<keyword name="__ae2fVK_AnnMlpTrainPerformedFree_imp" id="Mlp.def.cc::__ae2fVK_AnnMlpTrainPerformedFree_imp_ae1d129427fb76b3e85b96a296064bebf" ref="dd/d55/vk_2Mlp_8def_8cc.html#ae1d129427fb76b3e85b96a296064bebf"/>
 <keyword name="__ae2fVK_AnnMlpUnMapGoal_imp(v_unmap, iv_mlp)" id="Mlp.auto.h::__ae2fVK_AnnMlpUnMapGoal_imp_a696a70c387ac86bffb6bce19befa7c74" ref="d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h.html#a696a70c387ac86bffb6bce19befa7c74"/>
 <keyword name="__ae2fVK_AnnMlpUnMapOutStream_imp(v_unmap, iv_mlp)" id="Mlp.auto.h::__ae2fVK_AnnMlpUnMapOutStream_imp_a127d4b3298567b7ceac4849248c3898c" ref="d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h.html#a127d4b3298567b7ceac4849248c3898c"/>
 <keyword name="__ae2fVK_AnnMlpUnMapRanged_imp" id="Mlp.core.h::__ae2fVK_AnnMlpUnMapRanged_imp_a3476549a3fc5d72f7514bae3588bb81b" ref="dd/d9e/K_2Ann_2Mlp_8core_8h.html#a3476549a3fc5d72f7514bae3588bb81b"/>
@@ -2483,16 +2584,33 @@
 <keyword name="__ae2fVK_AnnMlpUnMapWB_imp(v_unmap, iv_mlp)" id="Mlp.auto.h::__ae2fVK_AnnMlpUnMapWB_imp_aa60a2e7649e5a32307b4b60dd9645c58" ref="d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h.html#aa60a2e7649e5a32307b4b60dd9645c58"/>
 <keyword name="__ae2fVK_AnnMlpWeightOff(i_depth, i_outc)" id="Mlp.core.h::__ae2fVK_AnnMlpWeightOff_a7cc9e5af6525a837d775351489ec3daa" ref="dd/d9e/K_2Ann_2Mlp_8core_8h.html#a7cc9e5af6525a837d775351489ec3daa"/>
 <keyword name="__ae2fVK_AnnMlpWeightSz(i_depth, i_outc)" id="Mlp.core.h::__ae2fVK_AnnMlpWeightSz_ad89b8fef366ca852e8e1943e78e2ea89" ref="dd/d9e/K_2Ann_2Mlp_8core_8h.html#ad89b8fef366ca852e8e1943e78e2ea89"/>
+<keyword name="__ae2fVK_AnnSlpBiasOff(i_inp, i_out)" id="Slp.core.h::__ae2fVK_AnnSlpBiasOff_a2f22eb7e8c60db949b4770c67ec07547" ref="d1/d19/K_2Ann_2Slp_8core_8h.html#a2f22eb7e8c60db949b4770c67ec07547"/>
+<keyword name="__ae2fVK_AnnSlpBiasSz(i_inp, i_out)" id="Slp.core.h::__ae2fVK_AnnSlpBiasSz_a5c464ae976d0814ff1d1137f456b017c" ref="d1/d19/K_2Ann_2Slp_8core_8h.html#a5c464ae976d0814ff1d1137f456b017c"/>
 <keyword name="__ae2fVK_AnnSlpClean_imp(block)" id="Slp.auto.h::__ae2fVK_AnnSlpClean_imp_af96318aad887bdff6fe960699d1f3658" ref="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#af96318aad887bdff6fe960699d1f3658"/>
+<keyword name="__ae2fVK_AnnSlpCreatDescPool_imp(v_descpool, iv_slp, r_vkdescpool, r_reterr, i_vkdescpoolcreatflags, i_vkdesctype, i_vkdescpoolsz_count, i_vkmaxdescsets)" id="Slp.auto.h::__ae2fVK_AnnSlpCreatDescPool_imp_a411d69521f9d5a15d6d1c4a9ca0a79b7" ref="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a411d69521f9d5a15d6d1c4a9ca0a79b7"/>
+<keyword name="__ae2fVK_AnnSlpCreatDescPoolVerbose_imp(v_vkdescpoolcreatinfo, v_vkdescpoolsz, r_vkdescpool, r_reterr, r_vkres, i_vkdev, i_vkptrAlloc, i_vkdescpoolcreatflags, i_vkdesctype, i_vkdescpoolsz_count, i_vkmaxdescsets)" id="Slp.auto.h::__ae2fVK_AnnSlpCreatDescPoolVerbose_imp_a680bfb645f487b198f012ba6425f9cb1" ref="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a680bfb645f487b198f012ba6425f9cb1"/>
+<keyword name="__ae2fVK_AnnSlpCreatDescPoolVerbose_imp((v_descpool).m_U0.m_vkdescpoolcreatinfo,(v_descpool).m_U0.m_vkdescpoolsz,(r_pool).m_vkdescpool, r_reterr,(iv_slp).m_vkres,(iv_slp).m_vkdev,(iv_slp).m_vkalloccalls, i_vkdescpoolcreatflags, i_vkdesctype, i_vkdescpoolsz_count, i_vkmaxdescsets)" id="SlpPool.def.cc::__ae2fVK_AnnSlpCreatDescPoolVerbose_imp_a83d1d33bd836f74eb236197f77499326" ref="d4/d54/SlpPool_8def_8cc.html#a83d1d33bd836f74eb236197f77499326"/>
 <keyword name="__ae2fVK_AnnSlpDeltaMap(r_err, slp, ir_ptrdelta)" id="Slp.auto.h::__ae2fVK_AnnSlpDeltaMap_af390c2d055ff5d0f26ee790daae9c290" ref="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#af390c2d055ff5d0f26ee790daae9c290"/>
+<keyword name="__ae2fVK_AnnSlpDeltaOff(i_inp, i_out)" id="Slp.core.h::__ae2fVK_AnnSlpDeltaOff_afb689d9d34d6fa36201ce72ebd799d90" ref="d1/d19/K_2Ann_2Slp_8core_8h.html#afb689d9d34d6fa36201ce72ebd799d90"/>
+<keyword name="__ae2fVK_AnnSlpDeltaSz(i_inp, i_out)" id="Slp.core.h::__ae2fVK_AnnSlpDeltaSz_a7c9ca2668d9ee2c963049158fedb34ba" ref="d1/d19/K_2Ann_2Slp_8core_8h.html#a7c9ca2668d9ee2c963049158fedb34ba"/>
 <keyword name="__ae2fVK_AnnSlpDeltaUnMap_imp(v_out, vi_slp)" id="Slp.auto.h::__ae2fVK_AnnSlpDeltaUnMap_imp_a70df7c4030e3ba2ad73ceeb58eb7acb8" ref="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a70df7c4030e3ba2ad73ceeb58eb7acb8"/>
-<keyword name="__ae2fVK_AnnSlpGetCmd_imp(COMMANDONRECORDING, v_getcmd, r_cmd, i_vkcmdbuf, i_inp, i_vkcmdbufuseflags, iv_slp, iv_err, i_desccount, i_offglob, i_szglob, i_offloc, i_szloc, i_descpool, i_desclayout, i_pipe, i_pipelayout)" id="Slp.auto.h::__ae2fVK_AnnSlpGetCmd_imp_ab6b7e693543ecb489199eab759761ae6" ref="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#ab6b7e693543ecb489199eab759761ae6"/>
+<keyword name="__ae2fVK_AnnSlpDescPoolClean_imp(i_slp, i_pool)" id="SlpPool.auto.h::__ae2fVK_AnnSlpDescPoolClean_imp_adb6394ba079f595e2302200e222a8186" ref="d0/da0/SlpPool_8auto_8h.html#adb6394ba079f595e2302200e222a8186"/>
+<keyword name="__ae2fVK_AnnSlpDescPoolCmdClean_imp(iv_slp, i_pool, i_cmd)" id="SlpPool.auto.h::__ae2fVK_AnnSlpDescPoolCmdClean_imp_a75dab8ab7ce558fb80a6bf6c9338a5b0" ref="d0/da0/SlpPool_8auto_8h.html#a75dab8ab7ce558fb80a6bf6c9338a5b0"/>
+<keyword name="__ae2fVK_AnnSlpDescPoolCmdMk_imp(COMMANDONRECORDING, v_cmdmk, r_cmd, iv_slp, i_pool, iv_err, i_desccount, i_offglob, i_szglob, i_offloc, i_szloc, i_desclayout, i_pipe, i_pipelayout, i_vkcmdbuf)" id="SlpPool.auto.h::__ae2fVK_AnnSlpDescPoolCmdMk_imp_acbac02b11fe77217430974a4e2b9ef81" ref="d0/da0/SlpPool_8auto_8h.html#acbac02b11fe77217430974a4e2b9ef81"/>
+<keyword name="__ae2fVK_AnnSlpDescPoolCmdMkPredict_imp(v_cmdmk, iv_slp, iv_err, i_pool, r_cmd, i_vkcmdbuf)" id="SlpPool.auto.h::__ae2fVK_AnnSlpDescPoolCmdMkPredict_imp_a6c41adf0faa17a5b71fa04431d7795d6" ref="d0/da0/SlpPool_8auto_8h.html#a6c41adf0faa17a5b71fa04431d7795d6"/>
+<keyword name="__ae2fVK_AnnSlpDescPoolCmdMkTrain_imp(v_cmdmk, iv_slp, iv_err, i_pool, r_cmd, i_vkcmdbuf)" id="SlpPool.auto.h::__ae2fVK_AnnSlpDescPoolCmdMkTrain_imp_a1c137032d84c690b9a692289d43ccae9" ref="d0/da0/SlpPool_8auto_8h.html#a1c137032d84c690b9a692289d43ccae9"/>
+<keyword name="__ae2fVK_AnnSlpDescPoolMk_imp(v_descpool, r_pool, r_reterr, iv_slp, i_vkdescpoolcreatflags, i_vkmaxdescsets)" id="SlpPool.auto.h::__ae2fVK_AnnSlpDescPoolMk_imp_a67847ec64f4ff1892cec03f32cb1115d" ref="d0/da0/SlpPool_8auto_8h.html#a67847ec64f4ff1892cec03f32cb1115d"/>
+<keyword name="__ae2fVK_AnnSlpDescPoolMkGeneric_imp(v_descpool, r_pool, r_reterr, iv_slp, i_vkdescpoolcreatflags, i_vkdesctype, i_vkdescpoolsz_count, i_vkmaxdescsets)" id="SlpPool.auto.h::__ae2fVK_AnnSlpDescPoolMkGeneric_imp_a586f0aa1de0272f2dfd31be9d22d9b0f" ref="d0/da0/SlpPool_8auto_8h.html#a586f0aa1de0272f2dfd31be9d22d9b0f"/>
+<keyword name="__ae2fVK_AnnSlpGlobSz(i_inp, i_out)" id="Slp.core.h::__ae2fVK_AnnSlpGlobSz_aa326cb2d666f5fe8c72e27698b6f5cb5" ref="d1/d19/K_2Ann_2Slp_8core_8h.html#aa326cb2d666f5fe8c72e27698b6f5cb5"/>
 <keyword name="__ae2fVK_AnnSlpGoalMap(r_err, slp, ir_ptrgoal)" id="Slp.auto.h::__ae2fVK_AnnSlpGoalMap_acaf74d888c905092a2b03023548d0a7b" ref="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#acaf74d888c905092a2b03023548d0a7b"/>
+<keyword name="__ae2fVK_AnnSlpGoalOff(i_inp, i_out)" id="Slp.core.h::__ae2fVK_AnnSlpGoalOff_a30115c31c8970f2af1540f885bde96fa" ref="d1/d19/K_2Ann_2Slp_8core_8h.html#a30115c31c8970f2af1540f885bde96fa"/>
+<keyword name="__ae2fVK_AnnSlpGoalSz(i_inp, i_out)" id="Slp.core.h::__ae2fVK_AnnSlpGoalSz_a0768868c5093ad72616565641c382005" ref="d1/d19/K_2Ann_2Slp_8core_8h.html#a0768868c5093ad72616565641c382005"/>
 <keyword name="__ae2fVK_AnnSlpGoalUnMap_imp(v_out, vi_slp)" id="Slp.auto.h::__ae2fVK_AnnSlpGoalUnMap_imp_a763485f59f16dba5bbce2923add25acd" ref="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a763485f59f16dba5bbce2923add25acd"/>
+<keyword name="__ae2fVK_AnnSlpInpOff(i_inp, i_out)" id="Slp.core.h::__ae2fVK_AnnSlpInpOff_a68ef4c0f8f5db9de3a0b173cd70a7029" ref="d1/d19/K_2Ann_2Slp_8core_8h.html#a68ef4c0f8f5db9de3a0b173cd70a7029"/>
+<keyword name="__ae2fVK_AnnSlpInpSz(i_inp,...)" id="Slp.core.h::__ae2fVK_AnnSlpInpSz_a428efc3bba5cc00fb50eb539d682216c" ref="d1/d19/K_2Ann_2Slp_8core_8h.html#a428efc3bba5cc00fb50eb539d682216c"/>
 <keyword name="__ae2fVK_AnnSlpIOMap(r_err, slp, ir_ptrinp, ir_ptrout)" id="Slp.auto.h::__ae2fVK_AnnSlpIOMap_a5eaa7dc4fd300d9331fb33f20be7cc6b" ref="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a5eaa7dc4fd300d9331fb33f20be7cc6b"/>
 <keyword name="__ae2fVK_AnnSlpIOUnMap_imp(v_out, vi_slp)" id="Slp.auto.h::__ae2fVK_AnnSlpIOUnMap_imp_ada71cd04c5fadd260ad45e43e934a960" ref="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#ada71cd04c5fadd260ad45e43e934a960"/>
 <keyword name="__ae2fVK_AnnSlpMap_imp(r_err, slp, data)" id="Slp.auto.h::__ae2fVK_AnnSlpMap_imp_a52d1569188715e4fc6c718992d9f1dca" ref="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a52d1569188715e4fc6c718992d9f1dca"/>
-<keyword name="__ae2fVK_AnnSlpMapRanged_imp(v_map, r_err, slp, i_off, i_sz)" id="Slp.auto.h::__ae2fVK_AnnSlpMapRanged_imp_aa791867410b356f64faca939ebaf6a26" ref="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#aa791867410b356f64faca939ebaf6a26"/>
 <keyword name="__ae2fVK_AnnSlpMapRangedGeneric_imp(T, v_vkmapmemrange, iv_slp, r_err, r_ptr, i_off, i_sz)" id="Slp.auto.h::__ae2fVK_AnnSlpMapRangedGeneric_imp_a3ac1ba81adc94db7033fbf604f506521" ref="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a3ac1ba81adc94db7033fbf604f506521"/>
 <keyword name="__ae2fVK_AnnSlpMk_imp(v_mk, weight_opt, bias_opt, cache_opt, inc, outc, prm_offset, extra, act, actderiv, lossderiv, learningrate, learningrate_bias, vkdev, vkmemprops, vkalloccalls, vkcldeclaration, vkcldefinition)" id="Slp.auto.h::__ae2fVK_AnnSlpMk_imp_a862f98350c5fb9534de570d1afe34f66" ref="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a862f98350c5fb9534de570d1afe34f66"/>
 <keyword name="__ae2fVK_AnnSlpMkAllocVKMem_imp(CMDONERR, sz, r_vkres, r_vkbuf, r_vkdevmem, v_errbit, v_vkbufcreatinfo, v_memallocinfo, vkbufuseflags, vksharemode, vkdev, v_vkmemreq, vkalloccalls, v_memtypeidx, memtypeidx_invalid_minus_one, vkpropflag_req, vkphydevmemprops)" id="Slp.auto.h::__ae2fVK_AnnSlpMkAllocVKMem_imp_af26fa8c87b4eea07cc66064d66bacd33" ref="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#af26fa8c87b4eea07cc66064d66bacd33"/>
@@ -2500,16 +2618,12 @@
 <keyword name="__ae2fVK_AnnSlpMkAllocVKMem_imp(break,(((v_mk).m_U0.m_mk.m_mkbase-&gt;m_outc *((v_mk).m_U0.m_mk.m_mkbase-&gt;m_depth+2)) *sizeof(ae2f_float_t)),(v_mk).m_U0.m_mkswap.m_mkbase-&gt;m_vkres,(v_mk).m_U0.m_mkswap.m_mkbase-&gt;m_vklocbuf,(v_mk).m_U0.m_mkswap.m_mkbase-&gt;m_vklocdevmem,(v_mk).m_ret.m_err,(v_mk).m_U1.m_vkbufcreatinfo,(v_mk).m_U1.m_vkmemallocinfo, VK_BUFFER_USAGE_STORAGE_BUFFER_BIT, VK_SHARING_MODE_EXCLUSIVE,(v_mk).m_U0.m_mkswap.m_mkbase-&gt;m_vkdev,(v_mk).m_U2.m_vkmemreqs,(iv_vkalloccalls),(v_mk).m_U3.m_vkmemtypeidx, UCHAR_MAX, VK_MEMORY_PROPERTY_DEVICE_LOCAL_BIT, i_vkmemprops)" id="Mlp.def.cc::__ae2fVK_AnnSlpMkAllocVKMem_imp_aaafd2e28317f65e83bbbd274f2d8a33a" ref="dd/d55/vk_2Mlp_8def_8cc.html#aaafd2e28317f65e83bbbd274f2d8a33a"/>
 <keyword name="__ae2fVK_AnnSlpMkAllocVKMem_imp(break;,(v_mk).m_union.m_base.m_alloccount,(v_mk).m_union.m_alter.m_ptr-&gt;m_vkres,(v_mk).m_union.m_alter.m_ptr-&gt;m_vkglobbuf,(v_mk).m_union.m_alter.m_ptr-&gt;m_vkglobdevmem,(v_mk).m_reterr,(v_mk).m_vkinfo.m_buf,(v_mk).m_vkinfo.m_alloc, VK_BUFFER_USAGE_STORAGE_BUFFER_BIT, VK_SHARING_MODE_EXCLUSIVE,(vkdev),(v_mk).m_vkstack.m_memreq,(vkalloccalls),(v_mk).m_union.m_alter.m_i, UCHAR_MAX, VK_MEMORY_PROPERTY_HOST_VISIBLE_BIT, vkmemprops)" id="Slp.auto.def.cc::__ae2fVK_AnnSlpMkAllocVKMem_imp_ac6817ffdff99eeead564feabf941b404" ref="de/d94/Slp_8auto_8def_8cc.html#ac6817ffdff99eeead564feabf941b404"/>
 <keyword name="__ae2fVK_AnnSlpMkAllocVKMem_imp(break;, sizeof(ae2f_float_t) *((outc)),(v_mk).m_union.m_alter.m_ptr-&gt;m_vkres,(v_mk).m_union.m_alter.m_ptr-&gt;m_vklocbuf,(v_mk).m_union.m_alter.m_ptr-&gt;m_vklocdevmem,(v_mk).m_reterr,(v_mk).m_vkinfo.m_buf,(v_mk).m_vkinfo.m_alloc, VK_BUFFER_USAGE_STORAGE_BUFFER_BIT, VK_SHARING_MODE_EXCLUSIVE,(vkdev),(v_mk).m_vkstack.m_memreq,(vkalloccalls),(v_mk).m_union.m_alter.m_i, UCHAR_MAX, VK_MEMORY_PROPERTY_DEVICE_LOCAL_BIT, vkmemprops)" id="Slp.auto.def.cc::__ae2fVK_AnnSlpMkAllocVKMem_imp_a8515ad48f04c3947ee77862a95a5b172" ref="de/d94/Slp_8auto_8def_8cc.html#a8515ad48f04c3947ee77862a95a5b172"/>
-<keyword name="__ae2fVK_AnnSlpMkAllocVKMem_imp(break;,(v_mk).m_U0.m_base.m_alloccount,(v_mk).m_U0.m_alter.m_ptr-&gt;m_vkres,(v_mk).m_U0.m_alter.m_ptr-&gt;m_vkglobbuf,(v_mk).m_U0.m_alter.m_ptr-&gt;m_vkglobdevmem,(v_mk).m_reterr,(v_mk).m_U1.m_vkbufcreatinfo,(v_mk).m_U1.m_vkmemallocinfo, VK_BUFFER_USAGE_STORAGE_BUFFER_BIT, VK_SHARING_MODE_EXCLUSIVE,(vkdev),(v_mk).m_U2.m_vkmemreqs,(vkalloccalls),(v_mk).m_U0.m_alter.m_i, UCHAR_MAX, VK_MEMORY_PROPERTY_HOST_VISIBLE_BIT, vkmemprops)" id="Slp.def.cc::__ae2fVK_AnnSlpMkAllocVKMem_imp_a638ff64662f9d13dda5ba6f1ccf3df93" ref="dc/d96/vk_2Slp_8def_8cc.html#a638ff64662f9d13dda5ba6f1ccf3df93"/>
+<keyword name="__ae2fVK_AnnSlpMkAllocVKMem_imp(break;, __ae2fVK_AnnSlpGlobSz(inc, outc),(v_mk).m_U0.m_alter.m_ptr-&gt;m_vkres,(v_mk).m_U0.m_alter.m_ptr-&gt;m_vkglobbuf,(v_mk).m_U0.m_alter.m_ptr-&gt;m_vkglobdevmem,(v_mk).m_reterr,(v_mk).m_U1.m_vkbufcreatinfo,(v_mk).m_U1.m_vkmemallocinfo, VK_BUFFER_USAGE_STORAGE_BUFFER_BIT, VK_SHARING_MODE_EXCLUSIVE,(vkdev),(v_mk).m_U2.m_vkmemreqs,(vkalloccalls),(v_mk).m_U0.m_alter.m_i, UCHAR_MAX, VK_MEMORY_PROPERTY_HOST_VISIBLE_BIT, vkmemprops)" id="Slp.def.cc::__ae2fVK_AnnSlpMkAllocVKMem_imp_ab2cb2a407a77e8d4c85eae2059249785" ref="dc/d96/vk_2Slp_8def_8cc.html#ab2cb2a407a77e8d4c85eae2059249785"/>
 <keyword name="__ae2fVK_AnnSlpMkAllocVKMem_imp(break;, sizeof(ae2f_float_t) *((outc)),(v_mk).m_U0.m_alter.m_ptr-&gt;m_vkres,(v_mk).m_U0.m_alter.m_ptr-&gt;m_vklocbuf,(v_mk).m_U0.m_alter.m_ptr-&gt;m_vklocdevmem,(v_mk).m_reterr,(v_mk).m_U1.m_vkbufcreatinfo,(v_mk).m_U1.m_vkmemallocinfo, VK_BUFFER_USAGE_STORAGE_BUFFER_BIT, VK_SHARING_MODE_EXCLUSIVE,(vkdev),(v_mk).m_U2.m_vkmemreqs,(vkalloccalls),(v_mk).m_U0.m_alter.m_i, UCHAR_MAX, VK_MEMORY_PROPERTY_DEVICE_LOCAL_BIT, vkmemprops)" id="Slp.def.cc::__ae2fVK_AnnSlpMkAllocVKMem_imp_a402a82374fb5b452180a9e036ad854dd" ref="dc/d96/vk_2Slp_8def_8cc.html#a402a82374fb5b452180a9e036ad854dd"/>
 <keyword name="__ae2fVK_AnnSlpMkCLSPVVerbose_imp(r_handle, ir_err, i_first, i_second, i_third)" id="Slp.auto.h::__ae2fVK_AnnSlpMkCLSPVVerbose_imp_a28dd3679d7e841c98d785f704c7ee691" ref="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a28dd3679d7e841c98d785f704c7ee691"/>
 <keyword name="__ae2fVK_AnnSlpMkCreatBuf(CMDONERR, sz, r_vkres, r_vkbuf, v_vkbufcreatinfo, v_reterr, vkbufuseflags, vksharemode, vkdev, vkalloccalls)" id="Slp.auto.h::__ae2fVK_AnnSlpMkCreatBuf_a480fa17277b6ec7930d4fd3a5074199a" ref="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a480fa17277b6ec7930d4fd3a5074199a"/>
-<keyword name="__ae2fVK_AnnSlpMkCreatDescPool(CMDONERR, v_vkdescpoolcreatinfo, v_vkdescpoolsz, r_vkdescpool, r_reterr, r_vkres, i_vkdev, i_vkptrAlloc, i_vkdescpoolcreatflags, i_vkdesctype, i_vkdescpoolsz_count)" id="Slp.auto.h::__ae2fVK_AnnSlpMkCreatDescPool_a994414e74d987623adb4fb86592eca13" ref="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a994414e74d987623adb4fb86592eca13"/>
-<keyword name="__ae2fVK_AnnSlpMkCreatDescPool(break,(v_mk).m_U1.m_vkdescpoolcreatinfo,(v_mk).m_U2.m_vkdescpoolsz,(v_mk).m_U0.m_mkswap.m_mkbase-&gt;m_vkdescpool[ae2fVK_eAnnMlpDescPools_ONLY],(v_mk).m_ret.m_err,(v_mk).m_U0.m_mkswap.m_mkbase-&gt;m_vkres, i_vkdev,(iv_vkalloccalls), VK_DESCRIPTOR_POOL_CREATE_FREE_DESCRIPTOR_SET_BIT, VK_DESCRIPTOR_TYPE_STORAGE_BUFFER, 2)" id="Mlp.def.cc::__ae2fVK_AnnSlpMkCreatDescPool_a066b69c306550d5396b5748597c2f2f3" ref="dd/d55/vk_2Mlp_8def_8cc.html#a066b69c306550d5396b5748597c2f2f3"/>
 <keyword name="__ae2fVK_AnnSlpMkCreatDescPool(break,(v_mk).m_vkstack.m_creatdescpool.m_creatinfo,(v_mk).m_vkstack.m_creatdescpool.m_sz,(v_mk).m_union.m_alter.m_ptr-&gt;m_vkdescpool[ae2fVK_eAnnSlpDescPools_kPredict],(v_mk).m_reterr,(v_mk).m_union.m_alter.m_ptr-&gt;m_vkres,(vkdev),(vkalloccalls), VK_DESCRIPTOR_POOL_CREATE_FREE_DESCRIPTOR_SET_BIT, VK_DESCRIPTOR_TYPE_STORAGE_BUFFER, 1)" id="Slp.auto.def.cc::__ae2fVK_AnnSlpMkCreatDescPool_afb5ac9abd61ad51ccab3505b5c248df2" ref="de/d94/Slp_8auto_8def_8cc.html#afb5ac9abd61ad51ccab3505b5c248df2"/>
 <keyword name="__ae2fVK_AnnSlpMkCreatDescPool(break,(v_mk).m_vkstack.m_creatdescpool.m_creatinfo,(v_mk).m_vkstack.m_creatdescpool.m_sz,(v_mk).m_union.m_alter.m_ptr-&gt;m_vkdescpool[ae2fVK_eAnnSlpDescPools_kTrain],(v_mk).m_reterr,(v_mk).m_union.m_alter.m_ptr-&gt;m_vkres,(vkdev),(vkalloccalls), VK_DESCRIPTOR_POOL_CREATE_FREE_DESCRIPTOR_SET_BIT, VK_DESCRIPTOR_TYPE_STORAGE_BUFFER, 2)" id="Slp.auto.def.cc::__ae2fVK_AnnSlpMkCreatDescPool_a837e768e65b2bd284f1a7bc9e87cd0eb" ref="de/d94/Slp_8auto_8def_8cc.html#a837e768e65b2bd284f1a7bc9e87cd0eb"/>
-<keyword name="__ae2fVK_AnnSlpMkCreatDescPool(break,(v_mk).m_U1.m_vkdescpoolcreatinfo,(v_mk).m_U2.m_vkdescpoolsz,(v_mk).m_U0.m_alter.m_ptr-&gt;m_vkdescpool[ae2fVK_eAnnSlpDescPools_kPredict],(v_mk).m_reterr,(v_mk).m_U0.m_alter.m_ptr-&gt;m_vkres,(vkdev),(vkalloccalls), VK_DESCRIPTOR_POOL_CREATE_FREE_DESCRIPTOR_SET_BIT, VK_DESCRIPTOR_TYPE_STORAGE_BUFFER, 1)" id="Slp.def.cc::__ae2fVK_AnnSlpMkCreatDescPool_a7ff4ee08b0f4e12871bbd86474f70edf" ref="dc/d96/vk_2Slp_8def_8cc.html#a7ff4ee08b0f4e12871bbd86474f70edf"/>
-<keyword name="__ae2fVK_AnnSlpMkCreatDescPool(break,(v_mk).m_U1.m_vkdescpoolcreatinfo,(v_mk).m_U2.m_vkdescpoolsz,(v_mk).m_U0.m_alter.m_ptr-&gt;m_vkdescpool[ae2fVK_eAnnSlpDescPools_kTrain],(v_mk).m_reterr,(v_mk).m_U0.m_alter.m_ptr-&gt;m_vkres,(vkdev),(vkalloccalls), VK_DESCRIPTOR_POOL_CREATE_FREE_DESCRIPTOR_SET_BIT, VK_DESCRIPTOR_TYPE_STORAGE_BUFFER, 2)" id="Slp.def.cc::__ae2fVK_AnnSlpMkCreatDescPool_a6fb47cb2fae6e6b9de082365364d6791" ref="dc/d96/vk_2Slp_8def_8cc.html#a6fb47cb2fae6e6b9de082365364d6791"/>
 <keyword name="__ae2fVK_AnnSlpMkFndMemProp_imp(CMDONERR, r_memtypeidx, v_errbit, memtypeidx_invalid_minus_one, vkpropflag_req, vkphydevmemprops)" id="Slp.auto.h::__ae2fVK_AnnSlpMkFndMemProp_imp_a41bc7b7025e2203574f522ee01755144" ref="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a41bc7b7025e2203574f522ee01755144"/>
 <keyword name="__ae2fVK_AnnSlpMkFndMemProp_imp(CMDONERR, v_memtypeidx, v_errbit, memtypeidx_invalid_minus_one, vkpropflag_req, vkphydevmemprops)" id="Slp.auto.def.cc::__ae2fVK_AnnSlpMkFndMemProp_imp_a22d16ad4e2f1187e5d79a782cc62763c" ref="de/d94/Slp_8auto_8def_8cc.html#a22d16ad4e2f1187e5d79a782cc62763c"/>
 <keyword name="__ae2fVK_AnnSlpMkFndMemProp_imp(CMDONERR, v_memtypeidx, v_errbit, memtypeidx_invalid_minus_one, vkpropflag_req, vkphydevmemprops)" id="Slp.def.cc::__ae2fVK_AnnSlpMkFndMemProp_imp_a22d16ad4e2f1187e5d79a782cc62763c" ref="dc/d96/vk_2Slp_8def_8cc.html#a22d16ad4e2f1187e5d79a782cc62763c"/>
@@ -2535,14 +2649,14 @@
 <keyword name="__ae2fVK_AnnSlpMkOnePipeLayoutVerbose_imp(break,(v_mk).m_U1.m_vkpushconstrange,(v_mk).m_U2.m_vkpipelayoutcreatinfo,(v_mk).m_ret.m_err,(v_mk).m_U0.m_mkswap.m_mkbase, ae2fVK_eAnnMlpPipeLayouts_kTrain, sizeof(uint32_t)+(sizeof(ae2f_float_t) *2),(iv_vkalloccalls),(i_vkdev))" id="Mlp.def.cc::__ae2fVK_AnnSlpMkOnePipeLayoutVerbose_imp_aab7a47a784dadaf757c5dc11dee15afe" ref="dd/d55/vk_2Mlp_8def_8cc.html#aab7a47a784dadaf757c5dc11dee15afe"/>
 <keyword name="__ae2fVK_AnnSlpMkOnePipeLayoutVerbose_imp(break,(v_mk).m_U1.m_vkpushconstrange,(v_mk).m_U2.m_vkpipelayoutcreatinfo,(v_mk).m_reterr,(v_mk).m_U0.m_alter.m_ptr, ae2fVK_eAnnSlpPipeLayouts_kPredict, sizeof(size_t), vkalloccalls, vkdev)" id="Slp.def.cc::__ae2fVK_AnnSlpMkOnePipeLayoutVerbose_imp_a4d5a7b849dfac33874505b1f2e0c215a" ref="dc/d96/vk_2Slp_8def_8cc.html#a4d5a7b849dfac33874505b1f2e0c215a"/>
 <keyword name="__ae2fVK_AnnSlpMkOnePipeLayoutVerbose_imp(break,(v_mk).m_U1.m_vkpushconstrange,(v_mk).m_U2.m_vkpipelayoutcreatinfo,(v_mk).m_reterr,(v_mk).m_U0.m_alter.m_ptr, ae2fVK_eAnnSlpPipeLayouts_kTrain, sizeof(ae2f_float_t) *2, vkalloccalls, vkdev)" id="Slp.def.cc::__ae2fVK_AnnSlpMkOnePipeLayoutVerbose_imp_a91e1a14d422c846ec2c44154504f9b4f" ref="dc/d96/vk_2Slp_8def_8cc.html#a91e1a14d422c846ec2c44154504f9b4f"/>
-<keyword name="__ae2fVK_AnnSlpPredictFree_imp(iv_slp, iv_cmd)" id="Slp.auto.h::__ae2fVK_AnnSlpPredictFree_imp_a74449b903d25b13513535fc43cab29c0" ref="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a74449b903d25b13513535fc43cab29c0"/>
-<keyword name="__ae2fVK_AnnSlpPredictPerformed_imp(v_predict, r_cmd, i_vkcmdbuf, i_inp, i_vkcmdbufuseflags, iv_slp, iv_err)" id="Slp.auto.h::__ae2fVK_AnnSlpPredictPerformed_imp_aa905733b23235a2f91928f5060f3c2a3" ref="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#aa905733b23235a2f91928f5060f3c2a3"/>
-<keyword name="__ae2fVK_AnnSlpTrainFree_imp(iv_slp, iv_cmd)" id="Slp.auto.h::__ae2fVK_AnnSlpTrainFree_imp_a170f365e1b8442ee148648d97cf7747c" ref="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a170f365e1b8442ee148648d97cf7747c"/>
-<keyword name="__ae2fVK_AnnSlpTrainPerformed_imp(v_predict, r_cmd, i_vkcmdbuf, i_inp, i_vkcmdbufuseflags, iv_slp, iv_err)" id="Slp.auto.h::__ae2fVK_AnnSlpTrainPerformed_imp_aadbfdea3945b3819a3e1e77d193b9de4" ref="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#aadbfdea3945b3819a3e1e77d193b9de4"/>
+<keyword name="__ae2fVK_AnnSlpOutOff(i_inp, i_out)" id="Slp.core.h::__ae2fVK_AnnSlpOutOff_a3d2ea56ea7a898435b4a0ef1fbdc021f" ref="d1/d19/K_2Ann_2Slp_8core_8h.html#a3d2ea56ea7a898435b4a0ef1fbdc021f"/>
+<keyword name="__ae2fVK_AnnSlpOutSz(i_inp, i_out)" id="Slp.core.h::__ae2fVK_AnnSlpOutSz_aa80685eb5540cf225169fd45a4cd32b5" ref="d1/d19/K_2Ann_2Slp_8core_8h.html#aa80685eb5540cf225169fd45a4cd32b5"/>
 <keyword name="__ae2fVK_AnnSlpUnMap_imp(slp)" id="Slp.auto.h::__ae2fVK_AnnSlpUnMap_imp_a9dfc1f53c9abf8baacdf69e1d5f51eb9" ref="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a9dfc1f53c9abf8baacdf69e1d5f51eb9"/>
 <keyword name="__ae2fVK_AnnSlpUnMapRanged_imp(v_out, vi_slp, i_off, i_sz)" id="Slp.auto.h::__ae2fVK_AnnSlpUnMapRanged_imp_ab6d21fd3ffcd285a3ddbd558b8b54bb6" ref="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#ab6d21fd3ffcd285a3ddbd558b8b54bb6"/>
 <keyword name="__ae2fVK_AnnSlpWBMap(r_err, slp, ir_ptrweight, ir_ptrbias)" id="Slp.auto.h::__ae2fVK_AnnSlpWBMap_a7836264027396e54b3b861ff978d50ea" ref="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a7836264027396e54b3b861ff978d50ea"/>
 <keyword name="__ae2fVK_AnnSlpWBUnMap_imp(v_out, vi_slp)" id="Slp.auto.h::__ae2fVK_AnnSlpWBUnMap_imp_affdebbb51606186d7e946fdeced0ec44" ref="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#affdebbb51606186d7e946fdeced0ec44"/>
+<keyword name="__ae2fVK_AnnSlpWeightOff(i_inp, i_out)" id="Slp.core.h::__ae2fVK_AnnSlpWeightOff_a9a872a0171becaaa08f541fc9efd5c36" ref="d1/d19/K_2Ann_2Slp_8core_8h.html#a9a872a0171becaaa08f541fc9efd5c36"/>
+<keyword name="__ae2fVK_AnnSlpWeightSz(i_inp, i_out)" id="Slp.core.h::__ae2fVK_AnnSlpWeightSz_a5e7b2c70b77dd05a1811b103364e59b4" ref="d1/d19/K_2Ann_2Slp_8core_8h.html#a5e7b2c70b77dd05a1811b103364e59b4"/>
 <keyword name="__ae2fVK_SpvcDel_C" id="Spvc.def.c::__ae2fVK_SpvcDel_C_a7e1ec539c30f34e90deb4e5d203415fb" ref="df/da7/Spvc_8def_8c.html#a7e1ec539c30f34e90deb4e5d203415fb"/>
 <keyword name="__ae2fVK_SpvcMk_C" id="Spvc.def.c::__ae2fVK_SpvcMk_C_a2e53065888a78cd4627d36d795ba3adb" ref="df/da7/Spvc_8def_8c.html#a2e53065888a78cd4627d36d795ba3adb"/>
 <keyword name="__ae2fVK_SpvcMk_imp(v_ret_isgood, v_ret, inp)" id="Spvc.def.c::__ae2fVK_SpvcMk_imp_a182fdd0a4fd3fd6a598e0a6c9556ceb2" ref="df/da7/Spvc_8def_8c.html#a182fdd0a4fd3fd6a598e0a6c9556ceb2"/>
@@ -2757,10 +2871,13 @@
 <keyword name="ae2f_MAC() _ae2f_AnnSlpPredictOne_imp(ae2f_AnnSlpPredictOne_t v_predict" id="Slp.def.cc::ae2f_MAC_a048f8476d45b506f4380aea0f785f36f" ref="d7/d63/ann_2Slp_8def_8cc.html#a048f8476d45b506f4380aea0f785f36f"/>
 <keyword name="ae2f_MAC() _ae2f_mMMapSz_imp(ae2f_mMMapSz_t v_mapsz" id="MMap.def.c::ae2f_MAC_a7adbea1567cf8ecc5e96acb088802c83" ref="d2/d74/MMap_8def_8c.html#a7adbea1567cf8ecc5e96acb088802c83"/>
 <keyword name="ae2f_MAC() _ae2fVK_AnnMlpMk_imp(ae2fVK_AnnMlpMk_t v_mk" id="Mlp.def.cc::ae2f_MAC_a9884141a14d1b921a15be1bf3e8c8ed8" ref="dd/d55/vk_2Mlp_8def_8cc.html#a9884141a14d1b921a15be1bf3e8c8ed8"/>
+<keyword name="ae2f_MAC() _ae2fVK_AnnMlpDescPoolCmdMkPredict_imp(ae2fVK_AnnMlpDescPoolCmdMk_t v_cmdmk" id="MlpPool.def.cc::ae2f_MAC_acb6e9d03bad46f83e447c0419f7b394d" ref="d5/d07/MlpPool_8def_8cc.html#acb6e9d03bad46f83e447c0419f7b394d"/>
 <keyword name="ae2f_MAC(CMDONERR,) _ae2fVK_AnnSlpMkFndMemProp_imp(unsigned char r_memtypeidx" id="Slp.auto.def.cc::ae2f_MAC_a219209a39c8af21e278539b6bc5a7e2b" ref="de/d94/Slp_8auto_8def_8cc.html#a219209a39c8af21e278539b6bc5a7e2b"/>
 <keyword name="ae2f_MAC() _ae2fVK_AnnSlpMk_imp(ae2fVK_AnnSlpMk_t v_mk" id="Slp.auto.def.cc::ae2f_MAC_a6275905958b64e50e015b789dd0b0514" ref="de/d94/Slp_8auto_8def_8cc.html#a6275905958b64e50e015b789dd0b0514"/>
 <keyword name="ae2f_MAC(CMDONERR,) _ae2fVK_AnnSlpMkFndMemProp_imp(unsigned char r_memtypeidx" id="Slp.def.cc::ae2f_MAC_a219209a39c8af21e278539b6bc5a7e2b" ref="dc/d96/vk_2Slp_8def_8cc.html#a219209a39c8af21e278539b6bc5a7e2b"/>
 <keyword name="ae2f_MAC() _ae2fVK_AnnSlpMk_imp(ae2fVK_AnnSlpMk_t v_mk" id="Slp.def.cc::ae2f_MAC_a6275905958b64e50e015b789dd0b0514" ref="dc/d96/vk_2Slp_8def_8cc.html#a6275905958b64e50e015b789dd0b0514"/>
+<keyword name="ae2f_MAC() _ae2fVK_AnnSlpDescPoolMkGeneric_imp(ae2fVK_AnnSlpCreatDescPool_t v_descpool" id="SlpPool.def.cc::ae2f_MAC_a7e3d6025a4d28bb2fcdd706a826fb0de" ref="d4/d54/SlpPool_8def_8cc.html#a7e3d6025a4d28bb2fcdd706a826fb0de"/>
+<keyword name="ae2f_MAC(COMMANDONRECORDING,) _ae2fVK_AnnSlpDescPoolCmdMk_imp(ae2fVK_AnnSlpDescPoolCmdMk_t v_cmdmk" id="SlpPool.def.cc::ae2f_MAC_a146e7e176e5cd60de703e29e1851d4c3" ref="d4/d54/SlpPool_8def_8cc.html#a146e7e176e5cd60de703e29e1851d4c3"/>
 <keyword name="ae2f_MAC() _ae2fVK_SpvcMkWithMsg_imp(int v_ret_isgood" id="Spvc.def.c::ae2f_MAC_a560d8547c44d69d54bda1509ce1553c3" ref="df/da7/Spvc_8def_8c.html#a560d8547c44d69d54bda1509ce1553c3"/>
 <keyword name="ae2f_MAC() clMlpRvrse(ae2f_float_t v_tmp" id="Mlp.h::ae2f_MAC_adb2ce0e26f7da335047a744c34fa4e2c" ref="d9/df0/src_2vk_2cl_2Mlp_8h.html#adb2ce0e26f7da335047a744c34fa4e2c"/>
 <keyword name="ae2f_MAC() clSlpPredict(_clSlpPredict_t v_predict" id="Slp.h::ae2f_MAC_adbf0ffa3be40f2fce9e0f23e0d9a291a" ref="db/dc7/src_2vk_2cl_2Slp_8h.html#adbf0ffa3be40f2fce9e0f23e0d9a291a"/>
@@ -2854,7 +2971,18 @@
 <keyword name="ae2f_structdef(struct, lr_t)" id="Slp.cl.c::ae2f_structdef_aedb581ee6147c2f7d08f094d51d7b808" ref="d1/dea/Slp_8cl_8c.html#aedb581ee6147c2f7d08f094d51d7b808"/>
 <keyword name="ae2f_structdef(struct, _clSlpPredict_t_Q)" id="Slp.auto.h::ae2f_structdef_a59b672baedbdaad13b005c93f3ec86e4" ref="db/d9a/src_2vk_2cl_2Slp_8auto_8h.html#a59b672baedbdaad13b005c93f3ec86e4"/>
 <keyword name="ae2f_structdef(struct, ae2fVK_AnnMlp)" id="Mlp.h::ae2f_structdef_aef4fb22b8ce6ffdc66cf83d623a6ab5a" ref="db/d62/inc_2ae2fVK_2Ann_2Mlp_8h.html#aef4fb22b8ce6ffdc66cf83d623a6ab5a"/>
+<keyword name="ae2f_structdef(struct, ae2fVK_AnnMlp)" id="Mlp.core.h::ae2f_structdef_aef4fb22b8ce6ffdc66cf83d623a6ab5a" ref="dd/d9e/K_2Ann_2Mlp_8core_8h.html#aef4fb22b8ce6ffdc66cf83d623a6ab5a"/>
+<keyword name="ae2f_structdef(struct, ae2fVK_AnnMlpMkU0Swap_t)" id="Mlp.core.h::ae2f_structdef_a70ca6265670220c0211c856c7772fdde" ref="dd/d9e/K_2Ann_2Mlp_8core_8h.html#a70ca6265670220c0211c856c7772fdde"/>
+<keyword name="ae2f_structdef(union, ae2fVK_AnnMlpMkU0_t)" id="Mlp.core.h::ae2f_structdef_aaafb4d5f42c8608e855e9c54da4f673d" ref="dd/d9e/K_2Ann_2Mlp_8core_8h.html#aaafb4d5f42c8608e855e9c54da4f673d"/>
+<keyword name="ae2f_structdef(union, ae2fVK_AnnMlpMkU1_t)" id="Mlp.core.h::ae2f_structdef_a9717871d5e20cdf8cbf61a178435cc42" ref="dd/d9e/K_2Ann_2Mlp_8core_8h.html#a9717871d5e20cdf8cbf61a178435cc42"/>
+<keyword name="ae2f_structdef(union, ae2fVK_AnnMlpMkU2_t)" id="Mlp.core.h::ae2f_structdef_aa5e8363c7d316faa2cb6466f1ffb3d20" ref="dd/d9e/K_2Ann_2Mlp_8core_8h.html#aa5e8363c7d316faa2cb6466f1ffb3d20"/>
+<keyword name="ae2f_structdef(union, ae2fVK_AnnMlpMkU3_t)" id="Mlp.core.h::ae2f_structdef_ac1681ed55fafc01f61979672ac126c26" ref="dd/d9e/K_2Ann_2Mlp_8core_8h.html#ac1681ed55fafc01f61979672ac126c26"/>
+<keyword name="ae2f_structdef(struct, ae2fVK_AnnMlpMkU4_t)" id="Mlp.core.h::ae2f_structdef_a1002594a56cf0ccff9d2328f5a152f59" ref="dd/d9e/K_2Ann_2Mlp_8core_8h.html#a1002594a56cf0ccff9d2328f5a152f59"/>
+<keyword name="ae2f_structdef(struct, ae2fVK_AnnMlpMkRet_t)" id="Mlp.core.h::ae2f_structdef_ad3b2c40c88b4da8fc1d4af4660efd253" ref="dd/d9e/K_2Ann_2Mlp_8core_8h.html#ad3b2c40c88b4da8fc1d4af4660efd253"/>
+<keyword name="ae2f_structdef(struct, ae2fVK_AnnMlpMk_t)" id="Mlp.core.h::ae2f_structdef_a378e1f09dfcc297c9c74b1153c2e3bbc" ref="dd/d9e/K_2Ann_2Mlp_8core_8h.html#a378e1f09dfcc297c9c74b1153c2e3bbc"/>
 <keyword name="ae2f_structdef(struct, ae2fVK_AnnSlp)" id="Slp.h::ae2f_structdef_a927b6465894077f122d9dc23909d6258" ref="d7/db9/inc_2ae2fVK_2Ann_2Slp_8h.html#a927b6465894077f122d9dc23909d6258"/>
+<keyword name="ae2f_structdef(struct, ae2fVK_AnnSlpDescPool)" id="Slp.h::ae2f_structdef_a2efd989ce0f062e9875aa75d82dcbae3" ref="d7/db9/inc_2ae2fVK_2Ann_2Slp_8h.html#a2efd989ce0f062e9875aa75d82dcbae3"/>
+<keyword name="ae2f_structdef(struct, ae2fVK_AnnSlpDescPoolCmd)" id="Slp.h::ae2f_structdef_a3d6afeeb2782987a6be2b93ad5a76974" ref="d7/db9/inc_2ae2fVK_2Ann_2Slp_8h.html#a3d6afeeb2782987a6be2b93ad5a76974"/>
 <keyword name="ae2f_structdef(struct, ae2fVK_AnnSlp)" id="Slp.core.h::ae2f_structdef_a927b6465894077f122d9dc23909d6258" ref="d1/d19/K_2Ann_2Slp_8core_8h.html#a927b6465894077f122d9dc23909d6258"/>
 <keyword name="ae2f_structdef(struct, ae2fVK_AnnSlpMkAlter_t)" id="Slp.core.h::ae2f_structdef_ab38b2e420e56e70aadcf0a2ea1ccd10b" ref="d1/d19/K_2Ann_2Slp_8core_8h.html#ab38b2e420e56e70aadcf0a2ea1ccd10b"/>
 <keyword name="ae2f_structdef(union, ae2fVK_AnnSlpMkU0_t)" id="Slp.core.h::ae2f_structdef_a0bd1613753d2d2bda88b083068e7c13e" ref="d1/d19/K_2Ann_2Slp_8core_8h.html#a0bd1613753d2d2bda88b083068e7c13e"/>
@@ -2865,18 +2993,9 @@
 <keyword name="ae2f_structdef(struct, ae2fVK_AnnSlpMk_t)" id="Slp.core.h::ae2f_structdef_a8d454b7e178375ceb8a80ab237c10c0d" ref="d1/d19/K_2Ann_2Slp_8core_8h.html#a8d454b7e178375ceb8a80ab237c10c0d"/>
 <keyword name="ae2f_structdef(struct, ae2fVK_AnnSlpPredictUnion0WrDescInfo_t)" id="Slp.core.h::ae2f_structdef_a352dd851851b35ddf0a637cff18eb8d0" ref="d1/d19/K_2Ann_2Slp_8core_8h.html#a352dd851851b35ddf0a637cff18eb8d0"/>
 <keyword name="ae2f_structdef(union, ae2fVK_AnnSlpPredictUnion0_t)" id="Slp.core.h::ae2f_structdef_a243abc5b872336ec705c859e60a50e3b" ref="d1/d19/K_2Ann_2Slp_8core_8h.html#a243abc5b872336ec705c859e60a50e3b"/>
-<keyword name="ae2f_structdef(struct, ae2fVK_AnnSlpGetCmd_t)" id="Slp.core.h::ae2f_structdef_ad7a2a4444b54ed887add133b1ab234da" ref="d1/d19/K_2Ann_2Slp_8core_8h.html#ad7a2a4444b54ed887add133b1ab234da"/>
-<keyword name="ae2f_structdef(union, ae2fVK_AnnSlpMapPtr_t)" id="Slp.core.h::ae2f_structdef_af5f7de797dce1ac6a079efc8cef27391" ref="d1/d19/K_2Ann_2Slp_8core_8h.html#af5f7de797dce1ac6a079efc8cef27391"/>
-<keyword name="ae2f_structdef(struct, ae2fVK_AnnSlpMap_t)" id="Slp.core.h::ae2f_structdef_a9de39ef5be85204c16580afb7685572e" ref="d1/d19/K_2Ann_2Slp_8core_8h.html#a9de39ef5be85204c16580afb7685572e"/>
-<keyword name="ae2f_structdef(struct, ae2fVK_AnnMlp)" id="Mlp.core.h::ae2f_structdef_aef4fb22b8ce6ffdc66cf83d623a6ab5a" ref="dd/d9e/K_2Ann_2Mlp_8core_8h.html#aef4fb22b8ce6ffdc66cf83d623a6ab5a"/>
-<keyword name="ae2f_structdef(struct, ae2fVK_AnnMlpMkU0Swap_t)" id="Mlp.core.h::ae2f_structdef_a70ca6265670220c0211c856c7772fdde" ref="dd/d9e/K_2Ann_2Mlp_8core_8h.html#a70ca6265670220c0211c856c7772fdde"/>
-<keyword name="ae2f_structdef(union, ae2fVK_AnnMlpMkU0_t)" id="Mlp.core.h::ae2f_structdef_aaafb4d5f42c8608e855e9c54da4f673d" ref="dd/d9e/K_2Ann_2Mlp_8core_8h.html#aaafb4d5f42c8608e855e9c54da4f673d"/>
-<keyword name="ae2f_structdef(union, ae2fVK_AnnMlpMkU1_t)" id="Mlp.core.h::ae2f_structdef_a9717871d5e20cdf8cbf61a178435cc42" ref="dd/d9e/K_2Ann_2Mlp_8core_8h.html#a9717871d5e20cdf8cbf61a178435cc42"/>
-<keyword name="ae2f_structdef(union, ae2fVK_AnnMlpMkU2_t)" id="Mlp.core.h::ae2f_structdef_aa5e8363c7d316faa2cb6466f1ffb3d20" ref="dd/d9e/K_2Ann_2Mlp_8core_8h.html#aa5e8363c7d316faa2cb6466f1ffb3d20"/>
-<keyword name="ae2f_structdef(union, ae2fVK_AnnMlpMkU3_t)" id="Mlp.core.h::ae2f_structdef_ac1681ed55fafc01f61979672ac126c26" ref="dd/d9e/K_2Ann_2Mlp_8core_8h.html#ac1681ed55fafc01f61979672ac126c26"/>
-<keyword name="ae2f_structdef(struct, ae2fVK_AnnMlpMkU4_t)" id="Mlp.core.h::ae2f_structdef_a1002594a56cf0ccff9d2328f5a152f59" ref="dd/d9e/K_2Ann_2Mlp_8core_8h.html#a1002594a56cf0ccff9d2328f5a152f59"/>
-<keyword name="ae2f_structdef(struct, ae2fVK_AnnMlpMkRet_t)" id="Mlp.core.h::ae2f_structdef_ad3b2c40c88b4da8fc1d4af4660efd253" ref="dd/d9e/K_2Ann_2Mlp_8core_8h.html#ad3b2c40c88b4da8fc1d4af4660efd253"/>
-<keyword name="ae2f_structdef(struct, ae2fVK_AnnMlpMk_t)" id="Mlp.core.h::ae2f_structdef_a378e1f09dfcc297c9c74b1153c2e3bbc" ref="dd/d9e/K_2Ann_2Mlp_8core_8h.html#a378e1f09dfcc297c9c74b1153c2e3bbc"/>
+<keyword name="ae2f_structdef(struct, ae2fVK_AnnSlpDescPoolCmdMk_t)" id="Slp.core.h::ae2f_structdef_a9a6b11765e4fed530c2b6c509929d403" ref="d1/d19/K_2Ann_2Slp_8core_8h.html#a9a6b11765e4fed530c2b6c509929d403"/>
+<keyword name="ae2f_structdef(struct, ae2fVK_AnnSlpCreatDescPoolU0_t)" id="Slp.core.h::ae2f_structdef_abdc01cb2e3fdcd6d915a0931e8aa46ba" ref="d1/d19/K_2Ann_2Slp_8core_8h.html#abdc01cb2e3fdcd6d915a0931e8aa46ba"/>
+<keyword name="ae2f_structdef(struct, ae2fVK_AnnSlpCreatDescPool_t)" id="Slp.core.h::ae2f_structdef_a6add519d53db3668dd3a29e26b443adc" ref="d1/d19/K_2Ann_2Slp_8core_8h.html#a6add519d53db3668dd3a29e26b443adc"/>
 <keyword name="ae2f_structdef(union, qq)" id="main.c::ae2f_structdef_a55260d3b39a42768a7ad388f7fda180d" ref="d3/d1f/Core_2test_2main_8c.html#a55260d3b39a42768a7ad388f7fda180d"/>
 <keyword name="ae2f_structdef(struct, ae2fVK_Spvc)" id="Spvc.def.c::ae2f_structdef_ab8c3c7f5840f10e296796fcbf3345bd2" ref="df/da7/Spvc_8def_8c.html#ab8c3c7f5840f10e296796fcbf3345bd2"/>
 <keyword name="ae2f_structdef_n(key, name,...)" id="Cast.h::ae2f_structdef_n_af79c6b202a7b534e88f761ce4e4587a4" ref="d3/dc4/Cast_8h.html#af79c6b202a7b534e88f761ce4e4587a4"/>
@@ -2885,7 +3004,6 @@
 <keyword name="ae2f_structdef_n(struct, ae2f_AnnMlpPropagateAll_t, ae2f_AnnMlpFollow_t)" id="Mlp.core.h::ae2f_structdef_n_a12ce39a6b7bbf8fef768b54b9da338f9" ref="df/d42/Ann_2Mlp_8core_8h.html#a12ce39a6b7bbf8fef768b54b9da338f9"/>
 <keyword name="ae2f_structdef_n(struct, ae2f_AnnSlpFollowOne_t, ae2f_AnnSlpFitOne_t)" id="Slp.core.h::ae2f_structdef_n_a842200066727df3d64ef35f77cbc6191" ref="da/d6c/Ann_2Slp_8core_8h.html#a842200066727df3d64ef35f77cbc6191"/>
 <keyword name="ae2f_structdef_n(struct, ae2f_AnnSlpFollow_t, ae2f_AnnSlpFit_t, ae2f_AnnSlpFetchDelta_t)" id="Slp.core.h::ae2f_structdef_n_acacdce02800c8caa06c2312ea3cac2fe" ref="da/d6c/Ann_2Slp_8core_8h.html#acacdce02800c8caa06c2312ea3cac2fe"/>
-<keyword name="ae2f_structdef_n(struct, ae2fVK_AnnSlpCmd_t, ae2fVK_AnnSlpPredictCmd_t)" id="Slp.core.h::ae2f_structdef_n_a0f8c6a674b2000fc4f81ccf2b72b3eb5" ref="d1/d19/K_2Ann_2Slp_8core_8h.html#a0f8c6a674b2000fc4f81ccf2b72b3eb5"/>
 <keyword name="ae2f_structdef_n(union, t, q)" id="main.c::ae2f_structdef_n_a46a7fdd9718d613c369a34322879e12f" ref="d3/d1f/Core_2test_2main_8c.html#a46a7fdd9718d613c369a34322879e12f"/>
 <keyword name="ae2f_structdef_v(key, name,...)" id="Cast.h::ae2f_structdef_v_a92e52a9d02a80433c0c4cd43221db85f" ref="d3/dc4/Cast_8h.html#a92e52a9d02a80433c0c4cd43221db85f"/>
 <keyword name="ae2f_structdef_v(struct, ae2f_mMMap, ae2f_mMMap)" id="MMap.def.c::ae2f_structdef_v_ae2ed053cc71e86107bb34e9f7ab12191" ref="d2/d74/MMap_8def_8c.html#ae2ed053cc71e86107bb34e9f7ab12191"/>
@@ -2906,12 +3024,17 @@
 <keyword name="ae2fVK_Ann_Slp_c" id="Slp.auto.h::ae2fVK_Ann_Slp_c_a93afcd0716939d54c8d24bb8005c5379" ref="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a93afcd0716939d54c8d24bb8005c5379"/>
 <keyword name="ae2fVK_Ann_Slp_c" id="Slp.auto.def.cc::ae2fVK_Ann_Slp_c_a93afcd0716939d54c8d24bb8005c5379" ref="de/d94/Slp_8auto_8def_8cc.html#a93afcd0716939d54c8d24bb8005c5379"/>
 <keyword name="ae2fVK_Ann_Slp_c" id="Slp.def.cc::ae2fVK_Ann_Slp_c_a93afcd0716939d54c8d24bb8005c5379" ref="dc/d96/vk_2Slp_8def_8cc.html#a93afcd0716939d54c8d24bb8005c5379"/>
-<keyword name="ae2fVK_AnnMlpMap_t" id="Mlp.core.h::ae2fVK_AnnMlpMap_t_a4848590f388a6f7fba91a45efaa58c61" ref="dd/d9e/K_2Ann_2Mlp_8core_8h.html#a4848590f388a6f7fba91a45efaa58c61"/>
+<keyword name="ae2fVK_AnnMlpCreatDescPool_t" id="Mlp.h::ae2fVK_AnnMlpCreatDescPool_t_a1bc8f8f95907d9646b3d57117e05ea82" ref="db/d62/inc_2ae2fVK_2Ann_2Mlp_8h.html#a1bc8f8f95907d9646b3d57117e05ea82"/>
+<keyword name="ae2fVK_AnnMlpDescPool" id="Mlp.h::ae2fVK_AnnMlpDescPool_ad081d2061027df8c326999d6bdda1773" ref="db/d62/inc_2ae2fVK_2Ann_2Mlp_8h.html#ad081d2061027df8c326999d6bdda1773"/>
+<keyword name="ae2fVK_AnnMlpDescPoolCmd" id="Mlp.h::ae2fVK_AnnMlpDescPoolCmd_a18c6efe3779192110f0b70fbccb8a9c7" ref="db/d62/inc_2ae2fVK_2Ann_2Mlp_8h.html#a18c6efe3779192110f0b70fbccb8a9c7"/>
+<keyword name="ae2fVK_AnnMlpDescPoolCmdMk_t" id="Mlp.core.h::ae2fVK_AnnMlpDescPoolCmdMk_t_ac98c5400b3076810e2b50118445bcbfe" ref="dd/d9e/K_2Ann_2Mlp_8core_8h.html#ac98c5400b3076810e2b50118445bcbfe"/>
 <keyword name="ae2fVK_AnnMlpMapRangedGeneric_t" id="Mlp.core.h::ae2fVK_AnnMlpMapRangedGeneric_t_a69acfbc3f39b530e2b681fff5f81dbca" ref="dd/d9e/K_2Ann_2Mlp_8core_8h.html#a69acfbc3f39b530e2b681fff5f81dbca"/>
+<keyword name="ae2fVK_AnnMlpPool_h" id="MlpPool.auto.h::ae2fVK_AnnMlpPool_h_a5067effb70b56b23ecc9c4fb5e946137" ref="df/d45/MlpPool_8auto_8h.html#a5067effb70b56b23ecc9c4fb5e946137"/>
 <keyword name="ae2fVK_AnnMlpSHADER" id="MlpSHADER.auto.h::ae2fVK_AnnMlpSHADER_a762f4702fac0377162c110d98460d416" ref="d5/df3/MlpSHADER_8auto_8h.html#a762f4702fac0377162c110d98460d416"/>
 <keyword name="ae2fVK_AnnMlpSHADER" id="MlpSHADER.inc.c::ae2fVK_AnnMlpSHADER_a762f4702fac0377162c110d98460d416" ref="db/dbd/MlpSHADER_8inc_8c.html#a762f4702fac0377162c110d98460d416"/>
 <keyword name="ae2fVK_AnnMlpUnMap_t" id="Mlp.core.h::ae2fVK_AnnMlpUnMap_t_a4038e68a80b413f00a0404dd5fb508b7" ref="dd/d9e/K_2Ann_2Mlp_8core_8h.html#a4038e68a80b413f00a0404dd5fb508b7"/>
 <keyword name="ae2fVK_AnnSlpMapRangedGeneric_t" id="Slp.core.h::ae2fVK_AnnSlpMapRangedGeneric_t_a58ac34e5aa6a351f1e047893189350fc" ref="d1/d19/K_2Ann_2Slp_8core_8h.html#a58ac34e5aa6a351f1e047893189350fc"/>
+<keyword name="ae2fVK_AnnSlpPool_h" id="SlpPool.auto.h::ae2fVK_AnnSlpPool_h_a3187536210e6614657971787b3543953" ref="d0/da0/SlpPool_8auto_8h.html#a3187536210e6614657971787b3543953"/>
 <keyword name="ae2fVK_AnnSlpSHADER" id="SlpSHADER.auto.h::ae2fVK_AnnSlpSHADER_a59d3c7b69b783ee39ea63cc71cfbb795" ref="de/d62/SlpSHADER_8auto_8h.html#a59d3c7b69b783ee39ea63cc71cfbb795"/>
 <keyword name="ae2fVK_AnnSlpSHADER" id="SlpSHADER.inc.c::ae2fVK_AnnSlpSHADER_a59d3c7b69b783ee39ea63cc71cfbb795" ref="d7/d60/SlpSHADER_8inc_8c.html#a59d3c7b69b783ee39ea63cc71cfbb795"/>
 <keyword name="ae2fVK_AnnSlpUnMap_t" id="Slp.core.h::ae2fVK_AnnSlpUnMap_t_aaa75a781f839f6cab53966023844a040" ref="d1/d19/K_2Ann_2Slp_8core_8h.html#aaa75a781f839f6cab53966023844a040"/>
@@ -2975,10 +3098,8 @@
 <keyword name="assert((v_mk).m_U0.m_mk.m_outc==(v_mk).m_U0.m_mkswap.m_mkbase-&gt;m_mlp.m_outc)" id="Mlp.def.cc::assert_ae2eea41e7bec1377ce21dc1c1199afdc" ref="dd/d55/vk_2Mlp_8def_8cc.html#ae2eea41e7bec1377ce21dc1c1199afdc"/>
 <keyword name="assert(i_vkcldefinition)" id="Mlp.def.cc::assert_ab3f7ee8955eeb88b9193fd5cdc650309" ref="dd/d55/vk_2Mlp_8def_8cc.html#ab3f7ee8955eeb88b9193fd5cdc650309"/>
 <keyword name="assert(i_vkcldeclaration)" id="Mlp.def.cc::assert_a722b9d5b306d1a2a84ef7b072649dcc1" ref="dd/d55/vk_2Mlp_8def_8cc.html#a722b9d5b306d1a2a84ef7b072649dcc1"/>
-<keyword name="assert((v_mk).m_U0.m_mkswap.m_mkbase-&gt;m_vkdescpool[ae2fVK_eAnnMlpDescPools_ONLY])" id="Mlp.def.cc::assert_a2e59241722098886cd1813fd4001e481" ref="dd/d55/vk_2Mlp_8def_8cc.html#a2e59241722098886cd1813fd4001e481"/>
 <keyword name="assert((v_mk).m_ret.m_err==ae2f_errGlob_OK)" id="Mlp.def.cc::assert_a7e1b0eb4ed3f60b15b8596f92ab4728f" ref="dd/d55/vk_2Mlp_8def_8cc.html#a7e1b0eb4ed3f60b15b8596f92ab4728f"/>
 <keyword name="assert((v_mk).m_U0.m_mkswap.m_mkbase-&gt;m_vkres==VK_SUCCESS)" id="Mlp.def.cc::assert_ab24e02e84f2dd24d2b4d2b87f09298fe" ref="dd/d55/vk_2Mlp_8def_8cc.html#ab24e02e84f2dd24d2b4d2b87f09298fe"/>
-<keyword name="assert((iv_mlp).m_vkres==VK_SUCCESS)" id="Mlp.def.cc::assert_a0b7082358320aa4cd01290360624c209" ref="dd/d55/vk_2Mlp_8def_8cc.html#a0b7082358320aa4cd01290360624c209"/>
 <keyword name="assert((vkphydevmemprops).memoryTypeCount&lt;=VK_MAX_MEMORY_TYPES &amp;&amp;&quot;Invalid memory type count.&quot;)" id="Slp.auto.def.cc::assert_a8d222725f5ec5f9af743e8d127d1b397" ref="de/d94/Slp_8auto_8def_8cc.html#a8d222725f5ec5f9af743e8d127d1b397"/>
 <keyword name="assert((lossderiv) &amp;&amp;&quot;lossderiv must be specified.&quot;)" id="Slp.auto.def.cc::assert_a3c4d5b99ea5d890986da852091d78ea6" ref="de/d94/Slp_8auto_8def_8cc.html#a3c4d5b99ea5d890986da852091d78ea6"/>
 <keyword name="assert((vkcldeclaration) &amp;&amp;&quot;vkcldeclaration is null&quot;)" id="Slp.auto.def.cc::assert_a8c56ce3843cf5986ef1f8d0bb9c7991f" ref="de/d94/Slp_8auto_8def_8cc.html#a8c56ce3843cf5986ef1f8d0bb9c7991f"/>
@@ -2995,6 +3116,11 @@
 <keyword name="assert((v_mk).m_U0.m_alter.m_ptr)" id="Slp.def.cc::assert_a767c4d2f539af45d765e26085585c46e" ref="dc/d96/vk_2Slp_8def_8cc.html#a767c4d2f539af45d765e26085585c46e"/>
 <keyword name="assert((v_mk).m_U0.m_base.m_ptr &amp;&amp;&quot;clspvCompileFromSourcesString has done something weird&quot;)" id="Slp.def.cc::assert_a1db491f980b2a5acac080e9cef3a6d33" ref="dc/d96/vk_2Slp_8def_8cc.html#a1db491f980b2a5acac080e9cef3a6d33"/>
 <keyword name="assert((v_mk).m_reterr==ae2f_errGlob_OK &amp;&amp;&quot;Returned error flag has set up&quot;)" id="Slp.def.cc::assert_a32496325626b9d884f6420118d2cd5a7" ref="dc/d96/vk_2Slp_8def_8cc.html#a32496325626b9d884f6420118d2cd5a7"/>
+<keyword name="assert(r_reterr==ae2f_errGlob_OK)" id="SlpPool.def.cc::assert_a978d3899bf4c267126844035978b438b" ref="d4/d54/SlpPool_8def_8cc.html#a978d3899bf4c267126844035978b438b"/>
+<keyword name="assert((iv_err)==ae2f_errGlob_OK &amp;&amp;&quot;r_err&apos;s state is bad.&quot;)" id="SlpPool.def.cc::assert_a7841b9b971e34dc9cf4edbd7ec0e0da4" ref="d4/d54/SlpPool_8def_8cc.html#a7841b9b971e34dc9cf4edbd7ec0e0da4"/>
+<keyword name="assert((iv_slp).m_vkdev)" id="SlpPool.def.cc::assert_abc732b574a359a20cbf9bb172fdbc44f" ref="d4/d54/SlpPool_8def_8cc.html#abc732b574a359a20cbf9bb172fdbc44f"/>
+<keyword name="assert((v_cmdmk).m_u0.m_vkdescsetallocinfo.pSetLayouts)" id="SlpPool.def.cc::assert_ad1c59d9ed575678242f50c3388dbe0ec" ref="d4/d54/SlpPool_8def_8cc.html#ad1c59d9ed575678242f50c3388dbe0ec"/>
+<keyword name="assert((v_cmdmk).m_u0.m_vkdescsetallocinfo.pSetLayouts[i_desclayout])" id="SlpPool.def.cc::assert_abcef95bfd78a39a615fa6401fd49429f" ref="d4/d54/SlpPool_8def_8cc.html#abcef95bfd78a39a615fa6401fd49429f"/>
 <keyword name="assert(v_isgood)" id="Spvc.def.c::assert_aaf4d96b6bd34c9fcb21f371e109bb17a" ref="df/da7/Spvc_8def_8c.html#aaf4d96b6bd34c9fcb21f371e109bb17a"/>
 <keyword name="BackSlash[3]" id="main.c::BackSlash_a4d82a7689d4493eac8da8f9d2f0c97b6" ref="d3/d0a/Preproc_2FileRaw_2main_8c.html#a4d82a7689d4493eac8da8f9d2f0c97b6"/>
 <keyword name="barrier(cl_mem_fence_flags flags)" id="clspv_clkeys.h::barrier_ae28160ff2df2e2f0edb67d78a09ed743" ref="d4/d08/clspv__clkeys_8h.html#ae28160ff2df2e2f0edb67d78a09ed743"/>
@@ -3014,6 +3140,7 @@
 <keyword name="bindingCount" id="Slp.def.cc::bindingCount_adeda477f87bcd0bc1ab20a36f4e982cf" ref="dc/d96/vk_2Slp_8def_8cc.html#adeda477f87bcd0bc1ab20a36f4e982cf"/>
 <keyword name="BINGEN_BUFFSZ" id="main.auto.h::BINGEN_BUFFSZ_abc1e3a9b5523ff36493ef13036b03991" ref="d0/d5b/FileRaw_2main_8auto_8h.html#abc1e3a9b5523ff36493ef13036b03991"/>
 <keyword name="BOOK" id="main.c::BOOK_a89c5188fc84798611c8a20475cda1af6" ref="da/d92/Preproc_2Macro_2main_8c.html#a89c5188fc84798611c8a20475cda1af6"/>
+<keyword name="buffer" id="SlpPool.def.cc::buffer_ace8d632d41e43264840af5bed3ffe92b" ref="d4/d54/SlpPool_8def_8cc.html#ace8d632d41e43264840af5bed3ffe92b"/>
 <keyword name="c" id="main.c::c_a4e1e0e72dd773439e333c84dd762a9c3" ref="da/d92/Preproc_2Macro_2main_8c.html#a4e1e0e72dd773439e333c84dd762a9c3"/>
 <keyword name="C_STD_11" id="CMakeCCompilerId.c::C_STD_11_a7c35af7e67642a2c62eb27dd81be11b2" ref="d3/d31/FileRaw_2build_2CMakeFiles_24_81_820250830-g8275211-dirty_2CompilerIdC_2CMakeCCompilerId_8c.html#a7c35af7e67642a2c62eb27dd81be11b2"/>
 <keyword name="C_STD_11" id="CMakeCCompilerId.c::C_STD_11_a7c35af7e67642a2c62eb27dd81be11b2" ref="d1/d41/Inc_2build_2CMakeFiles_24_81_820250830-g8275211-dirty_2CompilerIdC_2CMakeCCompilerId_8c.html#a7c35af7e67642a2c62eb27dd81be11b2"/>
@@ -3066,7 +3193,7 @@
 <keyword name="codeSize" id="Slp.auto.def.cc::codeSize_ae38811d09d32df20715bb3a06bd79c47" ref="de/d94/Slp_8auto_8def_8cc.html#ae38811d09d32df20715bb3a06bd79c47"/>
 <keyword name="codeSize" id="Slp.def.cc::codeSize_a5227f379595df64d87110ca8d694e5cb" ref="dc/d96/vk_2Slp_8def_8cc.html#a5227f379595df64d87110ca8d694e5cb"/>
 <keyword name="COMMANDONRECORDING" id="Slp.auto.def.cc::COMMANDONRECORDING_a001c7e46e4a2589aca9f6b93d767778e" ref="de/d94/Slp_8auto_8def_8cc.html#a001c7e46e4a2589aca9f6b93d767778e"/>
-<keyword name="COMMANDONRECORDING" id="Slp.def.cc::COMMANDONRECORDING_a001c7e46e4a2589aca9f6b93d767778e" ref="dc/d96/vk_2Slp_8def_8cc.html#a001c7e46e4a2589aca9f6b93d767778e"/>
+<keyword name="COMMANDONRECORDING" id="SlpPool.def.cc::COMMANDONRECORDING_a001c7e46e4a2589aca9f6b93d767778e" ref="d4/d54/SlpPool_8def_8cc.html#a001c7e46e4a2589aca9f6b93d767778e"/>
 <keyword name="COMPILER_ID" id="CMakeCCompilerId.c::COMPILER_ID_a81dee0709ded976b2e0319239f72d174" ref="d3/d31/FileRaw_2build_2CMakeFiles_24_81_820250830-g8275211-dirty_2CompilerIdC_2CMakeCCompilerId_8c.html#a81dee0709ded976b2e0319239f72d174"/>
 <keyword name="COMPILER_ID" id="CMakeCXXCompilerId.cpp::COMPILER_ID_a81dee0709ded976b2e0319239f72d174" ref="d9/d66/FileRaw_2build_2CMakeFiles_24_81_820250830-g8275211-dirty_2CompilerIdCXX_2CMakeCXXCompilerId_8cpp.html#a81dee0709ded976b2e0319239f72d174"/>
 <keyword name="COMPILER_ID" id="CMakeCCompilerId.c::COMPILER_ID_a81dee0709ded976b2e0319239f72d174" ref="d1/d41/Inc_2build_2CMakeFiles_24_81_820250830-g8275211-dirty_2CompilerIdC_2CMakeCCompilerId_8c.html#a81dee0709ded976b2e0319239f72d174"/>
@@ -3119,9 +3246,13 @@
 <keyword name="descriptorCount" id="Mlp.def.cc::descriptorCount_a428d030d5339a71412fef57a24585c48" ref="dd/d55/vk_2Mlp_8def_8cc.html#a428d030d5339a71412fef57a24585c48"/>
 <keyword name="descriptorCount" id="Slp.auto.def.cc::descriptorCount_a85b8af10568296891d2ab8973acfad80" ref="de/d94/Slp_8auto_8def_8cc.html#a85b8af10568296891d2ab8973acfad80"/>
 <keyword name="descriptorCount" id="Slp.def.cc::descriptorCount_a428d030d5339a71412fef57a24585c48" ref="dc/d96/vk_2Slp_8def_8cc.html#a428d030d5339a71412fef57a24585c48"/>
+<keyword name="descriptorCount" id="SlpPool.def.cc::descriptorCount_a26e4198df8dac25f4e0ec04ac5d01c1f" ref="d4/d54/SlpPool_8def_8cc.html#a26e4198df8dac25f4e0ec04ac5d01c1f"/>
+<keyword name="descriptorPool" id="SlpPool.def.cc::descriptorPool_aaaba1fa433972c6915199f2a653d2731" ref="d4/d54/SlpPool_8def_8cc.html#aaaba1fa433972c6915199f2a653d2731"/>
+<keyword name="descriptorSetCount" id="SlpPool.def.cc::descriptorSetCount_a02c98409bb19b701812331416290d777" ref="d4/d54/SlpPool_8def_8cc.html#a02c98409bb19b701812331416290d777"/>
 <keyword name="descriptorType" id="Mlp.def.cc::descriptorType_adbc9ba30bc35f1c83fe5130ad8339404" ref="dd/d55/vk_2Mlp_8def_8cc.html#adbc9ba30bc35f1c83fe5130ad8339404"/>
 <keyword name="descriptorType" id="Slp.auto.def.cc::descriptorType_a0b6d38ebff33a19e7eef535068be7c4c" ref="de/d94/Slp_8auto_8def_8cc.html#a0b6d38ebff33a19e7eef535068be7c4c"/>
 <keyword name="descriptorType" id="Slp.def.cc::descriptorType_a04b7e86c75f3b4ca6034f01399304b72" ref="dc/d96/vk_2Slp_8def_8cc.html#a04b7e86c75f3b4ca6034f01399304b72"/>
+<keyword name="descriptorType" id="SlpPool.def.cc::descriptorType_a38514af05e9d47d43ba27aa55e6c4bc0" ref="d4/d54/SlpPool_8def_8cc.html#a38514af05e9d47d43ba27aa55e6c4bc0"/>
 <keyword name="Diff(T a, K b)" id="ae2f::Cmp::Diff_a6a124df7bd28b79685e4b51f8379ea3b" ref="dd/ddb/namespaceae2f_1_1Cmp.html#a6a124df7bd28b79685e4b51f8379ea3b"/>
 <keyword name="DIFF_GOOD(a, b)" id="SlpTrainAND.c::DIFF_GOOD_aa2309d9b55594dad559079f42563dabf" ref="de/d28/SlpTrainAND_8c.html#aa2309d9b55594dad559079f42563dabf"/>
 <keyword name="DIFF_GOOD(a, b)" id="SlpTrainAND.cc::DIFF_GOOD_aa2309d9b55594dad559079f42563dabf" ref="d2/dfb/SlpTrainAND_8cc.html#aa2309d9b55594dad559079f42563dabf"/>
@@ -3130,6 +3261,10 @@
 <keyword name="do" id="Mlp.def.cc::do_a721c6ff80a6d3e4ad4ffa52a04c60085" ref="dd/d55/vk_2Mlp_8def_8cc.html#a721c6ff80a6d3e4ad4ffa52a04c60085"/>
 <keyword name="do" id="Slp.auto.def.cc::do_a721c6ff80a6d3e4ad4ffa52a04c60085" ref="de/d94/Slp_8auto_8def_8cc.html#a721c6ff80a6d3e4ad4ffa52a04c60085"/>
 <keyword name="do" id="Slp.def.cc::do_a721c6ff80a6d3e4ad4ffa52a04c60085" ref="dc/d96/vk_2Slp_8def_8cc.html#a721c6ff80a6d3e4ad4ffa52a04c60085"/>
+<keyword name="do" id="SlpPool.def.cc::do_a721c6ff80a6d3e4ad4ffa52a04c60085" ref="d4/d54/SlpPool_8def_8cc.html#a721c6ff80a6d3e4ad4ffa52a04c60085"/>
+<keyword name="dstArrayElement" id="SlpPool.def.cc::dstArrayElement_a803dc99dfb7e0a1fa5aa822db01494ff" ref="d4/d54/SlpPool_8def_8cc.html#a803dc99dfb7e0a1fa5aa822db01494ff"/>
+<keyword name="dstBinding" id="SlpPool.def.cc::dstBinding_a68bf977d7297ba71a423040fa38b538c" ref="d4/d54/SlpPool_8def_8cc.html#a68bf977d7297ba71a423040fa38b538c"/>
+<keyword name="dstSet" id="SlpPool.def.cc::dstSet_ab9c1531bc4cc8e406ce1c732740e1f40" ref="d4/d54/SlpPool_8def_8cc.html#ab9c1531bc4cc8e406ce1c732740e1f40"/>
 <keyword name="el" id="WaitWake.c::el_a1aaea0ffb3ccc35ef47484bb7561b463" ref="d4/d80/WaitWake_8c.html#a1aaea0ffb3ccc35ef47484bb7561b463"/>
 <keyword name="else" id="Mlp.def.cc::else_a0544c3fe466e421738dae463968b70ba" ref="d1/de1/ann_2Mlp_8def_8cc.html#a0544c3fe466e421738dae463968b70ba"/>
 <keyword name="else" id="Spvc.def.c::else_a0544c3fe466e421738dae463968b70ba" ref="df/da7/Spvc_8def_8c.html#a0544c3fe466e421738dae463968b70ba"/>
@@ -3152,6 +3287,7 @@
 <keyword name="flags" id="Mlp.def.cc::flags_a37431e5f58b3c556fc6500e00eaadf01" ref="dd/d55/vk_2Mlp_8def_8cc.html#a37431e5f58b3c556fc6500e00eaadf01"/>
 <keyword name="flags" id="Slp.auto.def.cc::flags_aaec734890048ed7e49d9f8f7586e33ff" ref="de/d94/Slp_8auto_8def_8cc.html#aaec734890048ed7e49d9f8f7586e33ff"/>
 <keyword name="flags" id="Slp.def.cc::flags_a37431e5f58b3c556fc6500e00eaadf01" ref="dc/d96/vk_2Slp_8def_8cc.html#a37431e5f58b3c556fc6500e00eaadf01"/>
+<keyword name="flags" id="SlpPool.def.cc::flags_a8f74b61e573116c2e5651482a285b173" ref="d4/d54/SlpPool_8def_8cc.html#a8f74b61e573116c2e5651482a285b173"/>
 <keyword name="for((v_predict).m_k=1;(v_predict).m_k&lt;(v_predict).m_depth - 1;(v_predict).m_k++)" id="Mlp.def.cc::for_af662dd0293628c8c4c13e7f0a0754a71" ref="d1/de1/ann_2Mlp_8def_8cc.html#af662dd0293628c8c4c13e7f0a0754a71"/>
 <keyword name="for((v_single).m_i=(slp).m_outc;(v_single).m_i--;)" id="Mlp.def.cc::for_a2b3aea79dac6f77a812e1b7c927efe29" ref="d1/de1/ann_2Mlp_8def_8cc.html#a2b3aea79dac6f77a812e1b7c927efe29"/>
 <keyword name="for((v_predict).m_j=(isz);(v_predict).m_j--;)" id="Slp.def.cc::for_ab933ed52b4396e556e308fa664560f1f" ref="d7/d63/ann_2Slp_8def_8cc.html#ab933ed52b4396e556e308fa664560f1f"/>
@@ -3203,11 +3339,13 @@
 <keyword name="i_act" id="Mlp.def.cc::i_act_a831dac2321571ed7a5ada7f0c6802f7a" ref="dd/d55/vk_2Mlp_8def_8cc.html#a831dac2321571ed7a5ada7f0c6802f7a"/>
 <keyword name="i_actderiv" id="Mlp.def.cc::i_actderiv_a65b9b3b4433d178d8af9676e408119cd" ref="dd/d55/vk_2Mlp_8def_8cc.html#a65b9b3b4433d178d8af9676e408119cd"/>
 <keyword name="i_actderiv_then" id="Mlp.h::i_actderiv_then_a5b5be1ecdaf62ae3d44348fe6325a40e" ref="d9/df0/src_2vk_2cl_2Mlp_8h.html#a5b5be1ecdaf62ae3d44348fe6325a40e"/>
+<keyword name="i_cmd" id="SlpPool.def.cc::i_cmd_a7119b0f65e336f020f14ed4d4bde26fa" ref="d4/d54/SlpPool_8def_8cc.html#a7119b0f65e336f020f14ed4d4bde26fa"/>
+<keyword name="i_desccount" id="SlpPool.def.cc::i_desccount_af5e4d80b9ca28d253bee81924edb4419" ref="d4/d54/SlpPool_8def_8cc.html#af5e4d80b9ca28d253bee81924edb4419"/>
+<keyword name="i_desclayout" id="SlpPool.def.cc::i_desclayout_a5de4e0790888862f28072d4b12279c97" ref="d4/d54/SlpPool_8def_8cc.html#a5de4e0790888862f28072d4b12279c97"/>
 <keyword name="i_extra" id="Mlp.def.cc::i_extra_a3a75e395dde532b73958782ee1ce0702" ref="dd/d55/vk_2Mlp_8def_8cc.html#a3a75e395dde532b73958782ee1ce0702"/>
 <keyword name="i_first" id="Slp.auto.def.cc::i_first_ad58dfac2046819d0a133f9dd4ade99be" ref="de/d94/Slp_8auto_8def_8cc.html#ad58dfac2046819d0a133f9dd4ade99be"/>
 <keyword name="i_first" id="Slp.def.cc::i_first_ad58dfac2046819d0a133f9dd4ade99be" ref="dc/d96/vk_2Slp_8def_8cc.html#ad58dfac2046819d0a133f9dd4ade99be"/>
 <keyword name="i_iidx" id="Mlp.h::i_iidx_afe01ccbe6c8a6541802c7883495df510" ref="d9/df0/src_2vk_2cl_2Mlp_8h.html#afe01ccbe6c8a6541802c7883495df510"/>
-<keyword name="i_inp" id="Mlp.def.cc::i_inp_a79483f9c8d9157abf8d9deff38091f7e" ref="dd/d55/vk_2Mlp_8def_8cc.html#a79483f9c8d9157abf8d9deff38091f7e"/>
 <keyword name="i_inp" id="Mlp.h::i_inp_aa4c2ecd40646681fadd07d6aacf23a54" ref="d9/df0/src_2vk_2cl_2Mlp_8h.html#aa4c2ecd40646681fadd07d6aacf23a54"/>
 <keyword name="i_isz" id="Mlp.h::i_isz_ad31047233c66925427c6610fe0d6f7e5" ref="d9/df0/src_2vk_2cl_2Mlp_8h.html#ad31047233c66925427c6610fe0d6f7e5"/>
 <keyword name="i_learningrate" id="Mlp.def.cc::i_learningrate_a4875047649b6fc2e9c948d8a6691b5fa" ref="dd/d55/vk_2Mlp_8def_8cc.html#a4875047649b6fc2e9c948d8a6691b5fa"/>
@@ -3216,23 +3354,36 @@
 <keyword name="i_len_count" id="Mlp.def.cc::i_len_count_a60b155038bc1856e6624bce0fce381d4" ref="dd/d55/vk_2Mlp_8def_8cc.html#a60b155038bc1856e6624bce0fce381d4"/>
 <keyword name="i_len_swap" id="Mlp.def.cc::i_len_swap_abde31f8463873d16fa0f2c22d24c15b9" ref="dd/d55/vk_2Mlp_8def_8cc.html#abde31f8463873d16fa0f2c22d24c15b9"/>
 <keyword name="i_lossderiv" id="Mlp.def.cc::i_lossderiv_af713f4428e32bdfec4cf1ce382e7e450" ref="dd/d55/vk_2Mlp_8def_8cc.html#af713f4428e32bdfec4cf1ce382e7e450"/>
+<keyword name="i_offglob" id="SlpPool.def.cc::i_offglob_ad74a51dbd2a2c81899ba51e45008de31" ref="d4/d54/SlpPool_8def_8cc.html#ad74a51dbd2a2c81899ba51e45008de31"/>
+<keyword name="i_offloc" id="SlpPool.def.cc::i_offloc_af68bf83fe6f9f2fa9702c85898bedbaa" ref="d4/d54/SlpPool_8def_8cc.html#af68bf83fe6f9f2fa9702c85898bedbaa"/>
 <keyword name="i_oidx" id="Mlp.h::i_oidx_a44f7a21b121ffd9065d294d9e41b0648" ref="d9/df0/src_2vk_2cl_2Mlp_8h.html#a44f7a21b121ffd9065d294d9e41b0648"/>
+<keyword name="i_pipe" id="SlpPool.def.cc::i_pipe_a7eeef7e80b40f0c6aac68b40ffcec6ad" ref="d4/d54/SlpPool_8def_8cc.html#a7eeef7e80b40f0c6aac68b40ffcec6ad"/>
+<keyword name="i_pipelayout" id="SlpPool.def.cc::i_pipelayout_ac6d0395424ca874a336967401aec66ca" ref="d4/d54/SlpPool_8def_8cc.html#ac6d0395424ca874a336967401aec66ca"/>
+<keyword name="i_pool" id="MlpPool.def.cc::i_pool_a65ad59e1f2202a8e17edc061aa66c0f9" ref="d5/d07/MlpPool_8def_8cc.html#a65ad59e1f2202a8e17edc061aa66c0f9"/>
+<keyword name="i_pool" id="SlpPool.def.cc::i_pool_a65ad59e1f2202a8e17edc061aa66c0f9" ref="d4/d54/SlpPool_8def_8cc.html#a65ad59e1f2202a8e17edc061aa66c0f9"/>
 <keyword name="i_prm_offset" id="Mlp.def.cc::i_prm_offset_a786a786642b111e815c1abc32fbe416b" ref="dd/d55/vk_2Mlp_8def_8cc.html#a786a786642b111e815c1abc32fbe416b"/>
 <keyword name="i_second" id="Slp.auto.def.cc::i_second_ae8e62c449fefcf8e085c914fae24293b" ref="de/d94/Slp_8auto_8def_8cc.html#ae8e62c449fefcf8e085c914fae24293b"/>
 <keyword name="i_second" id="Slp.def.cc::i_second_ae8e62c449fefcf8e085c914fae24293b" ref="dc/d96/vk_2Slp_8def_8cc.html#ae8e62c449fefcf8e085c914fae24293b"/>
+<keyword name="i_szglob" id="SlpPool.def.cc::i_szglob_a8ce81ab660112b319c514e5b3a0e04a8" ref="d4/d54/SlpPool_8def_8cc.html#a8ce81ab660112b319c514e5b3a0e04a8"/>
+<keyword name="i_szloc" id="SlpPool.def.cc::i_szloc_aca73bcdb8ddee712235dfdd6eb839375" ref="d4/d54/SlpPool_8def_8cc.html#aca73bcdb8ddee712235dfdd6eb839375"/>
 <keyword name="i_vkcldeclaration" id="Mlp.def.cc::i_vkcldeclaration_a98e2d2952f79e57b90b03b52d3dc6b10" ref="dd/d55/vk_2Mlp_8def_8cc.html#a98e2d2952f79e57b90b03b52d3dc6b10"/>
 <keyword name="i_vkcldefinition" id="Mlp.def.cc::i_vkcldefinition_a6a90bf0d3749b068a678f1f7160d8f2a" ref="dd/d55/vk_2Mlp_8def_8cc.html#a6a90bf0d3749b068a678f1f7160d8f2a"/>
-<keyword name="i_vkcmdbuf" id="Mlp.def.cc::i_vkcmdbuf_a6aad060ce9d08f34ab6026f288ddf812" ref="dd/d55/vk_2Mlp_8def_8cc.html#a6aad060ce9d08f34ab6026f288ddf812"/>
-<keyword name="i_vkcmdbufuseflags" id="Mlp.def.cc::i_vkcmdbufuseflags_a819780f979709a022eddc445f347063a" ref="dd/d55/vk_2Mlp_8def_8cc.html#a819780f979709a022eddc445f347063a"/>
-<keyword name="i_vkdescpoolcreatflags" id="Slp.auto.def.cc::i_vkdescpoolcreatflags_ad047168d63362d0441329e70aeb5e748" ref="de/d94/Slp_8auto_8def_8cc.html#ad047168d63362d0441329e70aeb5e748"/>
+<keyword name="i_vkcmdbuf" id="MlpPool.def.cc::i_vkcmdbuf_ae345405141299ce88ff448c6b459efff" ref="d5/d07/MlpPool_8def_8cc.html#ae345405141299ce88ff448c6b459efff"/>
+<keyword name="i_vkcmdbuf" id="SlpPool.def.cc::i_vkcmdbuf_ae345405141299ce88ff448c6b459efff" ref="d4/d54/SlpPool_8def_8cc.html#ae345405141299ce88ff448c6b459efff"/>
+<keyword name="i_vkdescpoolcreatflags" id="Slp.auto.def.cc::i_vkdescpoolcreatflags_a8a06b5cb09eb2448eb42ccb6ad1227d4" ref="de/d94/Slp_8auto_8def_8cc.html#a8a06b5cb09eb2448eb42ccb6ad1227d4"/>
 <keyword name="i_vkdescpoolcreatflags" id="Slp.def.cc::i_vkdescpoolcreatflags_ad047168d63362d0441329e70aeb5e748" ref="dc/d96/vk_2Slp_8def_8cc.html#ad047168d63362d0441329e70aeb5e748"/>
-<keyword name="i_vkdescpoolsz_count" id="Slp.auto.def.cc::i_vkdescpoolsz_count_ad29ce21db065455273840df36fbf1490" ref="de/d94/Slp_8auto_8def_8cc.html#ad29ce21db065455273840df36fbf1490"/>
+<keyword name="i_vkdescpoolcreatflags" id="SlpPool.def.cc::i_vkdescpoolcreatflags_a8a06b5cb09eb2448eb42ccb6ad1227d4" ref="d4/d54/SlpPool_8def_8cc.html#a8a06b5cb09eb2448eb42ccb6ad1227d4"/>
+<keyword name="i_vkdescpoolsz_count" id="Slp.auto.def.cc::i_vkdescpoolsz_count_a9738daae0473cb42bcbac2a8bdb5b7f2" ref="de/d94/Slp_8auto_8def_8cc.html#a9738daae0473cb42bcbac2a8bdb5b7f2"/>
 <keyword name="i_vkdescpoolsz_count" id="Slp.def.cc::i_vkdescpoolsz_count_ad29ce21db065455273840df36fbf1490" ref="dc/d96/vk_2Slp_8def_8cc.html#ad29ce21db065455273840df36fbf1490"/>
-<keyword name="i_vkdesctype" id="Slp.auto.def.cc::i_vkdesctype_a132566bec3964db633d3eebf07c51e6a" ref="de/d94/Slp_8auto_8def_8cc.html#a132566bec3964db633d3eebf07c51e6a"/>
+<keyword name="i_vkdescpoolsz_count" id="SlpPool.def.cc::i_vkdescpoolsz_count_a4a4352b5d73e6b412b946b46adaaba1f" ref="d4/d54/SlpPool_8def_8cc.html#a4a4352b5d73e6b412b946b46adaaba1f"/>
+<keyword name="i_vkdesctype" id="Slp.auto.def.cc::i_vkdesctype_a19f6730e14d93fd7b13153fa01116310" ref="de/d94/Slp_8auto_8def_8cc.html#a19f6730e14d93fd7b13153fa01116310"/>
 <keyword name="i_vkdesctype" id="Slp.def.cc::i_vkdesctype_a132566bec3964db633d3eebf07c51e6a" ref="dc/d96/vk_2Slp_8def_8cc.html#a132566bec3964db633d3eebf07c51e6a"/>
+<keyword name="i_vkdesctype" id="SlpPool.def.cc::i_vkdesctype_a22e78412cb7c0447f4feda8a93c26901" ref="d4/d54/SlpPool_8def_8cc.html#a22e78412cb7c0447f4feda8a93c26901"/>
 <keyword name="i_vkdev" id="Mlp.def.cc::i_vkdev_a71fccccf25b17b73d6451b5c8db0704d" ref="dd/d55/vk_2Mlp_8def_8cc.html#a71fccccf25b17b73d6451b5c8db0704d"/>
 <keyword name="i_vkdev" id="Slp.auto.def.cc::i_vkdev_a8a1546058cc5fe9d53ac2bc3df7a90d4" ref="de/d94/Slp_8auto_8def_8cc.html#a8a1546058cc5fe9d53ac2bc3df7a90d4"/>
 <keyword name="i_vkdev" id="Slp.def.cc::i_vkdev_a8a1546058cc5fe9d53ac2bc3df7a90d4" ref="dc/d96/vk_2Slp_8def_8cc.html#a8a1546058cc5fe9d53ac2bc3df7a90d4"/>
+<keyword name="i_vkmaxdescsets" id="Slp.def.cc::i_vkmaxdescsets_aec13be8bde26d28c86fd2ac6dadb4511" ref="dc/d96/vk_2Slp_8def_8cc.html#aec13be8bde26d28c86fd2ac6dadb4511"/>
+<keyword name="i_vkmaxdescsets" id="SlpPool.def.cc::i_vkmaxdescsets_aec13be8bde26d28c86fd2ac6dadb4511" ref="d4/d54/SlpPool_8def_8cc.html#aec13be8bde26d28c86fd2ac6dadb4511"/>
 <keyword name="i_vkmemprops" id="Mlp.def.cc::i_vkmemprops_a2e9d7d10b14ae486983f29113cf9c356" ref="dd/d55/vk_2Mlp_8def_8cc.html#a2e9d7d10b14ae486983f29113cf9c356"/>
 <keyword name="i_vkptrAlloc" id="Slp.auto.def.cc::i_vkptrAlloc_a63db14009c088486ba1e4b2800836fbb" ref="de/d94/Slp_8auto_8def_8cc.html#a63db14009c088486ba1e4b2800836fbb"/>
 <keyword name="i_vkptrAlloc" id="Slp.def.cc::i_vkptrAlloc_a63db14009c088486ba1e4b2800836fbb" ref="dc/d96/vk_2Slp_8def_8cc.html#a63db14009c088486ba1e4b2800836fbb"/>
@@ -3284,6 +3435,10 @@
 <keyword name="if(((v_mk).m_U0.m_alter.m_ptr-&gt;m_vkres=vkCreateShaderModule(vkdev, &amp;(v_mk).m_U2.m_vkshadermodcreatinfo,(vkalloccalls), &amp;(v_mk).m_U0.m_alter.m_ptr-&gt;m_vkshadermodule)) !=VK_SUCCESS)" id="Slp.def.cc::if_afbb012e3304174b0662db9b76cfb27cc" ref="dc/d96/vk_2Slp_8def_8cc.html#afbb012e3304174b0662db9b76cfb27cc"/>
 <keyword name="if(((v_mk).m_U0.m_alter.m_ptr-&gt;m_vkres=vkCreateComputePipelines((vkdev), VK_NULL_HANDLE, ae2fVK_eAnnSlpPipes_LEN,(v_mk).m_U2.m_vkcomputepipecreatinfo,(vkalloccalls),(v_mk).m_U0.m_alter.m_ptr-&gt;m_vkpipeline)) !=VK_SUCCESS)" id="Slp.def.cc::if_a68ca71efb8e4d249a8ba68f29a24042d" ref="dc/d96/vk_2Slp_8def_8cc.html#a68ca71efb8e4d249a8ba68f29a24042d"/>
 <keyword name="if((v_mk).m_U0.m_alter.m_ptr-&gt;m_vkres)" id="Slp.def.cc::if_adb6e5d41e9fb8494af3c43c185bd8c57" ref="dc/d96/vk_2Slp_8def_8cc.html#adb6e5d41e9fb8494af3c43c185bd8c57"/>
+<keyword name="if((iv_slp).m_vkres !=VK_SUCCESS)" id="SlpPool.def.cc::if_a12c2e04770b32e0bc2b87a1524988f9e" ref="d4/d54/SlpPool_8def_8cc.html#a12c2e04770b32e0bc2b87a1524988f9e"/>
+<keyword name="if((r_reterr)) assert(!&quot;__ae2fVK_AnnSlpCreatDescPoolVerbose_imp has failed.&quot;)" id="SlpPool.def.cc::if_a6602ff080e2de6d954d8404e302343c7" ref="d4/d54/SlpPool_8def_8cc.html#a6602ff080e2de6d954d8404e302343c7"/>
+<keyword name="if(((iv_slp).m_vkres=vkBeginCommandBuffer(i_vkcmdbuf, &amp;(v_cmdmk).m_u0.m_vkcmdbufbeginfo)) !=VK_SUCCESS)" id="SlpPool.def.cc::if_afb730cbac71605a4cfcaed864a9c8872" ref="d4/d54/SlpPool_8def_8cc.html#afb730cbac71605a4cfcaed864a9c8872"/>
+<keyword name="if(((iv_slp).m_vkres !=VK_SUCCESS))(iv_err)|" id="SlpPool.def.cc::if_aec9a1a03325ce7841cdf09bb3754ed5c" ref="d4/d54/SlpPool_8def_8cc.html#aec9a1a03325ce7841cdf09bb3754ed5c"/>
 <keyword name="if((reterr) &amp;&amp;*(reterr))" id="Spvc.def.c::if_a44dd67025d90aa4cb5739c7795cdea84" ref="df/da7/Spvc_8def_8c.html#a44dd67025d90aa4cb5739c7795cdea84"/>
 <keyword name="if_consteval" id="Constexpr.hpp::if_consteval_a63dc9cb131b189ff5510484ad96d1ea7" ref="d0/d5d/Constexpr_8hpp.html#a63dc9cb131b189ff5510484ad96d1ea7"/>
 <keyword name="if_constexpr" id="Constexpr.hpp::if_constexpr_ac03b7e5a3148381040501946b45e2cfc" ref="d0/d5d/Constexpr_8hpp.html#ac03b7e5a3148381040501946b45e2cfc"/>
@@ -3353,11 +3508,14 @@
 <keyword name="isz" id="Slp.def.cc::isz_a397a700c4195b67b2c56bb225f03f95b" ref="d7/d63/ann_2Slp_8def_8cc.html#a397a700c4195b67b2c56bb225f03f95b"/>
 <keyword name="isz" id="Slp.h::isz_ad7257a8c4ed430a0ed2d9471714132b4" ref="db/dc7/src_2vk_2cl_2Slp_8h.html#ad7257a8c4ed430a0ed2d9471714132b4"/>
 <keyword name="iv_bias_opt" id="Mlp.def.cc::iv_bias_opt_a116386ce41dee282c796aa6e4f1e4c95" ref="dd/d55/vk_2Mlp_8def_8cc.html#a116386ce41dee282c796aa6e4f1e4c95"/>
-<keyword name="iv_cmd" id="Mlp.def.cc::iv_cmd_a24f46033988a7eaff03c49f39d30fb9a" ref="dd/d55/vk_2Mlp_8def_8cc.html#a24f46033988a7eaff03c49f39d30fb9a"/>
 <keyword name="iv_deltastream_opt" id="Mlp.def.cc::iv_deltastream_opt_a5ef5027237aa122f5d77fd4553aa782f" ref="dd/d55/vk_2Mlp_8def_8cc.html#a5ef5027237aa122f5d77fd4553aa782f"/>
-<keyword name="iv_err" id="Mlp.def.cc::iv_err_a8082dfa02b5f43101c41da56dde7a58a" ref="dd/d55/vk_2Mlp_8def_8cc.html#a8082dfa02b5f43101c41da56dde7a58a"/>
-<keyword name="iv_mlp" id="Mlp.def.cc::iv_mlp_a63da2e7991d264578f1c66f37db73da9" ref="dd/d55/vk_2Mlp_8def_8cc.html#a63da2e7991d264578f1c66f37db73da9"/>
+<keyword name="iv_err" id="MlpPool.def.cc::iv_err_a1b4c78d44332c2648d98b2315c1023c3" ref="d5/d07/MlpPool_8def_8cc.html#a1b4c78d44332c2648d98b2315c1023c3"/>
+<keyword name="iv_err" id="SlpPool.def.cc::iv_err_a1b4c78d44332c2648d98b2315c1023c3" ref="d4/d54/SlpPool_8def_8cc.html#a1b4c78d44332c2648d98b2315c1023c3"/>
+<keyword name="iv_mlp" id="Mlp.def.cc::iv_mlp_a8421a900a429f51dd22c0536adb0caa4" ref="dd/d55/vk_2Mlp_8def_8cc.html#a8421a900a429f51dd22c0536adb0caa4"/>
+<keyword name="iv_mlp" id="MlpPool.def.cc::iv_mlp_a8421a900a429f51dd22c0536adb0caa4" ref="d5/d07/MlpPool_8def_8cc.html#a8421a900a429f51dd22c0536adb0caa4"/>
 <keyword name="iv_outstream_opt" id="Mlp.def.cc::iv_outstream_opt_a49e4464446cd7e07ce0de4ba750d4df1" ref="dd/d55/vk_2Mlp_8def_8cc.html#a49e4464446cd7e07ce0de4ba750d4df1"/>
+<keyword name="iv_slp" id="Slp.def.cc::iv_slp_ac32c5847df1bff42754485b7a5ea9ddd" ref="dc/d96/vk_2Slp_8def_8cc.html#ac32c5847df1bff42754485b7a5ea9ddd"/>
+<keyword name="iv_slp" id="SlpPool.def.cc::iv_slp_ac32c5847df1bff42754485b7a5ea9ddd" ref="d4/d54/SlpPool_8def_8cc.html#ac32c5847df1bff42754485b7a5ea9ddd"/>
 <keyword name="iv_slpptr" id="Slp.auto.def.cc::iv_slpptr_a2dd8f648d9bb544dcc93960fa0416dda" ref="de/d94/Slp_8auto_8def_8cc.html#a2dd8f648d9bb544dcc93960fa0416dda"/>
 <keyword name="iv_slpptr" id="Slp.def.cc::iv_slpptr_a2dd8f648d9bb544dcc93960fa0416dda" ref="dc/d96/vk_2Slp_8def_8cc.html#a2dd8f648d9bb544dcc93960fa0416dda"/>
 <keyword name="iv_vkalloccalls" id="Mlp.def.cc::iv_vkalloccalls_a2378b8e60f575de6ca5d6361af0d8209" ref="dd/d55/vk_2Mlp_8def_8cc.html#a2378b8e60f575de6ca5d6361af0d8209"/>
@@ -3407,7 +3565,6 @@
 <keyword name="lsz" id="Mlp.cl.c::lsz_adb041d6b906a34c8cdefbb8a6a0c34c0" ref="df/dbe/Mlp_8cl_8c.html#adb041d6b906a34c8cdefbb8a6a0c34c0"/>
 <keyword name="lsz" id="Mlp.cl.c::lsz_adb041d6b906a34c8cdefbb8a6a0c34c0" ref="df/dbe/Mlp_8cl_8c.html#adb041d6b906a34c8cdefbb8a6a0c34c0"/>
 <keyword name="m_alloccount" id="Slp.auto.def.cc::m_alloccount_a14bbe8ae617804b35bcc00b967944178" ref="de/d94/Slp_8auto_8def_8cc.html#a14bbe8ae617804b35bcc00b967944178"/>
-<keyword name="m_alloccount" id="Slp.def.cc::m_alloccount_a45334b73ba878ab91c18eac3f9e48bff" ref="dc/d96/vk_2Slp_8def_8cc.html#a45334b73ba878ab91c18eac3f9e48bff"/>
 <keyword name="m_bias" id="Mlp.cl.c::m_bias_a4b1f3c96c629fa3b2790b3b75f8e6ace" ref="df/dbe/Mlp_8cl_8c.html#a4b1f3c96c629fa3b2790b3b75f8e6ace"/>
 <keyword name="m_bias" id="Mlp.cl.c::m_bias_a4b1f3c96c629fa3b2790b3b75f8e6ace" ref="df/dbe/Mlp_8cl_8c.html#a4b1f3c96c629fa3b2790b3b75f8e6ace"/>
 <keyword name="m_bind[1]" id="Slp.auto.def.cc::m_bind_a6b7820f124b07f3cbe9732673720cb94" ref="de/d94/Slp_8auto_8def_8cc.html#a6b7820f124b07f3cbe9732673720cb94"/>
@@ -3535,6 +3692,7 @@
 <keyword name="offset" id="Mlp.def.cc::offset_ad690ea2319d9a69e68245928938043f4" ref="dd/d55/vk_2Mlp_8def_8cc.html#ad690ea2319d9a69e68245928938043f4"/>
 <keyword name="offset" id="Slp.auto.def.cc::offset_ad25a9af3f2f6dda65a3c0cfc7ddf7265" ref="de/d94/Slp_8auto_8def_8cc.html#ad25a9af3f2f6dda65a3c0cfc7ddf7265"/>
 <keyword name="offset" id="Slp.def.cc::offset_ad690ea2319d9a69e68245928938043f4" ref="dc/d96/vk_2Slp_8def_8cc.html#ad690ea2319d9a69e68245928938043f4"/>
+<keyword name="offset" id="SlpPool.def.cc::offset_a6831623c5634f31fa4fe0adc6b28136c" ref="d4/d54/SlpPool_8def_8cc.html#a6831623c5634f31fa4fe0adc6b28136c"/>
 <keyword name="offset_opt" id="Slp.imp.c::offset_opt_a58e2c3b6dc6bccd8c231ee3ddeba5bde" ref="d7/d63/ann_2Slp_8imp_8c.html#a58e2c3b6dc6bccd8c231ee3ddeba5bde"/>
 <keyword name="oidx" id="Slp.def.cc::oidx_ad7d0f6c46cf31af6eef6f2ce1bf54425" ref="d7/d63/ann_2Slp_8def_8cc.html#ad7d0f6c46cf31af6eef6f2ce1bf54425"/>
 <keyword name="oidx" id="Slp.h::oidx_ae365ff801efa83e8856668d478220dc5" ref="db/dc7/src_2vk_2cl_2Slp_8h.html#ae365ff801efa83e8856668d478220dc5"/>
@@ -3591,13 +3749,16 @@
 <keyword name="pBindings" id="Mlp.def.cc::pBindings_a1d75df0ce5524611e58a3f68caa1ea29" ref="dd/d55/vk_2Mlp_8def_8cc.html#a1d75df0ce5524611e58a3f68caa1ea29"/>
 <keyword name="pBindings" id="Slp.auto.def.cc::pBindings_a65e81e97d50dc5bbea8b45a100e9d69c" ref="de/d94/Slp_8auto_8def_8cc.html#a65e81e97d50dc5bbea8b45a100e9d69c"/>
 <keyword name="pBindings" id="Slp.def.cc::pBindings_a69cb49475c94578ce2247cd772e6619f" ref="dc/d96/vk_2Slp_8def_8cc.html#a69cb49475c94578ce2247cd772e6619f"/>
+<keyword name="pBufferInfo" id="SlpPool.def.cc::pBufferInfo_a063d9bf1120e5a968e062992c425e121" ref="d4/d54/SlpPool_8def_8cc.html#a063d9bf1120e5a968e062992c425e121"/>
 <keyword name="pCode" id="Slp.auto.def.cc::pCode_ac605539d63775e1ed08631b2919235cb" ref="de/d94/Slp_8auto_8def_8cc.html#ac605539d63775e1ed08631b2919235cb"/>
 <keyword name="pCode" id="Slp.def.cc::pCode_a99dc749c1c719b23db0958ea883bb20f" ref="dc/d96/vk_2Slp_8def_8cc.html#a99dc749c1c719b23db0958ea883bb20f"/>
 <keyword name="pgsz" id="Mlp.cl.c::pgsz_a225646885f5fa590bf2e8a5bab89f4e8" ref="df/dbe/Mlp_8cl_8c.html#a225646885f5fa590bf2e8a5bab89f4e8"/>
 <keyword name="pgsz_sqr" id="Mlp.cl.c::pgsz_sqr_a320cea6b430b293ad1d96213d48c2454" ref="df/dbe/Mlp_8cl_8c.html#a320cea6b430b293ad1d96213d48c2454"/>
+<keyword name="pImageInfo" id="SlpPool.def.cc::pImageInfo_afa909710d4e1b52ec1438fbeabae5f98" ref="d4/d54/SlpPool_8def_8cc.html#afa909710d4e1b52ec1438fbeabae5f98"/>
 <keyword name="pImmutableSamplers" id="Mlp.def.cc::pImmutableSamplers_adc8c90dd36c1ed4c03368175862fbcc6" ref="dd/d55/vk_2Mlp_8def_8cc.html#adc8c90dd36c1ed4c03368175862fbcc6"/>
 <keyword name="pImmutableSamplers" id="Slp.auto.def.cc::pImmutableSamplers_ace57db6c0bd4ed2574288854a9bf7f31" ref="de/d94/Slp_8auto_8def_8cc.html#ace57db6c0bd4ed2574288854a9bf7f31"/>
 <keyword name="pImmutableSamplers" id="Slp.def.cc::pImmutableSamplers_a869ec759f71b0befe2294e52fe770591" ref="dc/d96/vk_2Slp_8def_8cc.html#a869ec759f71b0befe2294e52fe770591"/>
+<keyword name="pInheritanceInfo" id="SlpPool.def.cc::pInheritanceInfo_ab70c02daf0caa5d1ab2854d98e11ef6a" ref="d4/d54/SlpPool_8def_8cc.html#ab70c02daf0caa5d1ab2854d98e11ef6a"/>
 <keyword name="pipecreat" id="Slp.auto.def.cc::pipecreat_a036e74be7d2d8fc4164ade3546dbe620" ref="de/d94/Slp_8auto_8def_8cc.html#a036e74be7d2d8fc4164ade3546dbe620"/>
 <keyword name="pipecreat" id="Slp.def.cc::pipecreat_abc940dc0f127b8a9173ceb11d11fac79" ref="dc/d96/vk_2Slp_8def_8cc.html#abc940dc0f127b8a9173ceb11d11fac79"/>
 <keyword name="pipelayout" id="Slp.auto.def.cc::pipelayout_a6b622d78eae833215588ad4b0aa1d92c" ref="de/d94/Slp_8auto_8def_8cc.html#a6b622d78eae833215588ad4b0aa1d92c"/>
@@ -3610,9 +3771,10 @@
 <keyword name="PLATFORM_ID" id="CMakeCXXCompilerId.cpp::PLATFORM_ID_adbc5372f40838899018fadbc89bd588b" ref="d6/dfd/Macro_2build_2CMakeFiles_24_81_820250830-g8275211-dirty_2CompilerIdCXX_2CMakeCXXCompilerId_8cpp.html#adbc5372f40838899018fadbc89bd588b"/>
 <keyword name="pName" id="Slp.auto.def.cc::pName_a8fa8e16d0b91b91aa05599af47b08fc3" ref="de/d94/Slp_8auto_8def_8cc.html#a8fa8e16d0b91b91aa05599af47b08fc3"/>
 <keyword name="pName" id="Slp.def.cc::pName_a8fa8e16d0b91b91aa05599af47b08fc3" ref="dc/d96/vk_2Slp_8def_8cc.html#a8fa8e16d0b91b91aa05599af47b08fc3"/>
-<keyword name="pNext" id="Mlp.def.cc::pNext_a016095eb7d74691d94e1723c6ff784a4" ref="dd/d55/vk_2Mlp_8def_8cc.html#a016095eb7d74691d94e1723c6ff784a4"/>
+<keyword name="pNext" id="Mlp.def.cc::pNext_ac6edc8b2a64ab96c67143910e2d4b5aa" ref="dd/d55/vk_2Mlp_8def_8cc.html#ac6edc8b2a64ab96c67143910e2d4b5aa"/>
 <keyword name="pNext" id="Slp.auto.def.cc::pNext_a42e9e6afed66736c4b2ed4523a7912d9" ref="de/d94/Slp_8auto_8def_8cc.html#a42e9e6afed66736c4b2ed4523a7912d9"/>
 <keyword name="pNext" id="Slp.def.cc::pNext_a016095eb7d74691d94e1723c6ff784a4" ref="dc/d96/vk_2Slp_8def_8cc.html#a016095eb7d74691d94e1723c6ff784a4"/>
+<keyword name="pNext" id="SlpPool.def.cc::pNext_ac6edc8b2a64ab96c67143910e2d4b5aa" ref="d4/d54/SlpPool_8def_8cc.html#ac6edc8b2a64ab96c67143910e2d4b5aa"/>
 <keyword name="poolSizeCount" id="Slp.auto.def.cc::poolSizeCount_a998cfec4c71da3fdeed1ee541f158a6d" ref="de/d94/Slp_8auto_8def_8cc.html#a998cfec4c71da3fdeed1ee541f158a6d"/>
 <keyword name="poolSizeCount" id="Slp.def.cc::poolSizeCount_a998cfec4c71da3fdeed1ee541f158a6d" ref="dc/d96/vk_2Slp_8def_8cc.html#a998cfec4c71da3fdeed1ee541f158a6d"/>
 <keyword name="pPoolSizes" id="Slp.auto.def.cc::pPoolSizes_a7d1abff7987c3bc95fe3397daef1b97f" ref="de/d94/Slp_8auto_8def_8cc.html#a7d1abff7987c3bc95fe3397daef1b97f"/>
@@ -3636,6 +3798,7 @@
 <keyword name="pSetLayouts" id="Mlp.def.cc::pSetLayouts_af5add0a0beb32f341f7f1c5054076a7b" ref="dd/d55/vk_2Mlp_8def_8cc.html#af5add0a0beb32f341f7f1c5054076a7b"/>
 <keyword name="pSetLayouts" id="Slp.auto.def.cc::pSetLayouts_aacc748ad2cc834e65d7b370a6ed5b0e0" ref="de/d94/Slp_8auto_8def_8cc.html#aacc748ad2cc834e65d7b370a6ed5b0e0"/>
 <keyword name="pSetLayouts" id="Slp.def.cc::pSetLayouts_af5add0a0beb32f341f7f1c5054076a7b" ref="dc/d96/vk_2Slp_8def_8cc.html#af5add0a0beb32f341f7f1c5054076a7b"/>
+<keyword name="pSetLayouts" id="SlpPool.def.cc::pSetLayouts_a7090df556b6d45f0dca5e29cf4ad1c21" ref="d4/d54/SlpPool_8def_8cc.html#a7090df556b6d45f0dca5e29cf4ad1c21"/>
 <keyword name="pSpecializationInfo" id="Slp.auto.def.cc::pSpecializationInfo_a2c60330acce74fc648a159e8b445e9d8" ref="de/d94/Slp_8auto_8def_8cc.html#a2c60330acce74fc648a159e8b445e9d8"/>
 <keyword name="pSpecializationInfo" id="Slp.def.cc::pSpecializationInfo_a2c60330acce74fc648a159e8b445e9d8" ref="dc/d96/vk_2Slp_8def_8cc.html#a2c60330acce74fc648a159e8b445e9d8"/>
 <keyword name="pushConstantRangeCount" id="Mlp.def.cc::pushConstantRangeCount_a822a78724b0688a85fdd825115f31e76" ref="dd/d55/vk_2Mlp_8def_8cc.html#a822a78724b0688a85fdd825115f31e76"/>
@@ -3645,7 +3808,8 @@
 <keyword name="queueFamilyIndexCount" id="Slp.def.cc::queueFamilyIndexCount_ace3779286348cb735a87b5ff3367fc2c" ref="dc/d96/vk_2Slp_8def_8cc.html#ace3779286348cb735a87b5ff3367fc2c"/>
 <keyword name="r_bias" id="Mlp.cl.c::r_bias_af2e25ec1cb690c0b5dffea5cb7bb8fda" ref="df/dbe/Mlp_8cl_8c.html#af2e25ec1cb690c0b5dffea5cb7bb8fda"/>
 <keyword name="r_bias_then" id="Mlp.cl.c::r_bias_then_a1032db8bee8d2a8cd461ee56850291f7" ref="df/dbe/Mlp_8cl_8c.html#a1032db8bee8d2a8cd461ee56850291f7"/>
-<keyword name="r_cmd" id="Mlp.def.cc::r_cmd_a6166e784c0dad290dfbd1a372bc1953c" ref="dd/d55/vk_2Mlp_8def_8cc.html#a6166e784c0dad290dfbd1a372bc1953c"/>
+<keyword name="r_cmd" id="MlpPool.def.cc::r_cmd_a0bcbb6a3cce5df626fd579b9e1a61cda" ref="d5/d07/MlpPool_8def_8cc.html#a0bcbb6a3cce5df626fd579b9e1a61cda"/>
+<keyword name="r_cmd" id="SlpPool.def.cc::r_cmd_a0bcbb6a3cce5df626fd579b9e1a61cda" ref="d4/d54/SlpPool_8def_8cc.html#a0bcbb6a3cce5df626fd579b9e1a61cda"/>
 <keyword name="r_delta" id="Mlp.cl.c::r_delta_aa24ed950c24485d249ef3d9fe2cf26a6" ref="df/dbe/Mlp_8cl_8c.html#aa24ed950c24485d249ef3d9fe2cf26a6"/>
 <keyword name="r_delta_then" id="Mlp.cl.c::r_delta_then_a4ac8e5af6fdf111a2f14e759e2b9b6a1" ref="df/dbe/Mlp_8cl_8c.html#a4ac8e5af6fdf111a2f14e759e2b9b6a1"/>
 <keyword name="r_delta_then" id="Mlp.h::r_delta_then_a025c96347a4b498de2c79a661980ba35" ref="d9/df0/src_2vk_2cl_2Mlp_8h.html#a025c96347a4b498de2c79a661980ba35"/>
@@ -3658,11 +3822,13 @@
 <keyword name="r_osz_then" id="Mlp.cl.c::r_osz_then_ad134fe336117838ca1b8188caa1488d3" ref="df/dbe/Mlp_8cl_8c.html#ad134fe336117838ca1b8188caa1488d3"/>
 <keyword name="r_out" id="Mlp.cl.c::r_out_a304c5ce5ae3a851a07dba7103a65a7f3" ref="df/dbe/Mlp_8cl_8c.html#a304c5ce5ae3a851a07dba7103a65a7f3"/>
 <keyword name="r_out_then" id="Mlp.cl.c::r_out_then_a3c9059a937229cecad80eed86c56e935" ref="df/dbe/Mlp_8cl_8c.html#a3c9059a937229cecad80eed86c56e935"/>
+<keyword name="r_pool" id="SlpPool.def.cc::r_pool_ad8bf5b635b8b446ec584a0c6f9a605c0" ref="d4/d54/SlpPool_8def_8cc.html#ad8bf5b635b8b446ec584a0c6f9a605c0"/>
 <keyword name="r_ptr" id="Mlp.def.cc::r_ptr_a94d05222e981a063331169ad8e34dbb3" ref="dd/d55/vk_2Mlp_8def_8cc.html#a94d05222e981a063331169ad8e34dbb3"/>
 <keyword name="r_ptrbias" id="Mlp.def.cc::r_ptrbias_a5d2a540019383f7cd32f6d4d18408b54" ref="dd/d55/vk_2Mlp_8def_8cc.html#a5d2a540019383f7cd32f6d4d18408b54"/>
 <keyword name="r_ptrweight" id="Mlp.def.cc::r_ptrweight_ace35918970812315c84e8ff98647db99" ref="dd/d55/vk_2Mlp_8def_8cc.html#ace35918970812315c84e8ff98647db99"/>
-<keyword name="r_reterr" id="Slp.auto.def.cc::r_reterr_aac732c6e0496d83c8a4c38d0c15fd316" ref="de/d94/Slp_8auto_8def_8cc.html#aac732c6e0496d83c8a4c38d0c15fd316"/>
+<keyword name="r_reterr" id="Slp.auto.def.cc::r_reterr_ada3ef2d2b7361086a58409b30ffba6ec" ref="de/d94/Slp_8auto_8def_8cc.html#ada3ef2d2b7361086a58409b30ffba6ec"/>
 <keyword name="r_reterr" id="Slp.def.cc::r_reterr_aac732c6e0496d83c8a4c38d0c15fd316" ref="dc/d96/vk_2Slp_8def_8cc.html#aac732c6e0496d83c8a4c38d0c15fd316"/>
+<keyword name="r_reterr" id="SlpPool.def.cc::r_reterr_ada3ef2d2b7361086a58409b30ffba6ec" ref="d4/d54/SlpPool_8def_8cc.html#ada3ef2d2b7361086a58409b30ffba6ec"/>
 <keyword name="r_vkbuf" id="Slp.auto.def.cc::r_vkbuf_af379f572c63575734ecb6cfa60e1cc95" ref="de/d94/Slp_8auto_8def_8cc.html#af379f572c63575734ecb6cfa60e1cc95"/>
 <keyword name="r_vkbuf" id="Slp.def.cc::r_vkbuf_af379f572c63575734ecb6cfa60e1cc95" ref="dc/d96/vk_2Slp_8def_8cc.html#af379f572c63575734ecb6cfa60e1cc95"/>
 <keyword name="r_vkdescpool" id="Slp.auto.def.cc::r_vkdescpool_a7bd9be9e0a504bcb14e1c23dc2a11d94" ref="de/d94/Slp_8auto_8def_8cc.html#a7bd9be9e0a504bcb14e1c23dc2a11d94"/>
@@ -3673,6 +3839,7 @@
 <keyword name="r_vkres" id="Slp.def.cc::r_vkres_a2ec3b26d392fb140bba562fcd6dcab4a" ref="dc/d96/vk_2Slp_8def_8cc.html#a2ec3b26d392fb140bba562fcd6dcab4a"/>
 <keyword name="r_weight" id="Mlp.cl.c::r_weight_ac0d2e59cb51782465481b9ea960056ce" ref="df/dbe/Mlp_8cl_8c.html#ac0d2e59cb51782465481b9ea960056ce"/>
 <keyword name="r_weight_then" id="Mlp.cl.c::r_weight_then_a6427d1dc4164dd1d5f29770d3cc2eec1" ref="df/dbe/Mlp_8cl_8c.html#a6427d1dc4164dd1d5f29770d3cc2eec1"/>
+<keyword name="range" id="SlpPool.def.cc::range_a551ac4c4b200c1fbcaae4e328eabeae3" ref="d4/d54/SlpPool_8def_8cc.html#a551ac4c4b200c1fbcaae4e328eabeae3"/>
 <keyword name="ret" id="Spvc.def.c::ret_a0f447c29800ad1680350aed48414250e" ref="df/da7/Spvc_8def_8c.html#a0f447c29800ad1680350aed48414250e"/>
 <keyword name="Ret_t" id="ae2f::Cmp::Fun::Ret_t_a7f615597eecaf7e5a8503f07ab8ea298" ref="dc/d88/namespaceae2f_1_1Cmp_1_1Fun.html#a7f615597eecaf7e5a8503f07ab8ea298"/>
 <keyword name="retdelta_then" id="Mlp.def.cc::retdelta_then_ae4897e5b590a51e8d723025f6808b5e8" ref="d1/de1/ann_2Mlp_8def_8cc.html#ae4897e5b590a51e8d723025f6808b5e8"/>
@@ -3748,9 +3915,10 @@
 <keyword name="STRINGIFY_HELPER(X)" id="CMakeCXXCompilerId.cpp::STRINGIFY_HELPER_a2ae9b72bb13abaabfcf2ee0ba7d3fa1d" ref="df/d01/Inc_2build_2CMakeFiles_24_81_820250830-g8275211-dirty_2CompilerIdCXX_2CMakeCXXCompilerId_8cpp.html#a2ae9b72bb13abaabfcf2ee0ba7d3fa1d"/>
 <keyword name="STRINGIFY_HELPER(X)" id="CMakeCCompilerId.c::STRINGIFY_HELPER_a2ae9b72bb13abaabfcf2ee0ba7d3fa1d" ref="dc/db8/Macro_2build_2CMakeFiles_24_81_820250830-g8275211-dirty_2CompilerIdC_2CMakeCCompilerId_8c.html#a2ae9b72bb13abaabfcf2ee0ba7d3fa1d"/>
 <keyword name="STRINGIFY_HELPER(X)" id="CMakeCXXCompilerId.cpp::STRINGIFY_HELPER_a2ae9b72bb13abaabfcf2ee0ba7d3fa1d" ref="d6/dfd/Macro_2build_2CMakeFiles_24_81_820250830-g8275211-dirty_2CompilerIdCXX_2CMakeCXXCompilerId_8cpp.html#a2ae9b72bb13abaabfcf2ee0ba7d3fa1d"/>
-<keyword name="sType" id="Mlp.def.cc::sType_add66219216d0c7b7c6dcf85e1200f74f" ref="dd/d55/vk_2Mlp_8def_8cc.html#add66219216d0c7b7c6dcf85e1200f74f"/>
+<keyword name="sType" id="Mlp.def.cc::sType_afeb258e56fd18d7cdf18114fb24676d4" ref="dd/d55/vk_2Mlp_8def_8cc.html#afeb258e56fd18d7cdf18114fb24676d4"/>
 <keyword name="sType" id="Slp.auto.def.cc::sType_a1f9cdfec1ff9dc0df2d64fa9405fbbaa" ref="de/d94/Slp_8auto_8def_8cc.html#a1f9cdfec1ff9dc0df2d64fa9405fbbaa"/>
 <keyword name="sType" id="Slp.def.cc::sType_add66219216d0c7b7c6dcf85e1200f74f" ref="dc/d96/vk_2Slp_8def_8cc.html#add66219216d0c7b7c6dcf85e1200f74f"/>
+<keyword name="sType" id="SlpPool.def.cc::sType_afeb258e56fd18d7cdf18114fb24676d4" ref="d4/d54/SlpPool_8def_8cc.html#afeb258e56fd18d7cdf18114fb24676d4"/>
 <keyword name="switch(clspvCompileFromSourcesString(1, ae2f_reinterpret_cast(const size_t *, NULL), ae2f_const_cast(const char **restrict,(&amp;(v_mk).m_U3.m_openclsrc)),&quot;&quot; &quot;-pod-pushconstant &quot; &quot;-cl-fast-relaxed-math &quot; &quot;-cl-single-precision-constant&quot;, &amp;(v_mk).m_U1.m_spirv_c, &amp;(v_mk).m_U0.m_spirv_len, &amp;(v_mk).m_U2.m_log))" id="Slp.def.cc::switch_abf31089f2bcadf6c43cbd1cea79119a3" ref="dc/d96/vk_2Slp_8def_8cc.html#abf31089f2bcadf6c43cbd1cea79119a3"/>
 <keyword name="sz" id="Mlp.def.cc::sz_a27b9ff9f047cccd5c9f99a25473bcd4b" ref="d1/de1/ann_2Mlp_8def_8cc.html#a27b9ff9f047cccd5c9f99a25473bcd4b"/>
 <keyword name="SZBOOK" id="main.c::SZBOOK_a38dd0d90f53aa3f2c50248907d7b0665" ref="da/d92/Preproc_2Macro_2main_8c.html#a38dd0d90f53aa3f2c50248907d7b0665"/>
@@ -3778,7 +3946,7 @@
 <keyword name="unless(...)" id="Cast.h::unless_ad76ecefb282edd703021539a17ba84a3" ref="d3/dc4/Cast_8h.html#ad76ecefb282edd703021539a17ba84a3"/>
 <keyword name="unless((v_mk).m_U0.m_mkswap.m_mkbase)" id="Mlp.def.cc::unless_a1772229ca24f5ebc5799beed896d9d12" ref="dd/d55/vk_2Mlp_8def_8cc.html#a1772229ca24f5ebc5799beed896d9d12"/>
 <keyword name="unless((i_vkdev))" id="Mlp.def.cc::unless_a1e19bd91eefd8469b6811eb5a5563596" ref="dd/d55/vk_2Mlp_8def_8cc.html#a1e19bd91eefd8469b6811eb5a5563596"/>
-<keyword name="unless((v_mk).m_U1.m_map.m_map.m_v)" id="Mlp.def.cc::unless_a76540564a36d089f339d012075499ec5" ref="dd/d55/vk_2Mlp_8def_8cc.html#a76540564a36d089f339d012075499ec5"/>
+<keyword name="unless((v_mk).m_U3.m_mapped)" id="Mlp.def.cc::unless_af3d0449f5751a30b6dd400d21d09d595" ref="dd/d55/vk_2Mlp_8def_8cc.html#af3d0449f5751a30b6dd400d21d09d595"/>
 <keyword name="unless((v_mk).m_U1.m_clsrc_v)" id="Mlp.def.cc::unless_a1159a7358b016d137802d38f5f09d8bd" ref="dd/d55/vk_2Mlp_8def_8cc.html#a1159a7358b016d137802d38f5f09d8bd"/>
 <keyword name="unless((v_mk).m_U2.m_vkshadermodcreatinfo.pCode)" id="Mlp.def.cc::unless_a3fe6c4ec336f372cd17ea0553aab57c3" ref="dd/d55/vk_2Mlp_8def_8cc.html#a3fe6c4ec336f372cd17ea0553aab57c3"/>
 <keyword name="unless((v_mk).m_U0.m_mkswap.m_mkbase-&gt;m_vkshadermodule)" id="Mlp.def.cc::unless_afa62035e09eba95f59c7724eb079a92b" ref="dd/d55/vk_2Mlp_8def_8cc.html#afa62035e09eba95f59c7724eb079a92b"/>
@@ -3802,6 +3970,7 @@
 <keyword name="unless((v_mk).m_U0.m_alter.m_ptr-&gt;m_vkdescsetlayout[0])" id="Slp.def.cc::unless_a999e572ad31371588bcc770d4cd9876a" ref="dc/d96/vk_2Slp_8def_8cc.html#a999e572ad31371588bcc770d4cd9876a"/>
 <keyword name="unless((v_mk).m_U0.m_alter.m_ptr-&gt;m_vkdescsetlayout[1])" id="Slp.def.cc::unless_ae0b27fb2c3dcfc63019aa6dd38a44846" ref="dc/d96/vk_2Slp_8def_8cc.html#ae0b27fb2c3dcfc63019aa6dd38a44846"/>
 <keyword name="unless((v_mk).m_U0.m_alter.m_ptr-&gt;m_vkshadermodule)" id="Slp.def.cc::unless_a379626a0d408a28f60f33aa4b606ce6a" ref="dc/d96/vk_2Slp_8def_8cc.html#a379626a0d408a28f60f33aa4b606ce6a"/>
+<keyword name="unless((r_pool).m_vkdescpool)" id="SlpPool.def.cc::unless_a6f5bf410d371fa81c0c3a6021360cb89" ref="d4/d54/SlpPool_8def_8cc.html#a6f5bf410d371fa81c0c3a6021360cb89"/>
 <keyword name="unless(ret)" id="Spvc.def.c::unless_af3727d34f6196b3c72ec1cb003b59ea6" ref="df/da7/Spvc_8def_8c.html#af3727d34f6196b3c72ec1cb003b59ea6"/>
 <keyword name="usage" id="Slp.auto.def.cc::usage_ad168407f3336ef0a55c99ca24afdd6f4" ref="de/d94/Slp_8auto_8def_8cc.html#ad168407f3336ef0a55c99ca24afdd6f4"/>
 <keyword name="usage" id="Slp.def.cc::usage_ad168407f3336ef0a55c99ca24afdd6f4" ref="dc/d96/vk_2Slp_8def_8cc.html#ad168407f3336ef0a55c99ca24afdd6f4"/>
@@ -3832,6 +4001,8 @@
 <keyword name="vkcldeclaration" id="Slp.def.cc::vkcldeclaration_a59e5796e8bbd3b6da175ea27dfd2ee6a" ref="dc/d96/vk_2Slp_8def_8cc.html#a59e5796e8bbd3b6da175ea27dfd2ee6a"/>
 <keyword name="vkcldefinition" id="Slp.auto.def.cc::vkcldefinition_a3032cb305cf6fce89d0083a800b8aa96" ref="de/d94/Slp_8auto_8def_8cc.html#a3032cb305cf6fce89d0083a800b8aa96"/>
 <keyword name="vkcldefinition" id="Slp.def.cc::vkcldefinition_a3032cb305cf6fce89d0083a800b8aa96" ref="dc/d96/vk_2Slp_8def_8cc.html#a3032cb305cf6fce89d0083a800b8aa96"/>
+<keyword name="vkCmdBindDescriptorSets(i_vkcmdbuf, VK_PIPELINE_BIND_POINT_COMPUTE,(iv_slp).m_vkpipelayout[i_pipelayout], 0, 1, &amp;(r_cmd).m_vkdescset, 0, NULL)" id="SlpPool.def.cc::vkCmdBindDescriptorSets_a7ae1f5a0d9ae8f046fe504e4d3a7d042" ref="d4/d54/SlpPool_8def_8cc.html#a7ae1f5a0d9ae8f046fe504e4d3a7d042"/>
+<keyword name="vkCmdBindPipeline(i_vkcmdbuf, VK_PIPELINE_BIND_POINT_COMPUTE,(iv_slp).m_vkpipeline[i_pipe])" id="SlpPool.def.cc::vkCmdBindPipeline_a8417f1202a935a387c87168f1c440364" ref="d4/d54/SlpPool_8def_8cc.html#a8417f1202a935a387c87168f1c440364"/>
 <keyword name="vkdev" id="Slp.auto.def.cc::vkdev_a6e9e879252ef5de9b4825208ae6854a6" ref="de/d94/Slp_8auto_8def_8cc.html#a6e9e879252ef5de9b4825208ae6854a6"/>
 <keyword name="vkdev" id="Slp.def.cc::vkdev_a2a01137a193dbe2d184238e6d3453ab7" ref="dc/d96/vk_2Slp_8def_8cc.html#a2a01137a193dbe2d184238e6d3453ab7"/>
 <keyword name="vkGetBufferMemoryRequirements(vkdev, r_vkbuf, &amp;(v_vkmemreq))" id="Slp.auto.def.cc::vkGetBufferMemoryRequirements_a664c1b51551b5eb675a0482676772d4e" ref="de/d94/Slp_8auto_8def_8cc.html#a664c1b51551b5eb675a0482676772d4e"/>
@@ -3845,6 +4016,7 @@
 <keyword name="vkres" id="vk.h::vkres_a26799ffd004228b72d301e1cc6597002" ref="de/de9/vk_8h.html#a26799ffd004228b72d301e1cc6597002"/>
 <keyword name="vksharemode" id="Slp.auto.def.cc::vksharemode_a303b059c7724aea7b4926cf4e564ecea" ref="de/d94/Slp_8auto_8def_8cc.html#a303b059c7724aea7b4926cf4e564ecea"/>
 <keyword name="vksharemode" id="Slp.def.cc::vksharemode_a303b059c7724aea7b4926cf4e564ecea" ref="dc/d96/vk_2Slp_8def_8cc.html#a303b059c7724aea7b4926cf4e564ecea"/>
+<keyword name="vkUpdateDescriptorSets(iv_slp.m_vkdev, 1, &amp;(v_cmdmk).m_u0.m_vkdescwrdescinfo.m_wrset, 0, NULL)" id="SlpPool.def.cc::vkUpdateDescriptorSets_a35ed1bdb6979f3b6ce752ff09d7ace3b" ref="d4/d54/SlpPool_8def_8cc.html#a35ed1bdb6979f3b6ce752ff09d7ace3b"/>
 <keyword name="voidconv" id="a.cpp::voidconv_af05fcd47800614276bdc914142fde77e" ref="dc/d82/a_8cpp.html#af05fcd47800614276bdc914142fde77e"/>
 <keyword name="weight" id="Mlp.def.cc::weight_a76565bbe8492a2e3b7e19ad59ee6e22d" ref="d1/de1/ann_2Mlp_8def_8cc.html#a76565bbe8492a2e3b7e19ad59ee6e22d"/>
 <keyword name="weight" id="Slp.def.cc::weight_aeb7ec5c13b0d472cd7d344a71c0e9f08" ref="d7/d63/ann_2Slp_8def_8cc.html#aeb7ec5c13b0d472cd7d344a71c0e9f08"/>
@@ -3871,6 +4043,8 @@
 <file>d0/d5b/FileRaw_2main_8auto_8h_source.html</file>
 <file>d0/d5d/Constexpr_8hpp.html</file>
 <file>d0/d5d/Constexpr_8hpp_source.html</file>
+<file>d0/da0/SlpPool_8auto_8h.html</file>
+<file>d0/da0/SlpPool_8auto_8h_source.html</file>
 <file>d0/dee/Fun_8h.html</file>
 <file>d0/dee/Fun_8h_source.html</file>
 <file>d1/d19/K_2Ann_2Slp_8core_8h.html</file>
@@ -3942,6 +4116,8 @@
 <file>d3/dfa/submod_2ae2f_2VK-Core_2inc_2ae2fVK_2README_8md.html</file>
 <file>d4/d08/clspv__clkeys_8h.html</file>
 <file>d4/d08/clspv__clkeys_8h_source.html</file>
+<file>d4/d54/SlpPool_8def_8cc.html</file>
+<file>d4/d54/SlpPool_8def_8cc_source.html</file>
 <file>d4/d80/WaitWake_8c.html</file>
 <file>d4/d80/WaitWake_8c_source.html</file>
 <file>d4/d93/Float_8h.html</file>
@@ -3955,6 +4131,8 @@
 <file>d4/ddc/namespaceae2f.html</file>
 <file>d4/deb/Core_2cmake_2cmake_8hpp.html</file>
 <file>d4/deb/Core_2cmake_2cmake_8hpp_source.html</file>
+<file>d5/d07/MlpPool_8def_8cc.html</file>
+<file>d5/d07/MlpPool_8def_8cc_source.html</file>
 <file>d5/d3b/classae2f_1_1rBitVec-members.html</file>
 <file>d5/da0/LangVer_8auto_8h.html</file>
 <file>d5/da0/LangVer_8auto_8h_source.html</file>
@@ -4125,6 +4303,8 @@
 <file>df/d01/Inc_2build_2CMakeFiles_24_81_820250830-g8275211-dirty_2CompilerIdCXX_2CMakeCXXCompilerId_8cpp_source.html</file>
 <file>df/d42/Ann_2Mlp_8core_8h.html</file>
 <file>df/d42/Ann_2Mlp_8core_8h_source.html</file>
+<file>df/d45/MlpPool_8auto_8h.html</file>
+<file>df/d45/MlpPool_8auto_8h_source.html</file>
 <file>df/d96/Core_2cmake_2Core_8cmake_8hpp.html</file>
 <file>df/d96/Core_2cmake_2Core_8cmake_8hpp_source.html</file>
 <file>df/da7/Spvc_8def_8c.html</file>

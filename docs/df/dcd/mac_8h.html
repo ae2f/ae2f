@@ -87,10 +87,30 @@ Macros</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line"><span class="keywordtype">void</span></div>
 </div><!-- fragment -->
 <p>delta to delta </p>
+<p>Make slp with OpenCL compute shader.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">r_handle</td><td>must be destroyed by <a class="el" href="../../dd/d55/vk_2Mlp_8def_8cc.html#a8309efcfd7c506909ef9e4a3e57958cf">free()</a>. </td></tr>
     <tr><td class="paramname">i_second_raw</td><td>must be guaranteed to be a raw stirng.</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>The shader itself is incomplete. <br  />
+For using it you will need to define three macros as function. <br  />
+Below is the required snippet.</p>
+<p>#define <a class="el" href="../../db/dc7/src_2vk_2cl_2Slp_8h.html#af3cd6cd2e1abf605439f160a9fa3eed3">ACT(const ae2f_float_t)</a> -&gt; <a class="el" href="../../d4/d93/Float_8h.html#a1139e92e9886739d9c544769ff4d6d3c">ae2f_float_t</a> <br  />
+#define <a class="el" href="../../df/dbe/Mlp_8cl_8c.html#a251441eff298d97141431e1bdfc7aeaa">ACT_DERIV(const ae2f_float_t)</a> -&gt; <a class="el" href="../../d4/d93/Float_8h.html#a1139e92e9886739d9c544769ff4d6d3c">ae2f_float_t</a> <br  />
+#define <a class="el" href="../../df/dbe/Mlp_8cl_8c.html#ab7aaad1931ff5b0fc4b217c3c7a06bbc">LOSS_DERIV( 
+        ae2f_float_t* retval
+        const ae2f_float_t* const out
+        , const ae2f_float_t* const out_desired
+        , const size_t      index
+        , const size_t      length_out_goal
+        )</a>;</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">vkcldeclaration</td><td></td></tr>
+    <tr><td class="paramname">vkcldefinition</td><td></td></tr>
   </table>
   </dd>
 </dl>
