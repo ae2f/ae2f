@@ -84,9 +84,9 @@ Macros</h2></td></tr>
 <tr class="memitem:a12306bb3707a9fdefdc95e38cfdbfcfa" id="r_a12306bb3707a9fdefdc95e38cfdbfcfa"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12306bb3707a9fdefdc95e38cfdbfcfa">MLP_IN</a>&#160;&#160;&#160;2</td></tr>
 <tr class="memitem:a85bd9f80458271227e389121d886a4b1" id="r_a85bd9f80458271227e389121d886a4b1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a85bd9f80458271227e389121d886a4b1">MLP_HID</a>&#160;&#160;&#160;3</td></tr>
 <tr class="memitem:adec4c35a6957b97108871db4bb78dd7b" id="r_adec4c35a6957b97108871db4bb78dd7b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adec4c35a6957b97108871db4bb78dd7b">MLP_OUT</a>&#160;&#160;&#160;1</td></tr>
-<tr class="memitem:a118c4cb6199a7d494bba93674591b9a0" id="r_a118c4cb6199a7d494bba93674591b9a0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a118c4cb6199a7d494bba93674591b9a0">MLP_OUT_GREATEST</a>&#160;&#160;&#160;<a class="el" href="../../d8/d76/MlpTrainXOR-Made-Primal_8c.html#a85bd9f80458271227e389121d886a4b1">MLP_HID</a></td></tr>
-<tr class="memitem:a168b49e08bb3547027f4a03a035391ce" id="r_a168b49e08bb3547027f4a03a035391ce"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a168b49e08bb3547027f4a03a035391ce">MLP_WEIGHT_STRIDE</a>&#160;&#160;&#160;(<a class="el" href="../../d8/d76/MlpTrainXOR-Made-Primal_8c.html#a118c4cb6199a7d494bba93674591b9a0">MLP_OUT_GREATEST</a> * <a class="el" href="../../d8/d76/MlpTrainXOR-Made-Primal_8c.html#a118c4cb6199a7d494bba93674591b9a0">MLP_OUT_GREATEST</a>)</td></tr>
-<tr class="memitem:a61fd65213646e6d8c012a35fd65d6254" id="r_a61fd65213646e6d8c012a35fd65d6254"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a61fd65213646e6d8c012a35fd65d6254">MLP_BIAS_STRIDE</a>&#160;&#160;&#160;(<a class="el" href="../../d8/d76/MlpTrainXOR-Made-Primal_8c.html#a118c4cb6199a7d494bba93674591b9a0">MLP_OUT_GREATEST</a>)</td></tr>
+<tr class="memitem:a118c4cb6199a7d494bba93674591b9a0" id="r_a118c4cb6199a7d494bba93674591b9a0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a118c4cb6199a7d494bba93674591b9a0">MLP_OUT_GREATEST</a>&#160;&#160;&#160;<a class="el" href="#a85bd9f80458271227e389121d886a4b1">MLP_HID</a></td></tr>
+<tr class="memitem:a168b49e08bb3547027f4a03a035391ce" id="r_a168b49e08bb3547027f4a03a035391ce"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a168b49e08bb3547027f4a03a035391ce">MLP_WEIGHT_STRIDE</a>&#160;&#160;&#160;(<a class="el" href="#a118c4cb6199a7d494bba93674591b9a0">MLP_OUT_GREATEST</a> * <a class="el" href="#a118c4cb6199a7d494bba93674591b9a0">MLP_OUT_GREATEST</a>)</td></tr>
+<tr class="memitem:a61fd65213646e6d8c012a35fd65d6254" id="r_a61fd65213646e6d8c012a35fd65d6254"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a61fd65213646e6d8c012a35fd65d6254">MLP_BIAS_STRIDE</a>&#160;&#160;&#160;(<a class="el" href="#a118c4cb6199a7d494bba93674591b9a0">MLP_OUT_GREATEST</a>)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -99,13 +99,13 @@ Variables</h2></td></tr>
 <tr class="memitem:a1a5e549dcc88168a7ab1055a1df271ad" id="r_a1a5e549dcc88168a7ab1055a1df271ad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d93/Float_8h.html#a1139e92e9886739d9c544769ff4d6d3c">ae2f_float_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a5e549dcc88168a7ab1055a1df271ad">output</a> [1] = { 0 }</td></tr>
 <tr class="memitem:a9bb8c8de7892eaa24e099964f2fdf439" id="r_a9bb8c8de7892eaa24e099964f2fdf439"><td class="memItemLeft" align="right" valign="top">ae2f_AnnMlp_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9bb8c8de7892eaa24e099964f2fdf439">mlp</a></td></tr>
 <tr class="memitem:a501722ada23d28cc20b7e164721abb91" id="r_a501722ada23d28cc20b7e164721abb91"><td class="memItemLeft" align="right" valign="top">ae2f_AnnSlp_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a501722ada23d28cc20b7e164721abb91">slplast</a></td></tr>
-<tr class="memitem:a988e52ac28553bd034f5f9c5393f421a" id="r_a988e52ac28553bd034f5f9c5393f421a"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d4/d08/clspv__clkeys_8h.html#a43b4547e12226fef871eed8afe191ad7">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a988e52ac28553bd034f5f9c5393f421a">mlp_szv</a> [] = { <a class="el" href="../../d8/d76/MlpTrainXOR-Made-Primal_8c.html#a12306bb3707a9fdefdc95e38cfdbfcfa">MLP_IN</a>, <a class="el" href="../../d8/d76/MlpTrainXOR-Made-Primal_8c.html#a85bd9f80458271227e389121d886a4b1">MLP_HID</a>, <a class="el" href="../../d8/d76/MlpTrainXOR-Made-Primal_8c.html#adec4c35a6957b97108871db4bb78dd7b">MLP_OUT</a> }</td></tr>
-<tr class="memitem:a4eceecd6b9aef6e35e195bb1a7dbcfae" id="r_a4eceecd6b9aef6e35e195bb1a7dbcfae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d93/Float_8h.html#a1139e92e9886739d9c544769ff4d6d3c">ae2f_float_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4eceecd6b9aef6e35e195bb1a7dbcfae">mlp_weights</a> [(<a class="el" href="../../d8/d76/MlpTrainXOR-Made-Primal_8c.html#af4fe7edf383befc4379e52bbd5eb7b00">MLP_DEPTH</a> - 1) *<a class="el" href="../../d8/d76/MlpTrainXOR-Made-Primal_8c.html#a168b49e08bb3547027f4a03a035391ce">MLP_WEIGHT_STRIDE</a>] = {0}</td></tr>
-<tr class="memitem:a77f3d3c7f3e79e8c6b463dd72251801d" id="r_a77f3d3c7f3e79e8c6b463dd72251801d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d93/Float_8h.html#a1139e92e9886739d9c544769ff4d6d3c">ae2f_float_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77f3d3c7f3e79e8c6b463dd72251801d">mlp_bias</a> [(<a class="el" href="../../d8/d76/MlpTrainXOR-Made-Primal_8c.html#af4fe7edf383befc4379e52bbd5eb7b00">MLP_DEPTH</a> - 1) *<a class="el" href="../../d8/d76/MlpTrainXOR-Made-Primal_8c.html#a61fd65213646e6d8c012a35fd65d6254">MLP_BIAS_STRIDE</a>] = {0}</td></tr>
-<tr class="memitem:a85363339c748a3ed5cf92ac9f580bb39" id="r_a85363339c748a3ed5cf92ac9f580bb39"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d93/Float_8h.html#a1139e92e9886739d9c544769ff4d6d3c">ae2f_float_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a85363339c748a3ed5cf92ac9f580bb39">mlp_outstream</a> [(<a class="el" href="../../d8/d76/MlpTrainXOR-Made-Primal_8c.html#af4fe7edf383befc4379e52bbd5eb7b00">MLP_DEPTH</a> - 1) *<a class="el" href="../../d8/d76/MlpTrainXOR-Made-Primal_8c.html#a118c4cb6199a7d494bba93674591b9a0">MLP_OUT_GREATEST</a>] = {0}</td></tr>
-<tr class="memitem:add070e8b7ee270b291395bdd5ac1438c" id="r_add070e8b7ee270b291395bdd5ac1438c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d93/Float_8h.html#a1139e92e9886739d9c544769ff4d6d3c">ae2f_float_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add070e8b7ee270b291395bdd5ac1438c">mlp_deltastream</a> [(<a class="el" href="../../d8/d76/MlpTrainXOR-Made-Primal_8c.html#af4fe7edf383befc4379e52bbd5eb7b00">MLP_DEPTH</a> - 1) *<a class="el" href="../../d8/d76/MlpTrainXOR-Made-Primal_8c.html#a118c4cb6199a7d494bba93674591b9a0">MLP_OUT_GREATEST</a>] = {0}</td></tr>
-<tr class="memitem:acdaa551781856bbbb6a03f8f8459f6c4" id="r_acdaa551781856bbbb6a03f8f8459f6c4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/dde/Act_8h.html#aa5e3351e7153ae146454438e113b26a8">ae2f_AnnAct_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acdaa551781856bbbb6a03f8f8459f6c4">mlp_acts</a> [<a class="el" href="../../d8/d76/MlpTrainXOR-Made-Primal_8c.html#af4fe7edf383befc4379e52bbd5eb7b00">MLP_DEPTH</a> - 1] = { Act, Act }</td></tr>
-<tr class="memitem:af3885d1ab7bfe20159ecdb563a5d9eb6" id="r_af3885d1ab7bfe20159ecdb563a5d9eb6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/dde/Act_8h.html#aa5e3351e7153ae146454438e113b26a8">ae2f_AnnAct_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3885d1ab7bfe20159ecdb563a5d9eb6">mlp_actderivs</a> [<a class="el" href="../../d8/d76/MlpTrainXOR-Made-Primal_8c.html#af4fe7edf383befc4379e52bbd5eb7b00">MLP_DEPTH</a> - 1] = { ActDeriv, ActDeriv }</td></tr>
+<tr class="memitem:a988e52ac28553bd034f5f9c5393f421a" id="r_a988e52ac28553bd034f5f9c5393f421a"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d4/d08/clspv__clkeys_8h.html#a43b4547e12226fef871eed8afe191ad7">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a988e52ac28553bd034f5f9c5393f421a">mlp_szv</a> [] = { <a class="el" href="#a12306bb3707a9fdefdc95e38cfdbfcfa">MLP_IN</a>, <a class="el" href="#a85bd9f80458271227e389121d886a4b1">MLP_HID</a>, <a class="el" href="#adec4c35a6957b97108871db4bb78dd7b">MLP_OUT</a> }</td></tr>
+<tr class="memitem:a4eceecd6b9aef6e35e195bb1a7dbcfae" id="r_a4eceecd6b9aef6e35e195bb1a7dbcfae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d93/Float_8h.html#a1139e92e9886739d9c544769ff4d6d3c">ae2f_float_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4eceecd6b9aef6e35e195bb1a7dbcfae">mlp_weights</a> [(<a class="el" href="#af4fe7edf383befc4379e52bbd5eb7b00">MLP_DEPTH</a> - 1) *<a class="el" href="#a168b49e08bb3547027f4a03a035391ce">MLP_WEIGHT_STRIDE</a>] = {0}</td></tr>
+<tr class="memitem:a77f3d3c7f3e79e8c6b463dd72251801d" id="r_a77f3d3c7f3e79e8c6b463dd72251801d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d93/Float_8h.html#a1139e92e9886739d9c544769ff4d6d3c">ae2f_float_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77f3d3c7f3e79e8c6b463dd72251801d">mlp_bias</a> [(<a class="el" href="#af4fe7edf383befc4379e52bbd5eb7b00">MLP_DEPTH</a> - 1) *<a class="el" href="#a61fd65213646e6d8c012a35fd65d6254">MLP_BIAS_STRIDE</a>] = {0}</td></tr>
+<tr class="memitem:a85363339c748a3ed5cf92ac9f580bb39" id="r_a85363339c748a3ed5cf92ac9f580bb39"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d93/Float_8h.html#a1139e92e9886739d9c544769ff4d6d3c">ae2f_float_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a85363339c748a3ed5cf92ac9f580bb39">mlp_outstream</a> [(<a class="el" href="#af4fe7edf383befc4379e52bbd5eb7b00">MLP_DEPTH</a> - 1) *<a class="el" href="#a118c4cb6199a7d494bba93674591b9a0">MLP_OUT_GREATEST</a>] = {0}</td></tr>
+<tr class="memitem:add070e8b7ee270b291395bdd5ac1438c" id="r_add070e8b7ee270b291395bdd5ac1438c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d93/Float_8h.html#a1139e92e9886739d9c544769ff4d6d3c">ae2f_float_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add070e8b7ee270b291395bdd5ac1438c">mlp_deltastream</a> [(<a class="el" href="#af4fe7edf383befc4379e52bbd5eb7b00">MLP_DEPTH</a> - 1) *<a class="el" href="#a118c4cb6199a7d494bba93674591b9a0">MLP_OUT_GREATEST</a>] = {0}</td></tr>
+<tr class="memitem:acdaa551781856bbbb6a03f8f8459f6c4" id="r_acdaa551781856bbbb6a03f8f8459f6c4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/dde/Act_8h.html#a94b530e7e5fc6cf54c426a419ce8aaa2">ae2f_AnnAct_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acdaa551781856bbbb6a03f8f8459f6c4">mlp_acts</a> [<a class="el" href="#af4fe7edf383befc4379e52bbd5eb7b00">MLP_DEPTH</a> - 1] = { Act, Act }</td></tr>
+<tr class="memitem:af3885d1ab7bfe20159ecdb563a5d9eb6" id="r_af3885d1ab7bfe20159ecdb563a5d9eb6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/dde/Act_8h.html#a94b530e7e5fc6cf54c426a419ce8aaa2">ae2f_AnnAct_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3885d1ab7bfe20159ecdb563a5d9eb6">mlp_actderivs</a> [<a class="el" href="#af4fe7edf383befc4379e52bbd5eb7b00">MLP_DEPTH</a> - 1] = { ActDeriv, ActDeriv }</td></tr>
 <tr class="memitem:ae46bd26d7133dfe98f8cec7c5ac5c7a1" id="r_ae46bd26d7133dfe98f8cec7c5ac5c7a1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d08/clspv__clkeys_8h.html#a43b4547e12226fef871eed8afe191ad7">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae46bd26d7133dfe98f8cec7c5ac5c7a1">i</a></td></tr>
 <tr class="memitem:abf2d9f657468255c5b9964ea2b6e9e15" id="r_abf2d9f657468255c5b9964ea2b6e9e15"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d08/clspv__clkeys_8h.html#a43b4547e12226fef871eed8afe191ad7">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf2d9f657468255c5b9964ea2b6e9e15">j</a></td></tr>
 <tr class="memitem:a9389e4770ba454a2e14f870491495cb2" id="r_a9389e4770ba454a2e14f870491495cb2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d08/clspv__clkeys_8h.html#a43b4547e12226fef871eed8afe191ad7">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9389e4770ba454a2e14f870491495cb2">k</a></td></tr>
@@ -135,7 +135,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define MLP_BIAS_STRIDE&#160;&#160;&#160;(<a class="el" href="../../d8/d76/MlpTrainXOR-Made-Primal_8c.html#a118c4cb6199a7d494bba93674591b9a0">MLP_OUT_GREATEST</a>)</td>
+          <td class="memname">#define MLP_BIAS_STRIDE&#160;&#160;&#160;(<a class="el" href="#a118c4cb6199a7d494bba93674591b9a0">MLP_OUT_GREATEST</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -215,7 +215,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define MLP_OUT_GREATEST&#160;&#160;&#160;<a class="el" href="../../d8/d76/MlpTrainXOR-Made-Primal_8c.html#a85bd9f80458271227e389121d886a4b1">MLP_HID</a></td>
+          <td class="memname">#define MLP_OUT_GREATEST&#160;&#160;&#160;<a class="el" href="#a85bd9f80458271227e389121d886a4b1">MLP_HID</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -231,7 +231,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define MLP_WEIGHT_STRIDE&#160;&#160;&#160;(<a class="el" href="../../d8/d76/MlpTrainXOR-Made-Primal_8c.html#a118c4cb6199a7d494bba93674591b9a0">MLP_OUT_GREATEST</a> * <a class="el" href="../../d8/d76/MlpTrainXOR-Made-Primal_8c.html#a118c4cb6199a7d494bba93674591b9a0">MLP_OUT_GREATEST</a>)</td>
+          <td class="memname">#define MLP_WEIGHT_STRIDE&#160;&#160;&#160;(<a class="el" href="#a118c4cb6199a7d494bba93674591b9a0">MLP_OUT_GREATEST</a> * <a class="el" href="#a118c4cb6199a7d494bba93674591b9a0">MLP_OUT_GREATEST</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -384,7 +384,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d3/dde/Act_8h.html#aa5e3351e7153ae146454438e113b26a8">ae2f_AnnAct_t</a>* mlp_actderivs[<a class="el" href="../../d8/d76/MlpTrainXOR-Made-Primal_8c.html#af4fe7edf383befc4379e52bbd5eb7b00">MLP_DEPTH</a> - 1] = { ActDeriv, ActDeriv }</td>
+          <td class="memname"><a class="el" href="../../d3/dde/Act_8h.html#a94b530e7e5fc6cf54c426a419ce8aaa2">ae2f_AnnAct_t</a>* mlp_actderivs[<a class="el" href="#af4fe7edf383befc4379e52bbd5eb7b00">MLP_DEPTH</a> - 1] = { ActDeriv, ActDeriv }</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -400,7 +400,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d3/dde/Act_8h.html#aa5e3351e7153ae146454438e113b26a8">ae2f_AnnAct_t</a>* mlp_acts[<a class="el" href="../../d8/d76/MlpTrainXOR-Made-Primal_8c.html#af4fe7edf383befc4379e52bbd5eb7b00">MLP_DEPTH</a> - 1] = { Act, Act }</td>
+          <td class="memname"><a class="el" href="../../d3/dde/Act_8h.html#a94b530e7e5fc6cf54c426a419ce8aaa2">ae2f_AnnAct_t</a>* mlp_acts[<a class="el" href="#af4fe7edf383befc4379e52bbd5eb7b00">MLP_DEPTH</a> - 1] = { Act, Act }</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -416,7 +416,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d4/d93/Float_8h.html#a1139e92e9886739d9c544769ff4d6d3c">ae2f_float_t</a> mlp_bias[(<a class="el" href="../../d8/d76/MlpTrainXOR-Made-Primal_8c.html#af4fe7edf383befc4379e52bbd5eb7b00">MLP_DEPTH</a> - 1) *<a class="el" href="../../d8/d76/MlpTrainXOR-Made-Primal_8c.html#a61fd65213646e6d8c012a35fd65d6254">MLP_BIAS_STRIDE</a>] = {0}</td>
+          <td class="memname"><a class="el" href="../../d4/d93/Float_8h.html#a1139e92e9886739d9c544769ff4d6d3c">ae2f_float_t</a> mlp_bias[(<a class="el" href="#af4fe7edf383befc4379e52bbd5eb7b00">MLP_DEPTH</a> - 1) *<a class="el" href="#a61fd65213646e6d8c012a35fd65d6254">MLP_BIAS_STRIDE</a>] = {0}</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -432,7 +432,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d4/d93/Float_8h.html#a1139e92e9886739d9c544769ff4d6d3c">ae2f_float_t</a> mlp_deltastream[(<a class="el" href="../../d8/d76/MlpTrainXOR-Made-Primal_8c.html#af4fe7edf383befc4379e52bbd5eb7b00">MLP_DEPTH</a> - 1) *<a class="el" href="../../d8/d76/MlpTrainXOR-Made-Primal_8c.html#a118c4cb6199a7d494bba93674591b9a0">MLP_OUT_GREATEST</a>] = {0}</td>
+          <td class="memname"><a class="el" href="../../d4/d93/Float_8h.html#a1139e92e9886739d9c544769ff4d6d3c">ae2f_float_t</a> mlp_deltastream[(<a class="el" href="#af4fe7edf383befc4379e52bbd5eb7b00">MLP_DEPTH</a> - 1) *<a class="el" href="#a118c4cb6199a7d494bba93674591b9a0">MLP_OUT_GREATEST</a>] = {0}</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -448,7 +448,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d4/d93/Float_8h.html#a1139e92e9886739d9c544769ff4d6d3c">ae2f_float_t</a> mlp_outstream[(<a class="el" href="../../d8/d76/MlpTrainXOR-Made-Primal_8c.html#af4fe7edf383befc4379e52bbd5eb7b00">MLP_DEPTH</a> - 1) *<a class="el" href="../../d8/d76/MlpTrainXOR-Made-Primal_8c.html#a118c4cb6199a7d494bba93674591b9a0">MLP_OUT_GREATEST</a>] = {0}</td>
+          <td class="memname"><a class="el" href="../../d4/d93/Float_8h.html#a1139e92e9886739d9c544769ff4d6d3c">ae2f_float_t</a> mlp_outstream[(<a class="el" href="#af4fe7edf383befc4379e52bbd5eb7b00">MLP_DEPTH</a> - 1) *<a class="el" href="#a118c4cb6199a7d494bba93674591b9a0">MLP_OUT_GREATEST</a>] = {0}</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -464,7 +464,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="../../d4/d08/clspv__clkeys_8h.html#a43b4547e12226fef871eed8afe191ad7">size_t</a> mlp_szv[] = { <a class="el" href="../../d8/d76/MlpTrainXOR-Made-Primal_8c.html#a12306bb3707a9fdefdc95e38cfdbfcfa">MLP_IN</a>, <a class="el" href="../../d8/d76/MlpTrainXOR-Made-Primal_8c.html#a85bd9f80458271227e389121d886a4b1">MLP_HID</a>, <a class="el" href="../../d8/d76/MlpTrainXOR-Made-Primal_8c.html#adec4c35a6957b97108871db4bb78dd7b">MLP_OUT</a> }</td>
+          <td class="memname">const <a class="el" href="../../d4/d08/clspv__clkeys_8h.html#a43b4547e12226fef871eed8afe191ad7">size_t</a> mlp_szv[] = { <a class="el" href="#a12306bb3707a9fdefdc95e38cfdbfcfa">MLP_IN</a>, <a class="el" href="#a85bd9f80458271227e389121d886a4b1">MLP_HID</a>, <a class="el" href="#adec4c35a6957b97108871db4bb78dd7b">MLP_OUT</a> }</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -480,7 +480,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d4/d93/Float_8h.html#a1139e92e9886739d9c544769ff4d6d3c">ae2f_float_t</a> mlp_weights[(<a class="el" href="../../d8/d76/MlpTrainXOR-Made-Primal_8c.html#af4fe7edf383befc4379e52bbd5eb7b00">MLP_DEPTH</a> - 1) *<a class="el" href="../../d8/d76/MlpTrainXOR-Made-Primal_8c.html#a168b49e08bb3547027f4a03a035391ce">MLP_WEIGHT_STRIDE</a>] = {0}</td>
+          <td class="memname"><a class="el" href="../../d4/d93/Float_8h.html#a1139e92e9886739d9c544769ff4d6d3c">ae2f_float_t</a> mlp_weights[(<a class="el" href="#af4fe7edf383befc4379e52bbd5eb7b00">MLP_DEPTH</a> - 1) *<a class="el" href="#a168b49e08bb3547027f4a03a035391ce">MLP_WEIGHT_STRIDE</a>] = {0}</td>
         </tr>
       </table>
 </div><div class="memdoc">

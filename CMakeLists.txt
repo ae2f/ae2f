@@ -26,6 +26,7 @@ function(GITCLONE AUTH NAME)
 endfunction()
 
 GITCLONE(ae2f Ann)
+GITCLONE(ae2f Sys)
 
 # Find Doxygen
 find_package(Doxygen REQUIRED)

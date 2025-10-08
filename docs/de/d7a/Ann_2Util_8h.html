@@ -72,8 +72,113 @@ Macros</h2></td></tr>
 <tr class="memitem:a27f2a27d91137b92e820df2cca430e87" id="r_a27f2a27d91137b92e820df2cca430e87"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a27f2a27d91137b92e820df2cca430e87">ae2f_AnnUtilV2Name</a>(A_t,  B_t)</td></tr>
 <tr class="memitem:a2b1ff812d24190da39195575e2626b75" id="r_a2b1ff812d24190da39195575e2626b75"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b1ff812d24190da39195575e2626b75">ae2f_AnnUtilV2</a>(A_LEFT,  A_t,  A_POST,  B_LEFT,  B_t,  B_POST)</td></tr>
 <tr class="memitem:a15e0b9551b9bb989d1f9d4e4b9ed3987" id="r_a15e0b9551b9bb989d1f9d4e4b9ed3987"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a15e0b9551b9bb989d1f9d4e4b9ed3987">ae2f_AnnUtilPtr2</a>(A_t,  B_t, ...)</td></tr>
+<tr class="memitem:a055ad85eab33b94d18e355d567ee575d" id="r_a055ad85eab33b94d18e355d567ee575d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a055ad85eab33b94d18e355d567ee575d">ae2f_AnnUtilIdx1</a>(idx0,  sz0)</td></tr>
+<tr class="memitem:a043687e4e6f024944074879c85ab401d" id="r_a043687e4e6f024944074879c85ab401d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a043687e4e6f024944074879c85ab401d">ae2f_AnnUtilIdx2</a>(idx1,  sz1,  idx0,  sz0)</td></tr>
+<tr class="memitem:a63b074863923e74022938fcb43cb5134" id="r_a63b074863923e74022938fcb43cb5134"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a63b074863923e74022938fcb43cb5134">ae2f_AnnUtilIdx3</a>(idx2,  sz2,  idx1,  sz1,  idx0,  sz0)</td></tr>
 </table>
 <a name="doc-define-members" id="doc-define-members"></a><h2 id="header-doc-define-members" class="groupheader">Macro Definition Documentation</h2>
+<a id="a055ad85eab33b94d18e355d567ee575d" name="a055ad85eab33b94d18e355d567ee575d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a055ad85eab33b94d18e355d567ee575d">&#9670;&#160;</a></span>ae2f_AnnUtilIdx1</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ae2f_AnnUtilIdx1</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>idx0</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>sz0</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">(idx0)</div>
+</div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="../../de/d7a/Ann_2Util_8h_source.html#l00022">22</a> of file <a class="el" href="../../de/d7a/Ann_2Util_8h_source.html">Util.h</a>.</p>
+
+</div>
+</div>
+<a id="a043687e4e6f024944074879c85ab401d" name="a043687e4e6f024944074879c85ab401d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a043687e4e6f024944074879c85ab401d">&#9670;&#160;</a></span>ae2f_AnnUtilIdx2</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ae2f_AnnUtilIdx2</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>idx1</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>sz1</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>idx0</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>sz0</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">((idx1) * (sz0) + (idx0))</div>
+</div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="../../de/d7a/Ann_2Util_8h_source.html#l00023">23</a> of file <a class="el" href="../../de/d7a/Ann_2Util_8h_source.html">Util.h</a>.</p>
+
+</div>
+</div>
+<a id="a63b074863923e74022938fcb43cb5134" name="a63b074863923e74022938fcb43cb5134"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63b074863923e74022938fcb43cb5134">&#9670;&#160;</a></span>ae2f_AnnUtilIdx3</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ae2f_AnnUtilIdx3</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>idx2</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>sz2</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>idx1</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>sz1</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>idx0</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>sz0</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">((idx2) * (sz1) * (sz0) + (idx1) * (sz0) + (idx0))</div>
+</div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="../../de/d7a/Ann_2Util_8h_source.html#l00024">24</a> of file <a class="el" href="../../de/d7a/Ann_2Util_8h_source.html">Util.h</a>.</p>
+
+</div>
+</div>
 <a id="a15e0b9551b9bb989d1f9d4e4b9ed3987" name="a15e0b9551b9bb989d1f9d4e4b9ed3987"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a15e0b9551b9bb989d1f9d4e4b9ed3987">&#9670;&#160;</a></span>ae2f_AnnUtilPtr2</h2>
 
