@@ -72,11 +72,11 @@ Macros</h2></td></tr>
 <tr class="memitem:a00e3d1f6f690e6825512257e1f800ad8" id="r_a00e3d1f6f690e6825512257e1f800ad8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a00e3d1f6f690e6825512257e1f800ad8">ACT_DERIV</a>(r,  y,  <a class="el" href="../../d1/d95/MlpTrainXOR-Primal_8c.html#ae46bd26d7133dfe98f8cec7c5ac5c7a1">i</a>,  <a class="el" href="../../da/d92/Preproc_2Macro_2main_8c.html#a4e1e0e72dd773439e333c84dd762a9c3">c</a>)</td></tr>
 <tr class="memitem:ab7aaad1931ff5b0fc4b217c3c7a06bbc" id="r_ab7aaad1931ff5b0fc4b217c3c7a06bbc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7aaad1931ff5b0fc4b217c3c7a06bbc">LOSS_DERIV</a>(r,  y,  y_desired,  <a class="el" href="../../d1/d95/MlpTrainXOR-Primal_8c.html#ae46bd26d7133dfe98f8cec7c5ac5c7a1">i</a>,  <a class="el" href="../../da/d92/Preproc_2Macro_2main_8c.html#a4e1e0e72dd773439e333c84dd762a9c3">c</a>)</td></tr>
 <tr class="memitem:a7b43763f37217bfe8b94df3159ba7e96" id="r_a7b43763f37217bfe8b94df3159ba7e96"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b43763f37217bfe8b94df3159ba7e96">p_weight</a>&#160;&#160;&#160;glob</td></tr>
-<tr class="memitem:aa7846debc671701abcd9c81c7126ba29" id="r_aa7846debc671701abcd9c81c7126ba29"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7846debc671701abcd9c81c7126ba29">p_bias</a>&#160;&#160;&#160;(glob + (<a class="el" href="../../db/dc7/src_2vk_2cl_2Slp_8h.html#ae5f87639e1e622ced70b764a354ba49f">osz</a> * <a class="el" href="../../db/dc7/src_2vk_2cl_2Slp_8h.html#a397a700c4195b67b2c56bb225f03f95b">isz</a>))</td></tr>
-<tr class="memitem:ac60bcb391ca9cb0c36e200dbe3a7311d" id="r_ac60bcb391ca9cb0c36e200dbe3a7311d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac60bcb391ca9cb0c36e200dbe3a7311d">p_inp</a>&#160;&#160;&#160;((<a class="el" href="../../df/dbe/Mlp_8cl_8c.html#a85ef8c04b8454f0414686afd7a9389cc">p_bias</a>) + (<a class="el" href="../../db/dc7/src_2vk_2cl_2Slp_8h.html#ae5f87639e1e622ced70b764a354ba49f">osz</a>))</td></tr>
-<tr class="memitem:adb5055f3399634bd6436f7aac6912ac8" id="r_adb5055f3399634bd6436f7aac6912ac8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb5055f3399634bd6436f7aac6912ac8">p_out</a>&#160;&#160;&#160;((<a class="el" href="../../df/dbe/Mlp_8cl_8c.html#a7fea255ff79f4cbeb7f1e1a3f4fa1654">p_inp</a>) + (<a class="el" href="../../db/dc7/src_2vk_2cl_2Slp_8h.html#a397a700c4195b67b2c56bb225f03f95b">isz</a>))</td></tr>
-<tr class="memitem:a6d4181f145325d12ad26008e652d7a68" id="r_a6d4181f145325d12ad26008e652d7a68"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d4181f145325d12ad26008e652d7a68">p_delta</a>&#160;&#160;&#160;((<a class="el" href="#adb5055f3399634bd6436f7aac6912ac8">p_out</a>) + <a class="el" href="../../db/dc7/src_2vk_2cl_2Slp_8h.html#ae5f87639e1e622ced70b764a354ba49f">osz</a>)</td></tr>
-<tr class="memitem:a7d3759b32680e1afb0e45744fe76ca90" id="r_a7d3759b32680e1afb0e45744fe76ca90"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d3759b32680e1afb0e45744fe76ca90">p_goal</a>&#160;&#160;&#160;((<a class="el" href="#a6d4181f145325d12ad26008e652d7a68">p_delta</a>) + <a class="el" href="../../db/dc7/src_2vk_2cl_2Slp_8h.html#ae5f87639e1e622ced70b764a354ba49f">osz</a>)</td></tr>
+<tr class="memitem:aa7846debc671701abcd9c81c7126ba29" id="r_aa7846debc671701abcd9c81c7126ba29"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7846debc671701abcd9c81c7126ba29">p_bias</a>&#160;&#160;&#160;(glob + (<a class="el" href="../../db/dc7/src_2vk_2cl_2Slp_8h.html#ac192bd7bf66ebd767849c13767b272d3">osz</a> * <a class="el" href="../../db/dc7/src_2vk_2cl_2Slp_8h.html#a351ddccd22efef9578ac895e0cbc0a50">isz</a>))</td></tr>
+<tr class="memitem:ac60bcb391ca9cb0c36e200dbe3a7311d" id="r_ac60bcb391ca9cb0c36e200dbe3a7311d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac60bcb391ca9cb0c36e200dbe3a7311d">p_inp</a>&#160;&#160;&#160;((<a class="el" href="../../df/dbe/Mlp_8cl_8c.html#aa7846debc671701abcd9c81c7126ba29">p_bias</a>) + (<a class="el" href="../../db/dc7/src_2vk_2cl_2Slp_8h.html#ac192bd7bf66ebd767849c13767b272d3">osz</a>))</td></tr>
+<tr class="memitem:adb5055f3399634bd6436f7aac6912ac8" id="r_adb5055f3399634bd6436f7aac6912ac8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb5055f3399634bd6436f7aac6912ac8">p_out</a>&#160;&#160;&#160;((<a class="el" href="../../df/dbe/Mlp_8cl_8c.html#ac60bcb391ca9cb0c36e200dbe3a7311d">p_inp</a>) + (<a class="el" href="../../db/dc7/src_2vk_2cl_2Slp_8h.html#a351ddccd22efef9578ac895e0cbc0a50">isz</a>))</td></tr>
+<tr class="memitem:a6d4181f145325d12ad26008e652d7a68" id="r_a6d4181f145325d12ad26008e652d7a68"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d4181f145325d12ad26008e652d7a68">p_delta</a>&#160;&#160;&#160;((<a class="el" href="#adb5055f3399634bd6436f7aac6912ac8">p_out</a>) + <a class="el" href="../../db/dc7/src_2vk_2cl_2Slp_8h.html#ac192bd7bf66ebd767849c13767b272d3">osz</a>)</td></tr>
+<tr class="memitem:a7d3759b32680e1afb0e45744fe76ca90" id="r_a7d3759b32680e1afb0e45744fe76ca90"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d3759b32680e1afb0e45744fe76ca90">p_goal</a>&#160;&#160;&#160;((<a class="el" href="#a6d4181f145325d12ad26008e652d7a68">p_delta</a>) + <a class="el" href="../../db/dc7/src_2vk_2cl_2Slp_8h.html#ac192bd7bf66ebd767849c13767b272d3">osz</a>)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -84,7 +84,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a536e35550efa425b53886948756c971a" id="r_a536e35550efa425b53886948756c971a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d08/clspv__clkeys_8h.html#a808945c5ae849a5110b6e3127c99023b">__kernel</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a536e35550efa425b53886948756c971a">kPredict</a> (<a class="el" href="../../d4/d08/clspv__clkeys_8h.html#a0bcdca9f6e5923ea191d934ec3400d9e">__global</a> <a class="el" href="../../df/dbe/Mlp_8cl_8c.html#ad025eb14a6bbc08d6dcb49421afde476">host_float_t</a> *glob, const <a class="el" href="../../d4/d08/clspv__clkeys_8h.html#a0ddb3f43e52282b59ee55d059ed74a28">uint32_t</a> unused)</td></tr>
 <tr class="memdesc:a536e35550efa425b53886948756c971a"><td class="mdescLeft">&#160;</td><td class="mdescRight">get_global_id(0) : oidx <br  />
  <br /></td></tr>
-<tr class="memitem:af96a45a628189f795f2491826ff72fe6" id="r_af96a45a628189f795f2491826ff72fe6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d08/clspv__clkeys_8h.html#a808945c5ae849a5110b6e3127c99023b">__kernel</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af96a45a628189f795f2491826ff72fe6">kTrain</a> (lr_t lr, <a class="el" href="../../d4/d08/clspv__clkeys_8h.html#a0bcdca9f6e5923ea191d934ec3400d9e">__global</a> <a class="el" href="../../df/dbe/Mlp_8cl_8c.html#ad025eb14a6bbc08d6dcb49421afde476">host_float_t</a> *glob, <a class="el" href="../../d4/d08/clspv__clkeys_8h.html#a16d401f6ba8f83048211693549eba342">__local</a> <a class="el" href="../../d4/d93/Float_8h.html#a1139e92e9886739d9c544769ff4d6d3c">ae2f_float_t</a> *<a class="el" href="../../db/dc7/src_2vk_2cl_2Slp_8h.html#a103ab758165f4c8fa9cf4ad006bbfc8c">loc</a>)</td></tr>
+<tr class="memitem:af96a45a628189f795f2491826ff72fe6" id="r_af96a45a628189f795f2491826ff72fe6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d08/clspv__clkeys_8h.html#a808945c5ae849a5110b6e3127c99023b">__kernel</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af96a45a628189f795f2491826ff72fe6">kTrain</a> (lr_t lr, <a class="el" href="../../d4/d08/clspv__clkeys_8h.html#a0bcdca9f6e5923ea191d934ec3400d9e">__global</a> <a class="el" href="../../df/dbe/Mlp_8cl_8c.html#ad025eb14a6bbc08d6dcb49421afde476">host_float_t</a> *glob, <a class="el" href="../../d4/d08/clspv__clkeys_8h.html#a16d401f6ba8f83048211693549eba342">__local</a> <a class="el" href="../../d4/d93/Float_8h.html#a1139e92e9886739d9c544769ff4d6d3c">ae2f_float_t</a> *<a class="el" href="../../db/dc7/src_2vk_2cl_2Slp_8h.html#a07f44ba8f05dfcdcb6117defbfdc2e3a">loc</a>)</td></tr>
 <tr class="memdesc:af96a45a628189f795f2491826ff72fe6"><td class="mdescLeft">&#160;</td><td class="mdescRight">get_global_id(0) : oidx <br  />
 get_local_id(0) : iidx <br  />
  <br /></td></tr>
@@ -243,7 +243,7 @@ get_local_id(0) : iidx <br  />
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define p_bias&#160;&#160;&#160;(glob + (<a class="el" href="../../db/dc7/src_2vk_2cl_2Slp_8h.html#ae5f87639e1e622ced70b764a354ba49f">osz</a> * <a class="el" href="../../db/dc7/src_2vk_2cl_2Slp_8h.html#a397a700c4195b67b2c56bb225f03f95b">isz</a>))</td>
+          <td class="memname">#define p_bias&#160;&#160;&#160;(glob + (<a class="el" href="../../db/dc7/src_2vk_2cl_2Slp_8h.html#ac192bd7bf66ebd767849c13767b272d3">osz</a> * <a class="el" href="../../db/dc7/src_2vk_2cl_2Slp_8h.html#a351ddccd22efef9578ac895e0cbc0a50">isz</a>))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -259,7 +259,7 @@ get_local_id(0) : iidx <br  />
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define p_delta&#160;&#160;&#160;((<a class="el" href="#adb5055f3399634bd6436f7aac6912ac8">p_out</a>) + <a class="el" href="../../db/dc7/src_2vk_2cl_2Slp_8h.html#ae5f87639e1e622ced70b764a354ba49f">osz</a>)</td>
+          <td class="memname">#define p_delta&#160;&#160;&#160;((<a class="el" href="#adb5055f3399634bd6436f7aac6912ac8">p_out</a>) + <a class="el" href="../../db/dc7/src_2vk_2cl_2Slp_8h.html#ac192bd7bf66ebd767849c13767b272d3">osz</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -275,7 +275,7 @@ get_local_id(0) : iidx <br  />
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define p_goal&#160;&#160;&#160;((<a class="el" href="#a6d4181f145325d12ad26008e652d7a68">p_delta</a>) + <a class="el" href="../../db/dc7/src_2vk_2cl_2Slp_8h.html#ae5f87639e1e622ced70b764a354ba49f">osz</a>)</td>
+          <td class="memname">#define p_goal&#160;&#160;&#160;((<a class="el" href="#a6d4181f145325d12ad26008e652d7a68">p_delta</a>) + <a class="el" href="../../db/dc7/src_2vk_2cl_2Slp_8h.html#ac192bd7bf66ebd767849c13767b272d3">osz</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -291,7 +291,7 @@ get_local_id(0) : iidx <br  />
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define p_inp&#160;&#160;&#160;((<a class="el" href="../../df/dbe/Mlp_8cl_8c.html#a85ef8c04b8454f0414686afd7a9389cc">p_bias</a>) + (<a class="el" href="../../db/dc7/src_2vk_2cl_2Slp_8h.html#ae5f87639e1e622ced70b764a354ba49f">osz</a>))</td>
+          <td class="memname">#define p_inp&#160;&#160;&#160;((<a class="el" href="../../df/dbe/Mlp_8cl_8c.html#aa7846debc671701abcd9c81c7126ba29">p_bias</a>) + (<a class="el" href="../../db/dc7/src_2vk_2cl_2Slp_8h.html#ac192bd7bf66ebd767849c13767b272d3">osz</a>))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -307,7 +307,7 @@ get_local_id(0) : iidx <br  />
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define p_out&#160;&#160;&#160;((<a class="el" href="../../df/dbe/Mlp_8cl_8c.html#a7fea255ff79f4cbeb7f1e1a3f4fa1654">p_inp</a>) + (<a class="el" href="../../db/dc7/src_2vk_2cl_2Slp_8h.html#a397a700c4195b67b2c56bb225f03f95b">isz</a>))</td>
+          <td class="memname">#define p_out&#160;&#160;&#160;((<a class="el" href="../../df/dbe/Mlp_8cl_8c.html#ac60bcb391ca9cb0c36e200dbe3a7311d">p_inp</a>) + (<a class="el" href="../../db/dc7/src_2vk_2cl_2Slp_8h.html#a351ddccd22efef9578ac895e0cbc0a50">isz</a>))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -397,7 +397,7 @@ get_local_id(0) : iidx <br  />
 <p>delta</p>
 <p>weight</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d1/dea/Slp_8cl_8c_source.html#l00160">160</a> of file <a class="el" href="../../d1/dea/Slp_8cl_8c_source.html">Slp.cl.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/dea/Slp_8cl_8c_source.html#l00161">161</a> of file <a class="el" href="../../d1/dea/Slp_8cl_8c_source.html">Slp.cl.c</a>.</p>
 
 </div>
 </div>
@@ -433,7 +433,7 @@ get_local_id(0) : iidx <br  />
 <p>r_bias</p>
 <p>delta</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d1/dea/Slp_8cl_8c_source.html#l00215">215</a> of file <a class="el" href="../../d1/dea/Slp_8cl_8c_source.html">Slp.cl.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/dea/Slp_8cl_8c_source.html#l00217">217</a> of file <a class="el" href="../../d1/dea/Slp_8cl_8c_source.html">Slp.cl.c</a>.</p>
 
 </div>
 </div>
@@ -510,7 +510,6 @@ get_local_id(0) : iidx <br  />
 <p>out_desired</p>
 <p>r_bias</p>
 <p>delta</p>
-<p>inp</p>
 <p>delta</p>
 <p>weight</p>
 

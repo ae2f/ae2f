@@ -949,27 +949,27 @@
                          <Node>
                           <Name>ae2f_AnnCnnConv</Name>
                           <Path>dd/d92/Conv_8h.html</Path>
-                          <Anchor>a4425cd306e41e6ca19084825b3b9302c</Anchor>
+                          <Anchor>a15b0863d0c3daf641dca0ac812ea1954</Anchor>
                          </Node>
                          <Node>
                           <Name>ae2f_AnnCnnConv1d</Name>
                           <Path>dd/d92/Conv_8h.html</Path>
-                          <Anchor>a71a4e2f9546d17f342b913710c4617b1</Anchor>
+                          <Anchor>a5dbdceccdfa2849c3e12a04c3ba03eeb</Anchor>
                          </Node>
                          <Node>
                           <Name>ae2f_AnnCnnPool</Name>
                           <Path>dd/d92/Conv_8h.html</Path>
-                          <Anchor>a9ae7a8645ffde1716819e455672cd358</Anchor>
+                          <Anchor>a05d625c6c8a7335b388fb27e3437f4ea</Anchor>
                          </Node>
                          <Node>
                           <Name>ae2f_AnnCnnPool1d</Name>
                           <Path>dd/d92/Conv_8h.html</Path>
-                          <Anchor>a6d25e922e553ed938b6917083ec403d8</Anchor>
+                          <Anchor>a07e0b69cd62b920eac99c746e6f26bb5</Anchor>
                          </Node>
                          <Node>
                           <Name>ae2f_AnnCnnPool_imp</Name>
                           <Path>dd/d92/Conv_8h.html</Path>
-                          <Anchor>af2107380632342f166fba8cb1ecd9d3a</Anchor>
+                          <Anchor>adfe37957a221c8b434cc05c655db4c3d</Anchor>
                          </Node>
                         </Subnodes>
                        </Node>
@@ -1160,12 +1160,12 @@
                          <Node>
                           <Name>__ae2f_AnnMlpFollow_C</Name>
                           <Path>d1/d97/inc_2ae2f_2Ann_2Mlp_8auto_8h.html</Path>
-                          <Anchor>a52cc6e4cc66d4cc6aa41616b966ff3d8</Anchor>
+                          <Anchor>af5535d15ec77825a7dc9f95f1191aecb</Anchor>
                          </Node>
                          <Node>
                           <Name>__ae2f_AnnMlpFollow_imp</Name>
                           <Path>d1/d97/inc_2ae2f_2Ann_2Mlp_8auto_8h.html</Path>
-                          <Anchor>a5dc5c1fdb81c5928ee75478165b2d9a3</Anchor>
+                          <Anchor>aac7a817f269f4812ad755a07d2ef0bfe</Anchor>
                          </Node>
                          <Node>
                           <Name>__ae2f_AnnMlpFollowPrimal</Name>
@@ -1180,12 +1180,12 @@
                          <Node>
                           <Name>__ae2f_AnnMlpFollowStream_C</Name>
                           <Path>d1/d97/inc_2ae2f_2Ann_2Mlp_8auto_8h.html</Path>
-                          <Anchor>a457c3248eee57e3396ff30460bcafd72</Anchor>
+                          <Anchor>af33ee24a09cf38e1d0d83e2f56d13db1</Anchor>
                          </Node>
                          <Node>
                           <Name>__ae2f_AnnMlpFollowStream_imp</Name>
                           <Path>d1/d97/inc_2ae2f_2Ann_2Mlp_8auto_8h.html</Path>
-                          <Anchor>a868fe6622821c25aedc9c810be68f4f1</Anchor>
+                          <Anchor>a2882432841284e5bf24f2affb4e06a17</Anchor>
                          </Node>
                          <Node>
                           <Name>__ae2f_AnnMlpHidDeltaSingle_imp</Name>
@@ -1215,12 +1215,12 @@
                          <Node>
                           <Name>__ae2f_AnnMlpPredict_C</Name>
                           <Path>d1/d97/inc_2ae2f_2Ann_2Mlp_8auto_8h.html</Path>
-                          <Anchor>ae28a927a3b0688af7d6e024829f072f5</Anchor>
+                          <Anchor>a6874998fea509a331d9c7d4e103789b9</Anchor>
                          </Node>
                          <Node>
                           <Name>__ae2f_AnnMlpPredict_imp</Name>
                           <Path>d1/d97/inc_2ae2f_2Ann_2Mlp_8auto_8h.html</Path>
-                          <Anchor>a7d5079fb3a653efcd57b32b68b68042a</Anchor>
+                          <Anchor>a70b658b191ad6ee4fd569a12b37d38d1</Anchor>
                          </Node>
                          <Node>
                           <Name>__ae2f_AnnMlpPredictPrimal</Name>
@@ -1240,7 +1240,7 @@
                          <Node>
                           <Name>__ae2f_AnnMlpPredictStream_imp</Name>
                           <Path>d1/d97/inc_2ae2f_2Ann_2Mlp_8auto_8h.html</Path>
-                          <Anchor>a57276da1157c9096cae539a07b1083cb</Anchor>
+                          <Anchor>a3823e057025868fc43d105fe393ab81f</Anchor>
                          </Node>
                          <Node>
                           <Name>__ae2f_AnnMlpPropagate_imp</Name>
@@ -1260,7 +1260,7 @@
                          <Node>
                           <Name>__ae2f_AnnMlpTrain_imp</Name>
                           <Path>d1/d97/inc_2ae2f_2Ann_2Mlp_8auto_8h.html</Path>
-                          <Anchor>a97788158e278909cb6f33b672275dec4</Anchor>
+                          <Anchor>a248c59b42d5ecedf285c49a523df7104</Anchor>
                          </Node>
                          <Node>
                           <Name>__ae2f_AnnMlpTrainAuto_C</Name>
@@ -1295,7 +1295,7 @@
                          <Node>
                           <Name>__ae2f_AnnMlpTrainStream_imp</Name>
                           <Path>d1/d97/inc_2ae2f_2Ann_2Mlp_8auto_8h.html</Path>
-                          <Anchor>a4cc72b1b169c3bf2c51fa1f9332dc0ea</Anchor>
+                          <Anchor>a3b23e9e3c11b21efa04900d0b1dfbec8</Anchor>
                          </Node>
                          <Node>
                           <Name>__ae2f_MACRO_GENERATED</Name>
@@ -1397,7 +1397,7 @@
                          <Node>
                           <Name>__ae2f_AnnMlpTrain_imp</Name>
                           <Path>d6/db0/inc_2ae2f_2Ann_2Mlp_8h.html</Path>
-                          <Anchor>a97788158e278909cb6f33b672275dec4</Anchor>
+                          <Anchor>a248c59b42d5ecedf285c49a523df7104</Anchor>
                          </Node>
                          <Node>
                           <Name>__ae2f_AnnMlpTrainAuto_C</Name>
@@ -1417,7 +1417,7 @@
                          <Node>
                           <Name>__ae2f_AnnMlpTrainStream_imp</Name>
                           <Path>d6/db0/inc_2ae2f_2Ann_2Mlp_8h.html</Path>
-                          <Anchor>a4cc72b1b169c3bf2c51fa1f9332dc0ea</Anchor>
+                          <Anchor>a3b23e9e3c11b21efa04900d0b1dfbec8</Anchor>
                          </Node>
                          <Node>
                           <Name>ae2f_Ann_Mlp_h</Name>
@@ -1690,7 +1690,7 @@
                          <Node>
                           <Name>__ae2f_AnnSlpMk_imp</Name>
                           <Path>dd/d13/inc_2ae2f_2Ann_2Slp_8h.html</Path>
-                          <Anchor>a1762c5097941c0c9ba4ef92e3bef1ae5</Anchor>
+                          <Anchor>a7249017adfcb2bcc1245921e35f4021c</Anchor>
                          </Node>
                          <Node>
                           <Name>ae2f_Ann_Slp_h</Name>
@@ -1750,7 +1750,7 @@
                          <Node>
                           <Name>ae2f_AnnUtilV2</Name>
                           <Path>dd/d13/inc_2ae2f_2Ann_2Slp_8h.html</Path>
-                          <Anchor>a266b26411c010b063e61e2f919c9a991</Anchor>
+                          <Anchor>afb3f0d2d589adf9a8756ffd9bcd9e9c9</Anchor>
                          </Node>
                          <Node>
                           <Name>ae2f_structdef</Name>
@@ -1988,12 +1988,12 @@
                          <Node>
                           <Name>ae2f_mMMapInit</Name>
                           <Path>de/d00/MMap_8auto_8h.html</Path>
-                          <Anchor>add5689e0d613fd0e828d15d12c223120</Anchor>
+                          <Anchor>ae71b3d7e50a55aeac9b59048964bde39</Anchor>
                          </Node>
                          <Node>
                           <Name>ae2f_mMMapMk</Name>
                           <Path>de/d00/MMap_8auto_8h.html</Path>
-                          <Anchor>a7a94e748995b27bd27cb6914c60c5598</Anchor>
+                          <Anchor>ac04c9440ab4918bd9c5298ec68f1aab0</Anchor>
                          </Node>
                          <Node>
                           <Name>ae2f_mMMapSz</Name>
@@ -3093,7 +3093,7 @@
                        <Node>
                         <Name>ae2f_AnnCnnPool1d</Name>
                         <Path>d3/dbb/Conv_8imp_8c.html</Path>
-                        <Anchor>a2b443427ec2c081de7533f43423cb638</Anchor>
+                        <Anchor>a0a837a0291d41f02af402040b150aa03</Anchor>
                        </Node>
                        <Node>
                         <Name>ae2f_AnnCnnPool_imp</Name>
@@ -3246,12 +3246,12 @@
                        <Node>
                         <Name>__ae2f_AnnMlpFollow_C</Name>
                         <Path>d1/de1/ann_2Mlp_8def_8cc.html</Path>
-                        <Anchor>a52cc6e4cc66d4cc6aa41616b966ff3d8</Anchor>
+                        <Anchor>af5535d15ec77825a7dc9f95f1191aecb</Anchor>
                        </Node>
                        <Node>
                         <Name>__ae2f_AnnMlpFollow_imp</Name>
                         <Path>d1/de1/ann_2Mlp_8def_8cc.html</Path>
-                        <Anchor>a5dc5c1fdb81c5928ee75478165b2d9a3</Anchor>
+                        <Anchor>aac7a817f269f4812ad755a07d2ef0bfe</Anchor>
                        </Node>
                        <Node>
                         <Name>__ae2f_AnnMlpFollowPrimal</Name>
@@ -3261,12 +3261,12 @@
                        <Node>
                         <Name>__ae2f_AnnMlpFollowStream_C</Name>
                         <Path>d1/de1/ann_2Mlp_8def_8cc.html</Path>
-                        <Anchor>a457c3248eee57e3396ff30460bcafd72</Anchor>
+                        <Anchor>af33ee24a09cf38e1d0d83e2f56d13db1</Anchor>
                        </Node>
                        <Node>
                         <Name>__ae2f_AnnMlpFollowStream_imp</Name>
                         <Path>d1/de1/ann_2Mlp_8def_8cc.html</Path>
-                        <Anchor>a868fe6622821c25aedc9c810be68f4f1</Anchor>
+                        <Anchor>a2882432841284e5bf24f2affb4e06a17</Anchor>
                        </Node>
                        <Node>
                         <Name>__ae2f_AnnMlpInit_imp</Name>
@@ -3291,12 +3291,12 @@
                        <Node>
                         <Name>__ae2f_AnnMlpPredict_C</Name>
                         <Path>d1/de1/ann_2Mlp_8def_8cc.html</Path>
-                        <Anchor>ae28a927a3b0688af7d6e024829f072f5</Anchor>
+                        <Anchor>a6874998fea509a331d9c7d4e103789b9</Anchor>
                        </Node>
                        <Node>
                         <Name>__ae2f_AnnMlpPredict_imp</Name>
                         <Path>d1/de1/ann_2Mlp_8def_8cc.html</Path>
-                        <Anchor>a7d5079fb3a653efcd57b32b68b68042a</Anchor>
+                        <Anchor>a70b658b191ad6ee4fd569a12b37d38d1</Anchor>
                        </Node>
                        <Node>
                         <Name>__ae2f_AnnMlpPredictPrimal</Name>
@@ -3311,7 +3311,7 @@
                        <Node>
                         <Name>__ae2f_AnnMlpPredictStream_imp</Name>
                         <Path>d1/de1/ann_2Mlp_8def_8cc.html</Path>
-                        <Anchor>a57276da1157c9096cae539a07b1083cb</Anchor>
+                        <Anchor>a3823e057025868fc43d105fe393ab81f</Anchor>
                        </Node>
                        <Node>
                         <Name>__ae2f_AnnMlpSz_imp</Name>
@@ -3326,7 +3326,7 @@
                        <Node>
                         <Name>__ae2f_AnnMlpTrain_imp</Name>
                         <Path>d1/de1/ann_2Mlp_8def_8cc.html</Path>
-                        <Anchor>a97788158e278909cb6f33b672275dec4</Anchor>
+                        <Anchor>a248c59b42d5ecedf285c49a523df7104</Anchor>
                        </Node>
                        <Node>
                         <Name>__ae2f_AnnMlpTrainAuto_C</Name>
@@ -3356,7 +3356,7 @@
                        <Node>
                         <Name>__ae2f_AnnMlpTrainStream_imp</Name>
                         <Path>d1/de1/ann_2Mlp_8def_8cc.html</Path>
-                        <Anchor>a4cc72b1b169c3bf2c51fa1f9332dc0ea</Anchor>
+                        <Anchor>a3b23e9e3c11b21efa04900d0b1dfbec8</Anchor>
                        </Node>
                        <Node>
                         <Name>ae2f_Ann_Mlp_c</Name>
@@ -3441,7 +3441,7 @@
                        <Node>
                         <Name>iidx</Name>
                         <Path>d1/de1/ann_2Mlp_8def_8cc.html</Path>
-                        <Anchor>a98c2ead5fcba07023ca6089037a083b2</Anchor>
+                        <Anchor>a2fb6363a9889393a2f3b48d60c4b205f</Anchor>
                        </Node>
                        <Node>
                         <Name>inp</Name>
@@ -3522,7 +3522,7 @@
                        <Node>
                         <Name>ae2f_AnnMlpDel</Name>
                         <Path>d6/d8e/Mlp_8imp_8c.html</Path>
-                        <Anchor>aaaf34eb3b276d94b54d9afeab8c4b1bb</Anchor>
+                        <Anchor>a738209b377a7b59f2e1191d29f727a08</Anchor>
                        </Node>
                        <Node>
                         <Name>ae2f_AnnMlpFollow</Name>
@@ -3537,37 +3537,37 @@
                        <Node>
                         <Name>ae2f_AnnMlpMk</Name>
                         <Path>d6/d8e/Mlp_8imp_8c.html</Path>
-                        <Anchor>ab6c9bf1ec22a9b1e66317394625a6d0d</Anchor>
+                        <Anchor>a03d1f6842a48fe5c10b7752f4475d1fe</Anchor>
                        </Node>
                        <Node>
                         <Name>ae2f_AnnMlpPredict</Name>
                         <Path>d6/d8e/Mlp_8imp_8c.html</Path>
-                        <Anchor>a05256fc18415a62224749f4d5db75e79</Anchor>
+                        <Anchor>aea5cc8a2dc15688d89f0514176a92a78</Anchor>
                        </Node>
                        <Node>
                         <Name>ae2f_AnnMlpPredictStream</Name>
                         <Path>d6/d8e/Mlp_8imp_8c.html</Path>
-                        <Anchor>a174fd0f950f4dbd1a4fcab670babebc1</Anchor>
+                        <Anchor>a7dbc63c9a07d8438a5fae893ef4b767c</Anchor>
                        </Node>
                        <Node>
                         <Name>ae2f_AnnMlpTrain</Name>
                         <Path>d6/d8e/Mlp_8imp_8c.html</Path>
-                        <Anchor>affb033b428a4e75a86eaa5d3e13e5470</Anchor>
+                        <Anchor>aeecccfe25f758d59d3041b8521660afd</Anchor>
                        </Node>
                        <Node>
                         <Name>ae2f_AnnMlpTrainAuto</Name>
                         <Path>d6/d8e/Mlp_8imp_8c.html</Path>
-                        <Anchor>a305c65ed0ce559dc2ca43e561e51f5c8</Anchor>
+                        <Anchor>a1f26eee796f164447da9ae99f4f57b7d</Anchor>
                        </Node>
                        <Node>
                         <Name>ae2f_AnnMlpTrainAutoStream</Name>
                         <Path>d6/d8e/Mlp_8imp_8c.html</Path>
-                        <Anchor>a183fd129458d582fc4fafeb08729f4d5</Anchor>
+                        <Anchor>ab99e960152c19d0dde4822ed69f1f51f</Anchor>
                        </Node>
                        <Node>
                         <Name>ae2f_AnnMlpTrainStream</Name>
                         <Path>d6/d8e/Mlp_8imp_8c.html</Path>
-                        <Anchor>ad1557c170dfdec957e160c49bf8f558a</Anchor>
+                        <Anchor>ac39c168cf723b8a95eea448483b06aa8</Anchor>
                        </Node>
                       </Subnodes>
                      </Node>
@@ -3694,42 +3694,42 @@
                        <Node>
                         <Name>ae2f_AnnSlpDel</Name>
                         <Path>d7/d63/ann_2Slp_8imp_8c.html</Path>
-                        <Anchor>a7e390951a8373ac43f9d0fc621ffc507</Anchor>
+                        <Anchor>afc6f0daffe592642dddfa0d0ceadd3d5</Anchor>
                        </Node>
                        <Node>
                         <Name>ae2f_AnnSlpFetchDelta</Name>
                         <Path>d7/d63/ann_2Slp_8imp_8c.html</Path>
-                        <Anchor>a2fe688bc0908bfb3038182e956c4bfbb</Anchor>
+                        <Anchor>a315c2586dd8914bd9b64607648ddb9f2</Anchor>
                        </Node>
                        <Node>
                         <Name>ae2f_AnnSlpFit</Name>
                         <Path>d7/d63/ann_2Slp_8imp_8c.html</Path>
-                        <Anchor>a0da385ea287ca0a8b70a674ed53eddcb</Anchor>
+                        <Anchor>a73451893c6650506d66609565b5303c4</Anchor>
                        </Node>
                        <Node>
                         <Name>ae2f_AnnSlpFollow</Name>
                         <Path>d7/d63/ann_2Slp_8imp_8c.html</Path>
-                        <Anchor>acc871b2d249638158a3f651ea3251c2c</Anchor>
+                        <Anchor>a430fcc0c12b3ea6e506f64ebfadada5a</Anchor>
                        </Node>
                        <Node>
                         <Name>ae2f_AnnSlpInit</Name>
                         <Path>d7/d63/ann_2Slp_8imp_8c.html</Path>
-                        <Anchor>af308825b82b6c0226d57a5fddccceaa8</Anchor>
+                        <Anchor>a6a3410b318f53c0d551112ad82717593</Anchor>
                        </Node>
                        <Node>
                         <Name>ae2f_AnnSlpMk</Name>
                         <Path>d7/d63/ann_2Slp_8imp_8c.html</Path>
-                        <Anchor>af15027230779bcb2e5dd5bf78389bd46</Anchor>
+                        <Anchor>a1317b4c87097cf7f96be407dfb9334d2</Anchor>
                        </Node>
                        <Node>
                         <Name>ae2f_AnnSlpPredict</Name>
                         <Path>d7/d63/ann_2Slp_8imp_8c.html</Path>
-                        <Anchor>a5ae28189c568ff8a324144e311ade972</Anchor>
+                        <Anchor>ab1f52b97820be82c83d960105f1575cf</Anchor>
                        </Node>
                        <Node>
                         <Name>ae2f_AnnSlpTrain</Name>
                         <Path>d7/d63/ann_2Slp_8imp_8c.html</Path>
-                        <Anchor>a558c53510bebe81f1f44cd875406c7e1</Anchor>
+                        <Anchor>a17448b6fd39cb538c72079ec730c3604</Anchor>
                        </Node>
                        <Node>
                         <Name>err_opt</Name>
@@ -3831,12 +3831,12 @@
                        <Node>
                         <Name>ae2f_mMMapInit</Name>
                         <Path>d2/d74/MMap_8def_8c.html</Path>
-                        <Anchor>add5689e0d613fd0e828d15d12c223120</Anchor>
+                        <Anchor>ae71b3d7e50a55aeac9b59048964bde39</Anchor>
                        </Node>
                        <Node>
                         <Name>ae2f_mMMapMk</Name>
                         <Path>d2/d74/MMap_8def_8c.html</Path>
-                        <Anchor>a7a94e748995b27bd27cb6914c60c5598</Anchor>
+                        <Anchor>ac04c9440ab4918bd9c5298ec68f1aab0</Anchor>
                        </Node>
                        <Node>
                         <Name>ae2f_mMMapSz</Name>
@@ -4191,7 +4191,7 @@
                          <Node>
                           <Name>p_bias</Name>
                           <Path>df/dbe/Mlp_8cl_8c.html</Path>
-                          <Anchor>a85ef8c04b8454f0414686afd7a9389cc</Anchor>
+                          <Anchor>aa7846debc671701abcd9c81c7126ba29</Anchor>
                          </Node>
                          <Node>
                           <Name>p_deltastream</Name>
@@ -4206,7 +4206,7 @@
                          <Node>
                           <Name>p_inp</Name>
                           <Path>df/dbe/Mlp_8cl_8c.html</Path>
-                          <Anchor>a7fea255ff79f4cbeb7f1e1a3f4fa1654</Anchor>
+                          <Anchor>ac60bcb391ca9cb0c36e200dbe3a7311d</Anchor>
                          </Node>
                          <Node>
                           <Name>p_layerszlist</Name>
@@ -4221,7 +4221,7 @@
                          <Node>
                           <Name>p_weight</Name>
                           <Path>df/dbe/Mlp_8cl_8c.html</Path>
-                          <Anchor>a0b10114773665796ef01d9f2247c0e63</Anchor>
+                          <Anchor>a7b43763f37217bfe8b94df3159ba7e96</Anchor>
                          </Node>
                          <Node>
                           <Name>pgsz</Name>
@@ -4302,16 +4302,6 @@
                           <Name>r_weight_then</Name>
                           <Path>df/dbe/Mlp_8cl_8c.html</Path>
                           <Anchor>a6427d1dc4164dd1d5f29770d3cc2eec1</Anchor>
-                         </Node>
-                         <Node>
-                          <Name>tmp0</Name>
-                          <Path>df/dbe/Mlp_8cl_8c.html</Path>
-                          <Anchor>ac322a438993b4c2441c04e9fa6d061e7</Anchor>
-                         </Node>
-                         <Node>
-                          <Name>tmp1</Name>
-                          <Path>df/dbe/Mlp_8cl_8c.html</Path>
-                          <Anchor>a2c906c3bf601f31de58e600c16215c8f</Anchor>
                          </Node>
                          <Node>
                           <Name>weightsz</Name>
@@ -4458,12 +4448,12 @@
                          <Node>
                           <Name>_clSlpPredict</Name>
                           <Path>db/d9a/src_2vk_2cl_2Slp_8auto_8h.html</Path>
-                          <Anchor>a8c6a7402a969ce71d934b9ce369c5fc7</Anchor>
+                          <Anchor>ae1ec607466c0235712c9bfb13dda470b</Anchor>
                          </Node>
                          <Node>
                           <Name>_clSlpPredict_Q</Name>
                           <Path>db/d9a/src_2vk_2cl_2Slp_8auto_8h.html</Path>
-                          <Anchor>a6f7b13139593e43227a6ff7d0ad6ab3a</Anchor>
+                          <Anchor>a5f731def59ccac0baf62754ad7b210d8</Anchor>
                          </Node>
                          <Node>
                           <Name>ae2f_NEED_CLASS</Name>
@@ -4484,16 +4474,6 @@
                           <Name>Slp_h</Name>
                           <Path>db/d9a/src_2vk_2cl_2Slp_8auto_8h.html</Path>
                           <Anchor>a49954e65b5d6b72b9573190bc98b1096</Anchor>
-                         </Node>
-                         <Node>
-                          <Name>ae2f_structdef</Name>
-                          <Path>db/d9a/src_2vk_2cl_2Slp_8auto_8h.html</Path>
-                          <Anchor>a072fa37e2abbd346fae682186888226c</Anchor>
-                         </Node>
-                         <Node>
-                          <Name>ae2f_structdef</Name>
-                          <Path>db/d9a/src_2vk_2cl_2Slp_8auto_8h.html</Path>
-                          <Anchor>a59b672baedbdaad13b005c93f3ec86e4</Anchor>
                          </Node>
                         </Subnodes>
                        </Node>
@@ -4605,57 +4585,47 @@
                          <Node>
                           <Name>ae2f_MAC</Name>
                           <Path>db/dc7/src_2vk_2cl_2Slp_8h.html</Path>
-                          <Anchor>adbf0ffa3be40f2fce9e0f23e0d9a291a</Anchor>
-                         </Node>
-                         <Node>
-                          <Name>ae2f_structdef</Name>
-                          <Path>db/dc7/src_2vk_2cl_2Slp_8h.html</Path>
-                          <Anchor>a072fa37e2abbd346fae682186888226c</Anchor>
-                         </Node>
-                         <Node>
-                          <Name>ACT</Name>
-                          <Path>db/dc7/src_2vk_2cl_2Slp_8h.html</Path>
-                          <Anchor>a0e1e0b91503db562f15ef27c9001cb47</Anchor>
+                          <Anchor>adb2afdd61a5dd3065c8ef787fea93481</Anchor>
                          </Node>
                          <Node>
                           <Name>iidx</Name>
                           <Path>db/dc7/src_2vk_2cl_2Slp_8h.html</Path>
-                          <Anchor>a97cb51bf6635b4341b0943480aca70ec</Anchor>
+                          <Anchor>a72638c3c2b8d1fb567fefc637fb2b942</Anchor>
                          </Node>
                          <Node>
                           <Name>isz</Name>
                           <Path>db/dc7/src_2vk_2cl_2Slp_8h.html</Path>
-                          <Anchor>a397a700c4195b67b2c56bb225f03f95b</Anchor>
+                          <Anchor>a351ddccd22efef9578ac895e0cbc0a50</Anchor>
                          </Node>
                          <Node>
                           <Name>loc</Name>
                           <Path>db/dc7/src_2vk_2cl_2Slp_8h.html</Path>
-                          <Anchor>a103ab758165f4c8fa9cf4ad006bbfc8c</Anchor>
+                          <Anchor>a07f44ba8f05dfcdcb6117defbfdc2e3a</Anchor>
                          </Node>
                          <Node>
                           <Name>oidx</Name>
                           <Path>db/dc7/src_2vk_2cl_2Slp_8h.html</Path>
-                          <Anchor>ad7d0f6c46cf31af6eef6f2ce1bf54425</Anchor>
+                          <Anchor>ad451f94cd2f3236672435f5cd7998e57</Anchor>
                          </Node>
                          <Node>
                           <Name>osz</Name>
                           <Path>db/dc7/src_2vk_2cl_2Slp_8h.html</Path>
-                          <Anchor>ae5f87639e1e622ced70b764a354ba49f</Anchor>
+                          <Anchor>ac192bd7bf66ebd767849c13767b272d3</Anchor>
                          </Node>
                          <Node>
                           <Name>p_bias</Name>
                           <Path>db/dc7/src_2vk_2cl_2Slp_8h.html</Path>
-                          <Anchor>a0d8730e93f5dcdfb47a62bd18aecb9de</Anchor>
+                          <Anchor>a7e96a7f40dec83cbe9edfeb2ea1ee6fd</Anchor>
                          </Node>
                          <Node>
                           <Name>p_inp</Name>
                           <Path>db/dc7/src_2vk_2cl_2Slp_8h.html</Path>
-                          <Anchor>ae446acaecac99c8a9d56af4c488d2471</Anchor>
+                          <Anchor>a99c386262f1f22dc11df95a7962122d3</Anchor>
                          </Node>
                          <Node>
                           <Name>p_weight</Name>
                           <Path>db/dc7/src_2vk_2cl_2Slp_8h.html</Path>
-                          <Anchor>af18f3a54509edf1cc22cd7bdfa3dff93</Anchor>
+                          <Anchor>a805e652a845fff8167d8cd47fccd85c7</Anchor>
                          </Node>
                         </Subnodes>
                        </Node>
@@ -6147,7 +6117,7 @@
                        <Node>
                         <Name>switch</Name>
                         <Path>dc/d96/vk_2Slp_8def_8cc.html</Path>
-                        <Anchor>aacf0c5166e6f11a0fc2385059c7e07f1</Anchor>
+                        <Anchor>a5a388aa6dff2bc600791ba900823bfd4</Anchor>
                        </Node>
                        <Node>
                         <Name>unless</Name>
@@ -6292,12 +6262,12 @@
                        <Node>
                         <Name>i_first</Name>
                         <Path>dc/d96/vk_2Slp_8def_8cc.html</Path>
-                        <Anchor>ad58dfac2046819d0a133f9dd4ade99be</Anchor>
+                        <Anchor>a1cc8960a5eb84ab004be3d8febb8985d</Anchor>
                        </Node>
                        <Node>
                         <Name>i_second</Name>
                         <Path>dc/d96/vk_2Slp_8def_8cc.html</Path>
-                        <Anchor>ae8e62c449fefcf8e085c914fae24293b</Anchor>
+                        <Anchor>a73010afd4fbeed5965e2768606335efd</Anchor>
                        </Node>
                        <Node>
                         <Name>i_vkdescpoolcreatflags</Name>
@@ -7091,11 +7061,6 @@
                         <Anchor>ae46bd26d7133dfe98f8cec7c5ac5c7a1</Anchor>
                        </Node>
                        <Node>
-                        <Name>inp</Name>
-                        <Path>d1/d95/MlpTrainXOR-Primal_8c.html</Path>
-                        <Anchor>aafc03cb5ac570d5708fc0c8a37eafda5</Anchor>
-                       </Node>
-                       <Node>
                         <Name>j</Name>
                         <Path>d1/d95/MlpTrainXOR-Primal_8c.html</Path>
                         <Anchor>abf2d9f657468255c5b9964ea2b6e9e15</Anchor>
@@ -7151,6 +7116,11 @@
                         <Anchor>a1a5e549dcc88168a7ab1055a1df271ad</Anchor>
                        </Node>
                        <Node>
+                        <Name>prm_inp</Name>
+                        <Path>d1/d95/MlpTrainXOR-Primal_8c.html</Path>
+                        <Anchor>abc7a357d85e617387443b96230b259c7</Anchor>
+                       </Node>
+                       <Node>
                         <Name>slplast</Name>
                         <Path>d1/d95/MlpTrainXOR-Primal_8c.html</Path>
                         <Anchor>a501722ada23d28cc20b7e164721abb91</Anchor>
@@ -7187,11 +7157,6 @@
                         <Anchor>ae46bd26d7133dfe98f8cec7c5ac5c7a1</Anchor>
                        </Node>
                        <Node>
-                        <Name>inp</Name>
-                        <Path>de/dab/MlpTrainXOR_8c.html</Path>
-                        <Anchor>aafc03cb5ac570d5708fc0c8a37eafda5</Anchor>
-                       </Node>
-                       <Node>
                         <Name>j</Name>
                         <Path>de/dab/MlpTrainXOR_8c.html</Path>
                         <Anchor>abf2d9f657468255c5b9964ea2b6e9e15</Anchor>
@@ -7215,6 +7180,11 @@
                         <Name>output</Name>
                         <Path>de/dab/MlpTrainXOR_8c.html</Path>
                         <Anchor>a1a5e549dcc88168a7ab1055a1df271ad</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>prm_inp</Name>
+                        <Path>de/dab/MlpTrainXOR_8c.html</Path>
+                        <Anchor>abc7a357d85e617387443b96230b259c7</Anchor>
                        </Node>
                       </Subnodes>
                      </Node>
@@ -7360,11 +7330,6 @@
                         <Anchor>ae46bd26d7133dfe98f8cec7c5ac5c7a1</Anchor>
                        </Node>
                        <Node>
-                        <Name>inp</Name>
-                        <Path>de/d28/SlpTrainAND_8c.html</Path>
-                        <Anchor>aafc03cb5ac570d5708fc0c8a37eafda5</Anchor>
-                       </Node>
-                       <Node>
                         <Name>j</Name>
                         <Path>de/d28/SlpTrainAND_8c.html</Path>
                         <Anchor>abf2d9f657468255c5b9964ea2b6e9e15</Anchor>
@@ -7378,6 +7343,11 @@
                         <Name>output</Name>
                         <Path>de/d28/SlpTrainAND_8c.html</Path>
                         <Anchor>ad688ff887782c76187d2f69d0791690d</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>prm_inp</Name>
+                        <Path>de/d28/SlpTrainAND_8c.html</Path>
+                        <Anchor>abc7a357d85e617387443b96230b259c7</Anchor>
                        </Node>
                        <Node>
                         <Name>slp</Name>

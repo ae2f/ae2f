@@ -188,7 +188,7 @@ Typedefs</h2></td></tr>
 <div class="ttc" id="asrc_2vk_2cl_2Mlp_8h_html_afe01ccbe6c8a6541802c7883495df510"><div class="ttname"><a href="../../d9/df0/src_2vk_2cl_2Mlp_8h.html#afe01ccbe6c8a6541802c7883495df510">i_iidx</a></div><div class="ttdeci">ae2f_float_t *const const size_t const size_t i_iidx</div><div class="ttdef"><b>Definition</b> <a href="../../d9/df0/src_2vk_2cl_2Mlp_8h_source.html#l00032">Mlp.h:32</a></div></div>
 </div><!-- fragment --><p>tparam param </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/d01/src_2vk_2cl_2Mlp_8auto_8h_source.html#l00099">99</a> of file <a class="el" href="../../de/d01/src_2vk_2cl_2Mlp_8auto_8h_source.html">Mlp.auto.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/d01/src_2vk_2cl_2Mlp_8auto_8h_source.html#l00097">97</a> of file <a class="el" href="../../de/d01/src_2vk_2cl_2Mlp_8auto_8h_source.html">Mlp.auto.h</a>.</p>
 
 </div>
 </div>
@@ -238,13 +238,12 @@ Typedefs</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line">{ \</div>
 <div class="line"> \</div>
 <div class="line">    if((<a class="code hl_variable" href="../../d9/df0/src_2vk_2cl_2Mlp_8h.html#a44f7a21b121ffd9065d294d9e41b0648">i_oidx</a>) &lt; (i_osz) &amp;&amp; (<a class="code hl_variable" href="../../d9/df0/src_2vk_2cl_2Mlp_8h.html#afe01ccbe6c8a6541802c7883495df510">i_iidx</a>) &lt; (<a class="code hl_variable" href="../../d9/df0/src_2vk_2cl_2Mlp_8h.html#ad31047233c66925427c6610fe0d6f7e5">i_isz</a>)) { \</div>
-<div class="line">        if(!(<a class="code hl_variable" href="../../d9/df0/src_2vk_2cl_2Mlp_8h.html#a44f7a21b121ffd9065d294d9e41b0648">i_oidx</a>)) (<a class="code hl_define" href="../../df/dbe/Mlp_8cl_8c.html#a4ac8e5af6fdf111a2f14e759e2b9b6a1">r_delta_then</a>)[<a class="code hl_variable" href="../../d9/df0/src_2vk_2cl_2Mlp_8h.html#afe01ccbe6c8a6541802c7883495df510">i_iidx</a>] = 0; \</div>
+<div class="line">        unless((<a class="code hl_variable" href="../../d9/df0/src_2vk_2cl_2Mlp_8h.html#a44f7a21b121ffd9065d294d9e41b0648">i_oidx</a>)) (<a class="code hl_define" href="../../df/dbe/Mlp_8cl_8c.html#a4ac8e5af6fdf111a2f14e759e2b9b6a1">r_delta_then</a>)[<a class="code hl_variable" href="../../d9/df0/src_2vk_2cl_2Mlp_8h.html#afe01ccbe6c8a6541802c7883495df510">i_iidx</a>] = 0; \</div>
 <div class="line">        atomic_add( \</div>
 <div class="line">                &amp;(<a class="code hl_define" href="../../df/dbe/Mlp_8cl_8c.html#a4ac8e5af6fdf111a2f14e759e2b9b6a1">r_delta_then</a>)[(<a class="code hl_variable" href="../../d9/df0/src_2vk_2cl_2Mlp_8h.html#afe01ccbe6c8a6541802c7883495df510">i_iidx</a>)] \</div>
 <div class="line">                , (i_weight)[(<a class="code hl_variable" href="../../d9/df0/src_2vk_2cl_2Mlp_8h.html#ad31047233c66925427c6610fe0d6f7e5">i_isz</a>) * (<a class="code hl_variable" href="../../d9/df0/src_2vk_2cl_2Mlp_8h.html#a44f7a21b121ffd9065d294d9e41b0648">i_oidx</a>) + (<a class="code hl_variable" href="../../d9/df0/src_2vk_2cl_2Mlp_8h.html#afe01ccbe6c8a6541802c7883495df510">i_iidx</a>)] * (i_delta)[<a class="code hl_variable" href="../../d9/df0/src_2vk_2cl_2Mlp_8h.html#a44f7a21b121ffd9065d294d9e41b0648">i_oidx</a>] \</div>
 <div class="line">                ); \</div>
 <div class="line">    } \</div>
-<div class="line"> \ \</div>
 <div class="line">}</div>
 </div><!-- fragment --><p>tparam param </p>
 
@@ -390,11 +389,11 @@ Typedefs</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#afff93952363e979a81c161758d313898">_clMlpGetHD</a>(<a class="code hl_define" href="../../df/dcd/mac_8h.html#a21065ed9d54b0313d422845a4c4e60c7">CL_Q_CVRT</a>(<a class="code hl_define" href="#a36bb6b9d5997be7eebffa0e3782b4ea3">_clMlpGetHD1</a>), __VA_ARGS__)</div>
 <div class="ttc" id="amac_8h_html_a21065ed9d54b0313d422845a4c4e60c7"><div class="ttname"><a href="../../df/dcd/mac_8h.html#a21065ed9d54b0313d422845a4c4e60c7">CL_Q_CVRT</a></div><div class="ttdeci">#define CL_Q_CVRT(x)</div><div class="ttdef"><b>Definition</b> <a href="../../df/dcd/mac_8h_source.html#l00012">mac.h:12</a></div></div>
 <div class="ttc" id="asrc_2vk_2cl_2Mlp_8auto_8h_html_a36bb6b9d5997be7eebffa0e3782b4ea3"><div class="ttname"><a href="#a36bb6b9d5997be7eebffa0e3782b4ea3">_clMlpGetHD1</a></div><div class="ttdeci">#define _clMlpGetHD1(r_delta_then, i_weight, i_delta, i_iidx, i_isz, i_oidx, i_osz)</div><div class="ttdef"><b>Definition</b> <a href="../../de/d01/src_2vk_2cl_2Mlp_8auto_8h_source.html#l00073">Mlp.auto.h:73</a></div></div>
-<div class="ttc" id="asrc_2vk_2cl_2Mlp_8auto_8h_html_afff93952363e979a81c161758d313898"><div class="ttname"><a href="#afff93952363e979a81c161758d313898">_clMlpGetHD</a></div><div class="ttdeci">#define _clMlpGetHD(ONE, r_delta_then, i_weight, i_delta, i_iidx, i_isz, i_oidx, i_osz)</div><div class="ttdef"><b>Definition</b> <a href="../../de/d01/src_2vk_2cl_2Mlp_8auto_8h_source.html#l00099">Mlp.auto.h:99</a></div></div>
+<div class="ttc" id="asrc_2vk_2cl_2Mlp_8auto_8h_html_afff93952363e979a81c161758d313898"><div class="ttname"><a href="#afff93952363e979a81c161758d313898">_clMlpGetHD</a></div><div class="ttdeci">#define _clMlpGetHD(ONE, r_delta_then, i_weight, i_delta, i_iidx, i_isz, i_oidx, i_osz)</div><div class="ttdef"><b>Definition</b> <a href="../../de/d01/src_2vk_2cl_2Mlp_8auto_8h_source.html#l00097">Mlp.auto.h:97</a></div></div>
 </div><!-- fragment -->
 <p>GetHidDelta Need no structure. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/d01/src_2vk_2cl_2Mlp_8auto_8h_source.html#l00118">118</a> of file <a class="el" href="../../de/d01/src_2vk_2cl_2Mlp_8auto_8h_source.html">Mlp.auto.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/d01/src_2vk_2cl_2Mlp_8auto_8h_source.html#l00116">116</a> of file <a class="el" href="../../de/d01/src_2vk_2cl_2Mlp_8auto_8h_source.html">Mlp.auto.h</a>.</p>
 
 </div>
 </div>

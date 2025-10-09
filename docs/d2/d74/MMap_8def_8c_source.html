@@ -92,22 +92,22 @@ $(function() { codefold.init(); });
 </div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><a class="code hl_define" href="../../d3/dc4/Cast_8h.html#af32d53608be4ca28fd8e5cd34fc0279b">ae2f_extern</a> ae2f_SHAREDCALL</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="keywordtype">void</span> <a class="code hl_function" href="../../d2/d74/MMap_8def_8c.html#add5689e0d613fd0e828d15d12c223120">ae2f_mMMapInit</a>(</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="keywordtype">void</span> ae2f_mMMapInit(</div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>        ae2f_mMMap* <span class="keyword">const</span> mmap</div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>        , <span class="keyword">const</span> size_t dim</div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>        , <span class="keyword">const</span> size_t* <span class="keyword">const</span> lens</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>        , <a class="code hl_typedef" href="../../da/d36/errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a>* <span class="keyword">const</span> opt_ret_err</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>        , ae2f_err_t* <span class="keyword">const</span> opt_ret_err</div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>        , size_t* <span class="keyword">const</span> opt_ret_sz</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>        ) noexcept;</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>        ) ae2f_noexcept;</div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><a class="code hl_define" href="../../d3/dc4/Cast_8h.html#af32d53608be4ca28fd8e5cd34fc0279b">ae2f_extern</a> ae2f_SHAREDCALL</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="../../d2/d74/MMap_8def_8c.html#a7a94e748995b27bd27cb6914c60c5598">   42</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="../../d2/d74/MMap_8def_8c.html#a7a94e748995b27bd27cb6914c60c5598">ae2f_mMMapMk</a>(</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="../../d2/d74/MMap_8def_8c.html#ac04c9440ab4918bd9c5298ec68f1aab0">   42</a></span><span class="keywordtype">void</span> ae2f_mMMapMk(</div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>        <span class="keyword">const</span> size_t dim,</div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>        <span class="keyword">const</span> size_t* <span class="keyword">const</span> lens,</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>        <a class="code hl_typedef" href="../../da/d36/errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a>* <span class="keyword">const</span> opt_ret_err,</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>        ae2f_err_t* <span class="keyword">const</span> opt_ret_err,</div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>        <a class="code hl_define" href="../../db/de1/Guide_8h.html#acd478d53d3154b07813021366f172e6b">ae2f_FREE</a>(free, ae2f_mMMapDel) ae2f_mMMap** <span class="keyword">const</span> ret_mmap</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>        ) noexcept;</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>        ) ae2f_noexcept;</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><a class="code hl_define" href="../../d3/dc4/Cast_8h.html#af32d53608be4ca28fd8e5cd34fc0279b">ae2f_extern</a> ae2f_SHAREDCALL</div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="keywordtype">void</span> <a class="code hl_function" href="../../d2/d74/MMap_8def_8c.html#aeb85b47e1606ab8e5e970f758b1576b5">ae2f_mMMapFieldIdx</a>(</div>
@@ -253,7 +253,7 @@ $(function() { codefold.init(); });
 <div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span>constextendedfun size_t _ae2f_mMMapSz(</div>
 <div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span>        size_t dim,</div>
 <div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span>        <span class="keyword">const</span> size_t* lens</div>
-<div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span>        ) noexcept</div>
+<div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span>        ) ae2f_noexcept</div>
 <div class="line"><a id="l00180" name="l00180"></a><span class="lineno">  180</span>{</div>
 <div class="line"><a id="l00181" name="l00181"></a><span class="lineno">  181</span>    <span class="keywordflow">if</span>(!(lens)) {</div>
 <div class="line"><a id="l00182" name="l00182"></a><span class="lineno">  182</span>        <span class="keywordflow">return</span> -1;</div>
@@ -337,7 +337,7 @@ $(function() { codefold.init(); });
 <div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span>        <span class="keyword">const</span> ae2f_mMMap* mmap,</div>
 <div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span>        size_t dim,</div>
 <div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span>        <span class="keyword">const</span> size_t* idxs</div>
-<div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span>        ) noexcept</div>
+<div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span>        ) ae2f_noexcept</div>
 <div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span>{</div>
 <div class="line"><a id="l00265" name="l00265"></a><span class="lineno">  265</span>    <span class="keywordflow">if</span>(!idxs) <span class="keywordflow">return</span> -1;</div>
 <div class="line"><a id="l00266" name="l00266"></a><span class="lineno">  266</span>    <span class="keywordflow">if</span>(!mmap) <span class="keywordflow">return</span> -1;</div>
@@ -449,10 +449,8 @@ $(function() { codefold.init(); });
 <div class="ttc" id="aMMap_8auto_8h_html_afa7f50074c3d470963fe064fa59513fd"><div class="ttname"><a href="../../de/d00/MMap_8auto_8h.html#afa7f50074c3d470963fe064fa59513fd">__ae2f_mMMapFieldIdx_imp</a></div><div class="ttdeci">#define __ae2f_mMMapFieldIdx_imp(v_fidx, mmap, dim, idxs)</div><div class="ttdef"><b>Definition</b> <a href="../../de/d00/MMap_8auto_8h_source.html#l00232">MMap.auto.h:232</a></div></div>
 <div class="ttc" id="aMMap_8def_8c_html_a1d86b6e64156e6709f05a6fdbc7d1a69"><div class="ttname"><a href="../../d2/d74/MMap_8def_8c.html#a1d86b6e64156e6709f05a6fdbc7d1a69">lens</a></div><div class="ttdeci">const size_t const size_t *const lens</div><div class="ttdef"><b>Definition</b> <a href="#l00128">MMap.def.c:130</a></div></div>
 <div class="ttc" id="aMMap_8def_8c_html_a6f5a03848c90a54a3c4ef7378e3a7b27"><div class="ttname"><a href="../../d2/d74/MMap_8def_8c.html#a6f5a03848c90a54a3c4ef7378e3a7b27">dim</a></div><div class="ttdeci">const size_t dim</div><div class="ttdef"><b>Definition</b> <a href="#l00127">MMap.def.c:128</a></div></div>
-<div class="ttc" id="aMMap_8def_8c_html_a7a94e748995b27bd27cb6914c60c5598"><div class="ttname"><a href="../../d2/d74/MMap_8def_8c.html#a7a94e748995b27bd27cb6914c60c5598">ae2f_mMMapMk</a></div><div class="ttdeci">ae2f_extern ae2f_SHAREDCALL void ae2f_mMMapMk(const size_t dim, const size_t *const lens, ae2f_err_t *const opt_ret_err, ae2f_FREE(free, ae2f_mMMapDel) ae2f_mMMap **const ret_mmap) noexcept</div></div>
 <div class="ttc" id="aMMap_8def_8c_html_a88c3dd347f961be61fdf80af68f65f94"><div class="ttname"><a href="../../d2/d74/MMap_8def_8c.html#a88c3dd347f961be61fdf80af68f65f94">ae2f_mMMapSz</a></div><div class="ttdeci">ae2f_extern ae2f_SHAREDCALL void ae2f_mMMapSz(const size_t dim, const size_t *const lens, size_t *const ret)</div><div class="ttdef"><b>Definition</b> <a href="../../df/dd1/MMap_8imp_8c_source.html#l00006">MMap.imp.c:6</a></div></div>
 <div class="ttc" id="aMMap_8def_8c_html_aa7a8649f6aca068c8a1e076c15627139"><div class="ttname"><a href="../../d2/d74/MMap_8def_8c.html#aa7a8649f6aca068c8a1e076c15627139">ae2f_mMMapDel</a></div><div class="ttdeci">ae2f_extern ae2f_SHAREDCALL void ae2f_mMMapDel(ae2f_mMMap *mmap)</div><div class="ttdef"><b>Definition</b> <a href="../../df/dd1/MMap_8imp_8c_source.html#l00043">MMap.imp.c:43</a></div></div>
-<div class="ttc" id="aMMap_8def_8c_html_add5689e0d613fd0e828d15d12c223120"><div class="ttname"><a href="../../d2/d74/MMap_8def_8c.html#add5689e0d613fd0e828d15d12c223120">ae2f_mMMapInit</a></div><div class="ttdeci">ae2f_extern ae2f_SHAREDCALL void ae2f_mMMapInit(ae2f_mMMap *const mmap, const size_t dim, const size_t *const lens, ae2f_err_t *const opt_ret_err, size_t *const opt_ret_sz) noexcept</div><div class="ttdef"><b>Definition</b> <a href="../../df/dd1/MMap_8imp_8c_source.html#l00020">MMap.imp.c:20</a></div></div>
 <div class="ttc" id="aMMap_8def_8c_html_aeb85b47e1606ab8e5e970f758b1576b5"><div class="ttname"><a href="../../d2/d74/MMap_8def_8c.html#aeb85b47e1606ab8e5e970f758b1576b5">ae2f_mMMapFieldIdx</a></div><div class="ttdeci">ae2f_extern ae2f_SHAREDCALL void ae2f_mMMapFieldIdx(const ae2f_mMMap *const mmap, const size_t dim, const size_t *const idxs, size_t *const ret)</div><div class="ttdef"><b>Definition</b> <a href="../../df/dd1/MMap_8imp_8c_source.html#l00011">MMap.imp.c:11</a></div></div>
 <div class="ttc" id="aMhattn_8auto_8h_html_a3aedf5a7045308a5bfd7a9ecb607d8d3"><div class="ttname"><a href="../../d6/dcd/Mhattn_8auto_8h.html#a3aedf5a7045308a5bfd7a9ecb607d8d3">__ae2f_MACRO_GENERATED</a></div><div class="ttdeci">#define __ae2f_MACRO_GENERATED</div><div class="ttdef"><b>Definition</b> <a href="../../d6/dcd/Mhattn_8auto_8h_source.html#l00002">Mhattn.auto.h:2</a></div></div>
 <div class="ttc" id="aerrGlob_8h_html_a85d8f457b682f8f47233d6bd93506f0f"><div class="ttname"><a href="../../da/d36/errGlob_8h.html#a85d8f457b682f8f47233d6bd93506f0f">ae2f_errGlob_ALLOC_FAILED</a></div><div class="ttdeci">#define ae2f_errGlob_ALLOC_FAILED</div><div class="ttdoc">stdlib allocating functions (malloc, calloc, realloc) has been failed.</div><div class="ttdef"><b>Definition</b> <a href="../../da/d36/errGlob_8h_source.html#l00040">errGlob.h:40</a></div></div>

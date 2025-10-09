@@ -1,2 +1,2 @@
 # ae2f_docs
-> This repository is for setting an autometical documentation
+> This repository is for setting an autometical documentation.

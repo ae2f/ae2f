@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.10)
 project(ae2f_docs)
 
 set(ae2f_ProjRoot ${CMAKE_CURRENT_SOURCE_DIR} CACHE STRING "Current Source Root")
+set(ae2f_)
 
 function(GITCLONE AUTH NAME)
 	if (NOT EXISTS submod/${AUTH}/${NAME})
@@ -33,7 +34,9 @@ find_package(Doxygen REQUIRED)
 if(DOXYGEN_FOUND)
 	# Set input directories (all subprojects' src and include)
 	set(DOXYGEN_INPUT_DIR
-		"${PROJECT_SOURCE_DIR}/submod/ae2f/ ${PROJECT_SOURCE_DIR}/README.md"
+		"${PROJECT_SOURCE_DIR}/submod/ae2f/ 
+		${PROJECT_SOURCE_DIR}/Hell/ 
+		${PROJECT_SOURCE_DIR}/README.md"
 		)
 
 	set(DOXYGEN_OUTPUT_DIR ${CMAKE_SOURCE_DIR})

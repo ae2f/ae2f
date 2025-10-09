@@ -86,12 +86,12 @@ Macros</h2></td></tr>
 <tr class="memdesc:a9beb5b2306780b20a71b0042c4d7ad58"><td class="mdescLeft">&#160;</td><td class="mdescRight">lsz * sizeof(uint32_t)  <br /></td></tr>
 <tr class="memitem:a2e320796460df0af55f0243a6e95d515" id="r_a2e320796460df0af55f0243a6e95d515"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e320796460df0af55f0243a6e95d515">p_outstream</a>&#160;&#160;&#160;(<a class="el" href="../../df/dcd/mac_8h.html#a729775f62a58937d14e741c61ade4197">CAST</a>(<a class="el" href="../../d4/d08/clspv__clkeys_8h.html#a0bcdca9f6e5923ea191d934ec3400d9e">__global</a> <a class="el" href="#ad025eb14a6bbc08d6dcb49421afde476">host_float_t</a>*, <a class="el" href="#a9beb5b2306780b20a71b0042c4d7ad58">p_layerszlist</a> + <a class="el" href="#adb041d6b906a34c8cdefbb8a6a0c34c0">lsz</a>))</td></tr>
 <tr class="memdesc:a2e320796460df0af55f0243a6e95d515"><td class="mdescLeft">&#160;</td><td class="mdescRight">sizeof(ae2f_float_t) * lsz * pgsz  <br /></td></tr>
-<tr class="memitem:a7fea255ff79f4cbeb7f1e1a3f4fa1654" id="r_a7fea255ff79f4cbeb7f1e1a3f4fa1654"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7fea255ff79f4cbeb7f1e1a3f4fa1654">p_inp</a>&#160;&#160;&#160;<a class="el" href="#a2e320796460df0af55f0243a6e95d515">p_outstream</a></td></tr>
-<tr class="memitem:a0b10114773665796ef01d9f2247c0e63" id="r_a0b10114773665796ef01d9f2247c0e63"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b10114773665796ef01d9f2247c0e63">p_weight</a>&#160;&#160;&#160;(<a class="el" href="#a2e320796460df0af55f0243a6e95d515">p_outstream</a> + <a class="el" href="#adb041d6b906a34c8cdefbb8a6a0c34c0">lsz</a> * <a class="el" href="#a225646885f5fa590bf2e8a5bab89f4e8">pgsz</a>)</td></tr>
-<tr class="memdesc:a0b10114773665796ef01d9f2247c0e63"><td class="mdescLeft">&#160;</td><td class="mdescRight">sizeof(ae2f_float_t) * pgsz_sqr * llsz  <br /></td></tr>
-<tr class="memitem:a85ef8c04b8454f0414686afd7a9389cc" id="r_a85ef8c04b8454f0414686afd7a9389cc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a85ef8c04b8454f0414686afd7a9389cc">p_bias</a>&#160;&#160;&#160;(<a class="el" href="#a0b10114773665796ef01d9f2247c0e63">p_weight</a> + <a class="el" href="#a320cea6b430b293ad1d96213d48c2454">pgsz_sqr</a> * <a class="el" href="#a4477c99f04c87d285c5021c38acc859c">llsz</a>)</td></tr>
-<tr class="memdesc:a85ef8c04b8454f0414686afd7a9389cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">sizeof(ae2f_float_t) * pgsz * llsz  <br /></td></tr>
-<tr class="memitem:a7bb3cb55b6159a14096e727eaf428802" id="r_a7bb3cb55b6159a14096e727eaf428802"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7bb3cb55b6159a14096e727eaf428802">p_deltastream</a>&#160;&#160;&#160;(<a class="el" href="#a85ef8c04b8454f0414686afd7a9389cc">p_bias</a> + <a class="el" href="#a4477c99f04c87d285c5021c38acc859c">llsz</a> * <a class="el" href="#a225646885f5fa590bf2e8a5bab89f4e8">pgsz</a>)</td></tr>
+<tr class="memitem:ac60bcb391ca9cb0c36e200dbe3a7311d" id="r_ac60bcb391ca9cb0c36e200dbe3a7311d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac60bcb391ca9cb0c36e200dbe3a7311d">p_inp</a>&#160;&#160;&#160;<a class="el" href="#a2e320796460df0af55f0243a6e95d515">p_outstream</a></td></tr>
+<tr class="memitem:a7b43763f37217bfe8b94df3159ba7e96" id="r_a7b43763f37217bfe8b94df3159ba7e96"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b43763f37217bfe8b94df3159ba7e96">p_weight</a>&#160;&#160;&#160;(<a class="el" href="#a2e320796460df0af55f0243a6e95d515">p_outstream</a> + <a class="el" href="#adb041d6b906a34c8cdefbb8a6a0c34c0">lsz</a> * <a class="el" href="#a225646885f5fa590bf2e8a5bab89f4e8">pgsz</a>)</td></tr>
+<tr class="memdesc:a7b43763f37217bfe8b94df3159ba7e96"><td class="mdescLeft">&#160;</td><td class="mdescRight">sizeof(ae2f_float_t) * pgsz_sqr * llsz  <br /></td></tr>
+<tr class="memitem:aa7846debc671701abcd9c81c7126ba29" id="r_aa7846debc671701abcd9c81c7126ba29"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7846debc671701abcd9c81c7126ba29">p_bias</a>&#160;&#160;&#160;(<a class="el" href="#a7b43763f37217bfe8b94df3159ba7e96">p_weight</a> + <a class="el" href="#a320cea6b430b293ad1d96213d48c2454">pgsz_sqr</a> * <a class="el" href="#a4477c99f04c87d285c5021c38acc859c">llsz</a>)</td></tr>
+<tr class="memdesc:aa7846debc671701abcd9c81c7126ba29"><td class="mdescLeft">&#160;</td><td class="mdescRight">sizeof(ae2f_float_t) * pgsz * llsz  <br /></td></tr>
+<tr class="memitem:a7bb3cb55b6159a14096e727eaf428802" id="r_a7bb3cb55b6159a14096e727eaf428802"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7bb3cb55b6159a14096e727eaf428802">p_deltastream</a>&#160;&#160;&#160;(<a class="el" href="#aa7846debc671701abcd9c81c7126ba29">p_bias</a> + <a class="el" href="#a4477c99f04c87d285c5021c38acc859c">llsz</a> * <a class="el" href="#a225646885f5fa590bf2e8a5bab89f4e8">pgsz</a>)</td></tr>
 <tr class="memdesc:a7bb3cb55b6159a14096e727eaf428802"><td class="mdescLeft">&#160;</td><td class="mdescRight">sizeof(ae2f_float_t) * pgsz * llsz  <br /></td></tr>
 <tr class="memitem:a7d3759b32680e1afb0e45744fe76ca90" id="r_a7d3759b32680e1afb0e45744fe76ca90"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d3759b32680e1afb0e45744fe76ca90">p_goal</a>&#160;&#160;&#160;(<a class="el" href="#a7bb3cb55b6159a14096e727eaf428802">p_deltastream</a> + <a class="el" href="#a4477c99f04c87d285c5021c38acc859c">llsz</a> * <a class="el" href="#a225646885f5fa590bf2e8a5bab89f4e8">pgsz</a>)</td></tr>
 <tr class="memdesc:a7d3759b32680e1afb0e45744fe76ca90"><td class="mdescLeft">&#160;</td><td class="mdescRight">sizeof(ae2f_float_t) * pgsz  <br /></td></tr>
@@ -118,7 +118,7 @@ Macros</h2></td></tr>
 <tr class="memitem:ad134fe336117838ca1b8188caa1488d3" id="r_ad134fe336117838ca1b8188caa1488d3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad134fe336117838ca1b8188caa1488d3">r_osz_then</a>&#160;&#160;&#160;<a class="el" href="#a09c3d0f934fbc75d16a1f5a867a2dffa">_r_osz</a>(lidx-1)</td></tr>
 <tr class="memitem:a4e6dfb1d7fd6663e58aa310654d45bce" id="r_a4e6dfb1d7fd6663e58aa310654d45bce"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e6dfb1d7fd6663e58aa310654d45bce">l_inp</a>(O_R)</td></tr>
 <tr class="memitem:a6339feb332e2470981385ba3b95c8bab" id="r_a6339feb332e2470981385ba3b95c8bab"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6339feb332e2470981385ba3b95c8bab">l_out</a>(O_R)</td></tr>
-<tr class="memitem:aada7909334844471eb1e401b571614b0" id="r_aada7909334844471eb1e401b571614b0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aada7909334844471eb1e401b571614b0">lp_deltastream</a>&#160;&#160;&#160;((<a class="el" href="../../db/dc7/src_2vk_2cl_2Slp_8h.html#a103ab758165f4c8fa9cf4ad006bbfc8c">loc</a>) + <a class="el" href="#a225646885f5fa590bf2e8a5bab89f4e8">pgsz</a> * ((2/* <a class="el" href="#adb041d6b906a34c8cdefbb8a6a0c34c0">lsz</a> */)))</td></tr>
+<tr class="memitem:aada7909334844471eb1e401b571614b0" id="r_aada7909334844471eb1e401b571614b0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aada7909334844471eb1e401b571614b0">lp_deltastream</a>&#160;&#160;&#160;((<a class="el" href="../../db/dc7/src_2vk_2cl_2Slp_8h.html#a07f44ba8f05dfcdcb6117defbfdc2e3a">loc</a>) + <a class="el" href="#a225646885f5fa590bf2e8a5bab89f4e8">pgsz</a> * ((2/* <a class="el" href="#adb041d6b906a34c8cdefbb8a6a0c34c0">lsz</a> */)))</td></tr>
 <tr class="memitem:a55251519e23091be5050531090608146" id="r_a55251519e23091be5050531090608146"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a55251519e23091be5050531090608146">l_delta</a>&#160;&#160;&#160;(<a class="el" href="#aada7909334844471eb1e401b571614b0">lp_deltastream</a> + <a class="el" href="#a225646885f5fa590bf2e8a5bab89f4e8">pgsz</a> * ((lidx) &amp; 1))</td></tr>
 <tr class="memitem:a6421caeb8019b4b5c531d63e8150c1e4" id="r_a6421caeb8019b4b5c531d63e8150c1e4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6421caeb8019b4b5c531d63e8150c1e4">l_delta_then</a>&#160;&#160;&#160;(<a class="el" href="#aada7909334844471eb1e401b571614b0">lp_deltastream</a> + <a class="el" href="#a225646885f5fa590bf2e8a5bab89f4e8">pgsz</a> * (!((lidx) &amp; 1)))</td></tr>
 <tr class="memitem:a80e311fc21f6722e03425493e4b2c25c" id="r_a80e311fc21f6722e03425493e4b2c25c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a80e311fc21f6722e03425493e4b2c25c">l_tmpoutc</a>&#160;&#160;&#160;(<a class="el" href="#aada7909334844471eb1e401b571614b0">lp_deltastream</a> + (<a class="el" href="#a225646885f5fa590bf2e8a5bab89f4e8">pgsz</a> &lt;&lt; 1))</td></tr>
@@ -132,8 +132,6 @@ Macros</h2></td></tr>
 <tr class="memitem:a08b4b953103c41bc1903fca87a16b263" id="r_a08b4b953103c41bc1903fca87a16b263"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08b4b953103c41bc1903fca87a16b263">m_weight</a>&#160;&#160;&#160;m_weight.m_f</td></tr>
 <tr class="memitem:a4b1f3c96c629fa3b2790b3b75f8e6ace" id="r_a4b1f3c96c629fa3b2790b3b75f8e6ace"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b1f3c96c629fa3b2790b3b75f8e6ace">m_bias</a>&#160;&#160;&#160;m_bias.m_f</td></tr>
 <tr class="memitem:a52744d7c6a30e56231a898d7cfd56df9" id="r_a52744d7c6a30e56231a898d7cfd56df9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52744d7c6a30e56231a898d7cfd56df9">weightsz</a>&#160;&#160;&#160;lr.m_wsz.m_u</td></tr>
-<tr class="memitem:ac322a438993b4c2441c04e9fa6d061e7" id="r_ac322a438993b4c2441c04e9fa6d061e7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac322a438993b4c2441c04e9fa6d061e7">tmp0</a>&#160;&#160;&#160;predict.m_tmp</td></tr>
-<tr class="memitem:a2c906c3bf601f31de58e600c16215c8f" id="r_a2c906c3bf601f31de58e600c16215c8f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c906c3bf601f31de58e600c16215c8f">tmp1</a>&#160;&#160;&#160;<a class="el" href="../../d2/d74/MMap_8def_8c.html#a21ab98406ecae432b70599302bd1918d">predict.m_ret</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -143,15 +141,15 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a7db9dbb869de399813d42e6e60292423" id="r_a7db9dbb869de399813d42e6e60292423"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d08/clspv__clkeys_8h.html#a808945c5ae849a5110b6e3127c99023b">__kernel</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7db9dbb869de399813d42e6e60292423">kPredict</a> (<a class="el" href="../../d4/d08/clspv__clkeys_8h.html#a0bcdca9f6e5923ea191d934ec3400d9e">__global</a> void *glob, <a class="el" href="../../d4/d08/clspv__clkeys_8h.html#a16d401f6ba8f83048211693549eba342">__local</a> <a class="el" href="../../d4/d93/Float_8h.html#a1139e92e9886739d9c544769ff4d6d3c">ae2f_float_t</a> *<a class="el" href="../../db/dc7/src_2vk_2cl_2Slp_8h.html#a103ab758165f4c8fa9cf4ad006bbfc8c">loc</a>, <a class="el" href="../../da/de5/structsz2__t.html">sz2_t</a> push)</td></tr>
+<tr class="memitem:a7db9dbb869de399813d42e6e60292423" id="r_a7db9dbb869de399813d42e6e60292423"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d08/clspv__clkeys_8h.html#a808945c5ae849a5110b6e3127c99023b">__kernel</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7db9dbb869de399813d42e6e60292423">kPredict</a> (<a class="el" href="../../d4/d08/clspv__clkeys_8h.html#a0bcdca9f6e5923ea191d934ec3400d9e">__global</a> void *glob, <a class="el" href="../../d4/d08/clspv__clkeys_8h.html#a16d401f6ba8f83048211693549eba342">__local</a> <a class="el" href="../../d4/d93/Float_8h.html#a1139e92e9886739d9c544769ff4d6d3c">ae2f_float_t</a> *<a class="el" href="../../db/dc7/src_2vk_2cl_2Slp_8h.html#a07f44ba8f05dfcdcb6117defbfdc2e3a">loc</a>, <a class="el" href="../../da/de5/structsz2__t.html">sz2_t</a> push)</td></tr>
 <tr class="memdesc:a7db9dbb869de399813d42e6e60292423"><td class="mdescLeft">&#160;</td><td class="mdescRight">loc <a class="el" href="../../d4/d93/Float_8h.html#a1139e92e9886739d9c544769ff4d6d3c">ae2f_float_t</a>[Page]: inp <a class="el" href="../../d4/d93/Float_8h.html#a1139e92e9886739d9c544769ff4d6d3c">ae2f_float_t</a>[Page]: out  <br /></td></tr>
-<tr class="memitem:ad56e79160af1bb5ec1f747d7a9c0a005" id="r_ad56e79160af1bb5ec1f747d7a9c0a005"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d08/clspv__clkeys_8h.html#a808945c5ae849a5110b6e3127c99023b">__kernel</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad56e79160af1bb5ec1f747d7a9c0a005">kPredictStream</a> (<a class="el" href="../../d4/d08/clspv__clkeys_8h.html#a0bcdca9f6e5923ea191d934ec3400d9e">__global</a> void *glob, <a class="el" href="../../d4/d08/clspv__clkeys_8h.html#a16d401f6ba8f83048211693549eba342">__local</a> <a class="el" href="../../d4/d93/Float_8h.html#a1139e92e9886739d9c544769ff4d6d3c">ae2f_float_t</a> *<a class="el" href="../../db/dc7/src_2vk_2cl_2Slp_8h.html#a103ab758165f4c8fa9cf4ad006bbfc8c">loc</a>, const <a class="el" href="../../da/de5/structsz2__t.html">sz2_t</a> push)</td></tr>
+<tr class="memitem:ad56e79160af1bb5ec1f747d7a9c0a005" id="r_ad56e79160af1bb5ec1f747d7a9c0a005"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d08/clspv__clkeys_8h.html#a808945c5ae849a5110b6e3127c99023b">__kernel</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad56e79160af1bb5ec1f747d7a9c0a005">kPredictStream</a> (<a class="el" href="../../d4/d08/clspv__clkeys_8h.html#a0bcdca9f6e5923ea191d934ec3400d9e">__global</a> void *glob, <a class="el" href="../../d4/d08/clspv__clkeys_8h.html#a16d401f6ba8f83048211693549eba342">__local</a> <a class="el" href="../../d4/d93/Float_8h.html#a1139e92e9886739d9c544769ff4d6d3c">ae2f_float_t</a> *<a class="el" href="../../db/dc7/src_2vk_2cl_2Slp_8h.html#a07f44ba8f05dfcdcb6117defbfdc2e3a">loc</a>, const <a class="el" href="../../da/de5/structsz2__t.html">sz2_t</a> push)</td></tr>
 <tr class="memdesc:ad56e79160af1bb5ec1f747d7a9c0a005"><td class="mdescLeft">&#160;</td><td class="mdescRight">loc <a class="el" href="../../d4/d93/Float_8h.html#a1139e92e9886739d9c544769ff4d6d3c">ae2f_float_t</a>[Page]: inp <a class="el" href="../../d4/d93/Float_8h.html#a1139e92e9886739d9c544769ff4d6d3c">ae2f_float_t</a>[Page]: out  <br /></td></tr>
 <tr class="memitem:aa95e9ce4619bb1bab0c2773d9fd9328c" id="r_aa95e9ce4619bb1bab0c2773d9fd9328c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa95e9ce4619bb1bab0c2773d9fd9328c">ae2f_structdef</a> (union, lrlszel_t)</td></tr>
 <tr class="memitem:a23c71bcd8e5fc7d0c279273f0a8ef621" id="r_a23c71bcd8e5fc7d0c279273f0a8ef621"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a23c71bcd8e5fc7d0c279273f0a8ef621">ae2f_structdef</a> (struct, lrlsz_t)</td></tr>
-<tr class="memitem:afc155d0e062b669bf3c8a029d4b7dddb" id="r_afc155d0e062b669bf3c8a029d4b7dddb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d08/clspv__clkeys_8h.html#a808945c5ae849a5110b6e3127c99023b">__kernel</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc155d0e062b669bf3c8a029d4b7dddb">kFollow</a> (<a class="el" href="../../d4/d08/clspv__clkeys_8h.html#a0bcdca9f6e5923ea191d934ec3400d9e">__global</a> void *glob, <a class="el" href="../../d4/d08/clspv__clkeys_8h.html#a16d401f6ba8f83048211693549eba342">__local</a> <a class="el" href="../../d4/d93/Float_8h.html#a1139e92e9886739d9c544769ff4d6d3c">ae2f_float_t</a> *<a class="el" href="../../db/dc7/src_2vk_2cl_2Slp_8h.html#a103ab758165f4c8fa9cf4ad006bbfc8c">loc</a>, lrlsz_t lr)</td></tr>
+<tr class="memitem:afc155d0e062b669bf3c8a029d4b7dddb" id="r_afc155d0e062b669bf3c8a029d4b7dddb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d08/clspv__clkeys_8h.html#a808945c5ae849a5110b6e3127c99023b">__kernel</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc155d0e062b669bf3c8a029d4b7dddb">kFollow</a> (<a class="el" href="../../d4/d08/clspv__clkeys_8h.html#a0bcdca9f6e5923ea191d934ec3400d9e">__global</a> void *glob, <a class="el" href="../../d4/d08/clspv__clkeys_8h.html#a16d401f6ba8f83048211693549eba342">__local</a> <a class="el" href="../../d4/d93/Float_8h.html#a1139e92e9886739d9c544769ff4d6d3c">ae2f_float_t</a> *<a class="el" href="../../db/dc7/src_2vk_2cl_2Slp_8h.html#a07f44ba8f05dfcdcb6117defbfdc2e3a">loc</a>, lrlsz_t lr)</td></tr>
 <tr class="memdesc:afc155d0e062b669bf3c8a029d4b7dddb"><td class="mdescLeft">&#160;</td><td class="mdescRight">loc <a class="el" href="../../d4/d93/Float_8h.html#a1139e92e9886739d9c544769ff4d6d3c">ae2f_float_t</a>[lsz - 1][Page]: OutStream <a class="el" href="../../d4/d93/Float_8h.html#a1139e92e9886739d9c544769ff4d6d3c">ae2f_float_t</a>[lsz - 1][Page]: DeltaStream  <br /></td></tr>
-<tr class="memitem:a0abfa5be647255a93d09621881af835b" id="r_a0abfa5be647255a93d09621881af835b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d08/clspv__clkeys_8h.html#a808945c5ae849a5110b6e3127c99023b">__kernel</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0abfa5be647255a93d09621881af835b">kTrainAuto</a> (<a class="el" href="../../d4/d08/clspv__clkeys_8h.html#a0bcdca9f6e5923ea191d934ec3400d9e">__global</a> void *glob, <a class="el" href="../../d4/d08/clspv__clkeys_8h.html#a16d401f6ba8f83048211693549eba342">__local</a> <a class="el" href="../../d4/d93/Float_8h.html#a1139e92e9886739d9c544769ff4d6d3c">ae2f_float_t</a> *<a class="el" href="../../db/dc7/src_2vk_2cl_2Slp_8h.html#a103ab758165f4c8fa9cf4ad006bbfc8c">loc</a>, lrlsz_t lr)</td></tr>
+<tr class="memitem:a0abfa5be647255a93d09621881af835b" id="r_a0abfa5be647255a93d09621881af835b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d08/clspv__clkeys_8h.html#a808945c5ae849a5110b6e3127c99023b">__kernel</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0abfa5be647255a93d09621881af835b">kTrainAuto</a> (<a class="el" href="../../d4/d08/clspv__clkeys_8h.html#a0bcdca9f6e5923ea191d934ec3400d9e">__global</a> void *glob, <a class="el" href="../../d4/d08/clspv__clkeys_8h.html#a16d401f6ba8f83048211693549eba342">__local</a> <a class="el" href="../../d4/d93/Float_8h.html#a1139e92e9886739d9c544769ff4d6d3c">ae2f_float_t</a> *<a class="el" href="../../db/dc7/src_2vk_2cl_2Slp_8h.html#a07f44ba8f05dfcdcb6117defbfdc2e3a">loc</a>, lrlsz_t lr)</td></tr>
 <tr class="memdesc:a0abfa5be647255a93d09621881af835b"><td class="mdescLeft">&#160;</td><td class="mdescRight">loc <a class="el" href="../../d4/d93/Float_8h.html#a1139e92e9886739d9c544769ff4d6d3c">ae2f_float_t</a>[lsz - 1][Page]: OutStream <a class="el" href="../../d4/d93/Float_8h.html#a1139e92e9886739d9c544769ff4d6d3c">ae2f_float_t</a>[lsz - 1][Page]: DeltaStream  <br /></td></tr>
 </table>
 <a name="doc-define-members" id="doc-define-members"></a><h2 id="header-doc-define-members" class="groupheader">Macro Definition Documentation</h2>
@@ -169,9 +167,9 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">(<a class="code hl_define" href="#a85ef8c04b8454f0414686afd7a9389cc">p_bias</a> + <a class="code hl_define" href="#a225646885f5fa590bf2e8a5bab89f4e8">pgsz</a> * (lidx))</div>
+<b>Value:</b><div class="fragment"><div class="line">(<a class="code hl_define" href="#aa7846debc671701abcd9c81c7126ba29">p_bias</a> + <a class="code hl_define" href="#a225646885f5fa590bf2e8a5bab89f4e8">pgsz</a> * (lidx))</div>
 <div class="ttc" id="aMlp_8cl_8c_html_a225646885f5fa590bf2e8a5bab89f4e8"><div class="ttname"><a href="#a225646885f5fa590bf2e8a5bab89f4e8">pgsz</a></div><div class="ttdeci">#define pgsz</div><div class="ttdef"><b>Definition</b> <a href="../../df/dbe/Mlp_8cl_8c_source.html#l00032">Mlp.cl.c:32</a></div></div>
-<div class="ttc" id="aMlp_8cl_8c_html_a85ef8c04b8454f0414686afd7a9389cc"><div class="ttname"><a href="#a85ef8c04b8454f0414686afd7a9389cc">p_bias</a></div><div class="ttdeci">#define p_bias</div><div class="ttdoc">sizeof(ae2f_float_t) * pgsz * llsz</div><div class="ttdef"><b>Definition</b> <a href="../../df/dbe/Mlp_8cl_8c_source.html#l00053">Mlp.cl.c:53</a></div></div>
+<div class="ttc" id="aMlp_8cl_8c_html_aa7846debc671701abcd9c81c7126ba29"><div class="ttname"><a href="#aa7846debc671701abcd9c81c7126ba29">p_bias</a></div><div class="ttdeci">#define p_bias</div><div class="ttdoc">sizeof(ae2f_float_t) * pgsz * llsz</div><div class="ttdef"><b>Definition</b> <a href="../../df/dbe/Mlp_8cl_8c_source.html#l00053">Mlp.cl.c:53</a></div></div>
 </div><!-- fragment -->
 <p class="definition">Definition at line <a class="el" href="../../df/dbe/Mlp_8cl_8c_source.html#l00064">64</a> of file <a class="el" href="../../df/dbe/Mlp_8cl_8c_source.html">Mlp.cl.c</a>.</p>
 
@@ -294,9 +292,9 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">(<a class="code hl_define" href="#a0b10114773665796ef01d9f2247c0e63">p_weight</a> + <a class="code hl_define" href="#a320cea6b430b293ad1d96213d48c2454">pgsz_sqr</a> * (lidx))</div>
-<div class="ttc" id="aMlp_8cl_8c_html_a0b10114773665796ef01d9f2247c0e63"><div class="ttname"><a href="#a0b10114773665796ef01d9f2247c0e63">p_weight</a></div><div class="ttdeci">#define p_weight</div><div class="ttdoc">sizeof(ae2f_float_t) * pgsz_sqr * llsz</div><div class="ttdef"><b>Definition</b> <a href="../../df/dbe/Mlp_8cl_8c_source.html#l00050">Mlp.cl.c:50</a></div></div>
+<b>Value:</b><div class="fragment"><div class="line">(<a class="code hl_define" href="#a7b43763f37217bfe8b94df3159ba7e96">p_weight</a> + <a class="code hl_define" href="#a320cea6b430b293ad1d96213d48c2454">pgsz_sqr</a> * (lidx))</div>
 <div class="ttc" id="aMlp_8cl_8c_html_a320cea6b430b293ad1d96213d48c2454"><div class="ttname"><a href="#a320cea6b430b293ad1d96213d48c2454">pgsz_sqr</a></div><div class="ttdeci">#define pgsz_sqr</div><div class="ttdef"><b>Definition</b> <a href="../../df/dbe/Mlp_8cl_8c_source.html#l00035">Mlp.cl.c:35</a></div></div>
+<div class="ttc" id="aMlp_8cl_8c_html_a7b43763f37217bfe8b94df3159ba7e96"><div class="ttname"><a href="#a7b43763f37217bfe8b94df3159ba7e96">p_weight</a></div><div class="ttdeci">#define p_weight</div><div class="ttdoc">sizeof(ae2f_float_t) * pgsz_sqr * llsz</div><div class="ttdef"><b>Definition</b> <a href="../../df/dbe/Mlp_8cl_8c_source.html#l00050">Mlp.cl.c:50</a></div></div>
 </div><!-- fragment -->
 <p class="definition">Definition at line <a class="el" href="../../df/dbe/Mlp_8cl_8c_source.html#l00063">63</a> of file <a class="el" href="../../df/dbe/Mlp_8cl_8c_source.html">Mlp.cl.c</a>.</p>
 
@@ -599,8 +597,8 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">(((<a class="code hl_variable" href="../../db/dc7/src_2vk_2cl_2Slp_8h.html#a103ab758165f4c8fa9cf4ad006bbfc8c">loc</a>) + <a class="code hl_define" href="#a225646885f5fa590bf2e8a5bab89f4e8">pgsz</a> * ((lidx) O_R)))</div>
-<div class="ttc" id="asrc_2vk_2cl_2Slp_8h_html_a103ab758165f4c8fa9cf4ad006bbfc8c"><div class="ttname"><a href="../../db/dc7/src_2vk_2cl_2Slp_8h.html#a103ab758165f4c8fa9cf4ad006bbfc8c">loc</a></div><div class="ttdeci">__local ae2f_float_t *const loc</div><div class="ttdef"><b>Definition</b> <a href="../../db/dc7/src_2vk_2cl_2Slp_8h_source.html#l00020">Slp.h:20</a></div></div>
+<b>Value:</b><div class="fragment"><div class="line">(((<a class="code hl_variable" href="../../db/dc7/src_2vk_2cl_2Slp_8h.html#a07f44ba8f05dfcdcb6117defbfdc2e3a">loc</a>) + <a class="code hl_define" href="#a225646885f5fa590bf2e8a5bab89f4e8">pgsz</a> * ((lidx) O_R)))</div>
+<div class="ttc" id="asrc_2vk_2cl_2Slp_8h_html_a07f44ba8f05dfcdcb6117defbfdc2e3a"><div class="ttname"><a href="../../db/dc7/src_2vk_2cl_2Slp_8h.html#a07f44ba8f05dfcdcb6117defbfdc2e3a">loc</a></div><div class="ttdeci">__local ae2f_float_t *const loc</div><div class="ttdef"><b>Definition</b> <a href="../../db/dc7/src_2vk_2cl_2Slp_8h_source.html#l00016">Slp.h:16</a></div></div>
 </div><!-- fragment -->
 <p class="definition">Definition at line <a class="el" href="../../df/dbe/Mlp_8cl_8c_source.html#l00085">85</a> of file <a class="el" href="../../df/dbe/Mlp_8cl_8c_source.html">Mlp.cl.c</a>.</p>
 
@@ -620,7 +618,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">(((<a class="code hl_variable" href="../../db/dc7/src_2vk_2cl_2Slp_8h.html#a103ab758165f4c8fa9cf4ad006bbfc8c">loc</a>) + <a class="code hl_define" href="#a225646885f5fa590bf2e8a5bab89f4e8">pgsz</a> * ((lidx + 1) O_R)))</div>
+<b>Value:</b><div class="fragment"><div class="line">(((<a class="code hl_variable" href="../../db/dc7/src_2vk_2cl_2Slp_8h.html#a07f44ba8f05dfcdcb6117defbfdc2e3a">loc</a>) + <a class="code hl_define" href="#a225646885f5fa590bf2e8a5bab89f4e8">pgsz</a> * ((lidx + 1) O_R)))</div>
 </div><!-- fragment -->
 <p class="definition">Definition at line <a class="el" href="../../df/dbe/Mlp_8cl_8c_source.html#l00086">86</a> of file <a class="el" href="../../df/dbe/Mlp_8cl_8c_source.html">Mlp.cl.c</a>.</p>
 
@@ -705,7 +703,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define lp_deltastream&#160;&#160;&#160;((<a class="el" href="../../db/dc7/src_2vk_2cl_2Slp_8h.html#a103ab758165f4c8fa9cf4ad006bbfc8c">loc</a>) + <a class="el" href="#a225646885f5fa590bf2e8a5bab89f4e8">pgsz</a> * ((2/* <a class="el" href="#adb041d6b906a34c8cdefbb8a6a0c34c0">lsz</a> */)))</td>
+          <td class="memname">#define lp_deltastream&#160;&#160;&#160;((<a class="el" href="../../db/dc7/src_2vk_2cl_2Slp_8h.html#a07f44ba8f05dfcdcb6117defbfdc2e3a">loc</a>) + <a class="el" href="#a225646885f5fa590bf2e8a5bab89f4e8">pgsz</a> * ((2/* <a class="el" href="#adb041d6b906a34c8cdefbb8a6a0c34c0">lsz</a> */)))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -777,7 +775,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/dbe/Mlp_8cl_8c_source.html#l00185">185</a> of file <a class="el" href="../../df/dbe/Mlp_8cl_8c_source.html">Mlp.cl.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/dbe/Mlp_8cl_8c_source.html#l00189">189</a> of file <a class="el" href="../../df/dbe/Mlp_8cl_8c_source.html">Mlp.cl.c</a>.</p>
 
 </div>
 </div>
@@ -793,18 +791,18 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/dbe/Mlp_8cl_8c_source.html#l00184">184</a> of file <a class="el" href="../../df/dbe/Mlp_8cl_8c_source.html">Mlp.cl.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/dbe/Mlp_8cl_8c_source.html#l00188">188</a> of file <a class="el" href="../../df/dbe/Mlp_8cl_8c_source.html">Mlp.cl.c</a>.</p>
 
 </div>
 </div>
-<a id="a85ef8c04b8454f0414686afd7a9389cc" name="a85ef8c04b8454f0414686afd7a9389cc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a85ef8c04b8454f0414686afd7a9389cc">&#9670;&#160;</a></span>p_bias</h2>
+<a id="aa7846debc671701abcd9c81c7126ba29" name="aa7846debc671701abcd9c81c7126ba29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7846debc671701abcd9c81c7126ba29">&#9670;&#160;</a></span>p_bias</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d4/d08/clspv__clkeys_8h.html#a16d401f6ba8f83048211693549eba342">__local</a> <a class="el" href="../../d4/d93/Float_8h.html#a1139e92e9886739d9c544769ff4d6d3c">ae2f_float_t</a> *const const <a class="el" href="../../d4/d93/Float_8h.html#a1139e92e9886739d9c544769ff4d6d3c">ae2f_float_t</a> *const const <a class="el" href="../../d4/d93/Float_8h.html#a1139e92e9886739d9c544769ff4d6d3c">ae2f_float_t</a> *const const <a class="el" href="../../d4/d93/Float_8h.html#a1139e92e9886739d9c544769ff4d6d3c">ae2f_float_t</a> *const p_bias&#160;&#160;&#160;(<a class="el" href="#a0b10114773665796ef01d9f2247c0e63">p_weight</a> + <a class="el" href="#a320cea6b430b293ad1d96213d48c2454">pgsz_sqr</a> * <a class="el" href="#a4477c99f04c87d285c5021c38acc859c">llsz</a>)</td>
+          <td class="memname">#define p_bias&#160;&#160;&#160;(<a class="el" href="#a7b43763f37217bfe8b94df3159ba7e96">p_weight</a> + <a class="el" href="#a320cea6b430b293ad1d96213d48c2454">pgsz_sqr</a> * <a class="el" href="#a4477c99f04c87d285c5021c38acc859c">llsz</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -822,7 +820,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define p_deltastream&#160;&#160;&#160;(<a class="el" href="#a85ef8c04b8454f0414686afd7a9389cc">p_bias</a> + <a class="el" href="#a4477c99f04c87d285c5021c38acc859c">llsz</a> * <a class="el" href="#a225646885f5fa590bf2e8a5bab89f4e8">pgsz</a>)</td>
+          <td class="memname">#define p_deltastream&#160;&#160;&#160;(<a class="el" href="#aa7846debc671701abcd9c81c7126ba29">p_bias</a> + <a class="el" href="#a4477c99f04c87d285c5021c38acc859c">llsz</a> * <a class="el" href="#a225646885f5fa590bf2e8a5bab89f4e8">pgsz</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -851,14 +849,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a7fea255ff79f4cbeb7f1e1a3f4fa1654" name="a7fea255ff79f4cbeb7f1e1a3f4fa1654"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7fea255ff79f4cbeb7f1e1a3f4fa1654">&#9670;&#160;</a></span>p_inp</h2>
+<a id="ac60bcb391ca9cb0c36e200dbe3a7311d" name="ac60bcb391ca9cb0c36e200dbe3a7311d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac60bcb391ca9cb0c36e200dbe3a7311d">&#9670;&#160;</a></span>p_inp</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d4/d08/clspv__clkeys_8h.html#a16d401f6ba8f83048211693549eba342">__local</a> <a class="el" href="../../d4/d93/Float_8h.html#a1139e92e9886739d9c544769ff4d6d3c">ae2f_float_t</a> *const const <a class="el" href="../../d4/d93/Float_8h.html#a1139e92e9886739d9c544769ff4d6d3c">ae2f_float_t</a> *const p_inp&#160;&#160;&#160;<a class="el" href="#a2e320796460df0af55f0243a6e95d515">p_outstream</a></td>
+          <td class="memname">#define p_inp&#160;&#160;&#160;<a class="el" href="#a2e320796460df0af55f0243a6e95d515">p_outstream</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -903,14 +901,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a0b10114773665796ef01d9f2247c0e63" name="a0b10114773665796ef01d9f2247c0e63"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0b10114773665796ef01d9f2247c0e63">&#9670;&#160;</a></span>p_weight</h2>
+<a id="a7b43763f37217bfe8b94df3159ba7e96" name="a7b43763f37217bfe8b94df3159ba7e96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b43763f37217bfe8b94df3159ba7e96">&#9670;&#160;</a></span>p_weight</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d4/d08/clspv__clkeys_8h.html#a16d401f6ba8f83048211693549eba342">__local</a> <a class="el" href="../../d4/d93/Float_8h.html#a1139e92e9886739d9c544769ff4d6d3c">ae2f_float_t</a> *const const <a class="el" href="../../d4/d93/Float_8h.html#a1139e92e9886739d9c544769ff4d6d3c">ae2f_float_t</a> *const const <a class="el" href="../../d4/d93/Float_8h.html#a1139e92e9886739d9c544769ff4d6d3c">ae2f_float_t</a> *const p_weight&#160;&#160;&#160;(<a class="el" href="#a2e320796460df0af55f0243a6e95d515">p_outstream</a> + <a class="el" href="#adb041d6b906a34c8cdefbb8a6a0c34c0">lsz</a> * <a class="el" href="#a225646885f5fa590bf2e8a5bab89f4e8">pgsz</a>)</td>
+          <td class="memname">#define p_weight&#160;&#160;&#160;(<a class="el" href="#a2e320796460df0af55f0243a6e95d515">p_outstream</a> + <a class="el" href="#adb041d6b906a34c8cdefbb8a6a0c34c0">lsz</a> * <a class="el" href="#a225646885f5fa590bf2e8a5bab89f4e8">pgsz</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1177,34 +1175,6 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ac322a438993b4c2441c04e9fa6d061e7" name="ac322a438993b4c2441c04e9fa6d061e7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac322a438993b4c2441c04e9fa6d061e7">&#9670;&#160;</a></span>tmp0</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define tmp0&#160;&#160;&#160;predict.m_tmp</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a2c906c3bf601f31de58e600c16215c8f" name="a2c906c3bf601f31de58e600c16215c8f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2c906c3bf601f31de58e600c16215c8f">&#9670;&#160;</a></span>tmp1</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define tmp1&#160;&#160;&#160;<a class="el" href="../../d2/d74/MMap_8def_8c.html#a21ab98406ecae432b70599302bd1918d">predict.m_ret</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a52744d7c6a30e56231a898d7cfd56df9" name="a52744d7c6a30e56231a898d7cfd56df9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a52744d7c6a30e56231a898d7cfd56df9">&#9670;&#160;</a></span>weightsz <span class="overload">[1/3]</span></h2>
 
@@ -1266,7 +1236,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/dbe/Mlp_8cl_8c_source.html#l00177">177</a> of file <a class="el" href="../../df/dbe/Mlp_8cl_8c_source.html">Mlp.cl.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/dbe/Mlp_8cl_8c_source.html#l00181">181</a> of file <a class="el" href="../../df/dbe/Mlp_8cl_8c_source.html">Mlp.cl.c</a>.</p>
 
 </div>
 </div>
@@ -1282,7 +1252,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/dbe/Mlp_8cl_8c_source.html#l00172">172</a> of file <a class="el" href="../../df/dbe/Mlp_8cl_8c_source.html">Mlp.cl.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/dbe/Mlp_8cl_8c_source.html#l00176">176</a> of file <a class="el" href="../../df/dbe/Mlp_8cl_8c_source.html">Mlp.cl.c</a>.</p>
 
 </div>
 </div>
@@ -1320,7 +1290,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/dbe/Mlp_8cl_8c_source.html#l00167">167</a> of file <a class="el" href="../../df/dbe/Mlp_8cl_8c_source.html">Mlp.cl.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/dbe/Mlp_8cl_8c_source.html#l00171">171</a> of file <a class="el" href="../../df/dbe/Mlp_8cl_8c_source.html">Mlp.cl.c</a>.</p>
 
 </div>
 </div>
@@ -1343,7 +1313,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/dbe/Mlp_8cl_8c_source.html#l00162">162</a> of file <a class="el" href="../../df/dbe/Mlp_8cl_8c_source.html">Mlp.cl.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/dbe/Mlp_8cl_8c_source.html#l00166">166</a> of file <a class="el" href="../../df/dbe/Mlp_8cl_8c_source.html">Mlp.cl.c</a>.</p>
 
 </div>
 </div>
@@ -1377,7 +1347,7 @@ Functions</h2></td></tr>
 <p>Needs to be procedural</p>
 <p>barrier(CLK_LOCAL_MEM_FENCE);</p>
 
-<p class="definition">Definition at line <a class="el" href="../../df/dbe/Mlp_8cl_8c_source.html#l00193">193</a> of file <a class="el" href="../../df/dbe/Mlp_8cl_8c_source.html">Mlp.cl.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/dbe/Mlp_8cl_8c_source.html#l00197">197</a> of file <a class="el" href="../../df/dbe/Mlp_8cl_8c_source.html">Mlp.cl.c</a>.</p>
 
 </div>
 </div>
@@ -1437,7 +1407,7 @@ Functions</h2></td></tr>
 
 <p>loc <a class="el" href="../../d4/d93/Float_8h.html#a1139e92e9886739d9c544769ff4d6d3c">ae2f_float_t</a>[Page]: inp <a class="el" href="../../d4/d93/Float_8h.html#a1139e92e9886739d9c544769ff4d6d3c">ae2f_float_t</a>[Page]: out </p>
 
-<p class="definition">Definition at line <a class="el" href="../../df/dbe/Mlp_8cl_8c_source.html#l00140">140</a> of file <a class="el" href="../../df/dbe/Mlp_8cl_8c_source.html">Mlp.cl.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/dbe/Mlp_8cl_8c_source.html#l00141">141</a> of file <a class="el" href="../../df/dbe/Mlp_8cl_8c_source.html">Mlp.cl.c</a>.</p>
 
 </div>
 </div>
@@ -1466,14 +1436,13 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>loc <a class="el" href="../../d4/d93/Float_8h.html#a1139e92e9886739d9c544769ff4d6d3c">ae2f_float_t</a>[lsz - 1][Page]: OutStream <a class="el" href="../../d4/d93/Float_8h.html#a1139e92e9886739d9c544769ff4d6d3c">ae2f_float_t</a>[lsz - 1][Page]: DeltaStream </p>
-<p>ASSERT</p>
 <p>lidx == llsz - 1</p>
 <p>lidx == llsz</p>
 <p>lidx == llsz - 1</p>
 <p>Needs to be procedural</p>
 <p>lidx == 0</p>
 
-<p class="definition">Definition at line <a class="el" href="../../df/dbe/Mlp_8cl_8c_source.html#l00311">311</a> of file <a class="el" href="../../df/dbe/Mlp_8cl_8c_source.html">Mlp.cl.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/dbe/Mlp_8cl_8c_source.html#l00315">315</a> of file <a class="el" href="../../df/dbe/Mlp_8cl_8c_source.html">Mlp.cl.c</a>.</p>
 
 </div>
 </div>

@@ -3,8 +3,7 @@ out/*
 CMakeFiles/*
 build/*
 .vscode/*
-
 clinclude/*
 submod/*
-
 include
+Doxyfile
