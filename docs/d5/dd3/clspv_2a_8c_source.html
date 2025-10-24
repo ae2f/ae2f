@@ -34,7 +34,6 @@ $(function() { codefold.init(); });
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="../../index.html"><span>Main&#160;Page</span></a></li>
-      <li><a href="../../pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="../../namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="../../annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="../../files.html"><span>Files</span></a></li>
@@ -57,14 +56,13 @@ $(function() { codefold.init(); });
   <div class="headertitle"><div class="title">a.c</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d5/dd3/clspv_2a_8c.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#</span><span class="preprocessor">include</span> <span class="preprocessor">&lt;</span><span class="preprocessor">stdio</span><span class="preprocessor">.</span><span class="preprocessor">h</span><span class="preprocessor">&gt;</span></div>
+<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#</span><span class="preprocessor">include</span> <span class="preprocessor">&lt;</span><span class="preprocessor">stdio</span><span class="preprocessor">.</span><span class="preprocessor">h</span><span class="preprocessor">&gt;</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#</span><span class="preprocessor">include</span> <span class="preprocessor">&lt;</span><span class="preprocessor">stdlib</span><span class="preprocessor">.</span><span class="preprocessor">h</span><span class="preprocessor">&gt;</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#</span><span class="preprocessor">include</span> <span class="preprocessor">&quot;clspv/Compiler.h&quot;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="keyword">static</span> <span class="keywordtype">char</span> VV[200];</div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
-<div class="foldopen" id="foldopen00007" data-start="{" data-end="}">
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno"><a class="line" href="../../d5/dd3/clspv_2a_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4">    7</a></span><span class="keywordtype">int</span> <a class="code hl_function" href="../../d1/d95/MlpTrainXOR-Primal_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>() {</div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keywordtype">int</span> main() {</div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>    <span class="comment">// CL source example:</span></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>    <span class="keyword">const</span> <span class="keywordtype">char</span>* clSrc = <span class="stringliteral">&quot;__kernel void sample_test(__global int *dst, int count) {  \n&quot;</span></div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>                        <span class="stringliteral">&quot;                                                           \n&quot;</span></div>
@@ -75,8 +73,8 @@ $(function() { codefold.init(); });
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    <span class="comment">// Compile</span></div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    size_t outputSpvSize = 0;</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <span class="keywordtype">char</span>* outputSpv = nullptr;</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <span class="keywordtype">char</span>* outputBuildLog = nullptr;</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <span class="keywordtype">char</span>* outputSpv = NULL;</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <span class="keywordtype">char</span>* outputBuildLog = NULL;</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    ClspvError ret = clspvCompileFromSourcesString(1,</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>                                                   NULL,</div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>                                                   (<span class="keyword">const</span> <span class="keywordtype">char</span>**)&amp;clSrc,</div>
@@ -100,8 +98,6 @@ $(function() { codefold.init(); });
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>}</div>
-</div>
-<div class="ttc" id="aMlpTrainXOR-Primal_8c_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="../../d1/d95/MlpTrainXOR-Primal_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition</b> <a href="../../d1/d95/MlpTrainXOR-Primal_8c_source.html#l00071">MlpTrainXOR-Primal.c:71</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

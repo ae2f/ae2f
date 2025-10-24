@@ -34,7 +34,6 @@ $(function() { codefold.init(); });
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="../../index.html"><span>Main&#160;Page</span></a></li>
-      <li><a href="../../pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="../../namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="../../annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="../../files.html"><span>Files</span></a></li>
@@ -63,9 +62,9 @@ $(function() { codefold.init(); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;stdint.h&gt;</code><br />
-<code>#include &lt;<a class="el" href="../../d4/d93/Float_8h_source.html">ae2f/Float.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="../../dc/d20/Call_8h_source.html">ae2f/Call.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="../../d3/dc4/Cast_8h_source.html">ae2f/Cast.h</a>&gt;</code><br />
+<code>#include &lt;ae2f/Float.h&gt;</code><br />
+<code>#include &lt;ae2f/Call.h&gt;</code><br />
+<code>#include &lt;ae2f/Cast.h&gt;</code><br />
 </div>
 <p><a href="../../de/d52/LcgRand_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -91,12 +90,13 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a64ae28327ff48fb05860dacd079fd6c2" id="r_a64ae28327ff48fb05860dacd079fd6c2"><td class="memItemLeft" align="right" valign="top">typedef union ae2fCL_LcgRandSeed_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a64ae28327ff48fb05860dacd079fd6c2">ae2fCL_LcgRandSeed_t</a></td></tr>
-<tr class="memdesc:a64ae28327ff48fb05860dacd079fd6c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pre-generated 64-bits seed type for separation. (under the hood).  <br /></td></tr>
+<tr class="memitem:a64ae28327ff48fb05860dacd079fd6c2" id="r_a64ae28327ff48fb05860dacd079fd6c2"><td class="memItemLeft" align="right" valign="top"><a id="a64ae28327ff48fb05860dacd079fd6c2" name="a64ae28327ff48fb05860dacd079fd6c2"></a>
+typedef union ae2fCL_LcgRandSeed_t&#160;</td><td class="memItemRight" valign="bottom"><b>ae2fCL_LcgRandSeed_t</b></td></tr>
+<tr class="memdesc:a64ae28327ff48fb05860dacd079fd6c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pre-generated 64-bits seed type for separation. (under the hood). <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a2400048ac03272445c1c6ba1d1f80ca1" id="r_a2400048ac03272445c1c6ba1d1f80ca1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/dc4/Cast_8h.html#af32d53608be4ca28fd8e5cd34fc0279b">ae2f_extern</a> ae2f_SHAREDCALL <a class="el" href="../../dc/dd2/unionae2fCL__LcgRandSeed__t.html">ae2fCL_LcgRandSeed_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2400048ac03272445c1c6ba1d1f80ca1">ae2f_AnnLcgRandSeed</a></td></tr>
+<tr class="memitem:a2400048ac03272445c1c6ba1d1f80ca1" id="r_a2400048ac03272445c1c6ba1d1f80ca1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d63/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cast_8h.html#af32d53608be4ca28fd8e5cd34fc0279b">ae2f_extern</a> ae2f_SHAREDCALL <a class="el" href="../../dc/dd2/unionae2fCL__LcgRandSeed__t.html">ae2fCL_LcgRandSeed_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2400048ac03272445c1c6ba1d1f80ca1">ae2f_AnnLcgRandSeed</a></td></tr>
 <tr class="memdesc:a2400048ac03272445c1c6ba1d1f80ca1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pre-defined global seed. <br  />
 Simply change this would change the global seed for lcgG.  <br /></td></tr>
 </table>
@@ -122,10 +122,7 @@ Simply change this would change the global seed for lcgG.  <br /></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">((<a class="code hl_define" href="#af92e298dc913aaa83da598a447a1d442">ae2f_AnnLcgRandA</a> * (seed) + <a class="code hl_define" href="#a4a7413bc4ae13d877aa987dee007242a">ae2f_AnnLcgRandC</a>) % <a class="code hl_define" href="#a8df99036106db5b2f289651cd8398e6b">ae2f_AnnLcgRandM</a>)</div>
-<div class="ttc" id="aLcgRand_8h_html_a4a7413bc4ae13d877aa987dee007242a"><div class="ttname"><a href="#a4a7413bc4ae13d877aa987dee007242a">ae2f_AnnLcgRandC</a></div><div class="ttdeci">#define ae2f_AnnLcgRandC</div><div class="ttdef"><b>Definition</b> <a href="../../de/d52/LcgRand_8h_source.html#l00018">LcgRand.h:18</a></div></div>
-<div class="ttc" id="aLcgRand_8h_html_a8df99036106db5b2f289651cd8398e6b"><div class="ttname"><a href="#a8df99036106db5b2f289651cd8398e6b">ae2f_AnnLcgRandM</a></div><div class="ttdeci">#define ae2f_AnnLcgRandM</div><div class="ttdef"><b>Definition</b> <a href="../../de/d52/LcgRand_8h_source.html#l00019">LcgRand.h:19</a></div></div>
-<div class="ttc" id="aLcgRand_8h_html_af92e298dc913aaa83da598a447a1d442"><div class="ttname"><a href="#af92e298dc913aaa83da598a447a1d442">ae2f_AnnLcgRandA</a></div><div class="ttdeci">#define ae2f_AnnLcgRandA</div><div class="ttdef"><b>Definition</b> <a href="../../de/d52/LcgRand_8h_source.html#l00017">LcgRand.h:17</a></div></div>
+<b>Value:</b><div class="fragment"><div class="line">((ae2f_AnnLcgRandA * (seed) + ae2f_AnnLcgRandC) % ae2f_AnnLcgRandM)</div>
 </div><!-- fragment -->
 <p>Generate a random number from 0 to [ae2f_AnnLcgRandM]. </p>
 <dl class="params"><dt>Parameters</dt><dd>
@@ -186,8 +183,7 @@ Simply change this would change the global seed for lcgG.  <br /></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">(((<a class="code hl_typedef" href="../../d4/d93/Float_8h.html#a1139e92e9886739d9c544769ff4d6d3c">ae2f_float_t</a>)(n)) / ((<a class="code hl_typedef" href="../../d4/d93/Float_8h.html#a1139e92e9886739d9c544769ff4d6d3c">ae2f_float_t</a>)<a class="code hl_define" href="#a8df99036106db5b2f289651cd8398e6b">ae2f_AnnLcgRandM</a>))</div>
-<div class="ttc" id="aFloat_8h_html_a1139e92e9886739d9c544769ff4d6d3c"><div class="ttname"><a href="../../d4/d93/Float_8h.html#a1139e92e9886739d9c544769ff4d6d3c">ae2f_float_t</a></div><div class="ttdeci">ae2f_float ae2f_float_t</div><div class="ttdef"><b>Definition</b> <a href="../../d4/d93/Float_8h_source.html#l00038">Float.h:38</a></div></div>
+<b>Value:</b><div class="fragment"><div class="line">(((ae2f_float_t)(n)) / ((ae2f_float_t)ae2f_AnnLcgRandM))</div>
 </div><!-- fragment -->
 <p>Shrink the 64-bits unsigned integer to [0, 1] in float type. <br  />
 . </p>
@@ -197,7 +193,7 @@ Simply change this would change the global seed for lcgG.  <br /></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>[<a class="el" href="../../d4/d93/Float_8h.html#a1139e92e9886739d9c544769ff4d6d3c">ae2f_float_t</a>] [0 ~ 1] </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>[ae2f_float_t] [0 ~ 1] </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="../../de/d52/LcgRand_8h_source.html#l00033">33</a> of file <a class="el" href="../../de/d52/LcgRand_8h_source.html">LcgRand.h</a>.</p>
 
@@ -217,8 +213,8 @@ Simply change this would change the global seed for lcgG.  <br /></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#aaa8a287b7187a1c24ee75f46070cc81d">ae2f_AnnLcgRand</a>(<a class="code hl_variable" href="../../d3/d45/LcgRand_8c.html#a882397c2d1f43c76a6af5ba5eaa08e1c">ae2f_AnnLcgRandSeed</a>.u64)</div>
-<div class="ttc" id="aLcgRand_8c_html_a882397c2d1f43c76a6af5ba5eaa08e1c"><div class="ttname"><a href="../../d3/d45/LcgRand_8c.html#a882397c2d1f43c76a6af5ba5eaa08e1c">ae2f_AnnLcgRandSeed</a></div><div class="ttdeci">ae2f_SHAREDEXPORT ae2fCL_LcgRandSeed_t ae2f_AnnLcgRandSeed</div><div class="ttdef"><b>Definition</b> <a href="../../d3/d45/LcgRand_8c_source.html#l00004">LcgRand.c:4</a></div></div>
+<b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#aaa8a287b7187a1c24ee75f46070cc81d">ae2f_AnnLcgRand</a>(<a class="code hl_variable" href="#a2400048ac03272445c1c6ba1d1f80ca1">ae2f_AnnLcgRandSeed</a>.u64)</div>
+<div class="ttc" id="aLcgRand_8h_html_a2400048ac03272445c1c6ba1d1f80ca1"><div class="ttname"><a href="#a2400048ac03272445c1c6ba1d1f80ca1">ae2f_AnnLcgRandSeed</a></div><div class="ttdeci">ae2f_extern ae2f_SHAREDCALL ae2fCL_LcgRandSeed_t ae2f_AnnLcgRandSeed</div><div class="ttdoc">Pre-defined global seed.  Simply change this would change the global seed for lcgG.</div><div class="ttdef"><b>Definition</b> <a href="../../de/d52/LcgRand_8h_source.html#l00064">LcgRand.h:64</a></div></div>
 <div class="ttc" id="aLcgRand_8h_html_aaa8a287b7187a1c24ee75f46070cc81d"><div class="ttname"><a href="#aaa8a287b7187a1c24ee75f46070cc81d">ae2f_AnnLcgRand</a></div><div class="ttdeci">#define ae2f_AnnLcgRand(seed)</div><div class="ttdoc">Generate a random number from 0 to [ae2f_AnnLcgRandM].</div><div class="ttdef"><b>Definition</b> <a href="../../de/d52/LcgRand_8h_source.html#l00024">LcgRand.h:24</a></div></div>
 </div><!-- fragment --><dl class="section see"><dt>See also</dt><dd><a class="el" href="#aaa8a287b7187a1c24ee75f46070cc81d" title="Generate a random number from 0 to [ae2f_AnnLcgRandM].">ae2f_AnnLcgRand</a> </dd></dl>
 
@@ -266,7 +262,7 @@ Simply change this would change the global seed for lcgG.  <br /></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>[<a class="el" href="../../d4/d93/Float_8h.html#a1139e92e9886739d9c544769ff4d6d3c">ae2f_float_t</a>] Generated number from 0 to 1.</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>[ae2f_float_t] Generated number from 0 to 1.</dd></dl>
 <p>See <a class="el" href="#aaa8a287b7187a1c24ee75f46070cc81d">ae2f_AnnLcgRand</a> <a class="el" href="#a92aa96f8991fb84bacbdc8aca1ed8ac6">ae2f_AnnLcgRandDistribute</a> </p>
 
 <p class="definition">Definition at line <a class="el" href="../../de/d52/LcgRand_8h_source.html#l00044">44</a> of file <a class="el" href="../../de/d52/LcgRand_8h_source.html">LcgRand.h</a>.</p>
@@ -287,28 +283,11 @@ Simply change this would change the global seed for lcgG.  <br /></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a2b7ce7f3b79512c58953d507e1846480">ae2f_AnnLcgRandReal</a>(<a class="code hl_variable" href="../../d3/d45/LcgRand_8c.html#a882397c2d1f43c76a6af5ba5eaa08e1c">ae2f_AnnLcgRandSeed</a>.u64)</div>
+<b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a2b7ce7f3b79512c58953d507e1846480">ae2f_AnnLcgRandReal</a>(<a class="code hl_variable" href="#a2400048ac03272445c1c6ba1d1f80ca1">ae2f_AnnLcgRandSeed</a>.u64)</div>
 <div class="ttc" id="aLcgRand_8h_html_a2b7ce7f3b79512c58953d507e1846480"><div class="ttname"><a href="#a2b7ce7f3b79512c58953d507e1846480">ae2f_AnnLcgRandReal</a></div><div class="ttdeci">#define ae2f_AnnLcgRandReal(seed)</div><div class="ttdoc">Generate a random number as float point from 0 to 1.</div><div class="ttdef"><b>Definition</b> <a href="../../de/d52/LcgRand_8h_source.html#l00044">LcgRand.h:44</a></div></div>
 </div><!-- fragment --><dl class="section see"><dt>See also</dt><dd><a class="el" href="#a2b7ce7f3b79512c58953d507e1846480" title="Generate a random number as float point from 0 to 1.">ae2f_AnnLcgRandReal</a> </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="../../de/d52/LcgRand_8h_source.html#l00070">70</a> of file <a class="el" href="../../de/d52/LcgRand_8h_source.html">LcgRand.h</a>.</p>
-
-</div>
-</div>
-<a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
-<a id="a64ae28327ff48fb05860dacd079fd6c2" name="a64ae28327ff48fb05860dacd079fd6c2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a64ae28327ff48fb05860dacd079fd6c2">&#9670;&#160;</a></span>ae2fCL_LcgRandSeed_t</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef union ae2fCL_LcgRandSeed_t ae2fCL_LcgRandSeed_t</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Pre-generated 64-bits seed type for separation. (under the hood). </p>
 
 </div>
 </div>
@@ -320,7 +299,7 @@ Simply change this would change the global seed for lcgG.  <br /></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d3/dc4/Cast_8h.html#af32d53608be4ca28fd8e5cd34fc0279b">ae2f_extern</a> ae2f_SHAREDCALL <a class="el" href="../../dc/dd2/unionae2fCL__LcgRandSeed__t.html">ae2fCL_LcgRandSeed_t</a> ae2f_AnnLcgRandSeed</td>
+          <td class="memname"><a class="el" href="../../d6/d63/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cast_8h.html#af32d53608be4ca28fd8e5cd34fc0279b">ae2f_extern</a> ae2f_SHAREDCALL <a class="el" href="../../dc/dd2/unionae2fCL__LcgRandSeed__t.html">ae2fCL_LcgRandSeed_t</a> ae2f_AnnLcgRandSeed</td>
         </tr>
       </table>
 </div><div class="memdoc">

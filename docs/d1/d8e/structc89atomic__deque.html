@@ -34,7 +34,6 @@ $(function() { codefold.init(); });
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="../../index.html"><span>Main&#160;Page</span></a></li>
-      <li><a href="../../pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="../../namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="../../annotated.html"><span>Classes</span></a></li>
       <li><a href="../../files.html"><span>Files</span></a></li>
@@ -58,14 +57,12 @@ $(function() { codefold.init(); });
   <div class="headertitle"><div class="title">c89atomic_deque Struct Reference</div></div>
 </div><!--header-->
 <div class="contents">
-
-<p><code>#include &lt;<a class="el" href="../../d5/d79/c89atomic__deque_8h_source.html">c89atomic_deque.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a1a6cdd8aebfb9f683c64050ab3179cfb" id="r_a1a6cdd8aebfb9f683c64050ab3179cfb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d57/c89atomic_8h.html#ad22d79fe763d0ebab0bee3a726c82bdf">c89atomic_uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a6cdd8aebfb9f683c64050ab3179cfb">head</a></td></tr>
-<tr class="memitem:a0fdafb207d3fd84e031dd46b2088371e" id="r_a0fdafb207d3fd84e031dd46b2088371e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d57/c89atomic_8h.html#ad22d79fe763d0ebab0bee3a726c82bdf">c89atomic_uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0fdafb207d3fd84e031dd46b2088371e">tail</a></td></tr>
-<tr class="memitem:a7a9e022e8990702d3815fb0102bd651c" id="r_a7a9e022e8990702d3815fb0102bd651c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d79/c89atomic__deque_8h.html#a2e2fb22f6bbb1c01e4d8035c79d5f7aa">C89ATOMIC_DEQUE_T</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a9e022e8990702d3815fb0102bd651c">buffer</a> [<a class="el" href="../../d5/d79/c89atomic__deque_8h.html#a75049d5677b62e785a0cd2fabf43c48c">C89ATOMIC_DEQUE_CAP</a>]</td></tr>
+<tr class="memitem:a1a6cdd8aebfb9f683c64050ab3179cfb" id="r_a1a6cdd8aebfb9f683c64050ab3179cfb"><td class="memItemLeft" align="right" valign="top">c89atomic_uint32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a6cdd8aebfb9f683c64050ab3179cfb">head</a></td></tr>
+<tr class="memitem:a0fdafb207d3fd84e031dd46b2088371e" id="r_a0fdafb207d3fd84e031dd46b2088371e"><td class="memItemLeft" align="right" valign="top">c89atomic_uint32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0fdafb207d3fd84e031dd46b2088371e">tail</a></td></tr>
+<tr class="memitem:a7a9e022e8990702d3815fb0102bd651c" id="r_a7a9e022e8990702d3815fb0102bd651c"><td class="memItemLeft" align="right" valign="top">C89ATOMIC_DEQUE_T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a9e022e8990702d3815fb0102bd651c">buffer</a> [C89ATOMIC_DEQUE_CAP]</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock">
@@ -78,7 +75,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d5/d79/c89atomic__deque_8h.html#a2e2fb22f6bbb1c01e4d8035c79d5f7aa">C89ATOMIC_DEQUE_T</a> c89atomic_deque::buffer[<a class="el" href="../../d5/d79/c89atomic__deque_8h.html#a75049d5677b62e785a0cd2fabf43c48c">C89ATOMIC_DEQUE_CAP</a>]</td>
+          <td class="memname">C89ATOMIC_DEQUE_T c89atomic_deque::buffer[C89ATOMIC_DEQUE_CAP]</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -94,7 +91,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d0/d57/c89atomic_8h.html#ad22d79fe763d0ebab0bee3a726c82bdf">c89atomic_uint32</a> c89atomic_deque::head</td>
+          <td class="memname">c89atomic_uint32 c89atomic_deque::head</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -110,7 +107,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d0/d57/c89atomic_8h.html#ad22d79fe763d0ebab0bee3a726c82bdf">c89atomic_uint32</a> c89atomic_deque::tail</td>
+          <td class="memname">c89atomic_uint32 c89atomic_deque::tail</td>
         </tr>
       </table>
 </div><div class="memdoc">

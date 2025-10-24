@@ -34,7 +34,6 @@ $(function() { codefold.init(); });
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="../../index.html"><span>Main&#160;Page</span></a></li>
-      <li><a href="../../pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="../../namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="../../annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="../../files.html"><span>Files</span></a></li>
@@ -57,7 +56,7 @@ $(function() { codefold.init(); });
   <div class="headertitle"><div class="title">SlpTrain-Primal.c</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d1/de4/SlpTrain-Primal_8c.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#</span><span class="preprocessor">include</span> <span class="preprocessor">&lt;</span><span class="preprocessor">ae2fVK</span><span class="preprocessor">/</span><span class="preprocessor">Ann</span><span class="preprocessor">/</span><span class="preprocessor">Slp</span><span class="preprocessor">.</span><span class="preprocessor">h</span><span class="preprocessor">&gt;</span></div>
+<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#</span><span class="preprocessor">include</span> <span class="preprocessor">&lt;</span><span class="preprocessor">ae2fVK</span><span class="preprocessor">/</span><span class="preprocessor">Ann</span><span class="preprocessor">/</span><span class="preprocessor">Slp</span><span class="preprocessor">.</span><span class="preprocessor">h</span><span class="preprocessor">&gt;</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#</span><span class="preprocessor">include</span> <span class="preprocessor">&lt;</span><span class="preprocessor">vulkan</span><span class="preprocessor">/</span><span class="preprocessor">vulkan_core</span><span class="preprocessor">.</span><span class="preprocessor">h</span><span class="preprocessor">&gt;</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#</span><span class="preprocessor">include</span> <span class="preprocessor">&quot;../vk.h&quot;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#</span><span class="preprocessor">include</span> <span class="preprocessor">&quot;ae2f/Cast.h&quot;</span></div>
@@ -70,37 +69,36 @@ $(function() { codefold.init(); });
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#</span><span class="preprocessor">if</span> 1</div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="../../d1/de4/SlpTrain-Primal_8c.html#ae14a676671f6cf0d2d105709881252f7">   14</a></span>ae2fVK_AnnSlpMk_t   <a class="code hl_variable" href="../../dc/da4/SlpPredict-Primal_8c.html#ae14a676671f6cf0d2d105709881252f7">mk</a>;</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>ae2fVK_AnnSlpMk_t   mk;</div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="../../d1/de4/SlpTrain-Primal_8c.html#a61510ca5175d26e23f6018d99a7d5cef">   16</a></span>size_t          <a class="code hl_variable" href="../../dc/da4/SlpPredict-Primal_8c.html#a61510ca5175d26e23f6018d99a7d5cef">mapinp</a>;</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>size_t          mapinp;</div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="keyword">static</span> <span class="keywordtype">void</span></div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>ActDummy(<a class="code hl_typedef" href="../../d4/d93/Float_8h.html#a1139e92e9886739d9c544769ff4d6d3c">ae2f_float_t</a>* _0, <span class="keyword">const</span> <a class="code hl_typedef" href="../../d4/d93/Float_8h.html#a1139e92e9886739d9c544769ff4d6d3c">ae2f_float_t</a>* _1, size_t _2, size_t _3) {};</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>ActDummy(ae2f_float_t* _0, <span class="keyword">const</span> ae2f_float_t* _1, size_t _2, size_t _3) {};</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="keyword">static</span> <span class="keywordtype">void</span> LossDeriv(<a class="code hl_typedef" href="../../d4/d93/Float_8h.html#a1139e92e9886739d9c544769ff4d6d3c">ae2f_float_t</a>* r, <span class="keyword">const</span> <a class="code hl_typedef" href="../../d4/d93/Float_8h.html#a1139e92e9886739d9c544769ff4d6d3c">ae2f_float_t</a>* output, <span class="keyword">const</span> <a class="code hl_typedef" href="../../d4/d93/Float_8h.html#a1139e92e9886739d9c544769ff4d6d3c">ae2f_float_t</a>* target, size_t i, size_t c) {</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="keyword">static</span> <span class="keywordtype">void</span> LossDeriv(ae2f_float_t* r, <span class="keyword">const</span> ae2f_float_t* output, <span class="keyword">const</span> ae2f_float_t* target, size_t i, size_t c) {</div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    *r = ((output[i] - target[i]) / c);</div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>}</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="../../d1/de4/SlpTrain-Primal_8c.html#ac29c72db8ce2f076a3292bfb30aaab7a">   25</a></span><a class="code hl_typedef" href="../../d4/d93/Float_8h.html#a1139e92e9886739d9c544769ff4d6d3c">ae2f_float_t</a>*   <a class="code hl_variable" href="../../dc/da4/SlpPredict-Primal_8c.html#ac29c72db8ce2f076a3292bfb30aaab7a">map</a>;</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>ae2f_float_t*   map;</div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="../../d1/de4/SlpTrain-Primal_8c.html#a9c5c497b8462c80c07e32af0423122f8">   27</a></span><span class="preprocessor">#</span><span class="preprocessor">define</span> <span class="preprocessor">fgetc</span><span class="preprocessor">(</span><span class="preprocessor">...</span><span class="preprocessor">)</span></div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="preprocessor">#</span><span class="preprocessor">define</span> <span class="preprocessor">fgetc</span><span class="preprocessor">(</span><span class="preprocessor">...</span><span class="preprocessor">)</span></div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
-<div class="foldopen" id="foldopen00029" data-start="{" data-end="}">
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="../../d1/de4/SlpTrain-Primal_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4">   29</a></span><span class="keywordtype">int</span> <a class="code hl_function" href="../../d1/d95/MlpTrainXOR-Primal_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>() {</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="keywordtype">int</span> main() {</div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    Test_VkInit();</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    memset(&amp;(<a class="code hl_variable" href="../../dc/da4/SlpPredict-Primal_8c.html#ae14a676671f6cf0d2d105709881252f7">mk</a>), 0, <span class="keyword">sizeof</span>(<a class="code hl_variable" href="../../dc/da4/SlpPredict-Primal_8c.html#ae14a676671f6cf0d2d105709881252f7">mk</a>));</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    memset(&amp;(mk), 0, <span class="keyword">sizeof</span>(mk));</div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <a class="code hl_define" href="../../d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a862f98350c5fb9534de570d1afe34f66">__ae2fVK_AnnSlpMk_imp</a>(</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>            <a class="code hl_variable" href="../../dc/da4/SlpPredict-Primal_8c.html#ae14a676671f6cf0d2d105709881252f7">mk</a>,</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>            mk,</div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>            0, 0, 0</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>            , 400, 100, 0, 0</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>            , 1000, 2, 0, 0</div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>            , ActDummy, ActDummy, LossDeriv</div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>            , 0.1, 0.1</div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>            , vkdev</div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>            , vkphydevmemprops</div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>            , NULL</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>            ,</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>            <span class="stringliteral">&quot;#define CL_Q 1\n&quot;</span></div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>            <span class="stringliteral">&quot;#define CL_Q 0\n&quot;</span></div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>            <span class="stringliteral">&quot;#define ACT_DERIV(r, x, i, c) *(r) = (((x)[i] + 1e-7) * (1.0 - (x)[i] - 1e-7)); \n&quot;</span></div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>            <span class="stringliteral">&quot;#define ACT(r, x, i, c) *(r) = (1.0 / (1.0 + exp(-(x[i])))); \n&quot;</span></div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>            <span class="stringliteral">&quot;#define LOSS_DERIV(r, o, t, i, c) *(r) = ((o)[i] - (t)[i]) / (c);\n&quot;</span></div>
@@ -108,36 +106,36 @@ $(function() { codefold.init(); });
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>            , <span class="stringliteral">&quot;/** This is also a comment */\n&quot;</span></div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>            );</div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    <a class="code hl_variable" href="../../dc/da4/SlpPredict-Primal_8c.html#ae14a676671f6cf0d2d105709881252f7">mk</a>.m_U0.m_alter.m_ptr-&gt;m_slp.m_learningrate = 0.6;</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    <a class="code hl_variable" href="../../dc/da4/SlpPredict-Primal_8c.html#ae14a676671f6cf0d2d105709881252f7">mk</a>.m_U0.m_alter.m_ptr-&gt;m_slp.m_learningrate_bias = 0.5;</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    mk.m_U0.m_alter.m_ptr-&gt;m_slp.m_learningrate = 0.6;</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    mk.m_U0.m_alter.m_ptr-&gt;m_slp.m_learningrate_bias = 0.5;</div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    puts(<span class="stringliteral">&quot;__ae2fVK_AnnSlpMk_imp is done&quot;</span>);</div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    <a class="code hl_define" href="../../dc/da4/SlpPredict-Primal_8c.html#a9c5c497b8462c80c07e32af0423122f8">fgetc</a>(stdin);</div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    printf(<span class="stringliteral">&quot;Stateval: %d\n&quot;</span>, (<a class="code hl_variable" href="../../dc/da4/SlpPredict-Primal_8c.html#ae14a676671f6cf0d2d105709881252f7">mk</a>).m_U0.m_alter.m_ptr-&gt;m_vkres);</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    printf(<span class="stringliteral">&quot;Stateval: %d\n&quot;</span>, (mk).m_U0.m_alter.m_ptr-&gt;m_vkres);</div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    assert(<a class="code hl_variable" href="../../dc/da4/SlpPredict-Primal_8c.html#ae14a676671f6cf0d2d105709881252f7">mk</a>.m_U0.m_alter.m_ptr &amp;&amp; <span class="stringliteral">&quot;__ae2fVK_AnnSlpMk_imp has failed&quot;</span>);</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    assert(<a class="code hl_variable" href="../../dc/da4/SlpPredict-Primal_8c.html#ae14a676671f6cf0d2d105709881252f7">mk</a>.m_reterr == <a class="code hl_define" href="../../da/d36/errGlob_8h.html#a7ea7d8a5a85ef707e5c125a32e44449c">ae2f_errGlob_OK</a>);</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    assert(mk.m_U0.m_alter.m_ptr &amp;&amp; <span class="stringliteral">&quot;__ae2fVK_AnnSlpMk_imp has failed&quot;</span>);</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    assert(mk.m_reterr == <a class="code hl_define" href="../../d7/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2errGlob_8h.html#a7ea7d8a5a85ef707e5c125a32e44449c">ae2f_errGlob_OK</a>);</div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    assert(<a class="code hl_variable" href="../../dc/da4/SlpPredict-Primal_8c.html#ae14a676671f6cf0d2d105709881252f7">mk</a>.m_U0.m_alter.m_ptr-&gt;m_vkres == VK_SUCCESS);</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    assert(mk.m_U0.m_alter.m_ptr-&gt;m_vkres == VK_SUCCESS);</div>
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    {</div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>        <a class="code hl_typedef" href="../../d4/d93/Float_8h.html#a1139e92e9886739d9c544769ff4d6d3c">ae2f_float_t</a>*   weight;</div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>        <a class="code hl_typedef" href="../../d4/d93/Float_8h.html#a1139e92e9886739d9c544769ff4d6d3c">ae2f_float_t</a>*   bias;</div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>        <a class="code hl_typedef" href="../../da/d36/errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a>  e;</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>        ae2f_float_t*   weight;</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>        ae2f_float_t*   bias;</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>        <a class="code hl_typedef" href="../../d7/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a>  e;</div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>        size_t      i, j;</div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> </div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>        <a class="code hl_typedef" href="../../d1/d19/K_2Ann_2Slp_8core_8h.html#aaa75a781f839f6cab53966023844a040">ae2fVK_AnnSlpUnMap_t</a>    v_unmap;</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>        ae2fVK_AnnSlpUnMap_t    v_unmap;</div>
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span> </div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>        <a class="code hl_define" href="../../d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a7836264027396e54b3b861ff978d50ea">__ae2fVK_AnnSlpWBMap</a>(</div>
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>                &amp;e</div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>                , <a class="code hl_variable" href="../../dc/da4/SlpPredict-Primal_8c.html#ae14a676671f6cf0d2d105709881252f7">mk</a>.m_U0.m_alter.m_ptr</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>                , mk.m_U0.m_alter.m_ptr</div>
 <div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>                , &amp;weight</div>
 <div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>                , &amp;bias</div>
 <div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>                );</div>
 <div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span> </div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>        assert(<a class="code hl_define" href="../../da/d36/errGlob_8h.html#a7ea7d8a5a85ef707e5c125a32e44449c">ae2f_errGlob_OK</a> == e &amp;&amp; <span class="stringliteral">&quot;__ae2fVK_AnnSlpWBMap has failed.&quot;</span>);</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>        assert(<a class="code hl_define" href="../../d7/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2errGlob_8h.html#a7ea7d8a5a85ef707e5c125a32e44449c">ae2f_errGlob_OK</a> == e &amp;&amp; <span class="stringliteral">&quot;__ae2fVK_AnnSlpWBMap has failed.&quot;</span>);</div>
 <div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>        assert(weight);</div>
 <div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>        assert(bias);</div>
 <div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span> </div>
@@ -148,15 +146,15 @@ $(function() { codefold.init(); });
 <div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span> </div>
 <div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>        <a class="code hl_define" href="../../d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#affdebbb51606186d7e946fdeced0ec44">__ae2fVK_AnnSlpWBUnMap_imp</a>(</div>
 <div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>                v_unmap</div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>                , <a class="code hl_variable" href="../../dc/da4/SlpPredict-Primal_8c.html#ae14a676671f6cf0d2d105709881252f7">mk</a>.m_U0.m_alter.m_ptr[0]</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>                , mk.m_U0.m_alter.m_ptr[0]</div>
 <div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>                );</div>
 <div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>    } puts(<span class="stringliteral">&quot;WB init done&quot;</span>);</div>
 <div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span> </div>
 <div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>    {</div>
-<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>        <a class="code hl_typedef" href="../../da/d36/errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a> err = 0;</div>
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>        <a class="code hl_typedef" href="../../d1/d19/K_2Ann_2Slp_8core_8h.html#aaa75a781f839f6cab53966023844a040">ae2fVK_AnnSlpUnMap_t</a> v_unmap;</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>        <a class="code hl_typedef" href="../../d7/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a> err = 0;</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>        ae2fVK_AnnSlpUnMap_t v_unmap;</div>
 <div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span> </div>
-<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>        <a class="code hl_typedef" href="../../d4/d93/Float_8h.html#a1139e92e9886739d9c544769ff4d6d3c">ae2f_float_t</a></div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>        ae2f_float_t</div>
 <div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>            *   OutputMapped = NULL,</div>
 <div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>            *   InputMapped = NULL,</div>
 <div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>            *   GoalMapped = NULL</div>
@@ -164,7 +162,7 @@ $(function() { codefold.init(); });
 <div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span> </div>
 <div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>        <a class="code hl_define" href="../../d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a5eaa7dc4fd300d9331fb33f20be7cc6b">__ae2fVK_AnnSlpIOMap</a>(</div>
 <div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>                &amp;err</div>
-<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>                , <a class="code hl_variable" href="../../dc/da4/SlpPredict-Primal_8c.html#ae14a676671f6cf0d2d105709881252f7">mk</a>.m_U0.m_alter.m_ptr</div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>                , mk.m_U0.m_alter.m_ptr</div>
 <div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>                , (&amp;InputMapped)</div>
 <div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>                , (&amp;OutputMapped)</div>
 <div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>                );</div>
@@ -175,7 +173,7 @@ $(function() { codefold.init(); });
 <div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>        assert(OutputMapped);</div>
 <div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>        assert(InputMapped);</div>
 <div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span> </div>
-<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>        assert((<a class="code hl_variable" href="../../dc/da4/SlpPredict-Primal_8c.html#ae14a676671f6cf0d2d105709881252f7">mk</a>.m_U0.m_alter.m_ptr[0].m_vkres) == VK_SUCCESS);</div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>        assert((mk.m_U0.m_alter.m_ptr[0].m_vkres) == VK_SUCCESS);</div>
 <div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span> </div>
 <div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>        puts(<span class="stringliteral">&quot;Before IOMap Writting&quot;</span>)</div>
 <div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>            ;</div>
@@ -187,14 +185,14 @@ $(function() { codefold.init(); });
 <div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>        printf(<span class="stringliteral">&quot;Inputmapped before predict: %f %f\n&quot;</span>, InputMapped[0], InputMapped[1]);</div>
 <div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>        printf(<span class="stringliteral">&quot;Outputmapped before predict: %f\n&quot;</span>, OutputMapped[0]);</div>
 <div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span> </div>
-<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>        <a class="code hl_define" href="../../d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#ada71cd04c5fadd260ad45e43e934a960">__ae2fVK_AnnSlpIOUnMap_imp</a>(v_unmap, <a class="code hl_variable" href="../../dc/da4/SlpPredict-Primal_8c.html#ae14a676671f6cf0d2d105709881252f7">mk</a>.m_U0.m_alter.m_ptr[0]);</div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>        <a class="code hl_define" href="../../d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#ada71cd04c5fadd260ad45e43e934a960">__ae2fVK_AnnSlpIOUnMap_imp</a>(v_unmap, mk.m_U0.m_alter.m_ptr[0]);</div>
 <div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span> </div>
-<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>        <a class="code hl_define" href="../../d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#acaf74d888c905092a2b03023548d0a7b">__ae2fVK_AnnSlpGoalMap</a>(&amp;err, <a class="code hl_variable" href="../../dc/da4/SlpPredict-Primal_8c.html#ae14a676671f6cf0d2d105709881252f7">mk</a>.m_U0.m_alter.m_ptr, &amp;GoalMapped);</div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>        <a class="code hl_define" href="../../d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#acaf74d888c905092a2b03023548d0a7b">__ae2fVK_AnnSlpGoalMap</a>(&amp;err, mk.m_U0.m_alter.m_ptr, &amp;GoalMapped);</div>
 <div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span> </div>
 <div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>        GoalMapped[0] = 0.2222;</div>
 <div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>        printf(<span class="stringliteral">&quot;Goal before predict %f\n&quot;</span>, GoalMapped[0]);</div>
 <div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span> </div>
-<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span>        <a class="code hl_define" href="../../d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a763485f59f16dba5bbce2923add25acd">__ae2fVK_AnnSlpGoalUnMap_imp</a>(v_unmap, *<a class="code hl_variable" href="../../dc/da4/SlpPredict-Primal_8c.html#ae14a676671f6cf0d2d105709881252f7">mk</a>.m_U0.m_alter.m_ptr);</div>
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span>        <a class="code hl_define" href="../../d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a763485f59f16dba5bbce2923add25acd">__ae2fVK_AnnSlpGoalUnMap_imp</a>(v_unmap, *mk.m_U0.m_alter.m_ptr);</div>
 <div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span> </div>
 <div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span>        puts(<span class="stringliteral">&quot;After __ae2fVK_AnnSlpIOUnMapOutput_imp.&quot;</span>);</div>
 <div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span>        <a class="code hl_define" href="../../dc/da4/SlpPredict-Primal_8c.html#a9c5c497b8462c80c07e32af0423122f8">fgetc</a>(stdin);</div>
@@ -209,14 +207,14 @@ $(function() { codefold.init(); });
 <div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span>        vkcmdpoolcreatinfo.pNext = NULL;</div>
 <div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span>        vkcmdpoolcreatinfo.queueFamilyIndex = 0;</div>
 <div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span> </div>
-<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span>        <span class="keywordflow">if</span>((((<a class="code hl_variable" href="../../dc/da4/SlpPredict-Primal_8c.html#ae14a676671f6cf0d2d105709881252f7">mk</a>).m_U0.m_alter.m_ptr-&gt;m_vkres) = vkCreateCommandPool(</div>
+<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span>        <span class="keywordflow">if</span>((((mk).m_U0.m_alter.m_ptr-&gt;m_vkres) = vkCreateCommandPool(</div>
 <div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span>                        vkdev</div>
 <div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span>                        , &amp;vkcmdpoolcreatinfo</div>
 <div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span>                        , NULL</div>
 <div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span>                        , &amp;vkcmdpool</div>
 <div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span>                        )) != VK_SUCCESS)</div>
 <div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span>        {</div>
-<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span>            printf(<span class="stringliteral">&quot;Errval: %d\n&quot;</span>, (<a class="code hl_variable" href="../../dc/da4/SlpPredict-Primal_8c.html#ae14a676671f6cf0d2d105709881252f7">mk</a>).m_U0.m_alter.m_ptr-&gt;m_vkres);</div>
+<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span>            printf(<span class="stringliteral">&quot;Errval: %d\n&quot;</span>, (mk).m_U0.m_alter.m_ptr-&gt;m_vkres);</div>
 <div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span>            assert(!<span class="stringliteral">&quot;vkCreateCommandPool has failed.&quot;</span>);</div>
 <div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span>            <span class="keywordflow">return</span> -1;</div>
 <div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span>        }</div>
@@ -224,7 +222,7 @@ $(function() { codefold.init(); });
 <div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span>        puts(<span class="stringliteral">&quot;After vkCreateCommandPool.&quot;</span>);</div>
 <div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span>        <a class="code hl_define" href="../../dc/da4/SlpPredict-Primal_8c.html#a9c5c497b8462c80c07e32af0423122f8">fgetc</a>(stdin);</div>
 <div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span> </div>
-<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span>        <a class="code hl_define" href="../../d3/dc4/Cast_8h.html#ad76ecefb282edd703021539a17ba84a3">unless</a>(vkcmdpool) {</div>
+<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span>        <a class="code hl_define" href="../../d6/d63/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cast_8h.html#ad76ecefb282edd703021539a17ba84a3">unless</a>(vkcmdpool) {</div>
 <div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span>            assert(!<span class="stringliteral">&quot;vkCreateCommandPool went null&quot;</span>);</div>
 <div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span>            <span class="keywordflow">return</span> -1;</div>
 <div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span>        }</div>
@@ -238,14 +236,14 @@ $(function() { codefold.init(); });
 <div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span>        vkcmdallocinfo.level = VK_COMMAND_BUFFER_LEVEL_PRIMARY;</div>
 <div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span>        vkcmdallocinfo.commandPool = vkcmdpool;</div>
 <div class="line"><a id="l00180" name="l00180"></a><span class="lineno">  180</span> </div>
-<div class="line"><a id="l00181" name="l00181"></a><span class="lineno">  181</span>        <span class="keywordflow">if</span>((<a class="code hl_variable" href="../../dc/da4/SlpPredict-Primal_8c.html#ae14a676671f6cf0d2d105709881252f7">mk</a>.m_U0.m_alter.m_ptr-&gt;m_vkres =</div>
+<div class="line"><a id="l00181" name="l00181"></a><span class="lineno">  181</span>        <span class="keywordflow">if</span>((mk.m_U0.m_alter.m_ptr-&gt;m_vkres =</div>
 <div class="line"><a id="l00182" name="l00182"></a><span class="lineno">  182</span>                    vkAllocateCommandBuffers(</div>
 <div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span>                        (vkdev)</div>
 <div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span>                        , &amp;vkcmdallocinfo</div>
 <div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span>                        , &amp;vkcmdbuf</div>
 <div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span>                        )) != VK_SUCCESS)</div>
 <div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span>        {</div>
-<div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span>            printf(<span class="stringliteral">&quot;Errval: %d\n&quot;</span>, (<a class="code hl_variable" href="../../dc/da4/SlpPredict-Primal_8c.html#ae14a676671f6cf0d2d105709881252f7">mk</a>).m_U0.m_alter.m_ptr-&gt;m_vkres);</div>
+<div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span>            printf(<span class="stringliteral">&quot;Errval: %d\n&quot;</span>, (mk).m_U0.m_alter.m_ptr-&gt;m_vkres);</div>
 <div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span>            assert(!<span class="stringliteral">&quot;vkAllocateCommandBuffers has failed.&quot;</span>);</div>
 <div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span>            <span class="keywordflow">return</span> -1;</div>
 <div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span>        }</div>
@@ -253,9 +251,9 @@ $(function() { codefold.init(); });
 <div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span>        puts(<span class="stringliteral">&quot;After vkAllocateCommandBuffers.&quot;</span>);</div>
 <div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span>        <a class="code hl_define" href="../../dc/da4/SlpPredict-Primal_8c.html#a9c5c497b8462c80c07e32af0423122f8">fgetc</a>(stdin);</div>
 <div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span> </div>
-<div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span>        <a class="code hl_define" href="../../d3/dc4/Cast_8h.html#ad76ecefb282edd703021539a17ba84a3">unless</a>((vkcmdbuf))</div>
+<div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span>        <a class="code hl_define" href="../../d6/d63/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cast_8h.html#ad76ecefb282edd703021539a17ba84a3">unless</a>((vkcmdbuf))</div>
 <div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span>        {</div>
-<div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span>            printf(<span class="stringliteral">&quot;Errval: %d\n&quot;</span>, (<a class="code hl_variable" href="../../dc/da4/SlpPredict-Primal_8c.html#ae14a676671f6cf0d2d105709881252f7">mk</a>).m_U0.m_alter.m_ptr-&gt;m_vkres);</div>
+<div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span>            printf(<span class="stringliteral">&quot;Errval: %d\n&quot;</span>, (mk).m_U0.m_alter.m_ptr-&gt;m_vkres);</div>
 <div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span>            assert(!<span class="stringliteral">&quot;vkAllocateCommandBuffers went null.&quot;</span>);</div>
 <div class="line"><a id="l00200" name="l00200"></a><span class="lineno">  200</span>            <span class="keywordflow">return</span> -1;</div>
 <div class="line"><a id="l00201" name="l00201"></a><span class="lineno">  201</span>        }</div>
@@ -268,7 +266,7 @@ $(function() { codefold.init(); });
 <div class="line"><a id="l00208" name="l00208"></a><span class="lineno">  208</span>        ae2fVK_AnnSlpDescPool       v_descpool;</div>
 <div class="line"><a id="l00209" name="l00209"></a><span class="lineno">  209</span>        ae2fVK_AnnSlpDescPoolCmd    v_descpoolcmd;</div>
 <div class="line"><a id="l00210" name="l00210"></a><span class="lineno">  210</span> </div>
-<div class="line"><a id="l00211" name="l00211"></a><span class="lineno">  211</span>        <a class="code hl_typedef" href="../../da/d36/errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a> err = 0;</div>
+<div class="line"><a id="l00211" name="l00211"></a><span class="lineno">  211</span>        <a class="code hl_typedef" href="../../d7/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a> err = 0;</div>
 <div class="line"><a id="l00212" name="l00212"></a><span class="lineno">  212</span> </div>
 <div class="line"><a id="l00213" name="l00213"></a><span class="lineno">  213</span>        puts(<span class="stringliteral">&quot;Before __ae2fVK_AnnSlpPredictPerformed_imp&quot;</span>);</div>
 <div class="line"><a id="l00214" name="l00214"></a><span class="lineno">  214</span> </div>
@@ -277,7 +275,7 @@ $(function() { codefold.init(); });
 <div class="line"><a id="l00217" name="l00217"></a><span class="lineno">  217</span>                v_poolmk</div>
 <div class="line"><a id="l00218" name="l00218"></a><span class="lineno">  218</span>                , v_descpool</div>
 <div class="line"><a id="l00219" name="l00219"></a><span class="lineno">  219</span>                , err</div>
-<div class="line"><a id="l00220" name="l00220"></a><span class="lineno">  220</span>                , (<a class="code hl_variable" href="../../dc/da4/SlpPredict-Primal_8c.html#ae14a676671f6cf0d2d105709881252f7">mk</a>.m_U0.m_alter.m_ptr[0])</div>
+<div class="line"><a id="l00220" name="l00220"></a><span class="lineno">  220</span>                , (mk.m_U0.m_alter.m_ptr[0])</div>
 <div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span>                , VK_COMMAND_BUFFER_USAGE_ONE_TIME_SUBMIT_BIT</div>
 <div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span>                , 1</div>
 <div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span>                );</div>
@@ -285,7 +283,7 @@ $(function() { codefold.init(); });
 <div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span>        <span class="comment">/** Getting train command */</span></div>
 <div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span>        <a class="code hl_define" href="../../d0/da0/SlpPool_8auto_8h.html#a1c137032d84c690b9a692289d43ccae9">__ae2fVK_AnnSlpDescPoolCmdMkTrain_imp</a>(</div>
 <div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span>                v_cmdmk</div>
-<div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span>                , (<a class="code hl_variable" href="../../dc/da4/SlpPredict-Primal_8c.html#ae14a676671f6cf0d2d105709881252f7">mk</a>.m_U0.m_alter.m_ptr[0])</div>
+<div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span>                , (mk.m_U0.m_alter.m_ptr[0])</div>
 <div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span>                , err</div>
 <div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span>                , v_descpool</div>
 <div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span>                , v_descpoolcmd</div>
@@ -295,11 +293,11 @@ $(function() { codefold.init(); });
 <div class="line"><a id="l00235" name="l00235"></a><span class="lineno">  235</span>        puts(<span class="stringliteral">&quot;After __ae2fVK_AnnSlpPredictPerformed_imp&quot;</span>);</div>
 <div class="line"><a id="l00236" name="l00236"></a><span class="lineno">  236</span>        <a class="code hl_define" href="../../dc/da4/SlpPredict-Primal_8c.html#a9c5c497b8462c80c07e32af0423122f8">fgetc</a>(stdin);</div>
 <div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span> </div>
-<div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span>        <span class="keywordflow">if</span>(err != <a class="code hl_define" href="../../da/d36/errGlob_8h.html#a7ea7d8a5a85ef707e5c125a32e44449c">ae2f_errGlob_OK</a>) {</div>
-<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span>            <span class="keywordflow">if</span> (err &amp; <a class="code hl_define" href="../../da/d36/errGlob_8h.html#a869a7f8a64ad0c28207f867f11eaf427">ae2f_errGlob_NFOUND</a>)</div>
+<div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span>        <span class="keywordflow">if</span>(err != <a class="code hl_define" href="../../d7/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2errGlob_8h.html#a7ea7d8a5a85ef707e5c125a32e44449c">ae2f_errGlob_OK</a>) {</div>
+<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span>            <span class="keywordflow">if</span> (err &amp; <a class="code hl_define" href="../../d7/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2errGlob_8h.html#a869a7f8a64ad0c28207f867f11eaf427">ae2f_errGlob_NFOUND</a>)</div>
 <div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span>                printf(</div>
 <div class="line"><a id="l00241" name="l00241"></a><span class="lineno">  241</span>                        <span class="stringliteral">&quot;Vulkan state number %d: \n&quot;</span></div>
-<div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span>                        , <a class="code hl_variable" href="../../dc/da4/SlpPredict-Primal_8c.html#ae14a676671f6cf0d2d105709881252f7">mk</a>.m_U0.m_alter.m_ptr-&gt;m_vkres</div>
+<div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span>                        , mk.m_U0.m_alter.m_ptr-&gt;m_vkres</div>
 <div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span>                      );</div>
 <div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span> </div>
 <div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span>            printf(<span class="stringliteral">&quot;Error value %x, \n&quot;</span>, err);</div>
@@ -307,7 +305,7 @@ $(function() { codefold.init(); });
 <div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span>            <span class="keywordflow">return</span> -1;</div>
 <div class="line"><a id="l00248" name="l00248"></a><span class="lineno">  248</span>        }</div>
 <div class="line"><a id="l00249" name="l00249"></a><span class="lineno">  249</span> </div>
-<div class="line"><a id="l00250" name="l00250"></a><span class="lineno">  250</span>        <a class="code hl_define" href="../../d3/dc4/Cast_8h.html#ad76ecefb282edd703021539a17ba84a3">unless</a>((v_descpoolcmd).m_vkdescset) {</div>
+<div class="line"><a id="l00250" name="l00250"></a><span class="lineno">  250</span>        <a class="code hl_define" href="../../d6/d63/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cast_8h.html#ad76ecefb282edd703021539a17ba84a3">unless</a>((v_descpoolcmd).m_vkdescset) {</div>
 <div class="line"><a id="l00251" name="l00251"></a><span class="lineno">  251</span>            assert(!<span class="stringliteral">&quot;__ae2fVK_AnnSlpPredictPerformed_imp went null.&quot;</span>);</div>
 <div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span>            <span class="keywordflow">return</span> -1;</div>
 <div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span>        }</div>
@@ -319,9 +317,9 @@ $(function() { codefold.init(); });
 <div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span>                .pCommandBuffers = &amp;vkcmdbuf,</div>
 <div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span>            };</div>
 <div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span> </div>
-<div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span>            <a class="code hl_typedef" href="../../d1/d19/K_2Ann_2Slp_8core_8h.html#aaa75a781f839f6cab53966023844a040">ae2fVK_AnnSlpUnMap_t</a>    v_unmap;</div>
+<div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span>            ae2fVK_AnnSlpUnMap_t    v_unmap;</div>
 <div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span> </div>
-<div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span>            <a class="code hl_typedef" href="../../d4/d93/Float_8h.html#a1139e92e9886739d9c544769ff4d6d3c">ae2f_float_t</a></div>
+<div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span>            ae2f_float_t</div>
 <div class="line"><a id="l00265" name="l00265"></a><span class="lineno">  265</span>                *   OutputMapped = NULL,</div>
 <div class="line"><a id="l00266" name="l00266"></a><span class="lineno">  266</span>                *   InputMapped = NULL,</div>
 <div class="line"><a id="l00267" name="l00267"></a><span class="lineno">  267</span>                *   GoalMapped = NULL</div>
@@ -347,20 +345,20 @@ $(function() { codefold.init(); });
 <div class="line"><a id="l00287" name="l00287"></a><span class="lineno">  287</span>            <span class="comment">/** Check is required, but not planned to write for no */</span></div>
 <div class="line"><a id="l00288" name="l00288"></a><span class="lineno">  288</span>            <a class="code hl_define" href="../../d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a5eaa7dc4fd300d9331fb33f20be7cc6b">__ae2fVK_AnnSlpIOMap</a>(</div>
 <div class="line"><a id="l00289" name="l00289"></a><span class="lineno">  289</span>                    &amp;err</div>
-<div class="line"><a id="l00290" name="l00290"></a><span class="lineno">  290</span>                    , <a class="code hl_variable" href="../../dc/da4/SlpPredict-Primal_8c.html#ae14a676671f6cf0d2d105709881252f7">mk</a>.m_U0.m_alter.m_ptr</div>
+<div class="line"><a id="l00290" name="l00290"></a><span class="lineno">  290</span>                    , mk.m_U0.m_alter.m_ptr</div>
 <div class="line"><a id="l00291" name="l00291"></a><span class="lineno">  291</span>                    , &amp;InputMapped</div>
 <div class="line"><a id="l00292" name="l00292"></a><span class="lineno">  292</span>                    , &amp;OutputMapped</div>
 <div class="line"><a id="l00293" name="l00293"></a><span class="lineno">  293</span>                    );</div>
 <div class="line"><a id="l00294" name="l00294"></a><span class="lineno">  294</span> </div>
 <div class="line"><a id="l00295" name="l00295"></a><span class="lineno">  295</span>            assert(OutputMapped);</div>
-<div class="line"><a id="l00296" name="l00296"></a><span class="lineno">  296</span>            assert((<a class="code hl_variable" href="../../dc/da4/SlpPredict-Primal_8c.html#ae14a676671f6cf0d2d105709881252f7">mk</a>.m_U0.m_alter.m_ptr[0].m_vkres) == VK_SUCCESS);</div>
+<div class="line"><a id="l00296" name="l00296"></a><span class="lineno">  296</span>            assert((mk.m_U0.m_alter.m_ptr[0].m_vkres) == VK_SUCCESS);</div>
 <div class="line"><a id="l00297" name="l00297"></a><span class="lineno">  297</span> </div>
 <div class="line"><a id="l00298" name="l00298"></a><span class="lineno">  298</span>            printf(<span class="stringliteral">&quot;Inputmapped before predict: %f %f\n&quot;</span>, InputMapped[0], InputMapped[1]);</div>
 <div class="line"><a id="l00299" name="l00299"></a><span class="lineno">  299</span>            printf(<span class="stringliteral">&quot;Outputmapped before prediction %f\n&quot;</span>, OutputMapped[0]);</div>
 <div class="line"><a id="l00300" name="l00300"></a><span class="lineno">  300</span> </div>
 <div class="line"><a id="l00301" name="l00301"></a><span class="lineno">  301</span>            <a class="code hl_define" href="../../d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#ada71cd04c5fadd260ad45e43e934a960">__ae2fVK_AnnSlpIOUnMap_imp</a>(</div>
 <div class="line"><a id="l00302" name="l00302"></a><span class="lineno">  302</span>                    v_unmap</div>
-<div class="line"><a id="l00303" name="l00303"></a><span class="lineno">  303</span>                    , *<a class="code hl_variable" href="../../dc/da4/SlpPredict-Primal_8c.html#ae14a676671f6cf0d2d105709881252f7">mk</a>.m_U0.m_alter.m_ptr</div>
+<div class="line"><a id="l00303" name="l00303"></a><span class="lineno">  303</span>                    , *mk.m_U0.m_alter.m_ptr</div>
 <div class="line"><a id="l00304" name="l00304"></a><span class="lineno">  304</span>                    );</div>
 <div class="line"><a id="l00305" name="l00305"></a><span class="lineno">  305</span> </div>
 <div class="line"><a id="l00306" name="l00306"></a><span class="lineno">  306</span>            <span class="keywordflow">for</span>(i = 0; i &lt; 8000; i++)  {</div>
@@ -387,53 +385,52 @@ $(function() { codefold.init(); });
 <div class="line"><a id="l00327" name="l00327"></a><span class="lineno">  327</span>            <span class="comment">/** Check is required, but not planned to write for no */</span></div>
 <div class="line"><a id="l00328" name="l00328"></a><span class="lineno">  328</span>            <a class="code hl_define" href="../../d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a5eaa7dc4fd300d9331fb33f20be7cc6b">__ae2fVK_AnnSlpIOMap</a>(</div>
 <div class="line"><a id="l00329" name="l00329"></a><span class="lineno">  329</span>                    &amp;err</div>
-<div class="line"><a id="l00330" name="l00330"></a><span class="lineno">  330</span>                    , <a class="code hl_variable" href="../../dc/da4/SlpPredict-Primal_8c.html#ae14a676671f6cf0d2d105709881252f7">mk</a>.m_U0.m_alter.m_ptr</div>
+<div class="line"><a id="l00330" name="l00330"></a><span class="lineno">  330</span>                    , mk.m_U0.m_alter.m_ptr</div>
 <div class="line"><a id="l00331" name="l00331"></a><span class="lineno">  331</span>                    , &amp;InputMapped</div>
 <div class="line"><a id="l00332" name="l00332"></a><span class="lineno">  332</span>                    , &amp;OutputMapped</div>
 <div class="line"><a id="l00333" name="l00333"></a><span class="lineno">  333</span>                    );</div>
 <div class="line"><a id="l00334" name="l00334"></a><span class="lineno">  334</span> </div>
 <div class="line"><a id="l00335" name="l00335"></a><span class="lineno">  335</span>            assert(OutputMapped);</div>
-<div class="line"><a id="l00336" name="l00336"></a><span class="lineno">  336</span>            assert((<a class="code hl_variable" href="../../dc/da4/SlpPredict-Primal_8c.html#ae14a676671f6cf0d2d105709881252f7">mk</a>.m_U0.m_alter.m_ptr[0].m_vkres) == VK_SUCCESS);</div>
+<div class="line"><a id="l00336" name="l00336"></a><span class="lineno">  336</span>            assert((mk.m_U0.m_alter.m_ptr[0].m_vkres) == VK_SUCCESS);</div>
 <div class="line"><a id="l00337" name="l00337"></a><span class="lineno">  337</span> </div>
 <div class="line"><a id="l00338" name="l00338"></a><span class="lineno">  338</span>            printf(<span class="stringliteral">&quot;Inputmapped after predict: %f %f\n&quot;</span>, InputMapped[0], InputMapped[1]);</div>
 <div class="line"><a id="l00339" name="l00339"></a><span class="lineno">  339</span>            printf(<span class="stringliteral">&quot;Outputmapped after prediction %f\n&quot;</span>, OutputMapped[0]);</div>
 <div class="line"><a id="l00340" name="l00340"></a><span class="lineno">  340</span> </div>
 <div class="line"><a id="l00341" name="l00341"></a><span class="lineno">  341</span>            <a class="code hl_define" href="../../d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#ada71cd04c5fadd260ad45e43e934a960">__ae2fVK_AnnSlpIOUnMap_imp</a>(</div>
 <div class="line"><a id="l00342" name="l00342"></a><span class="lineno">  342</span>                    v_unmap</div>
-<div class="line"><a id="l00343" name="l00343"></a><span class="lineno">  343</span>                    , *<a class="code hl_variable" href="../../dc/da4/SlpPredict-Primal_8c.html#ae14a676671f6cf0d2d105709881252f7">mk</a>.m_U0.m_alter.m_ptr</div>
+<div class="line"><a id="l00343" name="l00343"></a><span class="lineno">  343</span>                    , *mk.m_U0.m_alter.m_ptr</div>
 <div class="line"><a id="l00344" name="l00344"></a><span class="lineno">  344</span>                    );</div>
 <div class="line"><a id="l00345" name="l00345"></a><span class="lineno">  345</span> </div>
-<div class="line"><a id="l00346" name="l00346"></a><span class="lineno">  346</span>            <a class="code hl_define" href="../../d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#acaf74d888c905092a2b03023548d0a7b">__ae2fVK_AnnSlpGoalMap</a>(&amp;err, <a class="code hl_variable" href="../../dc/da4/SlpPredict-Primal_8c.html#ae14a676671f6cf0d2d105709881252f7">mk</a>.m_U0.m_alter.m_ptr, &amp;GoalMapped);</div>
+<div class="line"><a id="l00346" name="l00346"></a><span class="lineno">  346</span>            <a class="code hl_define" href="../../d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#acaf74d888c905092a2b03023548d0a7b">__ae2fVK_AnnSlpGoalMap</a>(&amp;err, mk.m_U0.m_alter.m_ptr, &amp;GoalMapped);</div>
 <div class="line"><a id="l00347" name="l00347"></a><span class="lineno">  347</span> </div>
 <div class="line"><a id="l00348" name="l00348"></a><span class="lineno">  348</span>            printf(<span class="stringliteral">&quot;Goal after prediction: %f\n&quot;</span>, GoalMapped[0]);</div>
 <div class="line"><a id="l00349" name="l00349"></a><span class="lineno">  349</span> </div>
-<div class="line"><a id="l00350" name="l00350"></a><span class="lineno">  350</span>            <a class="code hl_define" href="../../d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a763485f59f16dba5bbce2923add25acd">__ae2fVK_AnnSlpGoalUnMap_imp</a>(v_unmap, *<a class="code hl_variable" href="../../dc/da4/SlpPredict-Primal_8c.html#ae14a676671f6cf0d2d105709881252f7">mk</a>.m_U0.m_alter.m_ptr);</div>
+<div class="line"><a id="l00350" name="l00350"></a><span class="lineno">  350</span>            <a class="code hl_define" href="../../d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a763485f59f16dba5bbce2923add25acd">__ae2fVK_AnnSlpGoalUnMap_imp</a>(v_unmap, *mk.m_U0.m_alter.m_ptr);</div>
 <div class="line"><a id="l00351" name="l00351"></a><span class="lineno">  351</span>        }</div>
 <div class="line"><a id="l00352" name="l00352"></a><span class="lineno">  352</span> </div>
 <div class="line"><a id="l00353" name="l00353"></a><span class="lineno">  353</span>        <a class="code hl_define" href="../../d0/da0/SlpPool_8auto_8h.html#a75dab8ab7ce558fb80a6bf6c9338a5b0">__ae2fVK_AnnSlpDescPoolCmdClean_imp</a>(</div>
-<div class="line"><a id="l00354" name="l00354"></a><span class="lineno">  354</span>                <a class="code hl_variable" href="../../dc/da4/SlpPredict-Primal_8c.html#ae14a676671f6cf0d2d105709881252f7">mk</a>.m_U0.m_alter.m_ptr[0]</div>
+<div class="line"><a id="l00354" name="l00354"></a><span class="lineno">  354</span>                mk.m_U0.m_alter.m_ptr[0]</div>
 <div class="line"><a id="l00355" name="l00355"></a><span class="lineno">  355</span>                , v_descpool</div>
 <div class="line"><a id="l00356" name="l00356"></a><span class="lineno">  356</span>                , v_descpoolcmd</div>
 <div class="line"><a id="l00357" name="l00357"></a><span class="lineno">  357</span>                );</div>
 <div class="line"><a id="l00358" name="l00358"></a><span class="lineno">  358</span> </div>
 <div class="line"><a id="l00359" name="l00359"></a><span class="lineno">  359</span>        <a class="code hl_define" href="../../d0/da0/SlpPool_8auto_8h.html#adb6394ba079f595e2302200e222a8186">__ae2fVK_AnnSlpDescPoolClean_imp</a>(</div>
-<div class="line"><a id="l00360" name="l00360"></a><span class="lineno">  360</span>                <a class="code hl_variable" href="../../dc/da4/SlpPredict-Primal_8c.html#ae14a676671f6cf0d2d105709881252f7">mk</a>.m_U0.m_alter.m_ptr[0]</div>
+<div class="line"><a id="l00360" name="l00360"></a><span class="lineno">  360</span>                mk.m_U0.m_alter.m_ptr[0]</div>
 <div class="line"><a id="l00361" name="l00361"></a><span class="lineno">  361</span>                , v_descpool</div>
 <div class="line"><a id="l00362" name="l00362"></a><span class="lineno">  362</span>                );</div>
 <div class="line"><a id="l00363" name="l00363"></a><span class="lineno">  363</span>    }</div>
 <div class="line"><a id="l00364" name="l00364"></a><span class="lineno">  364</span> </div>
-<div class="line"><a id="l00365" name="l00365"></a><span class="lineno">  365</span>    <a class="code hl_define" href="../../d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#af96318aad887bdff6fe960699d1f3658">__ae2fVK_AnnSlpClean_imp</a>((*<a class="code hl_variable" href="../../dc/da4/SlpPredict-Primal_8c.html#ae14a676671f6cf0d2d105709881252f7">mk</a>.m_U0.m_alter.m_ptr));</div>
+<div class="line"><a id="l00365" name="l00365"></a><span class="lineno">  365</span>    <a class="code hl_define" href="../../d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#af96318aad887bdff6fe960699d1f3658">__ae2fVK_AnnSlpClean_imp</a>((*mk.m_U0.m_alter.m_ptr));</div>
 <div class="line"><a id="l00366" name="l00366"></a><span class="lineno">  366</span>    vkFreeCommandBuffers(vkdev, vkcmdpool, 1, &amp;vkcmdbuf);</div>
 <div class="line"><a id="l00367" name="l00367"></a><span class="lineno">  367</span>    vkDestroyCommandPool(vkdev, vkcmdpool, NULL);</div>
 <div class="line"><a id="l00368" name="l00368"></a><span class="lineno">  368</span> </div>
-<div class="line"><a id="l00369" name="l00369"></a><span class="lineno">  369</span>    memset(<a class="code hl_variable" href="../../dc/da4/SlpPredict-Primal_8c.html#ae14a676671f6cf0d2d105709881252f7">mk</a>.m_U0.m_alter.m_ptr, 0, <span class="keyword">sizeof</span>(*<a class="code hl_variable" href="../../dc/da4/SlpPredict-Primal_8c.html#ae14a676671f6cf0d2d105709881252f7">mk</a>.m_U0.m_alter.m_ptr));</div>
-<div class="line"><a id="l00370" name="l00370"></a><span class="lineno">  370</span>    free(<a class="code hl_variable" href="../../dc/da4/SlpPredict-Primal_8c.html#ae14a676671f6cf0d2d105709881252f7">mk</a>.m_U0.m_alter.m_ptr);</div>
+<div class="line"><a id="l00369" name="l00369"></a><span class="lineno">  369</span>    memset(mk.m_U0.m_alter.m_ptr, 0, <span class="keyword">sizeof</span>(*mk.m_U0.m_alter.m_ptr));</div>
+<div class="line"><a id="l00370" name="l00370"></a><span class="lineno">  370</span>    free(mk.m_U0.m_alter.m_ptr);</div>
 <div class="line"><a id="l00371" name="l00371"></a><span class="lineno">  371</span> </div>
-<div class="line"><a id="l00372" name="l00372"></a><span class="lineno">  372</span>    memset(&amp;<a class="code hl_variable" href="../../dc/da4/SlpPredict-Primal_8c.html#ae14a676671f6cf0d2d105709881252f7">mk</a>, 0, <span class="keyword">sizeof</span>(<a class="code hl_variable" href="../../dc/da4/SlpPredict-Primal_8c.html#ae14a676671f6cf0d2d105709881252f7">mk</a>));</div>
+<div class="line"><a id="l00372" name="l00372"></a><span class="lineno">  372</span>    memset(&amp;mk, 0, <span class="keyword">sizeof</span>(mk));</div>
 <div class="line"><a id="l00373" name="l00373"></a><span class="lineno">  373</span>    Test_VkEnd();</div>
 <div class="line"><a id="l00374" name="l00374"></a><span class="lineno">  374</span>    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a id="l00375" name="l00375"></a><span class="lineno">  375</span>}</div>
-</div>
 <div class="line"><a id="l00376" name="l00376"></a><span class="lineno">  376</span> </div>
 <div class="line"><a id="l00377" name="l00377"></a><span class="lineno">  377</span><span class="preprocessor">#</span><span class="preprocessor">else</span></div>
 <div class="line"><a id="l00378" name="l00378"></a><span class="lineno">  378</span> </div>
@@ -442,29 +439,23 @@ $(function() { codefold.init(); });
 <div class="line"><a id="l00381" name="l00381"></a><span class="lineno">  381</span>}</div>
 <div class="line"><a id="l00382" name="l00382"></a><span class="lineno">  382</span> </div>
 <div class="line"><a id="l00383" name="l00383"></a><span class="lineno">  383</span><span class="preprocessor">#</span><span class="preprocessor">endif</span></div>
-<div class="ttc" id="aCast_8h_html_ad76ecefb282edd703021539a17ba84a3"><div class="ttname"><a href="../../d3/dc4/Cast_8h.html#ad76ecefb282edd703021539a17ba84a3">unless</a></div><div class="ttdeci">#define unless(...)</div><div class="ttdoc">Invokes when condition is false.</div><div class="ttdef"><b>Definition</b> <a href="../../d3/dc4/Cast_8h_source.html#l00103">Cast.h:103</a></div></div>
-<div class="ttc" id="aFloat_8h_html_a1139e92e9886739d9c544769ff4d6d3c"><div class="ttname"><a href="../../d4/d93/Float_8h.html#a1139e92e9886739d9c544769ff4d6d3c">ae2f_float_t</a></div><div class="ttdeci">ae2f_float ae2f_float_t</div><div class="ttdef"><b>Definition</b> <a href="../../d4/d93/Float_8h_source.html#l00038">Float.h:38</a></div></div>
-<div class="ttc" id="aK_2Ann_2Slp_8core_8h_html_aaa75a781f839f6cab53966023844a040"><div class="ttname"><a href="../../d1/d19/K_2Ann_2Slp_8core_8h.html#aaa75a781f839f6cab53966023844a040">ae2fVK_AnnSlpUnMap_t</a></div><div class="ttdeci">VkMappedMemoryRange ae2fVK_AnnSlpUnMap_t</div><div class="ttdef"><b>Definition</b> <a href="../../d1/d19/K_2Ann_2Slp_8core_8h_source.html#l00152">Slp.core.h:152</a></div></div>
-<div class="ttc" id="aMlpTrainXOR-Primal_8c_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="../../d1/d95/MlpTrainXOR-Primal_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition</b> <a href="../../d1/d95/MlpTrainXOR-Primal_8c_source.html#l00071">MlpTrainXOR-Primal.c:71</a></div></div>
+<div class="ttc" id="aAnn_2submod_2ae2f_2Core_2inc_2ae2f_2Cast_8h_html_ad76ecefb282edd703021539a17ba84a3"><div class="ttname"><a href="../../d6/d63/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cast_8h.html#ad76ecefb282edd703021539a17ba84a3">unless</a></div><div class="ttdeci">#define unless(...)</div><div class="ttdoc">Invokes when condition is false.</div><div class="ttdef"><b>Definition</b> <a href="../../d6/d63/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cast_8h_source.html#l00103">Cast.h:103</a></div></div>
+<div class="ttc" id="aAnn_2submod_2ae2f_2Core_2inc_2ae2f_2errGlob_8h_html_a7ea7d8a5a85ef707e5c125a32e44449c"><div class="ttname"><a href="../../d7/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2errGlob_8h.html#a7ea7d8a5a85ef707e5c125a32e44449c">ae2f_errGlob_OK</a></div><div class="ttdeci">#define ae2f_errGlob_OK</div><div class="ttdoc">The Operation you&#39;ve wanted went successful.</div><div class="ttdef"><b>Definition</b> <a href="../../d7/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2errGlob_8h_source.html#l00023">errGlob.h:23</a></div></div>
+<div class="ttc" id="aAnn_2submod_2ae2f_2Core_2inc_2ae2f_2errGlob_8h_html_a869a7f8a64ad0c28207f867f11eaf427"><div class="ttname"><a href="../../d7/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2errGlob_8h.html#a869a7f8a64ad0c28207f867f11eaf427">ae2f_errGlob_NFOUND</a></div><div class="ttdeci">#define ae2f_errGlob_NFOUND</div><div class="ttdoc">Found some errors, but not by parameters. The operation has failed.</div><div class="ttdef"><b>Definition</b> <a href="../../d7/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2errGlob_8h_source.html#l00050">errGlob.h:50</a></div></div>
+<div class="ttc" id="aAnn_2submod_2ae2f_2Core_2inc_2ae2f_2errGlob_8h_html_acc9504eac81cd46d5dabe7461a9c8157"><div class="ttname"><a href="../../d7/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a></div><div class="ttdeci">uint8_t ae2f_err_t</div><div class="ttdoc">Informs that this number represents the error.</div><div class="ttdef"><b>Definition</b> <a href="../../d7/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2errGlob_8h_source.html#l00019">errGlob.h:19</a></div></div>
 <div class="ttc" id="aSlpPool_8auto_8h_html_a1c137032d84c690b9a692289d43ccae9"><div class="ttname"><a href="../../d0/da0/SlpPool_8auto_8h.html#a1c137032d84c690b9a692289d43ccae9">__ae2fVK_AnnSlpDescPoolCmdMkTrain_imp</a></div><div class="ttdeci">#define __ae2fVK_AnnSlpDescPoolCmdMkTrain_imp(v_cmdmk, iv_slp, iv_err, i_pool, r_cmd, i_vkcmdbuf)</div><div class="ttdef"><b>Definition</b> <a href="../../d0/da0/SlpPool_8auto_8h_source.html#l00355">SlpPool.auto.h:355</a></div></div>
 <div class="ttc" id="aSlpPool_8auto_8h_html_a67847ec64f4ff1892cec03f32cb1115d"><div class="ttname"><a href="../../d0/da0/SlpPool_8auto_8h.html#a67847ec64f4ff1892cec03f32cb1115d">__ae2fVK_AnnSlpDescPoolMk_imp</a></div><div class="ttdeci">#define __ae2fVK_AnnSlpDescPoolMk_imp(v_descpool, r_pool, r_reterr, iv_slp, i_vkdescpoolcreatflags, i_vkmaxdescsets)</div><div class="ttdef"><b>Definition</b> <a href="../../d0/da0/SlpPool_8auto_8h_source.html#l00077">SlpPool.auto.h:77</a></div></div>
 <div class="ttc" id="aSlpPool_8auto_8h_html_a75dab8ab7ce558fb80a6bf6c9338a5b0"><div class="ttname"><a href="../../d0/da0/SlpPool_8auto_8h.html#a75dab8ab7ce558fb80a6bf6c9338a5b0">__ae2fVK_AnnSlpDescPoolCmdClean_imp</a></div><div class="ttdeci">#define __ae2fVK_AnnSlpDescPoolCmdClean_imp(iv_slp, i_pool, i_cmd)</div><div class="ttdef"><b>Definition</b> <a href="../../d0/da0/SlpPool_8auto_8h_source.html#l00282">SlpPool.auto.h:282</a></div></div>
 <div class="ttc" id="aSlpPool_8auto_8h_html_adb6394ba079f595e2302200e222a8186"><div class="ttname"><a href="../../d0/da0/SlpPool_8auto_8h.html#adb6394ba079f595e2302200e222a8186">__ae2fVK_AnnSlpDescPoolClean_imp</a></div><div class="ttdeci">#define __ae2fVK_AnnSlpDescPoolClean_imp(i_slp, i_pool)</div><div class="ttdef"><b>Definition</b> <a href="../../d0/da0/SlpPool_8auto_8h_source.html#l00102">SlpPool.auto.h:102</a></div></div>
-<div class="ttc" id="aSlpPredict-Primal_8c_html_a61510ca5175d26e23f6018d99a7d5cef"><div class="ttname"><a href="../../dc/da4/SlpPredict-Primal_8c.html#a61510ca5175d26e23f6018d99a7d5cef">mapinp</a></div><div class="ttdeci">size_t mapinp</div><div class="ttdef"><b>Definition</b> <a href="../../dc/da4/SlpPredict-Primal_8c_source.html#l00016">SlpPredict-Primal.c:16</a></div></div>
 <div class="ttc" id="aSlpPredict-Primal_8c_html_a9c5c497b8462c80c07e32af0423122f8"><div class="ttname"><a href="../../dc/da4/SlpPredict-Primal_8c.html#a9c5c497b8462c80c07e32af0423122f8">fgetc</a></div><div class="ttdeci">#define fgetc(...)</div><div class="ttdef"><b>Definition</b> <a href="../../dc/da4/SlpPredict-Primal_8c_source.html#l00035">SlpPredict-Primal.c:35</a></div></div>
-<div class="ttc" id="aSlpPredict-Primal_8c_html_ac29c72db8ce2f076a3292bfb30aaab7a"><div class="ttname"><a href="../../dc/da4/SlpPredict-Primal_8c.html#ac29c72db8ce2f076a3292bfb30aaab7a">map</a></div><div class="ttdeci">ae2f_float_t * map</div><div class="ttdef"><b>Definition</b> <a href="../../dc/da4/SlpPredict-Primal_8c_source.html#l00033">SlpPredict-Primal.c:33</a></div></div>
-<div class="ttc" id="aSlpPredict-Primal_8c_html_ae14a676671f6cf0d2d105709881252f7"><div class="ttname"><a href="../../dc/da4/SlpPredict-Primal_8c.html#ae14a676671f6cf0d2d105709881252f7">mk</a></div><div class="ttdeci">ae2fVK_AnnSlpMk_t mk</div><div class="ttdef"><b>Definition</b> <a href="../../dc/da4/SlpPredict-Primal_8c_source.html#l00014">SlpPredict-Primal.c:14</a></div></div>
-<div class="ttc" id="aerrGlob_8h_html_a7ea7d8a5a85ef707e5c125a32e44449c"><div class="ttname"><a href="../../da/d36/errGlob_8h.html#a7ea7d8a5a85ef707e5c125a32e44449c">ae2f_errGlob_OK</a></div><div class="ttdeci">#define ae2f_errGlob_OK</div><div class="ttdoc">The Operation you&#39;ve wanted went successful.</div><div class="ttdef"><b>Definition</b> <a href="../../da/d36/errGlob_8h_source.html#l00023">errGlob.h:23</a></div></div>
-<div class="ttc" id="aerrGlob_8h_html_a869a7f8a64ad0c28207f867f11eaf427"><div class="ttname"><a href="../../da/d36/errGlob_8h.html#a869a7f8a64ad0c28207f867f11eaf427">ae2f_errGlob_NFOUND</a></div><div class="ttdeci">#define ae2f_errGlob_NFOUND</div><div class="ttdoc">Found some errors, but not by parameters. The operation has failed.</div><div class="ttdef"><b>Definition</b> <a href="../../da/d36/errGlob_8h_source.html#l00050">errGlob.h:50</a></div></div>
-<div class="ttc" id="aerrGlob_8h_html_acc9504eac81cd46d5dabe7461a9c8157"><div class="ttname"><a href="../../da/d36/errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157">ae2f_err_t</a></div><div class="ttdeci">uint8_t ae2f_err_t</div><div class="ttdoc">Informs that this number represents the error.</div><div class="ttdef"><b>Definition</b> <a href="../../da/d36/errGlob_8h_source.html#l00019">errGlob.h:19</a></div></div>
 <div class="ttc" id="ainc_2ae2fVK_2Ann_2Slp_8auto_8h_html_a5eaa7dc4fd300d9331fb33f20be7cc6b"><div class="ttname"><a href="../../d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a5eaa7dc4fd300d9331fb33f20be7cc6b">__ae2fVK_AnnSlpIOMap</a></div><div class="ttdeci">#define __ae2fVK_AnnSlpIOMap(r_err, slp, ir_ptrinp, ir_ptrout)</div><div class="ttdef"><b>Definition</b> <a href="../../d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h_source.html#l01188">Slp.auto.h:1188</a></div></div>
 <div class="ttc" id="ainc_2ae2fVK_2Ann_2Slp_8auto_8h_html_a763485f59f16dba5bbce2923add25acd"><div class="ttname"><a href="../../d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a763485f59f16dba5bbce2923add25acd">__ae2fVK_AnnSlpGoalUnMap_imp</a></div><div class="ttdeci">#define __ae2fVK_AnnSlpGoalUnMap_imp(v_out, vi_slp)</div><div class="ttdef"><b>Definition</b> <a href="../../d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h_source.html#l01285">Slp.auto.h:1285</a></div></div>
-<div class="ttc" id="ainc_2ae2fVK_2Ann_2Slp_8auto_8h_html_a7836264027396e54b3b861ff978d50ea"><div class="ttname"><a href="../../d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a7836264027396e54b3b861ff978d50ea">__ae2fVK_AnnSlpWBMap</a></div><div class="ttdeci">#define __ae2fVK_AnnSlpWBMap(r_err, slp, ir_ptrweight, ir_ptrbias)</div><div class="ttdoc">Maps Weight and Bias.</div><div class="ttdef"><b>Definition</b> <a href="../../d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h_source.html#l01121">Slp.auto.h:1121</a></div></div>
+<div class="ttc" id="ainc_2ae2fVK_2Ann_2Slp_8auto_8h_html_a7836264027396e54b3b861ff978d50ea"><div class="ttname"><a href="../../d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a7836264027396e54b3b861ff978d50ea">__ae2fVK_AnnSlpWBMap</a></div><div class="ttdeci">#define __ae2fVK_AnnSlpWBMap(r_err, slp, ir_ptrweight, ir_ptrbias)</div><div class="ttdef"><b>Definition</b> <a href="../../d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h_source.html#l01121">Slp.auto.h:1121</a></div></div>
 <div class="ttc" id="ainc_2ae2fVK_2Ann_2Slp_8auto_8h_html_a862f98350c5fb9534de570d1afe34f66"><div class="ttname"><a href="../../d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#a862f98350c5fb9534de570d1afe34f66">__ae2fVK_AnnSlpMk_imp</a></div><div class="ttdeci">#define __ae2fVK_AnnSlpMk_imp(v_mk, weight_opt, bias_opt, cache_opt, inc, outc, prm_offset, extra, act, actderiv, lossderiv, learningrate, learningrate_bias, vkdev, vkmemprops, vkalloccalls, vkcldeclaration, vkcldefinition)</div><div class="ttdef"><b>Definition</b> <a href="../../d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h_source.html#l00366">Slp.auto.h:366</a></div></div>
 <div class="ttc" id="ainc_2ae2fVK_2Ann_2Slp_8auto_8h_html_acaf74d888c905092a2b03023548d0a7b"><div class="ttname"><a href="../../d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#acaf74d888c905092a2b03023548d0a7b">__ae2fVK_AnnSlpGoalMap</a></div><div class="ttdeci">#define __ae2fVK_AnnSlpGoalMap(r_err, slp, ir_ptrgoal)</div><div class="ttdef"><b>Definition</b> <a href="../../d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h_source.html#l01302">Slp.auto.h:1302</a></div></div>
 <div class="ttc" id="ainc_2ae2fVK_2Ann_2Slp_8auto_8h_html_ada71cd04c5fadd260ad45e43e934a960"><div class="ttname"><a href="../../d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#ada71cd04c5fadd260ad45e43e934a960">__ae2fVK_AnnSlpIOUnMap_imp</a></div><div class="ttdeci">#define __ae2fVK_AnnSlpIOUnMap_imp(v_out, vi_slp)</div><div class="ttdef"><b>Definition</b> <a href="../../d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h_source.html#l01167">Slp.auto.h:1167</a></div></div>
 <div class="ttc" id="ainc_2ae2fVK_2Ann_2Slp_8auto_8h_html_af96318aad887bdff6fe960699d1f3658"><div class="ttname"><a href="../../d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#af96318aad887bdff6fe960699d1f3658">__ae2fVK_AnnSlpClean_imp</a></div><div class="ttdeci">#define __ae2fVK_AnnSlpClean_imp(block)</div><div class="ttdef"><b>Definition</b> <a href="../../d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h_source.html#l00975">Slp.auto.h:975</a></div></div>
-<div class="ttc" id="ainc_2ae2fVK_2Ann_2Slp_8auto_8h_html_affdebbb51606186d7e946fdeced0ec44"><div class="ttname"><a href="../../d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#affdebbb51606186d7e946fdeced0ec44">__ae2fVK_AnnSlpWBUnMap_imp</a></div><div class="ttdeci">#define __ae2fVK_AnnSlpWBUnMap_imp(v_out, vi_slp)</div><div class="ttdoc">Unmaps Weight and Bias.</div><div class="ttdef"><b>Definition</b> <a href="../../d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h_source.html#l01101">Slp.auto.h:1101</a></div></div>
+<div class="ttc" id="ainc_2ae2fVK_2Ann_2Slp_8auto_8h_html_affdebbb51606186d7e946fdeced0ec44"><div class="ttname"><a href="../../d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h.html#affdebbb51606186d7e946fdeced0ec44">__ae2fVK_AnnSlpWBUnMap_imp</a></div><div class="ttdeci">#define __ae2fVK_AnnSlpWBUnMap_imp(v_out, vi_slp)</div><div class="ttdef"><b>Definition</b> <a href="../../d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h_source.html#l01101">Slp.auto.h:1101</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

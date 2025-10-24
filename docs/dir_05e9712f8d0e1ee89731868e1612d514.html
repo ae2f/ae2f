@@ -34,7 +34,6 @@ $(function() { codefold.init(); });
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
-      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
@@ -65,8 +64,8 @@ Directories</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-files" class="groupheader"><a id="files" name="files"></a>
 Files</h2></td></tr>
-<tr class="memitem:c89atomic_2Ec" id="r_c89atomic_2Ec"><td class="memItemLeft" align="right" valign="top"><a href="df/d0d/c89atomic_8c_source.html"><span class="icondoc"><div class="doc-icon"></div></span></a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="df/d0d/c89atomic_8c.html">c89atomic.c</a></td></tr>
-<tr class="memitem:c89atomic_2Eh" id="r_c89atomic_2Eh"><td class="memItemLeft" align="right" valign="top"><a href="d0/d57/c89atomic_8h_source.html"><span class="icondoc"><div class="doc-icon"></div></span></a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d0/d57/c89atomic_8h.html">c89atomic.h</a></td></tr>
+<tr class="memitem:c89atomic_2Ec" id="r_c89atomic_2Ec"><td class="memItemLeft" align="right" valign="top"><a href="df/d0d/c89atomic_8c_source.html"><span class="icondoc"><div class="doc-icon"></div></span></a>&#160;</td><td class="memItemRight" valign="bottom"><b>c89atomic.c</b></td></tr>
+<tr class="memitem:c89atomic_2Eh" id="r_c89atomic_2Eh"><td class="memItemLeft" align="right" valign="top"><a href="d0/d57/c89atomic_8h_source.html"><span class="icondoc"><div class="doc-icon"></div></span></a>&#160;</td><td class="memItemRight" valign="bottom"><b>c89atomic.h</b></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <h4 align="center">C89 compatible atomics.</h4>
@@ -86,13 +85,12 @@ Files</h2></td></tr>
 </ul>
 <p>New compilers will use intrinsics. GCC-likes, such as GCC and Clang, will use <span class="tt">__atomic_*</span> intrinsics through a pre-processor define and should have no overhead. This uses <span class="tt">__GNUC__</span> to detect GCC-likes.</p>
 <p>Old compilers, or compilers lacking support for intrinsics, will use inlined assembly. There are two inlined assembly paths: GCC-style (GAS syntax) and MSVC-style. For an old compiler to be supported, it must support one of these two paths. Note that only 32- and 64-bit x86 is supported for inlined assembly. I have not thouroughly tested the inlined assembly paths. It passes basics tests, but things like memory ordering may have some issues. Advice welcome on how to improve this.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md21"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md29"></a>
 Usage</h2>
-<p>In most cases you can use this as a header-only library. Just add <span class="tt"><a class="el" href="d0/d57/c89atomic_8h.html">c89atomic.h</a></span> to your source tree and include it:</p>
-<div class="fragment"><div class="line"><span class="preprocessor">#include &quot;<a class="code" href="d0/d57/c89atomic_8h.html">c89atomic.h</a>&quot;</span></div>
-<div class="ttc" id="ac89atomic_8h_html"><div class="ttname"><a href="d0/d57/c89atomic_8h.html">c89atomic.h</a></div></div>
-</div><!-- fragment --><p>Everything is implemented with defines and inline functions. In some cases there may not be native hardware support for a given atomic operation in which case the library will emulate it with a global spinlock. If you get errors about <span class="tt">c89atomic_global_lock</span> being undefined, you need to integrate <a class="el" href="df/d0d/c89atomic_8c.html">c89atomic.c</a> into your build. This will not usually be required on modern compilers.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md22"></a>
+<p>In most cases you can use this as a header-only library. Just add <span class="tt"><a class="el" href="d0/d57/c89atomic_8h_source.html">c89atomic.h</a></span> to your source tree and include it:</p>
+<div class="fragment"><div class="line"><span class="preprocessor">#include &quot;c89atomic.h&quot;</span></div>
+</div><!-- fragment --><p>Everything is implemented with defines and inline functions. In some cases there may not be native hardware support for a given atomic operation in which case the library will emulate it with a global spinlock. If you get errors about <span class="tt">c89atomic_global_lock</span> being undefined, you need to integrate <a class="el" href="df/d0d/c89atomic_8c_source.html">c89atomic.c</a> into your build. This will not usually be required on modern compilers.</p>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md30"></a>
 Differences With C11</h2>
 <p>For practicality, this is not a drop-in replacement for C11's <span class="tt">stdatomic.h</span>. Below are the main differences between c89atomic and stdatomic.</p>
 <ul>
@@ -100,7 +98,7 @@ Differences With C11</h2>
 <li>All APIs are namespaced with <span class="tt">c89</span>.</li>
 <li><span class="tt">c89atomic_*</span> data types are undecorated (there is no <span class="tt">_Atomic</span> decoration).</li>
 </ul>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md23"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md31"></a>
 Types and Functions</h2>
 <p>The following types and functions are implemented: </p><div class="fragment"><div class="line">+-----------------------------------------+-----------------------------------------------+</div>
 <div class="line">| C11 Atomics                             | C89 Atomics                                   |</div>

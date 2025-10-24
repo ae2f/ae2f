@@ -34,7 +34,6 @@ $(function() { codefold.init(); });
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="../../index.html"><span>Main&#160;Page</span></a></li>
-      <li><a href="../../pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="../../namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="../../annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="../../files.html"><span>Files</span></a></li>
@@ -71,8 +70,8 @@ Macros</h2></td></tr>
 <tr class="memitem:a3aedf5a7045308a5bfd7a9ecb607d8d3" id="r_a3aedf5a7045308a5bfd7a9ecb607d8d3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3aedf5a7045308a5bfd7a9ecb607d8d3">__ae2f_MACRO_GENERATED</a>&#160;&#160;&#160;1</td></tr>
 <tr class="memitem:a3aedf5a7045308a5bfd7a9ecb607d8d3" id="r_a3aedf5a7045308a5bfd7a9ecb607d8d3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3aedf5a7045308a5bfd7a9ecb607d8d3">__ae2f_MACRO_GENERATED</a>&#160;&#160;&#160;1</td></tr>
 <tr class="memitem:a590adc6a64cb8ae8e872244fe75b307e" id="r_a590adc6a64cb8ae8e872244fe75b307e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a590adc6a64cb8ae8e872244fe75b307e">ae2f_Sys_Thrd_auto_h</a></td></tr>
-<tr class="memitem:adfbfeac426d71d90322f31310c404978" id="r_adfbfeac426d71d90322f31310c404978"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adfbfeac426d71d90322f31310c404978">_ae2f_SysThrdMk_imp</a>(ret_stat,  <a class="el" href="../../d2/d61/Thrd_8def_8cc.html#a4a71a4f913254e86f8dcab617a5cef07">ret_thrd</a>,  <a class="el" href="../../d2/d61/Thrd_8def_8cc.html#add02c3326b3877f144c5ecfdd100296e">prm_func</a>,  <a class="el" href="../../d2/d61/Thrd_8def_8cc.html#adf2e7564bf4ddfc2f6d0ee7c9415b49e">prm_arg</a>,  <a class="el" href="../../d2/d61/Thrd_8def_8cc.html#ad2ce2a6180603030df955f474b8926d2">prm_stcksz_unused</a>)</td></tr>
-<tr class="memitem:a13bd84f5b074fd932615d81ac8a183d1" id="r_a13bd84f5b074fd932615d81ac8a183d1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a13bd84f5b074fd932615d81ac8a183d1">_ae2f_SysThrdJoin_imp</a>(ret_stat,  <a class="el" href="../../d2/d61/Thrd_8def_8cc.html#a911c235da3198d8a8a71e5f4cd44a528">ret_rtn</a>,  ref_thrd)</td></tr>
+<tr class="memitem:adfbfeac426d71d90322f31310c404978" id="r_adfbfeac426d71d90322f31310c404978"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adfbfeac426d71d90322f31310c404978">_ae2f_SysThrdMk_imp</a>(ret_stat,  ret_thrd,  prm_func,  prm_arg,  prm_stcksz_unused)</td></tr>
+<tr class="memitem:a13bd84f5b074fd932615d81ac8a183d1" id="r_a13bd84f5b074fd932615d81ac8a183d1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a13bd84f5b074fd932615d81ac8a183d1">_ae2f_SysThrdJoin_imp</a>(ret_stat,  ret_rtn,  ref_thrd)</td></tr>
 <tr class="memitem:a38702f0216b16af312adb9f0dabaada0" id="r_a38702f0216b16af312adb9f0dabaada0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38702f0216b16af312adb9f0dabaada0">_ae2f_SysThrdSleep_imp</a>(ret_stat,  prm_req,  prm_rem)</td></tr>
 <tr class="memitem:a1d4a9b125aaaa2d1a2ddc1b1073badc9" id="r_a1d4a9b125aaaa2d1a2ddc1b1073badc9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d4a9b125aaaa2d1a2ddc1b1073badc9">_ae2f_SysThrdYield_imp</a>()</td></tr>
 <tr class="memitem:a3aedf5a7045308a5bfd7a9ecb607d8d3" id="r_a3aedf5a7045308a5bfd7a9ecb607d8d3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3aedf5a7045308a5bfd7a9ecb607d8d3">__ae2f_MACRO_GENERATED</a>&#160;&#160;&#160;0</td></tr>
@@ -146,7 +145,7 @@ Macros</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em><a class="el" href="../../d2/d61/Thrd_8def_8cc.html#a911c235da3198d8a8a71e5f4cd44a528">ret_rtn</a></em></span>, </td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>ret_rtn</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -156,13 +155,13 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">{ \</div>
-<div class="line">    switch(pthread_join((ref_thrd).m_id, &amp;(<a class="code hl_variable" href="../../d2/d61/Thrd_8def_8cc.html#a911c235da3198d8a8a71e5f4cd44a528">ret_rtn</a>))) \</div>
+<div class="line">    switch(pthread_join((ref_thrd).m_id, &amp;(ret_rtn))) \</div>
 <div class="line">    { \</div>
 <div class="line">        <span class="keywordflow">case</span> EDEADLK: \</div>
-<div class="line">            (ret_stat) = <a class="code hl_enumvalue" href="../../df/d25/Thrd_8h.html#a0c761b5e6e49df19c7b98e92ea3d944fa30b5b28c585fac46294b3ab8dd9f2961">ae2f_eSysThrdBusy</a>; \</div>
+<div class="line">            (ret_stat) = ae2f_eSysThrdBusy; \</div>
 <div class="line">            <span class="keywordflow">break</span>; \</div>
 <div class="line">        <span class="keywordflow">case</span> EINVAL: \</div>
-<div class="line">            (ret_stat) = (<a class="code hl_enumvalue" href="../../df/d25/Thrd_8h.html#a0c761b5e6e49df19c7b98e92ea3d944fa310d83890deca96f0b9bc57ea8f63d0c">ae2f_eSysThrdErr</a>); \</div>
+<div class="line">            (ret_stat) = (ae2f_eSysThrdErr); \</div>
 <div class="line">            <span class="keywordflow">break</span>; \</div>
 <div class="line">        <span class="keywordflow">case</span> ESRCH: \</div>
 <div class="line">            (ret_stat) = (<a class="code hl_enumvalue" href="../../df/d25/Thrd_8h.html#a0c761b5e6e49df19c7b98e92ea3d944fab67176f1b91fe266a57091434b7c155c">ae2f_eSysThrdMemOut</a>); \</div>
@@ -172,14 +171,11 @@ Macros</h2></td></tr>
 <div class="line">            <span class="keywordflow">break</span>; \</div>
 <div class="line">    } \</div>
 <div class="line">}</div>
-<div class="ttc" id="aThrd_8def_8cc_html_a911c235da3198d8a8a71e5f4cd44a528"><div class="ttname"><a href="../../d2/d61/Thrd_8def_8cc.html#a911c235da3198d8a8a71e5f4cd44a528">ret_rtn</a></div><div class="ttdeci">ae2f_SysThrdRes_t ret_rtn</div><div class="ttdef"><b>Definition</b> <a href="../../d2/d61/Thrd_8def_8cc_source.html#l00300">Thrd.def.cc:300</a></div></div>
-<div class="ttc" id="aThrd_8h_html_a0c761b5e6e49df19c7b98e92ea3d944fa30b5b28c585fac46294b3ab8dd9f2961"><div class="ttname"><a href="../../df/d25/Thrd_8h.html#a0c761b5e6e49df19c7b98e92ea3d944fa30b5b28c585fac46294b3ab8dd9f2961">ae2f_eSysThrdBusy</a></div><div class="ttdeci">@ ae2f_eSysThrdBusy</div><div class="ttdef"><b>Definition</b> <a href="../../df/d25/Thrd_8h_source.html#l00043">Thrd.h:43</a></div></div>
-<div class="ttc" id="aThrd_8h_html_a0c761b5e6e49df19c7b98e92ea3d944fa310d83890deca96f0b9bc57ea8f63d0c"><div class="ttname"><a href="../../df/d25/Thrd_8h.html#a0c761b5e6e49df19c7b98e92ea3d944fa310d83890deca96f0b9bc57ea8f63d0c">ae2f_eSysThrdErr</a></div><div class="ttdeci">@ ae2f_eSysThrdErr</div><div class="ttdef"><b>Definition</b> <a href="../../df/d25/Thrd_8h_source.html#l00044">Thrd.h:44</a></div></div>
 <div class="ttc" id="aThrd_8h_html_a0c761b5e6e49df19c7b98e92ea3d944fab67176f1b91fe266a57091434b7c155c"><div class="ttname"><a href="../../df/d25/Thrd_8h.html#a0c761b5e6e49df19c7b98e92ea3d944fab67176f1b91fe266a57091434b7c155c">ae2f_eSysThrdMemOut</a></div><div class="ttdeci">@ ae2f_eSysThrdMemOut</div><div class="ttdef"><b>Definition</b> <a href="../../df/d25/Thrd_8h_source.html#l00038">Thrd.h:38</a></div></div>
 <div class="ttc" id="aThrd_8h_html_a0c761b5e6e49df19c7b98e92ea3d944fae77961cbd170df112005be4e5302a5ad"><div class="ttname"><a href="../../df/d25/Thrd_8h.html#a0c761b5e6e49df19c7b98e92ea3d944fae77961cbd170df112005be4e5302a5ad">ae2f_eSysThrdSuccess</a></div><div class="ttdeci">@ ae2f_eSysThrdSuccess</div><div class="ttdef"><b>Definition</b> <a href="../../df/d25/Thrd_8h_source.html#l00035">Thrd.h:35</a></div></div>
 </div><!-- fragment --><p>tparam param </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d5e/Thrd_8auto_8h_source.html#l00350">350</a> of file <a class="el" href="../../d6/d5e/Thrd_8auto_8h_source.html">Thrd.auto.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d5e/Thrd_8auto_8h_source.html#l00333">333</a> of file <a class="el" href="../../d6/d5e/Thrd_8auto_8h_source.html">Thrd.auto.h</a>.</p>
 
 </div>
 </div>
@@ -197,31 +193,31 @@ Macros</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em><a class="el" href="../../d2/d61/Thrd_8def_8cc.html#a4a71a4f913254e86f8dcab617a5cef07">ret_thrd</a></em></span>, </td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>ret_thrd</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em><a class="el" href="../../d2/d61/Thrd_8def_8cc.html#add02c3326b3877f144c5ecfdd100296e">prm_func</a></em></span>, </td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>prm_func</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em><a class="el" href="../../d2/d61/Thrd_8def_8cc.html#adf2e7564bf4ddfc2f6d0ee7c9415b49e">prm_arg</a></em></span>, </td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>prm_arg</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em><a class="el" href="../../d2/d61/Thrd_8def_8cc.html#ad2ce2a6180603030df955f474b8926d2">prm_stcksz_unused</a></em></span>&#160;)</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>prm_stcksz_unused</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">{ \</div>
 <div class="line">    (ret_stat) = pthread_create( \</div>
-<div class="line">            &amp;(<a class="code hl_variable" href="../../d2/d61/Thrd_8def_8cc.html#a4a71a4f913254e86f8dcab617a5cef07">ret_thrd</a>).m_id \</div>
-<div class="line">            , <a class="code hl_define" href="../../d3/dc4/Cast_8h.html#acd8146ed1e048f22e68ea16ad208e84a">ae2f_reinterpret_cast</a>(<span class="keyword">const</span> pthread_attr_t*, NULL) \</div>
-<div class="line">            , <a class="code hl_variable" href="../../d2/d61/Thrd_8def_8cc.html#add02c3326b3877f144c5ecfdd100296e">prm_func</a> \</div>
-<div class="line">            , <a class="code hl_variable" href="../../d2/d61/Thrd_8def_8cc.html#adf2e7564bf4ddfc2f6d0ee7c9415b49e">prm_arg</a> \</div>
+<div class="line">            &amp;(ret_thrd).m_id \</div>
+<div class="line">            , <a class="code hl_define" href="../../d6/d63/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cast_8h.html#acd8146ed1e048f22e68ea16ad208e84a">ae2f_reinterpret_cast</a>(<span class="keyword">const</span> pthread_attr_t*, NULL) \</div>
+<div class="line">            , prm_func \</div>
+<div class="line">            , prm_arg \</div>
 <div class="line">            ); \</div>
 <div class="line"> \</div>
 <div class="line">    switch(ret_stat) { \</div>
@@ -236,14 +232,11 @@ Macros</h2></td></tr>
 <div class="line">        <span class="keywordflow">case</span> EINVAL: \</div>
 <div class="line">        <span class="keywordflow">case</span> EPERM: \</div>
 <div class="line">        <span class="keywordflow">default</span>: \</div>
-<div class="line">            (ret_stat) = <a class="code hl_enumvalue" href="../../df/d25/Thrd_8h.html#a0c761b5e6e49df19c7b98e92ea3d944fa310d83890deca96f0b9bc57ea8f63d0c">ae2f_eSysThrdErr</a>; \</div>
+<div class="line">            (ret_stat) = ae2f_eSysThrdErr; \</div>
 <div class="line">            <span class="keywordflow">break</span>; \</div>
 <div class="line">    } \</div>
 <div class="line">}</div>
-<div class="ttc" id="aCast_8h_html_acd8146ed1e048f22e68ea16ad208e84a"><div class="ttname"><a href="../../d3/dc4/Cast_8h.html#acd8146ed1e048f22e68ea16ad208e84a">ae2f_reinterpret_cast</a></div><div class="ttdeci">#define ae2f_reinterpret_cast(t, v)</div><div class="ttdef"><b>Definition</b> <a href="../../d3/dc4/Cast_8h_source.html#l00052">Cast.h:52</a></div></div>
-<div class="ttc" id="aThrd_8def_8cc_html_a4a71a4f913254e86f8dcab617a5cef07"><div class="ttname"><a href="../../d2/d61/Thrd_8def_8cc.html#a4a71a4f913254e86f8dcab617a5cef07">ret_thrd</a></div><div class="ttdeci">ae2f_SysThrd ret_thrd</div><div class="ttdef"><b>Definition</b> <a href="../../d2/d61/Thrd_8def_8cc_source.html#l00268">Thrd.def.cc:268</a></div></div>
-<div class="ttc" id="aThrd_8def_8cc_html_add02c3326b3877f144c5ecfdd100296e"><div class="ttname"><a href="../../d2/d61/Thrd_8def_8cc.html#add02c3326b3877f144c5ecfdd100296e">prm_func</a></div><div class="ttdeci">ae2f_SysThrd ae2f_SysThrdFn_t *const prm_func</div><div class="ttdef"><b>Definition</b> <a href="../../d2/d61/Thrd_8def_8cc_source.html#l00269">Thrd.def.cc:269</a></div></div>
-<div class="ttc" id="aThrd_8def_8cc_html_adf2e7564bf4ddfc2f6d0ee7c9415b49e"><div class="ttname"><a href="../../d2/d61/Thrd_8def_8cc.html#adf2e7564bf4ddfc2f6d0ee7c9415b49e">prm_arg</a></div><div class="ttdeci">ae2f_SysThrd ae2f_SysThrdFn_t *const void *const prm_arg</div><div class="ttdef"><b>Definition</b> <a href="../../d2/d61/Thrd_8def_8cc_source.html#l00270">Thrd.def.cc:270</a></div></div>
+<div class="ttc" id="aAnn_2submod_2ae2f_2Core_2inc_2ae2f_2Cast_8h_html_acd8146ed1e048f22e68ea16ad208e84a"><div class="ttname"><a href="../../d6/d63/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cast_8h.html#acd8146ed1e048f22e68ea16ad208e84a">ae2f_reinterpret_cast</a></div><div class="ttdeci">#define ae2f_reinterpret_cast(t, v)</div><div class="ttdef"><b>Definition</b> <a href="../../d6/d63/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cast_8h_source.html#l00052">Cast.h:52</a></div></div>
 </div><!-- fragment --><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">prm_stacksz_unused</td><td>is not used here. tparam param </td></tr>
@@ -251,7 +244,7 @@ Macros</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d5e/Thrd_8auto_8h_source.html#l00314">314</a> of file <a class="el" href="../../d6/d5e/Thrd_8auto_8h_source.html">Thrd.auto.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d5e/Thrd_8auto_8h_source.html#l00297">297</a> of file <a class="el" href="../../d6/d5e/Thrd_8auto_8h_source.html">Thrd.auto.h</a>.</p>
 
 </div>
 </div>
@@ -283,7 +276,7 @@ Macros</h2></td></tr>
 <div class="line">}</div>
 </div><!-- fragment --><p>tparam param </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d5e/Thrd_8auto_8h_source.html#l00378">378</a> of file <a class="el" href="../../d6/d5e/Thrd_8auto_8h_source.html">Thrd.auto.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d5e/Thrd_8auto_8h_source.html#l00361">361</a> of file <a class="el" href="../../d6/d5e/Thrd_8auto_8h_source.html">Thrd.auto.h</a>.</p>
 
 </div>
 </div>
@@ -306,7 +299,7 @@ Macros</h2></td></tr>
 <div class="line">}</div>
 </div><!-- fragment --><p>tparam param </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d5e/Thrd_8auto_8h_source.html#l00391">391</a> of file <a class="el" href="../../d6/d5e/Thrd_8auto_8h_source.html">Thrd.auto.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d5e/Thrd_8auto_8h_source.html#l00374">374</a> of file <a class="el" href="../../d6/d5e/Thrd_8auto_8h_source.html">Thrd.auto.h</a>.</p>
 
 </div>
 </div>

@@ -34,7 +34,6 @@ $(function() { codefold.init(); });
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="../../index.html"><span>Main&#160;Page</span></a></li>
-      <li><a href="../../pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="../../namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="../../annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="../../files.html"><span>Files</span></a></li>
@@ -57,7 +56,37 @@ $(function() { codefold.init(); });
   <div class="headertitle"><div class="title">Ftx.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d3/de9/Ftx_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<a href="../../d3/de9/Ftx_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/** </span></div>
+<div class="line"><span class="lineno">    2</span><span class="comment"> * @file Ftx.h</span></div>
+<div class="line"><span class="lineno">    3</span><span class="comment"> * System call which makes thread wait until certain memory changes.</span></div>
+<div class="line"><span class="lineno">    4</span><span class="comment"> * */</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#</span><span class="preprocessor">ifndef</span> <span class="preprocessor">ae2f_Sys_Futex_h</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#</span><span class="preprocessor">define</span> <span class="preprocessor">ae2f_Sys_Futex_h</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#</span><span class="preprocessor">include</span> <span class="preprocessor">&quot;./Ftx.core.h&quot;</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#</span><span class="preprocessor">include</span> <span class="preprocessor">&quot;./Ftx.auto.h&quot;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="comment">/** @brief Futex address element type. */</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="../../d3/de9/Ftx_8h.html#ae6783215cc7c3f017a72a9db8ac03a04">   13</a></span><span class="keyword">typedef</span> <a class="code hl_define" href="../../db/d70/Ftx_8core_8h.html#aa0a9a85390ffd6853c408fb677b89223">_ae2f_SysFtxEl_t</a>    <a class="code hl_typedef" href="../../d3/de9/Ftx_8h.html#ae6783215cc7c3f017a72a9db8ac03a04">ae2f_SysFtxEl_t</a>;</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="comment">/** </span></div>
+<div class="line"><span class="lineno">   16</span><span class="comment"> * @brief </span></div>
+<div class="line"><span class="lineno">   17</span><span class="comment"> * State for futex operation.</span></div>
+<div class="line"><span class="lineno">   18</span><span class="comment"> *</span></div>
+<div class="line"><span class="lineno">   19</span><span class="comment"> * 0 would be succesful.</span></div>
+<div class="line"><span class="lineno">   20</span><span class="comment"> * others would be error.</span></div>
+<div class="line"><span class="lineno">   21</span><span class="comment"> * */</span></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="../../d3/de9/Ftx_8h.html#ab13f66f1b450667d8d1f01faff99f6f4">   22</a></span><span class="keyword">typedef</span> <a class="code hl_define" href="../../db/d70/Ftx_8core_8h.html#a25900ea2e4772365315b8abfdb4bd192">_ae2f_SysFtxRet_t</a>   <a class="code hl_typedef" href="../../d3/de9/Ftx_8h.html#ab13f66f1b450667d8d1f01faff99f6f4">ae2f_SysFtxRet_t</a>;</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="preprocessor">#</span><span class="preprocessor">endif</span></div>
+<div class="ttc" id="aFtx_8core_8h_html_a25900ea2e4772365315b8abfdb4bd192"><div class="ttname"><a href="../../db/d70/Ftx_8core_8h.html#a25900ea2e4772365315b8abfdb4bd192">_ae2f_SysFtxRet_t</a></div><div class="ttdeci">#define _ae2f_SysFtxRet_t</div><div class="ttdef"><b>Definition</b> <a href="../../db/d70/Ftx_8core_8h_source.html#l00029">Ftx.core.h:29</a></div></div>
+<div class="ttc" id="aFtx_8core_8h_html_aa0a9a85390ffd6853c408fb677b89223"><div class="ttname"><a href="../../db/d70/Ftx_8core_8h.html#aa0a9a85390ffd6853c408fb677b89223">_ae2f_SysFtxEl_t</a></div><div class="ttdeci">#define _ae2f_SysFtxEl_t</div><div class="ttdef"><b>Definition</b> <a href="../../db/d70/Ftx_8core_8h_source.html#l00028">Ftx.core.h:28</a></div></div>
+<div class="ttc" id="aFtx_8h_html_ab13f66f1b450667d8d1f01faff99f6f4"><div class="ttname"><a href="../../d3/de9/Ftx_8h.html#ab13f66f1b450667d8d1f01faff99f6f4">ae2f_SysFtxRet_t</a></div><div class="ttdeci">_ae2f_SysFtxRet_t ae2f_SysFtxRet_t</div><div class="ttdoc">State for futex operation.</div><div class="ttdef"><b>Definition</b> <a href="#l00022">Ftx.h:22</a></div></div>
+<div class="ttc" id="aFtx_8h_html_ae6783215cc7c3f017a72a9db8ac03a04"><div class="ttname"><a href="../../d3/de9/Ftx_8h.html#ae6783215cc7c3f017a72a9db8ac03a04">ae2f_SysFtxEl_t</a></div><div class="ttdeci">_ae2f_SysFtxEl_t ae2f_SysFtxEl_t</div><div class="ttdoc">Futex address element type.</div><div class="ttdef"><b>Definition</b> <a href="#l00013">Ftx.h:13</a></div></div>
+<div class="ttc" id="aSys_8h_html_a9c41f0869f39954c692696ff838a99a1"><div class="ttname"><a href="../../d5/dba/Sys_8h.html#a9c41f0869f39954c692696ff838a99a1">ae2f_Sys__linux</a></div><div class="ttdeci">#define ae2f_Sys__linux</div><div class="ttdef"><b>Definition</b> <a href="../../d5/dba/Sys_8h_source.html#l00014">Sys.h:14</a></div></div>
+<div class="ttc" id="aSys_8h_html_aa84032fbecc229cdf2b04ac70624d666"><div class="ttname"><a href="../../d5/dba/Sys_8h.html#aa84032fbecc229cdf2b04ac70624d666">ae2f_Sys_WIN</a></div><div class="ttdeci">#define ae2f_Sys_WIN</div><div class="ttdef"><b>Definition</b> <a href="../../d5/dba/Sys_8h_source.html#l00017">Sys.h:17</a></div></div>
+<div class="ttc" id="amac_8h_html_af1512227391edea638a961071a34e8c7"><div class="ttname"><a href="../../df/dcd/mac_8h.html#af1512227391edea638a961071a34e8c7">ae2f_MAC</a></div><div class="ttdeci">#define ae2f_MAC(...)</div><div class="ttdef"><b>Definition</b> <a href="../../df/dcd/mac_8h_source.html#l00028">mac.h:28</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

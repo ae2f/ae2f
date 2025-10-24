@@ -34,7 +34,6 @@ $(function() { codefold.init(); });
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="../../index.html"><span>Main&#160;Page</span></a></li>
-      <li><a href="../../pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="../../namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="../../annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="../../files.html"><span>Files</span></a></li>
@@ -57,7 +56,30 @@ $(function() { codefold.init(); });
   <div class="headertitle"><div class="title">PgAlloc.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="../../df/dcf/PgAlloc_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/**</span></div>
+<div class="line"><span class="lineno">    2</span><span class="comment"> * @file MAlloc.h</span></div>
+<div class="line"><span class="lineno">    3</span><span class="comment"> * Simple memory allocation. (same as malloc. process independent)  \n</span></div>
+<div class="line"><span class="lineno">    4</span><span class="comment"> * Uses the length of the memory for freeing.</span></div>
+<div class="line"><span class="lineno">    5</span><span class="comment"> *</span></div>
+<div class="line"><span class="lineno">    6</span><span class="comment"> * ae2f_SysMAlloc</span></div>
+<div class="line"><span class="lineno">    7</span><span class="comment"> * ae2f_SysFree</span></div>
+<div class="line"><span class="lineno">    8</span><span class="comment"> * */</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#</span><span class="preprocessor">ifndef</span> <span class="preprocessor">ae2f_Sys_MAlloc_h</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#</span><span class="preprocessor">define</span> <span class="preprocessor">ae2f_Sys_MAlloc_h</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#</span><span class="preprocessor">include</span> <span class="preprocessor">&lt;</span><span class="preprocessor">ae2f</span><span class="preprocessor">/</span><span class="preprocessor">Cast</span><span class="preprocessor">.</span><span class="preprocessor">h</span><span class="preprocessor">&gt;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#</span><span class="preprocessor">include</span> <span class="preprocessor">&quot;../Sys.h&quot;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#</span><span class="preprocessor">include</span> <span class="preprocessor">&quot;./PgAlloc.auto.h&quot;</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#</span><span class="preprocessor">if</span> <a class="code hl_define" href="../../d5/dba/Sys_8h.html#aa84032fbecc229cdf2b04ac70624d666">ae2f_Sys_WIN</a><span class="preprocessor">(</span><span class="preprocessor">!</span><span class="preprocessor">)</span>0</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#</span><span class="preprocessor">else</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#</span><span class="preprocessor">include</span> <span class="preprocessor">&lt;</span><span class="preprocessor">sys</span><span class="preprocessor">/</span><span class="preprocessor">mman</span><span class="preprocessor">.</span><span class="preprocessor">h</span><span class="preprocessor">&gt;</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#</span><span class="preprocessor">include</span> <span class="preprocessor">&lt;</span><span class="preprocessor">unistd</span><span class="preprocessor">.</span><span class="preprocessor">h</span><span class="preprocessor">&gt;</span></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">#</span><span class="preprocessor">endif</span></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="preprocessor">#</span><span class="preprocessor">endif</span></div>
+<div class="ttc" id="aSys_8h_html_aa84032fbecc229cdf2b04ac70624d666"><div class="ttname"><a href="../../d5/dba/Sys_8h.html#aa84032fbecc229cdf2b04ac70624d666">ae2f_Sys_WIN</a></div><div class="ttdeci">#define ae2f_Sys_WIN</div><div class="ttdef"><b>Definition</b> <a href="../../d5/dba/Sys_8h_source.html#l00017">Sys.h:17</a></div></div>
+<div class="ttc" id="amac_8h_html_af1512227391edea638a961071a34e8c7"><div class="ttname"><a href="../../df/dcd/mac_8h.html#af1512227391edea638a961071a34e8c7">ae2f_MAC</a></div><div class="ttdeci">#define ae2f_MAC(...)</div><div class="ttdef"><b>Definition</b> <a href="../../df/dcd/mac_8h_source.html#l00028">mac.h:28</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

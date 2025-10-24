@@ -534,7 +534,7 @@ TIMESTAMP              = NO
 # normally produced when WARNINGS is set to YES.
 # The default value is: NO.
 
-EXTRACT_ALL            = YES
+EXTRACT_ALL            = NO
 
 # If the EXTRACT_PRIVATE tag is set to YES, all private members of a class will
 # be included in the documentation.
@@ -1338,7 +1338,7 @@ CLANG_ADD_INC_PATHS    = YES
 # specified with INPUT and INCLUDE_PATH.
 # This tag requires that the tag CLANG_ASSISTED_PARSING is set to YES.
 
-CLANG_OPTIONS          = -I/usr/include -I/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include
+CLANG_OPTIONS          = -I/usr/include -I/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include -Dae2f_NEED_CLASS=1
 
 # If clang assisted parsing is enabled you can provide the clang parser with the
 # path to the directory containing a file called compile_commands.json. This
