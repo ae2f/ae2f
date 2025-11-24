@@ -6,6 +6,7 @@
 <filterAttribute>doxygen</filterAttribute>
 <toc>
 <section title="ae2f_docs" ref="index.html">
+<section title="Deprecated List" ref="da/d58/deprecated.html"/>
 <section title="Namespaces" ref="namespaces.html">
 <section title="Namespace List" ref="namespaces.html">
 <section title="___DOC_CMAKE" ref="d1/d61/namespace______DOC__CMAKE.html">
@@ -20,27 +21,11 @@
 <section title="ae2f_DOC" ref="d1/d61/namespace______DOC__CMAKE.html#a32c7e78a95249378c4352511b99a4940"/>
 <section title="ae2f_IS_SHARED" ref="d1/d61/namespace______DOC__CMAKE.html#a5ddf0a31b1f0d18876fa8ff1ec3ec80f"/>
 <section title="ae2f_LIBPREFIX" ref="d1/d61/namespace______DOC__CMAKE.html#a350659b7580f97a8eeacea9fcb8412ea"/>
-<section title="ae2f_packcount" ref="d1/d61/namespace______DOC__CMAKE.html#a158d84350add394f1fe8cb1af10ba2d3"/>
+<section title="ae2f_packcount" ref="d1/d61/namespace______DOC__CMAKE.html#a7337c983f48da36ef5892af24fc5109c"/>
 <section title="ae2f_ProjRoot" ref="d1/d61/namespace______DOC__CMAKE.html#ab6d1227eed33ed383a1ec8df9847c7b7"/>
 <section title="ae2f_TEST" ref="d1/d61/namespace______DOC__CMAKE.html#a66c56cb14a6675a093a9a6e0834ccc7e"/>
 </section>
-<section title="ae2f" ref="d4/ddc/namespaceae2f.html">
-<section title="errGlobState" ref="d4/db7/structae2f_1_1errGlobState.html">
-<section title="msgall" ref="d4/db7/structae2f_1_1errGlobState.html#ac09c7bdd330dd51fab924dea11256f6d"/>
-<section title="msgall" ref="d4/db7/structae2f_1_1errGlobState.html#ac09c7bdd330dd51fab924dea11256f6d"/>
-<section title="peek" ref="d4/db7/structae2f_1_1errGlobState.html#aefcb3eb5ba74ef67f309834a9878c6ec"/>
-<section title="peek" ref="d4/db7/structae2f_1_1errGlobState.html#aefcb3eb5ba74ef67f309834a9878c6ec"/>
-<section title="pop" ref="d4/db7/structae2f_1_1errGlobState.html#a03f7d9e4112edd6cbff8762713e544bf"/>
-<section title="pop" ref="d4/db7/structae2f_1_1errGlobState.html#a03f7d9e4112edd6cbff8762713e544bf"/>
-</section>
-<section title="errGlobThrown" ref="d1/df7/classae2f_1_1errGlobThrown.html">
-</section>
-<section title="rBitVec" ref="d7/daf/classae2f_1_1rBitVec.html">
-<section title="obj" ref="d7/daf/classae2f_1_1rBitVec.html#a263f40bf79b771b35786f8e1a72aabf3"/>
-</section>
-<section title="xfpCmp_t" ref="d4/ddc/namespaceae2f.html#a7ce41e5db09dc16b8b98cbb249b07a7d"/>
-<section title="xfpCmp" ref="d4/ddc/namespaceae2f.html#aa2efd815ff589c1b3efdaaf22dd90885"/>
-</section>
+<section title="ae2f" ref="d4/ddc/namespaceae2f.html"/>
 </section>
 <section title="Namespace Members" ref="namespacemembers.html">
 <section title="All" ref="namespacemembers.html"/>
@@ -51,24 +36,171 @@
 </section>
 <section title="Classes" ref="annotated.html">
 <section title="Class List" ref="annotated.html">
-<section title="ae2f" ref="d4/ddc/namespaceae2f.html">
-<section title="errGlobState" ref="d4/db7/structae2f_1_1errGlobState.html">
-<section title="msgall" ref="d4/db7/structae2f_1_1errGlobState.html#ac09c7bdd330dd51fab924dea11256f6d"/>
-<section title="msgall" ref="d4/db7/structae2f_1_1errGlobState.html#ac09c7bdd330dd51fab924dea11256f6d"/>
-<section title="peek" ref="d4/db7/structae2f_1_1errGlobState.html#aefcb3eb5ba74ef67f309834a9878c6ec"/>
-<section title="peek" ref="d4/db7/structae2f_1_1errGlobState.html#aefcb3eb5ba74ef67f309834a9878c6ec"/>
-<section title="pop" ref="d4/db7/structae2f_1_1errGlobState.html#a03f7d9e4112edd6cbff8762713e544bf"/>
-<section title="pop" ref="d4/db7/structae2f_1_1errGlobState.html#a03f7d9e4112edd6cbff8762713e544bf"/>
+<section title="ae2f_AnnMlp_t" ref="da/d2e/structae2f__AnnMlp__t.html">
+<section title="m_depth" ref="da/d2e/structae2f__AnnMlp__t.html#a0212f775b416ad2f219478b74a705302"/>
+<section title="m_outc" ref="da/d2e/structae2f__AnnMlp__t.html#afc65eaf50876284b4f4d6b0a2943e945"/>
+<section title="m_weightc" ref="da/d2e/structae2f__AnnMlp__t.html#a386352f9e6763f0a52a1494bbe867df4"/>
 </section>
-<section title="errGlobThrown" ref="d1/df7/classae2f_1_1errGlobThrown.html">
+<section title="ae2f_AnnMlpBwdAll_t" ref="d9/dfb/structae2f__AnnMlpBwdAll__t.html">
+<section title="m_i" ref="d9/dfb/structae2f__AnnMlpBwdAll__t.html#a1b4d7a0b25886fca04fd60204a7857c5"/>
+<section title="m_k" ref="d9/dfb/structae2f__AnnMlpBwdAll__t.html#aedf3fb7ccd7ec4325c69d9e34a3e4ba6"/>
+<section title="m_pg_out" ref="d9/dfb/structae2f__AnnMlpBwdAll__t.html#a789a85168a4adbd2a427e01302cf03f3"/>
+<section title="m_pg_weight" ref="d9/dfb/structae2f__AnnMlpBwdAll__t.html#a9b3dd8e480206793513e35927fb1daae"/>
+<section title="m_ret" ref="d9/dfb/structae2f__AnnMlpBwdAll__t.html#a8dbef57ed879a8ae66fe21711601a72b"/>
+<section title="m_stack" ref="d9/dfb/structae2f__AnnMlpBwdAll__t.html#a82ac47d2ea93b9302ef57d80530f995b"/>
 </section>
-<section title="rBitVec" ref="d7/daf/classae2f_1_1rBitVec.html">
-<section title="obj" ref="d7/daf/classae2f_1_1rBitVec.html#a263f40bf79b771b35786f8e1a72aabf3"/>
+<section title="ae2f_AnnMlpBwdAllStack_t" ref="da/d2a/unionae2f__AnnMlpBwdAllStack__t.html">
 </section>
+<section title="ae2f_AnnMlpHidDeltaSingle_t" ref="df/d1b/structae2f__AnnMlpHidDeltaSingle__t.html">
+<section title="m_i" ref="df/d1b/structae2f__AnnMlpHidDeltaSingle__t.html#aef497dbc1a9ddc05f1b0d9d75fdcfbb9"/>
+<section title="m_outc" ref="df/d1b/structae2f__AnnMlpHidDeltaSingle__t.html#ae913b28c3cf5c35eab8d8cb2fc8fec3d"/>
+<section title="m_ret" ref="df/d1b/structae2f__AnnMlpHidDeltaSingle__t.html#a0605467f0c461331b1d19cb93b8cbe70"/>
 </section>
-<section title="__prmbool" ref="d7/d59/struct____prmbool.html">
+<section title="ae2f_AnnMlpInit_t" ref="d7/dfc/structae2f__AnnMlpInit__t.html">
+<section title="m_i" ref="d7/dfc/structae2f__AnnMlpInit__t.html#adc837b334325823fa5857c81ec418174"/>
+<section title="m_outc" ref="d7/dfc/structae2f__AnnMlpInit__t.html#a2bedfee76d8c6bbfa2b234e89c2b1978"/>
+</section>
+<section title="ae2f_AnnMlpInitMkPtr_t" ref="d5/d7e/unionae2f__AnnMlpInitMkPtr__t.html">
+<section title="m_Act" ref="d5/d7e/unionae2f__AnnMlpInitMkPtr__t.html#a348eb2e89d5517563fb96720393ccdb6"/>
+<section title="m_byte" ref="d5/d7e/unionae2f__AnnMlpInitMkPtr__t.html#a2fc180db973cbf81560e6acf522e1ab5"/>
+<section title="m_f" ref="d5/d7e/unionae2f__AnnMlpInitMkPtr__t.html#a5330399212041fde42639284d8e49591"/>
+<section title="m_Loss" ref="d5/d7e/unionae2f__AnnMlpInitMkPtr__t.html#a441e1219c351e53ca005cd42f015b256"/>
+<section title="m_mlp" ref="d5/d7e/unionae2f__AnnMlpInitMkPtr__t.html#abf6811ab1161f2a4475cc1759ec93a34"/>
+<section title="m_ptr" ref="d5/d7e/unionae2f__AnnMlpInitMkPtr__t.html#adcdd1261946d7d05db7045cf1d8bc2f9"/>
+<section title="m_sz" ref="d5/d7e/unionae2f__AnnMlpInitMkPtr__t.html#a9d5ae6e5c13fa4141fa580d1f08b48be"/>
+<section title="m_void" ref="d5/d7e/unionae2f__AnnMlpInitMkPtr__t.html#aa757a1b5129693406d2751181518140c"/>
+</section>
+<section title="ae2f_AnnMlpMk_t" ref="df/d4b/structae2f__AnnMlpMk__t.html">
+<section title="m_i" ref="df/d4b/structae2f__AnnMlpMk__t.html#a7cfbb5b065b1dd0044d20609c3968d50"/>
+<section title="m_mkbase" ref="df/d4b/structae2f__AnnMlpMk__t.html#a042382b2f35937e19def61629d78b26c"/>
+<section title="m_mkptr" ref="df/d4b/structae2f__AnnMlpMk__t.html#a7d3d4a1e483812102893cbde15a456ee"/>
+<section title="m_outc" ref="df/d4b/structae2f__AnnMlpMk__t.html#aa1e2fe11beb97ab73d4dfa6e98fa138c"/>
+<section title="m_weightc" ref="df/d4b/structae2f__AnnMlpMk__t.html#a209340137ed27c840826c5db35d43faa"/>
+</section>
+<section title="ae2f_AnnMlpPredict_t" ref="d4/df7/structae2f__AnnMlpPredict__t.html">
+<section title="m_inc" ref="d4/df7/structae2f__AnnMlpPredict__t.html#aad3f935975a231ff96bd48d0fa495a64"/>
+<section title="m_ret" ref="d4/df7/structae2f__AnnMlpPredict__t.html#af77bf11163ed71ee08e231044333997b"/>
+</section>
+<section title="ae2f_AnnMlpTrain_t" ref="d5/dfd/structae2f__AnnMlpTrain__t.html">
+<section title="m_depth" ref="d5/dfd/structae2f__AnnMlpTrain__t.html#ae98de938a201f0317f1ec04695002e82"/>
+<section title="m_i" ref="d5/dfd/structae2f__AnnMlpTrain__t.html#a4cf48d1239ebb0f99388659e33e76c85"/>
+<section title="m_k" ref="d5/dfd/structae2f__AnnMlpTrain__t.html#a39a845dbf6ef1d96b40c3797bc9fa266"/>
+<section title="m_outc_max" ref="d5/dfd/structae2f__AnnMlpTrain__t.html#aaeb502995a3ac177253e71b28d4bf009"/>
+<section title="m_pg_out" ref="d5/dfd/structae2f__AnnMlpTrain__t.html#ae57a9e35df4f245c5e1b5eb6a258fdfa"/>
+<section title="m_pg_weight" ref="d5/dfd/structae2f__AnnMlpTrain__t.html#a03847b17977ec608c3b57bacc0bdd3e8"/>
+<section title="m_ret" ref="d5/dfd/structae2f__AnnMlpTrain__t.html#afe92de808a1328d203646dce01844822"/>
+<section title="m_stack" ref="d5/dfd/structae2f__AnnMlpTrain__t.html#a52e033067f1a35c1e712929b0472ece8"/>
+</section>
+<section title="ae2f_AnnSlp_t" ref="d0/d13/structae2f__AnnSlp__t.html">
+<section title="m_inc" ref="d0/d13/structae2f__AnnSlp__t.html#a5192aa494fe7f31ded8ffd3d0705fa99"/>
+<section title="m_outc" ref="d0/d13/structae2f__AnnSlp__t.html#ad65eee89db2b059e05e9188aface0eef"/>
+</section>
+<section title="ae2f_AnnSlpFit_t" ref="d6/dfd/structae2f__AnnSlpFit__t.html">
+<section title="m_i" ref="d6/dfd/structae2f__AnnSlpFit__t.html#a6b71c200e620aec859d81baf9eb9195e"/>
+</section>
+<section title="ae2f_AnnSlpFitRAM_t" ref="de/d8d/structae2f__AnnSlpFitRAM__t.html">
+</section>
+<section title="ae2f_AnnSlpFollow_t" ref="d5/d6f/structae2f__AnnSlpFollow__t.html">
+<section title="m_i" ref="d5/d6f/structae2f__AnnSlpFollow__t.html#a06a055e5c7b20854fb758994c85c2d52"/>
+</section>
+<section title="ae2f_AnnSlpFollowOne_t" ref="d1/d9b/structae2f__AnnSlpFollowOne__t.html">
+<section title="m_j" ref="d1/d9b/structae2f__AnnSlpFollowOne__t.html#ac0cdd5cba8d274db87abb3ede21e7c72"/>
+</section>
+<section title="ae2f_AnnSlpMk_t" ref="d8/d44/structae2f__AnnSlpMk__t.html">
+<section title="m_fieldptr" ref="d8/d44/structae2f__AnnSlpMk__t.html#a927696c325373e5e4e899f33b4349891"/>
+<section title="m_ptr" ref="d8/d44/structae2f__AnnSlpMk__t.html#af279f69bd9aa68c3ae0d53428cff16b5"/>
+<section title="m_stack" ref="d8/d44/structae2f__AnnSlpMk__t.html#a7a4cbc56afd583e92eb0a9fe15d7e2ac"/>
+</section>
+<section title="ae2f_AnnSlpMkU0_t" ref="d1/d28/unionae2f__AnnSlpMkU0__t.html">
+</section>
+<section title="ae2f_AnnSlpPredict_t" ref="dd/dde/structae2f__AnnSlpPredict__t.html">
+<section title="m_i" ref="dd/dde/structae2f__AnnSlpPredict__t.html#a76eaa723eb8d5e67c7b533544dd4e4fd"/>
+</section>
+<section title="ae2f_AnnSlpPredictOne_t" ref="d4/d66/structae2f__AnnSlpPredictOne__t.html">
+</section>
+<section title="ae2f_AnnSlpTrain_t" ref="d9/d5a/structae2f__AnnSlpTrain__t.html">
+<section title="m_i" ref="d9/d5a/structae2f__AnnSlpTrain__t.html#a57535cdfb7fd791151dcf2af04a90771"/>
+</section>
+<section title="ae2f_AnnSlpTrainOne_t" ref="d1/d0c/structae2f__AnnSlpTrainOne__t.html">
+</section>
+<section title="ae2f_AnnSlpTrainREG_t" ref="dd/d3a/structae2f__AnnSlpTrainREG__t.html">
+</section>
+<section title="ae2f_MMap" ref="d2/d5d/structae2f__MMap.html">
+</section>
+<section title="ae2f_mMMap" ref="d6/db9/structae2f__mMMap.html">
+<section title="m_dim" ref="d6/db9/structae2f__mMMap.html#a9d8bed9cbd6a76e294ba98ad9b1e3487"/>
+</section>
+<section title="ae2f_mMMapFieldIdx_t" ref="d0/de9/structae2f__mMMapFieldIdx__t.html">
+</section>
+<section title="ae2f_mMMapInit_t" ref="d6/d6e/structae2f__mMMapInit__t.html">
+</section>
+<section title="ae2f_mMMapMk_t" ref="df/dcc/structae2f__mMMapMk__t.html">
+</section>
+<section title="ae2f_mMMapSz_t" ref="d2/d55/structae2f__mMMapSz__t.html">
+<section title="m_ret" ref="d2/d55/structae2f__mMMapSz__t.html#a7fbdbcc7282d2e088755e5e159c910f5"/>
+</section>
+<section title="ae2f_SysThrd" ref="d4/dd1/structae2f__SysThrd.html">
+<section title="ae2f_Sys__linux" ref="d4/dd1/structae2f__SysThrd.html#ae0b6e566d8bb0645f3746ed25af95b44"/>
+<section title="m_id" ref="d4/dd1/structae2f__SysThrd.html#ab7f2b6c8c2588992e55fca8c958d7670"/>
 </section>
 <section title="ae2fCL_LcgRandSeed_t" ref="dc/dd2/unionae2fCL__LcgRandSeed__t.html">
+</section>
+<section title="ae2fVK_AnnMlp" ref="db/d2b/structae2fVK__AnnMlp.html">
+</section>
+<section title="ae2fVK_AnnMlpMk_t" ref="db/d85/structae2fVK__AnnMlpMk__t.html">
+</section>
+<section title="ae2fVK_AnnMlpMkRet_t" ref="d1/d70/structae2fVK__AnnMlpMkRet__t.html">
+</section>
+<section title="ae2fVK_AnnMlpMkU0_t" ref="d8/d66/unionae2fVK__AnnMlpMkU0__t.html">
+</section>
+<section title="ae2fVK_AnnMlpMkU0Swap_t" ref="d2/d19/structae2fVK__AnnMlpMkU0Swap__t.html">
+<section title="m_i" ref="d2/d19/structae2fVK__AnnMlpMkU0Swap__t.html#a5db01f2ab3638b2707e147ef3b99737b"/>
+<section title="m_mkbase" ref="d2/d19/structae2fVK__AnnMlpMkU0Swap__t.html#a2e67f8bc025c57abf3ef7e47e131031e"/>
+<section title="m_mkptr" ref="d2/d19/structae2fVK__AnnMlpMkU0Swap__t.html#aa950f51e2c6db3c13bb4e076a396c1c1"/>
+<section title="m_outc" ref="d2/d19/structae2fVK__AnnMlpMkU0Swap__t.html#ae64b8daf6b7e0dadd83163a7b5f5b778"/>
+</section>
+<section title="ae2fVK_AnnMlpMkU1_t" ref="d6/d98/unionae2fVK__AnnMlpMkU1__t.html">
+</section>
+<section title="ae2fVK_AnnMlpMkU2_t" ref="df/d82/unionae2fVK__AnnMlpMkU2__t.html">
+</section>
+<section title="ae2fVK_AnnMlpMkU3_t" ref="d7/d92/unionae2fVK__AnnMlpMkU3__t.html">
+</section>
+<section title="ae2fVK_AnnMlpMkU4_t" ref="dd/d64/structae2fVK__AnnMlpMkU4__t.html">
+</section>
+<section title="ae2fVK_AnnSlp" ref="dc/d91/structae2fVK__AnnSlp.html">
+</section>
+<section title="ae2fVK_AnnSlpCreatDescPool_t" ref="dc/d64/structae2fVK__AnnSlpCreatDescPool__t.html">
+</section>
+<section title="ae2fVK_AnnSlpCreatDescPoolU0_t" ref="d6/d19/structae2fVK__AnnSlpCreatDescPoolU0__t.html">
+</section>
+<section title="ae2fVK_AnnSlpDescPool" ref="d0/d50/structae2fVK__AnnSlpDescPool.html">
+</section>
+<section title="ae2fVK_AnnSlpDescPoolCmd" ref="df/d6f/structae2fVK__AnnSlpDescPoolCmd.html">
+</section>
+<section title="ae2fVK_AnnSlpDescPoolCmdMk_t" ref="da/d02/structae2fVK__AnnSlpDescPoolCmdMk__t.html">
+<section title="m_u0" ref="da/d02/structae2fVK__AnnSlpDescPoolCmdMk__t.html#a354dedd46ef5c3d9eb7bf191a00057e9"/>
+</section>
+<section title="ae2fVK_AnnSlpMk_t" ref="d8/d08/structae2fVK__AnnSlpMk__t.html">
+<section title="m_reterr" ref="d8/d08/structae2fVK__AnnSlpMk__t.html#ae22ca5daa2068fd3f95c61b29ce13abb"/>
+</section>
+<section title="ae2fVK_AnnSlpMkAlter_t" ref="dc/dac/structae2fVK__AnnSlpMkAlter__t.html">
+<section title="m_ptr" ref="dc/dac/structae2fVK__AnnSlpMkAlter__t.html#a71d32e26ae14f490221ddebc75d33f1d"/>
+<section title="m_stack" ref="dc/dac/structae2fVK__AnnSlpMkAlter__t.html#a693791f11674cd9c812a279e0cfe8310"/>
+</section>
+<section title="ae2fVK_AnnSlpMkU0_t" ref="dd/dee/unionae2fVK__AnnSlpMkU0__t.html">
+</section>
+<section title="ae2fVK_AnnSlpMkU1_t" ref="d3/d95/unionae2fVK__AnnSlpMkU1__t.html">
+</section>
+<section title="ae2fVK_AnnSlpMkU2_t" ref="de/df1/unionae2fVK__AnnSlpMkU2__t.html">
+<section title="m_vkdescsetlayoutbind" ref="de/df1/unionae2fVK__AnnSlpMkU2__t.html#aae055d6787039991f62ff7143232f812"/>
+</section>
+<section title="ae2fVK_AnnSlpMkU2S0_t" ref="d5/da7/structae2fVK__AnnSlpMkU2S0__t.html">
+</section>
+<section title="ae2fVK_AnnSlpMkU3_t" ref="db/d6a/unionae2fVK__AnnSlpMkU3__t.html">
+</section>
+<section title="ae2fVK_AnnSlpPredictUnion0_t" ref="d8/d70/unionae2fVK__AnnSlpPredictUnion0__t.html">
+</section>
+<section title="ae2fVK_AnnSlpPredictUnion0WrDescInfo_t" ref="d4/d0a/structae2fVK__AnnSlpPredictUnion0WrDescInfo__t.html">
 </section>
 <section title="c89atomic_bitmap_allocator" ref="de/de1/structc89atomic__bitmap__allocator.html">
 </section>
@@ -81,6 +213,12 @@
 <section title="FLAGS_t" ref="d6/d66/structFLAGS__t.html">
 <section title="m_Key" ref="d6/d66/structFLAGS__t.html#ada83459e01c3e5a5e991153017eb061c"/>
 </section>
+<section title="lr_t" ref="d9/dcc/structlr__t.html">
+</section>
+<section title="lrlsz_t" ref="d2/d3d/structlrlsz__t.html">
+</section>
+<section title="lrlszel_t" ref="dd/d10/unionlrlszel__t.html">
+</section>
 <section title="STACK_T" ref="d4/dc0/structSTACK__T.html">
 </section>
 <section title="sz2_t" ref="da/de5/structsz2__t.html">
@@ -89,24 +227,6 @@
 </section>
 </section>
 <section title="Class Index" ref="classes.html"/>
-<section title="Class Hierarchy" ref="hierarchy.html">
-<section title="__prmbool" ref="d7/d59/struct____prmbool.html"/>
-<section title="ae2fCL_LcgRandSeed_t" ref="dc/dd2/unionae2fCL__LcgRandSeed__t.html"/>
-<section title="c89atomic_bitmap_allocator" ref="de/de1/structc89atomic__bitmap__allocator.html"/>
-<section title="c89atomic_deque" ref="d1/d8e/structc89atomic__deque.html"/>
-<section title="c89atomic_if32" ref="d0/d2a/unionc89atomic__if32.html"/>
-<section title="c89atomic_if64" ref="d8/d7c/unionc89atomic__if64.html"/>
-<section title="ae2f::errGlobState" ref="d4/db7/structae2f_1_1errGlobState.html"/>
-<section title="std::exception" ref="doxygen_blank.html">
-<section title="ae2f::errGlobThrown" ref="d1/df7/classae2f_1_1errGlobThrown.html"/>
-<section title="ae2f::errGlobThrown" ref="d1/df7/classae2f_1_1errGlobThrown.html"/>
-</section>
-<section title="FLAGS_t" ref="d6/d66/structFLAGS__t.html"/>
-<section title="ae2f::rBitVec&lt; t &gt;" ref="d7/daf/classae2f_1_1rBitVec.html"/>
-<section title="STACK_T" ref="d4/dc0/structSTACK__T.html"/>
-<section title="sz2_t" ref="da/de5/structsz2__t.html"/>
-<section title="TEST_STACK" ref="d2/da7/unionTEST__STACK.html"/>
-</section>
 <section title="Class Members" ref="functions.html">
 <section title="All" ref="functions.html"/>
 <section title="Functions" ref="functions_func.html"/>
@@ -118,37 +238,6 @@
 <section title="submod" ref="dir_4e28dc93e05d59e4a9b7b88deed6e41d.html">
 <section title="ae2f" ref="dir_bdc54bbd3cb44af239c5b11b78a47f7a.html">
 <section title="Ann" ref="dir_7e056a26e6bd3bf4d1f98e4f3efa0c11.html">
-<section title="build" ref="dir_41c33b045a8cfee8681193fa3fc1580b.html">
-<section title="CMakeFiles" ref="dir_49addb9ec1b03500482aec25b4d6117e.html">
-<section title="4.1.20250919-g4da54e0-dirty" ref="dir_87e6d706e79f3542922129034b856422.html">
-<section title="CompilerIdC" ref="dir_970815efb7c9aa6df35351f2ede9adb7.html">
-<section title="CMakeCCompilerId.c" ref="dc/d83/Ann_2build_2CMakeFiles_24_81_820250919-g4da54e0-dirty_2CompilerIdC_2CMakeCCompilerId_8c_source.html"/>
-</section>
-<section title="CompilerIdCXX" ref="dir_4bebb9cc1ee0fe323cccb178987661f2.html">
-<section title="CMakeCXXCompilerId.cpp" ref="dd/d82/Ann_2build_2CMakeFiles_24_81_820250919-g4da54e0-dirty_2CompilerIdCXX_2CMakeCXXCompilerId_8cpp_source.html"/>
-</section>
-</section>
-</section>
-<section title="submod" ref="dir_02b09628d99bd6c8d08b846f15ddc1d8.html">
-<section title="ae2f" ref="dir_a711c045f531d3fb00c0031d37751c45.html">
-<section title="Core" ref="dir_a7ecb91a6a793a316a7f2ca364b65242.html">
-<section title="ae2f-Core-Test-a.cpp" ref="d3/d6a/ae2f-Core-Test-a_8cpp_source.html"/>
-<section title="ae2f-Core-Test-BitVec.cc" ref="d8/dab/ae2f-Core-Test-BitVec_8cc_source.html"/>
-<section title="ae2f-Core-Test-eval.cc" ref="db/d12/ae2f-Core-Test-eval_8cc_source.html"/>
-<section title="ae2f-Core-Test-main.c" ref="d2/d6b/ae2f-Core-Test-main_8c_source.html"/>
-<section title="ae2f-Core-Test-main.cc" ref="d7/dee/ae2f-Core-Test-main_8cc_source.html"/>
-</section>
-</section>
-</section>
-<section title="ae2f-Ann-Test-Conv.c" ref="d3/d3e/ae2f-Ann-Test-Conv_8c_source.html"/>
-<section title="ae2f-Ann-Test-MlpTrainXOR-Primal.c" ref="de/deb/ae2f-Ann-Test-MlpTrainXOR-Primal_8c_source.html"/>
-<section title="ae2f-Ann-Test-MlpTrainXOR.c" ref="d9/dad/ae2f-Ann-Test-MlpTrainXOR_8c_source.html"/>
-<section title="ae2f-Ann-Test-MlpTrainXOR.cc" ref="d2/d60/ae2f-Ann-Test-MlpTrainXOR_8cc_source.html"/>
-<section title="ae2f-Ann-Test-MlpTrainXORFour.cc" ref="d0/d43/ae2f-Ann-Test-MlpTrainXORFour_8cc_source.html"/>
-<section title="ae2f-Ann-Test-SlpTrainAND-CStyle.cc" ref="dc/dc9/ae2f-Ann-Test-SlpTrainAND-CStyle_8cc_source.html"/>
-<section title="ae2f-Ann-Test-SlpTrainAND.c" ref="dc/d36/ae2f-Ann-Test-SlpTrainAND_8c_source.html"/>
-<section title="ae2f-Ann-Test-SlpTrainAND.cc" ref="d5/d7c/ae2f-Ann-Test-SlpTrainAND_8cc_source.html"/>
-</section>
 <section title="cmake" ref="dir_186d4c66817cfb75fe689b4ec0700243.html">
 <section title="cmake.hpp" ref="d8/d34/Ann_2cmake_2cmake_8hpp.html">
 </section>
@@ -180,31 +269,30 @@
 <section title="ae2f_AnnMhattnKDist" ref="de/d5a/Mhattn_8h.html#ac3626dc0d2bdbbde1eff6fbc18743b63"/>
 <section title="ae2f_structdef" ref="de/d5a/Mhattn_8h.html#a1cf115ab90b0124a54fc01b6bca441c5"/>
 </section>
-<section title="Mlp.auto.h" ref="d1/d97/inc_2ae2f_2Ann_2Mlp_8auto_8h.html">
-<section title="__ae2f_AnnMlpBwd_imp" ref="d1/d97/inc_2ae2f_2Ann_2Mlp_8auto_8h.html#a15e4f21090b7bf739c7550dc8b6ddbdb"/>
-<section title="__ae2f_AnnMlpFollowPrimal" ref="d1/d97/inc_2ae2f_2Ann_2Mlp_8auto_8h.html#ad31ef29beae54bd7c663b2fb13b203df"/>
-<section title="__ae2f_AnnMlpFollowPrimal_imp" ref="d1/d97/inc_2ae2f_2Ann_2Mlp_8auto_8h.html#a73157a71a47523ccdcd016209eab804f"/>
-<section title="__ae2f_AnnMlpHidDeltaSingle_imp" ref="d1/d97/inc_2ae2f_2Ann_2Mlp_8auto_8h.html#a2db66e2053f20d1ee061da99fbc4561d"/>
-<section title="__ae2f_AnnMlpInit_imp" ref="d1/d97/inc_2ae2f_2Ann_2Mlp_8auto_8h.html#ae50b4d02397a659b44f8b791ba00b0ef"/>
-<section title="__ae2f_AnnMlpInitWithOutSz_imp" ref="d1/d97/inc_2ae2f_2Ann_2Mlp_8auto_8h.html#a4f1c19f9461eaa4c3bc54426a1e2ba70"/>
-<section title="__ae2f_AnnMlpMk_C" ref="d1/d97/inc_2ae2f_2Ann_2Mlp_8auto_8h.html#a05dd2bfab406ef1fcb034086e0993e92"/>
-<section title="__ae2f_AnnMlpMk_imp" ref="d1/d97/inc_2ae2f_2Ann_2Mlp_8auto_8h.html#a3aa4fa11af458c8d6d5f637057e60290"/>
-<section title="__ae2f_AnnMlpPredictPrimal" ref="d1/d97/inc_2ae2f_2Ann_2Mlp_8auto_8h.html#ac8ac1d7ee0e56882a08a225678fc016d"/>
-<section title="__ae2f_AnnMlpPredictPrimal_imp" ref="d1/d97/inc_2ae2f_2Ann_2Mlp_8auto_8h.html#a8619c8821cb926f6418c209014e02aba"/>
-<section title="__ae2f_AnnMlpSz_imp" ref="d1/d97/inc_2ae2f_2Ann_2Mlp_8auto_8h.html#a035329d7604984041d54865c9a3ec417"/>
-<section title="__ae2f_AnnMlpTrainAuto_C" ref="d1/d97/inc_2ae2f_2Ann_2Mlp_8auto_8h.html#abc5746395e05b73fe700b1c79cc6795b"/>
-<section title="__ae2f_AnnMlpTrainAutoPrimal" ref="d1/d97/inc_2ae2f_2Ann_2Mlp_8auto_8h.html#abe2ae9d4f8503890d76d6431be1d7c74"/>
-<section title="__ae2f_AnnMlpTrainAutoStream_C" ref="d1/d97/inc_2ae2f_2Ann_2Mlp_8auto_8h.html#ac517c67c7ad65a04a0b3490e9baf5250"/>
-<section title="__ae2f_AnnMlpTrainPrimal" ref="d1/d97/inc_2ae2f_2Ann_2Mlp_8auto_8h.html#a6b9266b6f15a4c9b4855dd36d09f061b"/>
-<section title="__ae2f_AnnMlpTrainPrimal_imp" ref="d1/d97/inc_2ae2f_2Ann_2Mlp_8auto_8h.html#add0ad4866adeb0157f007d03b38722a5"/>
+<section title="Mlp.auto.h" ref="d2/d42/Mlp_8auto_8h.html">
+<section title="__ae2f_AnnMlpBwd_imp" ref="d2/d42/Mlp_8auto_8h.html#a15e4f21090b7bf739c7550dc8b6ddbdb"/>
+<section title="__ae2f_AnnMlpFollowPrimal" ref="d2/d42/Mlp_8auto_8h.html#ad31ef29beae54bd7c663b2fb13b203df"/>
+<section title="__ae2f_AnnMlpFollowPrimal_imp" ref="d2/d42/Mlp_8auto_8h.html#a73157a71a47523ccdcd016209eab804f"/>
+<section title="__ae2f_AnnMlpHidDeltaSingle_imp" ref="d2/d42/Mlp_8auto_8h.html#a2db66e2053f20d1ee061da99fbc4561d"/>
+<section title="__ae2f_AnnMlpInit_imp" ref="d2/d42/Mlp_8auto_8h.html#ae50b4d02397a659b44f8b791ba00b0ef"/>
+<section title="__ae2f_AnnMlpInitWithOutSz_imp" ref="d2/d42/Mlp_8auto_8h.html#a4f1c19f9461eaa4c3bc54426a1e2ba70"/>
+<section title="__ae2f_AnnMlpMk_C" ref="d2/d42/Mlp_8auto_8h.html#a05dd2bfab406ef1fcb034086e0993e92"/>
+<section title="__ae2f_AnnMlpMk_imp" ref="d2/d42/Mlp_8auto_8h.html#a3aa4fa11af458c8d6d5f637057e60290"/>
+<section title="__ae2f_AnnMlpPredictPrimal" ref="d2/d42/Mlp_8auto_8h.html#ac8ac1d7ee0e56882a08a225678fc016d"/>
+<section title="__ae2f_AnnMlpPredictPrimal_imp" ref="d2/d42/Mlp_8auto_8h.html#a8619c8821cb926f6418c209014e02aba"/>
+<section title="__ae2f_AnnMlpSz_imp" ref="d2/d42/Mlp_8auto_8h.html#a035329d7604984041d54865c9a3ec417"/>
+<section title="__ae2f_AnnMlpTrainAuto_C" ref="d2/d42/Mlp_8auto_8h.html#abc5746395e05b73fe700b1c79cc6795b"/>
+<section title="__ae2f_AnnMlpTrainAutoPrimal" ref="d2/d42/Mlp_8auto_8h.html#abe2ae9d4f8503890d76d6431be1d7c74"/>
+<section title="__ae2f_AnnMlpTrainAutoStream_C" ref="d2/d42/Mlp_8auto_8h.html#ac517c67c7ad65a04a0b3490e9baf5250"/>
+<section title="__ae2f_AnnMlpTrainPrimal" ref="d2/d42/Mlp_8auto_8h.html#a6b9266b6f15a4c9b4855dd36d09f061b"/>
+<section title="__ae2f_AnnMlpTrainPrimal_imp" ref="d2/d42/Mlp_8auto_8h.html#add0ad4866adeb0157f007d03b38722a5"/>
 </section>
 <section title="Mlp.core.h" ref="df/d42/Ann_2Mlp_8core_8h_source.html"/>
 <section title="Mlp.h" ref="d6/db0/inc_2ae2f_2Ann_2Mlp_8h.html">
 <section title="__ae2f_AnnMlpTrainAuto_C" ref="d6/db0/inc_2ae2f_2Ann_2Mlp_8h.html#abc5746395e05b73fe700b1c79cc6795b"/>
 <section title="__ae2f_AnnMlpTrainAutoStream_C" ref="d6/db0/inc_2ae2f_2Ann_2Mlp_8h.html#ac517c67c7ad65a04a0b3490e9baf5250"/>
-<section title="ae2f_structdef" ref="d6/db0/inc_2ae2f_2Ann_2Mlp_8h.html#a5720acb65c48c55af88045b5d4c189d5"/>
 </section>
-<section title="Slp.auto.h" ref="dd/d9f/inc_2ae2f_2Ann_2Slp_8auto_8h_source.html"/>
+<section title="Slp.auto.h" ref="d5/d70/Slp_8auto_8h_source.html"/>
 <section title="Slp.core.h" ref="da/d6c/Ann_2Slp_8core_8h_source.html"/>
 <section title="Slp.h" ref="dd/d13/inc_2ae2f_2Ann_2Slp_8h_source.html"/>
 <section title="Util.h" ref="de/d7a/Ann_2Util_8h_source.html"/>
@@ -217,16 +305,10 @@
 </section>
 <section title="ae2fVK" ref="dir_c915a8702c52c090980fd5eed7ef1d7a.html">
 <section title="Ann" ref="dir_134ec2930d8f51ce6b01b61634b3830b.html">
-<section title="Mlp.auto.h" ref="d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h_source.html"/>
 <section title="Mlp.core.h" ref="dd/d9e/K_2Ann_2Mlp_8core_8h_source.html"/>
 <section title="Mlp.h" ref="db/d62/inc_2ae2fVK_2Ann_2Mlp_8h_source.html"/>
-<section title="MlpPool.auto.h" ref="df/d45/MlpPool_8auto_8h_source.html"/>
-<section title="MlpSHADER.auto.h" ref="d5/df3/MlpSHADER_8auto_8h_source.html"/>
-<section title="Slp.auto.h" ref="d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h_source.html"/>
 <section title="Slp.core.h" ref="d1/d19/K_2Ann_2Slp_8core_8h_source.html"/>
 <section title="Slp.h" ref="d7/db9/inc_2ae2fVK_2Ann_2Slp_8h_source.html"/>
-<section title="SlpPool.auto.h" ref="d0/da0/SlpPool_8auto_8h_source.html"/>
-<section title="SlpSHADER.auto.h" ref="de/d62/SlpSHADER_8auto_8h_source.html"/>
 </section>
 </section>
 </section>
@@ -243,10 +325,8 @@
 <section title="vk" ref="dir_00899f881ea2c598a41b95bf8b18c56d.html">
 <section title="cl" ref="dir_ae41287cf3b67612689f186a101a6349.html">
 <section title="mac.h" ref="df/dcd/mac_8h_source.html"/>
-<section title="Mlp.auto.h" ref="de/d01/src_2vk_2cl_2Mlp_8auto_8h_source.html"/>
 <section title="Mlp.cl.c" ref="df/dbe/Mlp_8cl_8c_source.html"/>
 <section title="Mlp.h" ref="d9/df0/src_2vk_2cl_2Mlp_8h_source.html"/>
-<section title="Slp.auto.h" ref="db/d9a/src_2vk_2cl_2Slp_8auto_8h_source.html"/>
 <section title="Slp.cl.c" ref="d1/dea/Slp_8cl_8c_source.html"/>
 <section title="Slp.h" ref="db/dc7/src_2vk_2cl_2Slp_8h_source.html"/>
 </section>
@@ -256,196 +336,6 @@
 <section title="Slp.def.cc" ref="d4/d4b/Slp_8def_8cc_source.html"/>
 <section title="SlpPool.def.cc" ref="d4/d54/SlpPool_8def_8cc_source.html"/>
 <section title="SlpSHADER.inc.c" ref="d7/d60/SlpSHADER_8inc_8c_source.html"/>
-</section>
-</section>
-<section title="submod" ref="dir_72ef4d67997d4c98015c110a810d90fb.html">
-<section title="ae2f" ref="dir_b14f7137db7629ac584b55b83be5f02e.html">
-<section title="Core" ref="dir_ec9c5e017a2fc645fc1ef5ae49ba4448.html">
-<section title="cmake" ref="dir_b444705b4a8093e7a3fb9a41931f4c19.html">
-<section title="cmake.hpp" ref="da/d51/Ann_2submod_2ae2f_2Core_2cmake_2cmake_8hpp_source.html"/>
-<section title="Core.cmake.hpp" ref="da/dbd/Ann_2submod_2ae2f_2Core_2cmake_2Core_8cmake_8hpp.html">
-<section title="___DOC_CMAKE::ae2f_CoreLibFetch" ref="d1/d61/namespace______DOC__CMAKE.html#aa868a569d3142587c1da1e636b07d915"/>
-<section title="___DOC_CMAKE::ae2f_CoreLibTent" ref="d1/d61/namespace______DOC__CMAKE.html#a3e9604d9d8c0ccb6bd75176fad3ca9f9"/>
-<section title="___DOC_CMAKE::ae2f_CoreLibTentConfigCustom" ref="d1/d61/namespace______DOC__CMAKE.html#a5d543c5290803c8f0ea051462d088559"/>
-<section title="___DOC_CMAKE::ae2f_CoreTestTent" ref="d1/d61/namespace______DOC__CMAKE.html#a45853a70e3b2acd7a7cc3b944b91156b"/>
-<section title="___DOC_CMAKE::ae2f_CoreUtilityDocTent" ref="d1/d61/namespace______DOC__CMAKE.html#a4ca437c7dc858a3e0de1302ff6090f09"/>
-<section title="___DOC_CMAKE::ae2f_CXX" ref="d1/d61/namespace______DOC__CMAKE.html#a4d08d2c63e28534681aae2c141297515"/>
-</section>
-</section>
-<section title="inc" ref="dir_1bf6f3e463df42ac73a49f5cbfa4b7d7.html">
-<section title="ae2f" ref="dir_e450cbefff531de0de8c32ac279f5441.html">
-<section title="Cast" ref="dir_6173c165fa45ccf23a2a4a3c05e3cc88.html">
-<section title="CasterUnion.hpp" ref="dd/da7/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cast_2CasterUnion_8hpp.html"/>
-<section title="Constexpr.hpp" ref="da/da7/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cast_2Constexpr_8hpp_source.html"/>
-</section>
-<section title="Cmp" ref="dir_cc04d12a843f73a157241b042de03ce2.html">
-<section title="Fun.h" ref="d1/d42/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cmp_2Fun_8h.html">
-<section title="ae2f_CmpFunRet_EQUAL" ref="d1/d42/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cmp_2Fun_8h.html#a72cf2bcb3a9d957c17deb5bc9041f22d"/>
-<section title="ae2f_CmpFunRet_LISLESSER" ref="d1/d42/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cmp_2Fun_8h.html#a2ec622c999cf31fa7b6638e21dc591b8"/>
-<section title="ae2f_CmpFunRet_RISLESSER" ref="d1/d42/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cmp_2Fun_8h.html#a576bb6884481e25c87bd4e41a26749db"/>
-<section title="ae2f_CmpFunRet_t" ref="d1/d42/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cmp_2Fun_8h.html#aad33bf8b1b2c426203fb27cff926e739"/>
-<section title="ae2f_fpCmp_t" ref="d1/d42/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cmp_2Fun_8h.html#ab061cb3b90028001b568515686bff1f5"/>
-</section>
-<section title="Fun.hpp" ref="dd/d3c/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cmp_2Fun_8hpp.html">
-<section title="ae2f::xfpCmp_t" ref="d4/ddc/namespaceae2f.html#a7ce41e5db09dc16b8b98cbb249b07a7d"/>
-<section title="ae2f::xfpCmp" ref="d4/ddc/namespaceae2f.html#aa2efd815ff589c1b3efdaaf22dd90885"/>
-</section>
-</section>
-<section title="Cxx" ref="dir_a7a8dffbfb312aded9680a05d8aff32e.html">
-<section title="Reg.h" ref="d2/d67/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cxx_2Reg_8h.html">
-<section title="ae2f_reg" ref="d2/d67/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cxx_2Reg_8h.html#ad751b5084d10bc27aa3c3e503ee8876b"/>
-</section>
-</section>
-<section title="Pack" ref="dir_8b925f31a08468367665d6565bb76b21.html">
-<section title="Beg.h" ref="db/d33/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Pack_2Beg_8h.html"/>
-<section title="End.h" ref="d3/d50/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Pack_2End_8h.html"/>
-<section title="Num.auto.h" ref="d7/d96/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Pack_2Num_8auto_8h_source.html"/>
-<section title="Num.h" ref="de/df8/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Pack_2Num_8h.html"/>
-</section>
-<section title="Atom.h" ref="d2/dee/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Atom_8h_source.html"/>
-<section title="BitVec.h" ref="db/d64/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2BitVec_8h.html">
-<section title="ae2f_BitVecI_t" ref="db/d64/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2BitVec_8h.html#affde621551e6614dc12d8b2f23de6ca3"/>
-</section>
-<section title="BitVec.hpp" ref="d8/d1f/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2BitVec_8hpp.html">
-<section title="ae2f::rBitVec&lt; t &gt;" ref="d7/daf/classae2f_1_1rBitVec.html">
-<section title="obj" ref="d7/daf/classae2f_1_1rBitVec.html#a263f40bf79b771b35786f8e1a72aabf3"/>
-</section>
-</section>
-<section title="Call.auto.h" ref="df/dba/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Call_8auto_8h_source.html"/>
-<section title="Call.h" ref="d2/d08/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Call_8h.html"/>
-<section title="Cast.h" ref="d6/d63/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cast_8h.html">
-<section title="ae2f_Cast_h" ref="d6/d63/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cast_8h.html#aa42d27ba96f89f1130941cf3f8fca1ad"/>
-<section title="ae2f_CastCCls" ref="d6/d63/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cast_8h.html#a48e9f2e5fb4098fd9ff5d232a274e5d7"/>
-<section title="ae2f_CastMerge" ref="d6/d63/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cast_8h.html#aa054a536a6e97d32fa49c1ddf3e0accc"/>
-<section title="ae2f_class" ref="d6/d63/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cast_8h.html#a08aaefc28432e5f795e374e361593d2b"/>
-<section title="ae2f_const_cast" ref="d6/d63/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cast_8h.html#a78f35f7227637506a67a200e10f16f10"/>
-<section title="ae2f_dynamic_cast" ref="d6/d63/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cast_8h.html#a0beba4d8f3a03b03e385532151c6ee23"/>
-<section title="ae2f_extern" ref="d6/d63/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cast_8h.html#af32d53608be4ca28fd8e5cd34fc0279b"/>
-<section title="ae2f_fdef" ref="d6/d63/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cast_8h.html#ae19c09f06693f52d2ce2843500d58dd2"/>
-<section title="ae2f_RecordMk" ref="d6/d63/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cast_8h.html#a3992ff0ceb1477e4ea82cb3358f15a02"/>
-<section title="ae2f_reinterpret_cast" ref="d6/d63/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cast_8h.html#acd8146ed1e048f22e68ea16ad208e84a"/>
-<section title="ae2f_static_cast" ref="d6/d63/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cast_8h.html#ab86a90b116e454206d7d4f5c0d07ebcb"/>
-<section title="ae2f_struct" ref="d6/d63/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cast_8h.html#a06f9c6cce51fc7772141ec9a6d521511"/>
-<section title="ae2f_union_cast" ref="d6/d63/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cast_8h.html#a617373a68c3f94d8e00857e2e6cfe97f"/>
-<section title="ae2f_var" ref="d6/d63/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cast_8h.html#a55689481e470b84f3bc5710c860b088c"/>
-<section title="unless" ref="d6/d63/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cast_8h.html#ad76ecefb282edd703021539a17ba84a3"/>
-</section>
-<section title="Cmp.h" ref="df/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cmp_8h.html">
-<section title="ae2f_CmpDiff" ref="df/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cmp_8h.html#addd39204abd0bc1860e6ffb06f882617"/>
-<section title="ae2f_CmpGetGt" ref="df/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cmp_8h.html#a5faf903c6d9581d970a7c2f0666e9339"/>
-<section title="ae2f_CmpGetLs" ref="df/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cmp_8h.html#ab3c784016b1a71e6b23bf0234817ab3a"/>
-<section title="ae2f_CmpGetMem" ref="df/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cmp_8h.html#a9c08d68c01bcf33d01e58cd66a215e4f"/>
-<section title="ae2f_CmpGetSelf" ref="df/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cmp_8h.html#a47cfb81ee8bf49067a17b6a59af4f552"/>
-</section>
-<section title="Cmp.hpp" ref="de/d56/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cmp_8hpp.html">
-<section title="ae2f::Cmp::Diff" ref="de/d56/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cmp_8hpp.html#af1c4af77b8e7dd6f338baf5a7a77214c"/>
-<section title="ae2f::Cmp::TakeGt" ref="de/d56/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cmp_8hpp.html#ace257d6678409cd8c1ad31fdd9e7c590"/>
-<section title="ae2f::Cmp::TakeLs" ref="de/d56/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cmp_8hpp.html#a461646feb48a94e4ea428c8d56ca44a8"/>
-</section>
-<section title="Cxx.h" ref="de/d00/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cxx_8h.html">
-<section title="ae2f_c_check" ref="de/d00/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cxx_8h.html#a2e7ab6a44703adf4e4967d0ab55ed4f5"/>
-<section title="ae2f_cxx_check" ref="de/d00/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cxx_8h.html#af5c91dfc0c2068e6b9532936454fa824"/>
-<section title="ae2f_NONE" ref="de/d00/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cxx_8h.html#ab87b929339e9211ba8dfd1dd4088d518"/>
-<section title="ae2f_WhenC" ref="de/d00/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cxx_8h.html#a70cd5f29915062b7c41069b023823245"/>
-<section title="ae2f_WhenCXX" ref="de/d00/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cxx_8h.html#a7db6ab0e932eee2c5d72224b44e1260c"/>
-</section>
-<section title="errGlob.h" ref="d7/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2errGlob_8h.html">
-<section title="ae2f_errGlob_ALLOC_FAILED" ref="d7/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2errGlob_8h.html#a85d8f457b682f8f47233d6bd93506f0f"/>
-<section title="ae2f_errGlob_DONE_HOWEV" ref="d7/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2errGlob_8h.html#a9755e68f89e55f8ee587d6dd3d3d4d96"/>
-<section title="ae2f_errGlob_FLUSH_FAILED" ref="d7/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2errGlob_8h.html#ad34eb847ab540cd672b24134087127b5"/>
-<section title="ae2f_errGlob_IMP_NOT_FOUND" ref="d7/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2errGlob_8h.html#adfdaa71813624905f6953cf9d5c08a1e"/>
-<section title="ae2f_errGlob_NFOUND" ref="d7/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2errGlob_8h.html#a869a7f8a64ad0c28207f867f11eaf427"/>
-<section title="ae2f_errGlob_OK" ref="d7/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2errGlob_8h.html#a7ea7d8a5a85ef707e5c125a32e44449c"/>
-<section title="ae2f_errGlob_PTR_IS_NULL" ref="d7/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2errGlob_8h.html#ad1d18f7440e6e920e15caa75e6957b61"/>
-<section title="ae2f_errGlob_WRONG_OPERATION" ref="d7/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2errGlob_8h.html#ac059d2229b6d54699570ad3e2a4524a9"/>
-<section title="ae2f_errGlobNormalised" ref="d7/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2errGlob_8h.html#ada8ea0773716d13412f39e6ef7b06ab2"/>
-<section title="ae2f_err_t" ref="d7/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157"/>
-</section>
-<section title="errGlob.hpp" ref="d4/deb/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2errGlob_8hpp.html">
-<section title="ae2f::errGlobState" ref="d4/db7/structae2f_1_1errGlobState.html">
-<section title="msgall" ref="d4/db7/structae2f_1_1errGlobState.html#ac09c7bdd330dd51fab924dea11256f6d"/>
-<section title="msgall" ref="d4/db7/structae2f_1_1errGlobState.html#ac09c7bdd330dd51fab924dea11256f6d"/>
-<section title="peek" ref="d4/db7/structae2f_1_1errGlobState.html#aefcb3eb5ba74ef67f309834a9878c6ec"/>
-<section title="peek" ref="d4/db7/structae2f_1_1errGlobState.html#aefcb3eb5ba74ef67f309834a9878c6ec"/>
-<section title="pop" ref="d4/db7/structae2f_1_1errGlobState.html#a03f7d9e4112edd6cbff8762713e544bf"/>
-<section title="pop" ref="d4/db7/structae2f_1_1errGlobState.html#a03f7d9e4112edd6cbff8762713e544bf"/>
-</section>
-<section title="ae2f::errGlobThrown" ref="d1/df7/classae2f_1_1errGlobThrown.html">
-</section>
-</section>
-<section title="Float.auto.h" ref="d0/dad/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Float_8auto_8h_source.html"/>
-<section title="Float.h" ref="dd/d26/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Float_8h.html">
-</section>
-<section title="Guide.h" ref="dc/d9c/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Guide_8h_source.html"/>
-<section title="LangVer.auto.h" ref="d2/d57/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2LangVer_8auto_8h_source.html"/>
-<section title="LangVer.h" ref="d3/d27/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2LangVer_8h_source.html"/>
-<section title="Platform.h" ref="db/d97/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Platform_8h_source.html"/>
-</section>
-<section title="ae2f.hpp" ref="db/d82/Ann_2submod_2ae2f_2Core_2inc_2ae2f_8hpp_source.html"/>
-</section>
-<section title="test" ref="dir_21b21b7344f38285236e2ca21f00d001.html">
-<section title="a.cpp" ref="d6/d70/Ann_2submod_2ae2f_2Core_2test_2a_8cpp_source.html"/>
-<section title="BitVec.cc" ref="d6/d70/Ann_2submod_2ae2f_2Core_2test_2BitVec_8cc_source.html"/>
-<section title="eval.cc" ref="d4/d86/Ann_2submod_2ae2f_2Core_2test_2eval_8cc_source.html"/>
-<section title="main.c" ref="db/dc9/Ann_2submod_2ae2f_2Core_2test_2main_8c_source.html"/>
-<section title="main.cc" ref="d6/dcb/Ann_2submod_2ae2f_2Core_2test_2main_8cc_source.html"/>
-</section>
-</section>
-<section title="Preproc" ref="dir_c7cad474bfbe950fddd6079f9508604e.html">
-<section title="FileRaw" ref="dir_e6cf932a529e002bec52d7c88522f216.html">
-<section title="build" ref="dir_81bbdd0954c1256dd9990d0718a320cf.html">
-<section title="CMakeFiles" ref="dir_7a2bec17b962409dc407f63ea51cf07e.html">
-<section title="4.1.20250919-g4da54e0-dirty" ref="dir_80f5d057e3ab0c5b8e58ba7960cca518.html">
-<section title="CompilerIdC" ref="dir_ed0e2b585989dd3c9752826e612a5ce9.html">
-<section title="CMakeCCompilerId.c" ref="d7/db0/Ann_2submod_2ae2f_2Preproc_2FileRaw_2build_2CMakeFiles_24_81_820250919-g4da54e0-dirty_2CompilerIdC_2CMakeCCompilerId_8c_source.html"/>
-</section>
-<section title="CompilerIdCXX" ref="dir_7c6bb11aa90144947f5e5d1837d96e8e.html">
-<section title="CMakeCXXCompilerId.cpp" ref="dd/d19/Ann_2submod_2ae2f_2Preproc_2FileRaw_2build_2CMakeFiles_24_81_820250919-g4da54e0-dirty_2CompilerIdCXX_2CMakeCXXCompilerId_8cpp_source.html"/>
-</section>
-</section>
-</section>
-</section>
-<section title="main.auto.h" ref="df/d4f/Ann_2submod_2ae2f_2Preproc_2FileRaw_2main_8auto_8h_source.html"/>
-<section title="main.c" ref="dd/d85/Ann_2submod_2ae2f_2Preproc_2FileRaw_2main_8c_source.html"/>
-</section>
-<section title="Inc" ref="dir_fd9abafd03c270336aba3f9ddabf2a01.html">
-<section title="build" ref="dir_4cd7f5a707311a2473b862c961e270c1.html">
-<section title="CMakeFiles" ref="dir_74778556c65bc6287159fcee1b962e01.html">
-<section title="4.1.20250919-g4da54e0-dirty" ref="dir_747da29b96e4dd0629fc2c73d3cd14d2.html">
-<section title="CompilerIdC" ref="dir_163cdec1de36bee06b9e09efd04c9d2b.html">
-<section title="CMakeCCompilerId.c" ref="db/dc9/Ann_2submod_2ae2f_2Preproc_2Inc_2build_2CMakeFiles_24_81_820250919-g4da54e0-dirty_2CompilerIdC_2CMakeCCompilerId_8c_source.html"/>
-</section>
-<section title="CompilerIdCXX" ref="dir_09a92f20ab8fda4fc03bcee10263685b.html">
-<section title="CMakeCXXCompilerId.cpp" ref="db/dc2/Ann_2submod_2ae2f_2Preproc_2Inc_2build_2CMakeFiles_24_81_820250919-g4da54e0-dirty_2CompilerIdCXX_2CMakeCXXCompilerId_8cpp_source.html"/>
-</section>
-</section>
-</section>
-</section>
-<section title="main.auto.h" ref="de/dd8/Ann_2submod_2ae2f_2Preproc_2Inc_2main_8auto_8h_source.html"/>
-<section title="main.c" ref="d0/d13/Ann_2submod_2ae2f_2Preproc_2Inc_2main_8c_source.html"/>
-</section>
-<section title="inc" ref="dir_88e14b885314b8c379ddb3b14b7f04cc.html">
-<section title="ae2f" ref="dir_31951952489b109bc7bc996923c26fc1.html">
-<section title="Macro.h" ref="dd/dee/Ann_2submod_2ae2f_2Preproc_2inc_2ae2f_2Macro_8h_source.html"/>
-</section>
-</section>
-<section title="Macro" ref="dir_a0d4c6a5f21556d9f5c2e61ae3c51850.html">
-<section title="build" ref="dir_b12783419e12315f1142cd85e1297357.html">
-<section title="CMakeFiles" ref="dir_5679600de147df4a04bd8dcf417b3191.html">
-<section title="4.1.20250919-g4da54e0-dirty" ref="dir_5b2ccbb9d91d019b1deafc86de8d60df.html">
-<section title="CompilerIdC" ref="dir_922df941db89dbb3ea42cf60683a637f.html">
-<section title="CMakeCCompilerId.c" ref="d5/d67/Ann_2submod_2ae2f_2Preproc_2Macro_2build_2CMakeFiles_24_81_820250919-g4da54e0-dirty_2CompilerIdC_2CMakeCCompilerId_8c_source.html"/>
-</section>
-<section title="CompilerIdCXX" ref="dir_a1f5fa6ea4f3b44e0fcc076ada4f0e23.html">
-<section title="CMakeCXXCompilerId.cpp" ref="d0/d47/Ann_2submod_2ae2f_2Preproc_2Macro_2build_2CMakeFiles_24_81_820250919-g4da54e0-dirty_2CompilerIdCXX_2CMakeCXXCompilerId_8cpp_source.html"/>
-</section>
-</section>
-</section>
-</section>
-<section title="main.auto.h" ref="db/d68/Ann_2submod_2ae2f_2Preproc_2Macro_2main_8auto_8h_source.html"/>
-<section title="main.c" ref="d9/d3d/Ann_2submod_2ae2f_2Preproc_2Macro_2main_8c_source.html"/>
-</section>
-</section>
 </section>
 </section>
 <section title="test" ref="dir_edff6adc8295ae99709deacf96552be6.html">
@@ -497,185 +387,200 @@
 <section title="___DOC_CMAKE::ae2f_CoreLibTentConfigCustom" ref="d1/d61/namespace______DOC__CMAKE.html#a5d543c5290803c8f0ea051462d088559"/>
 <section title="___DOC_CMAKE::ae2f_CoreTestTent" ref="d1/d61/namespace______DOC__CMAKE.html#a45853a70e3b2acd7a7cc3b944b91156b"/>
 <section title="___DOC_CMAKE::ae2f_CoreUtilityDocTent" ref="d1/d61/namespace______DOC__CMAKE.html#a4ca437c7dc858a3e0de1302ff6090f09"/>
+<section title="___DOC_CMAKE::ae2f_CXX" ref="d1/d61/namespace______DOC__CMAKE.html#a4d08d2c63e28534681aae2c141297515"/>
 </section>
 </section>
 <section title="inc" ref="dir_ac4392d4c1e1c84b6cfcc4833153557f.html">
 <section title="ae2f" ref="dir_a594354fba13f4520fd1c8884611d5d5.html">
+<section title="c90" ref="dir_b03140f0449019ac8e6bbdfb321e08bc.html">
+<section title="have-stdint.auto.h" ref="d6/d2c/have-stdint_8auto_8h_source.html"/>
+<section title="Limits.h" ref="d4/dd4/Limits_8h.html"/>
+<section title="limits.width.auto.h" ref="dd/d8a/limits_8width_8auto_8h_source.html"/>
+<section title="ptrsz.auto.h" ref="df/ddd/ptrsz_8auto_8h.html">
+<section title="ae2f_PTRSZ_SIZE" ref="df/ddd/ptrsz_8auto_8h.html#a01d83abfb14100e92f18a4ad5188a06d"/>
+</section>
+<section title="StdBool.h" ref="d0/d9f/StdBool_8h.html">
+</section>
+<section title="StdInt.h" ref="df/d6d/StdInt_8h.html"/>
+</section>
 <section title="Cast" ref="dir_05925f8c4a433b4935176e19d90c5cd3.html">
-<section title="CasterUnion.hpp" ref="d5/da4/Core_2inc_2ae2f_2Cast_2CasterUnion_8hpp.html"/>
-<section title="Constexpr.hpp" ref="d6/d1e/Core_2inc_2ae2f_2Cast_2Constexpr_8hpp_source.html"/>
+<section title="CasterUnion.hpp" ref="d3/df8/CasterUnion_8hpp.html"/>
+</section>
+<section title="cc" ref="dir_8f8da49de635a90e0cd126e9e3494d11.html">
+<section title="gnuc.h" ref="d5/db6/gnuc_8h.html">
+<section title="_ae2f_gnuc" ref="d5/db6/gnuc_8h.html#ab07293ec0343320dc266223000e52d36"/>
+<section title="N_ae2f_gnuc" ref="d5/db6/gnuc_8h.html#a49ac1022b9674900307de6b363c66bc8"/>
+</section>
 </section>
 <section title="Cmp" ref="dir_1dd9acb30b237264092485e057bdc24e.html">
-<section title="Fun.h" ref="de/dd6/Core_2inc_2ae2f_2Cmp_2Fun_8h.html">
-<section title="ae2f_CmpFunRet_EQUAL" ref="de/dd6/Core_2inc_2ae2f_2Cmp_2Fun_8h.html#a72cf2bcb3a9d957c17deb5bc9041f22d"/>
-<section title="ae2f_CmpFunRet_LISLESSER" ref="de/dd6/Core_2inc_2ae2f_2Cmp_2Fun_8h.html#a2ec622c999cf31fa7b6638e21dc591b8"/>
-<section title="ae2f_CmpFunRet_RISLESSER" ref="de/dd6/Core_2inc_2ae2f_2Cmp_2Fun_8h.html#a576bb6884481e25c87bd4e41a26749db"/>
-<section title="ae2f_fpCmp_t" ref="de/dd6/Core_2inc_2ae2f_2Cmp_2Fun_8h.html#ab061cb3b90028001b568515686bff1f5"/>
-</section>
-<section title="Fun.hpp" ref="d3/d65/Core_2inc_2ae2f_2Cmp_2Fun_8hpp.html">
-<section title="ae2f::xfpCmp" ref="d4/ddc/namespaceae2f.html#aa2efd815ff589c1b3efdaaf22dd90885"/>
+<section title="Fun.h" ref="d0/dee/Fun_8h.html">
+<section title="ae2f_CmpFunRet_EQUAL" ref="d0/dee/Fun_8h.html#a72cf2bcb3a9d957c17deb5bc9041f22d"/>
+<section title="ae2f_CmpFunRet_LISLESSER" ref="d0/dee/Fun_8h.html#a2ec622c999cf31fa7b6638e21dc591b8"/>
+<section title="ae2f_CmpFunRet_RISLESSER" ref="d0/dee/Fun_8h.html#a576bb6884481e25c87bd4e41a26749db"/>
+<section title="ae2f_CmpFunRet_t" ref="d0/dee/Fun_8h.html#aad33bf8b1b2c426203fb27cff926e739"/>
+<section title="ae2f_fpCmp_t" ref="d0/dee/Fun_8h.html#ab061cb3b90028001b568515686bff1f5"/>
 </section>
 </section>
 <section title="Cxx" ref="dir_0025994d534e4c29f464967dff3651a9.html">
-<section title="Reg.h" ref="d0/d51/Core_2inc_2ae2f_2Cxx_2Reg_8h.html">
-<section title="ae2f_reg" ref="d0/d51/Core_2inc_2ae2f_2Cxx_2Reg_8h.html#ad751b5084d10bc27aa3c3e503ee8876b"/>
+<section title="Constexpr.h" ref="dc/d87/Constexpr_8h_source.html"/>
+<section title="Nil.h" ref="d1/d1c/Nil_8h_source.html"/>
+<section title="Reg.h" ref="df/d5f/Reg_8h.html">
+<section title="ae2f_reg" ref="df/d5f/Reg_8h.html#ad751b5084d10bc27aa3c3e503ee8876b"/>
 </section>
 </section>
 <section title="Pack" ref="dir_bb0bb90ae61fc2bf7b29e6d3d82b42a6.html">
-<section title="Beg.h" ref="d0/da6/Core_2inc_2ae2f_2Pack_2Beg_8h.html"/>
-<section title="End.h" ref="d7/d93/Core_2inc_2ae2f_2Pack_2End_8h.html"/>
-<section title="Num.auto.h" ref="d8/d50/Core_2inc_2ae2f_2Pack_2Num_8auto_8h_source.html"/>
-<section title="Num.h" ref="df/d01/Core_2inc_2ae2f_2Pack_2Num_8h.html"/>
+<section title="Beg.h" ref="d2/dac/Beg_8h.html"/>
+<section title="End.h" ref="d7/ddc/End_8h.html"/>
+<section title="Num.auto.h" ref="db/dc0/Num_8auto_8h.html">
 </section>
-<section title="Atom.h" ref="da/d31/Core_2inc_2ae2f_2Atom_8h_source.html"/>
-<section title="BitVec.h" ref="d2/d52/Core_2inc_2ae2f_2BitVec_8h.html"/>
-<section title="BitVec.hpp" ref="d4/d43/Core_2inc_2ae2f_2BitVec_8hpp.html">
-<section title="ae2f::rBitVec&lt; t &gt;" ref="d7/daf/classae2f_1_1rBitVec.html">
-<section title="obj" ref="d7/daf/classae2f_1_1rBitVec.html#a263f40bf79b771b35786f8e1a72aabf3"/>
+<section title="Num.h" ref="d8/d53/Num_8h_source.html"/>
 </section>
+<section title="BitVec.h" ref="de/d6b/BitVec_8h.html">
+<section title="_ae2f_BitVecFilled" ref="de/d6b/BitVec_8h.html#a833b56686e68045949c752d3389b939c"/>
+<section title="_ae2f_BitVecGetRanged" ref="de/d6b/BitVec_8h.html#ab7953a99f79b10ea5469a4b7f32ad50a"/>
+<section title="_ae2f_BitVecSetRanged" ref="de/d6b/BitVec_8h.html#aa643936eb7907618aa53e0d6bcc66614"/>
+<section title="ae2f_BitToByteCount" ref="de/d6b/BitVec_8h.html#a5553db979f0fe88406ada0c2b245e85b"/>
+<section title="ae2f_BitVecFilled" ref="de/d6b/BitVec_8h.html#a325847b2b43531a1cfd7089fb99b0b9d"/>
+<section title="ae2f_BitVecGet" ref="de/d6b/BitVec_8h.html#a02e9923db7e19af08360273c639f743f"/>
+<section title="ae2f_BitVecGetRanged" ref="de/d6b/BitVec_8h.html#a79a4500b345dbc83b86eb7651eafa75c"/>
+<section title="ae2f_BitVecSet" ref="de/d6b/BitVec_8h.html#a670620baa7688ec87a148b9e36abaacc"/>
+<section title="ae2f_BitVecSetRanged" ref="de/d6b/BitVec_8h.html#af8df32b9ee35d039d8e25ba4b3a5b537"/>
+<section title="ae2f_BitVecSizeDefName" ref="de/d6b/BitVec_8h.html#a9dbe37de1c12111bdd14d76ddc3fb235"/>
+<section title="ae2f_BitVecI_t" ref="de/d6b/BitVec_8h.html#a1c042a4bc1cf90de4c565c5b79684a68"/>
 </section>
-<section title="Call.auto.h" ref="df/dff/Core_2inc_2ae2f_2Call_8auto_8h_source.html"/>
-<section title="Call.h" ref="d0/dba/Core_2inc_2ae2f_2Call_8h.html"/>
-<section title="Cast.h" ref="d8/d32/Core_2inc_2ae2f_2Cast_8h.html">
-<section title="ae2f_Cast_h" ref="d8/d32/Core_2inc_2ae2f_2Cast_8h.html#aa42d27ba96f89f1130941cf3f8fca1ad"/>
-<section title="ae2f_CastCCls" ref="d8/d32/Core_2inc_2ae2f_2Cast_8h.html#a48e9f2e5fb4098fd9ff5d232a274e5d7"/>
-<section title="ae2f_CastMerge" ref="d8/d32/Core_2inc_2ae2f_2Cast_8h.html#aa054a536a6e97d32fa49c1ddf3e0accc"/>
-<section title="ae2f_class" ref="d8/d32/Core_2inc_2ae2f_2Cast_8h.html#a08aaefc28432e5f795e374e361593d2b"/>
-<section title="ae2f_const_cast" ref="d8/d32/Core_2inc_2ae2f_2Cast_8h.html#a78f35f7227637506a67a200e10f16f10"/>
-<section title="ae2f_dynamic_cast" ref="d8/d32/Core_2inc_2ae2f_2Cast_8h.html#a0beba4d8f3a03b03e385532151c6ee23"/>
-<section title="ae2f_extern" ref="d8/d32/Core_2inc_2ae2f_2Cast_8h.html#af32d53608be4ca28fd8e5cd34fc0279b"/>
-<section title="ae2f_fdef" ref="d8/d32/Core_2inc_2ae2f_2Cast_8h.html#ae19c09f06693f52d2ce2843500d58dd2"/>
-<section title="ae2f_RecordMk" ref="d8/d32/Core_2inc_2ae2f_2Cast_8h.html#a3992ff0ceb1477e4ea82cb3358f15a02"/>
-<section title="ae2f_reinterpret_cast" ref="d8/d32/Core_2inc_2ae2f_2Cast_8h.html#acd8146ed1e048f22e68ea16ad208e84a"/>
-<section title="ae2f_static_cast" ref="d8/d32/Core_2inc_2ae2f_2Cast_8h.html#ab86a90b116e454206d7d4f5c0d07ebcb"/>
-<section title="ae2f_struct" ref="d8/d32/Core_2inc_2ae2f_2Cast_8h.html#a06f9c6cce51fc7772141ec9a6d521511"/>
-<section title="ae2f_union_cast" ref="d8/d32/Core_2inc_2ae2f_2Cast_8h.html#a617373a68c3f94d8e00857e2e6cfe97f"/>
-<section title="ae2f_var" ref="d8/d32/Core_2inc_2ae2f_2Cast_8h.html#a55689481e470b84f3bc5710c860b088c"/>
-<section title="unless" ref="d8/d32/Core_2inc_2ae2f_2Cast_8h.html#ad76ecefb282edd703021539a17ba84a3"/>
+<section title="Cast.h" ref="d3/dc4/Cast_8h.html">
+<section title="ae2f_const_cast" ref="d3/dc4/Cast_8h.html#a78f35f7227637506a67a200e10f16f10"/>
+<section title="ae2f_dynamic_cast" ref="d3/dc4/Cast_8h.html#a0beba4d8f3a03b03e385532151c6ee23"/>
+<section title="ae2f_RecordMk" ref="d3/dc4/Cast_8h.html#a5095ead846cf91cc0b79a1c33e0cff93"/>
+<section title="ae2f_reinterpret_cast" ref="d3/dc4/Cast_8h.html#acd8146ed1e048f22e68ea16ad208e84a"/>
+<section title="ae2f_static_cast" ref="d3/dc4/Cast_8h.html#ab86a90b116e454206d7d4f5c0d07ebcb"/>
+<section title="ae2f_union_cast" ref="d3/dc4/Cast_8h.html#a617373a68c3f94d8e00857e2e6cfe97f"/>
 </section>
-<section title="Cmp.h" ref="d1/d33/Core_2inc_2ae2f_2Cmp_8h.html">
-<section title="ae2f_CmpDiff" ref="d1/d33/Core_2inc_2ae2f_2Cmp_8h.html#addd39204abd0bc1860e6ffb06f882617"/>
-<section title="ae2f_CmpGetGt" ref="d1/d33/Core_2inc_2ae2f_2Cmp_8h.html#a5faf903c6d9581d970a7c2f0666e9339"/>
-<section title="ae2f_CmpGetLs" ref="d1/d33/Core_2inc_2ae2f_2Cmp_8h.html#ab3c784016b1a71e6b23bf0234817ab3a"/>
-<section title="ae2f_CmpGetMem" ref="d1/d33/Core_2inc_2ae2f_2Cmp_8h.html#a9c08d68c01bcf33d01e58cd66a215e4f"/>
-<section title="ae2f_CmpGetSelf" ref="d1/d33/Core_2inc_2ae2f_2Cmp_8h.html#a47cfb81ee8bf49067a17b6a59af4f552"/>
+<section title="cc.h" ref="dc/df0/cc_8h.html">
+<section title="ae2f_ccconst" ref="dc/df0/cc_8h.html#a646f60763a85cb5c5194b8838030ecbe"/>
+<section title="ae2f_ccpure" ref="dc/df0/cc_8h.html#a42b0b7e3e822a33458380bc33bcb9942"/>
 </section>
-<section title="Cmp.hpp" ref="dd/d53/Core_2inc_2ae2f_2Cmp_8hpp.html">
-<section title="ae2f::Cmp::Diff" ref="de/d56/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cmp_8hpp.html#af1c4af77b8e7dd6f338baf5a7a77214c"/>
-<section title="ae2f::Cmp::TakeGt" ref="de/d56/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cmp_8hpp.html#ace257d6678409cd8c1ad31fdd9e7c590"/>
-<section title="ae2f::Cmp::TakeLs" ref="de/d56/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cmp_8hpp.html#a461646feb48a94e4ea428c8d56ca44a8"/>
+<section title="Cmp.h" ref="d0/d09/Cmp_8h.html">
+<section title="ae2f_CmpDiff" ref="d0/d09/Cmp_8h.html#addd39204abd0bc1860e6ffb06f882617"/>
+<section title="ae2f_CmpFunRet_EQUAL" ref="d0/d09/Cmp_8h.html#a72cf2bcb3a9d957c17deb5bc9041f22d"/>
+<section title="ae2f_CmpFunRet_LISLESSER" ref="d0/d09/Cmp_8h.html#a2ec622c999cf31fa7b6638e21dc591b8"/>
+<section title="ae2f_CmpFunRet_RISLESSER" ref="d0/d09/Cmp_8h.html#a576bb6884481e25c87bd4e41a26749db"/>
+<section title="ae2f_CmpGetGt" ref="d0/d09/Cmp_8h.html#a5faf903c6d9581d970a7c2f0666e9339"/>
+<section title="ae2f_CmpGetLs" ref="d0/d09/Cmp_8h.html#ab3c784016b1a71e6b23bf0234817ab3a"/>
+<section title="ae2f_CmpGetMem" ref="d0/d09/Cmp_8h.html#a9c08d68c01bcf33d01e58cd66a215e4f"/>
+<section title="ae2f_CmpGetSelf" ref="d0/d09/Cmp_8h.html#a47cfb81ee8bf49067a17b6a59af4f552"/>
 </section>
-<section title="Cxx.h" ref="d2/d07/Core_2inc_2ae2f_2Cxx_8h.html">
-<section title="ae2f_c_check" ref="d2/d07/Core_2inc_2ae2f_2Cxx_8h.html#a2e7ab6a44703adf4e4967d0ab55ed4f5"/>
-<section title="ae2f_cxx_check" ref="d2/d07/Core_2inc_2ae2f_2Cxx_8h.html#af5c91dfc0c2068e6b9532936454fa824"/>
-<section title="ae2f_NONE" ref="d2/d07/Core_2inc_2ae2f_2Cxx_8h.html#ab87b929339e9211ba8dfd1dd4088d518"/>
-<section title="ae2f_WhenC" ref="d2/d07/Core_2inc_2ae2f_2Cxx_8h.html#a70cd5f29915062b7c41069b023823245"/>
-<section title="ae2f_WhenCXX" ref="d2/d07/Core_2inc_2ae2f_2Cxx_8h.html#a7db6ab0e932eee2c5d72224b44e1260c"/>
+<section title="Cxx.h" ref="d2/db1/Cxx_8h.html">
+<section title="ae2f_c_check" ref="d2/db1/Cxx_8h.html#a2e7ab6a44703adf4e4967d0ab55ed4f5"/>
+<section title="ae2f_cxx_check" ref="d2/db1/Cxx_8h.html#af5c91dfc0c2068e6b9532936454fa824"/>
+<section title="ae2f_NONE" ref="d2/db1/Cxx_8h.html#ab87b929339e9211ba8dfd1dd4088d518"/>
+<section title="ae2f_WhenC" ref="d2/db1/Cxx_8h.html#af4c0b1d2c7ea63c5f2647bdc9f619d3b"/>
+<section title="ae2f_WhenCXX" ref="d2/db1/Cxx_8h.html#aa8e21231e6b06d9d9b53e3b5b15e0ac4"/>
 </section>
-<section title="errGlob.h" ref="da/d50/Core_2inc_2ae2f_2errGlob_8h.html">
-<section title="ae2f_errGlob_ALLOC_FAILED" ref="da/d50/Core_2inc_2ae2f_2errGlob_8h.html#a85d8f457b682f8f47233d6bd93506f0f"/>
-<section title="ae2f_errGlob_DONE_HOWEV" ref="da/d50/Core_2inc_2ae2f_2errGlob_8h.html#a9755e68f89e55f8ee587d6dd3d3d4d96"/>
-<section title="ae2f_errGlob_FLUSH_FAILED" ref="da/d50/Core_2inc_2ae2f_2errGlob_8h.html#ad34eb847ab540cd672b24134087127b5"/>
-<section title="ae2f_errGlob_IMP_NOT_FOUND" ref="da/d50/Core_2inc_2ae2f_2errGlob_8h.html#adfdaa71813624905f6953cf9d5c08a1e"/>
-<section title="ae2f_errGlob_NFOUND" ref="da/d50/Core_2inc_2ae2f_2errGlob_8h.html#a869a7f8a64ad0c28207f867f11eaf427"/>
-<section title="ae2f_errGlob_OK" ref="da/d50/Core_2inc_2ae2f_2errGlob_8h.html#a7ea7d8a5a85ef707e5c125a32e44449c"/>
-<section title="ae2f_errGlob_PTR_IS_NULL" ref="da/d50/Core_2inc_2ae2f_2errGlob_8h.html#ad1d18f7440e6e920e15caa75e6957b61"/>
-<section title="ae2f_errGlob_WRONG_OPERATION" ref="da/d50/Core_2inc_2ae2f_2errGlob_8h.html#ac059d2229b6d54699570ad3e2a4524a9"/>
-<section title="ae2f_errGlobNormalised" ref="da/d50/Core_2inc_2ae2f_2errGlob_8h.html#ada8ea0773716d13412f39e6ef7b06ab2"/>
-</section>
-<section title="errGlob.hpp" ref="d3/d0f/Core_2inc_2ae2f_2errGlob_8hpp.html">
-<section title="ae2f::errGlobState" ref="d4/db7/structae2f_1_1errGlobState.html">
-<section title="msgall" ref="d4/db7/structae2f_1_1errGlobState.html#ac09c7bdd330dd51fab924dea11256f6d"/>
-<section title="msgall" ref="d4/db7/structae2f_1_1errGlobState.html#ac09c7bdd330dd51fab924dea11256f6d"/>
-<section title="peek" ref="d4/db7/structae2f_1_1errGlobState.html#aefcb3eb5ba74ef67f309834a9878c6ec"/>
-<section title="peek" ref="d4/db7/structae2f_1_1errGlobState.html#aefcb3eb5ba74ef67f309834a9878c6ec"/>
-<section title="pop" ref="d4/db7/structae2f_1_1errGlobState.html#a03f7d9e4112edd6cbff8762713e544bf"/>
-<section title="pop" ref="d4/db7/structae2f_1_1errGlobState.html#a03f7d9e4112edd6cbff8762713e544bf"/>
-</section>
-<section title="ae2f::errGlobThrown" ref="d1/df7/classae2f_1_1errGlobThrown.html">
+<section title="errGlob.h" ref="da/d36/errGlob_8h.html">
+<section title="ae2f_errGlobNormalised" ref="da/d36/errGlob_8h.html#ada8ea0773716d13412f39e6ef7b06ab2"/>
+<section title="ae2f_err_t" ref="da/d36/errGlob_8h.html#a833ffc3e99895762f6f06f2d6152f863"/>
+<section title="ae2f_errGlob" ref="da/d36/errGlob_8h.html#a2a053a3347b6e714f7e7fb29156d1736">
+<section title="ae2f_errGlob_OK" ref="da/d36/errGlob_8h.html#a2a053a3347b6e714f7e7fb29156d1736ab95b3053d812f6ce326e4e26801db391"/>
+<section title="ae2f_errGlob_IMP_NOT_FOUND" ref="da/d36/errGlob_8h.html#a2a053a3347b6e714f7e7fb29156d1736aae37acb0490b9c1e67c1cb954cd397db"/>
+<section title="ae2f_errGlob_PTR_IS_NULL" ref="da/d36/errGlob_8h.html#a2a053a3347b6e714f7e7fb29156d1736ad34ebdb225f1d1c53828ae49cd9d59e6"/>
+<section title="ae2f_errGlob_FLUSH_FAILED" ref="da/d36/errGlob_8h.html#a2a053a3347b6e714f7e7fb29156d1736a8cfdb9a39a19afe896a337c3fd693b1d"/>
+<section title="ae2f_errGlob_ALLOC_FAILED" ref="da/d36/errGlob_8h.html#a2a053a3347b6e714f7e7fb29156d1736a076be88ef242b323d0de83508f181dc8"/>
+<section title="ae2f_errGlob_WRONG_OPERATION" ref="da/d36/errGlob_8h.html#a2a053a3347b6e714f7e7fb29156d1736ace7fd8cfbd02e09a2772fe2feef79379"/>
+<section title="ae2f_errGlob_NFOUND" ref="da/d36/errGlob_8h.html#a2a053a3347b6e714f7e7fb29156d1736a41f70327a101763a42e66627db248785"/>
+<section title="ae2f_errGlob_DONE_HOWEV" ref="da/d36/errGlob_8h.html#a2a053a3347b6e714f7e7fb29156d1736ad4ef8ce1fb000a2ea53b0f42285f04e1"/>
 </section>
 </section>
-<section title="Float.auto.h" ref="dd/ddb/Core_2inc_2ae2f_2Float_8auto_8h_source.html"/>
-<section title="Float.h" ref="d4/d7c/Core_2inc_2ae2f_2Float_8h.html"/>
-<section title="Guide.h" ref="d1/d38/Core_2inc_2ae2f_2Guide_8h_source.html"/>
-<section title="LangVer.auto.h" ref="db/df6/Core_2inc_2ae2f_2LangVer_8auto_8h_source.html"/>
-<section title="LangVer.h" ref="d0/dbd/Core_2inc_2ae2f_2LangVer_8h_source.html"/>
-<section title="Platform.h" ref="da/dec/Core_2inc_2ae2f_2Platform_8h_source.html"/>
+<section title="Float.auto.h" ref="dc/dea/Float_8auto_8h.html">
+<section title="ae2f_float" ref="dc/dea/Float_8auto_8h.html#a3f2a0375fad49156d6f05ecdc7cc1563"/>
 </section>
-<section title="ae2f.hpp" ref="d7/dd4/Core_2inc_2ae2f_8hpp_source.html"/>
+<section title="Float.h" ref="d4/d93/Float_8h.html">
+</section>
+<section title="Guide.h" ref="db/de1/Guide_8h.html">
+<section title="ae2f_FREE" ref="db/de1/Guide_8h.html#ad435b60ec4c7dae2b7a45a0eb8c45317"/>
+<section title="ae2f_LP" ref="db/de1/Guide_8h.html#ae20335659b6223f6d3c4aad02384af1c"/>
+<section title="ae2f_v" ref="db/de1/Guide_8h.html#ab29e682dc87f8c4e1cf489db9326ce72"/>
+</section>
+<section title="Keys.h" ref="d6/d08/Keys_8h.html">
+<section title="ae2f_class" ref="d6/d08/Keys_8h.html#a08aaefc28432e5f795e374e361593d2b"/>
+<section title="ae2f_extern" ref="d6/d08/Keys_8h.html#af32d53608be4ca28fd8e5cd34fc0279b"/>
+<section title="ae2f_struct" ref="d6/d08/Keys_8h.html#a06f9c6cce51fc7772141ec9a6d521511"/>
+<section title="ae2f_var" ref="d6/d08/Keys_8h.html#a55689481e470b84f3bc5710c860b088c"/>
+<section title="unless" ref="d6/d08/Keys_8h.html#a5105bf2540a04aed65fcbe0a11fc4e88"/>
+</section>
+<section title="LangVer.auto.h" ref="d5/da0/LangVer_8auto_8h.html">
+</section>
+<section title="LangVer.h" ref="d8/d64/LangVer_8h.html">
+<section title="ae2f_stdc_v" ref="d8/d64/LangVer_8h.html#aca4bf9c33d6b56f4b5d5b28bc17d33f5"/>
+<section title="ae2f_stdcc_v" ref="d8/d64/LangVer_8h.html#a60c1bbddefe78e79e6088ba0f45ca971"/>
+</section>
+<section title="Platform.h" ref="d9/dd0/Platform_8h_source.html"/>
+</section>
+<section title="ae2f.hpp" ref="d8/d46/ae2f_8hpp_source.html"/>
+<section title="Call.auto.h" ref="dd/ddd/Call_8auto_8h.html">
+</section>
 </section>
 <section title="test" ref="dir_8893eb2601d10c75b7222ce2d915a24e.html">
-<section title="a.cpp" ref="db/dae/Core_2test_2a_8cpp_source.html"/>
-<section title="BitVec.cc" ref="d3/d45/Core_2test_2BitVec_8cc_source.html"/>
-<section title="eval.cc" ref="db/d06/Core_2test_2eval_8cc_source.html"/>
+<section title="c90.c" ref="db/dd6/c90_8c_source.html"/>
+<section title="cxx.cc" ref="de/d7c/cxx_8cc_source.html"/>
+<section title="eval.cc" ref="d1/d98/eval_8cc_source.html"/>
 <section title="main.c" ref="d3/d1f/Core_2test_2main_8c_source.html"/>
-<section title="main.cc" ref="dd/d7b/Core_2test_2main_8cc_source.html"/>
+<section title="main.cc" ref="d9/d0f/main_8cc_source.html"/>
+<section title="NIL-c++.cc" ref="d1/dd9/NIL-c_09_09_8cc_source.html"/>
 </section>
 </section>
 <section title="Preproc" ref="dir_76cc4dd818146de1d6c05a88899d11e4.html">
 <section title="FileRaw" ref="dir_099f399710d04bb92664d7a4f91cd6db.html">
 <section title="build" ref="dir_c36f9f64c715b7a80e3f414895735f1e.html">
 <section title="CMakeFiles" ref="dir_61b1a4139b8831149b8cfea979928313.html">
-<section title="4.1.20250919-g4da54e0-dirty" ref="dir_6782bc41242fde5c184353acb7fa351e.html">
-<section title="CompilerIdC" ref="dir_d91fe5c5f4a2d5221bc6bc00f338f18f.html">
-<section title="CMakeCCompilerId.c" ref="d4/dd7/Preproc_2FileRaw_2build_2CMakeFiles_24_81_820250919-g4da54e0-dirty_2CompilerIdC_2CMakeCCompilerId_8c_source.html"/>
+<section title="4.2.0" ref="dir_69b12343cf65457aa1214d1b5f932791.html">
+<section title="CompilerIdC" ref="dir_db5732f8043facb13696fe9380fba9a3.html">
+<section title="CMakeCCompilerId.c" ref="da/d6a/FileRaw_2build_2CMakeFiles_24_82_80_2CompilerIdC_2CMakeCCompilerId_8c_source.html"/>
 </section>
-<section title="CompilerIdCXX" ref="dir_9dc7b3fd6081e3514efb04e6d02ec35b.html">
-<section title="CMakeCXXCompilerId.cpp" ref="d1/d1c/Preproc_2FileRaw_2build_2CMakeFiles_24_81_820250919-g4da54e0-dirty_2CompilerIdCXX_2CMakeCXXCompilerId_8cpp_source.html"/>
-</section>
-</section>
-<section title="FileRaw.dir" ref="dir_2afd96d7e349df0b960cf94a7dff08e7.html">
-<section title="link.d" ref="d9/d69/FileRaw_2build_2CMakeFiles_2FileRaw_8dir_2link_8d_source.html"/>
-<section title="main.c.o.d" ref="d3/da5/FileRaw_2build_2CMakeFiles_2FileRaw_8dir_2main_8c_8o_8d_source.html"/>
+<section title="CompilerIdCXX" ref="dir_4e6f8c9b879d947626143dddb26332b6.html">
+<section title="CMakeCXXCompilerId.cpp" ref="d0/d96/FileRaw_2build_2CMakeFiles_24_82_80_2CompilerIdCXX_2CMakeCXXCompilerId_8cpp_source.html"/>
 </section>
 </section>
 </section>
-<section title="main.auto.h" ref="dc/dab/Preproc_2FileRaw_2main_8auto_8h_source.html"/>
+</section>
+<section title="main.auto.h" ref="d0/d5b/FileRaw_2main_8auto_8h_source.html"/>
 <section title="main.c" ref="d3/d0a/Preproc_2FileRaw_2main_8c_source.html"/>
 </section>
 <section title="Inc" ref="dir_16719a660a462cd23d879ebfe805b998.html">
 <section title="build" ref="dir_d6aed84a79b19d2f6e8a9feb61e82d35.html">
 <section title="CMakeFiles" ref="dir_60c4375c6ac7627055c3b64c9ca37e29.html">
-<section title="4.1.20250919-g4da54e0-dirty" ref="dir_add4ccc67fab41ed5e1c1c6e6dd53ef2.html">
-<section title="CompilerIdC" ref="dir_a80b049267ba9e76620679617ee7150b.html">
-<section title="CMakeCCompilerId.c" ref="d4/d67/Preproc_2Inc_2build_2CMakeFiles_24_81_820250919-g4da54e0-dirty_2CompilerIdC_2CMakeCCompilerId_8c_source.html"/>
+<section title="4.2.0" ref="dir_71e7d5f63f9e7d400e8a699f27b5cdf8.html">
+<section title="CompilerIdC" ref="dir_824c3906848f2f4f2a579c6f88082289.html">
+<section title="CMakeCCompilerId.c" ref="d6/d4f/Inc_2build_2CMakeFiles_24_82_80_2CompilerIdC_2CMakeCCompilerId_8c_source.html"/>
 </section>
-<section title="CompilerIdCXX" ref="dir_8cbac5de94313e217edb7f91f73a0fbb.html">
-<section title="CMakeCXXCompilerId.cpp" ref="d6/d52/Preproc_2Inc_2build_2CMakeFiles_24_81_820250919-g4da54e0-dirty_2CompilerIdCXX_2CMakeCXXCompilerId_8cpp_source.html"/>
-</section>
-</section>
-<section title="Inc.dir" ref="dir_df2277272ae49883266e5128581ba3f7.html">
-<section title="link.d" ref="d1/de7/Inc_2build_2CMakeFiles_2Inc_8dir_2link_8d_source.html"/>
-<section title="main.c.o.d" ref="d4/dab/Inc_2build_2CMakeFiles_2Inc_8dir_2main_8c_8o_8d_source.html"/>
+<section title="CompilerIdCXX" ref="dir_5ec876cf623fb08678175cdc81dd34fa.html">
+<section title="CMakeCXXCompilerId.cpp" ref="d4/d84/Inc_2build_2CMakeFiles_24_82_80_2CompilerIdCXX_2CMakeCXXCompilerId_8cpp_source.html"/>
 </section>
 </section>
 </section>
-<section title="main.auto.h" ref="d6/d6d/Preproc_2Inc_2main_8auto_8h_source.html"/>
+</section>
+<section title="main.auto.h" ref="dd/dd7/Inc_2main_8auto_8h_source.html"/>
 <section title="main.c" ref="d4/dda/Preproc_2Inc_2main_8c_source.html"/>
 </section>
 <section title="inc" ref="dir_60a50c762f5efc04ddf3acb55b80c9fa.html">
 <section title="ae2f" ref="dir_ae21b71807628e111168cd9e62eb7e68.html">
-<section title="Macro.h" ref="d9/d83/Preproc_2inc_2ae2f_2Macro_8h_source.html"/>
+<section title="Macro.h" ref="d7/d6b/Macro_8h_source.html"/>
 </section>
 </section>
 <section title="Macro" ref="dir_69ac0c4d5c406a59b561aef6b7f7042f.html">
 <section title="build" ref="dir_1500e39b7aef16a0575aa11adb52e02e.html">
 <section title="CMakeFiles" ref="dir_6c0b442e40105de71368b36b04edc1d1.html">
-<section title="4.1.20250919-g4da54e0-dirty" ref="dir_c7e879bf1e31b1c4fadc495e746c8812.html">
-<section title="CompilerIdC" ref="dir_2f0f5ebe2996919f75e8d43a3a16cba1.html">
-<section title="CMakeCCompilerId.c" ref="dd/d6a/Preproc_2Macro_2build_2CMakeFiles_24_81_820250919-g4da54e0-dirty_2CompilerIdC_2CMakeCCompilerId_8c_source.html"/>
+<section title="4.2.0" ref="dir_6167d2c67cb1b3a3f90b7379db2e4ffa.html">
+<section title="CompilerIdC" ref="dir_9689ea3b08222f18ce0e9652cd29e580.html">
+<section title="CMakeCCompilerId.c" ref="d9/d2a/Macro_2build_2CMakeFiles_24_82_80_2CompilerIdC_2CMakeCCompilerId_8c_source.html"/>
 </section>
-<section title="CompilerIdCXX" ref="dir_91144c865e26e280e071d1ef9d595021.html">
-<section title="CMakeCXXCompilerId.cpp" ref="d3/d6e/Preproc_2Macro_2build_2CMakeFiles_24_81_820250919-g4da54e0-dirty_2CompilerIdCXX_2CMakeCXXCompilerId_8cpp_source.html"/>
-</section>
-</section>
-<section title="Macro.dir" ref="dir_3734ce3a3662aabb38750d48b9c28f30.html">
-<section title="link.d" ref="da/de1/Macro_2build_2CMakeFiles_2Macro_8dir_2link_8d_source.html"/>
-<section title="main.c.o.d" ref="d5/dce/Macro_2build_2CMakeFiles_2Macro_8dir_2main_8c_8o_8d_source.html"/>
+<section title="CompilerIdCXX" ref="dir_0376f831402ff19fc6cd1565d602cb71.html">
+<section title="CMakeCXXCompilerId.cpp" ref="d1/db0/Macro_2build_2CMakeFiles_24_82_80_2CompilerIdCXX_2CMakeCXXCompilerId_8cpp_source.html"/>
 </section>
 </section>
 </section>
-<section title="main.auto.h" ref="db/dbf/Preproc_2Macro_2main_8auto_8h_source.html"/>
+</section>
+<section title="main.auto.h" ref="dd/de7/Macro_2main_8auto_8h_source.html"/>
 <section title="main.c" ref="da/d92/Preproc_2Macro_2main_8c_source.html"/>
 </section>
 </section>
@@ -684,30 +589,69 @@
 <section title="ae2f" ref="dir_a6f339251a9cf2a2d676ada59c83dae7.html">
 <section title="Sys" ref="dir_31c6e5bb06c0782780ae16500bd6f6ac.html">
 <section title="WSock" ref="dir_e1512ff59d9aaa486973630f8edcf901.html">
+<section title="_.h" ref="d8/d04/___8h_source.html"/>
 <section title="Block.auto.h" ref="d7/d1f/Block_8auto_8h_source.html"/>
 </section>
-<section title="Dir.auto.h" ref="d0/de6/Dir_8auto_8h_source.html"/>
-<section title="Dir.core.h" ref="db/d6c/Dir_8core_8h_source.html"/>
-<section title="Dir.h" ref="d4/dae/Dir_8h_source.html"/>
-<section title="Fd.auto.h" ref="d5/d84/Fd_8auto_8h_source.html"/>
-<section title="Fd.core.h" ref="d9/d67/Fd_8core_8h_source.html"/>
-<section title="Fd.h" ref="d6/d9e/Fd_8h_source.html"/>
-<section title="Ftx.auto.h" ref="d7/de6/Ftx_8auto_8h_source.html"/>
-<section title="Ftx.core.h" ref="db/d70/Ftx_8core_8h_source.html"/>
+<section title="Ftx-_linux.auto.h" ref="d7/d7b/Ftx-__linux_8auto_8h_source.html"/>
+<section title="Ftx-_linux.h" ref="d2/dfa/Ftx-__linux_8h_source.html"/>
+<section title="Ftx-POSIX.auto.h" ref="dd/d43/Ftx-POSIX_8auto_8h_source.html"/>
+<section title="Ftx-POSIX.h" ref="df/da8/Ftx-POSIX_8h.html">
+</section>
+<section title="Ftx-WIN.auto.h" ref="d2/d90/Ftx-WIN_8auto_8h_source.html"/>
+<section title="Ftx-WIN.h" ref="d9/d54/Ftx-WIN_8h_source.html"/>
+<section title="Ftx.core.h" ref="db/d70/Ftx_8core_8h.html">
+<section title="ae2f_eSysFtxWait" ref="db/d70/Ftx_8core_8h.html#a1185634bc4fb0177caf391a9f3f3942b">
+<section title="ae2f_SysFtxWait_GOOD" ref="db/d70/Ftx_8core_8h.html#a1185634bc4fb0177caf391a9f3f3942bafa436bf3ee97253e4896098ce4fb4c19"/>
+<section title="ae2f_Sys_WIN" ref="db/d70/Ftx_8core_8h.html#a1185634bc4fb0177caf391a9f3f3942ba22f210a23a30930d764bc6c7ac48b679"/>
+<section title="N_ae2f_Sys_WIN" ref="db/d70/Ftx_8core_8h.html#aaa48b906aa1c230b8a725c69ba3b506ea91b0da7e0eafd75c45f4ec7f4beec409"/>
+<section title="ae2f_Sys__linux" ref="db/d70/Ftx_8core_8h.html#aaa48b906aa1c230b8a725c69ba3b506eae5148b8b452cd45bef3e984b6c14a780"/>
+<section title="ae2f_Sys__linux" ref="db/d70/Ftx_8core_8h.html#aaa48b906aa1c230b8a725c69ba3b506eae5148b8b452cd45bef3e984b6c14a780"/>
+<section title="ae2f_Sys__linux" ref="db/d70/Ftx_8core_8h.html#aaa48b906aa1c230b8a725c69ba3b506eae5148b8b452cd45bef3e984b6c14a780"/>
+<section title="ae2f_Sys__linux" ref="db/d70/Ftx_8core_8h.html#aaa48b906aa1c230b8a725c69ba3b506eae5148b8b452cd45bef3e984b6c14a780"/>
+<section title="ae2f_SysFtx_POSIX" ref="db/d70/Ftx_8core_8h.html#aaa48b906aa1c230b8a725c69ba3b506ea4de18bbfd3b877be391be39441055b64"/>
+<section title="ae2f_SysFtx_POSIX" ref="db/d70/Ftx_8core_8h.html#aaa48b906aa1c230b8a725c69ba3b506ea4de18bbfd3b877be391be39441055b64"/>
+<section title="ae2f_SysFtx_POSIX" ref="db/d70/Ftx_8core_8h.html#aaa48b906aa1c230b8a725c69ba3b506ea4de18bbfd3b877be391be39441055b64"/>
+<section title="N_ae2f_Sys_WIN" ref="db/d70/Ftx_8core_8h.html#aaa48b906aa1c230b8a725c69ba3b506ea91b0da7e0eafd75c45f4ec7f4beec409"/>
+</section>
+<section title="ae2f_eSysFtxWake" ref="db/d70/Ftx_8core_8h.html#aaa48b906aa1c230b8a725c69ba3b506e">
+<section title="N_ae2f_Sys_WIN" ref="db/d70/Ftx_8core_8h.html#aaa48b906aa1c230b8a725c69ba3b506ea91b0da7e0eafd75c45f4ec7f4beec409"/>
+<section title="ae2f_Sys__linux" ref="db/d70/Ftx_8core_8h.html#aaa48b906aa1c230b8a725c69ba3b506eae5148b8b452cd45bef3e984b6c14a780"/>
+<section title="ae2f_Sys__linux" ref="db/d70/Ftx_8core_8h.html#aaa48b906aa1c230b8a725c69ba3b506eae5148b8b452cd45bef3e984b6c14a780"/>
+<section title="ae2f_SysFtx_POSIX" ref="db/d70/Ftx_8core_8h.html#aaa48b906aa1c230b8a725c69ba3b506ea4de18bbfd3b877be391be39441055b64"/>
+<section title="ae2f_SysFtx_POSIX" ref="db/d70/Ftx_8core_8h.html#aaa48b906aa1c230b8a725c69ba3b506ea4de18bbfd3b877be391be39441055b64"/>
+<section title="ae2f_SysFtx_POSIX" ref="db/d70/Ftx_8core_8h.html#aaa48b906aa1c230b8a725c69ba3b506ea4de18bbfd3b877be391be39441055b64"/>
+<section title="N_ae2f_Sys_WIN" ref="db/d70/Ftx_8core_8h.html#aaa48b906aa1c230b8a725c69ba3b506ea91b0da7e0eafd75c45f4ec7f4beec409"/>
+</section>
+</section>
 <section title="Ftx.h" ref="d3/de9/Ftx_8h.html">
 <section title="ae2f_SysFtxEl_t" ref="d3/de9/Ftx_8h.html#ae6783215cc7c3f017a72a9db8ac03a04"/>
-<section title="ae2f_SysFtxRet_t" ref="d3/de9/Ftx_8h.html#ab13f66f1b450667d8d1f01faff99f6f4"/>
 </section>
+<section title="Inet-POSIX.h" ref="da/db4/Inet-POSIX_8h.html">
+<section title="ae2f_SysInetDel_POSIX" ref="da/db4/Inet-POSIX_8h.html#a3e67bf2edacb547625a962fac2ac5318"/>
+<section title="ae2f_SysInetMk_POSIX" ref="da/db4/Inet-POSIX_8h.html#a4c041ef32e7d9f0ee2f9ce654f3c44b6"/>
+<section title="ae2f_SysInetMkData_DEC_POSIX" ref="da/db4/Inet-POSIX_8h.html#aa3369dc19241aa73bff56c1a11f47e86"/>
+<section title="closesocket" ref="da/db4/Inet-POSIX_8h.html#afdbb9d84bd17efd2ae7290e664992c48"/>
+<section title="ae2f_SysInetMkData_POSIX" ref="da/db4/Inet-POSIX_8h.html#a5bf42680124c56655278d06508caa2aa"/>
+</section>
+<section title="Inet-WIN.h" ref="dc/d19/Inet-WIN_8h_source.html"/>
 <section title="Inet.h" ref="d7/d83/Inet_8h.html">
 <section title="ae2f_SysInetDel" ref="d7/d83/Inet_8h.html#a2582ea58a11edb5b361e7054a6c25ff7"/>
-<section title="ae2f_SysInetGErr" ref="d7/d83/Inet_8h.html#aec1d9bfaa4b5108e92311fa5e8b3511d"/>
-<section title="ae2f_SysInetMk" ref="d7/d83/Inet_8h.html#a8c83ff94b33377acb8f4480269f39e1c"/>
-<section title="ae2f_SysInetMkData" ref="d7/d83/Inet_8h.html#adbf4aa786b977fc98d35e5448809f3e3"/>
-<section title="closesocket" ref="d7/d83/Inet_8h.html#afdbb9d84bd17efd2ae7290e664992c48"/>
+<section title="ae2f_SysInetMk" ref="d7/d83/Inet_8h.html#a7b40cb74ba38c480582717496ac49b55"/>
+<section title="ae2f_SysInetMkData_DEC" ref="d7/d83/Inet_8h.html#adbdb0693b007e01568e30461b92e120c"/>
+<section title="ae2f_eSysInetDel" ref="d7/d83/Inet_8h.html#ad3879e794a817a561910918f9ca4c956">
+<section title="ae2f_Sys_WIN" ref="d7/d83/Inet_8h.html#ad3879e794a817a561910918f9ca4c956a22f210a23a30930d764bc6c7ac48b679"/>
+<section title="ae2f_Sys_WIN" ref="d7/d83/Inet_8h.html#ad3879e794a817a561910918f9ca4c956a22f210a23a30930d764bc6c7ac48b679"/>
+<section title="ae2f_Sys_WIN" ref="d7/d83/Inet_8h.html#ad3879e794a817a561910918f9ca4c956a22f210a23a30930d764bc6c7ac48b679"/>
 </section>
-<section title="PgAlloc.auto.h" ref="d5/d66/PgAlloc_8auto_8h_source.html"/>
-<section title="PgAlloc.h" ref="df/dcf/PgAlloc_8h_source.html"/>
-<section title="Proc.h" ref="df/de3/Proc_8h_source.html"/>
+<section title="ae2f_eSysInetMk" ref="d7/d83/Inet_8h.html#a55d39196a3b20ff6e94058fab47fb888">
+<section title="ae2f_SysInetMk_GOOD" ref="d7/d83/Inet_8h.html#a55d39196a3b20ff6e94058fab47fb888adae657a2c37e54741b00aa206d31d0be"/>
+<section title="ae2f_Sys_WIN" ref="d7/d83/Inet_8h.html#ad3879e794a817a561910918f9ca4c956a22f210a23a30930d764bc6c7ac48b679"/>
+<section title="ae2f_Sys_WIN" ref="d7/d83/Inet_8h.html#ad3879e794a817a561910918f9ca4c956a22f210a23a30930d764bc6c7ac48b679"/>
+<section title="ae2f_Sys_WIN" ref="d7/d83/Inet_8h.html#ad3879e794a817a561910918f9ca4c956a22f210a23a30930d764bc6c7ac48b679"/>
+<section title="ae2f_Sys_WIN" ref="d7/d83/Inet_8h.html#ad3879e794a817a561910918f9ca4c956a22f210a23a30930d764bc6c7ac48b679"/>
+<section title="ae2f_Sys_WIN" ref="d7/d83/Inet_8h.html#ad3879e794a817a561910918f9ca4c956a22f210a23a30930d764bc6c7ac48b679"/>
+</section>
+</section>
 <section title="So.h" ref="d2/da1/So_8h.html">
 <section title="ae2f_SysSoCall" ref="d2/da1/So_8h.html#a841354ee54c537a5fe88c20ff51ce785"/>
 <section title="ae2f_SysSoExFn" ref="d2/da1/So_8h.html#a92229cba6d0a6d59fa2693c615b86ca2"/>
@@ -721,6 +665,10 @@
 <section title="Thrd.core.h" ref="d0/d09/Thrd_8core_8h.html">
 </section>
 <section title="Thrd.h" ref="df/d25/Thrd_8h.html">
+<section title="ae2f_SysThrd" ref="d4/dd1/structae2f__SysThrd.html">
+<section title="ae2f_Sys__linux" ref="d4/dd1/structae2f__SysThrd.html#ae0b6e566d8bb0645f3746ed25af95b44"/>
+<section title="m_id" ref="d4/dd1/structae2f__SysThrd.html#ab7f2b6c8c2588992e55fca8c958d7670"/>
+</section>
 <section title="ae2f_eSysThrd_t" ref="df/d25/Thrd_8h.html#a2c0679367c853fc04bf8c4cd3d763ccf"/>
 <section title="ae2f_SysThrdFn_t" ref="df/d25/Thrd_8h.html#ac6f2f811a793435b0a5935bc1c22fa59"/>
 <section title="ae2f_SysThrdID_t" ref="df/d25/Thrd_8h.html#adfe4b1f98df266769ecbc89563b49c5f"/>
@@ -730,75 +678,39 @@
 <section title="ae2f_eSysThrdSuccess" ref="df/d25/Thrd_8h.html#a0c761b5e6e49df19c7b98e92ea3d944fae77961cbd170df112005be4e5302a5ad"/>
 <section title="ae2f_eSysThrdMemOut" ref="df/d25/Thrd_8h.html#a0c761b5e6e49df19c7b98e92ea3d944fab67176f1b91fe266a57091434b7c155c"/>
 <section title="ae2f_eSysThrdTmOut" ref="df/d25/Thrd_8h.html#a0c761b5e6e49df19c7b98e92ea3d944fa5e31c00ea02f23ada8cf366bdec89877"/>
-<section title="ae2f_eSysThrdBusy" ref="df/d25/Thrd_8h.html#a0c761b5e6e49df19c7b98e92ea3d944fa30b5b28c585fac46294b3ab8dd9f2961"/>
-<section title="ae2f_eSysThrdErr" ref="df/d25/Thrd_8h.html#a0c761b5e6e49df19c7b98e92ea3d944fa310d83890deca96f0b9bc57ea8f63d0c"/>
 </section>
-<section title="ae2f_structdef" ref="df/d25/Thrd_8h.html#a04b22ebad15b09836f00eb93c4d32021"/>
 </section>
-<section title="ThrdEx.h" ref="d1/d19/ThrdEx_8h_source.html"/>
 <section title="WSock.h" ref="d2/dc4/WSock_8h.html">
 </section>
 </section>
 <section title="Sys.h" ref="d5/dba/Sys_8h.html">
+<section title="ae2f_Sys__linux" ref="d5/dba/Sys_8h.html#a88e3d7092a07afc154dc26691e6be745"/>
+<section title="ae2f_Sys_WIN" ref="d5/dba/Sys_8h.html#a260ee35b2ae6136accc0a0e4da550ea5"/>
+<section title="N_ae2f_Sys_WIN" ref="d5/dba/Sys_8h.html#a7cf1f0426cb8c4f845230a3b9708a546"/>
+<section title="ae2f_Sys_unused_t" ref="d5/dba/Sys_8h.html#a27f5eb21ca736cf0c422143c0e5deaa6"/>
 </section>
 </section>
 </section>
 <section title="src" ref="dir_bd40a2c02ef1f14dfad3b812c48e1310.html">
 <section title="sys" ref="dir_e47386b12d370eee1e8d2a6edf39815c.html">
 <section title="WSock" ref="dir_8c0d74b344a93502700946a6ff3a8fa7.html">
-<section title="Block.def.cc" ref="da/da8/Block_8def_8cc_source.html"/>
+<section title="Block.def.c" ref="dd/d7f/Block_8def_8c_source.html"/>
 </section>
-<section title="Dir.def.cc" ref="d1/daa/Dir_8def_8cc_source.html"/>
-<section title="Fd.def.cc" ref="d2/da3/Fd_8def_8cc_source.html"/>
-<section title="Ftx.def.cc" ref="dd/d3c/Ftx_8def_8cc_source.html"/>
-<section title="PgAlloc.def.cc" ref="da/d18/PgAlloc_8def_8cc_source.html"/>
-<section title="Thrd.def.cc" ref="d2/d61/Thrd_8def_8cc_source.html"/>
+<section title="Ftx-_linux.def.c" ref="d0/d45/Ftx-__linux_8def_8c_source.html"/>
+<section title="Ftx-POSIX.def.c" ref="de/dd7/Ftx-POSIX_8def_8c_source.html"/>
+<section title="Ftx-WIN.def.c" ref="da/ddc/Ftx-WIN_8def_8c_source.html"/>
+<section title="Thrd.def.c" ref="d3/da4/Thrd_8def_8c_source.html"/>
 </section>
 </section>
 <section title="test" ref="dir_50ec694df376525803d68211f0701b8b.html">
+<section title="enums" ref="dir_c6197a1d98d6bdcd96c25b715e9f184e.html">
+<section title="Ftx.c" ref="d1/d5d/Ftx_8c.html">
+</section>
+<section title="Inet.c" ref="d3/d5a/Inet_8c_source.html"/>
+</section>
 <section title="primal" ref="dir_97b0ecf9c5770be41a25ea20001b82d9.html">
 <section title="inetcompiletest.c" ref="d8/dd8/inetcompiletest_8c_source.html"/>
 <section title="thrdjoin.c" ref="d8/d3d/thrdjoin_8c_source.html"/>
-</section>
-</section>
-</section>
-<section title="VK-Core" ref="dir_bd287be51453e518df9a58a122ebf47a.html">
-<section title="cmake" ref="dir_f3e0f625c715798832f175e039e1b253.html">
-<section title="cmake.hpp" ref="dd/d9b/VK-Core_2cmake_2cmake_8hpp.html">
-</section>
-<section title="Core.cmake.hpp" ref="dd/d33/VK-Core_2cmake_2Core_8cmake_8hpp_source.html"/>
-</section>
-<section title="inc" ref="dir_17429155b0a20663f0d137eede7b7eda.html">
-<section title="ae2fVK" ref="dir_98e6445dbedb89db20b8d69dbbdc2b21.html">
-<section title="clspv" ref="dir_32973ddce67af0c9725e0076fd51792a.html">
-<section title="addrspec.h" ref="dd/d0b/addrspec_8h_source.html"/>
-<section title="atom.h" ref="d9/d49/atom_8h.html">
-</section>
-<section title="key.h" ref="de/de5/key_8h_source.html"/>
-<section title="sclr.h" ref="da/d7f/sclr_8h_source.html"/>
-<section title="stdint.h" ref="df/dd8/stdint_8h_source.html"/>
-<section title="sync.h" ref="de/d6b/sync_8h.html">
-<section title="CLK_ALL_MEM_FENCE" ref="de/d6b/sync_8h.html#a44ef62fc6e9f433bff5ffcb50a447404"/>
-<section title="CLK_ALLIMG_MEM_FENCE" ref="de/d6b/sync_8h.html#a1cc99646108384e6ebe45f152327bafc"/>
-</section>
-<section title="wrkitem.h" ref="d9/d56/wrkitem_8h_source.html"/>
-</section>
-<section title="clspv.h" ref="d6/de6/clspv_8h_source.html"/>
-</section>
-</section>
-<section title="src" ref="dir_50833130de43a9e11128811025193358.html">
-<section title="Slang.def.c" ref="db/d5d/Slang_8def_8c_source.html"/>
-<section title="Slang.imp.c" ref="d0/d55/Slang_8imp_8c_source.html"/>
-<section title="Spvc.def.c" ref="df/da7/Spvc_8def_8c_source.html"/>
-<section title="Spvc.imp.c" ref="d2/d78/Spvc_8imp_8c_source.html"/>
-</section>
-<section title="test" ref="dir_a0f8d4456862b75e60687b3628f0b8e8.html">
-<section title="clspv" ref="dir_c41013515c93cf5f4d581691c643f35d.html">
-<section title="a.c" ref="d5/dd3/clspv_2a_8c_source.html"/>
-</section>
-<section title="spvc" ref="dir_91744a1580f315a7f9609229bcf483af.html">
-<section title="a.c" ref="dc/dae/spvc_2a_8c_source.html"/>
-<section title="a.cc" ref="de/daf/a_8cc_source.html"/>
 </section>
 </section>
 </section>
@@ -818,49 +730,156 @@
 </section>
 </toc>
 <keywords>
-<keyword name="__prmbool" id="__prmbool_" ref="d7/d59/struct____prmbool.html"/>
+<keyword name="ae2f_AnnMlp_t" id="ae2f_AnnMlp_t_" ref="da/d2e/structae2f__AnnMlp__t.html"/>
+<keyword name="ae2f_AnnMlpBwdAll_t" id="ae2f_AnnMlpBwdAll_t_" ref="d9/dfb/structae2f__AnnMlpBwdAll__t.html"/>
+<keyword name="ae2f_AnnMlpBwdAllStack_t" id="ae2f_AnnMlpBwdAllStack_t_" ref="da/d2a/unionae2f__AnnMlpBwdAllStack__t.html"/>
+<keyword name="ae2f_AnnMlpHidDeltaSingle_t" id="ae2f_AnnMlpHidDeltaSingle_t_" ref="df/d1b/structae2f__AnnMlpHidDeltaSingle__t.html"/>
+<keyword name="ae2f_AnnMlpInit_t" id="ae2f_AnnMlpInit_t_" ref="d7/dfc/structae2f__AnnMlpInit__t.html"/>
+<keyword name="ae2f_AnnMlpInitMkPtr_t" id="ae2f_AnnMlpInitMkPtr_t_" ref="d5/d7e/unionae2f__AnnMlpInitMkPtr__t.html"/>
+<keyword name="ae2f_AnnMlpMk_t" id="ae2f_AnnMlpMk_t_" ref="df/d4b/structae2f__AnnMlpMk__t.html"/>
+<keyword name="ae2f_AnnMlpPredict_t" id="ae2f_AnnMlpPredict_t_" ref="d4/df7/structae2f__AnnMlpPredict__t.html"/>
+<keyword name="ae2f_AnnMlpTrain_t" id="ae2f_AnnMlpTrain_t_" ref="d5/dfd/structae2f__AnnMlpTrain__t.html"/>
+<keyword name="ae2f_AnnSlp_t" id="ae2f_AnnSlp_t_" ref="d0/d13/structae2f__AnnSlp__t.html"/>
+<keyword name="ae2f_AnnSlpFit_t" id="ae2f_AnnSlpFit_t_" ref="d6/dfd/structae2f__AnnSlpFit__t.html"/>
+<keyword name="ae2f_AnnSlpFitRAM_t" id="ae2f_AnnSlpFitRAM_t_" ref="de/d8d/structae2f__AnnSlpFitRAM__t.html"/>
+<keyword name="ae2f_AnnSlpFollow_t" id="ae2f_AnnSlpFollow_t_" ref="d5/d6f/structae2f__AnnSlpFollow__t.html"/>
+<keyword name="ae2f_AnnSlpFollowOne_t" id="ae2f_AnnSlpFollowOne_t_" ref="d1/d9b/structae2f__AnnSlpFollowOne__t.html"/>
+<keyword name="ae2f_AnnSlpMk_t" id="ae2f_AnnSlpMk_t_" ref="d8/d44/structae2f__AnnSlpMk__t.html"/>
+<keyword name="ae2f_AnnSlpMkU0_t" id="ae2f_AnnSlpMkU0_t_" ref="d1/d28/unionae2f__AnnSlpMkU0__t.html"/>
+<keyword name="ae2f_AnnSlpPredict_t" id="ae2f_AnnSlpPredict_t_" ref="dd/dde/structae2f__AnnSlpPredict__t.html"/>
+<keyword name="ae2f_AnnSlpPredictOne_t" id="ae2f_AnnSlpPredictOne_t_" ref="d4/d66/structae2f__AnnSlpPredictOne__t.html"/>
+<keyword name="ae2f_AnnSlpTrain_t" id="ae2f_AnnSlpTrain_t_" ref="d9/d5a/structae2f__AnnSlpTrain__t.html"/>
+<keyword name="ae2f_AnnSlpTrainOne_t" id="ae2f_AnnSlpTrainOne_t_" ref="d1/d0c/structae2f__AnnSlpTrainOne__t.html"/>
+<keyword name="ae2f_AnnSlpTrainREG_t" id="ae2f_AnnSlpTrainREG_t_" ref="dd/d3a/structae2f__AnnSlpTrainREG__t.html"/>
+<keyword name="ae2f_MMap" id="ae2f_MMap_" ref="d2/d5d/structae2f__MMap.html"/>
+<keyword name="ae2f_mMMap" id="ae2f_mMMap_" ref="d6/db9/structae2f__mMMap.html"/>
+<keyword name="ae2f_mMMapFieldIdx_t" id="ae2f_mMMapFieldIdx_t_" ref="d0/de9/structae2f__mMMapFieldIdx__t.html"/>
+<keyword name="ae2f_mMMapInit_t" id="ae2f_mMMapInit_t_" ref="d6/d6e/structae2f__mMMapInit__t.html"/>
+<keyword name="ae2f_mMMapMk_t" id="ae2f_mMMapMk_t_" ref="df/dcc/structae2f__mMMapMk__t.html"/>
+<keyword name="ae2f_mMMapSz_t" id="ae2f_mMMapSz_t_" ref="d2/d55/structae2f__mMMapSz__t.html"/>
+<keyword name="ae2f_SysThrd" id="ae2f_SysThrd_" ref="d4/dd1/structae2f__SysThrd.html"/>
 <keyword name="ae2fCL_LcgRandSeed_t" id="ae2fCL_LcgRandSeed_t_" ref="dc/dd2/unionae2fCL__LcgRandSeed__t.html"/>
+<keyword name="ae2fVK_AnnMlp" id="ae2fVK_AnnMlp_" ref="db/d2b/structae2fVK__AnnMlp.html"/>
+<keyword name="ae2fVK_AnnMlpMk_t" id="ae2fVK_AnnMlpMk_t_" ref="db/d85/structae2fVK__AnnMlpMk__t.html"/>
+<keyword name="ae2fVK_AnnMlpMkRet_t" id="ae2fVK_AnnMlpMkRet_t_" ref="d1/d70/structae2fVK__AnnMlpMkRet__t.html"/>
+<keyword name="ae2fVK_AnnMlpMkU0_t" id="ae2fVK_AnnMlpMkU0_t_" ref="d8/d66/unionae2fVK__AnnMlpMkU0__t.html"/>
+<keyword name="ae2fVK_AnnMlpMkU0Swap_t" id="ae2fVK_AnnMlpMkU0Swap_t_" ref="d2/d19/structae2fVK__AnnMlpMkU0Swap__t.html"/>
+<keyword name="ae2fVK_AnnMlpMkU1_t" id="ae2fVK_AnnMlpMkU1_t_" ref="d6/d98/unionae2fVK__AnnMlpMkU1__t.html"/>
+<keyword name="ae2fVK_AnnMlpMkU2_t" id="ae2fVK_AnnMlpMkU2_t_" ref="df/d82/unionae2fVK__AnnMlpMkU2__t.html"/>
+<keyword name="ae2fVK_AnnMlpMkU3_t" id="ae2fVK_AnnMlpMkU3_t_" ref="d7/d92/unionae2fVK__AnnMlpMkU3__t.html"/>
+<keyword name="ae2fVK_AnnMlpMkU4_t" id="ae2fVK_AnnMlpMkU4_t_" ref="dd/d64/structae2fVK__AnnMlpMkU4__t.html"/>
+<keyword name="ae2fVK_AnnSlp" id="ae2fVK_AnnSlp_" ref="dc/d91/structae2fVK__AnnSlp.html"/>
+<keyword name="ae2fVK_AnnSlpCreatDescPool_t" id="ae2fVK_AnnSlpCreatDescPool_t_" ref="dc/d64/structae2fVK__AnnSlpCreatDescPool__t.html"/>
+<keyword name="ae2fVK_AnnSlpCreatDescPoolU0_t" id="ae2fVK_AnnSlpCreatDescPoolU0_t_" ref="d6/d19/structae2fVK__AnnSlpCreatDescPoolU0__t.html"/>
+<keyword name="ae2fVK_AnnSlpDescPool" id="ae2fVK_AnnSlpDescPool_" ref="d0/d50/structae2fVK__AnnSlpDescPool.html"/>
+<keyword name="ae2fVK_AnnSlpDescPoolCmd" id="ae2fVK_AnnSlpDescPoolCmd_" ref="df/d6f/structae2fVK__AnnSlpDescPoolCmd.html"/>
+<keyword name="ae2fVK_AnnSlpDescPoolCmdMk_t" id="ae2fVK_AnnSlpDescPoolCmdMk_t_" ref="da/d02/structae2fVK__AnnSlpDescPoolCmdMk__t.html"/>
+<keyword name="ae2fVK_AnnSlpMk_t" id="ae2fVK_AnnSlpMk_t_" ref="d8/d08/structae2fVK__AnnSlpMk__t.html"/>
+<keyword name="ae2fVK_AnnSlpMkAlter_t" id="ae2fVK_AnnSlpMkAlter_t_" ref="dc/dac/structae2fVK__AnnSlpMkAlter__t.html"/>
+<keyword name="ae2fVK_AnnSlpMkU0_t" id="ae2fVK_AnnSlpMkU0_t_" ref="dd/dee/unionae2fVK__AnnSlpMkU0__t.html"/>
+<keyword name="ae2fVK_AnnSlpMkU1_t" id="ae2fVK_AnnSlpMkU1_t_" ref="d3/d95/unionae2fVK__AnnSlpMkU1__t.html"/>
+<keyword name="ae2fVK_AnnSlpMkU2_t" id="ae2fVK_AnnSlpMkU2_t_" ref="de/df1/unionae2fVK__AnnSlpMkU2__t.html"/>
+<keyword name="ae2fVK_AnnSlpMkU2S0_t" id="ae2fVK_AnnSlpMkU2S0_t_" ref="d5/da7/structae2fVK__AnnSlpMkU2S0__t.html"/>
+<keyword name="ae2fVK_AnnSlpMkU3_t" id="ae2fVK_AnnSlpMkU3_t_" ref="db/d6a/unionae2fVK__AnnSlpMkU3__t.html"/>
+<keyword name="ae2fVK_AnnSlpPredictUnion0_t" id="ae2fVK_AnnSlpPredictUnion0_t_" ref="d8/d70/unionae2fVK__AnnSlpPredictUnion0__t.html"/>
+<keyword name="ae2fVK_AnnSlpPredictUnion0WrDescInfo_t" id="ae2fVK_AnnSlpPredictUnion0WrDescInfo_t_" ref="d4/d0a/structae2fVK__AnnSlpPredictUnion0WrDescInfo__t.html"/>
 <keyword name="c89atomic_bitmap_allocator" id="c89atomic_bitmap_allocator_" ref="de/de1/structc89atomic__bitmap__allocator.html"/>
 <keyword name="c89atomic_deque" id="c89atomic_deque_" ref="d1/d8e/structc89atomic__deque.html"/>
 <keyword name="c89atomic_if32" id="c89atomic_if32_" ref="d0/d2a/unionc89atomic__if32.html"/>
 <keyword name="c89atomic_if64" id="c89atomic_if64_" ref="d8/d7c/unionc89atomic__if64.html"/>
-<keyword name="ae2f::errGlobState" id="ae2f::errGlobState_" ref="d4/db7/structae2f_1_1errGlobState.html"/>
-<keyword name="ae2f::errGlobThrown" id="ae2f::errGlobThrown_" ref="d1/df7/classae2f_1_1errGlobThrown.html"/>
 <keyword name="FLAGS_t" id="FLAGS_t_" ref="d6/d66/structFLAGS__t.html"/>
-<keyword name="ae2f::rBitVec" id="ae2f::rBitVec_" ref="d7/daf/classae2f_1_1rBitVec.html"/>
+<keyword name="lr_t" id="lr_t_" ref="d9/dcc/structlr__t.html"/>
+<keyword name="lrlsz_t" id="lrlsz_t_" ref="d2/d3d/structlrlsz__t.html"/>
+<keyword name="lrlszel_t" id="lrlszel_t_" ref="dd/d10/unionlrlszel__t.html"/>
 <keyword name="STACK_T" id="STACK_T_" ref="d4/dc0/structSTACK__T.html"/>
 <keyword name="sz2_t" id="sz2_t_" ref="da/de5/structsz2__t.html"/>
 <keyword name="TEST_STACK" id="TEST_STACK_" ref="d2/da7/unionTEST__STACK.html"/>
 <keyword name="___DOC_CMAKE" id="___DOC_CMAKE_" ref="d1/d61/namespace______DOC__CMAKE.html"/>
 <keyword name="ae2f" id="ae2f_" ref="d4/ddc/namespaceae2f.html"/>
-<keyword name="errGlobStateWithThrow(ae2f_err_t a)" id="ae2f::errGlobState::errGlobStateWithThrow_a3b7b3f793dee53731ef00937420ed26d" ref="d4/db7/structae2f_1_1errGlobState.html#a3b7b3f793dee53731ef00937420ed26d"/>
-<keyword name="errGlobStateWithThrow(ae2f_err_t a)" id="ae2f::errGlobState::errGlobStateWithThrow_a03e2700300ac48a2271f78009f6aafbe" ref="d4/db7/structae2f_1_1errGlobState.html#a03e2700300ac48a2271f78009f6aafbe"/>
+<keyword name="Deprecated List" id="Deprecated List_" ref="da/d58/deprecated.html"/>
+<keyword name="ae2f_Sys__linux(_ae2f_SysThrdStckPtr_t m_stck;) ae2f_Sys__linux(size_t m_stcksz" id="ae2f_SysThrd::ae2f_Sys__linux_ae0b6e566d8bb0645f3746ed25af95b44" ref="d4/dd1/structae2f__SysThrd.html#ae0b6e566d8bb0645f3746ed25af95b44"/>
+<keyword name="m_Act" id="ae2f_AnnMlpInitMkPtr_t::m_Act_a348eb2e89d5517563fb96720393ccdb6" ref="d5/d7e/unionae2f__AnnMlpInitMkPtr__t.html#a348eb2e89d5517563fb96720393ccdb6"/>
+<keyword name="m_byte" id="ae2f_AnnMlpInitMkPtr_t::m_byte_a2fc180db973cbf81560e6acf522e1ab5" ref="d5/d7e/unionae2f__AnnMlpInitMkPtr__t.html#a2fc180db973cbf81560e6acf522e1ab5"/>
+<keyword name="m_depth" id="ae2f_AnnMlp_t::m_depth_a0212f775b416ad2f219478b74a705302" ref="da/d2e/structae2f__AnnMlp__t.html#a0212f775b416ad2f219478b74a705302"/>
+<keyword name="m_depth" id="ae2f_AnnMlpTrain_t::m_depth_ae98de938a201f0317f1ec04695002e82" ref="d5/dfd/structae2f__AnnMlpTrain__t.html#ae98de938a201f0317f1ec04695002e82"/>
+<keyword name="m_dim" id="ae2f_mMMap::m_dim_a9d8bed9cbd6a76e294ba98ad9b1e3487" ref="d6/db9/structae2f__mMMap.html#a9d8bed9cbd6a76e294ba98ad9b1e3487"/>
+<keyword name="m_f" id="ae2f_AnnMlpInitMkPtr_t::m_f_a5330399212041fde42639284d8e49591" ref="d5/d7e/unionae2f__AnnMlpInitMkPtr__t.html#a5330399212041fde42639284d8e49591"/>
+<keyword name="m_fieldptr" id="ae2f_AnnSlpMk_t::m_fieldptr_a927696c325373e5e4e899f33b4349891" ref="d8/d44/structae2f__AnnSlpMk__t.html#a927696c325373e5e4e899f33b4349891"/>
+<keyword name="m_i" id="ae2f_AnnSlpPredict_t::m_i_a76eaa723eb8d5e67c7b533544dd4e4fd" ref="dd/dde/structae2f__AnnSlpPredict__t.html#a76eaa723eb8d5e67c7b533544dd4e4fd"/>
+<keyword name="m_i" id="ae2f_AnnSlpTrain_t::m_i_a57535cdfb7fd791151dcf2af04a90771" ref="d9/d5a/structae2f__AnnSlpTrain__t.html#a57535cdfb7fd791151dcf2af04a90771"/>
+<keyword name="m_i" id="ae2f_AnnSlpFollow_t::m_i_a06a055e5c7b20854fb758994c85c2d52" ref="d5/d6f/structae2f__AnnSlpFollow__t.html#a06a055e5c7b20854fb758994c85c2d52"/>
+<keyword name="m_i" id="ae2f_AnnSlpFit_t::m_i_a6b71c200e620aec859d81baf9eb9195e" ref="d6/dfd/structae2f__AnnSlpFit__t.html#a6b71c200e620aec859d81baf9eb9195e"/>
+<keyword name="m_i" id="ae2f_AnnMlpInit_t::m_i_adc837b334325823fa5857c81ec418174" ref="d7/dfc/structae2f__AnnMlpInit__t.html#adc837b334325823fa5857c81ec418174"/>
+<keyword name="m_i" id="ae2f_AnnMlpMk_t::m_i_a7cfbb5b065b1dd0044d20609c3968d50" ref="df/d4b/structae2f__AnnMlpMk__t.html#a7cfbb5b065b1dd0044d20609c3968d50"/>
+<keyword name="m_i" id="ae2f_AnnMlpHidDeltaSingle_t::m_i_aef497dbc1a9ddc05f1b0d9d75fdcfbb9" ref="df/d1b/structae2f__AnnMlpHidDeltaSingle__t.html#aef497dbc1a9ddc05f1b0d9d75fdcfbb9"/>
+<keyword name="m_i" id="ae2f_AnnMlpBwdAll_t::m_i_a1b4d7a0b25886fca04fd60204a7857c5" ref="d9/dfb/structae2f__AnnMlpBwdAll__t.html#a1b4d7a0b25886fca04fd60204a7857c5"/>
+<keyword name="m_i" id="ae2f_AnnMlpTrain_t::m_i_a4cf48d1239ebb0f99388659e33e76c85" ref="d5/dfd/structae2f__AnnMlpTrain__t.html#a4cf48d1239ebb0f99388659e33e76c85"/>
+<keyword name="m_i" id="ae2fVK_AnnMlpMkU0Swap_t::m_i_a5db01f2ab3638b2707e147ef3b99737b" ref="d2/d19/structae2fVK__AnnMlpMkU0Swap__t.html#a5db01f2ab3638b2707e147ef3b99737b"/>
+<keyword name="m_id" id="ae2f_SysThrd::m_id_ab7f2b6c8c2588992e55fca8c958d7670" ref="d4/dd1/structae2f__SysThrd.html#ab7f2b6c8c2588992e55fca8c958d7670"/>
+<keyword name="m_inc" id="ae2f_AnnSlp_t::m_inc_a5192aa494fe7f31ded8ffd3d0705fa99" ref="d0/d13/structae2f__AnnSlp__t.html#a5192aa494fe7f31ded8ffd3d0705fa99"/>
+<keyword name="m_inc" id="ae2f_AnnMlpPredict_t::m_inc_aad3f935975a231ff96bd48d0fa495a64" ref="d4/df7/structae2f__AnnMlpPredict__t.html#aad3f935975a231ff96bd48d0fa495a64"/>
+<keyword name="m_j" id="ae2f_AnnSlpFollowOne_t::m_j_ac0cdd5cba8d274db87abb3ede21e7c72" ref="d1/d9b/structae2f__AnnSlpFollowOne__t.html#ac0cdd5cba8d274db87abb3ede21e7c72"/>
+<keyword name="m_k" id="ae2f_AnnMlpBwdAll_t::m_k_aedf3fb7ccd7ec4325c69d9e34a3e4ba6" ref="d9/dfb/structae2f__AnnMlpBwdAll__t.html#aedf3fb7ccd7ec4325c69d9e34a3e4ba6"/>
+<keyword name="m_k" id="ae2f_AnnMlpTrain_t::m_k_a39a845dbf6ef1d96b40c3797bc9fa266" ref="d5/dfd/structae2f__AnnMlpTrain__t.html#a39a845dbf6ef1d96b40c3797bc9fa266"/>
 <keyword name="m_Key" id="FLAGS_t::m_Key_ada83459e01c3e5a5e991153017eb061c" ref="d6/d66/structFLAGS__t.html#ada83459e01c3e5a5e991153017eb061c"/>
-<keyword name="msgall() const noexcept" id="ae2f::errGlobState::msgall_ac09c7bdd330dd51fab924dea11256f6d" ref="d4/db7/structae2f_1_1errGlobState.html#ac09c7bdd330dd51fab924dea11256f6d"/>
-<keyword name="msgall() const noexcept" id="ae2f::errGlobState::msgall_ac09c7bdd330dd51fab924dea11256f6d" ref="d4/db7/structae2f_1_1errGlobState.html#ac09c7bdd330dd51fab924dea11256f6d"/>
-<keyword name="obj" id="ae2f::rBitVec::obj_a263f40bf79b771b35786f8e1a72aabf3" ref="d7/daf/classae2f_1_1rBitVec.html#a263f40bf79b771b35786f8e1a72aabf3"/>
-<keyword name="peek() const noexcept" id="ae2f::errGlobState::peek_aefcb3eb5ba74ef67f309834a9878c6ec" ref="d4/db7/structae2f_1_1errGlobState.html#aefcb3eb5ba74ef67f309834a9878c6ec"/>
-<keyword name="peek() const noexcept" id="ae2f::errGlobState::peek_aefcb3eb5ba74ef67f309834a9878c6ec" ref="d4/db7/structae2f_1_1errGlobState.html#aefcb3eb5ba74ef67f309834a9878c6ec"/>
-<keyword name="pop() const noexcept" id="ae2f::errGlobState::pop_a03f7d9e4112edd6cbff8762713e544bf" ref="d4/db7/structae2f_1_1errGlobState.html#a03f7d9e4112edd6cbff8762713e544bf"/>
-<keyword name="pop() const noexcept" id="ae2f::errGlobState::pop_a03f7d9e4112edd6cbff8762713e544bf" ref="d4/db7/structae2f_1_1errGlobState.html#a03f7d9e4112edd6cbff8762713e544bf"/>
-<keyword name="__ae2f_AnnMlpBwd_imp(v_tmp, v_send, slp_then, retdelta_then, deltaseed, actderiv_then, inp)" id="Mlp.auto.h::__ae2f_AnnMlpBwd_imp_a15e4f21090b7bf739c7550dc8b6ddbdb" ref="d1/d97/inc_2ae2f_2Ann_2Mlp_8auto_8h.html#a15e4f21090b7bf739c7550dc8b6ddbdb"/>
-<keyword name="__ae2f_AnnMlpFollowPrimal(OPER_NEG, OPER_NONE, reterr, mlp, inp, delta)" id="Mlp.auto.h::__ae2f_AnnMlpFollowPrimal_ad31ef29beae54bd7c663b2fb13b203df" ref="d1/d97/inc_2ae2f_2Ann_2Mlp_8auto_8h.html#ad31ef29beae54bd7c663b2fb13b203df"/>
-<keyword name="__ae2f_AnnMlpFollowPrimal_imp(OPER_NEG, OPER_NONE, v_follow, mlp, inp, delta, lenv, outstream, deltacache, weight, bias, learningrate, learningrate_bias, actderiv)" id="Mlp.auto.h::__ae2f_AnnMlpFollowPrimal_imp_a73157a71a47523ccdcd016209eab804f" ref="d1/d97/inc_2ae2f_2Ann_2Mlp_8auto_8h.html#a73157a71a47523ccdcd016209eab804f"/>
-<keyword name="__ae2f_AnnMlpHidDeltaSingle_imp(v_single, slp, weight, delta, iidx)" id="Mlp.auto.h::__ae2f_AnnMlpHidDeltaSingle_imp_a2db66e2053f20d1ee061da99fbc4561d" ref="d1/d97/inc_2ae2f_2Ann_2Mlp_8auto_8h.html#a2db66e2053f20d1ee061da99fbc4561d"/>
-<keyword name="__ae2f_AnnMlpInit_imp(v_mlp, v_init, depth, szvector, szswap_opt, act, actderiv, lossderiv, deltastream, outcache, weight, bias, learningrate, learningrate_bias)" id="Mlp.auto.h::__ae2f_AnnMlpInit_imp_ae50b4d02397a659b44f8b791ba00b0ef" ref="d1/d97/inc_2ae2f_2Ann_2Mlp_8auto_8h.html#ae50b4d02397a659b44f8b791ba00b0ef"/>
-<keyword name="__ae2f_AnnMlpInitWithOutSz_imp(v_mlp, v_init, depth, outsz, weightsz, szvector, szswap_opt, act, actderiv, lossderiv, deltastream, outcache, weight, bias, learningrate, learningrate_bias)" id="Mlp.auto.h::__ae2f_AnnMlpInitWithOutSz_imp_a4f1c19f9461eaa4c3bc54426a1e2ba70" ref="d1/d97/inc_2ae2f_2Ann_2Mlp_8auto_8h.html#a4f1c19f9461eaa4c3bc54426a1e2ba70"/>
-<keyword name="__ae2f_AnnMlpMk_C(reterr, retmk, depth, szvector, szswap_opt, act, actderiv, lossderiv, deltastream, outcache, weight, bias, learningrate, learningrate_bias, offset, extra)" id="Mlp.auto.h::__ae2f_AnnMlpMk_C_a05dd2bfab406ef1fcb034086e0993e92" ref="d1/d97/inc_2ae2f_2Ann_2Mlp_8auto_8h.html#a05dd2bfab406ef1fcb034086e0993e92"/>
-<keyword name="__ae2f_AnnMlpMk_imp(reg_mk, prm_depth, pprm_szvector, propptr_szswap_opt, lppfn_act_opt, lppfn_actderiv_opt, pfn_lossderiv, propptr_deltastream_opt, propptr_outcache_opt, propptr_weight_opt, propptr_bias_opt, prm_learningrate, prm_learningrate_bias, prm_offset_opt, prm_extra_opt)" id="Mlp.auto.h::__ae2f_AnnMlpMk_imp_a3aa4fa11af458c8d6d5f637057e60290" ref="d1/d97/inc_2ae2f_2Ann_2Mlp_8auto_8h.html#a3aa4fa11af458c8d6d5f637057e60290"/>
-<keyword name="__ae2f_AnnMlpPredictPrimal(OPER_NEG, OPER_NONE, reterr, mlp, inp, out)" id="Mlp.auto.h::__ae2f_AnnMlpPredictPrimal_ac8ac1d7ee0e56882a08a225678fc016d" ref="d1/d97/inc_2ae2f_2Ann_2Mlp_8auto_8h.html#ac8ac1d7ee0e56882a08a225678fc016d"/>
-<keyword name="__ae2f_AnnMlpPredictPrimal_imp(OPER_NEG, OPER_NONE, v_predict, mlp, inp, out, sz, weight, bias, outcache, act_opt)" id="Mlp.auto.h::__ae2f_AnnMlpPredictPrimal_imp_a8619c8821cb926f6418c209014e02aba" ref="d1/d97/inc_2ae2f_2Ann_2Mlp_8auto_8h.html#a8619c8821cb926f6418c209014e02aba"/>
-<keyword name="__ae2f_AnnMlpSz_imp(ret_sz, outc, weightc, depth, szswap, act, actderiv, deltastream, outcache, weight, bias)" id="Mlp.auto.h::__ae2f_AnnMlpSz_imp_a035329d7604984041d54865c9a3ec417" ref="d1/d97/inc_2ae2f_2Ann_2Mlp_8auto_8h.html#a035329d7604984041d54865c9a3ec417"/>
-<keyword name="__ae2f_AnnMlpTrainAuto_C(reterr, mlp, inp, out_desired)" id="Mlp.auto.h::__ae2f_AnnMlpTrainAuto_C_abc5746395e05b73fe700b1c79cc6795b" ref="d1/d97/inc_2ae2f_2Ann_2Mlp_8auto_8h.html#abc5746395e05b73fe700b1c79cc6795b"/>
+<keyword name="m_Loss" id="ae2f_AnnMlpInitMkPtr_t::m_Loss_a441e1219c351e53ca005cd42f015b256" ref="d5/d7e/unionae2f__AnnMlpInitMkPtr__t.html#a441e1219c351e53ca005cd42f015b256"/>
+<keyword name="m_mkbase" id="ae2f_AnnMlpMk_t::m_mkbase_a042382b2f35937e19def61629d78b26c" ref="df/d4b/structae2f__AnnMlpMk__t.html#a042382b2f35937e19def61629d78b26c"/>
+<keyword name="m_mkbase" id="ae2fVK_AnnMlpMkU0Swap_t::m_mkbase_a2e67f8bc025c57abf3ef7e47e131031e" ref="d2/d19/structae2fVK__AnnMlpMkU0Swap__t.html#a2e67f8bc025c57abf3ef7e47e131031e"/>
+<keyword name="m_mkptr" id="ae2f_AnnMlpMk_t::m_mkptr_a7d3d4a1e483812102893cbde15a456ee" ref="df/d4b/structae2f__AnnMlpMk__t.html#a7d3d4a1e483812102893cbde15a456ee"/>
+<keyword name="m_mkptr" id="ae2fVK_AnnMlpMkU0Swap_t::m_mkptr_aa950f51e2c6db3c13bb4e076a396c1c1" ref="d2/d19/structae2fVK__AnnMlpMkU0Swap__t.html#aa950f51e2c6db3c13bb4e076a396c1c1"/>
+<keyword name="m_mlp" id="ae2f_AnnMlpInitMkPtr_t::m_mlp_abf6811ab1161f2a4475cc1759ec93a34" ref="d5/d7e/unionae2f__AnnMlpInitMkPtr__t.html#abf6811ab1161f2a4475cc1759ec93a34"/>
+<keyword name="m_outc" id="ae2f_AnnSlp_t::m_outc_ad65eee89db2b059e05e9188aface0eef" ref="d0/d13/structae2f__AnnSlp__t.html#ad65eee89db2b059e05e9188aface0eef"/>
+<keyword name="m_outc" id="ae2f_AnnMlp_t::m_outc_afc65eaf50876284b4f4d6b0a2943e945" ref="da/d2e/structae2f__AnnMlp__t.html#afc65eaf50876284b4f4d6b0a2943e945"/>
+<keyword name="m_outc" id="ae2f_AnnMlpInit_t::m_outc_a2bedfee76d8c6bbfa2b234e89c2b1978" ref="d7/dfc/structae2f__AnnMlpInit__t.html#a2bedfee76d8c6bbfa2b234e89c2b1978"/>
+<keyword name="m_outc" id="ae2f_AnnMlpMk_t::m_outc_aa1e2fe11beb97ab73d4dfa6e98fa138c" ref="df/d4b/structae2f__AnnMlpMk__t.html#aa1e2fe11beb97ab73d4dfa6e98fa138c"/>
+<keyword name="m_outc" id="ae2f_AnnMlpHidDeltaSingle_t::m_outc_ae913b28c3cf5c35eab8d8cb2fc8fec3d" ref="df/d1b/structae2f__AnnMlpHidDeltaSingle__t.html#ae913b28c3cf5c35eab8d8cb2fc8fec3d"/>
+<keyword name="m_outc" id="ae2fVK_AnnMlpMkU0Swap_t::m_outc_ae64b8daf6b7e0dadd83163a7b5f5b778" ref="d2/d19/structae2fVK__AnnMlpMkU0Swap__t.html#ae64b8daf6b7e0dadd83163a7b5f5b778"/>
+<keyword name="m_outc_max" id="ae2f_AnnMlpTrain_t::m_outc_max_aaeb502995a3ac177253e71b28d4bf009" ref="d5/dfd/structae2f__AnnMlpTrain__t.html#aaeb502995a3ac177253e71b28d4bf009"/>
+<keyword name="m_pg_out" id="ae2f_AnnMlpBwdAll_t::m_pg_out_a789a85168a4adbd2a427e01302cf03f3" ref="d9/dfb/structae2f__AnnMlpBwdAll__t.html#a789a85168a4adbd2a427e01302cf03f3"/>
+<keyword name="m_pg_out" id="ae2f_AnnMlpTrain_t::m_pg_out_ae57a9e35df4f245c5e1b5eb6a258fdfa" ref="d5/dfd/structae2f__AnnMlpTrain__t.html#ae57a9e35df4f245c5e1b5eb6a258fdfa"/>
+<keyword name="m_pg_weight" id="ae2f_AnnMlpBwdAll_t::m_pg_weight_a9b3dd8e480206793513e35927fb1daae" ref="d9/dfb/structae2f__AnnMlpBwdAll__t.html#a9b3dd8e480206793513e35927fb1daae"/>
+<keyword name="m_pg_weight" id="ae2f_AnnMlpTrain_t::m_pg_weight_a03847b17977ec608c3b57bacc0bdd3e8" ref="d5/dfd/structae2f__AnnMlpTrain__t.html#a03847b17977ec608c3b57bacc0bdd3e8"/>
+<keyword name="m_ptr" id="ae2f_AnnSlpMk_t::m_ptr_af279f69bd9aa68c3ae0d53428cff16b5" ref="d8/d44/structae2f__AnnSlpMk__t.html#af279f69bd9aa68c3ae0d53428cff16b5"/>
+<keyword name="m_ptr" id="ae2f_AnnMlpInitMkPtr_t::m_ptr_adcdd1261946d7d05db7045cf1d8bc2f9" ref="d5/d7e/unionae2f__AnnMlpInitMkPtr__t.html#adcdd1261946d7d05db7045cf1d8bc2f9"/>
+<keyword name="m_ptr" id="ae2fVK_AnnSlpMkAlter_t::m_ptr_a71d32e26ae14f490221ddebc75d33f1d" ref="dc/dac/structae2fVK__AnnSlpMkAlter__t.html#a71d32e26ae14f490221ddebc75d33f1d"/>
+<keyword name="m_ret" id="ae2f_mMMapSz_t::m_ret_a7fbdbcc7282d2e088755e5e159c910f5" ref="d2/d55/structae2f__mMMapSz__t.html#a7fbdbcc7282d2e088755e5e159c910f5"/>
+<keyword name="m_ret" id="ae2f_AnnMlpPredict_t::m_ret_af77bf11163ed71ee08e231044333997b" ref="d4/df7/structae2f__AnnMlpPredict__t.html#af77bf11163ed71ee08e231044333997b"/>
+<keyword name="m_ret" id="ae2f_AnnMlpHidDeltaSingle_t::m_ret_a0605467f0c461331b1d19cb93b8cbe70" ref="df/d1b/structae2f__AnnMlpHidDeltaSingle__t.html#a0605467f0c461331b1d19cb93b8cbe70"/>
+<keyword name="m_ret" id="ae2f_AnnMlpBwdAll_t::m_ret_a8dbef57ed879a8ae66fe21711601a72b" ref="d9/dfb/structae2f__AnnMlpBwdAll__t.html#a8dbef57ed879a8ae66fe21711601a72b"/>
+<keyword name="m_ret" id="ae2f_AnnMlpTrain_t::m_ret_afe92de808a1328d203646dce01844822" ref="d5/dfd/structae2f__AnnMlpTrain__t.html#afe92de808a1328d203646dce01844822"/>
+<keyword name="m_reterr" id="ae2fVK_AnnSlpMk_t::m_reterr_ae22ca5daa2068fd3f95c61b29ce13abb" ref="d8/d08/structae2fVK__AnnSlpMk__t.html#ae22ca5daa2068fd3f95c61b29ce13abb"/>
+<keyword name="m_stack" id="ae2f_AnnSlpMk_t::m_stack_a7a4cbc56afd583e92eb0a9fe15d7e2ac" ref="d8/d44/structae2f__AnnSlpMk__t.html#a7a4cbc56afd583e92eb0a9fe15d7e2ac"/>
+<keyword name="m_stack" id="ae2f_AnnMlpBwdAll_t::m_stack_a82ac47d2ea93b9302ef57d80530f995b" ref="d9/dfb/structae2f__AnnMlpBwdAll__t.html#a82ac47d2ea93b9302ef57d80530f995b"/>
+<keyword name="m_stack" id="ae2f_AnnMlpTrain_t::m_stack_a52e033067f1a35c1e712929b0472ece8" ref="d5/dfd/structae2f__AnnMlpTrain__t.html#a52e033067f1a35c1e712929b0472ece8"/>
+<keyword name="m_stack" id="ae2fVK_AnnSlpMkAlter_t::m_stack_a693791f11674cd9c812a279e0cfe8310" ref="dc/dac/structae2fVK__AnnSlpMkAlter__t.html#a693791f11674cd9c812a279e0cfe8310"/>
+<keyword name="m_sz" id="ae2f_AnnMlpInitMkPtr_t::m_sz_a9d5ae6e5c13fa4141fa580d1f08b48be" ref="d5/d7e/unionae2f__AnnMlpInitMkPtr__t.html#a9d5ae6e5c13fa4141fa580d1f08b48be"/>
+<keyword name="m_u0" id="ae2fVK_AnnSlpDescPoolCmdMk_t::m_u0_a354dedd46ef5c3d9eb7bf191a00057e9" ref="da/d02/structae2fVK__AnnSlpDescPoolCmdMk__t.html#a354dedd46ef5c3d9eb7bf191a00057e9"/>
+<keyword name="m_vkdescsetlayoutbind[2]" id="ae2fVK_AnnSlpMkU2_t::m_vkdescsetlayoutbind_aae055d6787039991f62ff7143232f812" ref="de/df1/unionae2fVK__AnnSlpMkU2__t.html#aae055d6787039991f62ff7143232f812"/>
+<keyword name="m_void" id="ae2f_AnnMlpInitMkPtr_t::m_void_aa757a1b5129693406d2751181518140c" ref="d5/d7e/unionae2f__AnnMlpInitMkPtr__t.html#aa757a1b5129693406d2751181518140c"/>
+<keyword name="m_weightc" id="ae2f_AnnMlp_t::m_weightc_a386352f9e6763f0a52a1494bbe867df4" ref="da/d2e/structae2f__AnnMlp__t.html#a386352f9e6763f0a52a1494bbe867df4"/>
+<keyword name="m_weightc" id="ae2f_AnnMlpMk_t::m_weightc_a209340137ed27c840826c5db35d43faa" ref="df/d4b/structae2f__AnnMlpMk__t.html#a209340137ed27c840826c5db35d43faa"/>
+<keyword name="__ae2f_AnnMlpBwd_imp(v_tmp, v_send, slp_then, retdelta_then, deltaseed, actderiv_then, inp)" id="Mlp.auto.h::__ae2f_AnnMlpBwd_imp_a15e4f21090b7bf739c7550dc8b6ddbdb" ref="d2/d42/Mlp_8auto_8h.html#a15e4f21090b7bf739c7550dc8b6ddbdb"/>
+<keyword name="__ae2f_AnnMlpFollowPrimal(OPER_NEG, OPER_NONE, reterr, mlp, inp, delta)" id="Mlp.auto.h::__ae2f_AnnMlpFollowPrimal_ad31ef29beae54bd7c663b2fb13b203df" ref="d2/d42/Mlp_8auto_8h.html#ad31ef29beae54bd7c663b2fb13b203df"/>
+<keyword name="__ae2f_AnnMlpFollowPrimal_imp(OPER_NEG, OPER_NONE, v_follow, mlp, inp, delta, lenv, outstream, deltacache, weight, bias, learningrate, learningrate_bias, actderiv)" id="Mlp.auto.h::__ae2f_AnnMlpFollowPrimal_imp_a73157a71a47523ccdcd016209eab804f" ref="d2/d42/Mlp_8auto_8h.html#a73157a71a47523ccdcd016209eab804f"/>
+<keyword name="__ae2f_AnnMlpHidDeltaSingle_imp(v_single, slp, weight, delta, iidx)" id="Mlp.auto.h::__ae2f_AnnMlpHidDeltaSingle_imp_a2db66e2053f20d1ee061da99fbc4561d" ref="d2/d42/Mlp_8auto_8h.html#a2db66e2053f20d1ee061da99fbc4561d"/>
+<keyword name="__ae2f_AnnMlpInit_imp(v_mlp, v_init, depth, szvector, szswap_opt, act, actderiv, lossderiv, deltastream, outcache, weight, bias, learningrate, learningrate_bias)" id="Mlp.auto.h::__ae2f_AnnMlpInit_imp_ae50b4d02397a659b44f8b791ba00b0ef" ref="d2/d42/Mlp_8auto_8h.html#ae50b4d02397a659b44f8b791ba00b0ef"/>
+<keyword name="__ae2f_AnnMlpInitWithOutSz_imp(v_mlp, v_init, depth, outsz, weightsz, szvector, szswap_opt, act, actderiv, lossderiv, deltastream, outcache, weight, bias, learningrate, learningrate_bias)" id="Mlp.auto.h::__ae2f_AnnMlpInitWithOutSz_imp_a4f1c19f9461eaa4c3bc54426a1e2ba70" ref="d2/d42/Mlp_8auto_8h.html#a4f1c19f9461eaa4c3bc54426a1e2ba70"/>
+<keyword name="__ae2f_AnnMlpMk_C(reterr, retmk, depth, szvector, szswap_opt, act, actderiv, lossderiv, deltastream, outcache, weight, bias, learningrate, learningrate_bias, offset, extra)" id="Mlp.auto.h::__ae2f_AnnMlpMk_C_a05dd2bfab406ef1fcb034086e0993e92" ref="d2/d42/Mlp_8auto_8h.html#a05dd2bfab406ef1fcb034086e0993e92"/>
+<keyword name="__ae2f_AnnMlpMk_imp(reg_mk, prm_depth, pprm_szvector, propptr_szswap_opt, lppfn_act_opt, lppfn_actderiv_opt, pfn_lossderiv, propptr_deltastream_opt, propptr_outcache_opt, propptr_weight_opt, propptr_bias_opt, prm_learningrate, prm_learningrate_bias, prm_offset_opt, prm_extra_opt)" id="Mlp.auto.h::__ae2f_AnnMlpMk_imp_a3aa4fa11af458c8d6d5f637057e60290" ref="d2/d42/Mlp_8auto_8h.html#a3aa4fa11af458c8d6d5f637057e60290"/>
+<keyword name="__ae2f_AnnMlpPredictPrimal(OPER_NEG, OPER_NONE, reterr, mlp, inp, out)" id="Mlp.auto.h::__ae2f_AnnMlpPredictPrimal_ac8ac1d7ee0e56882a08a225678fc016d" ref="d2/d42/Mlp_8auto_8h.html#ac8ac1d7ee0e56882a08a225678fc016d"/>
+<keyword name="__ae2f_AnnMlpPredictPrimal_imp(OPER_NEG, OPER_NONE, v_predict, mlp, inp, out, sz, weight, bias, outcache, act_opt)" id="Mlp.auto.h::__ae2f_AnnMlpPredictPrimal_imp_a8619c8821cb926f6418c209014e02aba" ref="d2/d42/Mlp_8auto_8h.html#a8619c8821cb926f6418c209014e02aba"/>
+<keyword name="__ae2f_AnnMlpSz_imp(ret_sz, outc, weightc, depth, szswap, act, actderiv, deltastream, outcache, weight, bias)" id="Mlp.auto.h::__ae2f_AnnMlpSz_imp_a035329d7604984041d54865c9a3ec417" ref="d2/d42/Mlp_8auto_8h.html#a035329d7604984041d54865c9a3ec417"/>
+<keyword name="__ae2f_AnnMlpTrainAuto_C(reterr, mlp, inp, out_desired)" id="Mlp.auto.h::__ae2f_AnnMlpTrainAuto_C_abc5746395e05b73fe700b1c79cc6795b" ref="d2/d42/Mlp_8auto_8h.html#abc5746395e05b73fe700b1c79cc6795b"/>
 <keyword name="__ae2f_AnnMlpTrainAuto_C(reterr, mlp, inp, out_desired)" id="Mlp.h::__ae2f_AnnMlpTrainAuto_C_abc5746395e05b73fe700b1c79cc6795b" ref="d6/db0/inc_2ae2f_2Ann_2Mlp_8h.html#abc5746395e05b73fe700b1c79cc6795b"/>
-<keyword name="__ae2f_AnnMlpTrainAutoPrimal(OPER_NEG, OPER_NONE, reterr, mlp, inp, out_desired)" id="Mlp.auto.h::__ae2f_AnnMlpTrainAutoPrimal_abe2ae9d4f8503890d76d6431be1d7c74" ref="d1/d97/inc_2ae2f_2Ann_2Mlp_8auto_8h.html#abe2ae9d4f8503890d76d6431be1d7c74"/>
-<keyword name="__ae2f_AnnMlpTrainAutoStream_C(reterr, mlp, inp, out_desired)" id="Mlp.auto.h::__ae2f_AnnMlpTrainAutoStream_C_ac517c67c7ad65a04a0b3490e9baf5250" ref="d1/d97/inc_2ae2f_2Ann_2Mlp_8auto_8h.html#ac517c67c7ad65a04a0b3490e9baf5250"/>
+<keyword name="__ae2f_AnnMlpTrainAutoPrimal(OPER_NEG, OPER_NONE, reterr, mlp, inp, out_desired)" id="Mlp.auto.h::__ae2f_AnnMlpTrainAutoPrimal_abe2ae9d4f8503890d76d6431be1d7c74" ref="d2/d42/Mlp_8auto_8h.html#abe2ae9d4f8503890d76d6431be1d7c74"/>
+<keyword name="__ae2f_AnnMlpTrainAutoStream_C(reterr, mlp, inp, out_desired)" id="Mlp.auto.h::__ae2f_AnnMlpTrainAutoStream_C_ac517c67c7ad65a04a0b3490e9baf5250" ref="d2/d42/Mlp_8auto_8h.html#ac517c67c7ad65a04a0b3490e9baf5250"/>
 <keyword name="__ae2f_AnnMlpTrainAutoStream_C(reterr, mlp, inp, out_desired)" id="Mlp.h::__ae2f_AnnMlpTrainAutoStream_C_ac517c67c7ad65a04a0b3490e9baf5250" ref="d6/db0/inc_2ae2f_2Ann_2Mlp_8h.html#ac517c67c7ad65a04a0b3490e9baf5250"/>
-<keyword name="__ae2f_AnnMlpTrainPrimal(OPER_NEG, OPER_NONE, reterr, mlp, inp, out, out_desired)" id="Mlp.auto.h::__ae2f_AnnMlpTrainPrimal_a6b9266b6f15a4c9b4855dd36d09f061b" ref="d1/d97/inc_2ae2f_2Ann_2Mlp_8auto_8h.html#a6b9266b6f15a4c9b4855dd36d09f061b"/>
-<keyword name="__ae2f_AnnMlpTrainPrimal_imp(OPER_NEG, OPER_NONE, v_train, mlp, inp, out, out_desired, lenv, outstream, deltacache, weight, bias, learningrate, learningrate_bias, act, actderiv, lossderiv)" id="Mlp.auto.h::__ae2f_AnnMlpTrainPrimal_imp_add0ad4866adeb0157f007d03b38722a5" ref="d1/d97/inc_2ae2f_2Ann_2Mlp_8auto_8h.html#add0ad4866adeb0157f007d03b38722a5"/>
+<keyword name="__ae2f_AnnMlpTrainPrimal(OPER_NEG, OPER_NONE, reterr, mlp, inp, out, out_desired)" id="Mlp.auto.h::__ae2f_AnnMlpTrainPrimal_a6b9266b6f15a4c9b4855dd36d09f061b" ref="d2/d42/Mlp_8auto_8h.html#a6b9266b6f15a4c9b4855dd36d09f061b"/>
+<keyword name="__ae2f_AnnMlpTrainPrimal_imp(OPER_NEG, OPER_NONE, v_train, mlp, inp, out, out_desired, lenv, outstream, deltacache, weight, bias, learningrate, learningrate_bias, act, actderiv, lossderiv)" id="Mlp.auto.h::__ae2f_AnnMlpTrainPrimal_imp_add0ad4866adeb0157f007d03b38722a5" ref="d2/d42/Mlp_8auto_8h.html#add0ad4866adeb0157f007d03b38722a5"/>
+<keyword name="_ae2f_BitVecFilled(len, vec_t)" id="BitVec.h::_ae2f_BitVecFilled_a833b56686e68045949c752d3389b939c" ref="de/d6b/BitVec_8h.html#a833b56686e68045949c752d3389b939c"/>
+<keyword name="_ae2f_BitVecGetRanged(vector, start, end, vec_t)" id="BitVec.h::_ae2f_BitVecGetRanged_ab7953a99f79b10ea5469a4b7f32ad50a" ref="de/d6b/BitVec_8h.html#ab7953a99f79b10ea5469a4b7f32ad50a"/>
+<keyword name="_ae2f_BitVecSetRanged(vector, start, end, val, vec_t)" id="BitVec.h::_ae2f_BitVecSetRanged_aa643936eb7907618aa53e0d6bcc66614" ref="de/d6b/BitVec_8h.html#aa643936eb7907618aa53e0d6bcc66614"/>
+<keyword name="_ae2f_gnuc(a)" id="gnuc.h::_ae2f_gnuc_ab07293ec0343320dc266223000e52d36" ref="d5/db6/gnuc_8h.html#ab07293ec0343320dc266223000e52d36"/>
 <keyword name="_ae2f_SysThrdJoin_imp(ret_stat, ret_rtn, ref_thrd)" id="Thrd.auto.h::_ae2f_SysThrdJoin_imp_a13bd84f5b074fd932615d81ac8a183d1" ref="d6/d5e/Thrd_8auto_8h.html#a13bd84f5b074fd932615d81ac8a183d1"/>
 <keyword name="_ae2f_SysThrdMk_imp(ret_stat, ret_thrd, prm_func, prm_arg, prm_stcksz_unused)" id="Thrd.auto.h::_ae2f_SysThrdMk_imp_adfbfeac426d71d90322f31310c404978" ref="d6/d5e/Thrd_8auto_8h.html#adfbfeac426d71d90322f31310c404978"/>
 <keyword name="_ae2f_SysThrdSleep_imp(ret_stat, prm_req, prm_rem)" id="Thrd.auto.h::_ae2f_SysThrdSleep_imp_a38702f0216b16af312adb9f0dabaada0" ref="d6/d5e/Thrd_8auto_8h.html#a38702f0216b16af312adb9f0dabaada0"/>
@@ -876,66 +895,93 @@
 <keyword name="ae2f_AnnMhattnHeadSplit_imp(prm_mhattn, prm_seqlen, m_i2, m_i1, m_i0)" id="Mhattn.h::ae2f_AnnMhattnHeadSplit_imp_a06fe58af6bd531d778c138defce40237" ref="de/d5a/Mhattn_8h.html#a06fe58af6bd531d778c138defce40237"/>
 <keyword name="ae2f_AnnMhattnKDist(prm_mhattn)" id="Mhattn.h::ae2f_AnnMhattnKDist_ac3626dc0d2bdbbde1eff6fbc18743b63" ref="de/d5a/Mhattn_8h.html#ac3626dc0d2bdbbde1eff6fbc18743b63"/>
 <keyword name="ae2f_BinRoot" id="___DOC_CMAKE::ae2f_BinRoot_a062a6556af70d0f7667770852969b959" ref="d1/d61/namespace______DOC__CMAKE.html#a062a6556af70d0f7667770852969b959"/>
-<keyword name="ae2f_BitVecI_t" id="BitVec.h::ae2f_BitVecI_t_affde621551e6614dc12d8b2f23de6ca3" ref="db/d64/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2BitVec_8h.html#affde621551e6614dc12d8b2f23de6ca3"/>
-<keyword name="ae2f_c_check" id="Cxx.h::ae2f_c_check_a2e7ab6a44703adf4e4967d0ab55ed4f5" ref="de/d00/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cxx_8h.html#a2e7ab6a44703adf4e4967d0ab55ed4f5"/>
-<keyword name="ae2f_c_check" id="Cxx.h::ae2f_c_check_a2e7ab6a44703adf4e4967d0ab55ed4f5" ref="d2/d07/Core_2inc_2ae2f_2Cxx_8h.html#a2e7ab6a44703adf4e4967d0ab55ed4f5"/>
-<keyword name="ae2f_Cast_h" id="Cast.h::ae2f_Cast_h_aa42d27ba96f89f1130941cf3f8fca1ad" ref="d6/d63/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cast_8h.html#aa42d27ba96f89f1130941cf3f8fca1ad"/>
-<keyword name="ae2f_Cast_h" id="Cast.h::ae2f_Cast_h_aa42d27ba96f89f1130941cf3f8fca1ad" ref="d8/d32/Core_2inc_2ae2f_2Cast_8h.html#aa42d27ba96f89f1130941cf3f8fca1ad"/>
-<keyword name="ae2f_CastCCls" id="Cast.h::ae2f_CastCCls_a48e9f2e5fb4098fd9ff5d232a274e5d7" ref="d6/d63/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cast_8h.html#a48e9f2e5fb4098fd9ff5d232a274e5d7"/>
-<keyword name="ae2f_CastCCls" id="Cast.h::ae2f_CastCCls_a48e9f2e5fb4098fd9ff5d232a274e5d7" ref="d8/d32/Core_2inc_2ae2f_2Cast_8h.html#a48e9f2e5fb4098fd9ff5d232a274e5d7"/>
-<keyword name="ae2f_CastMerge(...)" id="Cast.h::ae2f_CastMerge_aa054a536a6e97d32fa49c1ddf3e0accc" ref="d6/d63/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cast_8h.html#aa054a536a6e97d32fa49c1ddf3e0accc"/>
-<keyword name="ae2f_CastMerge(...)" id="Cast.h::ae2f_CastMerge_aa054a536a6e97d32fa49c1ddf3e0accc" ref="d8/d32/Core_2inc_2ae2f_2Cast_8h.html#aa054a536a6e97d32fa49c1ddf3e0accc"/>
-<keyword name="ae2f_class" id="Cast.h::ae2f_class_a08aaefc28432e5f795e374e361593d2b" ref="d6/d63/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cast_8h.html#a08aaefc28432e5f795e374e361593d2b"/>
-<keyword name="ae2f_class" id="Cast.h::ae2f_class_a08aaefc28432e5f795e374e361593d2b" ref="d8/d32/Core_2inc_2ae2f_2Cast_8h.html#a08aaefc28432e5f795e374e361593d2b"/>
-<keyword name="ae2f_CmpDiff(a, b)" id="Cmp.h::ae2f_CmpDiff_addd39204abd0bc1860e6ffb06f882617" ref="df/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cmp_8h.html#addd39204abd0bc1860e6ffb06f882617"/>
-<keyword name="ae2f_CmpDiff(a, b)" id="Cmp.h::ae2f_CmpDiff_addd39204abd0bc1860e6ffb06f882617" ref="d1/d33/Core_2inc_2ae2f_2Cmp_8h.html#addd39204abd0bc1860e6ffb06f882617"/>
-<keyword name="ae2f_CmpFunRet_EQUAL" id="Fun.h::ae2f_CmpFunRet_EQUAL_a72cf2bcb3a9d957c17deb5bc9041f22d" ref="d1/d42/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cmp_2Fun_8h.html#a72cf2bcb3a9d957c17deb5bc9041f22d"/>
-<keyword name="ae2f_CmpFunRet_EQUAL" id="Fun.h::ae2f_CmpFunRet_EQUAL_a72cf2bcb3a9d957c17deb5bc9041f22d" ref="de/dd6/Core_2inc_2ae2f_2Cmp_2Fun_8h.html#a72cf2bcb3a9d957c17deb5bc9041f22d"/>
-<keyword name="ae2f_CmpFunRet_LISLESSER" id="Fun.h::ae2f_CmpFunRet_LISLESSER_a2ec622c999cf31fa7b6638e21dc591b8" ref="d1/d42/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cmp_2Fun_8h.html#a2ec622c999cf31fa7b6638e21dc591b8"/>
-<keyword name="ae2f_CmpFunRet_LISLESSER" id="Fun.h::ae2f_CmpFunRet_LISLESSER_a2ec622c999cf31fa7b6638e21dc591b8" ref="de/dd6/Core_2inc_2ae2f_2Cmp_2Fun_8h.html#a2ec622c999cf31fa7b6638e21dc591b8"/>
-<keyword name="ae2f_CmpFunRet_RISLESSER" id="Fun.h::ae2f_CmpFunRet_RISLESSER_a576bb6884481e25c87bd4e41a26749db" ref="d1/d42/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cmp_2Fun_8h.html#a576bb6884481e25c87bd4e41a26749db"/>
-<keyword name="ae2f_CmpFunRet_RISLESSER" id="Fun.h::ae2f_CmpFunRet_RISLESSER_a576bb6884481e25c87bd4e41a26749db" ref="de/dd6/Core_2inc_2ae2f_2Cmp_2Fun_8h.html#a576bb6884481e25c87bd4e41a26749db"/>
-<keyword name="ae2f_CmpFunRet_t" id="Fun.h::ae2f_CmpFunRet_t_aad33bf8b1b2c426203fb27cff926e739" ref="d1/d42/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cmp_2Fun_8h.html#aad33bf8b1b2c426203fb27cff926e739"/>
-<keyword name="ae2f_CmpGetGt(a, b)" id="Cmp.h::ae2f_CmpGetGt_a5faf903c6d9581d970a7c2f0666e9339" ref="df/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cmp_8h.html#a5faf903c6d9581d970a7c2f0666e9339"/>
-<keyword name="ae2f_CmpGetGt(a, b)" id="Cmp.h::ae2f_CmpGetGt_a5faf903c6d9581d970a7c2f0666e9339" ref="d1/d33/Core_2inc_2ae2f_2Cmp_8h.html#a5faf903c6d9581d970a7c2f0666e9339"/>
-<keyword name="ae2f_CmpGetLs(a, b)" id="Cmp.h::ae2f_CmpGetLs_ab3c784016b1a71e6b23bf0234817ab3a" ref="df/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cmp_8h.html#ab3c784016b1a71e6b23bf0234817ab3a"/>
-<keyword name="ae2f_CmpGetLs(a, b)" id="Cmp.h::ae2f_CmpGetLs_ab3c784016b1a71e6b23bf0234817ab3a" ref="d1/d33/Core_2inc_2ae2f_2Cmp_8h.html#ab3c784016b1a71e6b23bf0234817ab3a"/>
-<keyword name="ae2f_CmpGetMem(ptr, member, alter)" id="Cmp.h::ae2f_CmpGetMem_a9c08d68c01bcf33d01e58cd66a215e4f" ref="df/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cmp_8h.html#a9c08d68c01bcf33d01e58cd66a215e4f"/>
-<keyword name="ae2f_CmpGetMem(ptr, member, alter)" id="Cmp.h::ae2f_CmpGetMem_a9c08d68c01bcf33d01e58cd66a215e4f" ref="d1/d33/Core_2inc_2ae2f_2Cmp_8h.html#a9c08d68c01bcf33d01e58cd66a215e4f"/>
-<keyword name="ae2f_CmpGetSelf(ptr, alt)" id="Cmp.h::ae2f_CmpGetSelf_a47cfb81ee8bf49067a17b6a59af4f552" ref="df/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cmp_8h.html#a47cfb81ee8bf49067a17b6a59af4f552"/>
-<keyword name="ae2f_CmpGetSelf(ptr, alt)" id="Cmp.h::ae2f_CmpGetSelf_a47cfb81ee8bf49067a17b6a59af4f552" ref="d1/d33/Core_2inc_2ae2f_2Cmp_8h.html#a47cfb81ee8bf49067a17b6a59af4f552"/>
-<keyword name="ae2f_const_cast(t, v)" id="Cast.h::ae2f_const_cast_a78f35f7227637506a67a200e10f16f10" ref="d6/d63/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cast_8h.html#a78f35f7227637506a67a200e10f16f10"/>
-<keyword name="ae2f_const_cast(t, v)" id="Cast.h::ae2f_const_cast_a78f35f7227637506a67a200e10f16f10" ref="d8/d32/Core_2inc_2ae2f_2Cast_8h.html#a78f35f7227637506a67a200e10f16f10"/>
+<keyword name="ae2f_BitToByteCount(bitc)" id="BitVec.h::ae2f_BitToByteCount_a5553db979f0fe88406ada0c2b245e85b" ref="de/d6b/BitVec_8h.html#a5553db979f0fe88406ada0c2b245e85b"/>
+<keyword name="ae2f_BitVecFilled(len)" id="BitVec.h::ae2f_BitVecFilled_a325847b2b43531a1cfd7089fb99b0b9d" ref="de/d6b/BitVec_8h.html#a325847b2b43531a1cfd7089fb99b0b9d"/>
+<keyword name="ae2f_BitVecGet(vector, idx)" id="BitVec.h::ae2f_BitVecGet_a02e9923db7e19af08360273c639f743f" ref="de/d6b/BitVec_8h.html#a02e9923db7e19af08360273c639f743f"/>
+<keyword name="ae2f_BitVecGetRanged(vector, start, end)" id="BitVec.h::ae2f_BitVecGetRanged_a79a4500b345dbc83b86eb7651eafa75c" ref="de/d6b/BitVec_8h.html#a79a4500b345dbc83b86eb7651eafa75c"/>
+<keyword name="ae2f_BitVecI_t" id="BitVec.h::ae2f_BitVecI_t_a1c042a4bc1cf90de4c565c5b79684a68" ref="de/d6b/BitVec_8h.html#a1c042a4bc1cf90de4c565c5b79684a68"/>
+<keyword name="ae2f_BitVecSet(vector, idx, val)" id="BitVec.h::ae2f_BitVecSet_a670620baa7688ec87a148b9e36abaacc" ref="de/d6b/BitVec_8h.html#a670620baa7688ec87a148b9e36abaacc"/>
+<keyword name="ae2f_BitVecSetRanged(vector, start, end, val)" id="BitVec.h::ae2f_BitVecSetRanged_af8df32b9ee35d039d8e25ba4b3a5b537" ref="de/d6b/BitVec_8h.html#af8df32b9ee35d039d8e25ba4b3a5b537"/>
+<keyword name="ae2f_BitVecSizeDefName(t)" id="BitVec.h::ae2f_BitVecSizeDefName_a9dbe37de1c12111bdd14d76ddc3fb235" ref="de/d6b/BitVec_8h.html#a9dbe37de1c12111bdd14d76ddc3fb235"/>
+<keyword name="ae2f_c_check" id="Cxx.h::ae2f_c_check_a2e7ab6a44703adf4e4967d0ab55ed4f5" ref="d2/db1/Cxx_8h.html#a2e7ab6a44703adf4e4967d0ab55ed4f5"/>
+<keyword name="ae2f_ccconst" id="cc.h::ae2f_ccconst_a646f60763a85cb5c5194b8838030ecbe" ref="dc/df0/cc_8h.html#a646f60763a85cb5c5194b8838030ecbe"/>
+<keyword name="ae2f_ccpure" id="cc.h::ae2f_ccpure_a42b0b7e3e822a33458380bc33bcb9942" ref="dc/df0/cc_8h.html#a42b0b7e3e822a33458380bc33bcb9942"/>
+<keyword name="ae2f_class" id="Keys.h::ae2f_class_a08aaefc28432e5f795e374e361593d2b" ref="d6/d08/Keys_8h.html#a08aaefc28432e5f795e374e361593d2b"/>
+<keyword name="ae2f_CmpDiff(a, b)" id="Cmp.h::ae2f_CmpDiff_addd39204abd0bc1860e6ffb06f882617" ref="d0/d09/Cmp_8h.html#addd39204abd0bc1860e6ffb06f882617"/>
+<keyword name="ae2f_CmpFunRet_EQUAL" id="Cmp.h::ae2f_CmpFunRet_EQUAL_a72cf2bcb3a9d957c17deb5bc9041f22d" ref="d0/d09/Cmp_8h.html#a72cf2bcb3a9d957c17deb5bc9041f22d"/>
+<keyword name="ae2f_CmpFunRet_EQUAL" id="Fun.h::ae2f_CmpFunRet_EQUAL_a72cf2bcb3a9d957c17deb5bc9041f22d" ref="d0/dee/Fun_8h.html#a72cf2bcb3a9d957c17deb5bc9041f22d"/>
+<keyword name="ae2f_CmpFunRet_LISLESSER" id="Cmp.h::ae2f_CmpFunRet_LISLESSER_a2ec622c999cf31fa7b6638e21dc591b8" ref="d0/d09/Cmp_8h.html#a2ec622c999cf31fa7b6638e21dc591b8"/>
+<keyword name="ae2f_CmpFunRet_LISLESSER" id="Fun.h::ae2f_CmpFunRet_LISLESSER_a2ec622c999cf31fa7b6638e21dc591b8" ref="d0/dee/Fun_8h.html#a2ec622c999cf31fa7b6638e21dc591b8"/>
+<keyword name="ae2f_CmpFunRet_RISLESSER" id="Cmp.h::ae2f_CmpFunRet_RISLESSER_a576bb6884481e25c87bd4e41a26749db" ref="d0/d09/Cmp_8h.html#a576bb6884481e25c87bd4e41a26749db"/>
+<keyword name="ae2f_CmpFunRet_RISLESSER" id="Fun.h::ae2f_CmpFunRet_RISLESSER_a576bb6884481e25c87bd4e41a26749db" ref="d0/dee/Fun_8h.html#a576bb6884481e25c87bd4e41a26749db"/>
+<keyword name="ae2f_CmpFunRet_t" id="Fun.h::ae2f_CmpFunRet_t_aad33bf8b1b2c426203fb27cff926e739" ref="d0/dee/Fun_8h.html#aad33bf8b1b2c426203fb27cff926e739"/>
+<keyword name="ae2f_CmpGetGt(a, b)" id="Cmp.h::ae2f_CmpGetGt_a5faf903c6d9581d970a7c2f0666e9339" ref="d0/d09/Cmp_8h.html#a5faf903c6d9581d970a7c2f0666e9339"/>
+<keyword name="ae2f_CmpGetLs(a, b)" id="Cmp.h::ae2f_CmpGetLs_ab3c784016b1a71e6b23bf0234817ab3a" ref="d0/d09/Cmp_8h.html#ab3c784016b1a71e6b23bf0234817ab3a"/>
+<keyword name="ae2f_CmpGetMem(ptr, member, alter)" id="Cmp.h::ae2f_CmpGetMem_a9c08d68c01bcf33d01e58cd66a215e4f" ref="d0/d09/Cmp_8h.html#a9c08d68c01bcf33d01e58cd66a215e4f"/>
+<keyword name="ae2f_CmpGetSelf(ptr, alt)" id="Cmp.h::ae2f_CmpGetSelf_a47cfb81ee8bf49067a17b6a59af4f552" ref="d0/d09/Cmp_8h.html#a47cfb81ee8bf49067a17b6a59af4f552"/>
+<keyword name="ae2f_const_cast(t, v)" id="Cast.h::ae2f_const_cast_a78f35f7227637506a67a200e10f16f10" ref="d3/dc4/Cast_8h.html#a78f35f7227637506a67a200e10f16f10"/>
 <keyword name="ae2f_CoreLibFetch(param prm_AuthorName, param prm_TarName, param prm_TagName)" id="___DOC_CMAKE::ae2f_CoreLibFetch_aa868a569d3142587c1da1e636b07d915" ref="d1/d61/namespace______DOC__CMAKE.html#aa868a569d3142587c1da1e636b07d915"/>
 <keyword name="ae2f_CoreLibTent(param prm_TarName, param prm_TarPreFix, param prm_includeDir, param prm_namespace,...)" id="___DOC_CMAKE::ae2f_CoreLibTent_a3e9604d9d8c0ccb6bd75176fad3ca9f9" ref="d1/d61/namespace______DOC__CMAKE.html#a3e9604d9d8c0ccb6bd75176fad3ca9f9"/>
 <keyword name="ae2f_CoreLibTentConfigCustom(param prm_TarName, param prm_TarPreFix, param prm_includeDir, param prm_namespace, param prm_configpath,...)" id="___DOC_CMAKE::ae2f_CoreLibTentConfigCustom_a5d543c5290803c8f0ea051462d088559" ref="d1/d61/namespace______DOC__CMAKE.html#a5d543c5290803c8f0ea051462d088559"/>
 <keyword name="ae2f_CoreTestTent(param prm_LibName, param prm_TestSourcesDir,...)" id="___DOC_CMAKE::ae2f_CoreTestTent_a45853a70e3b2acd7a7cc3b944b91156b" ref="d1/d61/namespace______DOC__CMAKE.html#a45853a70e3b2acd7a7cc3b944b91156b"/>
 <keyword name="ae2f_CoreUtilityDocTent(param prm_TarName, param prm_includeDir, param prm_namespace,...)" id="___DOC_CMAKE::ae2f_CoreUtilityDocTent_a4ca437c7dc858a3e0de1302ff6090f09" ref="d1/d61/namespace______DOC__CMAKE.html#a4ca437c7dc858a3e0de1302ff6090f09"/>
 <keyword name="ae2f_CXX" id="___DOC_CMAKE::ae2f_CXX_a4d08d2c63e28534681aae2c141297515" ref="d1/d61/namespace______DOC__CMAKE.html#a4d08d2c63e28534681aae2c141297515"/>
-<keyword name="ae2f_cxx_check" id="Cxx.h::ae2f_cxx_check_af5c91dfc0c2068e6b9532936454fa824" ref="de/d00/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cxx_8h.html#af5c91dfc0c2068e6b9532936454fa824"/>
-<keyword name="ae2f_cxx_check" id="Cxx.h::ae2f_cxx_check_af5c91dfc0c2068e6b9532936454fa824" ref="d2/d07/Core_2inc_2ae2f_2Cxx_8h.html#af5c91dfc0c2068e6b9532936454fa824"/>
+<keyword name="ae2f_cxx_check" id="Cxx.h::ae2f_cxx_check_af5c91dfc0c2068e6b9532936454fa824" ref="d2/db1/Cxx_8h.html#af5c91dfc0c2068e6b9532936454fa824"/>
 <keyword name="ae2f_DOC" id="___DOC_CMAKE::ae2f_DOC_a32c7e78a95249378c4352511b99a4940" ref="d1/d61/namespace______DOC__CMAKE.html#a32c7e78a95249378c4352511b99a4940"/>
-<keyword name="ae2f_dynamic_cast(t, v)" id="Cast.h::ae2f_dynamic_cast_a0beba4d8f3a03b03e385532151c6ee23" ref="d6/d63/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cast_8h.html#a0beba4d8f3a03b03e385532151c6ee23"/>
-<keyword name="ae2f_dynamic_cast(t, v)" id="Cast.h::ae2f_dynamic_cast_a0beba4d8f3a03b03e385532151c6ee23" ref="d8/d32/Core_2inc_2ae2f_2Cast_8h.html#a0beba4d8f3a03b03e385532151c6ee23"/>
-<keyword name="ae2f_err_t" id="errGlob.h::ae2f_err_t_acc9504eac81cd46d5dabe7461a9c8157" ref="d7/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2errGlob_8h.html#acc9504eac81cd46d5dabe7461a9c8157"/>
-<keyword name="ae2f_errGlob_ALLOC_FAILED" id="errGlob.h::ae2f_errGlob_ALLOC_FAILED_a85d8f457b682f8f47233d6bd93506f0f" ref="d7/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2errGlob_8h.html#a85d8f457b682f8f47233d6bd93506f0f"/>
-<keyword name="ae2f_errGlob_ALLOC_FAILED" id="errGlob.h::ae2f_errGlob_ALLOC_FAILED_a85d8f457b682f8f47233d6bd93506f0f" ref="da/d50/Core_2inc_2ae2f_2errGlob_8h.html#a85d8f457b682f8f47233d6bd93506f0f"/>
-<keyword name="ae2f_errGlob_DONE_HOWEV" id="errGlob.h::ae2f_errGlob_DONE_HOWEV_a9755e68f89e55f8ee587d6dd3d3d4d96" ref="d7/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2errGlob_8h.html#a9755e68f89e55f8ee587d6dd3d3d4d96"/>
-<keyword name="ae2f_errGlob_DONE_HOWEV" id="errGlob.h::ae2f_errGlob_DONE_HOWEV_a9755e68f89e55f8ee587d6dd3d3d4d96" ref="da/d50/Core_2inc_2ae2f_2errGlob_8h.html#a9755e68f89e55f8ee587d6dd3d3d4d96"/>
-<keyword name="ae2f_errGlob_FLUSH_FAILED" id="errGlob.h::ae2f_errGlob_FLUSH_FAILED_ad34eb847ab540cd672b24134087127b5" ref="d7/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2errGlob_8h.html#ad34eb847ab540cd672b24134087127b5"/>
-<keyword name="ae2f_errGlob_FLUSH_FAILED" id="errGlob.h::ae2f_errGlob_FLUSH_FAILED_ad34eb847ab540cd672b24134087127b5" ref="da/d50/Core_2inc_2ae2f_2errGlob_8h.html#ad34eb847ab540cd672b24134087127b5"/>
-<keyword name="ae2f_errGlob_IMP_NOT_FOUND" id="errGlob.h::ae2f_errGlob_IMP_NOT_FOUND_adfdaa71813624905f6953cf9d5c08a1e" ref="d7/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2errGlob_8h.html#adfdaa71813624905f6953cf9d5c08a1e"/>
-<keyword name="ae2f_errGlob_IMP_NOT_FOUND" id="errGlob.h::ae2f_errGlob_IMP_NOT_FOUND_adfdaa71813624905f6953cf9d5c08a1e" ref="da/d50/Core_2inc_2ae2f_2errGlob_8h.html#adfdaa71813624905f6953cf9d5c08a1e"/>
-<keyword name="ae2f_errGlob_NFOUND" id="errGlob.h::ae2f_errGlob_NFOUND_a869a7f8a64ad0c28207f867f11eaf427" ref="d7/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2errGlob_8h.html#a869a7f8a64ad0c28207f867f11eaf427"/>
-<keyword name="ae2f_errGlob_NFOUND" id="errGlob.h::ae2f_errGlob_NFOUND_a869a7f8a64ad0c28207f867f11eaf427" ref="da/d50/Core_2inc_2ae2f_2errGlob_8h.html#a869a7f8a64ad0c28207f867f11eaf427"/>
-<keyword name="ae2f_errGlob_OK" id="errGlob.h::ae2f_errGlob_OK_a7ea7d8a5a85ef707e5c125a32e44449c" ref="d7/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2errGlob_8h.html#a7ea7d8a5a85ef707e5c125a32e44449c"/>
-<keyword name="ae2f_errGlob_OK" id="errGlob.h::ae2f_errGlob_OK_a7ea7d8a5a85ef707e5c125a32e44449c" ref="da/d50/Core_2inc_2ae2f_2errGlob_8h.html#a7ea7d8a5a85ef707e5c125a32e44449c"/>
-<keyword name="ae2f_errGlob_PTR_IS_NULL" id="errGlob.h::ae2f_errGlob_PTR_IS_NULL_ad1d18f7440e6e920e15caa75e6957b61" ref="d7/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2errGlob_8h.html#ad1d18f7440e6e920e15caa75e6957b61"/>
-<keyword name="ae2f_errGlob_PTR_IS_NULL" id="errGlob.h::ae2f_errGlob_PTR_IS_NULL_ad1d18f7440e6e920e15caa75e6957b61" ref="da/d50/Core_2inc_2ae2f_2errGlob_8h.html#ad1d18f7440e6e920e15caa75e6957b61"/>
-<keyword name="ae2f_errGlob_WRONG_OPERATION" id="errGlob.h::ae2f_errGlob_WRONG_OPERATION_ac059d2229b6d54699570ad3e2a4524a9" ref="d7/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2errGlob_8h.html#ac059d2229b6d54699570ad3e2a4524a9"/>
-<keyword name="ae2f_errGlob_WRONG_OPERATION" id="errGlob.h::ae2f_errGlob_WRONG_OPERATION_ac059d2229b6d54699570ad3e2a4524a9" ref="da/d50/Core_2inc_2ae2f_2errGlob_8h.html#ac059d2229b6d54699570ad3e2a4524a9"/>
-<keyword name="ae2f_errGlobNormalised(n)" id="errGlob.h::ae2f_errGlobNormalised_ada8ea0773716d13412f39e6ef7b06ab2" ref="d7/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2errGlob_8h.html#ada8ea0773716d13412f39e6ef7b06ab2"/>
-<keyword name="ae2f_errGlobNormalised(n)" id="errGlob.h::ae2f_errGlobNormalised_ada8ea0773716d13412f39e6ef7b06ab2" ref="da/d50/Core_2inc_2ae2f_2errGlob_8h.html#ada8ea0773716d13412f39e6ef7b06ab2"/>
+<keyword name="ae2f_dynamic_cast(t, v)" id="Cast.h::ae2f_dynamic_cast_a0beba4d8f3a03b03e385532151c6ee23" ref="d3/dc4/Cast_8h.html#a0beba4d8f3a03b03e385532151c6ee23"/>
+<keyword name="ae2f_err_t" id="errGlob.h::ae2f_err_t_a833ffc3e99895762f6f06f2d6152f863" ref="da/d36/errGlob_8h.html#a833ffc3e99895762f6f06f2d6152f863"/>
+<keyword name="ae2f_errGlob" id="errGlob.h::ae2f_errGlob_a2a053a3347b6e714f7e7fb29156d1736" ref="da/d36/errGlob_8h.html#a2a053a3347b6e714f7e7fb29156d1736"/>
+<keyword name="ae2f_errGlob_OK" id="errGlob.h::ae2f_errGlob_OK_a2a053a3347b6e714f7e7fb29156d1736ab95b3053d812f6ce326e4e26801db391" ref="da/d36/errGlob_8h.html#a2a053a3347b6e714f7e7fb29156d1736ab95b3053d812f6ce326e4e26801db391"/>
+<keyword name="ae2f_errGlob_IMP_NOT_FOUND" id="errGlob.h::ae2f_errGlob_IMP_NOT_FOUND_a2a053a3347b6e714f7e7fb29156d1736aae37acb0490b9c1e67c1cb954cd397db" ref="da/d36/errGlob_8h.html#a2a053a3347b6e714f7e7fb29156d1736aae37acb0490b9c1e67c1cb954cd397db"/>
+<keyword name="ae2f_errGlob_PTR_IS_NULL" id="errGlob.h::ae2f_errGlob_PTR_IS_NULL_a2a053a3347b6e714f7e7fb29156d1736ad34ebdb225f1d1c53828ae49cd9d59e6" ref="da/d36/errGlob_8h.html#a2a053a3347b6e714f7e7fb29156d1736ad34ebdb225f1d1c53828ae49cd9d59e6"/>
+<keyword name="ae2f_errGlob_FLUSH_FAILED" id="errGlob.h::ae2f_errGlob_FLUSH_FAILED_a2a053a3347b6e714f7e7fb29156d1736a8cfdb9a39a19afe896a337c3fd693b1d" ref="da/d36/errGlob_8h.html#a2a053a3347b6e714f7e7fb29156d1736a8cfdb9a39a19afe896a337c3fd693b1d"/>
+<keyword name="ae2f_errGlob_ALLOC_FAILED" id="errGlob.h::ae2f_errGlob_ALLOC_FAILED_a2a053a3347b6e714f7e7fb29156d1736a076be88ef242b323d0de83508f181dc8" ref="da/d36/errGlob_8h.html#a2a053a3347b6e714f7e7fb29156d1736a076be88ef242b323d0de83508f181dc8"/>
+<keyword name="ae2f_errGlob_WRONG_OPERATION" id="errGlob.h::ae2f_errGlob_WRONG_OPERATION_a2a053a3347b6e714f7e7fb29156d1736ace7fd8cfbd02e09a2772fe2feef79379" ref="da/d36/errGlob_8h.html#a2a053a3347b6e714f7e7fb29156d1736ace7fd8cfbd02e09a2772fe2feef79379"/>
+<keyword name="ae2f_errGlob_NFOUND" id="errGlob.h::ae2f_errGlob_NFOUND_a2a053a3347b6e714f7e7fb29156d1736a41f70327a101763a42e66627db248785" ref="da/d36/errGlob_8h.html#a2a053a3347b6e714f7e7fb29156d1736a41f70327a101763a42e66627db248785"/>
+<keyword name="ae2f_errGlob_DONE_HOWEV" id="errGlob.h::ae2f_errGlob_DONE_HOWEV_a2a053a3347b6e714f7e7fb29156d1736ad4ef8ce1fb000a2ea53b0f42285f04e1" ref="da/d36/errGlob_8h.html#a2a053a3347b6e714f7e7fb29156d1736ad4ef8ce1fb000a2ea53b0f42285f04e1"/>
+<keyword name="ae2f_errGlob_" id="errGlob.h::ae2f_errGlob__a2a053a3347b6e714f7e7fb29156d1736a4cde0ffd3b9858956dac79e56772d2e1" ref="da/d36/errGlob_8h.html#a2a053a3347b6e714f7e7fb29156d1736a4cde0ffd3b9858956dac79e56772d2e1"/>
+<keyword name="ae2f_errGlob_ALLOC_FAILED" id="errGlob.h::ae2f_errGlob_ALLOC_FAILED_a2a053a3347b6e714f7e7fb29156d1736a076be88ef242b323d0de83508f181dc8" ref="da/d36/errGlob_8h.html#a2a053a3347b6e714f7e7fb29156d1736a076be88ef242b323d0de83508f181dc8"/>
+<keyword name="ae2f_errGlob_DONE_HOWEV" id="errGlob.h::ae2f_errGlob_DONE_HOWEV_a2a053a3347b6e714f7e7fb29156d1736ad4ef8ce1fb000a2ea53b0f42285f04e1" ref="da/d36/errGlob_8h.html#a2a053a3347b6e714f7e7fb29156d1736ad4ef8ce1fb000a2ea53b0f42285f04e1"/>
+<keyword name="ae2f_errGlob_FLUSH_FAILED" id="errGlob.h::ae2f_errGlob_FLUSH_FAILED_a2a053a3347b6e714f7e7fb29156d1736a8cfdb9a39a19afe896a337c3fd693b1d" ref="da/d36/errGlob_8h.html#a2a053a3347b6e714f7e7fb29156d1736a8cfdb9a39a19afe896a337c3fd693b1d"/>
+<keyword name="ae2f_errGlob_IMP_NOT_FOUND" id="errGlob.h::ae2f_errGlob_IMP_NOT_FOUND_a2a053a3347b6e714f7e7fb29156d1736aae37acb0490b9c1e67c1cb954cd397db" ref="da/d36/errGlob_8h.html#a2a053a3347b6e714f7e7fb29156d1736aae37acb0490b9c1e67c1cb954cd397db"/>
+<keyword name="ae2f_errGlob_NFOUND" id="errGlob.h::ae2f_errGlob_NFOUND_a2a053a3347b6e714f7e7fb29156d1736a41f70327a101763a42e66627db248785" ref="da/d36/errGlob_8h.html#a2a053a3347b6e714f7e7fb29156d1736a41f70327a101763a42e66627db248785"/>
+<keyword name="ae2f_errGlob_OK" id="errGlob.h::ae2f_errGlob_OK_a2a053a3347b6e714f7e7fb29156d1736ab95b3053d812f6ce326e4e26801db391" ref="da/d36/errGlob_8h.html#a2a053a3347b6e714f7e7fb29156d1736ab95b3053d812f6ce326e4e26801db391"/>
+<keyword name="ae2f_errGlob_PTR_IS_NULL" id="errGlob.h::ae2f_errGlob_PTR_IS_NULL_a2a053a3347b6e714f7e7fb29156d1736ad34ebdb225f1d1c53828ae49cd9d59e6" ref="da/d36/errGlob_8h.html#a2a053a3347b6e714f7e7fb29156d1736ad34ebdb225f1d1c53828ae49cd9d59e6"/>
+<keyword name="ae2f_errGlob_WRONG_OPERATION" id="errGlob.h::ae2f_errGlob_WRONG_OPERATION_a2a053a3347b6e714f7e7fb29156d1736ace7fd8cfbd02e09a2772fe2feef79379" ref="da/d36/errGlob_8h.html#a2a053a3347b6e714f7e7fb29156d1736ace7fd8cfbd02e09a2772fe2feef79379"/>
+<keyword name="ae2f_errGlobNormalised(n)" id="errGlob.h::ae2f_errGlobNormalised_ada8ea0773716d13412f39e6ef7b06ab2" ref="da/d36/errGlob_8h.html#ada8ea0773716d13412f39e6ef7b06ab2"/>
+<keyword name="ae2f_eSysFtxWait" id="Ftx.core.h::ae2f_eSysFtxWait_a1185634bc4fb0177caf391a9f3f3942b" ref="db/d70/Ftx_8core_8h.html#a1185634bc4fb0177caf391a9f3f3942b"/>
+<keyword name="ae2f_SysFtxWait_GOOD" id="Ftx.core.h::ae2f_SysFtxWait_GOOD_a1185634bc4fb0177caf391a9f3f3942bafa436bf3ee97253e4896098ce4fb4c19" ref="db/d70/Ftx_8core_8h.html#a1185634bc4fb0177caf391a9f3f3942bafa436bf3ee97253e4896098ce4fb4c19"/>
+<keyword name="ae2f_Sys_WIN" id="Ftx.core.h::ae2f_Sys_WIN_a1185634bc4fb0177caf391a9f3f3942ba22f210a23a30930d764bc6c7ac48b679" ref="db/d70/Ftx_8core_8h.html#a1185634bc4fb0177caf391a9f3f3942ba22f210a23a30930d764bc6c7ac48b679"/>
+<keyword name="N_ae2f_Sys_WIN" id="Ftx.core.h::N_ae2f_Sys_WIN_aaa48b906aa1c230b8a725c69ba3b506ea91b0da7e0eafd75c45f4ec7f4beec409" ref="db/d70/Ftx_8core_8h.html#aaa48b906aa1c230b8a725c69ba3b506ea91b0da7e0eafd75c45f4ec7f4beec409"/>
+<keyword name="ae2f_Sys__linux" id="Ftx.core.h::ae2f_Sys__linux_aaa48b906aa1c230b8a725c69ba3b506eae5148b8b452cd45bef3e984b6c14a780" ref="db/d70/Ftx_8core_8h.html#aaa48b906aa1c230b8a725c69ba3b506eae5148b8b452cd45bef3e984b6c14a780"/>
+<keyword name="ae2f_Sys__linux" id="Ftx.core.h::ae2f_Sys__linux_aaa48b906aa1c230b8a725c69ba3b506eae5148b8b452cd45bef3e984b6c14a780" ref="db/d70/Ftx_8core_8h.html#aaa48b906aa1c230b8a725c69ba3b506eae5148b8b452cd45bef3e984b6c14a780"/>
+<keyword name="ae2f_Sys__linux" id="Ftx.core.h::ae2f_Sys__linux_aaa48b906aa1c230b8a725c69ba3b506eae5148b8b452cd45bef3e984b6c14a780" ref="db/d70/Ftx_8core_8h.html#aaa48b906aa1c230b8a725c69ba3b506eae5148b8b452cd45bef3e984b6c14a780"/>
+<keyword name="ae2f_Sys__linux" id="Ftx.core.h::ae2f_Sys__linux_aaa48b906aa1c230b8a725c69ba3b506eae5148b8b452cd45bef3e984b6c14a780" ref="db/d70/Ftx_8core_8h.html#aaa48b906aa1c230b8a725c69ba3b506eae5148b8b452cd45bef3e984b6c14a780"/>
+<keyword name="ae2f_SysFtx_POSIX" id="Ftx.core.h::ae2f_SysFtx_POSIX_aaa48b906aa1c230b8a725c69ba3b506ea4de18bbfd3b877be391be39441055b64" ref="db/d70/Ftx_8core_8h.html#aaa48b906aa1c230b8a725c69ba3b506ea4de18bbfd3b877be391be39441055b64"/>
+<keyword name="ae2f_SysFtx_POSIX" id="Ftx.core.h::ae2f_SysFtx_POSIX_aaa48b906aa1c230b8a725c69ba3b506ea4de18bbfd3b877be391be39441055b64" ref="db/d70/Ftx_8core_8h.html#aaa48b906aa1c230b8a725c69ba3b506ea4de18bbfd3b877be391be39441055b64"/>
+<keyword name="ae2f_SysFtx_POSIX" id="Ftx.core.h::ae2f_SysFtx_POSIX_aaa48b906aa1c230b8a725c69ba3b506ea4de18bbfd3b877be391be39441055b64" ref="db/d70/Ftx_8core_8h.html#aaa48b906aa1c230b8a725c69ba3b506ea4de18bbfd3b877be391be39441055b64"/>
+<keyword name="N_ae2f_Sys_WIN" id="Ftx.core.h::N_ae2f_Sys_WIN_aaa48b906aa1c230b8a725c69ba3b506ea91b0da7e0eafd75c45f4ec7f4beec409" ref="db/d70/Ftx_8core_8h.html#aaa48b906aa1c230b8a725c69ba3b506ea91b0da7e0eafd75c45f4ec7f4beec409"/>
+<keyword name="ae2f_eSysFtxWake" id="Ftx.core.h::ae2f_eSysFtxWake_aaa48b906aa1c230b8a725c69ba3b506e" ref="db/d70/Ftx_8core_8h.html#aaa48b906aa1c230b8a725c69ba3b506e"/>
+<keyword name="ae2f_SysFtxWake_GOOD" id="Ftx.core.h::ae2f_SysFtxWake_GOOD_aaa48b906aa1c230b8a725c69ba3b506eabac6d332ee0399af5954ff9304ff6b5f" ref="db/d70/Ftx_8core_8h.html#aaa48b906aa1c230b8a725c69ba3b506eabac6d332ee0399af5954ff9304ff6b5f"/>
+<keyword name="N_ae2f_Sys_WIN" id="Ftx.core.h::N_ae2f_Sys_WIN_aaa48b906aa1c230b8a725c69ba3b506ea91b0da7e0eafd75c45f4ec7f4beec409" ref="db/d70/Ftx_8core_8h.html#aaa48b906aa1c230b8a725c69ba3b506ea91b0da7e0eafd75c45f4ec7f4beec409"/>
+<keyword name="ae2f_Sys__linux" id="Ftx.core.h::ae2f_Sys__linux_aaa48b906aa1c230b8a725c69ba3b506eae5148b8b452cd45bef3e984b6c14a780" ref="db/d70/Ftx_8core_8h.html#aaa48b906aa1c230b8a725c69ba3b506eae5148b8b452cd45bef3e984b6c14a780"/>
+<keyword name="ae2f_Sys__linux" id="Ftx.core.h::ae2f_Sys__linux_aaa48b906aa1c230b8a725c69ba3b506eae5148b8b452cd45bef3e984b6c14a780" ref="db/d70/Ftx_8core_8h.html#aaa48b906aa1c230b8a725c69ba3b506eae5148b8b452cd45bef3e984b6c14a780"/>
+<keyword name="ae2f_SysFtx_POSIX" id="Ftx.core.h::ae2f_SysFtx_POSIX_aaa48b906aa1c230b8a725c69ba3b506ea4de18bbfd3b877be391be39441055b64" ref="db/d70/Ftx_8core_8h.html#aaa48b906aa1c230b8a725c69ba3b506ea4de18bbfd3b877be391be39441055b64"/>
+<keyword name="ae2f_SysFtx_POSIX" id="Ftx.core.h::ae2f_SysFtx_POSIX_aaa48b906aa1c230b8a725c69ba3b506ea4de18bbfd3b877be391be39441055b64" ref="db/d70/Ftx_8core_8h.html#aaa48b906aa1c230b8a725c69ba3b506ea4de18bbfd3b877be391be39441055b64"/>
+<keyword name="ae2f_SysFtx_POSIX" id="Ftx.core.h::ae2f_SysFtx_POSIX_aaa48b906aa1c230b8a725c69ba3b506ea4de18bbfd3b877be391be39441055b64" ref="db/d70/Ftx_8core_8h.html#aaa48b906aa1c230b8a725c69ba3b506ea4de18bbfd3b877be391be39441055b64"/>
+<keyword name="N_ae2f_Sys_WIN" id="Ftx.core.h::N_ae2f_Sys_WIN_aaa48b906aa1c230b8a725c69ba3b506ea91b0da7e0eafd75c45f4ec7f4beec409" ref="db/d70/Ftx_8core_8h.html#aaa48b906aa1c230b8a725c69ba3b506ea91b0da7e0eafd75c45f4ec7f4beec409"/>
+<keyword name="ae2f_eSysInetDel" id="Inet.h::ae2f_eSysInetDel_ad3879e794a817a561910918f9ca4c956" ref="d7/d83/Inet_8h.html#ad3879e794a817a561910918f9ca4c956"/>
+<keyword name="ae2f_SysInetDel_GOOD" id="Inet.h::ae2f_SysInetDel_GOOD_ad3879e794a817a561910918f9ca4c956a38fc1c087c5804bdc0c5ede038c22914" ref="d7/d83/Inet_8h.html#ad3879e794a817a561910918f9ca4c956a38fc1c087c5804bdc0c5ede038c22914"/>
+<keyword name="ae2f_Sys_WIN" id="Inet.h::ae2f_Sys_WIN_ad3879e794a817a561910918f9ca4c956a22f210a23a30930d764bc6c7ac48b679" ref="d7/d83/Inet_8h.html#ad3879e794a817a561910918f9ca4c956a22f210a23a30930d764bc6c7ac48b679"/>
+<keyword name="ae2f_Sys_WIN" id="Inet.h::ae2f_Sys_WIN_ad3879e794a817a561910918f9ca4c956a22f210a23a30930d764bc6c7ac48b679" ref="d7/d83/Inet_8h.html#ad3879e794a817a561910918f9ca4c956a22f210a23a30930d764bc6c7ac48b679"/>
+<keyword name="ae2f_Sys_WIN" id="Inet.h::ae2f_Sys_WIN_ad3879e794a817a561910918f9ca4c956a22f210a23a30930d764bc6c7ac48b679" ref="d7/d83/Inet_8h.html#ad3879e794a817a561910918f9ca4c956a22f210a23a30930d764bc6c7ac48b679"/>
+<keyword name="ae2f_eSysInetMk" id="Inet.h::ae2f_eSysInetMk_a55d39196a3b20ff6e94058fab47fb888" ref="d7/d83/Inet_8h.html#a55d39196a3b20ff6e94058fab47fb888"/>
+<keyword name="ae2f_SysInetMk_GOOD" id="Inet.h::ae2f_SysInetMk_GOOD_a55d39196a3b20ff6e94058fab47fb888adae657a2c37e54741b00aa206d31d0be" ref="d7/d83/Inet_8h.html#a55d39196a3b20ff6e94058fab47fb888adae657a2c37e54741b00aa206d31d0be"/>
+<keyword name="ae2f_Sys_WIN" id="Inet.h::ae2f_Sys_WIN_ad3879e794a817a561910918f9ca4c956a22f210a23a30930d764bc6c7ac48b679" ref="d7/d83/Inet_8h.html#ad3879e794a817a561910918f9ca4c956a22f210a23a30930d764bc6c7ac48b679"/>
+<keyword name="ae2f_Sys_WIN" id="Inet.h::ae2f_Sys_WIN_ad3879e794a817a561910918f9ca4c956a22f210a23a30930d764bc6c7ac48b679" ref="d7/d83/Inet_8h.html#ad3879e794a817a561910918f9ca4c956a22f210a23a30930d764bc6c7ac48b679"/>
+<keyword name="ae2f_Sys_WIN" id="Inet.h::ae2f_Sys_WIN_ad3879e794a817a561910918f9ca4c956a22f210a23a30930d764bc6c7ac48b679" ref="d7/d83/Inet_8h.html#ad3879e794a817a561910918f9ca4c956a22f210a23a30930d764bc6c7ac48b679"/>
+<keyword name="ae2f_Sys_WIN" id="Inet.h::ae2f_Sys_WIN_ad3879e794a817a561910918f9ca4c956a22f210a23a30930d764bc6c7ac48b679" ref="d7/d83/Inet_8h.html#ad3879e794a817a561910918f9ca4c956a22f210a23a30930d764bc6c7ac48b679"/>
+<keyword name="ae2f_Sys_WIN" id="Inet.h::ae2f_Sys_WIN_ad3879e794a817a561910918f9ca4c956a22f210a23a30930d764bc6c7ac48b679" ref="d7/d83/Inet_8h.html#ad3879e794a817a561910918f9ca4c956a22f210a23a30930d764bc6c7ac48b679"/>
 <keyword name="ae2f_eSysThrd_t" id="Thrd.h::ae2f_eSysThrd_t_a0c761b5e6e49df19c7b98e92ea3d944f" ref="df/d25/Thrd_8h.html#a0c761b5e6e49df19c7b98e92ea3d944f"/>
 <keyword name="ae2f_eSysThrdSuccess" id="Thrd.h::ae2f_eSysThrdSuccess_a0c761b5e6e49df19c7b98e92ea3d944fae77961cbd170df112005be4e5302a5ad" ref="df/d25/Thrd_8h.html#a0c761b5e6e49df19c7b98e92ea3d944fae77961cbd170df112005be4e5302a5ad"/>
 <keyword name="ae2f_eSysThrdMemOut" id="Thrd.h::ae2f_eSysThrdMemOut_a0c761b5e6e49df19c7b98e92ea3d944fab67176f1b91fe266a57091434b7c155c" ref="df/d25/Thrd_8h.html#a0c761b5e6e49df19c7b98e92ea3d944fab67176f1b91fe266a57091434b7c155c"/>
@@ -946,38 +992,43 @@
 <keyword name="ae2f_eSysThrdMemOut" id="Thrd.h::ae2f_eSysThrdMemOut_a0c761b5e6e49df19c7b98e92ea3d944fab67176f1b91fe266a57091434b7c155c" ref="df/d25/Thrd_8h.html#a0c761b5e6e49df19c7b98e92ea3d944fab67176f1b91fe266a57091434b7c155c"/>
 <keyword name="ae2f_eSysThrdSuccess" id="Thrd.h::ae2f_eSysThrdSuccess_a0c761b5e6e49df19c7b98e92ea3d944fae77961cbd170df112005be4e5302a5ad" ref="df/d25/Thrd_8h.html#a0c761b5e6e49df19c7b98e92ea3d944fae77961cbd170df112005be4e5302a5ad"/>
 <keyword name="ae2f_eSysThrdTmOut" id="Thrd.h::ae2f_eSysThrdTmOut_a0c761b5e6e49df19c7b98e92ea3d944fa5e31c00ea02f23ada8cf366bdec89877" ref="df/d25/Thrd_8h.html#a0c761b5e6e49df19c7b98e92ea3d944fa5e31c00ea02f23ada8cf366bdec89877"/>
-<keyword name="ae2f_extern" id="Cast.h::ae2f_extern_af32d53608be4ca28fd8e5cd34fc0279b" ref="d6/d63/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cast_8h.html#af32d53608be4ca28fd8e5cd34fc0279b"/>
-<keyword name="ae2f_extern" id="Cast.h::ae2f_extern_af32d53608be4ca28fd8e5cd34fc0279b" ref="d8/d32/Core_2inc_2ae2f_2Cast_8h.html#af32d53608be4ca28fd8e5cd34fc0279b"/>
-<keyword name="ae2f_fdef(rtn_t, name,...)" id="Cast.h::ae2f_fdef_ae19c09f06693f52d2ce2843500d58dd2" ref="d6/d63/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cast_8h.html#ae19c09f06693f52d2ce2843500d58dd2"/>
-<keyword name="ae2f_fdef(rtn_t, name,...)" id="Cast.h::ae2f_fdef_ae19c09f06693f52d2ce2843500d58dd2" ref="d8/d32/Core_2inc_2ae2f_2Cast_8h.html#ae19c09f06693f52d2ce2843500d58dd2"/>
+<keyword name="ae2f_extern" id="Keys.h::ae2f_extern_af32d53608be4ca28fd8e5cd34fc0279b" ref="d6/d08/Keys_8h.html#af32d53608be4ca28fd8e5cd34fc0279b"/>
+<keyword name="ae2f_float" id="Float.auto.h::ae2f_float_a3f2a0375fad49156d6f05ecdc7cc1563" ref="dc/dea/Float_8auto_8h.html#a3f2a0375fad49156d6f05ecdc7cc1563"/>
 <keyword name="ae2f_float" id="___DOC_CMAKE::ae2f_float_a30a2db91546a887e9373d2a613894198" ref="d1/d61/namespace______DOC__CMAKE.html#a30a2db91546a887e9373d2a613894198"/>
-<keyword name="ae2f_fpCmp_t)(const void *l, const void *r)" id="Fun.h::ae2f_fpCmp_t_ab061cb3b90028001b568515686bff1f5" ref="d1/d42/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cmp_2Fun_8h.html#ab061cb3b90028001b568515686bff1f5"/>
-<keyword name="ae2f_fpCmp_t)(const void *l, const void *r)" id="Fun.h::ae2f_fpCmp_t_ab061cb3b90028001b568515686bff1f5" ref="de/dd6/Core_2inc_2ae2f_2Cmp_2Fun_8h.html#ab061cb3b90028001b568515686bff1f5"/>
+<keyword name="ae2f_fpCmp_t)(const void *l, const void *r)" id="Fun.h::ae2f_fpCmp_t_ab061cb3b90028001b568515686bff1f5" ref="d0/dee/Fun_8h.html#ab061cb3b90028001b568515686bff1f5"/>
+<keyword name="ae2f_FREE(a)" id="Guide.h::ae2f_FREE_ad435b60ec4c7dae2b7a45a0eb8c45317" ref="db/de1/Guide_8h.html#ad435b60ec4c7dae2b7a45a0eb8c45317"/>
 <keyword name="ae2f_IS_SHARED" id="___DOC_CMAKE::ae2f_IS_SHARED_a5ddf0a31b1f0d18876fa8ff1ec3ec80f" ref="d1/d61/namespace______DOC__CMAKE.html#a5ddf0a31b1f0d18876fa8ff1ec3ec80f"/>
 <keyword name="ae2f_LIBPREFIX" id="___DOC_CMAKE::ae2f_LIBPREFIX_a350659b7580f97a8eeacea9fcb8412ea" ref="d1/d61/namespace______DOC__CMAKE.html#a350659b7580f97a8eeacea9fcb8412ea"/>
-<keyword name="ae2f_NONE" id="Cxx.h::ae2f_NONE_ab87b929339e9211ba8dfd1dd4088d518" ref="de/d00/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cxx_8h.html#ab87b929339e9211ba8dfd1dd4088d518"/>
-<keyword name="ae2f_NONE" id="Cxx.h::ae2f_NONE_ab87b929339e9211ba8dfd1dd4088d518" ref="d2/d07/Core_2inc_2ae2f_2Cxx_8h.html#ab87b929339e9211ba8dfd1dd4088d518"/>
-<keyword name="ae2f_packcount" id="___DOC_CMAKE::ae2f_packcount_a158d84350add394f1fe8cb1af10ba2d3" ref="d1/d61/namespace______DOC__CMAKE.html#a158d84350add394f1fe8cb1af10ba2d3"/>
+<keyword name="ae2f_LP(a)" id="Guide.h::ae2f_LP_ae20335659b6223f6d3c4aad02384af1c" ref="db/de1/Guide_8h.html#ae20335659b6223f6d3c4aad02384af1c"/>
+<keyword name="ae2f_NONE" id="Cxx.h::ae2f_NONE_ab87b929339e9211ba8dfd1dd4088d518" ref="d2/db1/Cxx_8h.html#ab87b929339e9211ba8dfd1dd4088d518"/>
+<keyword name="ae2f_packcount" id="___DOC_CMAKE::ae2f_packcount_a7337c983f48da36ef5892af24fc5109c" ref="d1/d61/namespace______DOC__CMAKE.html#a7337c983f48da36ef5892af24fc5109c"/>
 <keyword name="ae2f_ProjRoot" id="___DOC_CMAKE::ae2f_ProjRoot_ab6d1227eed33ed383a1ec8df9847c7b7" ref="d1/d61/namespace______DOC__CMAKE.html#ab6d1227eed33ed383a1ec8df9847c7b7"/>
-<keyword name="ae2f_RecordMk(type,...)" id="Cast.h::ae2f_RecordMk_a3992ff0ceb1477e4ea82cb3358f15a02" ref="d6/d63/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cast_8h.html#a3992ff0ceb1477e4ea82cb3358f15a02"/>
-<keyword name="ae2f_RecordMk(type,...)" id="Cast.h::ae2f_RecordMk_a3992ff0ceb1477e4ea82cb3358f15a02" ref="d8/d32/Core_2inc_2ae2f_2Cast_8h.html#a3992ff0ceb1477e4ea82cb3358f15a02"/>
-<keyword name="ae2f_reg" id="Reg.h::ae2f_reg_ad751b5084d10bc27aa3c3e503ee8876b" ref="d2/d67/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cxx_2Reg_8h.html#ad751b5084d10bc27aa3c3e503ee8876b"/>
-<keyword name="ae2f_reg" id="Reg.h::ae2f_reg_ad751b5084d10bc27aa3c3e503ee8876b" ref="d0/d51/Core_2inc_2ae2f_2Cxx_2Reg_8h.html#ad751b5084d10bc27aa3c3e503ee8876b"/>
-<keyword name="ae2f_reinterpret_cast(t, v)" id="Cast.h::ae2f_reinterpret_cast_acd8146ed1e048f22e68ea16ad208e84a" ref="d6/d63/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cast_8h.html#acd8146ed1e048f22e68ea16ad208e84a"/>
-<keyword name="ae2f_reinterpret_cast(t, v)" id="Cast.h::ae2f_reinterpret_cast_acd8146ed1e048f22e68ea16ad208e84a" ref="d8/d32/Core_2inc_2ae2f_2Cast_8h.html#acd8146ed1e048f22e68ea16ad208e84a"/>
-<keyword name="ae2f_static_cast(t, v)" id="Cast.h::ae2f_static_cast_ab86a90b116e454206d7d4f5c0d07ebcb" ref="d6/d63/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cast_8h.html#ab86a90b116e454206d7d4f5c0d07ebcb"/>
-<keyword name="ae2f_static_cast(t, v)" id="Cast.h::ae2f_static_cast_ab86a90b116e454206d7d4f5c0d07ebcb" ref="d8/d32/Core_2inc_2ae2f_2Cast_8h.html#ab86a90b116e454206d7d4f5c0d07ebcb"/>
-<keyword name="ae2f_struct" id="Cast.h::ae2f_struct_a06f9c6cce51fc7772141ec9a6d521511" ref="d6/d63/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cast_8h.html#a06f9c6cce51fc7772141ec9a6d521511"/>
-<keyword name="ae2f_struct" id="Cast.h::ae2f_struct_a06f9c6cce51fc7772141ec9a6d521511" ref="d8/d32/Core_2inc_2ae2f_2Cast_8h.html#a06f9c6cce51fc7772141ec9a6d521511"/>
+<keyword name="ae2f_PTRSZ_SIZE" id="ptrsz.auto.h::ae2f_PTRSZ_SIZE_a01d83abfb14100e92f18a4ad5188a06d" ref="df/ddd/ptrsz_8auto_8h.html#a01d83abfb14100e92f18a4ad5188a06d"/>
+<keyword name="ae2f_RecordMk(type, v)" id="Cast.h::ae2f_RecordMk_a5095ead846cf91cc0b79a1c33e0cff93" ref="d3/dc4/Cast_8h.html#a5095ead846cf91cc0b79a1c33e0cff93"/>
+<keyword name="ae2f_reg" id="Reg.h::ae2f_reg_ad751b5084d10bc27aa3c3e503ee8876b" ref="df/d5f/Reg_8h.html#ad751b5084d10bc27aa3c3e503ee8876b"/>
+<keyword name="ae2f_reinterpret_cast(t, v)" id="Cast.h::ae2f_reinterpret_cast_acd8146ed1e048f22e68ea16ad208e84a" ref="d3/dc4/Cast_8h.html#acd8146ed1e048f22e68ea16ad208e84a"/>
+<keyword name="ae2f_static_cast(t, v)" id="Cast.h::ae2f_static_cast_ab86a90b116e454206d7d4f5c0d07ebcb" ref="d3/dc4/Cast_8h.html#ab86a90b116e454206d7d4f5c0d07ebcb"/>
+<keyword name="ae2f_stdc_v" id="LangVer.h::ae2f_stdc_v_aca4bf9c33d6b56f4b5d5b28bc17d33f5" ref="d8/d64/LangVer_8h.html#aca4bf9c33d6b56f4b5d5b28bc17d33f5"/>
+<keyword name="ae2f_stdcc_v" id="LangVer.h::ae2f_stdcc_v_a60c1bbddefe78e79e6088ba0f45ca971" ref="d8/d64/LangVer_8h.html#a60c1bbddefe78e79e6088ba0f45ca971"/>
+<keyword name="ae2f_struct" id="Keys.h::ae2f_struct_a06f9c6cce51fc7772141ec9a6d521511" ref="d6/d08/Keys_8h.html#a06f9c6cce51fc7772141ec9a6d521511"/>
 <keyword name="ae2f_structdef(struct, ae2f_AnnMhattn_t)" id="Mhattn.h::ae2f_structdef_a1cf115ab90b0124a54fc01b6bca441c5" ref="de/d5a/Mhattn_8h.html#a1cf115ab90b0124a54fc01b6bca441c5"/>
-<keyword name="ae2f_structdef(struct, ae2f_AnnMlp)" id="Mlp.h::ae2f_structdef_a5720acb65c48c55af88045b5d4c189d5" ref="d6/db0/inc_2ae2f_2Ann_2Mlp_8h.html#a5720acb65c48c55af88045b5d4c189d5"/>
-<keyword name="ae2f_structdef(struct, ae2f_SysThrd)" id="Thrd.h::ae2f_structdef_a04b22ebad15b09836f00eb93c4d32021" ref="df/d25/Thrd_8h.html#a04b22ebad15b09836f00eb93c4d32021"/>
+<keyword name="ae2f_Sys__linux" id="Sys.h::ae2f_Sys__linux_a88e3d7092a07afc154dc26691e6be745" ref="d5/dba/Sys_8h.html#a88e3d7092a07afc154dc26691e6be745"/>
+<keyword name="ae2f_Sys__linux" id="Ftx.core.h::ae2f_Sys__linux_aaa48b906aa1c230b8a725c69ba3b506eae5148b8b452cd45bef3e984b6c14a780" ref="db/d70/Ftx_8core_8h.html#aaa48b906aa1c230b8a725c69ba3b506eae5148b8b452cd45bef3e984b6c14a780"/>
+<keyword name="ae2f_Sys_unused_t" id="Sys.h::ae2f_Sys_unused_t_a27f5eb21ca736cf0c422143c0e5deaa6" ref="d5/dba/Sys_8h.html#a27f5eb21ca736cf0c422143c0e5deaa6"/>
+<keyword name="ae2f_Sys_WIN" id="Sys.h::ae2f_Sys_WIN_a260ee35b2ae6136accc0a0e4da550ea5" ref="d5/dba/Sys_8h.html#a260ee35b2ae6136accc0a0e4da550ea5"/>
+<keyword name="ae2f_Sys_WIN" id="Ftx.core.h::ae2f_Sys_WIN_a1185634bc4fb0177caf391a9f3f3942ba22f210a23a30930d764bc6c7ac48b679" ref="db/d70/Ftx_8core_8h.html#a1185634bc4fb0177caf391a9f3f3942ba22f210a23a30930d764bc6c7ac48b679"/>
+<keyword name="ae2f_Sys_WIN" id="Inet.h::ae2f_Sys_WIN_ad3879e794a817a561910918f9ca4c956a22f210a23a30930d764bc6c7ac48b679" ref="d7/d83/Inet_8h.html#ad3879e794a817a561910918f9ca4c956a22f210a23a30930d764bc6c7ac48b679"/>
+<keyword name="ae2f_SysFtx_POSIX" id="Ftx.core.h::ae2f_SysFtx_POSIX_aaa48b906aa1c230b8a725c69ba3b506ea4de18bbfd3b877be391be39441055b64" ref="db/d70/Ftx_8core_8h.html#aaa48b906aa1c230b8a725c69ba3b506ea4de18bbfd3b877be391be39441055b64"/>
 <keyword name="ae2f_SysFtxEl_t" id="Ftx.h::ae2f_SysFtxEl_t_ae6783215cc7c3f017a72a9db8ac03a04" ref="d3/de9/Ftx_8h.html#ae6783215cc7c3f017a72a9db8ac03a04"/>
-<keyword name="ae2f_SysFtxRet_t" id="Ftx.h::ae2f_SysFtxRet_t_ab13f66f1b450667d8d1f01faff99f6f4" ref="d3/de9/Ftx_8h.html#ab13f66f1b450667d8d1f01faff99f6f4"/>
+<keyword name="ae2f_SysFtxWait_GOOD" id="Ftx.core.h::ae2f_SysFtxWait_GOOD_a1185634bc4fb0177caf391a9f3f3942bafa436bf3ee97253e4896098ce4fb4c19" ref="db/d70/Ftx_8core_8h.html#a1185634bc4fb0177caf391a9f3f3942bafa436bf3ee97253e4896098ce4fb4c19"/>
 <keyword name="ae2f_SysInetDel()" id="Inet.h::ae2f_SysInetDel_a2582ea58a11edb5b361e7054a6c25ff7" ref="d7/d83/Inet_8h.html#a2582ea58a11edb5b361e7054a6c25ff7"/>
-<keyword name="ae2f_SysInetGErr()" id="Inet.h::ae2f_SysInetGErr_aec1d9bfaa4b5108e92311fa5e8b3511d" ref="d7/d83/Inet_8h.html#aec1d9bfaa4b5108e92311fa5e8b3511d"/>
-<keyword name="ae2f_SysInetMk(a, b)" id="Inet.h::ae2f_SysInetMk_a8c83ff94b33377acb8f4480269f39e1c" ref="d7/d83/Inet_8h.html#a8c83ff94b33377acb8f4480269f39e1c"/>
-<keyword name="ae2f_SysInetMkData" id="Inet.h::ae2f_SysInetMkData_adbf4aa786b977fc98d35e5448809f3e3" ref="d7/d83/Inet_8h.html#adbf4aa786b977fc98d35e5448809f3e3"/>
+<keyword name="ae2f_SysInetDel_POSIX()" id="Inet-POSIX.h::ae2f_SysInetDel_POSIX_a3e67bf2edacb547625a962fac2ac5318" ref="da/db4/Inet-POSIX_8h.html#a3e67bf2edacb547625a962fac2ac5318"/>
+<keyword name="ae2f_SysInetMk(prm_VerReq, pret_WSAData)" id="Inet.h::ae2f_SysInetMk_a7b40cb74ba38c480582717496ac49b55" ref="d7/d83/Inet_8h.html#a7b40cb74ba38c480582717496ac49b55"/>
+<keyword name="ae2f_SysInetMk_GOOD" id="Inet.h::ae2f_SysInetMk_GOOD_a55d39196a3b20ff6e94058fab47fb888adae657a2c37e54741b00aa206d31d0be" ref="d7/d83/Inet_8h.html#a55d39196a3b20ff6e94058fab47fb888adae657a2c37e54741b00aa206d31d0be"/>
+<keyword name="ae2f_SysInetMk_POSIX(a, b)" id="Inet-POSIX.h::ae2f_SysInetMk_POSIX_a4c041ef32e7d9f0ee2f9ce654f3c44b6" ref="da/db4/Inet-POSIX_8h.html#a4c041ef32e7d9f0ee2f9ce654f3c44b6"/>
+<keyword name="ae2f_SysInetMkData_DEC(prm_vname)" id="Inet.h::ae2f_SysInetMkData_DEC_adbdb0693b007e01568e30461b92e120c" ref="d7/d83/Inet_8h.html#adbdb0693b007e01568e30461b92e120c"/>
+<keyword name="ae2f_SysInetMkData_DEC_POSIX(a)" id="Inet-POSIX.h::ae2f_SysInetMkData_DEC_POSIX_aa3369dc19241aa73bff56c1a11f47e86" ref="da/db4/Inet-POSIX_8h.html#aa3369dc19241aa73bff56c1a11f47e86"/>
+<keyword name="ae2f_SysInetMkData_POSIX" id="Inet-POSIX.h::ae2f_SysInetMkData_POSIX_a5bf42680124c56655278d06508caa2aa" ref="da/db4/Inet-POSIX_8h.html#a5bf42680124c56655278d06508caa2aa"/>
 <keyword name="ae2f_SysSoCall" id="So.h::ae2f_SysSoCall_a841354ee54c537a5fe88c20ff51ce785" ref="d2/da1/So_8h.html#a841354ee54c537a5fe88c20ff51ce785"/>
 <keyword name="ae2f_SysSoExFn" id="So.h::ae2f_SysSoExFn_a92229cba6d0a6d59fa2693c615b86ca2" ref="d2/da1/So_8h.html#a92229cba6d0a6d59fa2693c615b86ca2"/>
 <keyword name="ae2f_SysThrdFn_t(ae2f_SysThrdPrm_t)" id="Thrd.h::ae2f_SysThrdFn_t_ac6f2f811a793435b0a5935bc1c22fa59" ref="df/d25/Thrd_8h.html#ac6f2f811a793435b0a5935bc1c22fa59"/>
@@ -985,461 +1036,406 @@
 <keyword name="ae2f_SysThrdPrm_t" id="Thrd.h::ae2f_SysThrdPrm_t_a8a1775c8ba642a77c97c72a3326cf729" ref="df/d25/Thrd_8h.html#a8a1775c8ba642a77c97c72a3326cf729"/>
 <keyword name="ae2f_SysThrdRes_t" id="Thrd.h::ae2f_SysThrdRes_t_a48356a799eb7a25b01b844c1f1ba2d37" ref="df/d25/Thrd_8h.html#a48356a799eb7a25b01b844c1f1ba2d37"/>
 <keyword name="ae2f_TEST" id="___DOC_CMAKE::ae2f_TEST_a66c56cb14a6675a093a9a6e0834ccc7e" ref="d1/d61/namespace______DOC__CMAKE.html#a66c56cb14a6675a093a9a6e0834ccc7e"/>
-<keyword name="ae2f_union_cast(tThen, tNow, v)" id="Cast.h::ae2f_union_cast_a617373a68c3f94d8e00857e2e6cfe97f" ref="d6/d63/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cast_8h.html#a617373a68c3f94d8e00857e2e6cfe97f"/>
-<keyword name="ae2f_union_cast(tThen, tNow, v)" id="Cast.h::ae2f_union_cast_a617373a68c3f94d8e00857e2e6cfe97f" ref="d8/d32/Core_2inc_2ae2f_2Cast_8h.html#a617373a68c3f94d8e00857e2e6cfe97f"/>
-<keyword name="ae2f_var" id="Cast.h::ae2f_var_a55689481e470b84f3bc5710c860b088c" ref="d6/d63/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cast_8h.html#a55689481e470b84f3bc5710c860b088c"/>
-<keyword name="ae2f_var" id="Cast.h::ae2f_var_a55689481e470b84f3bc5710c860b088c" ref="d8/d32/Core_2inc_2ae2f_2Cast_8h.html#a55689481e470b84f3bc5710c860b088c"/>
-<keyword name="ae2f_WhenC(...)" id="Cxx.h::ae2f_WhenC_a70cd5f29915062b7c41069b023823245" ref="de/d00/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cxx_8h.html#a70cd5f29915062b7c41069b023823245"/>
-<keyword name="ae2f_WhenC(...)" id="Cxx.h::ae2f_WhenC_a70cd5f29915062b7c41069b023823245" ref="d2/d07/Core_2inc_2ae2f_2Cxx_8h.html#a70cd5f29915062b7c41069b023823245"/>
-<keyword name="ae2f_WhenCXX(...)" id="Cxx.h::ae2f_WhenCXX_a7db6ab0e932eee2c5d72224b44e1260c" ref="de/d00/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cxx_8h.html#a7db6ab0e932eee2c5d72224b44e1260c"/>
-<keyword name="ae2f_WhenCXX(...)" id="Cxx.h::ae2f_WhenCXX_a7db6ab0e932eee2c5d72224b44e1260c" ref="d2/d07/Core_2inc_2ae2f_2Cxx_8h.html#a7db6ab0e932eee2c5d72224b44e1260c"/>
+<keyword name="ae2f_union_cast(tThen, tNow, v)" id="Cast.h::ae2f_union_cast_a617373a68c3f94d8e00857e2e6cfe97f" ref="d3/dc4/Cast_8h.html#a617373a68c3f94d8e00857e2e6cfe97f"/>
+<keyword name="ae2f_v" id="Guide.h::ae2f_v_ab29e682dc87f8c4e1cf489db9326ce72" ref="db/de1/Guide_8h.html#ab29e682dc87f8c4e1cf489db9326ce72"/>
+<keyword name="ae2f_var" id="Keys.h::ae2f_var_a55689481e470b84f3bc5710c860b088c" ref="d6/d08/Keys_8h.html#a55689481e470b84f3bc5710c860b088c"/>
+<keyword name="ae2f_WhenC(a)" id="Cxx.h::ae2f_WhenC_af4c0b1d2c7ea63c5f2647bdc9f619d3b" ref="d2/db1/Cxx_8h.html#af4c0b1d2c7ea63c5f2647bdc9f619d3b"/>
+<keyword name="ae2f_WhenCXX(a)" id="Cxx.h::ae2f_WhenCXX_aa8e21231e6b06d9d9b53e3b5b15e0ac4" ref="d2/db1/Cxx_8h.html#aa8e21231e6b06d9d9b53e3b5b15e0ac4"/>
 <keyword name="ae2fCL_LcgRandSeed_t" id="LcgRand.h::ae2fCL_LcgRandSeed_t_a64ae28327ff48fb05860dacd079fd6c2" ref="de/d52/LcgRand_8h.html#a64ae28327ff48fb05860dacd079fd6c2"/>
-<keyword name="CLK_ALL_MEM_FENCE" id="sync.h::CLK_ALL_MEM_FENCE_a44ef62fc6e9f433bff5ffcb50a447404" ref="de/d6b/sync_8h.html#a44ef62fc6e9f433bff5ffcb50a447404"/>
-<keyword name="CLK_ALLIMG_MEM_FENCE" id="sync.h::CLK_ALLIMG_MEM_FENCE_a1cc99646108384e6ebe45f152327bafc" ref="de/d6b/sync_8h.html#a1cc99646108384e6ebe45f152327bafc"/>
-<keyword name="closesocket" id="Inet.h::closesocket_afdbb9d84bd17efd2ae7290e664992c48" ref="d7/d83/Inet_8h.html#afdbb9d84bd17efd2ae7290e664992c48"/>
-<keyword name="Diff(T a, K b)" id="ae2f::Cmp::Diff_af1c4af77b8e7dd6f338baf5a7a77214c" ref="de/d56/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cmp_8hpp.html#af1c4af77b8e7dd6f338baf5a7a77214c"/>
-<keyword name="TakeGt(T a, K b)" id="ae2f::Cmp::TakeGt_ace257d6678409cd8c1ad31fdd9e7c590" ref="de/d56/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cmp_8hpp.html#ace257d6678409cd8c1ad31fdd9e7c590"/>
-<keyword name="TakeLs(T a, K b)" id="ae2f::Cmp::TakeLs_a461646feb48a94e4ea428c8d56ca44a8" ref="de/d56/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cmp_8hpp.html#a461646feb48a94e4ea428c8d56ca44a8"/>
-<keyword name="unless(...)" id="Cast.h::unless_ad76ecefb282edd703021539a17ba84a3" ref="d6/d63/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cast_8h.html#ad76ecefb282edd703021539a17ba84a3"/>
-<keyword name="unless(...)" id="Cast.h::unless_ad76ecefb282edd703021539a17ba84a3" ref="d8/d32/Core_2inc_2ae2f_2Cast_8h.html#ad76ecefb282edd703021539a17ba84a3"/>
-<keyword name="xfpCmp(xfpCmp_t&lt; T &gt; a) noexcept" id="ae2f::xfpCmp_aa2efd815ff589c1b3efdaaf22dd90885" ref="d4/ddc/namespaceae2f.html#aa2efd815ff589c1b3efdaaf22dd90885"/>
-<keyword name="xfpCmp_t" id="ae2f::xfpCmp_t_a7ce41e5db09dc16b8b98cbb249b07a7d" ref="d4/ddc/namespaceae2f.html#a7ce41e5db09dc16b8b98cbb249b07a7d"/>
+<keyword name="closesocket" id="Inet-POSIX.h::closesocket_afdbb9d84bd17efd2ae7290e664992c48" ref="da/db4/Inet-POSIX_8h.html#afdbb9d84bd17efd2ae7290e664992c48"/>
+<keyword name="N_ae2f_gnuc(a)" id="gnuc.h::N_ae2f_gnuc_a49ac1022b9674900307de6b363c66bc8" ref="d5/db6/gnuc_8h.html#a49ac1022b9674900307de6b363c66bc8"/>
+<keyword name="N_ae2f_Sys_WIN" id="Sys.h::N_ae2f_Sys_WIN_a7cf1f0426cb8c4f845230a3b9708a546" ref="d5/dba/Sys_8h.html#a7cf1f0426cb8c4f845230a3b9708a546"/>
+<keyword name="N_ae2f_Sys_WIN" id="Ftx.core.h::N_ae2f_Sys_WIN_aaa48b906aa1c230b8a725c69ba3b506ea91b0da7e0eafd75c45f4ec7f4beec409" ref="db/d70/Ftx_8core_8h.html#aaa48b906aa1c230b8a725c69ba3b506ea91b0da7e0eafd75c45f4ec7f4beec409"/>
+<keyword name="unless(a)" id="Keys.h::unless_a5105bf2540a04aed65fcbe0a11fc4e88" ref="d6/d08/Keys_8h.html#a5105bf2540a04aed65fcbe0a11fc4e88"/>
 </keywords>
 <files>
 <file>annotated.html</file>
 <file>classes.html</file>
+<file>d0/d09/Cmp_8h.html</file>
+<file>d0/d09/Cmp_8h_source.html</file>
 <file>d0/d09/Thrd_8core_8h.html</file>
 <file>d0/d09/Thrd_8core_8h_source.html</file>
-<file>d0/d13/Ann_2submod_2ae2f_2Preproc_2Inc_2main_8c_source.html</file>
+<file>d0/d13/structae2f__AnnSlp__t.html</file>
 <file>d0/d2a/unionc89atomic__if32.html</file>
-<file>d0/d43/ae2f-Ann-Test-MlpTrainXORFour_8cc_source.html</file>
-<file>d0/d47/Ann_2submod_2ae2f_2Preproc_2Macro_2build_2CMakeFiles_24_81_820250919-g4da54e0-dirty_2CompilerIdCXX_2CMakeCXXCompilerId_8cpp_source.html</file>
-<file>d0/d51/Core_2inc_2ae2f_2Cxx_2Reg_8h.html</file>
-<file>d0/d51/Core_2inc_2ae2f_2Cxx_2Reg_8h_source.html</file>
-<file>d0/d55/Slang_8imp_8c_source.html</file>
+<file>d0/d45/Ftx-__linux_8def_8c_source.html</file>
+<file>d0/d50/structae2fVK__AnnSlpDescPool.html</file>
 <file>d0/d57/c89atomic_8h_source.html</file>
-<file>d0/da0/SlpPool_8auto_8h_source.html</file>
-<file>d0/da6/Core_2inc_2ae2f_2Pack_2Beg_8h.html</file>
-<file>d0/da6/Core_2inc_2ae2f_2Pack_2Beg_8h_source.html</file>
-<file>d0/dad/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Float_8auto_8h_source.html</file>
-<file>d0/dba/Core_2inc_2ae2f_2Call_8h.html</file>
-<file>d0/dba/Core_2inc_2ae2f_2Call_8h_source.html</file>
-<file>d0/dbd/Core_2inc_2ae2f_2LangVer_8h_source.html</file>
+<file>d0/d5b/FileRaw_2main_8auto_8h_source.html</file>
+<file>d0/d84/structae2fVK__AnnSlpMkU2S0__t-members.html</file>
+<file>d0/d87/structae2f__mMMapFieldIdx__t-members.html</file>
+<file>d0/d96/FileRaw_2build_2CMakeFiles_24_82_80_2CompilerIdCXX_2CMakeCXXCompilerId_8cpp_source.html</file>
+<file>d0/d9f/StdBool_8h.html</file>
+<file>d0/d9f/StdBool_8h_source.html</file>
 <file>d0/dd7/c89atomic__deque_8c_source.html</file>
-<file>d0/de6/Dir_8auto_8h_source.html</file>
+<file>d0/de5/unionae2fVK__AnnMlpMkU1__t-members.html</file>
+<file>d0/de9/structae2f__mMMapFieldIdx__t.html</file>
+<file>d0/dee/Fun_8h.html</file>
+<file>d0/dee/Fun_8h_source.html</file>
+<file>d1/d0c/structae2f__AnnSlpTrainOne__t.html</file>
 <file>d1/d19/K_2Ann_2Slp_8core_8h_source.html</file>
-<file>d1/d19/ThrdEx_8h_source.html</file>
-<file>d1/d1c/Preproc_2FileRaw_2build_2CMakeFiles_24_81_820250919-g4da54e0-dirty_2CompilerIdCXX_2CMakeCXXCompilerId_8cpp_source.html</file>
+<file>d1/d1c/Nil_8h_source.html</file>
 <file>d1/d27/unionc89atomic__if32-members.html</file>
-<file>d1/d33/Core_2inc_2ae2f_2Cmp_8h.html</file>
-<file>d1/d33/Core_2inc_2ae2f_2Cmp_8h_source.html</file>
-<file>d1/d38/Core_2inc_2ae2f_2Guide_8h_source.html</file>
-<file>d1/d42/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cmp_2Fun_8h.html</file>
-<file>d1/d42/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cmp_2Fun_8h_source.html</file>
+<file>d1/d28/unionae2f__AnnSlpMkU0__t.html</file>
+<file>d1/d35/structae2f__AnnMlpInit__t-members.html</file>
+<file>d1/d3b/structae2fVK__AnnSlpCreatDescPoolU0__t-members.html</file>
+<file>d1/d5d/Ftx_8c.html</file>
+<file>d1/d5d/Ftx_8c_source.html</file>
 <file>d1/d5e/MlpSz_8c_source.html</file>
 <file>d1/d61/namespace______DOC__CMAKE.html</file>
+<file>d1/d70/structae2fVK__AnnMlpMkRet__t.html</file>
 <file>d1/d8e/structc89atomic__deque.html</file>
 <file>d1/d95/MlpTrainXOR-Primal_8c_source.html</file>
-<file>d1/d97/inc_2ae2f_2Ann_2Mlp_8auto_8h.html</file>
-<file>d1/d97/inc_2ae2f_2Ann_2Mlp_8auto_8h_source.html</file>
-<file>d1/daa/Dir_8def_8cc_source.html</file>
+<file>d1/d98/eval_8cc_source.html</file>
+<file>d1/d9b/structae2f__AnnSlpFollowOne__t.html</file>
 <file>d1/dad/Mhattn_8core_8h_source.html</file>
+<file>d1/db0/Macro_2build_2CMakeFiles_24_82_80_2CompilerIdCXX_2CMakeCXXCompilerId_8cpp_source.html</file>
 <file>d1/dc6/Conv_8auto_8h_source.html</file>
+<file>d1/dd9/NIL-c_09_09_8cc_source.html</file>
 <file>d1/de4/SlpTrain-Primal_8c_source.html</file>
-<file>d1/de7/Inc_2build_2CMakeFiles_2Inc_8dir_2link_8d_source.html</file>
 <file>d1/dea/Slp_8cl_8c_source.html</file>
-<file>d1/df7/classae2f_1_1errGlobThrown.html</file>
-<file>d1/df7/classae2f_1_1errGlobThrown.png</file>
-<file>d2/d07/Core_2inc_2ae2f_2Cxx_8h.html</file>
-<file>d2/d07/Core_2inc_2ae2f_2Cxx_8h_source.html</file>
-<file>d2/d08/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Call_8h.html</file>
-<file>d2/d08/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Call_8h_source.html</file>
+<file>d2/d0e/structae2f__AnnMlpBwdAll__t-members.html</file>
+<file>d2/d19/structae2fVK__AnnMlpMkU0Swap__t.html</file>
 <file>d2/d1c/SlpTrainAND-CStyle_8cc_source.html</file>
-<file>d2/d52/Core_2inc_2ae2f_2BitVec_8h.html</file>
-<file>d2/d52/Core_2inc_2ae2f_2BitVec_8h_source.html</file>
-<file>d2/d57/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2LangVer_8auto_8h_source.html</file>
-<file>d2/d60/ae2f-Ann-Test-MlpTrainXOR_8cc_source.html</file>
-<file>d2/d61/Thrd_8def_8cc_source.html</file>
-<file>d2/d67/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cxx_2Reg_8h.html</file>
-<file>d2/d67/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cxx_2Reg_8h_source.html</file>
-<file>d2/d6b/ae2f-Core-Test-main_8c_source.html</file>
+<file>d2/d3d/structlrlsz__t.html</file>
+<file>d2/d42/Mlp_8auto_8h.html</file>
+<file>d2/d42/Mlp_8auto_8h_source.html</file>
+<file>d2/d55/structae2f__mMMapSz__t.html</file>
+<file>d2/d5d/structae2f__MMap.html</file>
 <file>d2/d74/MMap_8def_8c_source.html</file>
-<file>d2/d78/Spvc_8imp_8c_source.html</file>
+<file>d2/d90/Ftx-WIN_8auto_8h_source.html</file>
 <file>d2/da1/So_8h.html</file>
 <file>d2/da1/So_8h_source.html</file>
-<file>d2/da3/Fd_8def_8cc_source.html</file>
 <file>d2/da7/unionTEST__STACK.html</file>
+<file>d2/dac/Beg_8h.html</file>
+<file>d2/dac/Beg_8h_source.html</file>
+<file>d2/dac/structae2fVK__AnnSlpDescPoolCmdMk__t-members.html</file>
+<file>d2/db1/Cxx_8h.html</file>
+<file>d2/db1/Cxx_8h_source.html</file>
 <file>d2/dc4/WSock_8h.html</file>
 <file>d2/dc4/WSock_8h_source.html</file>
-<file>d2/dd6/inc_2ae2fVK_2Ann_2Slp_8auto_8h_source.html</file>
 <file>d2/ddc/test_8h_source.html</file>
-<file>d2/dee/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Atom_8h_source.html</file>
+<file>d2/dfa/Ftx-__linux_8h_source.html</file>
 <file>d2/dfb/SlpTrainAND_8cc_source.html</file>
 <file>d3/d0a/Preproc_2FileRaw_2main_8c_source.html</file>
-<file>d3/d0f/Core_2inc_2ae2f_2errGlob_8hpp.html</file>
-<file>d3/d0f/Core_2inc_2ae2f_2errGlob_8hpp_source.html</file>
 <file>d3/d1f/Core_2test_2main_8c_source.html</file>
-<file>d3/d27/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2LangVer_8h_source.html</file>
-<file>d3/d3e/ae2f-Ann-Test-Conv_8c_source.html</file>
-<file>d3/d45/Core_2test_2BitVec_8cc_source.html</file>
 <file>d3/d46/MlpTrainXOR_8cc_source.html</file>
-<file>d3/d50/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Pack_2End_8h.html</file>
-<file>d3/d50/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Pack_2End_8h_source.html</file>
-<file>d3/d65/Core_2inc_2ae2f_2Cmp_2Fun_8hpp.html</file>
-<file>d3/d65/Core_2inc_2ae2f_2Cmp_2Fun_8hpp_source.html</file>
-<file>d3/d6a/ae2f-Core-Test-a_8cpp_source.html</file>
-<file>d3/d6e/Preproc_2Macro_2build_2CMakeFiles_24_81_820250919-g4da54e0-dirty_2CompilerIdCXX_2CMakeCXXCompilerId_8cpp_source.html</file>
-<file>d3/da5/FileRaw_2build_2CMakeFiles_2FileRaw_8dir_2main_8c_8o_8d_source.html</file>
+<file>d3/d5a/Inet_8c_source.html</file>
+<file>d3/d95/unionae2fVK__AnnSlpMkU1__t.html</file>
+<file>d3/d9c/structae2f__MMap-members.html</file>
+<file>d3/da4/Thrd_8def_8c_source.html</file>
+<file>d3/dc4/Cast_8h.html</file>
+<file>d3/dc4/Cast_8h_source.html</file>
+<file>d3/ddb/structae2f__AnnSlp__t-members.html</file>
 <file>d3/dde/Act_8h_source.html</file>
 <file>d3/de9/Ftx_8h.html</file>
 <file>d3/de9/Ftx_8h_source.html</file>
-<file>d4/d43/Core_2inc_2ae2f_2BitVec_8hpp.html</file>
-<file>d4/d43/Core_2inc_2ae2f_2BitVec_8hpp_source.html</file>
+<file>d3/df8/CasterUnion_8hpp.html</file>
+<file>d3/df8/CasterUnion_8hpp_source.html</file>
+<file>d4/d0a/structae2fVK__AnnSlpPredictUnion0WrDescInfo__t.html</file>
+<file>d4/d12/structae2fVK__AnnSlpPredictUnion0WrDescInfo__t-members.html</file>
+<file>d4/d35/structae2f__AnnMlpPredict__t-members.html</file>
+<file>d4/d36/structae2f__AnnMlpMk__t-members.html</file>
 <file>d4/d4b/Slp_8def_8cc_source.html</file>
 <file>d4/d54/SlpPool_8def_8cc_source.html</file>
-<file>d4/d67/Preproc_2Inc_2build_2CMakeFiles_24_81_820250919-g4da54e0-dirty_2CompilerIdC_2CMakeCCompilerId_8c_source.html</file>
-<file>d4/d7c/Core_2inc_2ae2f_2Float_8h.html</file>
-<file>d4/d7c/Core_2inc_2ae2f_2Float_8h_source.html</file>
-<file>d4/d86/Ann_2submod_2ae2f_2Core_2test_2eval_8cc_source.html</file>
+<file>d4/d66/structae2f__AnnSlpPredictOne__t.html</file>
+<file>d4/d84/Inc_2build_2CMakeFiles_24_82_80_2CompilerIdCXX_2CMakeCXXCompilerId_8cpp_source.html</file>
+<file>d4/d93/Float_8h.html</file>
+<file>d4/d93/Float_8h_source.html</file>
 <file>d4/d94/MlpTrainXORFour_8cc_source.html</file>
-<file>d4/dab/Inc_2build_2CMakeFiles_2Inc_8dir_2main_8c_8o_8d_source.html</file>
-<file>d4/dae/Dir_8h_source.html</file>
-<file>d4/db7/structae2f_1_1errGlobState.html</file>
 <file>d4/dc0/structSTACK__T.html</file>
 <file>d4/dce/Mlp_8def_8cc_source.html</file>
-<file>d4/dd7/Preproc_2FileRaw_2build_2CMakeFiles_24_81_820250919-g4da54e0-dirty_2CompilerIdC_2CMakeCCompilerId_8c_source.html</file>
+<file>d4/dd1/structae2f__SysThrd.html</file>
+<file>d4/dd4/Limits_8h.html</file>
+<file>d4/dd4/Limits_8h_source.html</file>
 <file>d4/dda/Preproc_2Inc_2main_8c_source.html</file>
 <file>d4/ddc/namespaceae2f.html</file>
-<file>d4/deb/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2errGlob_8hpp.html</file>
-<file>d4/deb/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2errGlob_8hpp_source.html</file>
 <file>d4/deb/Core_2cmake_2cmake_8hpp_source.html</file>
+<file>d4/df7/structae2f__AnnMlpPredict__t.html</file>
 <file>d5/d07/MlpPool_8def_8cc_source.html</file>
-<file>d5/d3b/classae2f_1_1rBitVec-members.html</file>
-<file>d5/d66/PgAlloc_8auto_8h_source.html</file>
-<file>d5/d67/Ann_2submod_2ae2f_2Preproc_2Macro_2build_2CMakeFiles_24_81_820250919-g4da54e0-dirty_2CompilerIdC_2CMakeCCompilerId_8c_source.html</file>
+<file>d5/d1a/structae2f__mMMapMk__t-members.html</file>
+<file>d5/d55/structae2f__AnnSlpFit__t-members.html</file>
+<file>d5/d6f/structae2f__AnnSlpFollow__t.html</file>
+<file>d5/d70/Slp_8auto_8h_source.html</file>
 <file>d5/d79/c89atomic__deque_8h_source.html</file>
-<file>d5/d7c/ae2f-Ann-Test-SlpTrainAND_8cc_source.html</file>
-<file>d5/d84/Fd_8auto_8h_source.html</file>
-<file>d5/da4/Core_2inc_2ae2f_2Cast_2CasterUnion_8hpp.html</file>
-<file>d5/da4/Core_2inc_2ae2f_2Cast_2CasterUnion_8hpp_source.html</file>
+<file>d5/d79/structae2f__mMMapInit__t-members.html</file>
+<file>d5/d7e/unionae2f__AnnMlpInitMkPtr__t.html</file>
+<file>d5/d97/unionlrlszel__t-members.html</file>
+<file>d5/da0/LangVer_8auto_8h.html</file>
+<file>d5/da0/LangVer_8auto_8h_source.html</file>
+<file>d5/da7/structae2fVK__AnnSlpMkU2S0__t.html</file>
+<file>d5/db2/unionae2f__AnnSlpMkU0__t-members.html</file>
+<file>d5/db6/gnuc_8h.html</file>
+<file>d5/db6/gnuc_8h_source.html</file>
 <file>d5/dba/Sys_8h.html</file>
 <file>d5/dba/Sys_8h_source.html</file>
-<file>d5/dce/Macro_2build_2CMakeFiles_2Macro_8dir_2main_8c_8o_8d_source.html</file>
-<file>d5/dd3/clspv_2a_8c_source.html</file>
-<file>d5/df3/MlpSHADER_8auto_8h_source.html</file>
-<file>d6/d1e/Core_2inc_2ae2f_2Cast_2Constexpr_8hpp_source.html</file>
-<file>d6/d52/Preproc_2Inc_2build_2CMakeFiles_24_81_820250919-g4da54e0-dirty_2CompilerIdCXX_2CMakeCXXCompilerId_8cpp_source.html</file>
+<file>d5/dd4/unionae2fVK__AnnSlpPredictUnion0__t-members.html</file>
+<file>d5/dfd/structae2f__AnnMlpTrain__t.html</file>
+<file>d5/dfd/structae2f__AnnSlpFollow__t-members.html</file>
+<file>d6/d04/structae2f__AnnMlp__t-members.html</file>
+<file>d6/d08/Keys_8h.html</file>
+<file>d6/d08/Keys_8h_source.html</file>
+<file>d6/d10/unionae2fVK__AnnSlpMkU1__t-members.html</file>
+<file>d6/d19/structae2fVK__AnnSlpCreatDescPoolU0__t.html</file>
+<file>d6/d2c/have-stdint_8auto_8h_source.html</file>
+<file>d6/d2e/structae2f__SysThrd-members.html</file>
+<file>d6/d4f/Inc_2build_2CMakeFiles_24_82_80_2CompilerIdC_2CMakeCCompilerId_8c_source.html</file>
 <file>d6/d5e/Thrd_8auto_8h.html</file>
 <file>d6/d5e/Thrd_8auto_8h_source.html</file>
-<file>d6/d63/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cast_8h.html</file>
-<file>d6/d63/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cast_8h_source.html</file>
 <file>d6/d66/structFLAGS__t.html</file>
-<file>d6/d6d/Preproc_2Inc_2main_8auto_8h_source.html</file>
-<file>d6/d70/Ann_2submod_2ae2f_2Core_2test_2BitVec_8cc_source.html</file>
-<file>d6/d70/Ann_2submod_2ae2f_2Core_2test_2a_8cpp_source.html</file>
-<file>d6/d9e/Fd_8h_source.html</file>
+<file>d6/d6e/structae2f__mMMapInit__t.html</file>
+<file>d6/d98/unionae2fVK__AnnMlpMkU1__t.html</file>
+<file>d6/d9e/unionae2f__AnnMlpInitMkPtr__t-members.html</file>
 <file>d6/db0/inc_2ae2f_2Ann_2Mlp_8h.html</file>
 <file>d6/db0/inc_2ae2f_2Ann_2Mlp_8h_source.html</file>
 <file>d6/db8/structsz2__t-members.html</file>
-<file>d6/dc3/classae2f_1_1errGlobThrown-members.html</file>
-<file>d6/dcb/Ann_2submod_2ae2f_2Core_2test_2main_8cc_source.html</file>
+<file>d6/db9/structae2f__mMMap.html</file>
 <file>d6/dcd/Mhattn_8auto_8h_source.html</file>
-<file>d6/de6/clspv_8h_source.html</file>
+<file>d6/dfd/structae2f__AnnSlpFit__t.html</file>
 <file>d7/d10/MMap_8h_source.html</file>
+<file>d7/d16/structae2fVK__AnnMlpMkRet__t-members.html</file>
 <file>d7/d1f/Block_8auto_8h_source.html</file>
+<file>d7/d23/structae2f__AnnMlpHidDeltaSingle__t-members.html</file>
 <file>d7/d4e/structc89atomic__deque-members.html</file>
-<file>d7/d59/struct____prmbool.html</file>
 <file>d7/d60/SlpSHADER_8inc_8c_source.html</file>
 <file>d7/d69/Conv_8def_8cc_source.html</file>
+<file>d7/d6b/Macro_8h_source.html</file>
+<file>d7/d7b/Ftx-__linux_8auto_8h_source.html</file>
 <file>d7/d82/Mhattn_8def_8c_source.html</file>
 <file>d7/d83/Inet_8h.html</file>
 <file>d7/d83/Inet_8h_source.html</file>
-<file>d7/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2errGlob_8h.html</file>
-<file>d7/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2errGlob_8h_source.html</file>
-<file>d7/d93/Core_2inc_2ae2f_2Pack_2End_8h.html</file>
-<file>d7/d93/Core_2inc_2ae2f_2Pack_2End_8h_source.html</file>
-<file>d7/d96/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Pack_2Num_8auto_8h_source.html</file>
-<file>d7/daf/classae2f_1_1rBitVec.html</file>
-<file>d7/db0/Ann_2submod_2ae2f_2Preproc_2FileRaw_2build_2CMakeFiles_24_81_820250919-g4da54e0-dirty_2CompilerIdC_2CMakeCCompilerId_8c_source.html</file>
+<file>d7/d92/unionae2fVK__AnnMlpMkU3__t.html</file>
+<file>d7/db7/structae2fVK__AnnMlpMkU0Swap__t-members.html</file>
 <file>d7/db9/inc_2ae2fVK_2Ann_2Slp_8h_source.html</file>
+<file>d7/dce/structae2f__AnnSlpPredict__t-members.html</file>
 <file>d7/dd2/SlpPredictHalf-Primal_8c_source.html</file>
-<file>d7/dd4/Core_2inc_2ae2f_8hpp_source.html</file>
-<file>d7/de6/Ftx_8auto_8h_source.html</file>
-<file>d7/dee/ae2f-Core-Test-main_8cc_source.html</file>
-<file>d8/d1f/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2BitVec_8hpp.html</file>
-<file>d8/d1f/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2BitVec_8hpp_source.html</file>
-<file>d8/d32/Core_2inc_2ae2f_2Cast_8h.html</file>
-<file>d8/d32/Core_2inc_2ae2f_2Cast_8h_source.html</file>
+<file>d7/ddc/End_8h.html</file>
+<file>d7/ddc/End_8h_source.html</file>
+<file>d7/dde/unionae2fVK__AnnMlpMkU3__t-members.html</file>
+<file>d7/de4/structae2fVK__AnnSlpMkAlter__t-members.html</file>
+<file>d7/dfc/structae2f__AnnMlpInit__t.html</file>
+<file>d8/d04/___8h_source.html</file>
+<file>d8/d08/structae2fVK__AnnSlpMk__t.html</file>
 <file>d8/d34/Ann_2cmake_2cmake_8hpp.html</file>
 <file>d8/d34/Ann_2cmake_2cmake_8hpp_source.html</file>
 <file>d8/d3d/thrdjoin_8c_source.html</file>
-<file>d8/d50/Core_2inc_2ae2f_2Pack_2Num_8auto_8h_source.html</file>
+<file>d8/d44/structae2f__AnnSlpMk__t.html</file>
+<file>d8/d46/ae2f_8hpp_source.html</file>
+<file>d8/d53/Num_8h_source.html</file>
+<file>d8/d64/LangVer_8h.html</file>
+<file>d8/d64/LangVer_8h_source.html</file>
+<file>d8/d66/unionae2fVK__AnnMlpMkU0__t.html</file>
+<file>d8/d67/structae2f__AnnSlpTrainREG__t-members.html</file>
+<file>d8/d70/unionae2fVK__AnnSlpPredictUnion0__t.html</file>
 <file>d8/d72/c89atomic__basic_8c_source.html</file>
 <file>d8/d7c/unionc89atomic__if64.html</file>
-<file>d8/dab/ae2f-Core-Test-BitVec_8cc_source.html</file>
-<file>d8/dca/inc_2ae2fVK_2Ann_2Mlp_8auto_8h_source.html</file>
+<file>d8/da5/structae2f__AnnSlpMk__t-members.html</file>
 <file>d8/dd8/inetcompiletest_8c_source.html</file>
 <file>d8/df9/Mlp_8def_8c_source.html</file>
+<file>d8/df9/structae2f__AnnSlpPredictOne__t-members.html</file>
+<file>d9/d0f/main_8cc_source.html</file>
 <file>d9/d1a/c89atomic__bitmap__allocator_8h_source.html</file>
 <file>d9/d1c/SlpInit-Primal_8c_8cc_source.html</file>
+<file>d9/d2a/Macro_2build_2CMakeFiles_24_82_80_2CompilerIdC_2CMakeCCompilerId_8c_source.html</file>
 <file>d9/d31/Conv_8c_source.html</file>
-<file>d9/d3d/Ann_2submod_2ae2f_2Preproc_2Macro_2main_8c_source.html</file>
-<file>d9/d49/atom_8h.html</file>
-<file>d9/d49/atom_8h_source.html</file>
-<file>d9/d56/wrkitem_8h_source.html</file>
-<file>d9/d67/Fd_8core_8h_source.html</file>
-<file>d9/d69/FileRaw_2build_2CMakeFiles_2FileRaw_8dir_2link_8d_source.html</file>
-<file>d9/d83/Preproc_2inc_2ae2f_2Macro_8h_source.html</file>
+<file>d9/d54/Ftx-WIN_8h_source.html</file>
+<file>d9/d5a/structae2f__AnnSlpTrain__t.html</file>
 <file>d9/d94/unionc89atomic__if64-members.html</file>
-<file>d9/da3/structae2f_1_1errGlobState-members.html</file>
-<file>d9/dad/ae2f-Ann-Test-MlpTrainXOR_8c_source.html</file>
+<file>d9/dcc/structlr__t.html</file>
+<file>d9/dd0/Platform_8h_source.html</file>
 <file>d9/dd7/structFLAGS__t-members.html</file>
 <file>d9/de7/Ann_2cmake_2Core_8cmake_8hpp_source.html</file>
 <file>d9/df0/src_2vk_2cl_2Mlp_8h_source.html</file>
-<file>da/d18/PgAlloc_8def_8cc_source.html</file>
-<file>da/d31/Core_2inc_2ae2f_2Atom_8h_source.html</file>
-<file>da/d50/Core_2inc_2ae2f_2errGlob_8h.html</file>
-<file>da/d50/Core_2inc_2ae2f_2errGlob_8h_source.html</file>
-<file>da/d51/Ann_2submod_2ae2f_2Core_2cmake_2cmake_8hpp_source.html</file>
+<file>d9/dfb/structae2f__AnnMlpBwdAll__t.html</file>
+<file>da/d02/structae2fVK__AnnSlpDescPoolCmdMk__t.html</file>
+<file>da/d11/structae2fVK__AnnSlp-members.html</file>
+<file>da/d2a/unionae2f__AnnMlpBwdAllStack__t.html</file>
+<file>da/d2e/structae2f__AnnMlp__t.html</file>
+<file>da/d36/errGlob_8h.html</file>
+<file>da/d36/errGlob_8h_source.html</file>
+<file>da/d3f/structae2fVK__AnnMlpMkU4__t-members.html</file>
 <file>da/d57/structSTACK__T-members.html</file>
+<file>da/d58/deprecated.html</file>
 <file>da/d63/MlpInit_8c_source.html</file>
+<file>da/d6a/FileRaw_2build_2CMakeFiles_24_82_80_2CompilerIdC_2CMakeCCompilerId_8c_source.html</file>
 <file>da/d6c/Ann_2Slp_8core_8h_source.html</file>
 <file>da/d70/SlpSz_8c_source.html</file>
-<file>da/d7f/sclr_8h_source.html</file>
+<file>da/d8d/structae2f__mMMap-members.html</file>
 <file>da/d92/Preproc_2Macro_2main_8c_source.html</file>
-<file>da/da7/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cast_2Constexpr_8hpp_source.html</file>
-<file>da/da8/Block_8def_8cc_source.html</file>
-<file>da/dbd/Ann_2submod_2ae2f_2Core_2cmake_2Core_8cmake_8hpp.html</file>
-<file>da/dbd/Ann_2submod_2ae2f_2Core_2cmake_2Core_8cmake_8hpp_source.html</file>
+<file>da/db2/structae2f__AnnSlpFollowOne__t-members.html</file>
+<file>da/db4/Inet-POSIX_8h.html</file>
+<file>da/db4/Inet-POSIX_8h_source.html</file>
 <file>da/dc1/VkInit_8c_source.html</file>
 <file>da/dca/MlpTrainSimple-Primal_8c_source.html</file>
 <file>da/dcc/Slp_8def_8c_source.html</file>
-<file>da/de1/Macro_2build_2CMakeFiles_2Macro_8dir_2link_8d_source.html</file>
+<file>da/dd5/structae2fVK__AnnSlpCreatDescPool__t-members.html</file>
+<file>da/ddc/Ftx-WIN_8def_8c_source.html</file>
 <file>da/de5/structsz2__t.html</file>
-<file>da/dec/Core_2inc_2ae2f_2Platform_8h_source.html</file>
-<file>db/d06/Core_2test_2eval_8cc_source.html</file>
-<file>db/d12/ae2f-Core-Test-eval_8cc_source.html</file>
-<file>db/d33/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Pack_2Beg_8h.html</file>
-<file>db/d33/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Pack_2Beg_8h_source.html</file>
+<file>db/d07/unionae2fVK__AnnMlpMkU0__t-members.html</file>
+<file>db/d27/structae2fVK__AnnMlpMk__t-members.html</file>
+<file>db/d2b/structae2fVK__AnnMlp.html</file>
 <file>db/d50/c89atomic__bitmap__allocator_8c_source.html</file>
-<file>db/d5d/Slang_8def_8c_source.html</file>
 <file>db/d62/inc_2ae2fVK_2Ann_2Mlp_8h_source.html</file>
-<file>db/d64/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2BitVec_8h.html</file>
-<file>db/d64/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2BitVec_8h_source.html</file>
 <file>db/d66/MlpTrainHalf-Primal_8c_source.html</file>
-<file>db/d68/Ann_2submod_2ae2f_2Preproc_2Macro_2main_8auto_8h_source.html</file>
-<file>db/d6c/Dir_8core_8h_source.html</file>
+<file>db/d6a/unionae2fVK__AnnSlpMkU3__t.html</file>
+<file>db/d70/Ftx_8core_8h.html</file>
 <file>db/d70/Ftx_8core_8h_source.html</file>
-<file>db/d82/Ann_2submod_2ae2f_2Core_2inc_2ae2f_8hpp_source.html</file>
-<file>db/d97/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Platform_8h_source.html</file>
-<file>db/d9a/src_2vk_2cl_2Slp_8auto_8h_source.html</file>
+<file>db/d85/structae2fVK__AnnMlpMk__t.html</file>
 <file>db/daa/MMap_2Util_8h_source.html</file>
-<file>db/dae/Core_2test_2a_8cpp_source.html</file>
 <file>db/dbd/MlpSHADER_8inc_8c_source.html</file>
-<file>db/dbf/Preproc_2Macro_2main_8auto_8h_source.html</file>
-<file>db/dc2/Ann_2submod_2ae2f_2Preproc_2Inc_2build_2CMakeFiles_24_81_820250919-g4da54e0-dirty_2CompilerIdCXX_2CMakeCXXCompilerId_8cpp_source.html</file>
+<file>db/dc0/Num_8auto_8h.html</file>
+<file>db/dc0/Num_8auto_8h_source.html</file>
+<file>db/dc1/structae2fVK__AnnSlpDescPool-members.html</file>
 <file>db/dc7/src_2vk_2cl_2Slp_8h_source.html</file>
-<file>db/dc9/Ann_2submod_2ae2f_2Core_2test_2main_8c_source.html</file>
-<file>db/dc9/Ann_2submod_2ae2f_2Preproc_2Inc_2build_2CMakeFiles_24_81_820250919-g4da54e0-dirty_2CompilerIdC_2CMakeCCompilerId_8c_source.html</file>
-<file>db/df6/Core_2inc_2ae2f_2LangVer_8auto_8h_source.html</file>
-<file>dc/d36/ae2f-Ann-Test-SlpTrainAND_8c_source.html</file>
+<file>db/dd6/c90_8c_source.html</file>
+<file>db/de1/Guide_8h.html</file>
+<file>db/de1/Guide_8h_source.html</file>
+<file>db/dfe/unionae2fVK__AnnSlpMkU3__t-members.html</file>
+<file>dc/d11/unionae2fVK__AnnSlpMkU2__t-members.html</file>
+<file>dc/d19/Inet-WIN_8h_source.html</file>
 <file>dc/d4b/unionTEST__STACK-members.html</file>
-<file>dc/d75/struct____prmbool-members.html</file>
-<file>dc/d83/Ann_2build_2CMakeFiles_24_81_820250919-g4da54e0-dirty_2CompilerIdC_2CMakeCCompilerId_8c_source.html</file>
-<file>dc/d9c/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Guide_8h_source.html</file>
+<file>dc/d64/structae2fVK__AnnSlpCreatDescPool__t.html</file>
+<file>dc/d87/Constexpr_8h_source.html</file>
+<file>dc/d91/structae2fVK__AnnSlp.html</file>
 <file>dc/da4/SlpPredict-Primal_8c_source.html</file>
-<file>dc/dab/Preproc_2FileRaw_2main_8auto_8h_source.html</file>
-<file>dc/dae/spvc_2a_8c_source.html</file>
-<file>dc/dc9/ae2f-Ann-Test-SlpTrainAND-CStyle_8cc_source.html</file>
+<file>dc/dac/structae2fVK__AnnSlpMkAlter__t.html</file>
+<file>dc/dcb/structae2f__AnnSlpFitRAM__t-members.html</file>
 <file>dc/dd2/unionae2fCL__LcgRandSeed__t.html</file>
-<file>dd/d0b/addrspec_8h_source.html</file>
+<file>dc/dea/Float_8auto_8h.html</file>
+<file>dc/dea/Float_8auto_8h_source.html</file>
+<file>dc/df0/cc_8h.html</file>
+<file>dc/df0/cc_8h_source.html</file>
 <file>dd/d0c/structc89atomic__bitmap__allocator-members.html</file>
+<file>dd/d10/unionlrlszel__t.html</file>
 <file>dd/d13/inc_2ae2f_2Ann_2Slp_8h_source.html</file>
-<file>dd/d19/Ann_2submod_2ae2f_2Preproc_2FileRaw_2build_2CMakeFiles_24_81_820250919-g4da54e0-dirty_2CompilerIdCXX_2CMakeCXXCompilerId_8cpp_source.html</file>
-<file>dd/d26/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Float_8h.html</file>
-<file>dd/d26/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Float_8h_source.html</file>
-<file>dd/d33/VK-Core_2cmake_2Core_8cmake_8hpp_source.html</file>
-<file>dd/d3c/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cmp_2Fun_8hpp.html</file>
-<file>dd/d3c/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cmp_2Fun_8hpp_source.html</file>
-<file>dd/d3c/Ftx_8def_8cc_source.html</file>
-<file>dd/d53/Core_2inc_2ae2f_2Cmp_8hpp.html</file>
-<file>dd/d53/Core_2inc_2ae2f_2Cmp_8hpp_source.html</file>
-<file>dd/d6a/Preproc_2Macro_2build_2CMakeFiles_24_81_820250919-g4da54e0-dirty_2CompilerIdC_2CMakeCCompilerId_8c_source.html</file>
-<file>dd/d7b/Core_2test_2main_8cc_source.html</file>
-<file>dd/d82/Ann_2build_2CMakeFiles_24_81_820250919-g4da54e0-dirty_2CompilerIdCXX_2CMakeCXXCompilerId_8cpp_source.html</file>
-<file>dd/d85/Ann_2submod_2ae2f_2Preproc_2FileRaw_2main_8c_source.html</file>
+<file>dd/d37/structae2fVK__AnnMlp-members.html</file>
+<file>dd/d3a/structae2f__AnnSlpTrainREG__t.html</file>
+<file>dd/d43/Ftx-POSIX_8auto_8h_source.html</file>
+<file>dd/d64/structae2fVK__AnnMlpMkU4__t.html</file>
+<file>dd/d7f/Block_8def_8c_source.html</file>
+<file>dd/d8a/limits_8width_8auto_8h_source.html</file>
 <file>dd/d92/Conv_8h_source.html</file>
-<file>dd/d9b/VK-Core_2cmake_2cmake_8hpp.html</file>
-<file>dd/d9b/VK-Core_2cmake_2cmake_8hpp_source.html</file>
 <file>dd/d9e/K_2Ann_2Mlp_8core_8h_source.html</file>
-<file>dd/d9f/inc_2ae2f_2Ann_2Slp_8auto_8h_source.html</file>
-<file>dd/da7/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cast_2CasterUnion_8hpp.html</file>
-<file>dd/da7/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cast_2CasterUnion_8hpp_source.html</file>
-<file>dd/ddb/Core_2inc_2ae2f_2Float_8auto_8h_source.html</file>
-<file>dd/dee/Ann_2submod_2ae2f_2Preproc_2inc_2ae2f_2Macro_8h_source.html</file>
-<file>de/d00/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cxx_8h.html</file>
-<file>de/d00/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cxx_8h_source.html</file>
+<file>dd/da0/structae2f__AnnSlpTrainOne__t-members.html</file>
+<file>dd/dc7/structae2f__AnnSlpTrain__t-members.html</file>
+<file>dd/dd2/structlr__t-members.html</file>
+<file>dd/dd7/Inc_2main_8auto_8h_source.html</file>
+<file>dd/ddd/Call_8auto_8h.html</file>
+<file>dd/ddd/Call_8auto_8h_source.html</file>
+<file>dd/dde/structae2f__AnnSlpPredict__t.html</file>
+<file>dd/de7/Macro_2main_8auto_8h_source.html</file>
+<file>dd/dee/unionae2fVK__AnnSlpMkU0__t.html</file>
 <file>de/d00/MMap_8auto_8h_source.html</file>
-<file>de/d01/src_2vk_2cl_2Mlp_8auto_8h_source.html</file>
 <file>de/d28/SlpTrainAND_8c_source.html</file>
+<file>de/d50/unionae2fVK__AnnSlpMkU0__t-members.html</file>
 <file>de/d52/LcgRand_8h.html</file>
 <file>de/d52/LcgRand_8h_source.html</file>
-<file>de/d56/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cmp_8hpp.html</file>
-<file>de/d56/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cmp_8hpp_source.html</file>
 <file>de/d5a/Mhattn_8h.html</file>
 <file>de/d5a/Mhattn_8h_source.html</file>
-<file>de/d62/SlpSHADER_8auto_8h_source.html</file>
-<file>de/d6b/sync_8h.html</file>
-<file>de/d6b/sync_8h_source.html</file>
+<file>de/d6b/BitVec_8h.html</file>
+<file>de/d6b/BitVec_8h_source.html</file>
 <file>de/d7a/Ann_2Util_8h_source.html</file>
+<file>de/d7c/cxx_8cc_source.html</file>
+<file>de/d8d/structae2f__AnnSlpFitRAM__t.html</file>
+<file>de/d93/unionae2fVK__AnnMlpMkU2__t-members.html</file>
 <file>de/dab/MlpTrainXOR_8c_source.html</file>
-<file>de/daf/a_8cc_source.html</file>
-<file>de/dd6/Core_2inc_2ae2f_2Cmp_2Fun_8h.html</file>
-<file>de/dd6/Core_2inc_2ae2f_2Cmp_2Fun_8h_source.html</file>
-<file>de/dd8/Ann_2submod_2ae2f_2Preproc_2Inc_2main_8auto_8h_source.html</file>
+<file>de/dc8/unionae2f__AnnMlpBwdAllStack__t-members.html</file>
+<file>de/dd7/Ftx-POSIX_8def_8c_source.html</file>
 <file>de/de1/structc89atomic__bitmap__allocator.html</file>
-<file>de/de5/key_8h_source.html</file>
 <file>de/de9/vk_8h_source.html</file>
-<file>de/deb/ae2f-Ann-Test-MlpTrainXOR-Primal_8c_source.html</file>
-<file>de/df8/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Pack_2Num_8h.html</file>
-<file>de/df8/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Pack_2Num_8h_source.html</file>
-<file>df/d01/Core_2inc_2ae2f_2Pack_2Num_8h.html</file>
-<file>df/d01/Core_2inc_2ae2f_2Pack_2Num_8h_source.html</file>
+<file>de/df1/unionae2fVK__AnnSlpMkU2__t.html</file>
+<file>df/d07/structae2fVK__AnnSlpDescPoolCmd-members.html</file>
 <file>df/d0d/c89atomic_8c_source.html</file>
+<file>df/d1b/structae2f__AnnMlpHidDeltaSingle__t.html</file>
 <file>df/d25/Thrd_8h.html</file>
 <file>df/d25/Thrd_8h_source.html</file>
 <file>df/d42/Ann_2Mlp_8core_8h_source.html</file>
-<file>df/d45/MlpPool_8auto_8h_source.html</file>
-<file>df/d4f/Ann_2submod_2ae2f_2Preproc_2FileRaw_2main_8auto_8h_source.html</file>
-<file>df/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cmp_8h.html</file>
-<file>df/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cmp_8h_source.html</file>
+<file>df/d49/structae2fVK__AnnSlpMk__t-members.html</file>
+<file>df/d4b/structae2f__AnnMlpMk__t.html</file>
+<file>df/d5d/structlrlsz__t-members.html</file>
+<file>df/d5f/Reg_8h.html</file>
+<file>df/d5f/Reg_8h_source.html</file>
+<file>df/d6d/StdInt_8h.html</file>
+<file>df/d6d/StdInt_8h_source.html</file>
+<file>df/d6f/structae2fVK__AnnSlpDescPoolCmd.html</file>
+<file>df/d82/unionae2fVK__AnnMlpMkU2__t.html</file>
 <file>df/d96/Core_2cmake_2Core_8cmake_8hpp.html</file>
 <file>df/d96/Core_2cmake_2Core_8cmake_8hpp_source.html</file>
-<file>df/da7/Spvc_8def_8c_source.html</file>
-<file>df/dba/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Call_8auto_8h_source.html</file>
+<file>df/d9b/structae2f__AnnMlpTrain__t-members.html</file>
+<file>df/da8/Ftx-POSIX_8h.html</file>
+<file>df/da8/Ftx-POSIX_8h_source.html</file>
 <file>df/dbe/Mlp_8cl_8c_source.html</file>
 <file>df/dca/unionae2fCL__LcgRandSeed__t-members.html</file>
+<file>df/dcc/structae2f__mMMapMk__t.html</file>
 <file>df/dcd/mac_8h_source.html</file>
-<file>df/dcf/PgAlloc_8h_source.html</file>
-<file>df/dd8/stdint_8h_source.html</file>
-<file>df/de3/Proc_8h_source.html</file>
-<file>df/dff/Core_2inc_2ae2f_2Call_8auto_8h_source.html</file>
+<file>df/dda/structae2f__mMMapSz__t-members.html</file>
+<file>df/ddd/ptrsz_8auto_8h.html</file>
+<file>df/ddd/ptrsz_8auto_8h_source.html</file>
 <file>dir_0025994d534e4c29f464967dff3651a9.html</file>
 <file>dir_00899f881ea2c598a41b95bf8b18c56d.html</file>
-<file>dir_02b09628d99bd6c8d08b846f15ddc1d8.html</file>
+<file>dir_0376f831402ff19fc6cd1565d602cb71.html</file>
 <file>dir_04772b4e7f91b4b5457bc0ebee259e69.html</file>
 <file>dir_05925f8c4a433b4935176e19d90c5cd3.html</file>
 <file>dir_05e9712f8d0e1ee89731868e1612d514.html</file>
 <file>dir_0877de34a4e9783ddd62c90f4fe4626c.html</file>
 <file>dir_099f399710d04bb92664d7a4f91cd6db.html</file>
-<file>dir_09a92f20ab8fda4fc03bcee10263685b.html</file>
 <file>dir_0b3b3227f8c09bab40f1e39608c797a6.html</file>
 <file>dir_0f54a2b5ac13eb1524f71da814971efe.html</file>
 <file>dir_134ec2930d8f51ce6b01b61634b3830b.html</file>
 <file>dir_1500e39b7aef16a0575aa11adb52e02e.html</file>
-<file>dir_163cdec1de36bee06b9e09efd04c9d2b.html</file>
 <file>dir_16719a660a462cd23d879ebfe805b998.html</file>
-<file>dir_17429155b0a20663f0d137eede7b7eda.html</file>
 <file>dir_186d4c66817cfb75fe689b4ec0700243.html</file>
-<file>dir_1bf6f3e463df42ac73a49f5cbfa4b7d7.html</file>
 <file>dir_1dd9acb30b237264092485e057bdc24e.html</file>
-<file>dir_21b21b7344f38285236e2ca21f00d001.html</file>
 <file>dir_2aca1068bc3e250c6e95c719bf30d338.html</file>
-<file>dir_2afd96d7e349df0b960cf94a7dff08e7.html</file>
 <file>dir_2d359edc36e7995162a8de73d2cc2ed1.html</file>
-<file>dir_2f0f5ebe2996919f75e8d43a3a16cba1.html</file>
-<file>dir_31951952489b109bc7bc996923c26fc1.html</file>
 <file>dir_31c6e5bb06c0782780ae16500bd6f6ac.html</file>
-<file>dir_32973ddce67af0c9725e0076fd51792a.html</file>
-<file>dir_3734ce3a3662aabb38750d48b9c28f30.html</file>
-<file>dir_41c33b045a8cfee8681193fa3fc1580b.html</file>
-<file>dir_49addb9ec1b03500482aec25b4d6117e.html</file>
-<file>dir_4bebb9cc1ee0fe323cccb178987661f2.html</file>
-<file>dir_4cd7f5a707311a2473b862c961e270c1.html</file>
 <file>dir_4e28dc93e05d59e4a9b7b88deed6e41d.html</file>
-<file>dir_50833130de43a9e11128811025193358.html</file>
+<file>dir_4e6f8c9b879d947626143dddb26332b6.html</file>
 <file>dir_50ec694df376525803d68211f0701b8b.html</file>
-<file>dir_5679600de147df4a04bd8dcf417b3191.html</file>
-<file>dir_5b2ccbb9d91d019b1deafc86de8d60df.html</file>
+<file>dir_5ec876cf623fb08678175cdc81dd34fa.html</file>
 <file>dir_60a50c762f5efc04ddf3acb55b80c9fa.html</file>
 <file>dir_60c4375c6ac7627055c3b64c9ca37e29.html</file>
-<file>dir_6173c165fa45ccf23a2a4a3c05e3cc88.html</file>
+<file>dir_6167d2c67cb1b3a3f90b7379db2e4ffa.html</file>
 <file>dir_61b1a4139b8831149b8cfea979928313.html</file>
-<file>dir_6782bc41242fde5c184353acb7fa351e.html</file>
 <file>dir_69ac0c4d5c406a59b561aef6b7f7042f.html</file>
+<file>dir_69b12343cf65457aa1214d1b5f932791.html</file>
 <file>dir_6c0b442e40105de71368b36b04edc1d1.html</file>
-<file>dir_72ef4d67997d4c98015c110a810d90fb.html</file>
-<file>dir_74778556c65bc6287159fcee1b962e01.html</file>
-<file>dir_747da29b96e4dd0629fc2c73d3cd14d2.html</file>
+<file>dir_71e7d5f63f9e7d400e8a699f27b5cdf8.html</file>
 <file>dir_76cc4dd818146de1d6c05a88899d11e4.html</file>
-<file>dir_7a2bec17b962409dc407f63ea51cf07e.html</file>
-<file>dir_7c6bb11aa90144947f5e5d1837d96e8e.html</file>
 <file>dir_7e056a26e6bd3bf4d1f98e4f3efa0c11.html</file>
-<file>dir_80f5d057e3ab0c5b8e58ba7960cca518.html</file>
-<file>dir_81bbdd0954c1256dd9990d0718a320cf.html</file>
-<file>dir_87e6d706e79f3542922129034b856422.html</file>
+<file>dir_824c3906848f2f4f2a579c6f88082289.html</file>
 <file>dir_8893eb2601d10c75b7222ce2d915a24e.html</file>
-<file>dir_88e14b885314b8c379ddb3b14b7f04cc.html</file>
-<file>dir_8b925f31a08468367665d6565bb76b21.html</file>
 <file>dir_8c0d74b344a93502700946a6ff3a8fa7.html</file>
-<file>dir_8cbac5de94313e217edb7f91f73a0fbb.html</file>
-<file>dir_91144c865e26e280e071d1ef9d595021.html</file>
-<file>dir_91744a1580f315a7f9609229bcf483af.html</file>
-<file>dir_922df941db89dbb3ea42cf60683a637f.html</file>
+<file>dir_8f8da49de635a90e0cd126e9e3494d11.html</file>
 <file>dir_934dbb689656c7d81fc3ab77a75f5779.html</file>
 <file>dir_93b2045bce5ba47370ed86b3f96d7f7c.html</file>
-<file>dir_970815efb7c9aa6df35351f2ede9adb7.html</file>
+<file>dir_9689ea3b08222f18ce0e9652cd29e580.html</file>
 <file>dir_97b0ecf9c5770be41a25ea20001b82d9.html</file>
-<file>dir_98e6445dbedb89db20b8d69dbbdc2b21.html</file>
-<file>dir_9dc7b3fd6081e3514efb04e6d02ec35b.html</file>
-<file>dir_a0d4c6a5f21556d9f5c2e61ae3c51850.html</file>
-<file>dir_a0f8d4456862b75e60687b3628f0b8e8.html</file>
-<file>dir_a1f5fa6ea4f3b44e0fcc076ada4f0e23.html</file>
 <file>dir_a594354fba13f4520fd1c8884611d5d5.html</file>
 <file>dir_a6f339251a9cf2a2d676ada59c83dae7.html</file>
-<file>dir_a711c045f531d3fb00c0031d37751c45.html</file>
-<file>dir_a7a8dffbfb312aded9680a05d8aff32e.html</file>
-<file>dir_a7ecb91a6a793a316a7f2ca364b65242.html</file>
-<file>dir_a80b049267ba9e76620679617ee7150b.html</file>
 <file>dir_aa41359886797fcfd61f22d40a7ad7f3.html</file>
 <file>dir_ac4392d4c1e1c84b6cfcc4833153557f.html</file>
-<file>dir_add4ccc67fab41ed5e1c1c6e6dd53ef2.html</file>
 <file>dir_ae21b71807628e111168cd9e62eb7e68.html</file>
 <file>dir_ae41287cf3b67612689f186a101a6349.html</file>
 <file>dir_afd5d0748bbc1ff858a0b550776ae5ea.html</file>
-<file>dir_b12783419e12315f1142cd85e1297357.html</file>
-<file>dir_b14f7137db7629ac584b55b83be5f02e.html</file>
-<file>dir_b444705b4a8093e7a3fb9a41931f4c19.html</file>
+<file>dir_b03140f0449019ac8e6bbdfb321e08bc.html</file>
 <file>dir_bb0bb90ae61fc2bf7b29e6d3d82b42a6.html</file>
-<file>dir_bd287be51453e518df9a58a122ebf47a.html</file>
 <file>dir_bd40a2c02ef1f14dfad3b812c48e1310.html</file>
 <file>dir_bdc54bbd3cb44af239c5b11b78a47f7a.html</file>
 <file>dir_c36f9f64c715b7a80e3f414895735f1e.html</file>
-<file>dir_c41013515c93cf5f4d581691c643f35d.html</file>
-<file>dir_c7cad474bfbe950fddd6079f9508604e.html</file>
-<file>dir_c7e879bf1e31b1c4fadc495e746c8812.html</file>
+<file>dir_c6197a1d98d6bdcd96c25b715e9f184e.html</file>
 <file>dir_c915a8702c52c090980fd5eed7ef1d7a.html</file>
-<file>dir_cc04d12a843f73a157241b042de03ce2.html</file>
 <file>dir_d45fb76e6cbd1146089de6abffdfd778.html</file>
 <file>dir_d6aed84a79b19d2f6e8a9feb61e82d35.html</file>
 <file>dir_d8b9d38b0d2b87729fceffbca987f26a.html</file>
-<file>dir_d91fe5c5f4a2d5221bc6bc00f338f18f.html</file>
-<file>dir_df2277272ae49883266e5128581ba3f7.html</file>
+<file>dir_db5732f8043facb13696fe9380fba9a3.html</file>
 <file>dir_dfab1eb62f76b8a5bca648876e443423.html</file>
 <file>dir_dfb3511545a6ef66e8264420f2a64142.html</file>
 <file>dir_e1512ff59d9aaa486973630f8edcf901.html</file>
-<file>dir_e450cbefff531de0de8c32ac279f5441.html</file>
 <file>dir_e47386b12d370eee1e8d2a6edf39815c.html</file>
-<file>dir_e6cf932a529e002bec52d7c88522f216.html</file>
 <file>dir_e8421cec2dbc7bfa9b58f3c4fb231bc5.html</file>
-<file>dir_ec9c5e017a2fc645fc1ef5ae49ba4448.html</file>
-<file>dir_ed0e2b585989dd3c9752826e612a5ce9.html</file>
 <file>dir_edff6adc8295ae99709deacf96552be6.html</file>
-<file>dir_f3e0f625c715798832f175e039e1b253.html</file>
-<file>dir_fd9abafd03c270336aba3f9ddabf2a01.html</file>
 <file>doxygen.css</file>
 <file>doxygen.svg</file>
-<file>doxygen_blank.html</file>
 <file>doxygen_crawl.html</file>
 <file>dynsections.js</file>
 <file>files.html</file>
@@ -1453,7 +1449,6 @@
 <file>globals_func.html</file>
 <file>globals_type.html</file>
 <file>globals_vars.html</file>
-<file>hierarchy.html</file>
 <file>index.html</file>
 <file>jquery.js</file>
 <file>namespacemembers.html</file>
@@ -1462,6 +1457,7 @@
 <file>namespacemembers_vars.html</file>
 <file>namespaces.html</file>
 <file>navtree.css</file>
+<file>pages.html</file>
 <file>tabs.css</file>
 </files>
 </filterSection>
