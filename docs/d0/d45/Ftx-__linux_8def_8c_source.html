@@ -84,7 +84,7 @@ $(function() { codefold.init(); });
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>        )</div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>{</div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    (ret_err) = syscall(SYS_futex, prm_uaddr, FUTEX_WAIT, prm_val, pprm_time_opt, NULL, 0) == -1 ?</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>        <a class="code hl_define" href="../../d3/dc4/Cast_8h.html#ab86a90b116e454206d7d4f5c0d07ebcb">ae2f_static_cast</a>(ae2f_eSysFtxWait, (errno)) :</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>        <a class="code hl_define" href="../../d6/d63/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cast_8h.html#ab86a90b116e454206d7d4f5c0d07ebcb">ae2f_static_cast</a>(ae2f_eSysFtxWait, (errno)) :</div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>        <a class="code hl_enumvalue" href="../../db/d70/Ftx_8core_8h.html#a1185634bc4fb0177caf391a9f3f3942bafa436bf3ee97253e4896098ce4fb4c19">ae2f_SysFtxWait_GOOD</a></div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>        ;</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>}</div>
@@ -95,7 +95,7 @@ $(function() { codefold.init(); });
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>        <span class="keyword">const</span> <span class="keywordtype">int</span>       prm_numthrd</div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>        )</div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>{</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    (ret_err) = <a class="code hl_define" href="../../d3/dc4/Cast_8h.html#ab86a90b116e454206d7d4f5c0d07ebcb">ae2f_static_cast</a>(</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    (ret_err) = <a class="code hl_define" href="../../d6/d63/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cast_8h.html#ab86a90b116e454206d7d4f5c0d07ebcb">ae2f_static_cast</a>(</div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>            ae2f_eSysFtxWake</div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>            , syscall(SYS_futex, prm_uaddr, FUTEX_WAKE, prm_numthrd, NULL, NULL, 0)</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>            );</div>
@@ -107,7 +107,7 @@ $(function() { codefold.init(); });
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="preprocessor">#</span><span class="preprocessor">endif</span></div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="preprocessor">#</span><span class="preprocessor">endif</span></div>
-<div class="ttc" id="aCast_8h_html_ab86a90b116e454206d7d4f5c0d07ebcb"><div class="ttname"><a href="../../d3/dc4/Cast_8h.html#ab86a90b116e454206d7d4f5c0d07ebcb">ae2f_static_cast</a></div><div class="ttdeci">#define ae2f_static_cast(t, v)</div><div class="ttdoc">static_cast for C++</div><div class="ttdef"><b>Definition</b> <a href="../../d3/dc4/Cast_8h_source.html#l00028">Cast.h:28</a></div></div>
+<div class="ttc" id="aAnn_2submod_2ae2f_2Core_2inc_2ae2f_2Cast_8h_html_ab86a90b116e454206d7d4f5c0d07ebcb"><div class="ttname"><a href="../../d6/d63/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cast_8h.html#ab86a90b116e454206d7d4f5c0d07ebcb">ae2f_static_cast</a></div><div class="ttdeci">#define ae2f_static_cast(t, v)</div><div class="ttdoc">static_cast for C++</div><div class="ttdef"><b>Definition</b> <a href="../../d6/d63/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cast_8h_source.html#l00028">Cast.h:28</a></div></div>
 <div class="ttc" id="aFtx_8core_8h_html_a1185634bc4fb0177caf391a9f3f3942bafa436bf3ee97253e4896098ce4fb4c19"><div class="ttname"><a href="../../db/d70/Ftx_8core_8h.html#a1185634bc4fb0177caf391a9f3f3942bafa436bf3ee97253e4896098ce4fb4c19">ae2f_SysFtxWait_GOOD</a></div><div class="ttdeci">@ ae2f_SysFtxWait_GOOD</div><div class="ttdoc">Succesful.</div><div class="ttdef"><b>Definition</b> <a href="../../db/d70/Ftx_8core_8h_source.html#l00022">Ftx.core.h:22</a></div></div>
 <div class="ttc" id="aFtx_8h_html_ae6783215cc7c3f017a72a9db8ac03a04"><div class="ttname"><a href="../../d3/de9/Ftx_8h.html#ae6783215cc7c3f017a72a9db8ac03a04">ae2f_SysFtxEl_t</a></div><div class="ttdeci">_ae2f_SysFtxEl_t ae2f_SysFtxEl_t</div><div class="ttdoc">Futex address element type.</div><div class="ttdef"><b>Definition</b> <a href="../../d3/de9/Ftx_8h_source.html#l00028">Ftx.h:28</a></div></div>
 <div class="ttc" id="aSys_8h_html_a88e3d7092a07afc154dc26691e6be745"><div class="ttname"><a href="../../d5/dba/Sys_8h.html#a88e3d7092a07afc154dc26691e6be745">ae2f_Sys__linux</a></div><div class="ttdeci">#define ae2f_Sys__linux</div><div class="ttdoc">Value expected did not match.</div><div class="ttdef"><b>Definition</b> <a href="../../d5/dba/Sys_8h_source.html#l00015">Sys.h:15</a></div></div>

@@ -79,9 +79,6 @@ Available when <a class="el" href="#a32c7e78a95249378c4352511b99a4940" title="Wh
 <tr class="memitem:aa868a569d3142587c1da1e636b07d915" id="r_aa868a569d3142587c1da1e636b07d915"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa868a569d3142587c1da1e636b07d915">ae2f_CoreLibFetch</a> (param prm_AuthorName, param prm_TarName, param prm_TagName)</td></tr>
 <tr class="memdesc:aa868a569d3142587c1da1e636b07d915"><td class="mdescLeft">&#160;</td><td class="mdescRight">It will try to fetch the cmake project ae2f-Core like project for Local and Github. <br  />
 .  <br /></td></tr>
-<tr class="memitem:a5d543c5290803c8f0ea051462d088559" id="r_a5d543c5290803c8f0ea051462d088559"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d543c5290803c8f0ea051462d088559">ae2f_CoreLibTentConfigCustom</a> (param prm_TarName, param prm_TarPreFix, param prm_includeDir, param prm_namespace, param prm_configpath,...)</td></tr>
-<tr class="memdesc:a5d543c5290803c8f0ea051462d088559"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes a Library installable. <br  />
-Configuration file could be selected here.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
@@ -97,10 +94,8 @@ Variables</h2></td></tr>
 <tr class="memdesc:ab6d1227eed33ed383a1ec8df9847c7b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">The root project source directory.  <br /></td></tr>
 <tr class="memitem:a062a6556af70d0f7667770852969b959" id="r_a062a6556af70d0f7667770852969b959"><td class="memItemLeft" align="right" valign="top">CACHE STRING&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a062a6556af70d0f7667770852969b959">ae2f_BinRoot</a> = &quot;${CMAKE_CURRENT_BINARY_DIR}&quot;</td></tr>
 <tr class="memdesc:a062a6556af70d0f7667770852969b959"><td class="mdescLeft">&#160;</td><td class="mdescRight">The root binary directory.  <br /></td></tr>
-<tr class="memitem:a7337c983f48da36ef5892af24fc5109c" id="r_a7337c983f48da36ef5892af24fc5109c"><td class="memItemLeft" align="right" valign="top">constexpr unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7337c983f48da36ef5892af24fc5109c">ae2f_packcount</a> = 0</td></tr>
-<tr class="memdesc:a7337c983f48da36ef5892af24fc5109c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the structure pack for pre-defined structures from interfaces.  <br /></td></tr>
-<tr class="memitem:a4d08d2c63e28534681aae2c141297515" id="r_a4d08d2c63e28534681aae2c141297515"><td class="memItemLeft" align="right" valign="top">option&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d08d2c63e28534681aae2c141297515">ae2f_CXX</a> = OFF</td></tr>
-<tr class="memdesc:a4d08d2c63e28534681aae2c141297515"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tell that thou art including cxx for thy project. Default value is [OFF].  <br /></td></tr>
+<tr class="memitem:a158d84350add394f1fe8cb1af10ba2d3" id="r_a158d84350add394f1fe8cb1af10ba2d3"><td class="memItemLeft" align="right" valign="top">constexpr unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a158d84350add394f1fe8cb1af10ba2d3">ae2f_packcount</a> = 0</td></tr>
+<tr class="memdesc:a158d84350add394f1fe8cb1af10ba2d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the structure pack for pre-defined structures from interfaces.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Note they functions defined on CMake, not C/C++. </p>
@@ -120,7 +115,7 @@ Variables</h2></td></tr>
 <p>Pre-defined global float type. <br  />
 It is set to float as default. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d9/de7/Ann_2cmake_2Core_8cmake_8hpp_source.html#l00038">38</a> of file <a class="el" href="../../d9/de7/Ann_2cmake_2Core_8cmake_8hpp_source.html">Core.cmake.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/de4/Core_8cmake_8hpp_source.html#l00038">38</a> of file <a class="el" href="../../d9/de4/Core_8cmake_8hpp_source.html">Core.cmake.hpp</a>.</p>
 
 </div>
 </div>
@@ -205,61 +200,6 @@ It is set to float as default. </p>
     <tr><td class="paramname">prm_TarPrefix</td><td>[STATIC | SHARED | INTERFACE]</td></tr>
     <tr><td class="paramname">prm_includeDir</td><td>The include directory relative to the project CMakeLists.txt</td></tr>
     <tr><td class="paramname">prm_namespace</td><td>Namespace (or header root directory after include)</td></tr>
-    <tr><td class="paramname">...</td><td>The sources for the project. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="a5d543c5290803c8f0ea051462d088559" name="a5d543c5290803c8f0ea051462d088559"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5d543c5290803c8f0ea051462d088559">&#9670;&#160;</a></span>ae2f_CoreLibTentConfigCustom()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">function ___DOC_CMAKE::ae2f_CoreLibTentConfigCustom </td>
-          <td>(</td>
-          <td class="paramtype">param</td>          <td class="paramname"><span class="paramname"><em>prm_TarName</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">param</td>          <td class="paramname"><span class="paramname"><em>prm_TarPreFix</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">param</td>          <td class="paramname"><span class="paramname"><em>prm_includeDir</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">param</td>          <td class="paramname"><span class="paramname"><em>prm_namespace</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">param</td>          <td class="paramname"><span class="paramname"><em>prm_configpath</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>...</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Makes a Library installable. <br  />
-Configuration file could be selected here. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">prm_TarName</td><td>Library name you want.</td></tr>
-    <tr><td class="paramname">prm_TarPrefix</td><td>[STATIC | SHARED | INTERFACE]</td></tr>
-    <tr><td class="paramname">prm_includeDir</td><td>The include directory relative to the project CMakeLists.txt</td></tr>
-    <tr><td class="paramname">prm_namespace</td><td>Namespace (or header root directory after include)</td></tr>
-    <tr><td class="paramname">prm_configpath</td><td>The path where the input file for Configuration lies. </td></tr>
     <tr><td class="paramname">...</td><td>The sources for the project. </td></tr>
   </table>
   </dd>
@@ -366,25 +306,7 @@ Available when <a class="el" href="#a32c7e78a95249378c4352511b99a4940" title="Wh
 
 <p>The root binary directory. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d9/de7/Ann_2cmake_2Core_8cmake_8hpp_source.html#l00025">25</a> of file <a class="el" href="../../d9/de7/Ann_2cmake_2Core_8cmake_8hpp_source.html">Core.cmake.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a4d08d2c63e28534681aae2c141297515" name="a4d08d2c63e28534681aae2c141297515"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4d08d2c63e28534681aae2c141297515">&#9670;&#160;</a></span>ae2f_CXX</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">option ___DOC_CMAKE::ae2f_CXX = OFF</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Tell that thou art including cxx for thy project. Default value is [OFF]. </p>
-
-<p class="definition">Definition at line <a class="el" href="../../df/d96/Core_2cmake_2Core_8cmake_8hpp_source.html#l00024">24</a> of file <a class="el" href="../../df/d96/Core_2cmake_2Core_8cmake_8hpp_source.html">Core.cmake.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/de4/Core_8cmake_8hpp_source.html#l00025">25</a> of file <a class="el" href="../../d9/de4/Core_8cmake_8hpp_source.html">Core.cmake.hpp</a>.</p>
 
 </div>
 </div>
@@ -403,7 +325,7 @@ Available when <a class="el" href="#a32c7e78a95249378c4352511b99a4940" title="Wh
 <p>When activated, it would generate project with the deaders of cmake utility functions. </p>
 <p>Default value is ON. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d9/de7/Ann_2cmake_2Core_8cmake_8hpp_source.html#l00008">8</a> of file <a class="el" href="../../d9/de7/Ann_2cmake_2Core_8cmake_8hpp_source.html">Core.cmake.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/de4/Core_8cmake_8hpp_source.html#l00008">8</a> of file <a class="el" href="../../d9/de4/Core_8cmake_8hpp_source.html">Core.cmake.hpp</a>.</p>
 
 </div>
 </div>
@@ -421,7 +343,7 @@ Available when <a class="el" href="#a32c7e78a95249378c4352511b99a4940" title="Wh
 
 <p>Activating this flag will cause all libraries built as shared libraries. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d9/de7/Ann_2cmake_2Core_8cmake_8hpp_source.html#l00012">12</a> of file <a class="el" href="../../d9/de7/Ann_2cmake_2Core_8cmake_8hpp_source.html">Core.cmake.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/de4/Core_8cmake_8hpp_source.html#l00012">12</a> of file <a class="el" href="../../d9/de4/Core_8cmake_8hpp_source.html">Core.cmake.hpp</a>.</p>
 
 </div>
 </div>
@@ -440,12 +362,12 @@ Available when <a class="el" href="#a32c7e78a95249378c4352511b99a4940" title="Wh
 <p>Pre-defined library prefix. </p>
 <dl class="section warning"><dt>Warning</dt><dd>Note that value is auto-generated. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d9/de7/Ann_2cmake_2Core_8cmake_8hpp_source.html#l00019">19</a> of file <a class="el" href="../../d9/de7/Ann_2cmake_2Core_8cmake_8hpp_source.html">Core.cmake.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/de4/Core_8cmake_8hpp_source.html#l00019">19</a> of file <a class="el" href="../../d9/de4/Core_8cmake_8hpp_source.html">Core.cmake.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a7337c983f48da36ef5892af24fc5109c" name="a7337c983f48da36ef5892af24fc5109c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7337c983f48da36ef5892af24fc5109c">&#9670;&#160;</a></span>ae2f_packcount</h2>
+<a id="a158d84350add394f1fe8cb1af10ba2d3" name="a158d84350add394f1fe8cb1af10ba2d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a158d84350add394f1fe8cb1af10ba2d3">&#9670;&#160;</a></span>ae2f_packcount</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -454,7 +376,7 @@ Available when <a class="el" href="#a32c7e78a95249378c4352511b99a4940" title="Wh
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">CACHE STRING ___DOC_CMAKE::ae2f_packcount = 0</td>
+          <td class="memname">unsigned int ___DOC_CMAKE::ae2f_packcount = 0</td>
         </tr>
       </table>
   </td>
@@ -468,7 +390,7 @@ Available when <a class="el" href="#a32c7e78a95249378c4352511b99a4940" title="Wh
 <p>If it is set to zero, default structure pack will be preserved.</p>
 <p>Default value is 0. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d9/de7/Ann_2cmake_2Core_8cmake_8hpp_source.html#l00033">33</a> of file <a class="el" href="../../d9/de7/Ann_2cmake_2Core_8cmake_8hpp_source.html">Core.cmake.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/de4/Core_8cmake_8hpp_source.html#l00033">33</a> of file <a class="el" href="../../d9/de4/Core_8cmake_8hpp_source.html">Core.cmake.hpp</a>.</p>
 
 </div>
 </div>
@@ -486,7 +408,7 @@ Available when <a class="el" href="#a32c7e78a95249378c4352511b99a4940" title="Wh
 
 <p>The root project source directory. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d9/de7/Ann_2cmake_2Core_8cmake_8hpp_source.html#l00022">22</a> of file <a class="el" href="../../d9/de7/Ann_2cmake_2Core_8cmake_8hpp_source.html">Core.cmake.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/de4/Core_8cmake_8hpp_source.html#l00022">22</a> of file <a class="el" href="../../d9/de4/Core_8cmake_8hpp_source.html">Core.cmake.hpp</a>.</p>
 
 </div>
 </div>
@@ -504,7 +426,7 @@ Available when <a class="el" href="#a32c7e78a95249378c4352511b99a4940" title="Wh
 
 <p>When activated, it would generate test projects. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d9/de7/Ann_2cmake_2Core_8cmake_8hpp_source.html#l00015">15</a> of file <a class="el" href="../../d9/de7/Ann_2cmake_2Core_8cmake_8hpp_source.html">Core.cmake.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/de4/Core_8cmake_8hpp_source.html#l00015">15</a> of file <a class="el" href="../../d9/de4/Core_8cmake_8hpp_source.html">Core.cmake.hpp</a>.</p>
 
 </div>
 </div>

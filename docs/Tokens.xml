@@ -1418,7 +1418,17 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>de/d6b/BitVec_8h.html</Path>
+    <Path>db/d64/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2BitVec_8h.html</Path>
+    <Anchor>a833b56686e68045949c752d3389b939c</Anchor>
+    <DeclaredIn>BitVec.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_ae2f_BitVecFilled</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d2/d52/Core_2inc_2ae2f_2BitVec_8h.html</Path>
     <Anchor>a833b56686e68045949c752d3389b939c</Anchor>
     <DeclaredIn>BitVec.h</DeclaredIn>
   </Token>
@@ -1428,7 +1438,17 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>de/d6b/BitVec_8h.html</Path>
+    <Path>db/d64/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2BitVec_8h.html</Path>
+    <Anchor>ab7953a99f79b10ea5469a4b7f32ad50a</Anchor>
+    <DeclaredIn>BitVec.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_ae2f_BitVecGetRanged</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d2/d52/Core_2inc_2ae2f_2BitVec_8h.html</Path>
     <Anchor>ab7953a99f79b10ea5469a4b7f32ad50a</Anchor>
     <DeclaredIn>BitVec.h</DeclaredIn>
   </Token>
@@ -1438,7 +1458,17 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>de/d6b/BitVec_8h.html</Path>
+    <Path>db/d64/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2BitVec_8h.html</Path>
+    <Anchor>aa643936eb7907618aa53e0d6bcc66614</Anchor>
+    <DeclaredIn>BitVec.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_ae2f_BitVecSetRanged</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d2/d52/Core_2inc_2ae2f_2BitVec_8h.html</Path>
     <Anchor>aa643936eb7907618aa53e0d6bcc66614</Anchor>
     <DeclaredIn>BitVec.h</DeclaredIn>
   </Token>
@@ -1448,9 +1478,19 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d5/db6/gnuc_8h.html</Path>
+    <Path>d7/d9a/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2cc_8h.html</Path>
     <Anchor>ab07293ec0343320dc266223000e52d36</Anchor>
-    <DeclaredIn>gnuc.h</DeclaredIn>
+    <DeclaredIn>cc.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_ae2f_gnuc</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>db/dca/Core_2inc_2ae2f_2cc_8h.html</Path>
+    <Anchor>ab07293ec0343320dc266223000e52d36</Anchor>
+    <DeclaredIn>cc.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1609,7 +1649,17 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>de/d6b/BitVec_8h.html</Path>
+    <Path>db/d64/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2BitVec_8h.html</Path>
+    <Anchor>a5553db979f0fe88406ada0c2b245e85b</Anchor>
+    <DeclaredIn>BitVec.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ae2f_BitToByteCount</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d2/d52/Core_2inc_2ae2f_2BitVec_8h.html</Path>
     <Anchor>a5553db979f0fe88406ada0c2b245e85b</Anchor>
     <DeclaredIn>BitVec.h</DeclaredIn>
   </Token>
@@ -1619,7 +1669,17 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>de/d6b/BitVec_8h.html</Path>
+    <Path>db/d64/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2BitVec_8h.html</Path>
+    <Anchor>a325847b2b43531a1cfd7089fb99b0b9d</Anchor>
+    <DeclaredIn>BitVec.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ae2f_BitVecFilled</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d2/d52/Core_2inc_2ae2f_2BitVec_8h.html</Path>
     <Anchor>a325847b2b43531a1cfd7089fb99b0b9d</Anchor>
     <DeclaredIn>BitVec.h</DeclaredIn>
   </Token>
@@ -1629,7 +1689,17 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>de/d6b/BitVec_8h.html</Path>
+    <Path>db/d64/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2BitVec_8h.html</Path>
+    <Anchor>a02e9923db7e19af08360273c639f743f</Anchor>
+    <DeclaredIn>BitVec.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ae2f_BitVecGet</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d2/d52/Core_2inc_2ae2f_2BitVec_8h.html</Path>
     <Anchor>a02e9923db7e19af08360273c639f743f</Anchor>
     <DeclaredIn>BitVec.h</DeclaredIn>
   </Token>
@@ -1639,7 +1709,17 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>de/d6b/BitVec_8h.html</Path>
+    <Path>db/d64/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2BitVec_8h.html</Path>
+    <Anchor>a79a4500b345dbc83b86eb7651eafa75c</Anchor>
+    <DeclaredIn>BitVec.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ae2f_BitVecGetRanged</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d2/d52/Core_2inc_2ae2f_2BitVec_8h.html</Path>
     <Anchor>a79a4500b345dbc83b86eb7651eafa75c</Anchor>
     <DeclaredIn>BitVec.h</DeclaredIn>
   </Token>
@@ -1649,7 +1729,7 @@
       <APILanguage>c</APILanguage>
       <Type>tdef</Type>
     </TokenIdentifier>
-    <Path>de/d6b/BitVec_8h.html</Path>
+    <Path>db/d64/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2BitVec_8h.html</Path>
     <Anchor>a1c042a4bc1cf90de4c565c5b79684a68</Anchor>
     <DeclaredIn>BitVec.h</DeclaredIn>
   </Token>
@@ -1659,7 +1739,17 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>de/d6b/BitVec_8h.html</Path>
+    <Path>db/d64/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2BitVec_8h.html</Path>
+    <Anchor>a670620baa7688ec87a148b9e36abaacc</Anchor>
+    <DeclaredIn>BitVec.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ae2f_BitVecSet</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d2/d52/Core_2inc_2ae2f_2BitVec_8h.html</Path>
     <Anchor>a670620baa7688ec87a148b9e36abaacc</Anchor>
     <DeclaredIn>BitVec.h</DeclaredIn>
   </Token>
@@ -1669,7 +1759,17 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>de/d6b/BitVec_8h.html</Path>
+    <Path>db/d64/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2BitVec_8h.html</Path>
+    <Anchor>af8df32b9ee35d039d8e25ba4b3a5b537</Anchor>
+    <DeclaredIn>BitVec.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ae2f_BitVecSetRanged</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d2/d52/Core_2inc_2ae2f_2BitVec_8h.html</Path>
     <Anchor>af8df32b9ee35d039d8e25ba4b3a5b537</Anchor>
     <DeclaredIn>BitVec.h</DeclaredIn>
   </Token>
@@ -1679,7 +1779,17 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>de/d6b/BitVec_8h.html</Path>
+    <Path>db/d64/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2BitVec_8h.html</Path>
+    <Anchor>a9dbe37de1c12111bdd14d76ddc3fb235</Anchor>
+    <DeclaredIn>BitVec.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ae2f_BitVecSizeDefName</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d2/d52/Core_2inc_2ae2f_2BitVec_8h.html</Path>
     <Anchor>a9dbe37de1c12111bdd14d76ddc3fb235</Anchor>
     <DeclaredIn>BitVec.h</DeclaredIn>
   </Token>
@@ -1689,7 +1799,17 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d2/db1/Cxx_8h.html</Path>
+    <Path>de/d00/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cxx_8h.html</Path>
+    <Anchor>a2e7ab6a44703adf4e4967d0ab55ed4f5</Anchor>
+    <DeclaredIn>Cxx.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ae2f_c_check</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d2/d07/Core_2inc_2ae2f_2Cxx_8h.html</Path>
     <Anchor>a2e7ab6a44703adf4e4967d0ab55ed4f5</Anchor>
     <DeclaredIn>Cxx.h</DeclaredIn>
   </Token>
@@ -1699,7 +1819,17 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>dc/df0/cc_8h.html</Path>
+    <Path>d7/d9a/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2cc_8h.html</Path>
+    <Anchor>a646f60763a85cb5c5194b8838030ecbe</Anchor>
+    <DeclaredIn>cc.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ae2f_ccconst</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>db/dca/Core_2inc_2ae2f_2cc_8h.html</Path>
     <Anchor>a646f60763a85cb5c5194b8838030ecbe</Anchor>
     <DeclaredIn>cc.h</DeclaredIn>
   </Token>
@@ -1709,7 +1839,17 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>dc/df0/cc_8h.html</Path>
+    <Path>d7/d9a/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2cc_8h.html</Path>
+    <Anchor>a42b0b7e3e822a33458380bc33bcb9942</Anchor>
+    <DeclaredIn>cc.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ae2f_ccpure</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>db/dca/Core_2inc_2ae2f_2cc_8h.html</Path>
     <Anchor>a42b0b7e3e822a33458380bc33bcb9942</Anchor>
     <DeclaredIn>cc.h</DeclaredIn>
   </Token>
@@ -1719,7 +1859,17 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d6/d08/Keys_8h.html</Path>
+    <Path>d1/d30/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Keys_8h.html</Path>
+    <Anchor>a08aaefc28432e5f795e374e361593d2b</Anchor>
+    <DeclaredIn>Keys.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ae2f_class</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d2/d26/Core_2inc_2ae2f_2Keys_8h.html</Path>
     <Anchor>a08aaefc28432e5f795e374e361593d2b</Anchor>
     <DeclaredIn>Keys.h</DeclaredIn>
   </Token>
@@ -1729,7 +1879,17 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d0/d09/Cmp_8h.html</Path>
+    <Path>df/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cmp_8h.html</Path>
+    <Anchor>addd39204abd0bc1860e6ffb06f882617</Anchor>
+    <DeclaredIn>Cmp.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ae2f_CmpDiff</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d1/d33/Core_2inc_2ae2f_2Cmp_8h.html</Path>
     <Anchor>addd39204abd0bc1860e6ffb06f882617</Anchor>
     <DeclaredIn>Cmp.h</DeclaredIn>
   </Token>
@@ -1739,7 +1899,7 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d0/d09/Cmp_8h.html</Path>
+    <Path>df/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cmp_8h.html</Path>
     <Anchor>a72cf2bcb3a9d957c17deb5bc9041f22d</Anchor>
     <DeclaredIn>Cmp.h</DeclaredIn>
   </Token>
@@ -1749,7 +1909,27 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d0/dee/Fun_8h.html</Path>
+    <Path>d1/d42/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cmp_2Fun_8h.html</Path>
+    <Anchor>a72cf2bcb3a9d957c17deb5bc9041f22d</Anchor>
+    <DeclaredIn>Fun.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ae2f_CmpFunRet_EQUAL</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d1/d33/Core_2inc_2ae2f_2Cmp_8h.html</Path>
+    <Anchor>a72cf2bcb3a9d957c17deb5bc9041f22d</Anchor>
+    <DeclaredIn>Cmp.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ae2f_CmpFunRet_EQUAL</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>de/dd6/Core_2inc_2ae2f_2Cmp_2Fun_8h.html</Path>
     <Anchor>a72cf2bcb3a9d957c17deb5bc9041f22d</Anchor>
     <DeclaredIn>Fun.h</DeclaredIn>
   </Token>
@@ -1759,7 +1939,7 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d0/d09/Cmp_8h.html</Path>
+    <Path>df/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cmp_8h.html</Path>
     <Anchor>a2ec622c999cf31fa7b6638e21dc591b8</Anchor>
     <DeclaredIn>Cmp.h</DeclaredIn>
   </Token>
@@ -1769,7 +1949,27 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d0/dee/Fun_8h.html</Path>
+    <Path>d1/d42/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cmp_2Fun_8h.html</Path>
+    <Anchor>a2ec622c999cf31fa7b6638e21dc591b8</Anchor>
+    <DeclaredIn>Fun.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ae2f_CmpFunRet_LISLESSER</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d1/d33/Core_2inc_2ae2f_2Cmp_8h.html</Path>
+    <Anchor>a2ec622c999cf31fa7b6638e21dc591b8</Anchor>
+    <DeclaredIn>Cmp.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ae2f_CmpFunRet_LISLESSER</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>de/dd6/Core_2inc_2ae2f_2Cmp_2Fun_8h.html</Path>
     <Anchor>a2ec622c999cf31fa7b6638e21dc591b8</Anchor>
     <DeclaredIn>Fun.h</DeclaredIn>
   </Token>
@@ -1779,7 +1979,7 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d0/d09/Cmp_8h.html</Path>
+    <Path>df/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cmp_8h.html</Path>
     <Anchor>a576bb6884481e25c87bd4e41a26749db</Anchor>
     <DeclaredIn>Cmp.h</DeclaredIn>
   </Token>
@@ -1789,7 +1989,27 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d0/dee/Fun_8h.html</Path>
+    <Path>d1/d42/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cmp_2Fun_8h.html</Path>
+    <Anchor>a576bb6884481e25c87bd4e41a26749db</Anchor>
+    <DeclaredIn>Fun.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ae2f_CmpFunRet_RISLESSER</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d1/d33/Core_2inc_2ae2f_2Cmp_8h.html</Path>
+    <Anchor>a576bb6884481e25c87bd4e41a26749db</Anchor>
+    <DeclaredIn>Cmp.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ae2f_CmpFunRet_RISLESSER</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>de/dd6/Core_2inc_2ae2f_2Cmp_2Fun_8h.html</Path>
     <Anchor>a576bb6884481e25c87bd4e41a26749db</Anchor>
     <DeclaredIn>Fun.h</DeclaredIn>
   </Token>
@@ -1799,7 +2019,7 @@
       <APILanguage>c</APILanguage>
       <Type>tdef</Type>
     </TokenIdentifier>
-    <Path>d0/dee/Fun_8h.html</Path>
+    <Path>d1/d42/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cmp_2Fun_8h.html</Path>
     <Anchor>aad33bf8b1b2c426203fb27cff926e739</Anchor>
     <DeclaredIn>Fun.h</DeclaredIn>
   </Token>
@@ -1809,7 +2029,17 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d0/d09/Cmp_8h.html</Path>
+    <Path>df/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cmp_8h.html</Path>
+    <Anchor>a5faf903c6d9581d970a7c2f0666e9339</Anchor>
+    <DeclaredIn>Cmp.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ae2f_CmpGetGt</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d1/d33/Core_2inc_2ae2f_2Cmp_8h.html</Path>
     <Anchor>a5faf903c6d9581d970a7c2f0666e9339</Anchor>
     <DeclaredIn>Cmp.h</DeclaredIn>
   </Token>
@@ -1819,7 +2049,17 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d0/d09/Cmp_8h.html</Path>
+    <Path>df/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cmp_8h.html</Path>
+    <Anchor>ab3c784016b1a71e6b23bf0234817ab3a</Anchor>
+    <DeclaredIn>Cmp.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ae2f_CmpGetLs</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d1/d33/Core_2inc_2ae2f_2Cmp_8h.html</Path>
     <Anchor>ab3c784016b1a71e6b23bf0234817ab3a</Anchor>
     <DeclaredIn>Cmp.h</DeclaredIn>
   </Token>
@@ -1829,7 +2069,17 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d0/d09/Cmp_8h.html</Path>
+    <Path>df/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cmp_8h.html</Path>
+    <Anchor>a9c08d68c01bcf33d01e58cd66a215e4f</Anchor>
+    <DeclaredIn>Cmp.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ae2f_CmpGetMem</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d1/d33/Core_2inc_2ae2f_2Cmp_8h.html</Path>
     <Anchor>a9c08d68c01bcf33d01e58cd66a215e4f</Anchor>
     <DeclaredIn>Cmp.h</DeclaredIn>
   </Token>
@@ -1839,7 +2089,17 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d0/d09/Cmp_8h.html</Path>
+    <Path>df/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cmp_8h.html</Path>
+    <Anchor>a47cfb81ee8bf49067a17b6a59af4f552</Anchor>
+    <DeclaredIn>Cmp.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ae2f_CmpGetSelf</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d1/d33/Core_2inc_2ae2f_2Cmp_8h.html</Path>
     <Anchor>a47cfb81ee8bf49067a17b6a59af4f552</Anchor>
     <DeclaredIn>Cmp.h</DeclaredIn>
   </Token>
@@ -1849,7 +2109,17 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d3/dc4/Cast_8h.html</Path>
+    <Path>d6/d63/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cast_8h.html</Path>
+    <Anchor>a78f35f7227637506a67a200e10f16f10</Anchor>
+    <DeclaredIn>Cast.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ae2f_const_cast</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d8/d32/Core_2inc_2ae2f_2Cast_8h.html</Path>
     <Anchor>a78f35f7227637506a67a200e10f16f10</Anchor>
     <DeclaredIn>Cast.h</DeclaredIn>
   </Token>
@@ -1877,17 +2147,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>ae2f_CoreLibTentConfigCustom</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>___DOC_CMAKE</Scope>
-    </TokenIdentifier>
-    <Path>d1/d61/namespace______DOC__CMAKE.html</Path>
-    <Anchor>a5d543c5290803c8f0ea051462d088559</Anchor>
-    <DeclaredIn>Core.cmake.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>ae2f_CoreTestTent</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
@@ -1910,14 +2169,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>ae2f_CXX</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>___DOC_CMAKE</Scope>
+      <Name>ae2f_cxx_check</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d1/d61/namespace______DOC__CMAKE.html</Path>
-    <Anchor>a4d08d2c63e28534681aae2c141297515</Anchor>
-    <DeclaredIn>Core.cmake.hpp</DeclaredIn>
+    <Path>de/d00/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cxx_8h.html</Path>
+    <Anchor>af5c91dfc0c2068e6b9532936454fa824</Anchor>
+    <DeclaredIn>Cxx.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1925,7 +2183,7 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d2/db1/Cxx_8h.html</Path>
+    <Path>d2/d07/Core_2inc_2ae2f_2Cxx_8h.html</Path>
     <Anchor>af5c91dfc0c2068e6b9532936454fa824</Anchor>
     <DeclaredIn>Cxx.h</DeclaredIn>
   </Token>
@@ -1946,7 +2204,17 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d3/dc4/Cast_8h.html</Path>
+    <Path>d6/d63/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cast_8h.html</Path>
+    <Anchor>a0beba4d8f3a03b03e385532151c6ee23</Anchor>
+    <DeclaredIn>Cast.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ae2f_dynamic_cast</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d8/d32/Core_2inc_2ae2f_2Cast_8h.html</Path>
     <Anchor>a0beba4d8f3a03b03e385532151c6ee23</Anchor>
     <DeclaredIn>Cast.h</DeclaredIn>
   </Token>
@@ -1956,7 +2224,7 @@
       <APILanguage>c</APILanguage>
       <Type>tdef</Type>
     </TokenIdentifier>
-    <Path>da/d36/errGlob_8h.html</Path>
+    <Path>d7/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2errGlob_8h.html</Path>
     <Anchor>a833ffc3e99895762f6f06f2d6152f863</Anchor>
     <DeclaredIn>errGlob.h</DeclaredIn>
   </Token>
@@ -1966,7 +2234,7 @@
       <APILanguage>c</APILanguage>
       <Type>enum</Type>
     </TokenIdentifier>
-    <Path>da/d36/errGlob_8h.html</Path>
+    <Path>d7/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2errGlob_8h.html</Path>
     <Anchor>a2a053a3347b6e714f7e7fb29156d1736</Anchor>
     <DeclaredIn>errGlob.h</DeclaredIn>
   </Token>
@@ -1976,7 +2244,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>da/d36/errGlob_8h.html</Path>
+    <Path>d7/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2errGlob_8h.html</Path>
     <Anchor>a2a053a3347b6e714f7e7fb29156d1736ab95b3053d812f6ce326e4e26801db391</Anchor>
     <DeclaredIn>errGlob.h</DeclaredIn>
   </Token>
@@ -1986,7 +2254,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>da/d36/errGlob_8h.html</Path>
+    <Path>d7/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2errGlob_8h.html</Path>
     <Anchor>a2a053a3347b6e714f7e7fb29156d1736aae37acb0490b9c1e67c1cb954cd397db</Anchor>
     <DeclaredIn>errGlob.h</DeclaredIn>
   </Token>
@@ -1996,7 +2264,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>da/d36/errGlob_8h.html</Path>
+    <Path>d7/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2errGlob_8h.html</Path>
     <Anchor>a2a053a3347b6e714f7e7fb29156d1736ad34ebdb225f1d1c53828ae49cd9d59e6</Anchor>
     <DeclaredIn>errGlob.h</DeclaredIn>
   </Token>
@@ -2006,7 +2274,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>da/d36/errGlob_8h.html</Path>
+    <Path>d7/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2errGlob_8h.html</Path>
     <Anchor>a2a053a3347b6e714f7e7fb29156d1736a8cfdb9a39a19afe896a337c3fd693b1d</Anchor>
     <DeclaredIn>errGlob.h</DeclaredIn>
   </Token>
@@ -2016,7 +2284,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>da/d36/errGlob_8h.html</Path>
+    <Path>d7/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2errGlob_8h.html</Path>
     <Anchor>a2a053a3347b6e714f7e7fb29156d1736a076be88ef242b323d0de83508f181dc8</Anchor>
     <DeclaredIn>errGlob.h</DeclaredIn>
   </Token>
@@ -2026,7 +2294,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>da/d36/errGlob_8h.html</Path>
+    <Path>d7/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2errGlob_8h.html</Path>
     <Anchor>a2a053a3347b6e714f7e7fb29156d1736ace7fd8cfbd02e09a2772fe2feef79379</Anchor>
     <DeclaredIn>errGlob.h</DeclaredIn>
   </Token>
@@ -2036,7 +2304,7 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>da/d36/errGlob_8h.html</Path>
+    <Path>d7/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2errGlob_8h.html</Path>
     <Anchor>a2a053a3347b6e714f7e7fb29156d1736a41f70327a101763a42e66627db248785</Anchor>
     <DeclaredIn>errGlob.h</DeclaredIn>
   </Token>
@@ -2046,7 +2314,97 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>da/d36/errGlob_8h.html</Path>
+    <Path>d7/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2errGlob_8h.html</Path>
+    <Anchor>a2a053a3347b6e714f7e7fb29156d1736ad4ef8ce1fb000a2ea53b0f42285f04e1</Anchor>
+    <DeclaredIn>errGlob.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ae2f_errGlob</Name>
+      <APILanguage>c</APILanguage>
+      <Type>enum</Type>
+    </TokenIdentifier>
+    <Path>da/d50/Core_2inc_2ae2f_2errGlob_8h.html</Path>
+    <Anchor>a2a053a3347b6e714f7e7fb29156d1736</Anchor>
+    <DeclaredIn>errGlob.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ae2f_errGlob_OK</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>da/d50/Core_2inc_2ae2f_2errGlob_8h.html</Path>
+    <Anchor>a2a053a3347b6e714f7e7fb29156d1736ab95b3053d812f6ce326e4e26801db391</Anchor>
+    <DeclaredIn>errGlob.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ae2f_errGlob_IMP_NOT_FOUND</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>da/d50/Core_2inc_2ae2f_2errGlob_8h.html</Path>
+    <Anchor>a2a053a3347b6e714f7e7fb29156d1736aae37acb0490b9c1e67c1cb954cd397db</Anchor>
+    <DeclaredIn>errGlob.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ae2f_errGlob_PTR_IS_NULL</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>da/d50/Core_2inc_2ae2f_2errGlob_8h.html</Path>
+    <Anchor>a2a053a3347b6e714f7e7fb29156d1736ad34ebdb225f1d1c53828ae49cd9d59e6</Anchor>
+    <DeclaredIn>errGlob.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ae2f_errGlob_FLUSH_FAILED</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>da/d50/Core_2inc_2ae2f_2errGlob_8h.html</Path>
+    <Anchor>a2a053a3347b6e714f7e7fb29156d1736a8cfdb9a39a19afe896a337c3fd693b1d</Anchor>
+    <DeclaredIn>errGlob.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ae2f_errGlob_ALLOC_FAILED</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>da/d50/Core_2inc_2ae2f_2errGlob_8h.html</Path>
+    <Anchor>a2a053a3347b6e714f7e7fb29156d1736a076be88ef242b323d0de83508f181dc8</Anchor>
+    <DeclaredIn>errGlob.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ae2f_errGlob_WRONG_OPERATION</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>da/d50/Core_2inc_2ae2f_2errGlob_8h.html</Path>
+    <Anchor>a2a053a3347b6e714f7e7fb29156d1736ace7fd8cfbd02e09a2772fe2feef79379</Anchor>
+    <DeclaredIn>errGlob.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ae2f_errGlob_NFOUND</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>da/d50/Core_2inc_2ae2f_2errGlob_8h.html</Path>
+    <Anchor>a2a053a3347b6e714f7e7fb29156d1736a41f70327a101763a42e66627db248785</Anchor>
+    <DeclaredIn>errGlob.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ae2f_errGlob_DONE_HOWEV</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>da/d50/Core_2inc_2ae2f_2errGlob_8h.html</Path>
     <Anchor>a2a053a3347b6e714f7e7fb29156d1736ad4ef8ce1fb000a2ea53b0f42285f04e1</Anchor>
     <DeclaredIn>errGlob.h</DeclaredIn>
   </Token>
@@ -2056,7 +2414,17 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>da/d36/errGlob_8h.html</Path>
+    <Path>d7/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2errGlob_8h.html</Path>
+    <Anchor>a2a053a3347b6e714f7e7fb29156d1736a076be88ef242b323d0de83508f181dc8</Anchor>
+    <DeclaredIn>errGlob.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ae2f_errGlob_ALLOC_FAILED</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>da/d50/Core_2inc_2ae2f_2errGlob_8h.html</Path>
     <Anchor>a2a053a3347b6e714f7e7fb29156d1736a076be88ef242b323d0de83508f181dc8</Anchor>
     <DeclaredIn>errGlob.h</DeclaredIn>
   </Token>
@@ -2066,7 +2434,17 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>da/d36/errGlob_8h.html</Path>
+    <Path>d7/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2errGlob_8h.html</Path>
+    <Anchor>a2a053a3347b6e714f7e7fb29156d1736ad4ef8ce1fb000a2ea53b0f42285f04e1</Anchor>
+    <DeclaredIn>errGlob.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ae2f_errGlob_DONE_HOWEV</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>da/d50/Core_2inc_2ae2f_2errGlob_8h.html</Path>
     <Anchor>a2a053a3347b6e714f7e7fb29156d1736ad4ef8ce1fb000a2ea53b0f42285f04e1</Anchor>
     <DeclaredIn>errGlob.h</DeclaredIn>
   </Token>
@@ -2076,7 +2454,17 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>da/d36/errGlob_8h.html</Path>
+    <Path>d7/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2errGlob_8h.html</Path>
+    <Anchor>a2a053a3347b6e714f7e7fb29156d1736a8cfdb9a39a19afe896a337c3fd693b1d</Anchor>
+    <DeclaredIn>errGlob.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ae2f_errGlob_FLUSH_FAILED</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>da/d50/Core_2inc_2ae2f_2errGlob_8h.html</Path>
     <Anchor>a2a053a3347b6e714f7e7fb29156d1736a8cfdb9a39a19afe896a337c3fd693b1d</Anchor>
     <DeclaredIn>errGlob.h</DeclaredIn>
   </Token>
@@ -2086,7 +2474,17 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>da/d36/errGlob_8h.html</Path>
+    <Path>d7/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2errGlob_8h.html</Path>
+    <Anchor>a2a053a3347b6e714f7e7fb29156d1736aae37acb0490b9c1e67c1cb954cd397db</Anchor>
+    <DeclaredIn>errGlob.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ae2f_errGlob_IMP_NOT_FOUND</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>da/d50/Core_2inc_2ae2f_2errGlob_8h.html</Path>
     <Anchor>a2a053a3347b6e714f7e7fb29156d1736aae37acb0490b9c1e67c1cb954cd397db</Anchor>
     <DeclaredIn>errGlob.h</DeclaredIn>
   </Token>
@@ -2096,7 +2494,17 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>da/d36/errGlob_8h.html</Path>
+    <Path>d7/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2errGlob_8h.html</Path>
+    <Anchor>a2a053a3347b6e714f7e7fb29156d1736a41f70327a101763a42e66627db248785</Anchor>
+    <DeclaredIn>errGlob.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ae2f_errGlob_NFOUND</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>da/d50/Core_2inc_2ae2f_2errGlob_8h.html</Path>
     <Anchor>a2a053a3347b6e714f7e7fb29156d1736a41f70327a101763a42e66627db248785</Anchor>
     <DeclaredIn>errGlob.h</DeclaredIn>
   </Token>
@@ -2106,7 +2514,17 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>da/d36/errGlob_8h.html</Path>
+    <Path>d7/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2errGlob_8h.html</Path>
+    <Anchor>a2a053a3347b6e714f7e7fb29156d1736ab95b3053d812f6ce326e4e26801db391</Anchor>
+    <DeclaredIn>errGlob.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ae2f_errGlob_OK</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>da/d50/Core_2inc_2ae2f_2errGlob_8h.html</Path>
     <Anchor>a2a053a3347b6e714f7e7fb29156d1736ab95b3053d812f6ce326e4e26801db391</Anchor>
     <DeclaredIn>errGlob.h</DeclaredIn>
   </Token>
@@ -2116,7 +2534,17 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>da/d36/errGlob_8h.html</Path>
+    <Path>d7/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2errGlob_8h.html</Path>
+    <Anchor>a2a053a3347b6e714f7e7fb29156d1736ad34ebdb225f1d1c53828ae49cd9d59e6</Anchor>
+    <DeclaredIn>errGlob.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ae2f_errGlob_PTR_IS_NULL</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>da/d50/Core_2inc_2ae2f_2errGlob_8h.html</Path>
     <Anchor>a2a053a3347b6e714f7e7fb29156d1736ad34ebdb225f1d1c53828ae49cd9d59e6</Anchor>
     <DeclaredIn>errGlob.h</DeclaredIn>
   </Token>
@@ -2126,7 +2554,17 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>da/d36/errGlob_8h.html</Path>
+    <Path>d7/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2errGlob_8h.html</Path>
+    <Anchor>a2a053a3347b6e714f7e7fb29156d1736ace7fd8cfbd02e09a2772fe2feef79379</Anchor>
+    <DeclaredIn>errGlob.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ae2f_errGlob_WRONG_OPERATION</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>da/d50/Core_2inc_2ae2f_2errGlob_8h.html</Path>
     <Anchor>a2a053a3347b6e714f7e7fb29156d1736ace7fd8cfbd02e09a2772fe2feef79379</Anchor>
     <DeclaredIn>errGlob.h</DeclaredIn>
   </Token>
@@ -2136,7 +2574,17 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>da/d36/errGlob_8h.html</Path>
+    <Path>d7/d90/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2errGlob_8h.html</Path>
+    <Anchor>ada8ea0773716d13412f39e6ef7b06ab2</Anchor>
+    <DeclaredIn>errGlob.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ae2f_errGlobNormalised</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>da/d50/Core_2inc_2ae2f_2errGlob_8h.html</Path>
     <Anchor>ada8ea0773716d13412f39e6ef7b06ab2</Anchor>
     <DeclaredIn>errGlob.h</DeclaredIn>
   </Token>
@@ -2536,7 +2984,17 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d6/d08/Keys_8h.html</Path>
+    <Path>d1/d30/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Keys_8h.html</Path>
+    <Anchor>af32d53608be4ca28fd8e5cd34fc0279b</Anchor>
+    <DeclaredIn>Keys.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ae2f_extern</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d2/d26/Core_2inc_2ae2f_2Keys_8h.html</Path>
     <Anchor>af32d53608be4ca28fd8e5cd34fc0279b</Anchor>
     <DeclaredIn>Keys.h</DeclaredIn>
   </Token>
@@ -2546,7 +3004,17 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>dc/dea/Float_8auto_8h.html</Path>
+    <Path>d0/dad/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Float_8auto_8h.html</Path>
+    <Anchor>a3f2a0375fad49156d6f05ecdc7cc1563</Anchor>
+    <DeclaredIn>Float.auto.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ae2f_float</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>dd/ddb/Core_2inc_2ae2f_2Float_8auto_8h.html</Path>
     <Anchor>a3f2a0375fad49156d6f05ecdc7cc1563</Anchor>
     <DeclaredIn>Float.auto.h</DeclaredIn>
   </Token>
@@ -2567,19 +3035,19 @@
       <APILanguage>c</APILanguage>
       <Type>tdef</Type>
     </TokenIdentifier>
-    <Path>d0/dee/Fun_8h.html</Path>
+    <Path>d1/d42/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cmp_2Fun_8h.html</Path>
     <Anchor>ab061cb3b90028001b568515686bff1f5</Anchor>
     <DeclaredIn>Fun.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>ae2f_FREE</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>macro</Type>
+      <Name>ae2f_fpCmp_t</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tdef</Type>
     </TokenIdentifier>
-    <Path>db/de1/Guide_8h.html</Path>
-    <Anchor>ad435b60ec4c7dae2b7a45a0eb8c45317</Anchor>
-    <DeclaredIn>Guide.h</DeclaredIn>
+    <Path>de/dd6/Core_2inc_2ae2f_2Cmp_2Fun_8h.html</Path>
+    <Anchor>ab061cb3b90028001b568515686bff1f5</Anchor>
+    <DeclaredIn>Fun.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2605,23 +3073,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>ae2f_LP</Name>
+      <Name>ae2f_MAC</Name>
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>db/de1/Guide_8h.html</Path>
-    <Anchor>ae20335659b6223f6d3c4aad02384af1c</Anchor>
-    <DeclaredIn>Guide.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>ae2f_NONE</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>macro</Type>
-    </TokenIdentifier>
-    <Path>d2/db1/Cxx_8h.html</Path>
-    <Anchor>ab87b929339e9211ba8dfd1dd4088d518</Anchor>
-    <DeclaredIn>Cxx.h</DeclaredIn>
+    <Path>d7/d6b/Macro_8h.html</Path>
+    <Anchor>ad19b80a947856d31a5aea582c01fc230</Anchor>
+    <DeclaredIn>Macro.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2631,7 +3089,7 @@
       <Scope>___DOC_CMAKE</Scope>
     </TokenIdentifier>
     <Path>d1/d61/namespace______DOC__CMAKE.html</Path>
-    <Anchor>a7337c983f48da36ef5892af24fc5109c</Anchor>
+    <Anchor>a158d84350add394f1fe8cb1af10ba2d3</Anchor>
     <DeclaredIn>Core.cmake.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -2651,7 +3109,17 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>df/ddd/ptrsz_8auto_8h.html</Path>
+    <Path>d7/d8e/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2c90_2ptrsz_8auto_8h.html</Path>
+    <Anchor>a01d83abfb14100e92f18a4ad5188a06d</Anchor>
+    <DeclaredIn>ptrsz.auto.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ae2f_PTRSZ_SIZE</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>de/df6/Core_2inc_2ae2f_2c90_2ptrsz_8auto_8h.html</Path>
     <Anchor>a01d83abfb14100e92f18a4ad5188a06d</Anchor>
     <DeclaredIn>ptrsz.auto.h</DeclaredIn>
   </Token>
@@ -2661,7 +3129,17 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d3/dc4/Cast_8h.html</Path>
+    <Path>d6/d63/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cast_8h.html</Path>
+    <Anchor>a5095ead846cf91cc0b79a1c33e0cff93</Anchor>
+    <DeclaredIn>Cast.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ae2f_RecordMk</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d8/d32/Core_2inc_2ae2f_2Cast_8h.html</Path>
     <Anchor>a5095ead846cf91cc0b79a1c33e0cff93</Anchor>
     <DeclaredIn>Cast.h</DeclaredIn>
   </Token>
@@ -2671,7 +3149,17 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>df/d5f/Reg_8h.html</Path>
+    <Path>d2/d67/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cxx_2Reg_8h.html</Path>
+    <Anchor>ad751b5084d10bc27aa3c3e503ee8876b</Anchor>
+    <DeclaredIn>Reg.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ae2f_reg</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d0/d51/Core_2inc_2ae2f_2Cxx_2Reg_8h.html</Path>
     <Anchor>ad751b5084d10bc27aa3c3e503ee8876b</Anchor>
     <DeclaredIn>Reg.h</DeclaredIn>
   </Token>
@@ -2681,8 +3169,68 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d3/dc4/Cast_8h.html</Path>
+    <Path>d6/d63/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cast_8h.html</Path>
     <Anchor>acd8146ed1e048f22e68ea16ad208e84a</Anchor>
+    <DeclaredIn>Cast.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ae2f_reinterpret_cast</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d8/d32/Core_2inc_2ae2f_2Cast_8h.html</Path>
+    <Anchor>acd8146ed1e048f22e68ea16ad208e84a</Anchor>
+    <DeclaredIn>Cast.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ae2f_restrict</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d7/d9a/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2cc_8h.html</Path>
+    <Anchor>a79bb8298afc6562a208e4c283ec3cf69</Anchor>
+    <DeclaredIn>cc.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ae2f_restrict</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>db/dca/Core_2inc_2ae2f_2cc_8h.html</Path>
+    <Anchor>a79bb8298afc6562a208e4c283ec3cf69</Anchor>
+    <DeclaredIn>cc.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ae2f_retnew</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d7/d9a/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2cc_8h.html</Path>
+    <Anchor>a0a9ce386eaf0e8571249c7a2ff26725d</Anchor>
+    <DeclaredIn>cc.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ae2f_retnew</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>db/dca/Core_2inc_2ae2f_2cc_8h.html</Path>
+    <Anchor>a0a9ce386eaf0e8571249c7a2ff26725d</Anchor>
+    <DeclaredIn>cc.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ae2f_static_cast</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d6/d63/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cast_8h.html</Path>
+    <Anchor>ab86a90b116e454206d7d4f5c0d07ebcb</Anchor>
     <DeclaredIn>Cast.h</DeclaredIn>
   </Token>
   <Token>
@@ -2691,7 +3239,7 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d3/dc4/Cast_8h.html</Path>
+    <Path>d8/d32/Core_2inc_2ae2f_2Cast_8h.html</Path>
     <Anchor>ab86a90b116e454206d7d4f5c0d07ebcb</Anchor>
     <DeclaredIn>Cast.h</DeclaredIn>
   </Token>
@@ -2701,7 +3249,17 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d8/d64/LangVer_8h.html</Path>
+    <Path>d3/d27/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2LangVer_8h.html</Path>
+    <Anchor>aca4bf9c33d6b56f4b5d5b28bc17d33f5</Anchor>
+    <DeclaredIn>LangVer.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ae2f_stdc_v</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d0/dbd/Core_2inc_2ae2f_2LangVer_8h.html</Path>
     <Anchor>aca4bf9c33d6b56f4b5d5b28bc17d33f5</Anchor>
     <DeclaredIn>LangVer.h</DeclaredIn>
   </Token>
@@ -2711,7 +3269,17 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d8/d64/LangVer_8h.html</Path>
+    <Path>d3/d27/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2LangVer_8h.html</Path>
+    <Anchor>a60c1bbddefe78e79e6088ba0f45ca971</Anchor>
+    <DeclaredIn>LangVer.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ae2f_stdcc_v</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d0/dbd/Core_2inc_2ae2f_2LangVer_8h.html</Path>
     <Anchor>a60c1bbddefe78e79e6088ba0f45ca971</Anchor>
     <DeclaredIn>LangVer.h</DeclaredIn>
   </Token>
@@ -2721,7 +3289,17 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d6/d08/Keys_8h.html</Path>
+    <Path>d1/d30/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Keys_8h.html</Path>
+    <Anchor>a06f9c6cce51fc7772141ec9a6d521511</Anchor>
+    <DeclaredIn>Keys.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ae2f_struct</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d2/d26/Core_2inc_2ae2f_2Keys_8h.html</Path>
     <Anchor>a06f9c6cce51fc7772141ec9a6d521511</Anchor>
     <DeclaredIn>Keys.h</DeclaredIn>
   </Token>
@@ -2982,19 +3560,19 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d3/dc4/Cast_8h.html</Path>
+    <Path>d6/d63/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cast_8h.html</Path>
     <Anchor>a617373a68c3f94d8e00857e2e6cfe97f</Anchor>
     <DeclaredIn>Cast.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>ae2f_v</Name>
+      <Name>ae2f_union_cast</Name>
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>db/de1/Guide_8h.html</Path>
-    <Anchor>ab29e682dc87f8c4e1cf489db9326ce72</Anchor>
-    <DeclaredIn>Guide.h</DeclaredIn>
+    <Path>d8/d32/Core_2inc_2ae2f_2Cast_8h.html</Path>
+    <Anchor>a617373a68c3f94d8e00857e2e6cfe97f</Anchor>
+    <DeclaredIn>Cast.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3002,7 +3580,17 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d6/d08/Keys_8h.html</Path>
+    <Path>d1/d30/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Keys_8h.html</Path>
+    <Anchor>a55689481e470b84f3bc5710c860b088c</Anchor>
+    <DeclaredIn>Keys.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ae2f_var</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d2/d26/Core_2inc_2ae2f_2Keys_8h.html</Path>
     <Anchor>a55689481e470b84f3bc5710c860b088c</Anchor>
     <DeclaredIn>Keys.h</DeclaredIn>
   </Token>
@@ -3012,7 +3600,17 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d2/db1/Cxx_8h.html</Path>
+    <Path>de/d00/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cxx_8h.html</Path>
+    <Anchor>af4c0b1d2c7ea63c5f2647bdc9f619d3b</Anchor>
+    <DeclaredIn>Cxx.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ae2f_WhenC</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d2/d07/Core_2inc_2ae2f_2Cxx_8h.html</Path>
     <Anchor>af4c0b1d2c7ea63c5f2647bdc9f619d3b</Anchor>
     <DeclaredIn>Cxx.h</DeclaredIn>
   </Token>
@@ -3022,7 +3620,17 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d2/db1/Cxx_8h.html</Path>
+    <Path>de/d00/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Cxx_8h.html</Path>
+    <Anchor>aa8e21231e6b06d9d9b53e3b5b15e0ac4</Anchor>
+    <DeclaredIn>Cxx.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ae2f_WhenCXX</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d2/d07/Core_2inc_2ae2f_2Cxx_8h.html</Path>
     <Anchor>aa8e21231e6b06d9d9b53e3b5b15e0ac4</Anchor>
     <DeclaredIn>Cxx.h</DeclaredIn>
   </Token>
@@ -3052,9 +3660,19 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d5/db6/gnuc_8h.html</Path>
+    <Path>d7/d9a/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2cc_8h.html</Path>
     <Anchor>a49ac1022b9674900307de6b363c66bc8</Anchor>
-    <DeclaredIn>gnuc.h</DeclaredIn>
+    <DeclaredIn>cc.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>N_ae2f_gnuc</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>db/dca/Core_2inc_2ae2f_2cc_8h.html</Path>
+    <Anchor>a49ac1022b9674900307de6b363c66bc8</Anchor>
+    <DeclaredIn>cc.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3082,7 +3700,17 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d6/d08/Keys_8h.html</Path>
+    <Path>d1/d30/Ann_2submod_2ae2f_2Core_2inc_2ae2f_2Keys_8h.html</Path>
+    <Anchor>a5105bf2540a04aed65fcbe0a11fc4e88</Anchor>
+    <DeclaredIn>Keys.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>unless</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d2/d26/Core_2inc_2ae2f_2Keys_8h.html</Path>
     <Anchor>a5105bf2540a04aed65fcbe0a11fc4e88</Anchor>
     <DeclaredIn>Keys.h</DeclaredIn>
   </Token>
