@@ -28,16 +28,23 @@ endfunction()
 
 GITCLONE(ae2f Ann)
 GITCLONE(ae2f Sys)
+GITCLONE(ae2f VK-Core)
 
 # Find Doxygen
 find_package(Doxygen REQUIRED)
 if(DOXYGEN_FOUND)
 	# Set input directories (all subprojects' src and include)
 	set(DOXYGEN_INPUT_DIR
-		"${PROJECT_SOURCE_DIR}/submod/ae2f/ 
-		${PROJECT_SOURCE_DIR}/Hell/ 
-		${PROJECT_SOURCE_DIR}/Book
-		${PROJECT_SOURCE_DIR}/README.md"
+		"${PROJECT_SOURCE_DIR}/ \\
+		${PROJECT_SOURCE_DIR}/submod/ae2f/ \\
+		${PROJECT_SOURCE_DIR}/Hell/ \\
+		${PROJECT_SOURCE_DIR}/Book/
+		"
+		)
+
+	set(DOXYGEN_EXCLUDE_DIR
+		"${PROJECT_SOURCE_DIR}/build \\
+		"
 		)
 
 	set(DOXYGEN_OUTPUT_DIR ${CMAKE_SOURCE_DIR})

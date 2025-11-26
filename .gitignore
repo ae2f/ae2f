@@ -7,3 +7,5 @@ clinclude/*
 submod/*
 include
 Doxyfile
+.cmake
+.*/*
