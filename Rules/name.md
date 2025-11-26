@@ -9,7 +9,8 @@
 > `m_member`
 
 ### enum
-> `e_libprefix_obj_t`
+> `e_libprefix_obj_t`  
+> `LIBPREFIX_OBJ_VAL`
 
 ## typedef
 ### simple
