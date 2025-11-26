@@ -16,7 +16,7 @@
 > `libprefix_newname_t`
 
 ### function
-> `fn_libpreffix_act_t(void)`
+> `fn_libprefix_act_t(void)`
 
 ### opaque pointer & handle
 > opaque pointer will be known as handle.  
