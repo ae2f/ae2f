@@ -39,29 +39,33 @@ var NAVTREE =
     [ "Comments", "df/d01/md_Rules_2cmt.html", [
       [ "Master rules", "df/d01/md_Rules_2cmt.html#autotoc_md19", null ],
       [ "Documentation", "df/d01/md_Rules_2cmt.html#autotoc_md20", null ],
-      [ "Function Tags", "df/d01/md_Rules_2cmt.html#autotoc_md21", null ],
-      [ "Template Parameter Tags", "df/d01/md_Rules_2cmt.html#autotoc_md22", null ],
-      [ "Parameter(classic c-style) tags", "df/d01/md_Rules_2cmt.html#autotoc_md23", null ],
-      [ "Type tags", "df/d01/md_Rules_2cmt.html#autotoc_md24", null ]
+      [ "Class Tags", "df/d01/md_Rules_2cmt.html#autotoc_md21", null ],
+      [ "Function Tags", "df/d01/md_Rules_2cmt.html#autotoc_md22", null ],
+      [ "Template Parameter Tags", "df/d01/md_Rules_2cmt.html#autotoc_md23", null ],
+      [ "Parameter(classic c-style) tags", "df/d01/md_Rules_2cmt.html#autotoc_md24", null ],
+      [ "Type tags", "df/d01/md_Rules_2cmt.html#autotoc_md25", null ]
     ] ],
     [ "Namings", "dd/d92/md_Rules_2name.html", [
-      [ "declaring", "dd/d92/md_Rules_2name.html#autotoc_md26", [
-        [ "function", "dd/d92/md_Rules_2name.html#autotoc_md27", null ],
-        [ "struct", "dd/d92/md_Rules_2name.html#autotoc_md28", null ],
-        [ "enum", "dd/d92/md_Rules_2name.html#autotoc_md29", null ]
+      [ "declaring", "dd/d92/md_Rules_2name.html#autotoc_md27", [
+        [ "function", "dd/d92/md_Rules_2name.html#autotoc_md28", null ],
+        [ "struct", "dd/d92/md_Rules_2name.html#autotoc_md29", null ],
+        [ "class &lt;CLASS&gt;", "dd/d92/md_Rules_2name.html#autotoc_md30", null ],
+        [ "enum", "dd/d92/md_Rules_2name.html#autotoc_md31", null ],
+        [ "enum_alias &lt;ENUM&gt;", "dd/d92/md_Rules_2name.html#autotoc_md32", null ],
+        [ "enum_bitfield &lt;BFIELD&gt;", "dd/d92/md_Rules_2name.html#autotoc_md33", null ]
       ] ],
-      [ "typedef", "dd/d92/md_Rules_2name.html#autotoc_md30", [
-        [ "simple", "dd/d92/md_Rules_2name.html#autotoc_md31", null ],
-        [ "function", "dd/d92/md_Rules_2name.html#autotoc_md32", null ],
-        [ "opaque pointer &amp; handle", "dd/d92/md_Rules_2name.html#autotoc_md33", null ]
+      [ "typedef", "dd/d92/md_Rules_2name.html#autotoc_md34", [
+        [ "simple", "dd/d92/md_Rules_2name.html#autotoc_md35", null ],
+        [ "function", "dd/d92/md_Rules_2name.html#autotoc_md36", null ],
+        [ "opaque pointer &amp; handle", "dd/d92/md_Rules_2name.html#autotoc_md37", null ]
       ] ],
-      [ "function parameter", "dd/d92/md_Rules_2name.html#autotoc_md34", [
-        [ "template", "dd/d92/md_Rules_2name.html#autotoc_md35", null ],
-        [ "classic", "dd/d92/md_Rules_2name.html#autotoc_md36", null ]
+      [ "function parameter", "dd/d92/md_Rules_2name.html#autotoc_md38", [
+        [ "template", "dd/d92/md_Rules_2name.html#autotoc_md39", null ],
+        [ "classic", "dd/d92/md_Rules_2name.html#autotoc_md40", null ]
       ] ]
     ] ],
     [ "Optimisations", "da/de1/md_Rules_2opt.html", [
-      [ "simple", "da/de1/md_Rules_2opt.html#autotoc_md38", null ]
+      [ "simple", "da/de1/md_Rules_2opt.html#autotoc_md42", null ]
     ] ],
     [ "Deprecated List", "da/d58/deprecated.html", null ],
     [ "Namespaces", "namespaces.html", [
@@ -101,7 +105,7 @@ var NAVTREEINDEX =
 [
 "annotated.html",
 "d7/d83/Inet_8h_source.html",
-"df/d1b/structae2f__AnnMlpHidDeltaSingle__t.html#a0605467f0c461331b1d19cb93b8cbe70"
+"df/d01/md_Rules_2cmt.html#autotoc_md24"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';
