@@ -10,6 +10,9 @@
 - `@param name <PARAMTAG>... [typename]` for c-style parameter.
 - `@tparam name <TPARAMTAG>` for template parameter, when c-style parameter is not enough.
 
+## Class Tags
+- <CLASS>
+    > direct modification of the structure is not adviced.
 
 ## Function Tags
 - <TDSAFE>      

@@ -8,9 +8,18 @@
 > `libprefix_obj_ext`  
 > `m_member`
 
+### class   <CLASS>
+> `x_libprefix_obj_ext`
+
 ### enum
-> `e_libprefix_obj_t`  
-> `LIBPREFIX_OBJ_VAL`
+> `e_libprefix_ename`  
+> `LIBPREFIX_ENAME_VAL`
+
+### enum_alias  <ENUM>
+> `e_libprefix_obj_ext_t`
+
+### enum_bitfield <BFIELD>
+> `be_libprefix_obj_t`
 
 ## typedef
 ### simple
