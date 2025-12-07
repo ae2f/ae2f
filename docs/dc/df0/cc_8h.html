@@ -127,9 +127,7 @@ Macros</h2></td></tr>
 <tr class="memitem:a646f60763a85cb5c5194b8838030ecbe" id="r_a646f60763a85cb5c5194b8838030ecbe"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a646f60763a85cb5c5194b8838030ecbe">ae2f_ccconst</a></td></tr>
 <tr class="memdesc:a646f60763a85cb5c5194b8838030ecbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Keyword as <span class="tt">[[const]]</span> on C23..  <br /></td></tr>
 <tr class="memitem:a79bb8298afc6562a208e4c283ec3cf69" id="r_a79bb8298afc6562a208e4c283ec3cf69"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79bb8298afc6562a208e4c283ec3cf69">ae2f_restrict</a></td></tr>
-<tr class="memdesc:a79bb8298afc6562a208e4c283ec3cf69"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make two pair of function as [eval] and [expr]. <br  />
- [expr] will just call [eval]. <br  />
- You will implement the body of [eval].  <br /></td></tr>
+<tr class="memdesc:a79bb8298afc6562a208e4c283ec3cf69"><td class="mdescLeft">&#160;</td><td class="mdescRight">Keyword as <span class="tt">restrict</span> on C99.  <br /></td></tr>
 <tr class="memitem:a0a9ce386eaf0e8571249c7a2ff26725d" id="r_a0a9ce386eaf0e8571249c7a2ff26725d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a9ce386eaf0e8571249c7a2ff26725d">ae2f_retnew</a></td></tr>
 <tr class="memdesc:a0a9ce386eaf0e8571249c7a2ff26725d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The returning pointer does not alias to existing object.  <br /></td></tr>
 <tr class="memitem:a960c68ba2d4dd9562d92e9573d771219" id="r_a960c68ba2d4dd9562d92e9573d771219"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a960c68ba2d4dd9562d92e9573d771219">ae2f_decl</a></td></tr>
@@ -289,34 +287,9 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Make two pair of function as [eval] and [expr]. <br  />
- [expr] will just call [eval]. <br  />
- You will implement the body of [eval]. </p>
-<p>Keyword as <span class="tt">restrict</span> on C99.</p>
-<p>Following is an use case. </p><div class="fragment"><div class="line">   ae2f_evaldef(</div>
-<div class="line">        template&lt;int a&gt;, &lt;0&gt;</div>
-<div class="line">        , <span class="keyword">consteval</span>, constexprfun</div>
-<div class="line">        , <span class="keywordtype">int</span>, Hello, _Hello, <span class="keywordtype">char</span> v, v) </div>
-<div class="line">        { <span class="keywordflow">return</span> v; }</div>
-<div class="line">   */</div>
-<div class="line"><span class="preprocessor">#define ae2f_evaldef(tmpldef, tmpluse, keyeval, keyexpr, ret_t, nameeval, nameexpr, prmdef, prmuse) \</span></div>
-<div class="line"><span class="preprocessor">    tmpldef keyeval ret_t nameeval(prmdef); \</span></div>
-<div class="line"><span class="preprocessor">    tmpldef keyexpr ret_t nameexpr(prmdef) { \</span></div>
-<div class="line"><span class="preprocessor">        return nameeval tmpluse (prmuse); \</span></div>
-<div class="line"><span class="preprocessor">    } \</span></div>
-<div class="line"><span class="preprocessor">    tmpldef keyeval ret_t nameeval(prmdef)</span></div>
-<div class="line"> </div>
-<div class="line"><span class="preprocessor">#if !__ae2f_stdcheck_CC(201100L)</span></div>
-<div class="line"><span class="preprocessor">#undef  ae2f_noexcept</span></div>
-<div class="line"><span class="preprocessor">#define ae2f_noexcept</span></div>
-<div class="line"><span class="preprocessor">#elif defined(__cplusplus)</span></div>
-<div class="line"><span class="preprocessor">#define ae2f_noexcept noexcept</span></div>
-<div class="line"><span class="preprocessor">#endif</span></div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"><span class="preprocessor">#undef  ae2f_restrict </span></div>
-</div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="../../d6/d08/Keys_8h_source.html#l00069">69</a> of file <a class="el" href="../../d6/d08/Keys_8h_source.html">Keys.h</a>.</p>
+<p>Keyword as <span class="tt">restrict</span> on C99. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../dc/df0/cc_8h_source.html#l00081">81</a> of file <a class="el" href="../../dc/df0/cc_8h_source.html">cc.h</a>.</p>
 
 </div>
 </div>
@@ -352,7 +325,8 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"></div><!-- fragment -->
+<b>Value:</b><div class="fragment"><div class="line">a</div>
+</div><!-- fragment -->
 <p>Available when not compiled with gnu compiler. </p>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/df0/cc_8h_source.html#l00022">22</a> of file <a class="el" href="../../dc/df0/cc_8h_source.html">cc.h</a>.</p>
@@ -373,7 +347,8 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"></div><!-- fragment -->
+<b>Value:</b><div class="fragment"><div class="line">a</div>
+</div><!-- fragment -->
 <p>Available when not compiled with msvc. </p>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/df0/cc_8h_source.html#l00039">39</a> of file <a class="el" href="../../dc/df0/cc_8h_source.html">cc.h</a>.</p>

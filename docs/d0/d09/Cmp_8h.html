@@ -154,7 +154,10 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"></div><!-- fragment --><dl class="section return"><dt>Returns</dt><dd>The absolute different of two. </dd></dl>
+<b>Value:</b><div class="fragment"><div class="line">(<a class="code hl_define" href="#a5faf903c6d9581d970a7c2f0666e9339">ae2f_CmpGetGt</a>(a, b) - <a class="code hl_define" href="#ab3c784016b1a71e6b23bf0234817ab3a">ae2f_CmpGetLs</a>(a, b))</div>
+<div class="ttc" id="aCmp_8h_html_a5faf903c6d9581d970a7c2f0666e9339"><div class="ttname"><a href="#a5faf903c6d9581d970a7c2f0666e9339">ae2f_CmpGetGt</a></div><div class="ttdeci">#define ae2f_CmpGetGt(a, b)</div><div class="ttdef"><b>Definition</b> <a href="../../d0/d09/Cmp_8h_source.html#l00063">Cmp.h:63</a></div></div>
+<div class="ttc" id="aCmp_8h_html_ab3c784016b1a71e6b23bf0234817ab3a"><div class="ttname"><a href="#ab3c784016b1a71e6b23bf0234817ab3a">ae2f_CmpGetLs</a></div><div class="ttdeci">#define ae2f_CmpGetLs(a, b)</div><div class="ttdef"><b>Definition</b> <a href="../../d0/d09/Cmp_8h_source.html#l00071">Cmp.h:71</a></div></div>
+</div><!-- fragment --><dl class="section return"><dt>Returns</dt><dd>The absolute different of two. </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="../../d0/d09/Cmp_8h_source.html#l00077">77</a> of file <a class="el" href="../../d0/d09/Cmp_8h_source.html">Cmp.h</a>.</p>
 
@@ -235,7 +238,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"></div><!-- fragment --><dl class="section warning"><dt>Warning</dt><dd>Two parameters must be comparable with operator. </dd></dl>
+<b>Value:</b><div class="fragment"><div class="line">((a) &gt; (b) ? (a) : (b))</div>
+</div><!-- fragment --><dl class="section warning"><dt>Warning</dt><dd>Two parameters must be comparable with operator. </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>One bigger. </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="../../d0/d09/Cmp_8h_source.html#l00063">63</a> of file <a class="el" href="../../d0/d09/Cmp_8h_source.html">Cmp.h</a>.</p>
@@ -260,7 +264,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"></div><!-- fragment --><dl class="section warning"><dt>Warning</dt><dd>Two parameters must be comparable with operator. </dd></dl>
+<b>Value:</b><div class="fragment"><div class="line">((a) &lt; (b) ? (a) : (b))</div>
+</div><!-- fragment --><dl class="section warning"><dt>Warning</dt><dd>Two parameters must be comparable with operator. </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>One smaller. </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="../../d0/d09/Cmp_8h_source.html#l00071">71</a> of file <a class="el" href="../../d0/d09/Cmp_8h_source.html">Cmp.h</a>.</p>
@@ -290,7 +295,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"></div><!-- fragment -->
+<b>Value:</b><div class="fragment"><div class="line">((ptr) ? ((ptr)-&gt;member) : (alter))</div>
+</div><!-- fragment -->
 <p>Gets the member from the pointer. Given nullptr, the return will be alter. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -323,7 +329,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"></div><!-- fragment -->
+<b>Value:</b><div class="fragment"><div class="line">((ptr) ? (ptr) : (alt))</div>
+</div><!-- fragment -->
 <p>Returns ptr's self. Given nullptr, the return will be alt. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">

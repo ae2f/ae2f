@@ -105,22 +105,22 @@ $(function() {
   <div class="headertitle"><div class="title">Comments </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="autotoc_md18"></a></p>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md19"></a>
+<div class="textblock"><p><a class="anchor" id="autotoc_md14"></a></p>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md33"></a>
 Master rules</h1>
 <ul>
 <li>Never use single-line comments. <span class="tt">//</span> Use Multi-line comments <span class="tt">/**/</span>.</li>
 <li>Doxygen-style documentation is for declaration, not definition.</li>
 </ul>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md20"></a>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md34"></a>
 Documentation</h1>
 <ul>
 <li><span class="tt">@file file</span> with <span class="tt">@brief brief</span>, on top for minimum doxygen declaration.</li>
-<li><span class="tt">@def name</span> or <span class="tt">@function name</span> for declaring it public.</li>
+<li><span class="tt">@def name</span> or <span class="tt">@fn name</span> for declaring it public.</li>
 <li><span class="tt">@param name &lt;PARAMTAG&gt;... [typename]</span> for c-style parameter.</li>
 <li><span class="tt">@tparam name &lt;TPARAMTAG&gt;</span> for template parameter, when c-style parameter is not enough.</li>
 </ul>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md21"></a>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md35"></a>
 Class Tags</h1>
 <ul>
 <li>&lt;CLASS&gt; <blockquote class="doxtable">
@@ -128,7 +128,13 @@ Class Tags</h1>
 </blockquote>
 </li>
 </ul>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md22"></a>
+<ul>
+<li>&lt;ABSTRCT&gt; <blockquote class="doxtable">
+<p>an un-defined type </p>
+</blockquote>
+</li>
+</ul>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md36"></a>
 Function Tags</h1>
 <ul>
 <li>&lt;TDSAFE&gt; <br  />
@@ -137,8 +143,15 @@ Function Tags</h1>
 </blockquote>
 </li>
 </ul>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md23"></a>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md37"></a>
 Template Parameter Tags</h1>
+<ul>
+<li>&lt;LBL&gt; <blockquote class="doxtable">
+<p>temporary label parameter <br  />
+ which could be a name for variable, function, goto label, etc </p>
+</blockquote>
+</li>
+</ul>
 <ul>
 <li>&lt;TP&gt; <br  />
  <blockquote class="doxtable">
@@ -174,7 +187,7 @@ Template Parameter Tags</h1>
 </blockquote>
 </li>
 </ul>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md24"></a>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md38"></a>
 Parameter(classic c-style) tags</h1>
 <ul>
 <li>&lt;TMP&gt; <br  />
@@ -283,7 +296,7 @@ Parameter(classic c-style) tags</h1>
 </blockquote>
 </li>
 </ul>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md25"></a>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md39"></a>
 Type tags</h1>
 <ul>
 <li>&lt;HANDLE, ...&gt; <br  />

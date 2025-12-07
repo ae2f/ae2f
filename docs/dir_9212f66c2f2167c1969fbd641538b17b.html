@@ -106,15 +106,38 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="fragment"></div><!-- fragment --><h1 class="doxsection"><a class="anchor" id="autotoc_md61"></a>
+<div class="fragment"><div class="line">            ____   __     ____               ____            _       _   </div>
+<div class="line">  __ _  &lt;em&gt;&lt;strong&gt;|&lt;/strong&gt;&lt;/em&gt; \ / _| _ / &lt;em&gt;&lt;strong&gt;|&lt;/strong&gt;&lt;/em&gt;  _ __ &lt;em&gt;&lt;strong&gt;/ ___|  ___ _ &lt;strong&gt;(_)_ __ | |_ </div>
+<div class="line"> / &lt;em&gt;` |/ _ \ __) | |(_|&lt;/em&gt;) |   / _ \| &#39;&lt;/strong&gt;/ _ ___ \ / __| &#39;__| | &#39;_ \| __|</div>
+<div class="line">| (_| |  __// __/|  _| _| |__| (_) | | |  __/&lt;/strong&gt;&lt;/em&gt;) | (__| |  | | |_) | |_ </div>
+<div class="line"> __,_|___|_____|_|(_|_)_______/|_|  ___|____/ ___|_|  |_| .__/ __|</div>
+<div class="line">                                                              |_|</div>
+</div><!-- fragment --><h1 class="doxsection"><a class="anchor" id="autotoc_md47"></a>
 ae2f::CoreScript</h1>
 <blockquote class="doxtable">
 <p>CMake Utility for project <a class="el" href="d4/ddc/namespaceae2f.html" title="This namespace contains the class from this library.">ae2f</a>. <br  />
  Supports library fetch &amp; tent for installing </p>
 </blockquote>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md62"></a>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md48"></a>
 Example usage (Simple)</h1>
-<p>Use this </p><div class="fragment"></div><!-- fragment --> </div><!-- contents -->
+<p>Use this </p><div class="fragment"><div class="line"># Set this source directory as the tree root for project.</div>
+<div class="line">set(ae2f_ProjRoot ${CMAKE_CURRENT_SOURCE_DIR} CACHE STRING &quot;Tree root for project&quot;)</div>
+<div class="line">set(ae2f_submod  .submod CACHE STRING &quot;Relative path to submodule (subdirectory)&quot;)</div>
+<div class="line">set(ae2f_CoreScript_Wh ${ae2f_ProjRoot}/${ae2f_submod}/ae2f/CoreScript)</div>
+<div class="line"> </div>
+<div class="line"># Execute git to fetch CoreScript when repository does not exist</div>
+<div class="line">if(NOT EXISTS ${ae2f_CoreScript_Wh})</div>
+<div class="line">    execute_process(</div>
+<div class="line">        COMMAND git clone https://codeberg.org/ae2f/CoreScript</div>
+<div class="line">        ${ae2f_CoreScript_Wh}</div>
+<div class="line">        )</div>
+<div class="line">endif()</div>
+<div class="line"> </div>
+<div class="line"># add subdirectory</div>
+<div class="line">if(NOT TARGET ae2f::CoreScript)</div>
+<div class="line">    add_subdirectory(${ae2f_CoreScript_Wh} ${ae2f_submod}/ae2f/CoreScript)</div>
+<div class="line">endif()</div>
+</div><!-- fragment --> </div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">
 <div id="page-nav-resize-handle"></div>

@@ -124,7 +124,7 @@ $(function() {
 <div class="line"><span class="lineno">   17</span><span class="comment"> * @brief</span></div>
 <div class="line"><span class="lineno">   18</span><span class="comment"> * @retval ae2f_eSysFtxWait</span></div>
 <div class="line"><span class="lineno">   19</span><span class="comment"> * */</span></div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><a class="code hl_define" href="../../df/dcd/mac_8h.html#af1512227391edea638a961071a34e8c7">ae2f_MAC</a>((unused_0, )) ae2f_SysFtxWait_imp__linux(</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><a class="code hl_define" href="../../d7/d6b/Macro_8h.html#ad19b80a947856d31a5aea582c01fc230">ae2f_MAC</a>((unused_0, )) ae2f_SysFtxWait_imp__linux(</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>        ae2f_eSysFtxWait        ret_err,</div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>        <a class="code hl_typedef" href="../../d3/de9/Ftx_8h.html#ae6783215cc7c3f017a72a9db8ac03a04">ae2f_SysFtxEl_t</a>* <span class="keyword">const</span>      prm_uaddr,</div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>        <span class="keyword">const</span> <span class="keywordtype">int</span>           prm_val,</div>
@@ -137,7 +137,7 @@ $(function() {
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>        ;</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>}</div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><a class="code hl_define" href="../../df/dcd/mac_8h.html#af1512227391edea638a961071a34e8c7">ae2f_MAC</a>() ae2f_SysFtxWake__linux(</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><a class="code hl_define" href="../../d7/d6b/Macro_8h.html#ad19b80a947856d31a5aea582c01fc230">ae2f_MAC</a>() ae2f_SysFtxWake__linux(</div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>        ae2f_eSysFtxWake    ret_err,</div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>        <a class="code hl_typedef" href="../../d3/de9/Ftx_8h.html#ae6783215cc7c3f017a72a9db8ac03a04">ae2f_SysFtxEl_t</a>* <span class="keyword">const</span>  prm_uaddr,</div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>        <span class="keyword">const</span> <span class="keywordtype">int</span>       prm_numthrd</div>
@@ -149,7 +149,7 @@ $(function() {
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>            );</div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>}</div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><a class="code hl_define" href="../../df/dcd/mac_8h.html#af1512227391edea638a961071a34e8c7">ae2f_MAC</a>() ae2f_SysFtxWakeOne__linux(ae2f_eSysFtxWake ret_err, <a class="code hl_typedef" href="../../d3/de9/Ftx_8h.html#ae6783215cc7c3f017a72a9db8ac03a04">ae2f_SysFtxEl_t</a>* <span class="keyword">const</span> prm_uaddr) {</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><a class="code hl_define" href="../../d7/d6b/Macro_8h.html#ad19b80a947856d31a5aea582c01fc230">ae2f_MAC</a>() ae2f_SysFtxWakeOne__linux(ae2f_eSysFtxWake ret_err, <a class="code hl_typedef" href="../../d3/de9/Ftx_8h.html#ae6783215cc7c3f017a72a9db8ac03a04">ae2f_SysFtxEl_t</a>* <span class="keyword">const</span> prm_uaddr) {</div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    _ae2f_SysFtxWake__linux(ret_err, prm_uaddr, 1);</div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>}</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
@@ -158,8 +158,8 @@ $(function() {
 <div class="ttc" id="aCast_8h_html_ab86a90b116e454206d7d4f5c0d07ebcb"><div class="ttname"><a href="../../d3/dc4/Cast_8h.html#ab86a90b116e454206d7d4f5c0d07ebcb">ae2f_static_cast</a></div><div class="ttdeci">#define ae2f_static_cast(t, v)</div><div class="ttdoc">static_cast for C++</div><div class="ttdef"><b>Definition</b> <a href="../../d3/dc4/Cast_8h_source.html#l00028">Cast.h:28</a></div></div>
 <div class="ttc" id="aFtx_8core_8h_html_a1185634bc4fb0177caf391a9f3f3942bafa436bf3ee97253e4896098ce4fb4c19"><div class="ttname"><a href="../../db/d70/Ftx_8core_8h.html#a1185634bc4fb0177caf391a9f3f3942bafa436bf3ee97253e4896098ce4fb4c19">ae2f_SysFtxWait_GOOD</a></div><div class="ttdeci">@ ae2f_SysFtxWait_GOOD</div><div class="ttdoc">Succesful.</div><div class="ttdef"><b>Definition</b> <a href="../../db/d70/Ftx_8core_8h_source.html#l00022">Ftx.core.h:22</a></div></div>
 <div class="ttc" id="aFtx_8h_html_ae6783215cc7c3f017a72a9db8ac03a04"><div class="ttname"><a href="../../d3/de9/Ftx_8h.html#ae6783215cc7c3f017a72a9db8ac03a04">ae2f_SysFtxEl_t</a></div><div class="ttdeci">_ae2f_SysFtxEl_t ae2f_SysFtxEl_t</div><div class="ttdoc">Futex address element type.</div><div class="ttdef"><b>Definition</b> <a href="../../d3/de9/Ftx_8h_source.html#l00028">Ftx.h:28</a></div></div>
+<div class="ttc" id="aMacro_8h_html_ad19b80a947856d31a5aea582c01fc230"><div class="ttname"><a href="../../d7/d6b/Macro_8h.html#ad19b80a947856d31a5aea582c01fc230">ae2f_MAC</a></div><div class="ttdeci">#define ae2f_MAC(a)</div><div class="ttdoc">A hint for creating a macro from void-returning function.</div><div class="ttdef"><b>Definition</b> <a href="../../d7/d6b/Macro_8h_source.html#l00017">Macro.h:17</a></div></div>
 <div class="ttc" id="aSys_8h_html_a88e3d7092a07afc154dc26691e6be745"><div class="ttname"><a href="../../d5/dba/Sys_8h.html#a88e3d7092a07afc154dc26691e6be745">ae2f_Sys__linux</a></div><div class="ttdeci">#define ae2f_Sys__linux</div><div class="ttdoc">Value expected did not match.</div><div class="ttdef"><b>Definition</b> <a href="../../d5/dba/Sys_8h_source.html#l00015">Sys.h:15</a></div></div>
-<div class="ttc" id="amac_8h_html_af1512227391edea638a961071a34e8c7"><div class="ttname"><a href="../../df/dcd/mac_8h.html#af1512227391edea638a961071a34e8c7">ae2f_MAC</a></div><div class="ttdeci">#define ae2f_MAC(...)</div><div class="ttdef"><b>Definition</b> <a href="../../df/dcd/mac_8h_source.html#l00029">mac.h:29</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

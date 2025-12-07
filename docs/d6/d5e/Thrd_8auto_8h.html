@@ -201,7 +201,26 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"></div><!-- fragment --><p>tparam param </p>
+<b>Value:</b><div class="fragment"><div class="line">{ \</div>
+<div class="line">    switch(pthread_join((ref_thrd).m_id, &amp;(ret_rtn))) \</div>
+<div class="line">    { \</div>
+<div class="line">        <span class="keywordflow">case</span> EDEADLK: \</div>
+<div class="line">            (ret_stat) = ae2f_eSysThrdBusy; \</div>
+<div class="line">            <span class="keywordflow">break</span>; \</div>
+<div class="line">        <span class="keywordflow">case</span> EINVAL: \</div>
+<div class="line">            (ret_stat) = (ae2f_eSysThrdErr); \</div>
+<div class="line">            <span class="keywordflow">break</span>; \</div>
+<div class="line">        <span class="keywordflow">case</span> ESRCH: \</div>
+<div class="line">            (ret_stat) = (<a class="code hl_enumvalue" href="../../df/d25/Thrd_8h.html#a0c761b5e6e49df19c7b98e92ea3d944fab67176f1b91fe266a57091434b7c155c">ae2f_eSysThrdMemOut</a>); \</div>
+<div class="line">            <span class="keywordflow">break</span>; \</div>
+<div class="line">        <span class="keywordflow">case</span> 0: \</div>
+<div class="line">            (ret_stat) = <a class="code hl_enumvalue" href="../../df/d25/Thrd_8h.html#a0c761b5e6e49df19c7b98e92ea3d944fae77961cbd170df112005be4e5302a5ad">ae2f_eSysThrdSuccess</a>; \</div>
+<div class="line">            <span class="keywordflow">break</span>; \</div>
+<div class="line">    } \</div>
+<div class="line">}</div>
+<div class="ttc" id="aThrd_8h_html_a0c761b5e6e49df19c7b98e92ea3d944fab67176f1b91fe266a57091434b7c155c"><div class="ttname"><a href="../../df/d25/Thrd_8h.html#a0c761b5e6e49df19c7b98e92ea3d944fab67176f1b91fe266a57091434b7c155c">ae2f_eSysThrdMemOut</a></div><div class="ttdeci">@ ae2f_eSysThrdMemOut</div><div class="ttdef"><b>Definition</b> <a href="../../df/d25/Thrd_8h_source.html#l00038">Thrd.h:38</a></div></div>
+<div class="ttc" id="aThrd_8h_html_a0c761b5e6e49df19c7b98e92ea3d944fae77961cbd170df112005be4e5302a5ad"><div class="ttname"><a href="../../df/d25/Thrd_8h.html#a0c761b5e6e49df19c7b98e92ea3d944fae77961cbd170df112005be4e5302a5ad">ae2f_eSysThrdSuccess</a></div><div class="ttdeci">@ ae2f_eSysThrdSuccess</div><div class="ttdef"><b>Definition</b> <a href="../../df/d25/Thrd_8h_source.html#l00035">Thrd.h:35</a></div></div>
+</div><!-- fragment --><p>tparam param </p>
 
 <p class="definition">Definition at line <a class="el" href="../../d6/d5e/Thrd_8auto_8h_source.html#l00337">337</a> of file <a class="el" href="../../d6/d5e/Thrd_8auto_8h_source.html">Thrd.auto.h</a>.</p>
 
@@ -240,7 +259,32 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"></div><!-- fragment --><dl class="params"><dt>Parameters</dt><dd>
+<b>Value:</b><div class="fragment"><div class="line">{ \</div>
+<div class="line">    (ret_stat) = pthread_create( \</div>
+<div class="line">            &amp;(ret_thrd).m_id \</div>
+<div class="line">            , <a class="code hl_define" href="../../d3/dc4/Cast_8h.html#acd8146ed1e048f22e68ea16ad208e84a">ae2f_reinterpret_cast</a>(<span class="keyword">const</span> pthread_attr_t*, NULL) \</div>
+<div class="line">            , prm_func \</div>
+<div class="line">            , prm_arg \</div>
+<div class="line">            ); \</div>
+<div class="line"> \</div>
+<div class="line">    switch(ret_stat) { \</div>
+<div class="line">        <span class="keywordflow">case</span> 0: \</div>
+<div class="line">            (ret_stat) = <a class="code hl_enumvalue" href="../../df/d25/Thrd_8h.html#a0c761b5e6e49df19c7b98e92ea3d944fae77961cbd170df112005be4e5302a5ad">ae2f_eSysThrdSuccess</a>; \</div>
+<div class="line">            <span class="keywordflow">break</span>; \</div>
+<div class="line"> \</div>
+<div class="line">        <span class="keywordflow">case</span> EAGAIN: \</div>
+<div class="line">            (ret_stat) = <a class="code hl_enumvalue" href="../../df/d25/Thrd_8h.html#a0c761b5e6e49df19c7b98e92ea3d944fab67176f1b91fe266a57091434b7c155c">ae2f_eSysThrdMemOut</a>; \</div>
+<div class="line">            <span class="keywordflow">break</span>; \</div>
+<div class="line"> \</div>
+<div class="line">        <span class="keywordflow">case</span> EINVAL: \</div>
+<div class="line">        <span class="keywordflow">case</span> EPERM: \</div>
+<div class="line">        <span class="keywordflow">default</span>: \</div>
+<div class="line">            (ret_stat) = ae2f_eSysThrdErr; \</div>
+<div class="line">            <span class="keywordflow">break</span>; \</div>
+<div class="line">    } \</div>
+<div class="line">}</div>
+<div class="ttc" id="aCast_8h_html_acd8146ed1e048f22e68ea16ad208e84a"><div class="ttname"><a href="../../d3/dc4/Cast_8h.html#acd8146ed1e048f22e68ea16ad208e84a">ae2f_reinterpret_cast</a></div><div class="ttdeci">#define ae2f_reinterpret_cast(t, v)</div><div class="ttdoc">reinterpret_cast for C++</div><div class="ttdef"><b>Definition</b> <a href="../../d3/dc4/Cast_8h_source.html#l00036">Cast.h:36</a></div></div>
+</div><!-- fragment --><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">prm_stacksz_unused</td><td>is not used here. tparam param </td></tr>
   </table>
@@ -274,7 +318,10 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"></div><!-- fragment --><p>tparam param </p>
+<b>Value:</b><div class="fragment"><div class="line">{ \</div>
+<div class="line">    (ret_stat) = nanosleep(prm_req, prm_rem); \</div>
+<div class="line">}</div>
+</div><!-- fragment --><p>tparam param </p>
 
 <p class="definition">Definition at line <a class="el" href="../../d6/d5e/Thrd_8auto_8h_source.html#l00365">365</a> of file <a class="el" href="../../d6/d5e/Thrd_8auto_8h_source.html">Thrd.auto.h</a>.</p>
 
@@ -294,7 +341,10 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"></div><!-- fragment --><p>tparam param </p>
+<b>Value:</b><div class="fragment"><div class="line">{ \</div>
+<div class="line">    sched_yield(); \</div>
+<div class="line">}</div>
+</div><!-- fragment --><p>tparam param </p>
 
 <p class="definition">Definition at line <a class="el" href="../../d6/d5e/Thrd_8auto_8h_source.html#l00378">378</a> of file <a class="el" href="../../d6/d5e/Thrd_8auto_8h_source.html">Thrd.auto.h</a>.</p>
 

@@ -19,7 +19,7 @@
 > `e_libprefix_obj_ext_t`
 
 ### enum_bitfield <BFIELD>
-> `be_libprefix_obj_t`
+> `B_libprefix_obj_t`
 
 ## typedef
 ### simple
@@ -27,6 +27,10 @@
 
 ### function
 > `fn_libprefix_act_t(void)`
+
+### undefined
+> declared but undefined struct | union | class type.  
+> `a_libprefix_obj_t`
 
 ### opaque pointer & handle
 > opaque pointer will be known as handle.  
@@ -38,11 +42,12 @@
 > Prefixes are designed to be combined.
 
 ### template
-- <TP>:             `*_t`
-- <CD>:             `c_*`
-- <OPR1>:           `o1_*`
-- <OPR2>:           `o2_*`
-- <OPR3>:           `o3_*`
+- <TP>:             `*_T`
+- <CD>:             `C_*`
+- <LBL>:            `L_*`
+- <OPR1>:           `O1_*`
+- <OPR2>:           `O2_*`
+- <OPR3>:           `O3_*`
 
 ### classic
 - <TMP>:        `t_*`

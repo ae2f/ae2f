@@ -6,7 +6,7 @@
 
 ## Documentation
 - `@file file` with `@brief brief`, on top for minimum doxygen declaration.
-- `@def name` or `@function name` for declaring it public.
+- `@def name` or `@fn name` for declaring it public.
 - `@param name <PARAMTAG>... [typename]` for c-style parameter.
 - `@tparam name <TPARAMTAG>` for template parameter, when c-style parameter is not enough.
 
@@ -14,11 +14,18 @@
 - <CLASS>
     > direct modification of the structure is not adviced.
 
+- <ABSTRCT>
+    > an un-defined type
+
 ## Function Tags
 - <TDSAFE>      
     > Thread safe. When this is omitted, it is not desinged as thread-safe.
 
 ## Template Parameter Tags
+- <LBL>
+    > temporary label parameter  
+    > which could be a name for variable, function, goto label, etc
+
 - <TP>  
     > Type parameter
 
