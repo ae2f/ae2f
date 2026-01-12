@@ -136,6 +136,23 @@ Macros</h2></td></tr>
 <tr class="memdesc:a0775b2d7aa437f502ab88e991be880ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function implementation for shared object.  <br /></td></tr>
 <tr class="memitem:a654bb8dafe3d9d058fb0cfd569003f91" id="r_a654bb8dafe3d9d058fb0cfd569003f91"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a654bb8dafe3d9d058fb0cfd569003f91">ae2f_noexcept</a></td></tr>
 <tr class="memdesc:a654bb8dafe3d9d058fb0cfd569003f91"><td class="mdescLeft">&#160;</td><td class="mdescRight">marker that this function does not throw something.  <br /></td></tr>
+<tr class="memitem:ac163ce3f7a396bc907686e6ba22cb5a7" id="r_ac163ce3f7a396bc907686e6ba22cb5a7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac163ce3f7a396bc907686e6ba22cb5a7">ae2f_inline</a></td></tr>
+<tr class="memdesc:ac163ce3f7a396bc907686e6ba22cb5a7"><td class="mdescLeft">&#160;</td><td class="mdescRight"><span class="tt">inline</span>  <br /></td></tr>
+<tr class="memitem:a941a4d9d67e48a1afa7bfc2bf42bca00" id="r_a941a4d9d67e48a1afa7bfc2bf42bca00"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a941a4d9d67e48a1afa7bfc2bf42bca00">ae2f_fallthrough</a></td></tr>
+<tr class="memdesc:a941a4d9d67e48a1afa7bfc2bf42bca00"><td class="mdescLeft">&#160;</td><td class="mdescRight">explicitly tells compiler that fallthrough on switch is expected.  <br /></td></tr>
+<tr class="memitem:ad24cb0da0121238f0b39edd7a891317d" id="r_ad24cb0da0121238f0b39edd7a891317d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad24cb0da0121238f0b39edd7a891317d">ae2f_expected</a>(a)</td></tr>
+<tr class="memdesc:ad24cb0da0121238f0b39edd7a891317d"><td class="mdescLeft">&#160;</td><td class="mdescRight">expectes <span class="tt">a</span> as <span class="tt">true</span>.  <br /></td></tr>
+<tr class="memitem:a849143badab2480c16ae10d5ae389aa5" id="r_a849143badab2480c16ae10d5ae389aa5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a849143badab2480c16ae10d5ae389aa5">ae2f_expected_not</a>(a)</td></tr>
+<tr class="memdesc:a849143badab2480c16ae10d5ae389aa5"><td class="mdescLeft">&#160;</td><td class="mdescRight">expectes <span class="tt">a</span> as <span class="tt">false</span>.  <br /></td></tr>
+<tr class="memitem:a4575b44444ed67cbfa711dcd0ed958f4" id="r_a4575b44444ed67cbfa711dcd0ed958f4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4575b44444ed67cbfa711dcd0ed958f4">ae2f_unexpected</a>&#160;&#160;&#160;<a class="el" href="#a849143badab2480c16ae10d5ae389aa5">ae2f_expected_not</a></td></tr>
+<tr class="memitem:a2fbc7855ab2dadad2c13881897a003e7" id="r_a2fbc7855ab2dadad2c13881897a003e7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2fbc7855ab2dadad2c13881897a003e7">ae2f_unexpected_but_if</a>(a)</td></tr>
+<tr class="memitem:a603d4a0966de4a1a3afb32946efc779b" id="r_a603d4a0966de4a1a3afb32946efc779b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a603d4a0966de4a1a3afb32946efc779b">ae2f_expected_if</a>(a)</td></tr>
+<tr class="memitem:a880cf128e2e093f6a4075082fe498bb8" id="r_a880cf128e2e093f6a4075082fe498bb8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a880cf128e2e093f6a4075082fe498bb8">ae2f_unexpected_else</a>(a)</td></tr>
+<tr class="memitem:a449a46e34d9ed28b7d573cc42375a40b" id="r_a449a46e34d9ed28b7d573cc42375a40b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a449a46e34d9ed28b7d573cc42375a40b">ae2f_expected_but_else</a>(a)</td></tr>
+<tr class="memitem:a8cff1af85f1719e962c4621c42ce673f" id="r_a8cff1af85f1719e962c4621c42ce673f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8cff1af85f1719e962c4621c42ce673f">ae2f_unreachable</a>()</td></tr>
+<tr class="memdesc:a8cff1af85f1719e962c4621c42ce673f"><td class="mdescLeft">&#160;</td><td class="mdescRight">tells the compiler that below this keyword is not expected to be reached.  <br /></td></tr>
+<tr class="memitem:a1fb5279133ac5d7b500a7d38fb8694ce" id="r_a1fb5279133ac5d7b500a7d38fb8694ce"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1fb5279133ac5d7b500a7d38fb8694ce">ae2f_assume</a>(a)</td></tr>
+<tr class="memdesc:a1fb5279133ac5d7b500a7d38fb8694ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">tells the compiler that value if <span class="tt">a</span> is <span class="tt">false</span>, below this keyword is not expected to be reached.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Utility marks which could partially be available with gnu compiler. </p>
@@ -182,6 +199,30 @@ Macros</h2></td></tr>
 <p>Available when compiled with msvc. </p>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/df0/cc_8h_source.html#l00038">38</a> of file <a class="el" href="../../dc/df0/cc_8h_source.html">cc.h</a>.</p>
+
+</div>
+</div>
+<a id="a1fb5279133ac5d7b500a7d38fb8694ce" name="a1fb5279133ac5d7b500a7d38fb8694ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1fb5279133ac5d7b500a7d38fb8694ce">&#9670;&#160;</a></span>ae2f_assume</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ae2f_assume</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>a</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">if</span>(!(a)) { <a class="code hl_define" href="#a8cff1af85f1719e962c4621c42ce673f">ae2f_unreachable</a>(); }</div>
+<div class="ttc" id="acc_8h_html_a8cff1af85f1719e962c4621c42ce673f"><div class="ttname"><a href="#a8cff1af85f1719e962c4621c42ce673f">ae2f_unreachable</a></div><div class="ttdeci">#define ae2f_unreachable()</div><div class="ttdoc">tells the compiler that below this keyword is not expected to be reached.</div><div class="ttdef"><b>Definition</b> <a href="../../dc/df0/cc_8h_source.html#l00213">cc.h:213</a></div></div>
+</div><!-- fragment -->
+<p>tells the compiler that value if <span class="tt">a</span> is <span class="tt">false</span>, below this keyword is not expected to be reached. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="#a8cff1af85f1719e962c4621c42ce673f" title="tells the compiler that below this keyword is not expected to be reached.">ae2f_unreachable</a> </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="../../dc/df0/cc_8h_source.html#l00228">228</a> of file <a class="el" href="../../dc/df0/cc_8h_source.html">cc.h</a>.</p>
 
 </div>
 </div>
@@ -239,6 +280,109 @@ Macros</h2></td></tr>
 
 </div>
 </div>
+<a id="ad24cb0da0121238f0b39edd7a891317d" name="ad24cb0da0121238f0b39edd7a891317d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad24cb0da0121238f0b39edd7a891317d">&#9670;&#160;</a></span>ae2f_expected</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ae2f_expected</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>a</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">a</div>
+</div><!-- fragment -->
+<p>expectes <span class="tt">a</span> as <span class="tt">true</span>. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../dc/df0/cc_8h_source.html#l00184">184</a> of file <a class="el" href="../../dc/df0/cc_8h_source.html">cc.h</a>.</p>
+
+</div>
+</div>
+<a id="a449a46e34d9ed28b7d573cc42375a40b" name="a449a46e34d9ed28b7d573cc42375a40b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a449a46e34d9ed28b7d573cc42375a40b">&#9670;&#160;</a></span>ae2f_expected_but_else</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ae2f_expected_but_else</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>a</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">if</span>(!(<a class="code hl_define" href="#ad24cb0da0121238f0b39edd7a891317d">ae2f_expected</a>(a)))</div>
+<div class="ttc" id="acc_8h_html_ad24cb0da0121238f0b39edd7a891317d"><div class="ttname"><a href="#ad24cb0da0121238f0b39edd7a891317d">ae2f_expected</a></div><div class="ttdeci">#define ae2f_expected(a)</div><div class="ttdoc">expectes a as true.</div><div class="ttdef"><b>Definition</b> <a href="../../dc/df0/cc_8h_source.html#l00184">cc.h:184</a></div></div>
+</div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="../../dc/df0/cc_8h_source.html#l00201">201</a> of file <a class="el" href="../../dc/df0/cc_8h_source.html">cc.h</a>.</p>
+
+</div>
+</div>
+<a id="a603d4a0966de4a1a3afb32946efc779b" name="a603d4a0966de4a1a3afb32946efc779b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a603d4a0966de4a1a3afb32946efc779b">&#9670;&#160;</a></span>ae2f_expected_if</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ae2f_expected_if</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>a</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">if</span>(<a class="code hl_define" href="#ad24cb0da0121238f0b39edd7a891317d">ae2f_expected</a>(a))</div>
+</div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="../../dc/df0/cc_8h_source.html#l00195">195</a> of file <a class="el" href="../../dc/df0/cc_8h_source.html">cc.h</a>.</p>
+
+</div>
+</div>
+<a id="a849143badab2480c16ae10d5ae389aa5" name="a849143badab2480c16ae10d5ae389aa5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a849143badab2480c16ae10d5ae389aa5">&#9670;&#160;</a></span>ae2f_expected_not</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ae2f_expected_not</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>a</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">a</div>
+</div><!-- fragment -->
+<p>expectes <span class="tt">a</span> as <span class="tt">false</span>. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../dc/df0/cc_8h_source.html#l00185">185</a> of file <a class="el" href="../../dc/df0/cc_8h_source.html">cc.h</a>.</p>
+
+</div>
+</div>
+<a id="a941a4d9d67e48a1afa7bfc2bf42bca00" name="a941a4d9d67e48a1afa7bfc2bf42bca00"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a941a4d9d67e48a1afa7bfc2bf42bca00">&#9670;&#160;</a></span>ae2f_fallthrough</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ae2f_fallthrough</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>explicitly tells compiler that fallthrough on switch is expected. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../dc/df0/cc_8h_source.html#l00164">164</a> of file <a class="el" href="../../dc/df0/cc_8h_source.html">cc.h</a>.</p>
+
+</div>
+</div>
 <a id="a0775b2d7aa437f502ab88e991be880ea" name="a0775b2d7aa437f502ab88e991be880ea"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0775b2d7aa437f502ab88e991be880ea">&#9670;&#160;</a></span>ae2f_impl</h2>
 
@@ -254,6 +398,24 @@ Macros</h2></td></tr>
 <p>Function implementation for shared object. </p>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/df0/cc_8h_source.html#l00118">118</a> of file <a class="el" href="../../dc/df0/cc_8h_source.html">cc.h</a>.</p>
+
+</div>
+</div>
+<a id="ac163ce3f7a396bc907686e6ba22cb5a7" name="ac163ce3f7a396bc907686e6ba22cb5a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac163ce3f7a396bc907686e6ba22cb5a7">&#9670;&#160;</a></span>ae2f_inline</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ae2f_inline</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><span class="tt">inline</span> </p>
+
+<p class="definition">Definition at line <a class="el" href="../../dc/df0/cc_8h_source.html#l00149">149</a> of file <a class="el" href="../../dc/df0/cc_8h_source.html">cc.h</a>.</p>
 
 </div>
 </div>
@@ -308,6 +470,84 @@ Macros</h2></td></tr>
 <p>The returning pointer does not alias to existing object. </p>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/df0/cc_8h_source.html#l00094">94</a> of file <a class="el" href="../../dc/df0/cc_8h_source.html">cc.h</a>.</p>
+
+</div>
+</div>
+<a id="a4575b44444ed67cbfa711dcd0ed958f4" name="a4575b44444ed67cbfa711dcd0ed958f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4575b44444ed67cbfa711dcd0ed958f4">&#9670;&#160;</a></span>ae2f_unexpected</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ae2f_unexpected&#160;&#160;&#160;<a class="el" href="#a849143badab2480c16ae10d5ae389aa5">ae2f_expected_not</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../dc/df0/cc_8h_source.html#l00189">189</a> of file <a class="el" href="../../dc/df0/cc_8h_source.html">cc.h</a>.</p>
+
+</div>
+</div>
+<a id="a2fbc7855ab2dadad2c13881897a003e7" name="a2fbc7855ab2dadad2c13881897a003e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2fbc7855ab2dadad2c13881897a003e7">&#9670;&#160;</a></span>ae2f_unexpected_but_if</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ae2f_unexpected_but_if</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>a</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">if</span>(<a class="code hl_define" href="#a849143badab2480c16ae10d5ae389aa5">ae2f_expected_not</a>(a))</div>
+<div class="ttc" id="acc_8h_html_a849143badab2480c16ae10d5ae389aa5"><div class="ttname"><a href="#a849143badab2480c16ae10d5ae389aa5">ae2f_expected_not</a></div><div class="ttdeci">#define ae2f_expected_not(a)</div><div class="ttdoc">expectes a as false.</div><div class="ttdef"><b>Definition</b> <a href="../../dc/df0/cc_8h_source.html#l00185">cc.h:185</a></div></div>
+</div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="../../dc/df0/cc_8h_source.html#l00192">192</a> of file <a class="el" href="../../dc/df0/cc_8h_source.html">cc.h</a>.</p>
+
+</div>
+</div>
+<a id="a880cf128e2e093f6a4075082fe498bb8" name="a880cf128e2e093f6a4075082fe498bb8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a880cf128e2e093f6a4075082fe498bb8">&#9670;&#160;</a></span>ae2f_unexpected_else</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ae2f_unexpected_else</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>a</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">if</span>(!ae2f_unexpected(a))</div>
+</div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="../../dc/df0/cc_8h_source.html#l00198">198</a> of file <a class="el" href="../../dc/df0/cc_8h_source.html">cc.h</a>.</p>
+
+</div>
+</div>
+<a id="a8cff1af85f1719e962c4621c42ce673f" name="a8cff1af85f1719e962c4621c42ce673f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8cff1af85f1719e962c4621c42ce673f">&#9670;&#160;</a></span>ae2f_unreachable</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ae2f_unreachable</td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>tells the compiler that below this keyword is not expected to be reached. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../dc/df0/cc_8h_source.html#l00213">213</a> of file <a class="el" href="../../dc/df0/cc_8h_source.html">cc.h</a>.</p>
 
 </div>
 </div>

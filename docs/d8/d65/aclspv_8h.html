@@ -108,94 +108,67 @@ $(function() {
 <div class="textblock"><code>#include &lt;<a class="el" href="../../d6/d08/Keys_8h_source.html">ae2f/Keys.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../dc/df0/cc_8h_source.html">ae2f/cc.h</a>&gt;</code><br />
 <code>#include &quot;<a class="el" href="../../df/d31/abi_8h_source.html">./aclspv/abi.h</a>&quot;</code><br />
-<code>#include &lt;<a class="el" href="../../df/d6d/StdInt_8h_source.html">ae2f/c90/StdInt.h</a>&gt;</code><br />
-<code>#include &quot;<a class="el" href="../../d5/d99/obj_8h_source.html">./aclspv/obj.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dc/d45/spvty_8h_source.html">./aclspv/spvty.h</a>&quot;</code><br />
 <code>#include &lt;clang-c/Index.h&gt;</code><br />
 </div>
 <p><a href="../../d8/d65/aclspv_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:ad444d3bacc4633f626c504883db6959d" id="r_ad444d3bacc4633f626c504883db6959d"><td class="memItemLeft" align="right" valign="top">typedef uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad444d3bacc4633f626c504883db6959d">aclspv_wrd_t</a></td></tr>
-<tr class="memdesc:ad444d3bacc4633f626c504883db6959d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Word of spir-v as 32-bit unsigned integer.  <br /></td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-enum-members" class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a6f39142563c4f941fb8cb3694511e8ed" id="r_a6f39142563c4f941fb8cb3694511e8ed"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f39142563c4f941fb8cb3694511e8ed">e_aclspv_init_global</a> { <b>ACLSPV_INIT_GLOBAL_OK</b>
+<tr class="memitem:ade7a5c6c2ada5298bb64429790538916" id="r_ade7a5c6c2ada5298bb64429790538916"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><b>e_aclspv_compile_t</b> { <br />
+&#160;&#160;<b>ACLSPV_COMPILE_OK</b>
+, <b>ACLSPV_COMPILE_ALLOC_FAILED</b>
+, <b>ACLSPV_COMPILE_MET_INVAL</b>
+, <b>ACLSPV_COMPILE_ERR_CLANG</b>
+, <br />
+&#160;&#160;<b>ACLSPV_COMPILE_TOO_BIG</b>
+, <b>ACLSPV_COMPILE_NO_IMPL</b>
+, <b>ACLSPV_COMPILE_WORKGROUP_MUST_BE_CONSTANT_ARRAY</b>
+, <b>ACLSPV_COMPILE_STORAGE_CLASS_UNDEFINED</b>
+<br />
  }</td></tr>
-<tr class="memdesc:a6f39142563c4f941fb8cb3694511e8ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">result value for <span class="tt"><a class="el" href="#ab468e4578ffa3636f2618619c2fecd1a" title="initialise the library&#39;s global state">aclspv_init_global</a></span>  <a href="#a6f39142563c4f941fb8cb3694511e8ed">More...</a><br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ab468e4578ffa3636f2618619c2fecd1a" id="r_ab468e4578ffa3636f2618619c2fecd1a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d08/Keys_8h.html#af32d53608be4ca28fd8e5cd34fc0279b">ae2f_extern</a> <a class="el" href="../../df/d31/abi_8h.html#a41001e1cd01af6bdfa794fc8da336562">ACLSPV_ABI_DECL</a> <a class="el" href="#a6f39142563c4f941fb8cb3694511e8ed">e_aclspv_init_global</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab468e4578ffa3636f2618619c2fecd1a">aclspv_init_global</a> (void)</td></tr>
-<tr class="memdesc:ab468e4578ffa3636f2618619c2fecd1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">initialise the library's global state  <br /></td></tr>
-<tr class="memitem:a93c9b43d1d20d6d8309104de0129b419" id="r_a93c9b43d1d20d6d8309104de0129b419"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d08/Keys_8h.html#af32d53608be4ca28fd8e5cd34fc0279b">ae2f_extern</a> <a class="el" href="../../df/d31/abi_8h.html#a41001e1cd01af6bdfa794fc8da336562">ACLSPV_ABI_DECL</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a93c9b43d1d20d6d8309104de0129b419">aclspv_stop_global</a> (void)</td></tr>
-<tr class="memdesc:a93c9b43d1d20d6d8309104de0129b419"><td class="mdescLeft">&#160;</td><td class="mdescRight">stops the library's globla state  <br /></td></tr>
-<tr class="memitem:a34851aed8d2d816fd2ffd5f505b62308" id="r_a34851aed8d2d816fd2ffd5f505b62308"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d08/Keys_8h.html#af32d53608be4ca28fd8e5cd34fc0279b">ae2f_extern</a> <a class="el" href="../../df/d31/abi_8h.html#a41001e1cd01af6bdfa794fc8da336562">ACLSPV_ABI_DECL</a> <a class="el" href="../../dc/df0/cc_8h.html#a0a9ce386eaf0e8571249c7a2ff26725d">ae2f_retnew</a> <a class="el" href="../../d7/d4a/classh__aclspv__obj__t.html">h_aclspv_obj_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34851aed8d2d816fd2ffd5f505b62308">aclspv_compile</a> (const char *<a class="el" href="../../dc/df0/cc_8h.html#a79bb8298afc6562a208e4c283ec3cf69">ae2f_restrict</a> const rd_srcpath, const struct CXUnsavedFile *<a class="el" href="../../dc/df0/cc_8h.html#a79bb8298afc6562a208e4c283ec3cf69">ae2f_restrict</a> const rd_unsaved, const size_t c_unsaved_len, const char *<a class="el" href="../../dc/df0/cc_8h.html#a79bb8298afc6562a208e4c283ec3cf69">ae2f_restrict</a> const *<a class="el" href="../../dc/df0/cc_8h.html#a79bb8298afc6562a208e4c283ec3cf69">ae2f_restrict</a> const rd_argv_opt, const size_t c_argc)</td></tr>
+<tr class="memitem:a0d8a42405106b137aae91eb6e20ca88c" id="r_a0d8a42405106b137aae91eb6e20ca88c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d08/Keys_8h.html#af32d53608be4ca28fd8e5cd34fc0279b">ae2f_extern</a> <a class="el" href="../../df/d31/abi_8h.html#a41001e1cd01af6bdfa794fc8da336562">ACLSPV_ABI_DECL</a> e_aclspv_compile_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d8a42405106b137aae91eb6e20ca88c">aclspv_compile</a> (struct CXUnsavedFile *<a class="el" href="../../dc/df0/cc_8h.html#a79bb8298afc6562a208e4c283ec3cf69">ae2f_restrict</a> const rdwr_unsaved, const unsigned c_unsaved_count, const char *<a class="el" href="../../dc/df0/cc_8h.html#a79bb8298afc6562a208e4c283ec3cf69">ae2f_restrict</a> const *<a class="el" href="../../dc/df0/cc_8h.html#a79bb8298afc6562a208e4c283ec3cf69">ae2f_restrict</a> const rd_argv_opt, const int c_argc, <a class="el" href="../../dc/d45/spvty_8h.html#a51b25d17f4a3ef6f91410b9022237068">aclspv_wrdcount_t</a> *<a class="el" href="../../dc/df0/cc_8h.html#a79bb8298afc6562a208e4c283ec3cf69">ae2f_restrict</a> rwr_output_count_opt, <a class="el" href="../../dc/d45/spvty_8h.html#ae785a70609b888e451f354e89665642e">aclspv_wrd_t</a> *<a class="el" href="../../dc/df0/cc_8h.html#a79bb8298afc6562a208e4c283ec3cf69">ae2f_restrict</a> *<a class="el" href="../../dc/df0/cc_8h.html#a79bb8298afc6562a208e4c283ec3cf69">ae2f_restrict</a> rwr_output, enum CXErrorCode *<a class="el" href="../../dc/df0/cc_8h.html#a79bb8298afc6562a208e4c283ec3cf69">ae2f_restrict</a> rwr_cxerr_opt)</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Compiles OpenCL C kernel code to SPIR-V for Vulkan. </p>
 
 <p class="definition">Definition in file <a class="el" href="../../d8/d65/aclspv_8h_source.html">aclspv.h</a>.</p>
-</div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
-<a id="ad444d3bacc4633f626c504883db6959d" name="ad444d3bacc4633f626c504883db6959d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad444d3bacc4633f626c504883db6959d">&#9670;&#160;</a></span>aclspv_wrd_t</h2>
+</div><a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">Enumeration Type Documentation</h2>
+<a id="ade7a5c6c2ada5298bb64429790538916" name="ade7a5c6c2ada5298bb64429790538916"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade7a5c6c2ada5298bb64429790538916">&#9670;&#160;</a></span>e_aclspv_compile_t</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef uint32_t <a class="el" href="#ad444d3bacc4633f626c504883db6959d">aclspv_wrd_t</a></td>
+          <td class="memname">enum e_aclspv_compile_t</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Word of spir-v as 32-bit unsigned integer. </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d8/d65/aclspv_8h_source.html#l00041">41</a> of file <a class="el" href="../../d8/d65/aclspv_8h_source.html">aclspv.h</a>.</p>
-
-</div>
-</div>
-<a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">Enumeration Type Documentation</h2>
-<a id="a6f39142563c4f941fb8cb3694511e8ed" name="a6f39142563c4f941fb8cb3694511e8ed"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6f39142563c4f941fb8cb3694511e8ed">&#9670;&#160;</a></span>e_aclspv_init_global</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="#a6f39142563c4f941fb8cb3694511e8ed">e_aclspv_init_global</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>result value for <span class="tt"><a class="el" href="#ab468e4578ffa3636f2618619c2fecd1a" title="initialise the library&#39;s global state">aclspv_init_global</a></span> </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d8/d65/aclspv_8h_source.html#l00019">19</a> of file <a class="el" href="../../d8/d65/aclspv_8h_source.html">aclspv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d65/aclspv_8h_source.html#l00017">17</a> of file <a class="el" href="../../d8/d65/aclspv_8h_source.html">aclspv.h</a>.</p>
 
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
-<a id="a34851aed8d2d816fd2ffd5f505b62308" name="a34851aed8d2d816fd2ffd5f505b62308"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a34851aed8d2d816fd2ffd5f505b62308">&#9670;&#160;</a></span>aclspv_compile()</h2>
+<a id="a0d8a42405106b137aae91eb6e20ca88c" name="a0d8a42405106b137aae91eb6e20ca88c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d8a42405106b137aae91eb6e20ca88c">&#9670;&#160;</a></span>aclspv_compile()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d6/d08/Keys_8h.html#af32d53608be4ca28fd8e5cd34fc0279b">ae2f_extern</a> <a class="el" href="../../df/d31/abi_8h.html#a44ccf0f026c954a79d1626913a7e9d99">ACLSPV_ABI_IMPL</a> <a class="el" href="../../dc/df0/cc_8h.html#a0a9ce386eaf0e8571249c7a2ff26725d">ae2f_retnew</a> <a class="el" href="../../d7/d4a/classh__aclspv__obj__t.html">h_aclspv_obj_t</a> aclspv_compile </td>
+          <td class="memname"><a class="el" href="../../d6/d08/Keys_8h.html#af32d53608be4ca28fd8e5cd34fc0279b">ae2f_extern</a> <a class="el" href="../../df/d31/abi_8h.html#a41001e1cd01af6bdfa794fc8da336562">ACLSPV_ABI_DECL</a> e_aclspv_compile_t aclspv_compile </td>
           <td>(</td>
-          <td class="paramtype">const char *<a class="el" href="../../dc/df0/cc_8h.html#a79bb8298afc6562a208e4c283ec3cf69">ae2f_restrict</a> const</td>          <td class="paramname"><span class="paramname"><em>rd_srcpath</em></span>, </td>
+          <td class="paramtype">struct CXUnsavedFile *<a class="el" href="../../dc/df0/cc_8h.html#a79bb8298afc6562a208e4c283ec3cf69">ae2f_restrict</a> const</td>          <td class="paramname"><span class="paramname"><em>rdwr_unsaved</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const struct CXUnsavedFile *<a class="el" href="../../dc/df0/cc_8h.html#a79bb8298afc6562a208e4c283ec3cf69">ae2f_restrict</a> const</td>          <td class="paramname"><span class="paramname"><em>rd_unsaved</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const size_t</td>          <td class="paramname"><span class="paramname"><em>c_unsaved_len</em></span>, </td>
+          <td class="paramtype">const unsigned</td>          <td class="paramname"><span class="paramname"><em>c_unsaved_count</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -205,54 +178,29 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const size_t</td>          <td class="paramname"><span class="paramname"><em>c_argc</em></span>&#160;)</td>
+          <td class="paramtype">const int</td>          <td class="paramname"><span class="paramname"><em>c_argc</em></span>, </td>
         </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d9/d79/aclspv_8cc_source.html#l00011">11</a> of file <a class="el" href="../../d9/d79/aclspv_8cc_source.html">aclspv.cc</a>.</p>
-
-</div>
-</div>
-<a id="ab468e4578ffa3636f2618619c2fecd1a" name="ab468e4578ffa3636f2618619c2fecd1a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab468e4578ffa3636f2618619c2fecd1a">&#9670;&#160;</a></span>aclspv_init_global()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d6/d08/Keys_8h.html#af32d53608be4ca28fd8e5cd34fc0279b">ae2f_extern</a> <a class="el" href="../../df/d31/abi_8h.html#a41001e1cd01af6bdfa794fc8da336562">ACLSPV_ABI_DECL</a> <a class="el" href="#a6f39142563c4f941fb8cb3694511e8ed">e_aclspv_init_global</a> aclspv_init_global </td>
-          <td>(</td>
-          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="../../dc/d45/spvty_8h.html#a51b25d17f4a3ef6f91410b9022237068">aclspv_wrdcount_t</a> *<a class="el" href="../../dc/df0/cc_8h.html#a79bb8298afc6562a208e4c283ec3cf69">ae2f_restrict</a></td>          <td class="paramname"><span class="paramname"><em>rwr_output_count_opt</em></span>, </td>
         </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>initialise the library's global state </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d9/db1/lib_2aclspv_8c_source.html#l00005">5</a> of file <a class="el" href="../../d9/db1/lib_2aclspv_8c_source.html">aclspv.c</a>.</p>
-
-</div>
-</div>
-<a id="a93c9b43d1d20d6d8309104de0129b419" name="a93c9b43d1d20d6d8309104de0129b419"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a93c9b43d1d20d6d8309104de0129b419">&#9670;&#160;</a></span>aclspv_stop_global()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d6/d08/Keys_8h.html#af32d53608be4ca28fd8e5cd34fc0279b">ae2f_extern</a> <a class="el" href="../../df/d31/abi_8h.html#a41001e1cd01af6bdfa794fc8da336562">ACLSPV_ABI_DECL</a> void aclspv_stop_global </td>
-          <td>(</td>
-          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="../../dc/d45/spvty_8h.html#ae785a70609b888e451f354e89665642e">aclspv_wrd_t</a> *<a class="el" href="../../dc/df0/cc_8h.html#a79bb8298afc6562a208e4c283ec3cf69">ae2f_restrict</a> *<a class="el" href="../../dc/df0/cc_8h.html#a79bb8298afc6562a208e4c283ec3cf69">ae2f_restrict</a></td>          <td class="paramname"><span class="paramname"><em>rwr_output</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">enum CXErrorCode *<a class="el" href="../../dc/df0/cc_8h.html#a79bb8298afc6562a208e4c283ec3cf69">ae2f_restrict</a></td>          <td class="paramname"><span class="paramname"><em>rwr_cxerr_opt</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>anchor</p>
+<p>IDX must be w0 at the end w0: current entry point index v0: current variable table (scale)</p>
 
-<p>stops the library's globla state </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d9/db1/lib_2aclspv_8c_source.html#l00016">16</a> of file <a class="el" href="../../d9/db1/lib_2aclspv_8c_source.html">aclspv.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d32/aclspv_8c_source.html#l00032">32</a> of file <a class="el" href="../../dc/d32/aclspv_8c_source.html">aclspv.c</a>.</p>
 
 </div>
 </div>

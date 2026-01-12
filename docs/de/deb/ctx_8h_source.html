@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.15.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>ae2f_docs: submod/ae3f/aclspv/lib/pass/ctx.h Source File</title>
+<title>ae2f_docs: submod/ae3f/aclspv/lib/util/ctx.h Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript">var page_layout=1;</script>
 <script type="text/javascript" src="../../jquery.js"></script>
@@ -105,38 +105,220 @@ $(function() {
   <div class="headertitle"><div class="title">ctx.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#</span><span class="preprocessor">ifndef</span> <span class="preprocessor">aclspv_pass_ctx_h</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#</span><span class="preprocessor">define</span> <span class="preprocessor">aclspv_pass_ctx_h</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#</span><span class="preprocessor">include</span> <span class="preprocessor">&lt;</span><span class="preprocessor">aclspv</span><span class="preprocessor">/</span><span class="preprocessor">pass</span><span class="preprocessor">.</span><span class="preprocessor">h</span><span class="preprocessor">&gt;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#</span><span class="preprocessor">include</span> <span class="preprocessor">&quot;./ctx.auto.h&quot;</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
-<div class="foldopen" id="foldopen00007" data-start="{" data-end="};">
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno"><a class="line" href="../../d1/db2/structaclspv__vec.html">    7</a></span><span class="keyword">typedef</span> <span class="keyword">struct</span> {</div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>    <span class="keywordtype">void</span>* <a class="code hl_define" href="../../dc/df0/cc_8h.html#a79bb8298afc6562a208e4c283ec3cf69">ae2f_restrict</a></div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>        m_p;</div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>    size_t  m_sz;</div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>} aclspv_vec;</div>
+<a href="../../de/deb/ctx_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/** @file ctx.h @brief the context of a compiler (something like a state machine) */</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#</span><span class="preprocessor">ifndef</span> <span class="preprocessor">lib_build_ctx_h</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#</span><span class="preprocessor">define</span> <span class="preprocessor">lib_build_ctx_h</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#</span><span class="preprocessor">include</span> <span class="preprocessor">&quot;../vec.auto.h&quot;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#</span><span class="preprocessor">include</span> <span class="preprocessor">&quot;./id.h&quot;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#</span><span class="preprocessor">include</span> <span class="preprocessor">&lt;</span><span class="preprocessor">aclspv</span><span class="preprocessor">.</span><span class="preprocessor">h</span><span class="preprocessor">&gt;</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#</span><span class="preprocessor">include</span> <span class="preprocessor">&lt;</span><span class="preprocessor">aclspv</span><span class="preprocessor">/</span><span class="preprocessor">spvty</span><span class="preprocessor">.</span><span class="preprocessor">h</span><span class="preprocessor">&gt;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#</span><span class="preprocessor">define</span> <span class="preprocessor">_free</span><span class="preprocessor">(</span><span class="preprocessor">a</span><span class="preprocessor">,</span> <span class="preprocessor">b</span><span class="preprocessor">)</span> <span class="preprocessor">free</span><span class="preprocessor">(</span><span class="preprocessor">a</span><span class="preprocessor">)</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
+<div class="foldopen" id="foldopen00014" data-start="{" data-end="};">
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="../../dd/dec/structa__aclspv__ctx.html">   14</a></span><span class="keyword">typedef</span> <span class="keyword">struct</span> <a class="code hl_struct" href="../../dd/dec/structa__aclspv__ctx.html">a_aclspv_ctx</a> {</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    <a class="code hl_define" href="../../dc/d45/spvty_8h.html#ae785a70609b888e451f354e89665642e">aclspv_wrd_t</a>        m_has_function_ret : 1;</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    <a class="code hl_define" href="../../dc/d45/spvty_8h.html#ae785a70609b888e451f354e89665642e">aclspv_wrd_t</a>        m_is_buffer_64 : 1;</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    <a class="code hl_define" href="../../dc/d45/spvty_8h.html#ae785a70609b888e451f354e89665642e">aclspv_wrd_t</a>        m_not_dbg : 1;</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <a class="code hl_define" href="../../dc/d45/spvty_8h.html#ae785a70609b888e451f354e89665642e">aclspv_wrd_t</a>        m_is_for_gl : 1;</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    <span class="comment">/**</span></div>
+<div class="line"><span class="lineno">   21</span><span class="comment">     * @brief   when on, ignores `m_is_buffer_64`.</span></div>
+<div class="line"><span class="lineno">   22</span><span class="comment">     * */</span></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="../../dd/dec/structa__aclspv__ctx.html#a89279110401225359e4a3170aa824210">   23</a></span>    <a class="code hl_define" href="../../dc/d45/spvty_8h.html#ae785a70609b888e451f354e89665642e">aclspv_wrd_t</a>        <a class="code hl_variable" href="../../dd/dec/structa__aclspv__ctx.html#a89279110401225359e4a3170aa824210">m_is_logical</a> : 1;</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    e_aclspv_compile_t  m_err;</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    <span class="comment">/**</span></div>
+<div class="line"><span class="lineno">   28</span><span class="comment">     * @var     m_ret</span></div>
+<div class="line"><span class="lineno">   29</span><span class="comment">     * @brief   word count for m_ret</span></div>
+<div class="line"><span class="lineno">   30</span><span class="comment">     * */</span></div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    <a class="code hl_typedef" href="../../dc/d45/spvty_8h.html#a51b25d17f4a3ef6f91410b9022237068">aclspv_wrdcount_t</a>   m_num_ret;</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <span class="comment">/** </span></div>
+<div class="line"><span class="lineno">   34</span><span class="comment">     * @brief</span></div>
+<div class="line"><span class="lineno">   35</span><span class="comment">     * number of `m_cursors`.   \n</span></div>
+<div class="line"><span class="lineno">   36</span><span class="comment">     * for its use see util/cursor.h</span></div>
+<div class="line"><span class="lineno">   37</span><span class="comment">     *</span></div>
+<div class="line"><span class="lineno">   38</span><span class="comment">     * @details</span></div>
+<div class="line"><span class="lineno">   39</span><span class="comment">     * reset on every function</span></div>
+<div class="line"><span class="lineno">   40</span><span class="comment">     * */</span></div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="../../dd/dec/structa__aclspv__ctx.html#a92697facfdab9910247f4ec80c0cf99a">   41</a></span>    <a class="code hl_typedef" href="../../dc/d45/spvty_8h.html#a51b25d17f4a3ef6f91410b9022237068">aclspv_wrdcount_t</a>   <a class="code hl_variable" href="../../dd/dec/structa__aclspv__ctx.html#a92697facfdab9910247f4ec80c0cf99a">m_num_cursor</a>;</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    <span class="comment">/** @see `m_type_uniques` */</span></div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="../../dd/dec/structa__aclspv__ctx.html#a5b10447e16ae5b9727ad9cae224e4b59">   44</a></span>    <a class="code hl_typedef" href="../../dc/d45/spvty_8h.html#a51b25d17f4a3ef6f91410b9022237068">aclspv_wrdcount_t</a>   <a class="code hl_variable" href="../../dd/dec/structa__aclspv__ctx.html#a5b10447e16ae5b9727ad9cae224e4b59">m_num_type_uniques</a>;</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <span class="comment">/**</span></div>
+<div class="line"><span class="lineno">   47</span><span class="comment">     * @var     m_id</span></div>
+<div class="line"><span class="lineno">   48</span><span class="comment">     * @brief   id</span></div>
+<div class="line"><span class="lineno">   49</span><span class="comment">     * */</span></div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="../../dd/dec/structa__aclspv__ctx.html#a706c61b6aec0d3c68d733425191b4102">   50</a></span>    aclspv_id_t     <a class="code hl_variable" href="../../dd/dec/structa__aclspv__ctx.html#a706c61b6aec0d3c68d733425191b4102">m_id</a>;</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    <span class="comment">/**</span></div>
+<div class="line"><span class="lineno">   53</span><span class="comment">     * @var     m_ret</span></div>
+<div class="line"><span class="lineno">   54</span><span class="comment">     * @brief   fully emitted spir-v</span></div>
+<div class="line"><span class="lineno">   55</span><span class="comment">     * */</span></div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="../../dd/dec/structa__aclspv__ctx.html#a8806dd0232baaf70c9fe71b0cf331572">   56</a></span>    <a class="code hl_variable" href="../../dd/dec/structa__aclspv__ctx.html#a8806dd0232baaf70c9fe71b0cf331572">x_aclspv_vec</a>        <a class="code hl_variable" href="../../dd/dec/structa__aclspv__ctx.html#a8806dd0232baaf70c9fe71b0cf331572">m_ret</a>;</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    <span class="comment">/** </span></div>
+<div class="line"><span class="lineno">   59</span><span class="comment">     * @var m_scale_vars </span></div>
+<div class="line"><span class="lineno">   60</span><span class="comment">     * @see util_bind </span></div>
+<div class="line"><span class="lineno">   61</span><span class="comment">     * */</span></div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno"><a class="line" href="../../dd/dec/structa__aclspv__ctx.html#a5a3e7010bdb140e9ff1445d677bea44a">   62</a></span>    <a class="code hl_variable" href="../../dd/dec/structa__aclspv__ctx.html#a5a3e7010bdb140e9ff1445d677bea44a">x_aclspv_vec</a>            <a class="code hl_variable" href="../../dd/dec/structa__aclspv__ctx.html#a5a3e7010bdb140e9ff1445d677bea44a">m_scale_vars</a>;</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    <span class="comment">/** cache for elements related to unsigned integer constants [lib_build_constant] */</span></div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno"><a class="line" href="../../dd/dec/structa__aclspv__ctx.html#a5f774ebab61d2650cb2eb0cb001a71ec">   65</a></span>    <a class="code hl_variable" href="../../dd/dec/structa__aclspv__ctx.html#a5f774ebab61d2650cb2eb0cb001a71ec">x_aclspv_vec</a>        <a class="code hl_variable" href="../../dd/dec/structa__aclspv__ctx.html#a5f774ebab61d2650cb2eb0cb001a71ec">m_constant_cache</a>;</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    <span class="comment">/** </span></div>
+<div class="line"><span class="lineno">   68</span><span class="comment">     * @brief</span></div>
+<div class="line"><span class="lineno">   69</span><span class="comment">     * cache for cursors for parsing one function </span></div>
+<div class="line"><span class="lineno">   70</span><span class="comment">     * for its use see util/cursor.h</span></div>
+<div class="line"><span class="lineno">   71</span><span class="comment">     *</span></div>
+<div class="line"><span class="lineno">   72</span><span class="comment">     * [util_cursor]</span></div>
+<div class="line"><span class="lineno">   73</span><span class="comment">     *</span></div>
+<div class="line"><span class="lineno">   74</span><span class="comment">     * @details</span></div>
+<div class="line"><span class="lineno">   75</span><span class="comment">     * reset on every function</span></div>
+<div class="line"><span class="lineno">   76</span><span class="comment">     * */</span></div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno"><a class="line" href="../../dd/dec/structa__aclspv__ctx.html#a5dd9f33a19764c70a42b5a9f527547ef">   77</a></span>    <a class="code hl_variable" href="../../dd/dec/structa__aclspv__ctx.html#a5dd9f33a19764c70a42b5a9f527547ef">x_aclspv_vec</a>        <a class="code hl_variable" href="../../dd/dec/structa__aclspv__ctx.html#a5dd9f33a19764c70a42b5a9f527547ef">m_cursors</a>;</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span> </div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    <span class="comment">/** </span></div>
+<div class="line"><span class="lineno">   80</span><span class="comment">     * @brief</span></div>
+<div class="line"><span class="lineno">   81</span><span class="comment">     * cache for complex types which needs to be stored somewhere</span></div>
+<div class="line"><span class="lineno">   82</span><span class="comment">     * for its use see util/type_unique.h</span></div>
+<div class="line"><span class="lineno">   83</span><span class="comment">     *</span></div>
+<div class="line"><span class="lineno">   84</span><span class="comment">     * [util_type_unique]</span></div>
+<div class="line"><span class="lineno">   85</span><span class="comment">     * */</span></div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno"><a class="line" href="../../dd/dec/structa__aclspv__ctx.html#aceee13f7bc310d12bb60cb7e8a2a1983">   86</a></span>    <a class="code hl_variable" href="../../dd/dec/structa__aclspv__ctx.html#aceee13f7bc310d12bb60cb7e8a2a1983">x_aclspv_vec</a>        <a class="code hl_variable" href="../../dd/dec/structa__aclspv__ctx.html#aceee13f7bc310d12bb60cb7e8a2a1983">m_type_uniques</a>;</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span> </div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>    <span class="keyword">struct</span> {</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>        <a class="code hl_define" href="../../dc/d45/spvty_8h.html#ae785a70609b888e451f354e89665642e">aclspv_wrd_t</a>    m_w0;</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>        <a class="code hl_define" href="../../dc/d45/spvty_8h.html#ae785a70609b888e451f354e89665642e">aclspv_wrd_t</a>    m_w1;</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>        <a class="code hl_define" href="../../dc/d45/spvty_8h.html#ae785a70609b888e451f354e89665642e">aclspv_wrd_t</a>    m_w2;</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>        <a class="code hl_define" href="../../dc/d45/spvty_8h.html#ae785a70609b888e451f354e89665642e">aclspv_wrd_t</a>    m_w3;</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span> </div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>        x_aclspv_vec    m_v0;</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>        x_aclspv_vec    m_v1;</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>    }   m_tmp;</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span> </div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>    <span class="keyword">struct</span> {</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>        <a class="code hl_typedef" href="../../dc/d45/spvty_8h.html#a51b25d17f4a3ef6f91410b9022237068">aclspv_wrdcount_t</a></div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>            m_capability,</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>            m_ext,</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>            m_memmodel,</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>            m_entp,</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>            m_execmode,</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>            m_name,</div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>            m_decorate,</div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>            m_types,</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>            m_vars,</div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>            m_fndef,</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>            m_fnimpl;</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>    }           m_count;</div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span> </div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>    <span class="keyword">struct</span> {</div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>        <a class="code hl_typedef" href="../../dc/d45/spvty_8h.html#a51b25d17f4a3ef6f91410b9022237068">aclspv_wrdcount_t</a></div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>            m_num_fn,</div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>            m_num_entp;</div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span> </div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>        <span class="comment">/**</span></div>
+<div class="line"><span class="lineno">  119</span><span class="comment">         * @var     m_fn</span></div>
+<div class="line"><span class="lineno">  120</span><span class="comment">         * @brief   normal functions</span></div>
+<div class="line"><span class="lineno">  121</span><span class="comment">         * @see     lib_build_fn_t</span></div>
+<div class="line"><span class="lineno">  122</span><span class="comment">         * */</span></div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>        x_aclspv_vec    m_fn;</div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span> </div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>        <span class="comment">/**</span></div>
+<div class="line"><span class="lineno">  126</span><span class="comment">         * @var     m_entp</span></div>
+<div class="line"><span class="lineno">  127</span><span class="comment">         * @brief   entry functions</span></div>
+<div class="line"><span class="lineno">  128</span><span class="comment">         * @see     lib_build_entp_t</span></div>
+<div class="line"><span class="lineno">  129</span><span class="comment">         * */</span></div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>        x_aclspv_vec    m_entp;</div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>    }           m_fnlist;</div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span> </div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>    <span class="comment">/**</span></div>
+<div class="line"><span class="lineno">  134</span><span class="comment">     * @var     m_section</span></div>
+<div class="line"><span class="lineno">  135</span><span class="comment">     * @brief   each section for m_ret</span></div>
+<div class="line"><span class="lineno">  136</span><span class="comment">     * */</span></div>
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span>    <span class="keyword">struct</span> {</div>
+<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span>        x_aclspv_vec</div>
+<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span>            m_capability,</div>
+<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span>            m_ext,</div>
+<div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span>            m_memmodel,</div>
+<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span>            m_entp,</div>
+<div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span>            m_execmode,</div>
+<div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span>            m_name,</div>
+<div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span>            m_decorate,</div>
+<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span>            m_types,</div>
+<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span>            m_vars,</div>
+<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span>            m_fndef,</div>
+<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span>            m_fnimpl;</div>
+<div class="line"><a id="l00150" name="l00150"></a><span class="lineno"><a class="line" href="../../dd/dec/structa__aclspv__ctx.html#afb59f8ee5ef8e59f35c834d297e7890c">  150</a></span>    }           m_section;</div>
+<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span> </div>
+<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span>    aclspv_id_t     m_id_defaults[ID_DEFAULT_END];</div>
+<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span>} x_aclspv_ctx;</div>
 </div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
-<div class="foldopen" id="foldopen00013" data-start="{" data-end="};">
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="../../d1/d87/structx__aclspv__pass__ctx.html">   13</a></span><span class="keyword">struct</span> <a class="code hl_class" href="../../d1/d87/structx__aclspv__pass__ctx.html">x_aclspv_pass_ctx</a> {</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    aclspv_vec  m_v0;</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>};</div>
-</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#</span><span class="preprocessor">endif</span></div>
-<div class="ttc" id="aabi_8h_html_a44ccf0f026c954a79d1626913a7e9d99"><div class="ttname"><a href="../../df/d31/abi_8h.html#a44ccf0f026c954a79d1626913a7e9d99">ACLSPV_ABI_IMPL</a></div><div class="ttdeci">#define ACLSPV_ABI_IMPL</div><div class="ttdoc">Implementation as ABI.</div><div class="ttdef"><b>Definition</b> <a href="../../df/d31/abi_8h_source.html#l00024">abi.h:24</a></div></div>
+<div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span> </div>
+<div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span><span class="keyword">typedef</span> x_aclspv_ctx* <a class="code hl_define" href="../../dc/df0/cc_8h.html#a79bb8298afc6562a208e4c283ec3cf69">ae2f_restrict</a> h_aclspv_ctx_t;</div>
+<div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span><span class="keyword">typedef</span> h_aclspv_ctx_t h_util_ctx_t;</div>
+<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span> </div>
+<div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span><span class="preprocessor">#</span><span class="preprocessor">define</span> <span class="preprocessor">_malloc_with_zero</span><span class="preprocessor">(</span><span class="preprocessor">a</span><span class="preprocessor">)</span>    <span class="preprocessor">calloc</span><span class="preprocessor">(</span><span class="preprocessor">a</span><span class="preprocessor">,</span> 1<span class="preprocessor">)</span></div>
+<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span> </div>
+<div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span><span class="preprocessor">#</span><span class="preprocessor">endif</span></div>
+<div class="ttc" id="aCall_8auto_8h_html_a358f325941bd69df663e0661e4e836c5"><div class="ttname"><a href="../../dd/ddd/Call_8auto_8h.html#a358f325941bd69df663e0661e4e836c5">ae2f_IS_SHARED</a></div><div class="ttdeci">#define ae2f_IS_SHARED</div><div class="ttdef"><b>Definition</b> <a href="../../dd/ddd/Call_8auto_8h_source.html#l00012">Call.auto.h:12</a></div></div>
+<div class="ttc" id="aCall_8auto_8h_html_a4ffe2bad50ce32702658a0fad4fd2169"><div class="ttname"><a href="../../dd/ddd/Call_8auto_8h.html#a4ffe2bad50ce32702658a0fad4fd2169">ae2f_OFF</a></div><div class="ttdeci">#define ae2f_OFF</div><div class="ttdef"><b>Definition</b> <a href="../../dd/ddd/Call_8auto_8h_source.html#l00003">Call.auto.h:3</a></div></div>
+<div class="ttc" id="aCxx_8h_html_aa8e21231e6b06d9d9b53e3b5b15e0ac4"><div class="ttname"><a href="../../d2/db1/Cxx_8h.html#aa8e21231e6b06d9d9b53e3b5b15e0ac4">ae2f_WhenCXX</a></div><div class="ttdeci">#define ae2f_WhenCXX(a)</div><div class="ttdoc">Appears when the current language is C.</div><div class="ttdef"><b>Definition</b> <a href="../../d2/db1/Cxx_8h_source.html#l00044">Cxx.h:44</a></div></div>
+<div class="ttc" id="aCxx_8h_html_af4c0b1d2c7ea63c5f2647bdc9f619d3b"><div class="ttname"><a href="../../d2/db1/Cxx_8h.html#af4c0b1d2c7ea63c5f2647bdc9f619d3b">ae2f_WhenC</a></div><div class="ttdeci">#define ae2f_WhenC(a)</div><div class="ttdoc">Appears when the current language is C++.</div><div class="ttdef"><b>Definition</b> <a href="../../d2/db1/Cxx_8h_source.html#l00038">Cxx.h:38</a></div></div>
+<div class="ttc" id="aKeys_8h_html_a5105bf2540a04aed65fcbe0a11fc4e88"><div class="ttname"><a href="../../d6/d08/Keys_8h.html#a5105bf2540a04aed65fcbe0a11fc4e88">unless</a></div><div class="ttdeci">#define unless(a)</div><div class="ttdoc">Invokes when condition is false.</div><div class="ttdef"><b>Definition</b> <a href="../../d6/d08/Keys_8h_source.html#l00034">Keys.h:34</a></div></div>
+<div class="ttc" id="aKeys_8h_html_af32d53608be4ca28fd8e5cd34fc0279b"><div class="ttname"><a href="../../d6/d08/Keys_8h.html#af32d53608be4ca28fd8e5cd34fc0279b">ae2f_extern</a></div><div class="ttdeci">#define ae2f_extern</div><div class="ttdoc">Suggests the existence of external variable or function, in naming of C. [non-mangling].</div><div class="ttdef"><b>Definition</b> <a href="../../d6/d08/Keys_8h_source.html#l00025">Keys.h:25</a></div></div>
+<div class="ttc" id="aNil_8h_html_a126552a63b53fc7322aa29282c531d43"><div class="ttname"><a href="../../d1/d1c/Nil_8h.html#a126552a63b53fc7322aa29282c531d43">ae2f_NIL</a></div><div class="ttdeci">#define ae2f_NIL</div><div class="ttdef"><b>Definition</b> <a href="../../d1/d1c/Nil_8h_source.html#l00013">Nil.h:13</a></div></div>
+<div class="ttc" id="aabi_8h_html_a41001e1cd01af6bdfa794fc8da336562"><div class="ttname"><a href="../../df/d31/abi_8h.html#a41001e1cd01af6bdfa794fc8da336562">ACLSPV_ABI_DECL</a></div><div class="ttdeci">#define ACLSPV_ABI_DECL</div><div class="ttdoc">Declaration as ABI.</div><div class="ttdef"><b>Definition</b> <a href="../../df/d31/abi_8h_source.html#l00023">abi.h:23</a></div></div>
+<div class="ttc" id="aaclspv_8c_html_a0c47daebbe6a39e68bc42b87bd39db8e"><div class="ttname"><a href="../../dc/d32/aclspv_8c.html#a0c47daebbe6a39e68bc42b87bd39db8e">STATE_VAL</a></div><div class="ttdeci">#define STATE_VAL</div></div>
+<div class="ttc" id="aaclspv_8c_html_a940f74bf306f4ee8606b1dff730d5290"><div class="ttname"><a href="../../dc/d32/aclspv_8c.html#a940f74bf306f4ee8606b1dff730d5290">FNINFO</a></div><div class="ttdeci">#define FNINFO</div></div>
+<div class="ttc" id="aasm_8h_html_a508bc7c121900d14fa200e0dbdf36680"><div class="ttname"><a href="../../de/d21/asm_8h.html#a508bc7c121900d14fa200e0dbdf36680">cpysz</a></div><div class="ttdeci">#define cpysz</div></div>
+<div class="ttc" id="aasm_8h_html_aec55fdadc5a83e95643f49fc90a0568c"><div class="ttname"><a href="../../de/d21/asm_8h.html#aec55fdadc5a83e95643f49fc90a0568c">cpypad</a></div><div class="ttdeci">#define cpypad</div></div>
+<div class="ttc" id="acc_8h_html_a1fb5279133ac5d7b500a7d38fb8694ce"><div class="ttname"><a href="../../dc/df0/cc_8h.html#a1fb5279133ac5d7b500a7d38fb8694ce">ae2f_assume</a></div><div class="ttdeci">#define ae2f_assume(a)</div><div class="ttdoc">tells the compiler that value if a is false, below this keyword is not expected to be reached.</div><div class="ttdef"><b>Definition</b> <a href="../../dc/df0/cc_8h_source.html#l00228">cc.h:228</a></div></div>
+<div class="ttc" id="acc_8h_html_a2fbc7855ab2dadad2c13881897a003e7"><div class="ttname"><a href="../../dc/df0/cc_8h.html#a2fbc7855ab2dadad2c13881897a003e7">ae2f_unexpected_but_if</a></div><div class="ttdeci">#define ae2f_unexpected_but_if(a)</div><div class="ttdef"><b>Definition</b> <a href="../../dc/df0/cc_8h_source.html#l00192">cc.h:192</a></div></div>
+<div class="ttc" id="acc_8h_html_a449a46e34d9ed28b7d573cc42375a40b"><div class="ttname"><a href="../../dc/df0/cc_8h.html#a449a46e34d9ed28b7d573cc42375a40b">ae2f_expected_but_else</a></div><div class="ttdeci">#define ae2f_expected_but_else(a)</div><div class="ttdef"><b>Definition</b> <a href="../../dc/df0/cc_8h_source.html#l00201">cc.h:201</a></div></div>
+<div class="ttc" id="acc_8h_html_a646f60763a85cb5c5194b8838030ecbe"><div class="ttname"><a href="../../dc/df0/cc_8h.html#a646f60763a85cb5c5194b8838030ecbe">ae2f_ccconst</a></div><div class="ttdeci">#define ae2f_ccconst</div><div class="ttdoc">Keyword as [[const]] on C23..</div><div class="ttdef"><b>Definition</b> <a href="../../dc/df0/cc_8h_source.html#l00066">cc.h:66</a></div></div>
+<div class="ttc" id="acc_8h_html_a654bb8dafe3d9d058fb0cfd569003f91"><div class="ttname"><a href="../../dc/df0/cc_8h.html#a654bb8dafe3d9d058fb0cfd569003f91">ae2f_noexcept</a></div><div class="ttdeci">#define ae2f_noexcept</div><div class="ttdoc">marker that this function does not throw something.</div><div class="ttdef"><b>Definition</b> <a href="../../dc/df0/cc_8h_source.html#l00133">cc.h:133</a></div></div>
 <div class="ttc" id="acc_8h_html_a79bb8298afc6562a208e4c283ec3cf69"><div class="ttname"><a href="../../dc/df0/cc_8h.html#a79bb8298afc6562a208e4c283ec3cf69">ae2f_restrict</a></div><div class="ttdeci">#define ae2f_restrict</div><div class="ttdoc">Keyword as restrict on C99.</div><div class="ttdef"><b>Definition</b> <a href="../../dc/df0/cc_8h_source.html#l00081">cc.h:81</a></div></div>
-<div class="ttc" id="apass_8h_html_a8a3df2d43d3c460c596d59eab00dcd89"><div class="ttname"><a href="../../d3/d53/pass_8h.html#a8a3df2d43d3c460c596d59eab00dcd89">aclspv_pass_alloc_descriptor</a></div><div class="ttdeci">ae2f_extern ACLSPV_ABI_DECL fn_aclspv_pass_t aclspv_pass_alloc_descriptor</div><div class="ttdef"><b>Definition</b> <a href="../../d3/d53/pass_8h_source.html#l00060">pass.h:60</a></div></div>
-<div class="ttc" id="astructx__aclspv__pass__ctx_html"><div class="ttname"><a href="../../d1/d87/structx__aclspv__pass__ctx.html">x_aclspv_pass_ctx</a></div><div class="ttdef"><b>Definition</b> <a href="#l00013">ctx.h:13</a></div></div>
+<div class="ttc" id="acc_8h_html_a849143badab2480c16ae10d5ae389aa5"><div class="ttname"><a href="../../dc/df0/cc_8h.html#a849143badab2480c16ae10d5ae389aa5">ae2f_expected_not</a></div><div class="ttdeci">#define ae2f_expected_not(a)</div><div class="ttdoc">expectes a as false.</div><div class="ttdef"><b>Definition</b> <a href="../../dc/df0/cc_8h_source.html#l00185">cc.h:185</a></div></div>
+<div class="ttc" id="acc_8h_html_a8cff1af85f1719e962c4621c42ce673f"><div class="ttname"><a href="../../dc/df0/cc_8h.html#a8cff1af85f1719e962c4621c42ce673f">ae2f_unreachable</a></div><div class="ttdeci">#define ae2f_unreachable()</div><div class="ttdoc">tells the compiler that below this keyword is not expected to be reached.</div><div class="ttdef"><b>Definition</b> <a href="../../dc/df0/cc_8h_source.html#l00213">cc.h:213</a></div></div>
+<div class="ttc" id="acc_8h_html_ac163ce3f7a396bc907686e6ba22cb5a7"><div class="ttname"><a href="../../dc/df0/cc_8h.html#ac163ce3f7a396bc907686e6ba22cb5a7">ae2f_inline</a></div><div class="ttdeci">#define ae2f_inline</div><div class="ttdoc">inline</div><div class="ttdef"><b>Definition</b> <a href="../../dc/df0/cc_8h_source.html#l00149">cc.h:149</a></div></div>
+<div class="ttc" id="acc_8h_html_ad24cb0da0121238f0b39edd7a891317d"><div class="ttname"><a href="../../dc/df0/cc_8h.html#ad24cb0da0121238f0b39edd7a891317d">ae2f_expected</a></div><div class="ttdeci">#define ae2f_expected(a)</div><div class="ttdoc">expectes a as true.</div><div class="ttdef"><b>Definition</b> <a href="../../dc/df0/cc_8h_source.html#l00184">cc.h:184</a></div></div>
+<div class="ttc" id="acount__fn_8h_html_a5bde6d2a1cd4fa3f21d8754ba58ccc8d"><div class="ttname"><a href="../../dd/d58/count__fn_8h.html#a5bde6d2a1cd4fa3f21d8754ba58ccc8d">CTX</a></div><div class="ttdeci">#define CTX</div></div>
+<div class="ttc" id="adecl__glob__obj_8h_html_a6ac9cdc6a59d9618f4a638626ec1991e"><div class="ttname"><a href="../../d7/dc0/decl__glob__obj_8h.html#a6ac9cdc6a59d9618f4a638626ec1991e">EMIT_POS</a></div><div class="ttdeci">#define EMIT_POS</div></div>
+<div class="ttc" id="aemitx_8h_html_a89f2677991d7107a6213e4926b5187dc"><div class="ttname"><a href="../../d6/d45/emitx_8h.html#a89f2677991d7107a6213e4926b5187dc">util_emitx_type_pointer</a></div><div class="ttdeci">#define util_emitx_type_pointer(h_wrds, c_wrdcount, c_retid, c_storage_class, c_elm_type_id)</div><div class="ttdef"><b>Definition</b> <a href="../../d6/d45/emitx_8h_source.html#l00134">emitx.h:134</a></div></div>
+<div class="ttc" id="aiddef_8h_html_a722f29a111739251f8ff07915cb0e9da"><div class="ttname"><a href="../../db/d5a/iddef_8h.html#a722f29a111739251f8ff07915cb0e9da">ret_count</a></div><div class="ttdeci">#define ret_count</div></div>
+<div class="ttc" id="ascale_8h_html_a64445e5523360e21238bfd6e609d5bd5"><div class="ttname"><a href="../../d8/d0c/scale_8h.html#a64445e5523360e21238bfd6e609d5bd5">get_buf_from_scale</a></div><div class="ttdeci">#define get_buf_from_scale(h_alloc, c_scale)</div><div class="ttdef"><b>Definition</b> <a href="../../d8/d0c/scale_8h_source.html#l00034">scale.h:34</a></div></div>
+<div class="ttc" id="aspvty_8h_html_a221357ac0fe2f2060805eab739df8795"><div class="ttname"><a href="../../dc/d45/spvty_8h.html#a221357ac0fe2f2060805eab739df8795">aclspv_opcode_t</a></div><div class="ttdeci">#define aclspv_opcode_t</div><div class="ttdoc">integer as operation code</div><div class="ttdef"><b>Definition</b> <a href="../../dc/d45/spvty_8h_source.html#l00027">spvty.h:27</a></div></div>
+<div class="ttc" id="aspvty_8h_html_a51b25d17f4a3ef6f91410b9022237068"><div class="ttname"><a href="../../dc/d45/spvty_8h.html#a51b25d17f4a3ef6f91410b9022237068">aclspv_wrdcount_t</a></div><div class="ttdeci">aclspv_wrd_t aclspv_wrdcount_t</div><div class="ttdoc">the integer type represents the number of word.</div><div class="ttdef"><b>Definition</b> <a href="../../dc/d45/spvty_8h_source.html#l00061">spvty.h:61</a></div></div>
+<div class="ttc" id="aspvty_8h_html_ae785a70609b888e451f354e89665642e"><div class="ttname"><a href="../../dc/d45/spvty_8h.html#ae785a70609b888e451f354e89665642e">aclspv_wrd_t</a></div><div class="ttdeci">#define aclspv_wrd_t</div><div class="ttdoc">integer as word</div><div class="ttdef"><b>Definition</b> <a href="../../dc/d45/spvty_8h_source.html#l00016">spvty.h:16</a></div></div>
+<div class="ttc" id="astructa__aclspv__ctx_html"><div class="ttname"><a href="../../dd/dec/structa__aclspv__ctx.html">a_aclspv_ctx</a></div><div class="ttdef"><b>Definition</b> <a href="#l00014">ctx.h:14</a></div></div>
+<div class="ttc" id="astructa__aclspv__ctx_html_a5a3e7010bdb140e9ff1445d677bea44a"><div class="ttname"><a href="../../dd/dec/structa__aclspv__ctx.html#a5a3e7010bdb140e9ff1445d677bea44a">a_aclspv_ctx::m_scale_vars</a></div><div class="ttdeci">x_aclspv_vec m_scale_vars</div><div class="ttdef"><b>Definition</b> <a href="#l00062">ctx.h:62</a></div></div>
+<div class="ttc" id="astructa__aclspv__ctx_html_a5b10447e16ae5b9727ad9cae224e4b59"><div class="ttname"><a href="../../dd/dec/structa__aclspv__ctx.html#a5b10447e16ae5b9727ad9cae224e4b59">a_aclspv_ctx::m_num_type_uniques</a></div><div class="ttdeci">aclspv_wrdcount_t m_num_type_uniques</div><div class="ttdef"><b>Definition</b> <a href="#l00044">ctx.h:44</a></div></div>
+<div class="ttc" id="astructa__aclspv__ctx_html_a5dd9f33a19764c70a42b5a9f527547ef"><div class="ttname"><a href="../../dd/dec/structa__aclspv__ctx.html#a5dd9f33a19764c70a42b5a9f527547ef">a_aclspv_ctx::m_cursors</a></div><div class="ttdeci">x_aclspv_vec m_cursors</div><div class="ttdoc">cache for cursors for parsing one function for its use see util/cursor.h</div><div class="ttdef"><b>Definition</b> <a href="#l00077">ctx.h:77</a></div></div>
+<div class="ttc" id="astructa__aclspv__ctx_html_a5f774ebab61d2650cb2eb0cb001a71ec"><div class="ttname"><a href="../../dd/dec/structa__aclspv__ctx.html#a5f774ebab61d2650cb2eb0cb001a71ec">a_aclspv_ctx::m_constant_cache</a></div><div class="ttdeci">x_aclspv_vec m_constant_cache</div><div class="ttdef"><b>Definition</b> <a href="#l00065">ctx.h:65</a></div></div>
+<div class="ttc" id="astructa__aclspv__ctx_html_a706c61b6aec0d3c68d733425191b4102"><div class="ttname"><a href="../../dd/dec/structa__aclspv__ctx.html#a706c61b6aec0d3c68d733425191b4102">a_aclspv_ctx::m_id</a></div><div class="ttdeci">aclspv_id_t m_id</div><div class="ttdoc">id</div><div class="ttdef"><b>Definition</b> <a href="#l00050">ctx.h:50</a></div></div>
+<div class="ttc" id="astructa__aclspv__ctx_html_a8806dd0232baaf70c9fe71b0cf331572"><div class="ttname"><a href="../../dd/dec/structa__aclspv__ctx.html#a8806dd0232baaf70c9fe71b0cf331572">a_aclspv_ctx::m_ret</a></div><div class="ttdeci">x_aclspv_vec m_ret</div><div class="ttdoc">word count for m_ret</div><div class="ttdef"><b>Definition</b> <a href="#l00056">ctx.h:56</a></div></div>
+<div class="ttc" id="astructa__aclspv__ctx_html_a89279110401225359e4a3170aa824210"><div class="ttname"><a href="../../dd/dec/structa__aclspv__ctx.html#a89279110401225359e4a3170aa824210">a_aclspv_ctx::m_is_logical</a></div><div class="ttdeci">aclspv_wrd_t m_is_logical</div><div class="ttdoc">when on, ignores m_is_buffer_64.</div><div class="ttdef"><b>Definition</b> <a href="#l00023">ctx.h:23</a></div></div>
+<div class="ttc" id="astructa__aclspv__ctx_html_a92697facfdab9910247f4ec80c0cf99a"><div class="ttname"><a href="../../dd/dec/structa__aclspv__ctx.html#a92697facfdab9910247f4ec80c0cf99a">a_aclspv_ctx::m_num_cursor</a></div><div class="ttdeci">aclspv_wrdcount_t m_num_cursor</div><div class="ttdoc">number of m_cursors.  for its use see util/cursor.h</div><div class="ttdef"><b>Definition</b> <a href="#l00041">ctx.h:41</a></div></div>
+<div class="ttc" id="astructa__aclspv__ctx_html_aceee13f7bc310d12bb60cb7e8a2a1983"><div class="ttname"><a href="../../dd/dec/structa__aclspv__ctx.html#aceee13f7bc310d12bb60cb7e8a2a1983">a_aclspv_ctx::m_type_uniques</a></div><div class="ttdeci">x_aclspv_vec m_type_uniques</div><div class="ttdoc">cache for complex types which needs to be stored somewhere for its use see util/type_unique....</div><div class="ttdef"><b>Definition</b> <a href="#l00086">ctx.h:86</a></div></div>
+<div class="ttc" id="aunionutil__bind_html_ab911fb384ab3392855f1eb5cec3a8d12"><div class="ttname"><a href="../../de/d1c/unionutil__bind.html#ab911fb384ab3392855f1eb5cec3a8d12">util_bind::m_unified</a></div><div class="ttdeci">util_bind_unified m_unified</div><div class="ttdef"><b>Definition</b> <a href="../../da/dc2/bind_8h_source.html#l00020">bind.h:20</a></div></div>
+<div class="ttc" id="awrdemit_8h_html_a0f2cb947fbeedefce4eb16018550173d"><div class="ttname"><a href="../../df/d2d/wrdemit_8h.html#a0f2cb947fbeedefce4eb16018550173d">emit_opcode</a></div><div class="ttdeci">#define emit_opcode(h_wrds, c_wrdcount, c_opcode, c_num_opprm_opt)</div><div class="ttdoc">try emit opcode with num_opprm</div><div class="ttdef"><b>Definition</b> <a href="../../df/d2d/wrdemit_8h_source.html#l00075">wrdemit.h:75</a></div></div>
+<div class="ttc" id="awrdemit_8h_html_a3ee571c9a089da9b5884d2675f1b0c4c"><div class="ttname"><a href="../../df/d2d/wrdemit_8h.html#a3ee571c9a089da9b5884d2675f1b0c4c">get_wrd_of_vec</a></div><div class="ttdeci">#define get_wrd_of_vec(vec)</div><div class="ttdoc">get word buffer from vector</div><div class="ttdef"><b>Definition</b> <a href="../../df/d2d/wrdemit_8h_source.html#l00038">wrdemit.h:38</a></div></div>
+<div class="ttc" id="awrdemit_8h_html_a892d3db3416fce6e59fd6d45c520f9e2"><div class="ttname"><a href="../../df/d2d/wrdemit_8h.html#a892d3db3416fce6e59fd6d45c520f9e2">count_to_sz</a></div><div class="ttdeci">#define count_to_sz(c_count)</div><div class="ttdoc">word count to byte size</div><div class="ttdef"><b>Definition</b> <a href="../../df/d2d/wrdemit_8h_source.html#l00032">wrdemit.h:32</a></div></div>
+<div class="ttc" id="awrdemit_8h_html_ad5b6eac88fa114a1a66e93a11179e23d"><div class="ttname"><a href="../../df/d2d/wrdemit_8h.html#ad5b6eac88fa114a1a66e93a11179e23d">set_oprnd_count_for_opcode</a></div><div class="ttdeci">#define set_oprnd_count_for_opcode(cr_wrd, c_num_opprm)</div><div class="ttdef"><b>Definition</b> <a href="../../df/d2d/wrdemit_8h_source.html#l00078">wrdemit.h:78</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><b>submod</b></li><li class="navelem"><b>ae3f</b></li><li class="navelem"><a href="../../dir_540f1b13816ee128989003cd96ca20e0.html">aclspv</a></li><li class="navelem"><b>lib</b></li><li class="navelem"><b>pass</b></li><li class="navelem"><b>ctx.h</b></li>
+    <li class="navelem"><b>submod</b></li><li class="navelem"><b>ae3f</b></li><li class="navelem"><a href="../../dir_540f1b13816ee128989003cd96ca20e0.html">aclspv</a></li><li class="navelem"><b>lib</b></li><li class="navelem"><b>util</b></li><li class="navelem"><a href="../../de/deb/ctx_8h.html">ctx.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>

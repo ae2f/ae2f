@@ -64,22 +64,24 @@ var NAVTREE =
         [ "opaque pointer &amp; handle", "dd/d92/md_Rules_2name.html#autotoc_md28", null ]
       ] ],
       [ "function parameter", "dd/d92/md_Rules_2name.html#autotoc_md29", [
-        [ "template", "dd/d92/md_Rules_2name.html#autotoc_md30", null ],
-        [ "classic", "dd/d92/md_Rules_2name.html#autotoc_md31", null ]
+        [ "template", "dd/d92/md_Rules_2name.html#autotoc_md31", null ],
+        [ "classic", "dd/d92/md_Rules_2name.html#autotoc_md32", null ]
       ] ]
     ] ],
     [ "Optimisations", "da/de1/md_Rules_2opt.html", [
-      [ "simple", "da/de1/md_Rules_2opt.html#autotoc_md32", null ]
+      [ "simple", "da/de1/md_Rules_2opt.html#autotoc_md30", null ]
+    ] ],
+    [ "OpenCL C", "df/d95/md_submod_2ae3f_2aclspv_2OpenCL.html", [
+      [ "Possible required capabilitties", "df/d95/md_submod_2ae3f_2aclspv_2OpenCL.html#autotoc_md65", null ],
+      [ "Possible required extensions", "df/d95/md_submod_2ae3f_2aclspv_2OpenCL.html#autotoc_md66", null ],
+      [ "Entry Points", "df/d95/md_submod_2ae3f_2aclspv_2OpenCL.html#autotoc_md67", null ],
+      [ "Address Space Qualifiers", "df/d95/md_submod_2ae3f_2aclspv_2OpenCL.html#autotoc_md68", null ],
+      [ "Attributes", "df/d95/md_submod_2ae3f_2aclspv_2OpenCL.html#autotoc_md69", null ],
+      [ "Restriction", "df/d95/md_submod_2ae3f_2aclspv_2OpenCL.html#autotoc_md70", null ]
     ] ],
     [ "Deprecated List", "da/d58/deprecated.html", null ],
     [ "Namespaces", "namespaces.html", [
-      [ "Namespace List", "namespaces.html", "namespaces_dup" ],
-      [ "Namespace Members", "namespacemembers.html", [
-        [ "All", "namespacemembers.html", null ],
-        [ "Functions", "namespacemembers_func.html", null ],
-        [ "Variables", "namespacemembers_vars.html", null ],
-        [ "Typedefs", "namespacemembers_type.html", null ]
-      ] ]
+      [ "Namespace List", "namespaces.html", "namespaces_dup" ]
     ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
@@ -95,7 +97,6 @@ var NAVTREE =
       [ "File Members", "globals.html", [
         [ "All", "globals.html", null ],
         [ "Functions", "globals_func.html", null ],
-        [ "Variables", "globals_vars.html", null ],
         [ "Typedefs", "globals_type.html", null ],
         [ "Enumerations", "globals_enum.html", null ],
         [ "Enumerator", "globals_eval.html", null ],
@@ -108,8 +109,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"d8/d56/direct__rsc__access_8c_source.html",
-"df/d89/rep__cl__bltin_8c.html#ae3d35ad231e9a650042eb6371be3c380"
+"da/df2/structutil__constant.html#af7ffb9d91999738d41a399e2ccc924dd",
+"dir_221831bd9663bf9f3993f68889526a7b.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

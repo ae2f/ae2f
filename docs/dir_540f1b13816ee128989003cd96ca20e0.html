@@ -112,20 +112,34 @@ Directories</h2></td></tr>
 <tr class="memitem:inc" id="r_inc"><td class="memItemLeft" align="right" valign="top"><span class="iconfolder"><div class="folder-icon"></div></span>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dir_d7fda422728345cd1ae3dad3b73c1802.html">inc</a></td></tr>
 <tr class="memitem:lib" id="r_lib"><td class="memItemLeft" align="right" valign="top"><span class="iconfolder"><div class="folder-icon"></div></span>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dir_221831bd9663bf9f3993f68889526a7b.html">lib</a></td></tr>
 <tr class="memitem:src" id="r_src"><td class="memItemLeft" align="right" valign="top"><span class="iconfolder"><div class="folder-icon"></div></span>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dir_cb705bdb3913916210e36941a810a961.html">src</a></td></tr>
-<tr class="memitem:test" id="r_test"><td class="memItemLeft" align="right" valign="top"><span class="iconfolder"><div class="folder-icon"></div></span>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dir_2c0feb068c5a8c5235628cefafb40d6c.html">test</a></td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-files" class="groupheader"><a id="files" name="files"></a>
-Files</h2></td></tr>
-<tr class="memitem:main_2Ecc" id="r_main_2Ecc"><td class="memItemLeft" align="right" valign="top"><a href="d8/d65/ae3f_2aclspv_2main_8cc_source.html"><span class="icondoc"><div class="doc-icon"></div></span></a>&#160;</td><td class="memItemRight" valign="bottom"><b>main.cc</b></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md64"></a>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md71"></a>
 aclspv</h1>
+<blockquote class="doxtable">
+<p>it is incomplete project. please keep your expectation of this application low. </p>
+</blockquote>
 <ul>
-<li>OpenCL C -&gt; SPIR-V for Vulkan.</li>
+<li>OpenCL C -&gt; SPIR-V compiler application &amp; library for Vulkan.</li>
 <li>Uses llvm-c, clang-c to avoid memory corruption caused by static fiasco</li>
 <li><span class="tt">lib</span> for library source to be compiled</li>
-<li><span class="tt">inc</span> for library header </li>
+<li><span class="tt">inc</span> for library header</li>
+<li>This project compiles the dialect of OpenCL C. For further, see <a class="el" href="df/d95/md_submod_2ae3f_2aclspv_2OpenCL.html">here</a></li>
+</ul>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md72"></a>
+How to build</h1>
+<div class="fragment"><div class="line">cmake -S. -Bbuild</div>
+<div class="line">cmake --build build</div>
+</div><!-- fragment --><h1 class="doxsection"><a class="anchor" id="autotoc_md73"></a>
+language</h1>
+<ul>
+<li>ISO C90 with strict rule with libclang</li>
+</ul>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md74"></a>
+license</h1>
+<ul>
+<li><a href="./LICENSE">this project</a></li>
+<li><a href="./LICENSE-llvm">llvm related programmes</a> </li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
