@@ -39,8 +39,9 @@ These are documentations written by this project
     > will be moved to ae3f::
 
 # aclspv::
-> these libraries are for aclspv - an annotated C -> Spir-V compiler library for vulkan.
-> `ae3f/aclspv` has been migrated to aclspv/essential recently. see https://codeberg.org/aclspv/essential
+> these libraries are for aclspv - an annotated C -> Spir-V compiler library for vulkan.  
+> `ae3f/aclspv` has been migrated to aclspv/essential recently.  
+> project is https://codeberg.org/aclspv/essential, not https://codeberg.org/ae3f/aclspv (google is pissing me off)
 - [aclspv](https://github.com/aclspv/essential)
     > the core library to compile & build an spir-v.  
     > uses c89 for codebase.  
