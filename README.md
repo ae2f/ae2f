@@ -41,6 +41,6 @@ These are documentations written by this project
 # aclspv::
 > these libraries are for aclspv - an annotated C -> Spir-V compiler library for vulkan.
 - [aclspv](https://github.com/aclspv/essential)
-    > the core library to compile & build an spir-v.
-    > uses c89 for codebase.
-    > migrated from ae3f/aclspv
+    > the core library to compile & build an spir-v.  
+    > uses c89 for codebase.  
+    > migrated from ae3f/aclspv  
