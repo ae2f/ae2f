@@ -38,8 +38,9 @@ These are documentations written by this project
 - [ae2f::Ann](./submod/ae2f/Ann/README.md)
     > will be moved to ae3f::
 
-# ae3f::
-> These libraries are focusing on `implementation` for specific (aka personal) use-cases.
-- [aclspv](./submod/ae3f/aclspv/README.md)
-    > an OpenCL C -> Spir-V compiler library for vulkan  
+# aclspv::
+> these libraries are for aclspv - an annotated C -> Spir-V compiler library for vulkan.
+- [aclspv](https://github.com/aclspv/essential)
+    > the core library to compile & build an spir-v.
+    > uses c89 for codebase.
     > under development
